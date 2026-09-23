@@ -1,1 +1,1756 @@
-
+{
+  "fecha_analisis": "2026-09-23",
+  "hipercompetencia": [
+    {
+      "tema": "Discurso de Javier Milei en la Asamblea General de la ONU y críticas al organismo",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 16,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 4,
+      "perfil": 4,
+      "competencia_total": 12,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 5,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 4,
+        "La Nación": 4,
+        "Clarín": 5,
+        "Infobae": 3,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Concentra el interés político de la jornada con fuertes repercusiones internacionales y locales, posicionándose como el eje informativo excluyente.",
+      "insight": "La polarización en torno a las críticas a la ONU y la agenda internacional genera altísimo tráfico inmediato en buscadores y redes.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Profundizar el análisis geopolítico y las repercusiones financieras en tiempo real con enfoque en la reacción de los mercados y la oposición.",
+      "enfoques_sugeridos": [
+        "Análisis de impacto diplomático y económico",
+        "Repercusiones y cruces políticos locales"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Las 15 frases más destacadas de Milei en la ONU: críticas a la organización, Malvinas, Occidente y la inteligencia artificial",
+          "link": "https://www.perfil.com/noticias/politica/las-15-frases-mas-destacadas-de-milei-en-la-onu-criticas-a-la-organizacion-malvinas-occidente-y-la-inteligencia-artificial.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/discurso-javier-milei-en-la-onu-2332312.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Duras críticas de Javier Milei a la ONU durante su discurso en la Asamblea General",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-la-onu-se-convirtio-en-una-organizacion-inutil-que-solo-sirve-alimentar-una-casta-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/AXTSGSEDGZHKRNKW7YR4R43Z3Y.png?auth=f882364d6fa5c67a6b54fe71f19725f38754b6856550f8118822b3961ee9fcd1&smart=true&width=1477&height=964"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Discurso completo de Javier Milei en la ONU abordando Malvinas, IA y críticas al organismo",
+          "link": "https://www.clarin.com/politica/malvinas-inteligencia-artificial-criticas-onu-agenda-2030-discurso-completo-javir-milei-naciones-unidas_0_DqmJOAuJaW.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/3wt8lHbJl_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Logro de dictamen sobre discapacidad tras marcha atrás gubernamental",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 6,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 5,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 2,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 2,
+        "Infobae": 2,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Involucra un área sensible de gestión social y presión opositora que moviliza a la opinión pública y genera debate legislativo.",
+      "insight": "Los retrocesos del oficialismo en temas sociales generan alta tracción en la audiencia por la expectativa de conflicto político.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Monitorear el posicionamiento de los bloques dialoguistas y los costos políticos para el oficialismo.",
+      "enfoques_sugeridos": [
+        "Detalles del acuerdo legislativo",
+        "Repercusiones en los sectores afectados"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Discapacidad: el gobierno debió contener la crisis, dictamen con dudas y nuevo secretario del área",
+          "link": "https://www.perfil.com/noticias/politica/discapacidad-el-gobierno-debio-contener-la-crisis-dictamen-con-dudas-y-nuevo-secretario-del-area.phtml",
+          "imagen": "https://fotos.perfil.com/2026/06/13/trim/540/304/130626karinaspagnuolomileimenemcedocg-2260385.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "El Gobierno logra dictamen sobre discapacidad tras dar marcha atrás con recortes",
+          "link": "https://www.lanacion.com.ar/politica/discapacidad-el-gobierno-dio-marcha-atras-y-consiguio-un-dictamen-pero-persiste-la-desconfianza-por-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/YNP4WUQQZBBKHBA75IGIXY3QCI.JPG?auth=b6710f0165875e2af31606dd2845e674a927216cc5a5c39741278a6a3c3f9fd3&smart=true&width=1040&height=730"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Oficialismo consigue dictamen sobre discapacidad tras marcha atrás gubernamental",
+          "link": "https://www.clarin.com/politica/marcha-gobierno-oficialismo-consiguio-dictamen-discapacidad-avanza-ley-pese-desconfianza-oposicion_0_01kSmaPyqE.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/oRuWgTh5M_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Visita del papa León XIV a Córdoba y regulaciones de feriados y cronograma",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 2,
+      "perfil": 2,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 2,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Impacta de lleno en la agenda regional con ramificaciones económicas, laborales y turísticas de gran interés masivo.",
+      "insight": "Las dudas sobre feriados y el impacto laboral movilizan consultas prácticas en buscadores.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Desarrollar guías de servicio para aclarar las obligaciones de los empleadores y el impacto en los trabajadores.",
+      "enfoques_sugeridos": [
+        "Guía de feriados y impacto laboral",
+        "Agenda oficial y operativa de seguridad"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Detalles sobre los feriados y regulaciones laborales por la visita del papa León XIV a Córdoba",
+          "link": "https://www.perfil.com/noticias/cordoba/feriados-por-la-visita-del-leon-xiv-no-se-trabaja-y-el-empleador-tiene-que-pagar-como-corresponde.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/empleadas-domesticas-2332504.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Detalles confirmados sobre la futura visita del papa León XIV a Argentina",
+          "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Alejandra Monteoliva dio detalles feriados nacionales y provinciales visita Papa León XIV",
+          "link": "https://www.clarin.com/politica/alejandra-monteoliva-dio-detalles-feriados-nacionales-provinciales-visita-papa-leon-xiv_0_CfsOqN34wR.html",
+          "imagen": "https://www.clarin.com/img/2026/07/14/mZudTo-y5_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Aumento del riesgo país y comportamiento de los mercados financieros",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 3,
+      "perfil": 3,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 3,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Refleja la temperatura económica y financiera del país, un tema de constante seguimiento por la audiencia especializada y general.",
+      "insight": "Las tendencias negativas consecutivas en indicadores clave generan inquietud y búsquedas transaccionales.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Analizar las causas técnicas de la suba y su correlato con las expectativas políticas y electorales.",
+      "enfoques_sugeridos": [
+        "Lectura de los analistas de mercado",
+        "Impacto en la deuda y perspectiva de inversiones"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "El riesgo país sube por octava rueda y se acerca a 560 puntos",
+          "link": "https://www.perfil.com/noticias/economia/el-riesgo-pais-sube-por-octava-rueda-y-se-acerca-a-560-puntos.phtml",
+          "imagen": "https://fotos.perfil.com/2026/06/03/trim/540/304/mercados-03062026-2252984.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Presión: riesgo país sube por octavo día consecutivo",
+          "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "Ya llevamos seis ruedas consecutivas de un riesgo país alejándose de esos 500 puntos",
+          "link": "https://www.perfil.com/noticias/canal-e/ya-llevamos-seis-ruedas-consecutivas-de-un-riesgo-pais-alejandose-de-esos-500-puntos.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/riesgo-pais-2332296.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "perfil_pierde": [
+    {
+      "tema": "Cruce entre Dolores Fonzi y funcionarios del Gobierno por recortes a la cultura y el INCAA",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "El enfrentamiento entre figuras del espectáculo y la gestión oficial por el presupuesto cultural moviliza audiencias masivas.",
+      "insight": "Las polémicas culturales y del espectáculo con cruces políticos tienen un rendimiento excepcional en redes sociales.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Ampliar la cobertura sumando las declaraciones completas de ambas partes para capturar tráfico de tendencias.",
+      "enfoques_sugeridos": [
+        "El descargo de la actriz y la respuesta oficial",
+        "El estado del presupuesto para el cine nacional"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "La actriz Dolores Fonzi criticó al gobierno por los recortes a la cultura y el titular del Incaa salió al cruce",
+          "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-sali-al-cruce-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/P6IM75N5QJASDDP334S6JYHOPU.JPG?auth=1e3d3a61c8f5d88ba3014200f81826ab8591c46dc4bed531d9316a2986bc3894&smart=true&width=6704&height=4868"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Gente desalmada: Dolores Fonzi criticó a Milei por recortes a cultura y titular del Incaa acusó viuda gestión anterior",
+          "link": "https://www.clarin.com/espectaculos/gente-desalmada-dolores-fonzi-critico-milei-recortes-cultura-titular-incaa-acuso-viuda-gestion-anterior_0_x2HTadx42Q.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/OtKSbYH2A_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Inconvenientes, tarifas y alertas de USCIS sobre trámites migratorios en Estados Unidos",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 4,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": 4,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 4,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "De gran interés para la comunidad de migrantes latinoamericanos y residentes en el exterior que buscan información legal.",
+      "insight": "Las alertas de organismos oficiales extranjeros sobre visados y tarifas generan búsquedas directas y sostenidas.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Desarrollar notas explicativas tipo servicio sobre los cambios normativos y cómo evitarlos.",
+      "enfoques_sugeridos": [
+        "Nuevas tarifas y plazos de apelación",
+        "Advertencia sobre estafas a migrantes"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "La alerta del USCIS sobre los supuestos expertos migratorios que venden acceso privilegiado a visas, Green Card y EAD",
+          "link": "https://www.lanacion.com.ar/estados-unidos/migraciones/la-alerta-del-uscis-sobre-los-supuestos-expertos-migratorios-que-venden-acceso-privilegiado-a-visas-green-card-y-ead-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/G4JIKSNHFZBJVFH3CW35RYEZOU.jpeg?auth=df7a759e666db15a0bdbef8cce612c154f404cde93796e748b6ee0cfdd75940e&smart=true&width=1170&height=896"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Noticias del USCIS: las nuevas tarifas que entran en vigor el 1 de octubre para apelar una decisión",
+          "link": "https://www.lanacion.com.ar/estados-unidos/migraciones/noticias-del-uscis-las-nuevas-tarifas-que-entran-en-vigor-el-1-de-octubre-para-apelar-una-decision-nid22092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CWQEINUANFB2NJ5N4BXGCRUMZY.png?auth=eed9ab7fd90c6fd9f247938d427151a95f80c7cea8239bfa9fb49803334fc4d8&smart=true&width=1536&height=1024"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Aumento del consumo de carne de cerdo como alternativa económica al asado",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 3,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 2,
+      "brecha": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Atrapa la atención de los consumidores en un contexto de bolsillos ajustados y búsqueda de alternativas alimentarias.",
+      "insight": "Las notas de economía doméstica y precios comparativos traccionan de forma excelente en buscadores y Google Discover.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Generar contenidos interactivos o comparativas de precios de cortes por kilo para maximizar el engagement.",
+      "enfoques_sugeridos": [
+        "La diferencia de costos frente a la carne vacuna",
+        "Aumento en la demanda de achuras y cerdo"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 28 kilos de cerdo y se...",
+          "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Carne de cerdo, aliado al bolsillo argentinos: vale kilo asado, pueden comparse pechito",
+          "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
+          "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Novedades y parte médico sobre la internación de Mirtha Legrand",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 4,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": 4,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 4,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Trata sobre una de las figuras más emblemáticas del espectáculo argentino, generando alto impacto emocional en el público.",
+      "insight": "La salud de personalidades públicas genera picos masivos de audiencia en tiempo récord.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Mantener actualización constante del parte médico oficial sin caer en especulaciones.",
+      "enfoques_sugeridos": [
+        "Detalles cardiológicos de la internación",
+        "Repercusiones en el medio artístico"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "La salud de Mirtha Legrand: qué dice el nuevo parte médico de la diva",
+          "link": "https://www.lanacion.com.ar/espectaculos/personajes/la-salud-de-mirtha-legrand-que-dice-el-nuevo-parte-medico-de-la-diva-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/PQJPHPRXHNAL7OW3AIUZ25WAYE.jpg?auth=6ca0d8c54aad9605600c9958d821a4a501576c9a93fb783c6ca892f80ccf28aa&smart=true&width=1131&height=1600"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Un cardiólogo explicó en detalle por qué es grave el cuadro de Mirtha Legrand a sus 99 años y lo que hay que evitar",
+          "link": "https://www.lanacion.com.ar/sociedad/un-cardiologo-explico-en-detalle-por-que-es-grave-el-cuadro-de-mirtha-legrand-a-sus-99-anos-y-lo-que-hay-que-evitar-nid21092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4CITM4FWOZAEPCE74LAQLH6Z5Q.jpg?auth=b03c0154e8c1f7f222839a9830649659b5453428762815cb478a517864d402d3&smart=true&width=1131&height=1600"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "sin_cobertura_perfil": [
+    {
+      "tema": "Detención y condenas a delincuentes en casos de alto impacto regional e internacional",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Involucra noticias policiales de gran repercusión internacional que atraen a lectores atraídos por el género true crime.",
+      "insight": "Las condenas históricas a líderes criminales funcionan muy bien en agregadores de noticias y redes.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Incluir coberturas de agencias sobre juicios resonantes y crímenes de alto impacto global.",
+      "enfoques_sugeridos": [
+        "Perfil de los condenados y detalles de la investigación",
+        "Repercusiones en la seguridad regional"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Condenan al delincuente de Zapotitanes a 254 años de prisión por ocho homicidios y agrupaciones ilícitas en El Salvador",
+          "link": "https://www.infobae.com/el-salvador/2026/09/23/condenan-al-delincuente-de-zapotitanes-a-254-anos-de-prision-por-ocho-homicidios-y-agrupaciones-ilicitas-en-el-salvador/",
+          "imagen": "https://www.infobae.com/resizer/v2/VFXTTY6N6FAV5HTTLUTUVSVNFI.png?auth=148b9ece2beb0a254d72964aa1b41699cca758b310e217b0b18d7a5c589a8dd2&smart=true&width=1254&height=1254"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Golpe a ex-poderoso Hollywood: condenaron a Harvey Weinstein a 15 años de prisión",
+          "link": "https://www.clarin.com/mundo/golpe-expoderoso-hollywood-condenaron-harvey-weinstein-15-anos-prision_0_zoJCVT8r4O.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/OWVLNCPyI_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Protestas y reclamos en España tras el desalojo de la anciana Maricarmen",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 5,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 5,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 4,
+      "brecha": 4,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 4,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Refleja la crisis habitacional europea y la sensibilidad social frente a los abusos de fondos inmobiliarios.",
+      "insight": "Las protestas masivas por derechos sociales en Europa generan alto interés internacional.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Seguir de cerca las repercusiones políticas sobre el gobierno español en materia de vivienda.",
+      "enfoques_sugeridos": [
+        "El impacto político del caso en Madrid",
+        "Reclamos de los movimientos sociales"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Unas 10.000 personas protestan ante el ático del gobierno de Ayuso in Chamberí tras el desahucio de Maricarmen",
+          "link": "https://www.infobae.com/espana/2026/09/23/unas-10000-personas-protestan-ante-el-atico-del-gobierno-de-ayuso-in-chamberi-tras-el-desahucio-de-maricarmen/",
+          "imagen": "https://www.infobae.com/resizer/v2/LPC4PJCHBJAPDMSYQAGNZTPYWE.jpg?auth=4126055aab5e162a38b1541640a32558cb76727ada1f829ce8f7c1f8ad7493f0&smart=true&width=8192&height=5464"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Dramático desalojo mujer 87 años Madrid desnuda voracidad fondo buitre",
+          "link": "https://www.clarin.com/mundo/dramatico-desalojo-mujer-87-anos-madrid-desnuda-voracidad-fondo-buitre_0_a8Nm042wIE.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/y0_PjvPhs_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Ataques con explosivos y operativos de seguridad en infraestructura de Colombia",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 4,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 3,
+      "brecha": 3,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 3,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Informa sobre la compleja situación de orden público y los desafíos del gobierno de Gustavo Petro.",
+      "insight": "Los atentados a sectores energéticos y de transporte en la región despiertan interés geopolítico.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Analizar el impacto de la violencia criminal en las principales rutas comerciales colombianas.",
+      "enfoques_sugeridos": [
+        "Responsabilidad de los grupos armados ilegales",
+        "Medidas de refuerzo militar tomadas por el Gobierno"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Con explosivos atacaron tren del Cerrejón en Uribia, La Guajira: autoridades no descartan represalias de los Conquistadores de la Sierra",
+          "link": "https://www.infobae.com/colombia/2026/09/23/con-explosivos-atacaron-tren-del-cerrejon-en-uribia-la-guajira-autoridades-not-descartan-represalias-de-los-conquistadores-de-la-sierra/",
+          "imagen": "https://www.infobae.com/resizer/v2/RXY23ISSLVBY3FB2F47XAL7ZAQ.JPG?auth=b7eaa2fc10e436d85eeb46f2c64bea58a721a3ea0094c25210f57c72fa77a506&smart=true&width=1893&height=1263"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Colombia: Abelardo Espriella militariza turística Santa Marta ola violencia narco",
+          "link": "https://www.clarin.com/mundo/colombia-abelardo-espriella-militariza-turistica-santa-marta-ola-violencia-narco_0_8iFhbjck0z.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/RdhH5Sqhe_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Detalles del programa social de becas 'Jóvenes Escribiendo el Futuro 2026' en México",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Informa sobre políticas educativas y ayudas financieras estatales de gran convocatoria para estudiantes.",
+      "insight": "Las búsquedas sobre requisitos, montos y fechas de cobro de planes educativos tienen gran retención en SEO.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Estudiar la posibilidad de replicar notas explicativas de beneficios sociales regionales para captar tráfico internacional.",
+      "enfoques_sugeridos": [
+        "Requisitos de inscripción y montos vigentes",
+        "Validación de instituciones educativas participantes"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Registro 'Jóvenes Escribiendo el Futuro 2026': cómo puedo saber si mi escuela participa para recibir más de 5 mil pesos al mes",
+          "link": "https://www.infobae.com/mexico/2026/09/23/registro-jovenes-escribiendo-el-futuro-2026-como-puedo-saber-si-mi-escuela-participa-para-recibir-mas-de-5-mil-pesos-al-mes/",
+          "imagen": "https://www.infobae.com/resizer/v2/IGEX2K5PQRB5BOSCOYBB3265JA.png?auth=3ae3e57c6ce69e450a2c0efb41b13a2ff8113d6b9ea37657dfcb2d2a2a99f8f8&smart=true&width=1672&height=941"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "oportunidades": [
+    {
+      "tema": "El desierto de Atacama florece tras las intensas lluvias provocadas por El Niño",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusividad de la competencia",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Ofrece un contenido visualmente impactante sobre un fenómeno natural extraordinario de gran atractivo universal.",
+      "insight": "Las notas de curiosidades geográficas y naturaleza atraen tráfico sostenido a través de Google Discover por su componente visual.",
+      "motivo": "",
+      "motivo_oportunidad": "La Nación es el único medio que cubre el evento natural con potencial viral en redes y Discover.",
+      "accion_sugerida": "Publicar una galería de fotos destacando el contraste paisajístico del desierto florecido.",
+      "enfoques_sugeridos": [
+        "El impacto climático de El Niño en la región",
+        "Especies de flora que emergen tras las lluvias"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "El desierto de Atacama floreció tras las intensas lluvias provocadas por El Niño",
+          "link": "https://www.lanacion.com.ar/el-mundo/el-desierto-de-atacama-florecio-tras-las-intensas-lluvias-provocadas-por-el-nino-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/EPKCTCMCKZGD5KUYDJWYZ4TL2M.JPG?auth=c6d7477bc33137d5447213a50bdc308d2dd92db845becc45a5747c2ce8381eeb&smart=true&width=2000&height=1333"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Trágica muerte de un obrero en el Coliseo romano genera conmoción y debate en Italia",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusividad de la competencia",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Combina el atractivo turístico de un monumento histórico con la tragedia laboral y el debate sobre seguridad.",
+      "insight": "Los hechos luctuosos ocurridos en monumentos icónicos globales despiertan gran curiosidad internacional.",
+      "motivo": "",
+      "motivo_oportunidad": "La cobertura exclusiva de corresponsalía en Europa permite capturar tráfico de noticias internacionales curiosas.",
+      "accion_sugerida": "Redactar una nota breve de cobertura internacional con eje en las medidas de seguridad en obras patrimoniales.",
+      "enfoques_sugeridos": [
+        "Condiciones laborales en sitios históricos",
+        "Repercusión institucional en Roma"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "La trágica caída de un obrero de 22 años desde el Coliseo conmocionó a Italia y desató una fuerte polémica",
+          "link": "https://www.lanacion.com.ar/el-mundo/la-tragica-caida-de-un-obrero-de-22-anos-desde-el-coliseo-conmociono-a-italia-y-desato-una-fuerte-polemica-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/MW7MYED3FZAGHIMEJ2Q2XUBPNQ.jpg?auth=1d817fb75fba1eb666178b2482fd108573cf62a28c002084741f86afea0f0e81&smart=true&width=7564&height=5042"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Lanzamiento en Argentina de la nueva notebook de doble pantalla de Asus",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusividad de la competencia",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Atrae a una audiencia ávida de novedades tecnológicas, gadgets y lanzamientos de consumo en el mercado local.",
+      "insight": "Las reseñas de dispositivos tecnológicos de alta gama rinden muy bien en tráfico orgánico y monetización.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín cubre en solitario el lanzamiento tecnológico local, permitiendo disputar ese segmento de audiencia.",
+      "accion_sugerida": "Preparar una reseña o ficha técnica destacando los puntos fuertes del equipo y su costo de lanzamiento.",
+      "enfoques_sugeridos": [
+        "Especificaciones técnicas y rendimiento",
+        "Precio sugerido en el mercado argentino"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Asus lanzó en Argentina nueva notebook pantallas funciona cuesta",
+          "link": "https://www.clarin.com/informacion-general/asus-lanzo-argentina-nueva-notebook-pantallas-funciona-cuesta_0_9DXDA7noy7.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/bUM9Btlhc_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Diseñador de 11 años presenta su colección de alta costura en Argentina Fashion Week",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusividad de la competencia",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Presenta una historia de superación y talento precoz con altísimo potencial de viralización en redes sociales.",
+      "insight": "Las historias de talento infantil o récords personales funcionan muy bien en Google Discover por su tono inspirador.",
+      "motivo": "",
+      "motivo_oportunidad": "Infobae publica una historia humana de fuerte impacto emocional que Perfil puede replicar con enfoque propio.",
+      "accion_sugerida": "Desarrollar una nota de color con entrevista al joven diseñador y su recorrido formativo.",
+      "enfoques_sugeridos": [
+        "El detrás de escena de su participación en la pasarela",
+        "Cómo se inició en el mundo de la costura"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Tiene 11 años, aprendió a coser en la escuela y presentó su colección de alta costura en Argentina Fashion Week",
+          "link": "https://www.infobae.com/tendencias/2026/09/23/tiene-11-anos-aprendio-a-coser-en-la-escuela-y-presento-su-coleccion-de-alta-costura-en-argentina-fashion-week/",
+          "imagen": "https://www.infobae.com/resizer/v2/ECUCVI5ADNEATAKS3VA2VDFXAY.png?auth=1fc8c69e17ca0bafa03e02bd144703720ca9f615e6893ea1064faa48aa3cb6e0&smart=true&width=855&height=443"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "prioridades_del_dia": [
+    {
+      "tema": "Cruce entre Dolores Fonzi y funcionarios del Gobierno por recortes a la cultura y el INCAA",
+      "prioridad": 1,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "El enfrentamiento entre figuras del espectáculo y la gestión oficial por el presupuesto cultural moviliza audiencias masivas.",
+      "insight": "Las polémicas culturales y del espectáculo con cruces políticos tienen un rendimiento excepcional en redes sociales.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Ampliar la cobertura sumando las declaraciones completas de ambas partes para capturar tráfico de tendencias.",
+      "enfoques_sugeridos": [
+        "El descargo de la actriz y la respuesta oficial",
+        "El estado del presupuesto para el cine nacional"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "La actriz Dolores Fonzi criticó al gobierno por los recortes a la cultura y el titular del Incaa salió al cruce",
+          "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-sali-al-cruce-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/P6IM75N5QJASDDP334S6JYHOPU.JPG?auth=1e3d3a61c8f5d88ba3014200f81826ab8591c46dc4bed531d9316a2986bc3894&smart=true&width=6704&height=4868"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Gente desalmada: Dolores Fonzi criticó a Milei por recortes a cultura y titular del Incaa acusó viuda gestión anterior",
+          "link": "https://www.clarin.com/espectaculos/gente-desalmada-dolores-fonzi-critico-milei-recortes-cultura-titular-incaa-acuso-viuda-gestion-anterior_0_x2HTadx42Q.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/OtKSbYH2A_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Aumento del consumo de carne de cerdo como alternativa económica al asado",
+      "prioridad": 2,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 3,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 2,
+      "brecha": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Atrapa la atención de los consumidores en un contexto de bolsillos ajustados y búsqueda de alternativas alimentarias.",
+      "insight": "Las notas de economía doméstica y precios comparativos traccionan de forma excelente en buscadores y Google Discover.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Generar contenidos interactivos o comparativas de precios de cortes por kilo para maximizar el engagement.",
+      "enfoques_sugeridos": [
+        "La diferencia de costos frente a la carne vacuna",
+        "Aumento en la demanda de achuras y cerdo"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 28 kilos de cerdo y se...",
+          "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Carne de cerdo, aliado al bolsillo argentinos: vale kilo asado, pueden comparse pechito",
+          "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
+          "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "El desierto de Atacama floreció tras las intensas lluvias provocadas por El Niño",
+      "prioridad": 3,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Ofrece un contenido visualmente impactante sobre un fenómeno natural extraordinario de gran atractivo universal.",
+      "insight": "Las notas de curiosidades geográficas y naturaleza atraen tráfico sostenido a través de Google Discover por su componente visual.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Publicar una galería de fotos destacando el contraste paisajístico del desierto florecido.",
+      "enfoques_sugeridos": [
+        "El impacto climático de El Niño en la región",
+        "Especies de flora que emergen tras las lluvias"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "El desierto de Atacama floreció tras las intensas lluvias provocadas por El Niño",
+          "link": "https://www.lanacion.com.ar/el-mundo/el-desierto-de-atacama-florecio-tras-las-intensas-lluvias-provocadas-por-el-nino-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/EPKCTCMCKZGD5KUYDJWYZ4TL2M.JPG?auth=c6d7477bc33137d5447213a50bdc308d2dd92db845becc45a5747c2ce8381eeb&smart=true&width=2000&height=1333"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "analisis_completo": {
+    "hipercompetencia": [
+      {
+        "tema": "Discurso de Javier Milei en la Asamblea General de la ONU y críticas al organismo",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 16,
+        "cantidad_medios": 4,
+        "cobertura_perfil": 4,
+        "perfil": 4,
+        "competencia_total": 12,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 5,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 4,
+          "La Nación": 4,
+          "Clarín": 5,
+          "Infobae": 3,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Concentra el interés político de la jornada con fuertes repercusiones internacionales y locales, posicionándose como el eje informativo excluyente.",
+        "insight": "La polarización en torno a las críticas a la ONU y la agenda internacional genera altísimo tráfico inmediato en buscadores y redes.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Profundizar el análisis geopolítico y las repercusiones financieras en tiempo real con enfoque en la reacción de los mercados y la oposición.",
+        "enfoques_sugeridos": [
+          "Análisis de impacto diplomático y económico",
+          "Repercusiones y cruces políticos locales"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Las 15 frases más destacadas de Milei en la ONU: críticas a la organización, Malvinas, Occidente y la inteligencia artificial",
+            "link": "https://www.perfil.com/noticias/politica/las-15-frases-mas-destacadas-de-milei-en-la-onu-criticas-a-la-organizacion-malvinas-occidente-y-la-inteligencia-artificial.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/discurso-javier-milei-en-la-onu-2332312.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Duras críticas de Javier Milei a la ONU durante su discurso en la Asamblea General",
+            "link": "https://www.lanacion.com.ar/politica/javier-milei-la-onu-se-convirtio-en-una-organizacion-inutil-que-solo-sirve-alimentar-una-casta-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/AXTSGSEDGZHKRNKW7YR4R43Z3Y.png?auth=f882364d6fa5c67a6b54fe71f19725f38754b6856550f8118822b3961ee9fcd1&smart=true&width=1477&height=964"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Discurso completo de Javier Milei en la ONU abordando Malvinas, IA y críticas al organismo",
+            "link": "https://www.clarin.com/politica/malvinas-inteligencia-artificial-criticas-onu-agenda-2030-discurso-completo-javir-milei-naciones-unidas_0_DqmJOAuJaW.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/3wt8lHbJl_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 3
+      },
+      {
+        "tema": "Logro de dictamen sobre discapacidad tras marcha atrás gubernamental",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 6,
+        "cantidad_medios": 4,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 5,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 2,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 1,
+          "Clarín": 2,
+          "Infobae": 2,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Involucra un área sensible de gestión social y presión opositora que moviliza a la opinión pública y genera debate legislativo.",
+        "insight": "Los retrocesos del oficialismo en temas sociales generan alta tracción en la audiencia por la expectativa de conflicto político.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Monitorear el posicionamiento de los bloques dialoguistas y los costos políticos para el oficialismo.",
+        "enfoques_sugeridos": [
+          "Detalles del acuerdo legislativo",
+          "Repercusiones en los sectores afectados"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Discapacidad: el gobierno debió contener la crisis, dictamen con dudas y nuevo secretario del área",
+            "link": "https://www.perfil.com/noticias/politica/discapacidad-el-gobierno-debio-contener-la-crisis-dictamen-con-dudas-y-nuevo-secretario-del-area.phtml",
+            "imagen": "https://fotos.perfil.com/2026/06/13/trim/540/304/130626karinaspagnuolomileimenemcedocg-2260385.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "El Gobierno logra dictamen sobre discapacidad tras dar marcha atrás con recortes",
+            "link": "https://www.lanacion.com.ar/politica/discapacidad-el-gobierno-dio-marcha-atras-y-consiguio-un-dictamen-pero-persiste-la-desconfianza-por-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/YNP4WUQQZBBKHBA75IGIXY3QCI.JPG?auth=b6710f0165875e2af31606dd2845e674a927216cc5a5c39741278a6a3c3f9fd3&smart=true&width=1040&height=730"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Oficialismo consigue dictamen sobre discapacidad tras marcha atrás gubernamental",
+            "link": "https://www.clarin.com/politica/marcha-gobierno-oficialismo-consiguio-dictamen-discapacidad-avanza-ley-pese-desconfianza-oposicion_0_01kSmaPyqE.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/oRuWgTh5M_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 3
+      },
+      {
+        "tema": "Visita del papa León XIV a Córdoba y regulaciones de feriados y cronograma",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 2,
+        "perfil": 2,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 2,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Impacta de lleno en la agenda regional con ramificaciones económicas, laborales y turísticas de gran interés masivo.",
+        "insight": "Las dudas sobre feriados y el impacto laboral movilizan consultas prácticas en buscadores.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Desarrollar guías de servicio para aclarar las obligaciones de los empleadores y el impacto en los trabajadores.",
+        "enfoques_sugeridos": [
+          "Guía de feriados y impacto laboral",
+          "Agenda oficial y operativa de seguridad"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Detalles sobre los feriados y regulaciones laborales por la visita del papa León XIV a Córdoba",
+            "link": "https://www.perfil.com/noticias/cordoba/feriados-por-la-visita-del-leon-xiv-no-se-trabaja-y-el-empleador-tiene-que-pagar-como-corresponde.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/empleadas-domesticas-2332504.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Detalles confirmados sobre la futura visita del papa León XIV a Argentina",
+            "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Alejandra Monteoliva dio detalles feriados nacionales y provinciales visita Papa León XIV",
+            "link": "https://www.clarin.com/politica/alejandra-monteoliva-dio-detalles-feriados-nacionales-provinciales-visita-papa-leon-xiv_0_CfsOqN34wR.html",
+            "imagen": "https://www.clarin.com/img/2026/07/14/mZudTo-y5_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Aumento del riesgo país y comportamiento de los mercados financieros",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 3,
+        "perfil": 3,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 3,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Refleja la temperatura económica y financiera del país, un tema de constante seguimiento por la audiencia especializada y general.",
+        "insight": "Las tendencias negativas consecutivas en indicadores clave generan inquietud y búsquedas transaccionales.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Analizar las causas técnicas de la suba y su correlato con las expectativas políticas y electorales.",
+        "enfoques_sugeridos": [
+          "Lectura de los analistas de mercado",
+          "Impacto en la deuda y perspectiva de inversiones"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "El riesgo país sube por octava rueda y se acerca a 560 puntos",
+            "link": "https://www.perfil.com/noticias/economia/el-riesgo-pais-sube-por-octava-rueda-y-se-acerca-a-560-puntos.phtml",
+            "imagen": "https://fotos.perfil.com/2026/06/03/trim/540/304/mercados-03062026-2252984.jpg"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Presión: riesgo país sube por octavo día consecutivo",
+            "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
+          },
+          {
+            "medio": "Perfil",
+            "titulo": "Ya llevamos seis ruedas consecutivas de un riesgo país alejándose de esos 500 puntos",
+            "link": "https://www.perfil.com/noticias/canal-e/ya-llevamos-seis-ruedas-consecutivas-de-un-riesgo-pais-alejandose-de-esos-500-puntos.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/riesgo-pais-2332296.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      }
+    ],
+    "perfil_pierde": [
+      {
+        "tema": "Cruce entre Dolores Fonzi y funcionarios del Gobierno por recortes a la cultura y el INCAA",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "El enfrentamiento entre figuras del espectáculo y la gestión oficial por el presupuesto cultural moviliza audiencias masivas.",
+        "insight": "Las polémicas culturales y del espectáculo con cruces políticos tienen un rendimiento excepcional en redes sociales.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Ampliar la cobertura sumando las declaraciones completas de ambas partes para capturar tráfico de tendencias.",
+        "enfoques_sugeridos": [
+          "El descargo de la actriz y la respuesta oficial",
+          "El estado del presupuesto para el cine nacional"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "La actriz Dolores Fonzi criticó al gobierno por los recortes a la cultura y el titular del Incaa salió al cruce",
+            "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-sali-al-cruce-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/P6IM75N5QJASDDP334S6JYHOPU.JPG?auth=1e3d3a61c8f5d88ba3014200f81826ab8591c46dc4bed531d9316a2986bc3894&smart=true&width=6704&height=4868"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Gente desalmada: Dolores Fonzi criticó a Milei por recortes a cultura y titular del Incaa acusó viuda gestión anterior",
+            "link": "https://www.clarin.com/espectaculos/gente-desalmada-dolores-fonzi-critico-milei-recortes-cultura-titular-incaa-acuso-viuda-gestion-anterior_0_x2HTadx42Q.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/OtKSbYH2A_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Inconvenientes, tarifas y alertas de USCIS sobre trámites migratorios en Estados Unidos",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 4,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 4,
+        "brecha": 4,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 4,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "De gran interés para la comunidad de migrantes latinoamericanos y residentes en el exterior que buscan información legal.",
+        "insight": "Las alertas de organismos oficiales extranjeros sobre visados y tarifas generan búsquedas directas y sostenidas.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Desarrollar notas explicativas tipo servicio sobre los cambios normativos y cómo evitarlos.",
+        "enfoques_sugeridos": [
+          "Nuevas tarifas y plazos de apelación",
+          "Advertencia sobre estafas a migrantes"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "La alerta del USCIS sobre los supuestos expertos migratorios que venden acceso privilegiado a visas, Green Card y EAD",
+            "link": "https://www.lanacion.com.ar/estados-unidos/migraciones/la-alerta-del-uscis-sobre-los-supuestos-expertos-migratorios-que-venden-acceso-privilegiado-a-visas-green-card-y-ead-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/G4JIKSNHFZBJVFH3CW35RYEZOU.jpeg?auth=df7a759e666db15a0bdbef8cce612c154f404cde93796e748b6ee0cfdd75940e&smart=true&width=1170&height=896"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Noticias del USCIS: las nuevas tarifas que entran en vigor el 1 de octubre para apelar una decisión",
+            "link": "https://www.lanacion.com.ar/estados-unidos/migraciones/noticias-del-uscis-las-nuevas-tarifas-que-entran-en-vigor-el-1-de-octubre-para-apelar-una-decision-nid22092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/CWQEINUANFB2NJ5N4BXGCRUMZY.png?auth=eed9ab7fd90c6fd9f247938d427151a95f80c7cea8239bfa9fb49803334fc4d8&smart=true&width=1536&height=1024"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Aumento del consumo de carne de cerdo como alternativa económica al asado",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 3,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 2,
+        "brecha": 2,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 2,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Atrapa la atención de los consumidores en un contexto de bolsillos ajustados y búsqueda de alternativas alimentarias.",
+        "insight": "Las notas de economía doméstica y precios comparativos traccionan de forma excelente en buscadores y Google Discover.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Generar contenidos interactivos o comparativas de precios de cortes por kilo para maximizar el engagement.",
+        "enfoques_sugeridos": [
+          "La diferencia de costos frente a la carne vacuna",
+          "Aumento en la demanda de achuras y cerdo"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 28 kilos de cerdo y se...",
+            "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Carne de cerdo, aliado al bolsillo argentinos: vale kilo asado, pueden comparse pechito",
+            "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
+            "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Novedades y parte médico sobre la internación de Mirtha Legrand",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 4,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 4,
+        "brecha": 4,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 4,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Trata sobre una de las figuras más emblemáticas del espectáculo argentino, generando alto impacto emocional en el público.",
+        "insight": "La salud de personalidades públicas genera picos masivos de audiencia en tiempo récord.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Mantener actualización constante del parte médico oficial sin caer en especulaciones.",
+        "enfoques_sugeridos": [
+          "Detalles cardiológicos de la internación",
+          "Repercusiones en el medio artístico"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "La salud de Mirtha Legrand: qué dice el nuevo parte médico de la diva",
+            "link": "https://www.lanacion.com.ar/espectaculos/personajes/la-salud-de-mirtha-legrand-que-dice-el-nuevo-parte-medico-de-la-diva-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/PQJPHPRXHNAL7OW3AIUZ25WAYE.jpg?auth=6ca0d8c54aad9605600c9958d821a4a501576c9a93fb783c6ca892f80ccf28aa&smart=true&width=1131&height=1600"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Un cardiólogo explicó en detalle por qué es grave el cuadro de Mirtha Legrand a sus 99 años y lo que hay que evitar",
+            "link": "https://www.lanacion.com.ar/sociedad/un-cardiologo-explico-en-detalle-por-que-es-grave-el-cuadro-de-mirtha-legrand-a-sus-99-anos-y-lo-que-hay-que-evitar-nid21092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/4CITM4FWOZAEPCE74LAQLH6Z5Q.jpg?auth=b03c0154e8c1f7f222839a9830649659b5453428762815cb478a517864d402d3&smart=true&width=1131&height=1600"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      }
+    ],
+    "sin_cobertura_perfil": [
+      {
+        "tema": "Detención y condenas a delincuentes en casos de alto impacto regional e internacional",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Involucra noticias policiales de gran repercusión internacional que atraen a lectores atraídos por el género true crime.",
+        "insight": "Las condenas históricas a líderes criminales funcionan muy bien en agregadores de noticias y redes.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Incluir coberturas de agencias sobre juicios resonantes y crímenes de alto impacto global.",
+        "enfoques_sugeridos": [
+          "Perfil de los condenados y detalles de la investigación",
+          "Repercusiones en la seguridad regional"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "Condenan al delincuente de Zapotitanes a 254 años de prisión por ocho homicidios y agrupaciones ilícitas en El Salvador",
+            "link": "https://www.infobae.com/el-salvador/2026/09/23/condenan-al-delincuente-de-zapotitanes-a-254-anos-de-prision-por-ocho-homicidios-y-agrupaciones-ilicitas-en-el-salvador/",
+            "imagen": "https://www.infobae.com/resizer/v2/VFXTTY6N6FAV5HTTLUTUVSVNFI.png?auth=148b9ece2beb0a254d72964aa1b41699cca758b310e217b0b18d7a5c589a8dd2&smart=true&width=1254&height=1254"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Golpe a ex-poderoso Hollywood: condenaron a Harvey Weinstein a 15 años de prisión",
+            "link": "https://www.clarin.com/mundo/golpe-expoderoso-hollywood-condenaron-harvey-weinstein-15-anos-prision_0_zoJCVT8r4O.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/OWVLNCPyI_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Protestas y reclamos en España tras el desalojo de la anciana Maricarmen",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 5,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 5,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 4,
+        "brecha": 4,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 4,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Refleja la crisis habitacional europea y la sensibilidad social frente a los abusos de fondos inmobiliarios.",
+        "insight": "Las protestas masivas por derechos sociales en Europa generan alto interés internacional.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Seguir de cerca las repercusiones políticas sobre el gobierno español en materia de vivienda.",
+        "enfoques_sugeridos": [
+          "El impacto político del caso en Madrid",
+          "Reclamos de los movimientos sociales"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "Unas 10.000 personas protestan ante el ático del gobierno de Ayuso in Chamberí tras el desahucio de Maricarmen",
+            "link": "https://www.infobae.com/espana/2026/09/23/unas-10000-personas-protestan-ante-el-atico-del-gobierno-de-ayuso-in-chamberi-tras-el-desahucio-de-maricarmen/",
+            "imagen": "https://www.infobae.com/resizer/v2/LPC4PJCHBJAPDMSYQAGNZTPYWE.jpg?auth=4126055aab5e162a38b1541640a32558cb76727ada1f829ce8f7c1f8ad7493f0&smart=true&width=8192&height=5464"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Dramático desalojo mujer 87 años Madrid desnuda voracidad fondo buitre",
+            "link": "https://www.clarin.com/mundo/dramatico-desalojo-mujer-87-anos-madrid-desnuda-voracidad-fondo-buitre_0_a8Nm042wIE.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/y0_PjvPhs_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Ataques con explosivos y operativos de seguridad en infraestructura de Colombia",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 4,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 3,
+        "brecha": 3,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 3,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Informa sobre la compleja situación de orden público y los desafíos del gobierno de Gustavo Petro.",
+        "insight": "Los atentados a sectores energéticos y de transporte en la región despiertan interés geopolítico.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Analizar el impacto de la violencia criminal en las principales rutas comerciales colombianas.",
+        "enfoques_sugeridos": [
+          "Responsabilidad de los grupos armados ilegales",
+          "Medidas de refuerzo militar tomadas por el Gobierno"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "Con explosivos atacaron tren del Cerrejón en Uribia, La Guajira: autoridades no descartan represalias de los Conquistadores de la Sierra",
+            "link": "https://www.infobae.com/colombia/2026/09/23/con-explosivos-atacaron-tren-del-cerrejon-en-uribia-la-guajira-autoridades-not-descartan-represalias-de-los-conquistadores-de-la-sierra/",
+            "imagen": "https://www.infobae.com/resizer/v2/RXY23ISSLVBY3FB2F47XAL7ZAQ.JPG?auth=b7eaa2fc10e436d85eeb46f2c64bea58a721a3ea0094c25210f57c72fa77a506&smart=true&width=1893&height=1263"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Colombia: Abelardo Espriella militariza turística Santa Marta ola violencia narco",
+            "link": "https://www.clarin.com/mundo/colombia-abelardo-espriella-militariza-turistica-santa-marta-ola-violencia-narco_0_8iFhbjck0z.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/RdhH5Sqhe_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Detalles del programa social de becas 'Jóvenes Escribiendo el Futuro 2026' en México",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Informa sobre políticas educativas y ayudas financieras estatales de gran convocatoria para estudiantes.",
+        "insight": "Las búsquedas sobre requisitos, montos y fechas de cobro de planes educativos tienen gran retención en SEO.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Estudiar la posibilidad de replicar notas explicativas de beneficios sociales regionales para captar tráfico internacional.",
+        "enfoques_sugeridos": [
+          "Requisitos de inscripción y montos vigentes",
+          "Validación de instituciones educativas participantes"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "Registro 'Jóvenes Escribiendo el Futuro 2026': cómo puedo saber si mi escuela participa para recibir más de 5 mil pesos al mes",
+            "link": "https://www.infobae.com/mexico/2026/09/23/registro-jovenes-escribiendo-el-futuro-2026-como-puedo-saber-si-mi-escuela-participa-para-recibir-mas-de-5-mil-pesos-al-mes/",
+            "imagen": "https://www.infobae.com/resizer/v2/IGEX2K5PQRB5BOSCOYBB3265JA.png?auth=3ae3e57c6ce69e450a2c0efb41b13a2ff8113d6b9ea37657dfcb2d2a2a99f8f8&smart=true&width=1672&height=941"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      }
+    ],
+    "oportunidades": [
+      {
+        "tema": "El desierto de Atacama florece tras las intensas lluvias provocadas por El Niño",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusividad de la competencia",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Ofrece un contenido visualmente impactante sobre un fenómeno natural extraordinario de gran atractivo universal.",
+        "insight": "Las notas de curiosidades geográficas y naturaleza atraen tráfico sostenido a través de Google Discover por su componente visual.",
+        "motivo": "",
+        "motivo_oportunidad": "La Nación es el único medio que cubre el evento natural con potencial viral en redes y Discover.",
+        "accion_sugerida": "Publicar una galería de fotos destacando el contraste paisajístico del desierto florecido.",
+        "enfoques_sugeridos": [
+          "El impacto climático de El Niño en la región",
+          "Especies de flora que emergen tras las lluvias"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "El desierto de Atacama floreció tras las intensas lluvias provocadas por El Niño",
+            "link": "https://www.lanacion.com.ar/el-mundo/el-desierto-de-atacama-florecio-tras-las-intensas-lluvias-provocadas-por-el-nino-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/EPKCTCMCKZGD5KUYDJWYZ4TL2M.JPG?auth=c6d7477bc33137d5447213a50bdc308d2dd92db845becc45a5747c2ce8381eeb&smart=true&width=2000&height=1333"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Trágica muerte de un obrero en el Coliseo romano genera conmoción y debate en Italia",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusividad de la competencia",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Combina el atractivo turístico de un monumento histórico con la tragedia laboral y el debate sobre seguridad.",
+        "insight": "Los hechos luctuosos ocurridos en monumentos icónicos globales despiertan gran curiosidad internacional.",
+        "motivo": "",
+        "motivo_oportunidad": "La cobertura exclusiva de corresponsalía en Europa permite capturar tráfico de noticias internacionales curiosas.",
+        "accion_sugerida": "Redactar una nota breve de cobertura internacional con eje en las medidas de seguridad en obras patrimoniales.",
+        "enfoques_sugeridos": [
+          "Condiciones laborales en sitios históricos",
+          "Repercusión institucional en Roma"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "La trágica caída de un obrero de 22 años desde el Coliseo conmocionó a Italia y desató una fuerte polémica",
+            "link": "https://www.lanacion.com.ar/el-mundo/la-tragica-caida-de-un-obrero-de-22-anos-desde-el-coliseo-conmociono-a-italia-y-desato-una-fuerte-polemica-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/MW7MYED3FZAGHIMEJ2Q2XUBPNQ.jpg?auth=1d817fb75fba1eb666178b2482fd108573cf62a28c002084741f86afea0f0e81&smart=true&width=7564&height=5042"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Lanzamiento en Argentina de la nueva notebook de doble pantalla de Asus",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusividad de la competencia",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Atrae a una audiencia ávida de novedades tecnológicas, gadgets y lanzamientos de consumo en el mercado local.",
+        "insight": "Las reseñas de dispositivos tecnológicos de alta gama rinden muy bien en tráfico orgánico y monetización.",
+        "motivo": "",
+        "motivo_oportunidad": "Clarín cubre en solitario el lanzamiento tecnológico local, permitiendo disputar ese segmento de audiencia.",
+        "accion_sugerida": "Preparar una reseña o ficha técnica destacando los puntos fuertes del equipo y su costo de lanzamiento.",
+        "enfoques_sugeridos": [
+          "Especificaciones técnicas y rendimiento",
+          "Precio sugerido en el mercado argentino"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Asus lanzó en Argentina nueva notebook pantallas funciona cuesta",
+            "link": "https://www.clarin.com/informacion-general/asus-lanzo-argentina-nueva-notebook-pantallas-funciona-cuesta_0_9DXDA7noy7.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/bUM9Btlhc_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Diseñador de 11 años presenta su colección de alta costura en Argentina Fashion Week",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusividad de la competencia",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Presenta una historia de superación y talento precoz con altísimo potencial de viralización en redes sociales.",
+        "insight": "Las historias de talento infantil o récords personales funcionan muy bien en Google Discover por su tono inspirador.",
+        "motivo": "",
+        "motivo_oportunidad": "Infobae publica una historia humana de fuerte impacto emocional que Perfil puede replicar con enfoque propio.",
+        "accion_sugerida": "Desarrollar una nota de color con entrevista al joven diseñador y su recorrido formativo.",
+        "enfoques_sugeridos": [
+          "El detrás de escena de su participación en la pasarela",
+          "Cómo se inició en el mundo de la costura"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "Tiene 11 años, aprendió a coser en la escuela y presentó su colección de alta costura en Argentina Fashion Week",
+            "link": "https://www.infobae.com/tendencias/2026/09/23/tiene-11-anos-aprendio-a-coser-en-la-escuela-y-presento-su-coleccion-de-alta-costura-en-argentina-fashion-week/",
+            "imagen": "https://www.infobae.com/resizer/v2/ECUCVI5ADNEATAKS3VA2VDFXAY.png?auth=1fc8c69e17ca0bafa03e02bd144703720ca9f615e6893ea1064faa48aa3cb6e0&smart=true&width=855&height=443"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      }
+    ]
+  },
+  "total_temas": 16
+}
