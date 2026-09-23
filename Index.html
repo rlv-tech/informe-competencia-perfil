@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Radar de Competencia | Perfil</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <!-- ======================================
+       HEADER
+  ======================================= -->
+
+  <header class="topbar">
+
+    <div class="topbar-inner">
+
+      <div>
+
+        <div class="eyebrow">
+          RADAR EDITORIAL
+        </div>
+
+        <h1>
+          Competencia
+        </h1>
+
+      </div>
+
+      <div
+        id="fecha"
+        class="fecha"
+      >
+        Análisis actualizado
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main class="container">
+
+
+    <!-- ======================================
+         NAVEGACIÓN DE CATEGORÍAS
+    ======================================= -->
+
+    <nav class="category-nav">
+
+      <button
+        class="category-tab active"
+        data-category="hipercompetencia"
+      >
+
+        <span class="category-dot hiper"></span>
+
+        <span>
+          Hipercompetencia
+        </span>
+
+        <strong id="count-hiper">
+          0
+        </strong>
+
+      </button>
+
+
+      <button
+        class="category-tab"
+        data-category="perfil_pierde"
+      >
+
+        <span class="category-dot pierde"></span>
+
+        <span>
+          Perfil pierde
+        </span>
+
+        <strong id="count-pierde">
+          0
+        </strong>
+
+      </button>
+
+
+      <button
+        class="category-tab"
+        data-category="sin_cobertura_perfil"
+      >
+
+        <span class="category-dot sin-cobertura"></span>
+
+        <span>
+          Sin cobertura
+        </span>
+
+        <strong id="count-sin">
+          0
+        </strong>
+
+      </button>
+
+
+      <button
+        class="category-tab"
+        data-category="oportunidades"
+      >
+
+        <span class="category-dot oportunidad"></span>
+
+        <span>
+          Oportunidades
+        </span>
+
+        <strong id="count-oportunidades">
+          0
+        </strong>
+
+      </button>
+
+    </nav>
+
+
+    <!-- ======================================
+         PRIORIDADES
+    ======================================= -->
+
+    <section class="section-block">
+
+      <div class="section-heading">
+
+        <div>
+
+          <span class="section-kicker">
+            DECISIÓN EDITORIAL
+          </span>
+
+          <h2>
+            Prioridades del día
+          </h2>
+
+        </div>
+
+        <span class="section-description">
+          Tres temas seleccionados por el análisis
+        </span>
+
+      </div>
+
+
+      <div
+        id="prioridades"
+        class="prioridades-grid"
+      ></div>
+
+    </section>
+
+
+    <!-- ======================================
+         BRECHA DE COBERTURA
+    ======================================= -->
+
+    <section class="section-block">
+
+      <div class="section-heading">
+
+        <div>
+
+          <span class="section-kicker">
+            MAPA COMPETITIVO
+          </span>
+
+          <h2>
+            Brecha de cobertura
+          </h2>
+
+        </div>
+
+        <span class="section-description">
+          Perfil frente al medio líder de cada tema
+        </span>
+
+      </div>
+
+
+      <div
+        id="brecha-chart"
+        class="brecha-chart"
+      ></div>
+
+    </section>
+
+
+    <!-- ======================================
+         CONTROLES
+    ======================================= -->
+
+    <section class="section-block temas-section">
+
+      <div class="section-heading temas-heading">
+
+        <div>
+
+          <span class="section-kicker">
+            MONITOREO
+          </span>
+
+          <h2 id="titulo-categoria">
+            Hipercompetencia
+          </h2>
+
+        </div>
+
+
+        <div class="controles">
+
+          <label>
+            Ordenar
+
+            <select id="orden">
+
+              <option value="brecha">
+                Mayor brecha
+              </option>
+
+              <option value="notas">
+                Más notas
+              </option>
+
+              <option value="medios">
+                Más medios
+              </option>
+
+              <option value="alfabetico">
+                Alfabético
+              </option>
+
+            </select>
+
+          </label>
+
+        </div>
+
+      </div>
+
+
+      <div
+        id="contenido"
+        class="temas-grid"
+      ></div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- ======================================
+       MODAL
+  ======================================= -->
+
+  <div
+    id="modal"
+    class="modal"
+    aria-hidden="true"
+  >
+
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <button
+        id="cerrar-modal"
+        class="modal-close"
+      >
+        ×
+      </button>
+
+      <div id="modal-body"></div>
+
+    </div>
+
+  </div>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
