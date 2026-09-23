@@ -11,6 +11,11 @@ let categoriaActual = 'hipercompetencia';
 // CONFIGURACIÓN
 // ==========================================
 
+const DATA_URL = './data.json';
+
+const INTERVALO_ACTUALIZACION = 5 * 60 * 1000;
+
+
 const CATEGORIAS = {
 
   hipercompetencia: {
@@ -49,20 +54,24 @@ async function cargarDashboard() {
   try {
 
     const response = await fetch(
-      'data-competencia.json?t=' +
-      new Date().getTime(),
+      DATA_URL + '?t=' + Date.now(),
       {
         cache: 'no-store'
       }
     );
 
+
     if (!response.ok) {
+
       throw new Error(
-        'No se pudo cargar data-competencia.json'
+        'No se pudo cargar data.json'
       );
+
     }
 
+
     DATA = await response.json();
+
 
     mostrarFecha();
 
@@ -78,6 +87,7 @@ async function cargarDashboard() {
       categoriaActual
     );
 
+
   } catch (error) {
 
     console.error(
@@ -85,25 +95,34 @@ async function cargarDashboard() {
       error
     );
 
-    document.getElementById(
-      'contenido'
-    ).innerHTML = `
 
-      <div class="tema-card vacio">
+    const contenido =
+      document.getElementById(
+        'contenido'
+      );
 
-        <h3>
-          No se pudieron cargar los datos
-        </h3>
 
-        <p>
-          Verificá que
-          <strong>data-competencia.json</strong>
-          exista en el repositorio.
-        </p>
+    if (contenido) {
 
-      </div>
+      contenido.innerHTML = `
 
-    `;
+        <div class="tema-card vacio">
+
+          <h3>
+            No se pudieron cargar los datos
+          </h3>
+
+          <p>
+            Verificá que
+            <strong>data.json</strong>
+            exista en el repositorio.
+          </p>
+
+        </div>
+
+      `;
+
+    }
 
   }
 
@@ -120,20 +139,38 @@ function escaparHTML(texto) {
     texto === null ||
     texto === undefined
   ) {
+
     return '';
+
   }
+
 
   return String(texto)
 
-    .replace(/&/g, '&amp;')
+    .replace(
+      /&/g,
+      '&amp;'
+    )
 
-    .replace(/</g, '&lt;')
+    .replace(
+      /</g,
+      '&lt;'
+    )
 
-    .replace(/>/g, '&gt;')
+    .replace(
+      />/g,
+      '&gt;'
+    )
 
-    .replace(/"/g, '&quot;')
+    .replace(
+      /"/g,
+      '&quot;'
+    )
 
-    .replace(/'/g, '&#039;');
+    .replace(
+      /'/g,
+      '&#039;'
+    );
 
 }
 
@@ -145,11 +182,17 @@ function escaparHTML(texto) {
 function mostrarFecha() {
 
   const elemento =
-    document.getElementById('fecha');
+    document.getElementById(
+      'fecha'
+    );
+
 
   if (!elemento) {
+
     return;
+
   }
+
 
   elemento.textContent =
     DATA.fecha_analisis
@@ -166,28 +209,72 @@ function mostrarFecha() {
 
 function mostrarContadores() {
 
-  document.getElementById(
-    'count-hiper'
-  ).textContent =
-    (DATA.hipercompetencia || []).length;
+  const hiper =
+    document.getElementById(
+      'count-hiper'
+    );
 
 
-  document.getElementById(
-    'count-pierde'
-  ).textContent =
-    (DATA.perfil_pierde || []).length;
+  const pierde =
+    document.getElementById(
+      'count-pierde'
+    );
 
 
-  document.getElementById(
-    'count-sin'
-  ).textContent =
-    (DATA.sin_cobertura_perfil || []).length;
+  const sin =
+    document.getElementById(
+      'count-sin'
+    );
 
 
-  document.getElementById(
-    'count-oportunidades'
-  ).textContent =
-    (DATA.oportunidades || []).length;
+  const oportunidades =
+    document.getElementById(
+      'count-oportunidades'
+    );
+
+
+  if (hiper) {
+
+    hiper.textContent =
+      (
+        DATA.hipercompetencia ||
+        []
+      ).length;
+
+  }
+
+
+  if (pierde) {
+
+    pierde.textContent =
+      (
+        DATA.perfil_pierde ||
+        []
+      ).length;
+
+  }
+
+
+  if (sin) {
+
+    sin.textContent =
+      (
+        DATA.sin_cobertura_perfil ||
+        []
+      ).length;
+
+  }
+
+
+  if (oportunidades) {
+
+    oportunidades.textContent =
+      (
+        DATA.oportunidades ||
+        []
+      ).length;
+
+  }
 
 }
 
@@ -203,19 +290,33 @@ function mostrarPrioridades() {
       'prioridades'
     );
 
+
+  if (!contenedor) {
+
+    return;
+
+  }
+
+
   const prioridades =
-    (DATA.prioridades_del_dia || [])
-      .slice(0, 3);
+    (
+      DATA.prioridades_del_dia ||
+      []
+    ).slice(0, 3);
 
 
   if (!prioridades.length) {
 
     contenedor.innerHTML = `
+
       <div class="tema-card vacio">
+
         <h3>
           No hay prioridades disponibles
         </h3>
+
       </div>
+
     `;
 
     return;
@@ -232,6 +333,7 @@ function mostrarPrioridades() {
           item.insight ||
           item.por_que_importa ||
           '';
+
 
         const accion =
           item.accion_sugerida ||
@@ -267,11 +369,15 @@ function mostrarPrioridades() {
             ${
               motivo
                 ? `
+
                   <p class="prioridad-motivo">
+
                     ${escaparHTML(
                       motivo
                     )}
+
                   </p>
+
                 `
                 : ''
             }
@@ -280,6 +386,7 @@ function mostrarPrioridades() {
             ${
               accion
                 ? `
+
                   <div class="prioridad-accion">
 
                     <strong>
@@ -291,6 +398,7 @@ function mostrarPrioridades() {
                     )}
 
                   </div>
+
                 `
                 : ''
             }
@@ -317,6 +425,13 @@ function mostrarBrecha() {
     );
 
 
+  if (!contenedor) {
+
+    return;
+
+  }
+
+
   const todos = [
 
     ...(DATA.hipercompetencia || []),
@@ -332,8 +447,9 @@ function mostrarBrecha() {
 
   const temas = todos
 
-    .filter(item =>
-      Number(item.brecha) > 0
+    .filter(
+      item =>
+        Number(item.brecha) > 0
     )
 
     .sort(
@@ -348,9 +464,14 @@ function mostrarBrecha() {
   if (!temas.length) {
 
     contenedor.innerHTML = `
+
       <div class="vacio">
-        No hay brechas de cobertura detectadas.
+
+        No hay brechas de cobertura
+        detectadas.
+
       </div>
+
     `;
 
     return;
@@ -375,6 +496,7 @@ function mostrarBrecha() {
         const valor =
           Number(item.brecha) || 0;
 
+
         const porcentaje =
           Math.max(
             5,
@@ -389,24 +511,31 @@ function mostrarBrecha() {
             <div class="brecha-topic">
 
               <strong>
+
                 ${escaparHTML(
                   item.tema
                 )}
+
               </strong>
 
+
               <span>
+
                 ${
                   escaparHTML(
                     item.medio_lider ||
                     'Competencia'
                   )
                 }
+
                 lidera · Perfil:
+
                 ${
                   Number(
                     item.cobertura_perfil
                   ) || 0
                 }
+
               </span>
 
             </div>
@@ -423,7 +552,9 @@ function mostrarBrecha() {
 
 
             <div class="brecha-value">
+
               -${valor}
+
             </div>
 
           </div>
@@ -443,7 +574,9 @@ function mostrarBrecha() {
 function configurarEventos() {
 
 
-  // Categorías
+  // ========================================
+  // CATEGORÍAS
+  // ========================================
 
   document
     .querySelectorAll(
@@ -451,76 +584,90 @@ function configurarEventos() {
     )
     .forEach(button => {
 
-      button.addEventListener(
-        'click',
-        () => {
+      button.onclick = () => {
 
-          document
-            .querySelectorAll(
-              '.category-tab'
+        document
+          .querySelectorAll(
+            '.category-tab'
+          )
+          .forEach(btn =>
+            btn.classList.remove(
+              'active'
             )
-            .forEach(btn =>
-              btn.classList.remove(
-                'active'
-              )
-            );
-
-
-          button.classList.add(
-            'active'
           );
 
 
-          categoriaActual =
-            button.dataset.category;
+        button.classList.add(
+          'active'
+        );
 
 
-          mostrarCategoria(
-            categoriaActual
-          );
+        categoriaActual =
+          button.dataset.category;
 
-        }
-      );
-
-    });
-
-
-  // Orden
-
-  document
-    .getElementById('orden')
-    .addEventListener(
-      'change',
-      () => {
 
         mostrarCategoria(
           categoriaActual
         );
 
-      }
+      };
+
+    });
+
+
+  // ========================================
+  // ORDEN
+  // ========================================
+
+  const orden =
+    document.getElementById(
+      'orden'
     );
 
 
-  // Modal
+  if (orden) {
 
-  document
-    .getElementById(
+    orden.onchange = () => {
+
+      mostrarCategoria(
+        categoriaActual
+      );
+
+    };
+
+  }
+
+
+  // ========================================
+  // MODAL
+  // ========================================
+
+  const cerrar =
+    document.getElementById(
       'cerrar-modal'
-    )
-    .addEventListener(
-      'click',
-      cerrarModal
     );
 
 
-  document
-    .querySelector(
+  if (cerrar) {
+
+    cerrar.onclick =
+      cerrarModal;
+
+  }
+
+
+  const overlay =
+    document.querySelector(
       '.modal-overlay'
-    )
-    .addEventListener(
-      'click',
-      cerrarModal
     );
+
+
+  if (overlay) {
+
+    overlay.onclick =
+      cerrarModal;
+
+  }
 
 }
 
@@ -537,6 +684,13 @@ function mostrarCategoria(
     document.getElementById(
       'contenido'
     );
+
+
+  if (!contenedor) {
+
+    return;
+
+  }
 
 
   const config =
@@ -569,7 +723,9 @@ function mostrarCategoria(
       : [];
 
 
-  ordenarTemas(items);
+  ordenarTemas(
+    items
+  );
 
 
   if (!items.length) {
@@ -855,13 +1011,16 @@ function crearTema(
           </strong>
 
           <span>
+
             Líder:
+
             ${
               escaparHTML(
                 item.medio_lider ||
                 '—'
               )
             }
+
           </span>
 
         </div>
@@ -889,9 +1048,11 @@ function crearTema(
               </div>
 
               <p>
+
                 ${escaparHTML(
                   insight
                 )}
+
               </p>
 
             </div>
@@ -901,7 +1062,7 @@ function crearTema(
       }
 
 
-      <!-- ACCION -->
+      <!-- ACCIÓN -->
 
       ${
         item.accion_sugerida
@@ -914,9 +1075,11 @@ function crearTema(
               </div>
 
               <p>
+
                 ${escaparHTML(
                   item.accion_sugerida
                 )}
+
               </p>
 
             </div>
@@ -926,7 +1089,7 @@ function crearTema(
       }
 
 
-      <!-- BOTON -->
+      <!-- BOTÓN -->
 
       <button
         class="expand-button"
@@ -960,9 +1123,11 @@ function crearTema(
                 </h4>
 
                 <p>
+
                   ${escaparHTML(
                     item.por_que_importa
                   )}
+
                 </p>
 
               </div>
@@ -983,9 +1148,11 @@ function crearTema(
                 </h4>
 
                 <p>
+
                   ${escaparHTML(
                     item.tipo_de_oportunidad
                   )}
+
                 </p>
 
               </div>
@@ -1006,9 +1173,11 @@ function crearTema(
                 </h4>
 
                 <p>
+
                   ${escaparHTML(
                     item.motivo_oportunidad
                   )}
+
                 </p>
 
               </div>
@@ -1048,7 +1217,8 @@ function crearTema(
               <div class="detalle-section">
 
                 <h4>
-                  Qué está publicando la competencia
+                  Qué está publicando
+                  la competencia
                 </h4>
 
                 <div class="ejemplos-grid">
@@ -1130,9 +1300,11 @@ function crearCobertura(
         >
 
           <span class="coverage-name">
+
             ${escaparHTML(
               medio
             )}
+
           </span>
 
 
@@ -1149,7 +1321,9 @@ function crearCobertura(
 
 
           <span class="coverage-value">
+
             ${valor}
+
           </span>
 
         </div>
@@ -1175,12 +1349,16 @@ function crearEnfoques(
     !Array.isArray(enfoques) ||
     !enfoques.length
   ) {
+
     return '';
+
   }
 
 
   return enfoques
+
     .slice(0, 2)
+
     .map(
       enfoque => `
 
@@ -1194,6 +1372,7 @@ function crearEnfoques(
 
       `
     )
+
     .join('');
 
 }
@@ -1208,15 +1387,19 @@ function crearEjemplos(
 ) {
 
   if (
-    !Array.isArray(ejemplos) ||
-    !ejemplos.length
+    !Array.isArray(enemplos) ||
+    !enemplos.length
   ) {
+
     return '';
+
   }
 
 
   return ejemplos
+
     .slice(0, 3)
+
     .map(ejemplo => {
 
       const imagen =
@@ -1312,74 +1495,111 @@ function configurarExpandibles() {
     )
     .forEach(button => {
 
-      button.addEventListener(
-        'click',
-        () => {
+      button.onclick = () => {
 
-          const card =
-            button.closest(
-              '.tema-card'
+        const card =
+          button.closest(
+            '.tema-card'
+          );
+
+
+        if (!card) {
+
+          return;
+
+        }
+
+
+        const detalle =
+          card.querySelector(
+            '.detalle'
+          );
+
+
+        if (!detalle) {
+
+          return;
+
+        }
+
+
+        const abierto =
+          detalle.classList.contains(
+            'abierto'
+          );
+
+
+        if (abierto) {
+
+          detalle.classList.remove(
+            'abierto'
+          );
+
+
+          const texto =
+            button.querySelector(
+              'span:first-child'
             );
 
 
-          const detalle =
-            card.querySelector(
-              '.detalle'
+          const flecha =
+            button.querySelector(
+              '.expand-arrow'
             );
 
 
-          const abierto =
-            detalle.classList.contains(
-              'abierto'
-            );
+          if (texto) {
 
-
-          if (abierto) {
-
-            detalle.classList.remove(
-              'abierto'
-            );
-
-            button
-              .querySelector(
-                'span:first-child'
-              )
-              .textContent =
+            texto.textContent =
               'Ver análisis completo';
 
+          }
 
-            button
-              .querySelector(
-                '.expand-arrow'
-              )
-              .textContent =
+
+          if (flecha) {
+
+            flecha.textContent =
               '↓';
 
-          } else {
+          }
 
-            detalle.classList.add(
-              'abierto'
+        } else {
+
+          detalle.classList.add(
+            'abierto'
+          );
+
+
+          const texto =
+            button.querySelector(
+              'span:first-child'
             );
 
-            button
-              .querySelector(
-                'span:first-child'
-              )
-              .textContent =
+
+          const flecha =
+            button.querySelector(
+              '.expand-arrow'
+            );
+
+
+          if (texto) {
+
+            texto.textContent =
               'Ocultar análisis';
 
+          }
 
-            button
-              .querySelector(
-                '.expand-arrow'
-              )
-              .textContent =
+
+          if (flecha) {
+
+            flecha.textContent =
               '↑';
 
           }
 
         }
-      );
+
+      };
 
     });
 
@@ -1392,11 +1612,22 @@ function configurarExpandibles() {
 
 function cerrarModal() {
 
-  document
-    .getElementById('modal')
-    .classList.remove(
-      'visible'
+  const modal =
+    document.getElementById(
+      'modal'
     );
+
+
+  if (!modal) {
+
+    return;
+
+  }
+
+
+  modal.classList.remove(
+    'visible'
+  );
 
 }
 
@@ -1406,3 +1637,14 @@ function cerrarModal() {
 // ==========================================
 
 cargarDashboard();
+
+
+// ==========================================
+// ACTUALIZACIÓN AUTOMÁTICA
+// Cada 5 minutos
+// ==========================================
+
+setInterval(
+  cargarDashboard,
+  INTERVALO_ACTUALIZACION
+);
