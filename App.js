@@ -1,967 +1,1408 @@
-// ============================================
-// RADAR DE COMPETENCIA - PROCESAMIENTO FINAL
-// ============================================
+// ==========================================
+// RADAR DE COMPETENCIA - FRONTEND
+// ==========================================
 
-// ============================================
-// 1. DATOS DE ENTRADA
-// ============================================
+let DATA = null;
 
-let data = items[0].json;
+let categoriaActual = 'hipercompetencia';
 
 
-// ============================================
-// 2. PARSEAR OUTPUT DE IA
-// ============================================
+// ==========================================
+// CONFIGURACIÓN
+// ==========================================
 
-if (typeof data.output === 'string') {
+const CATEGORIAS = {
 
-  let texto = data.output.trim();
+  hipercompetencia: {
+    titulo: 'Hipercompetencia',
+    badge: 'badge-hiper',
+    etiqueta: 'Hipercompetencia'
+  },
 
-  // Eliminar bloques Markdown
-  texto = texto
-    .replace(/```json/gi, '')
-    .replace(/```/g, '')
-    .trim();
+  perfil_pierde: {
+    titulo: 'Perfil pierde',
+    badge: 'badge-pierde',
+    etiqueta: 'Perfil pierde'
+  },
 
-  // Buscar inicio del JSON
-  const inicio = texto.indexOf('{');
+  sin_cobertura_perfil: {
+    titulo: 'Sin cobertura en Perfil',
+    badge: 'badge-sin',
+    etiqueta: 'Sin cobertura'
+  },
 
-  if (inicio === -1) {
-    throw new Error(
-      'La IA no devolvió ningún objeto JSON.'
-    );
+  oportunidades: {
+    titulo: 'Oportunidades',
+    badge: 'badge-oportunidad',
+    etiqueta: 'Oportunidad'
   }
 
-  texto = texto.substring(inicio);
-
-  // Encontrar cierre real del JSON
-  let profundidad = 0;
-  let dentroString = false;
-  let escapado = false;
-  let fin = -1;
-
-  for (let i = 0; i < texto.length; i++) {
-
-    const caracter = texto[i];
-
-    if (escapado) {
-      escapado = false;
-      continue;
-    }
-
-    if (caracter === '\\') {
-      escapado = true;
-      continue;
-    }
-
-    if (caracter === '"') {
-      dentroString = !dentroString;
-      continue;
-    }
-
-    if (dentroString) {
-      continue;
-    }
-
-    if (caracter === '{') {
-      profundidad++;
-    }
-
-    if (caracter === '}') {
-
-      profundidad--;
-
-      if (profundidad === 0) {
-        fin = i;
-        break;
-      }
-    }
-  }
-
-  if (fin === -1) {
-    throw new Error(
-      'El JSON de la IA está incompleto.'
-    );
-  }
-
-  texto = texto.substring(0, fin + 1);
-
-  // Eliminar comas finales
-  texto = texto.replace(
-    /,\s*([}\]])/g,
-    '$1'
-  );
-
-  try {
-
-    data = JSON.parse(texto);
-
-  } catch (e) {
-
-    throw new Error(
-      'No se pudo convertir el JSON de la IA: ' +
-      e.message
-    );
-  }
-}
-
-
-// ============================================
-// 3. MEDIOS VÁLIDOS
-// ============================================
-
-const MEDIOS = [
-  'Perfil',
-  'La Nación',
-  'Clarín',
-  'Infobae',
-  'TN',
-  'Ámbito',
-  'Página 12',
-  'El Cronista'
-];
-
-
-// ============================================
-// 4. NORMALIZAR NOMBRE DE MEDIO
-// ============================================
-
-function normalizarMedio(nombre) {
-
-  if (!nombre) {
-    return '';
-  }
-
-  const limpio = String(nombre)
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/\s+/g, ' ')
-    .trim();
-
-  const mapa = {
-
-    'perfil':
-      'Perfil',
-
-    'la nacion':
-      'La Nación',
-
-    'lanacion':
-      'La Nación',
-
-    'la-nacion':
-      'La Nación',
-
-    'clarin':
-      'Clarín',
-
-    'infobae':
-      'Infobae',
-
-    'tn':
-      'TN',
-
-    'ambito':
-      'Ámbito',
-
-    'pagina 12':
-      'Página 12',
-
-    'pagina12':
-      'Página 12',
-
-    'pagina-12':
-      'Página 12',
-
-    'pagina/12':
-      'Página 12',
-
-    'cronista':
-      'El Cronista',
-
-    'el cronista':
-      'El Cronista',
-
-    'elcronista':
-      'El Cronista'
-  };
-
-  return mapa[limpio] || '';
-}
-
-
-// ============================================
-// 5. LIMPIAR TEXTO
-// ============================================
-
-function limpiarTexto(valor) {
-
-  if (
-    valor === null ||
-    valor === undefined
-  ) {
-    return '';
-  }
-
-  return String(valor)
-    .replace(/\*\*/g, '')
-    .replace(/__/g, '')
-    .replace(/```json/gi, '')
-    .replace(/```/g, '')
-    .replace(/^´´´/g, '')
-    .replace(/´´´$/g, '')
-    .trim();
-}
-
-
-// ============================================
-// 6. LIMPIAR LINKS
-// ============================================
-
-function limpiarLink(valor) {
-
-  if (!valor) {
-    return '';
-  }
-
-  let link = String(valor).trim();
-
-  // Markdown:
-  // [texto](https://sitio.com)
-  const markdown = link.match(
-    /^\[.*?\]\((https?:\/\/.*?)\)$/
-  );
-
-  if (markdown) {
-    link = markdown[1];
-  }
-
-  link = link
-    .replace(/```/g, '')
-    .replace(/^\[|\]$/g, '')
-    .replace(/\\:/g, ':')
-    .replace(/\\\//g, '/')
-    .replace(/\\_/g, '_')
-    .trim();
-
-  return link;
-}
-
-
-// ============================================
-// 7. NÚMEROS
-// ============================================
-
-function numero(valor) {
-
-  const n = Number(valor);
-
-  return Number.isFinite(n)
-    ? n
-    : 0;
-}
-
-
-// ============================================
-// 8. COBERTURA
-// ============================================
-
-function procesarCobertura(cobertura) {
-
-  const resultado = {};
-
-  // Inicializar todos los medios
-  MEDIOS.forEach(medio => {
-    resultado[medio] = 0;
-  });
-
-  if (
-    !cobertura ||
-    typeof cobertura !== 'object'
-  ) {
-    return resultado;
-  }
-
-  Object.entries(cobertura).forEach(
-    ([medio, cantidad]) => {
-
-      const medioNormalizado =
-        normalizarMedio(medio);
-
-      if (
-        !medioNormalizado ||
-        !MEDIOS.includes(medioNormalizado)
-      ) {
-        return;
-      }
-
-      resultado[medioNormalizado] +=
-        numero(cantidad);
-    }
-  );
-
-  return resultado;
-}
-
-
-// ============================================
-// 9. EJEMPLOS
-// ============================================
-
-function procesarEjemplos(ejemplos) {
-
-  if (!Array.isArray(ejemplos)) {
-    return [];
-  }
-
-  return ejemplos
-    .map(e => {
-
-      const medio =
-        normalizarMedio(e?.medio);
-
-      return {
-
-        medio:
-          medio ||
-          limpiarTexto(e?.medio),
-
-        titulo:
-          limpiarTexto(e?.titulo),
-
-        link:
-          limpiarLink(e?.link),
-
-        imagen:
-          limpiarLink(
-            e?.imagen ||
-            e?.Imagen ||
-            ''
-          )
-      };
-    })
-
-    .filter(e =>
-      e.titulo ||
-      e.link
-    )
-
-    .slice(0, 3);
-}
-
-
-// ============================================
-// 10. ENFOQUES
-// ============================================
-
-function procesarEnfoques(enfoques) {
-
-  if (!Array.isArray(enfoques)) {
-    return [];
-  }
-
-  return enfoques
-    .map(e =>
-      limpiarTexto(e)
-    )
-    .filter(Boolean)
-    .slice(0, 2);
-}
-
-
-// ============================================
-// 11. PROCESAR UN TEMA
-// ============================================
-
-function procesarTema(t) {
-
-  if (
-    !t ||
-    typeof t !== 'object'
-  ) {
-    return null;
-  }
-
-
-  // ------------------------------------------
-  // COBERTURA
-  // ------------------------------------------
-
-  const cobertura =
-    procesarCobertura(
-      t.cobertura
-    );
-
-  const coberturaPerfil =
-    cobertura['Perfil'];
-
-
-  // ------------------------------------------
-  // COMPETIDORES
-  // ------------------------------------------
-
-  const competidores =
-    MEDIOS
-      .filter(
-        medio =>
-          medio !== 'Perfil'
-      )
-      .map(
-        medio => ({
-          medio,
-          notas:
-            cobertura[medio] || 0
-        })
-      );
-
-
-  // ------------------------------------------
-  // MEDIO LÍDER
-  // ------------------------------------------
-
-  const coberturaMedioLider =
-    Math.max(
-      ...competidores.map(
-        item =>
-          item.notas
-      ),
-      0
-    );
-
-  const lider =
-    competidores.find(
-      item =>
-        item.notas ===
-        coberturaMedioLider
-    );
-
-  const medioLider =
-    lider
-      ? lider.medio
-      : '';
-
-
-  // ------------------------------------------
-  // BRECHA
-  // ------------------------------------------
-
-  const brecha =
-    Math.max(
-      0,
-      coberturaMedioLider -
-      coberturaPerfil
-    );
-
-
-  // ------------------------------------------
-  // CANTIDAD DE MEDIOS
-  // ------------------------------------------
-
-  const cantidadMedios =
-    MEDIOS.filter(
-      medio =>
-        cobertura[medio] > 0
-    ).length;
-
-
-  // ------------------------------------------
-  // CANTIDAD DE COMPETIDORES
-  // ------------------------------------------
-
-  const cantidadMediosCompetencia =
-    MEDIOS
-      .filter(
-        medio =>
-          medio !== 'Perfil'
-      )
-      .filter(
-        medio =>
-          cobertura[medio] > 0
-      )
-      .length;
-
-
-  // ------------------------------------------
-  // COMPETENCIA TOTAL
-  // ------------------------------------------
-
-  const competenciaTotal =
-    MEDIOS
-      .filter(
-        medio =>
-          medio !== 'Perfil'
-      )
-      .reduce(
-        (total, medio) =>
-          total +
-          cobertura[medio],
-        0
-      );
-
-
-  // ------------------------------------------
-  // TOTAL NOTAS
-  // ------------------------------------------
-
-  const totalNotas =
-    MEDIOS.reduce(
-      (total, medio) =>
-        total +
-        cobertura[medio],
-      0
-    );
-
-
-  // ------------------------------------------
-  // RESULTADO
-  // ------------------------------------------
-
-  return {
-
-    tema:
-      limpiarTexto(
-        t.tema
-      ),
-
-    prioridad:
-      numero(
-        t.prioridad
-      ),
-
-    tipo:
-      limpiarTexto(
-        t.tipo
-      ),
-
-    tipo_de_oportunidad:
-      limpiarTexto(
-        t.tipo_de_oportunidad
-      ),
-
-    total_notas:
-      totalNotas,
-
-    cantidad_medios:
-      cantidadMedios,
-
-    cobertura_perfil:
-      coberturaPerfil,
-
-    perfil:
-      coberturaPerfil,
-
-    competencia_total:
-      competenciaTotal,
-
-    medio_lider:
-      medioLider,
-
-    cobertura_medio_lider:
-      coberturaMedioLider,
-
-    brecha:
-      brecha,
-
-    cobertura:
-      cobertura,
-
-    por_que_importa:
-      limpiarTexto(
-        t.por_que_importa
-      ),
-
-    insight:
-      limpiarTexto(
-        t.insight
-      ),
-
-    motivo:
-      limpiarTexto(
-        t.motivo
-      ),
-
-    motivo_oportunidad:
-      limpiarTexto(
-        t.motivo_oportunidad
-      ),
-
-    accion_sugerida:
-      limpiarTexto(
-        t.accion_sugerida
-      ),
-
-    enfoques_sugeridos:
-      procesarEnfoques(
-        t.enfoques_sugeridos
-      ),
-
-    ejemplos:
-      procesarEjemplos(
-        t.ejemplos
-      ),
-
-    medios_que_mas_publicaron:
-      Array.isArray(
-        t.medios_que_mas_publicaron
-      )
-        ? t.medios_que_mas_publicaron
-        : [],
-
-    medios_que_cubrieron:
-      Array.isArray(
-        t.medios_que_cubrieron
-      )
-        ? t.medios_que_cubrieron
-        : [],
-
-    cantidad_medios_competencia:
-      cantidadMediosCompetencia
-  };
-}
-
-
-// ============================================
-// 12. PROCESAR CATEGORÍAS
-// ============================================
-
-function procesarCategoria(
-  temas,
-  tipo
-) {
-
-  if (!Array.isArray(temas)) {
-    return [];
-  }
-
-  return temas
-    .map(tema => {
-
-      const procesado =
-        procesarTema(tema);
-
-      if (!procesado) {
-        return null;
-      }
-
-      // La categoría real viene dada
-      // por el bloque donde está el tema.
-      procesado.tipo = tipo;
-
-      return procesado;
-    })
-    .filter(Boolean);
-}
-
-
-// ============================================
-// 13. PROCESAR LAS CUATRO CATEGORÍAS
-// ============================================
-
-const hipercompetencia =
-  procesarCategoria(
-    data.hipercompetencia,
-    'hipercompetencia'
-  );
-
-const perfilPierde =
-  procesarCategoria(
-    data.perfil_pierde,
-    'perfil_pierde'
-  );
-
-const sinCobertura =
-  procesarCategoria(
-    data.sin_cobertura_perfil,
-    'sin_cobertura_perfil'
-  );
-
-const oportunidades =
-  procesarCategoria(
-    data.oportunidades,
-    'oportunidades'
-  );
-
-
-// ============================================
-// 14. CONTROL DE DUPLICADOS
-// ============================================
-
-// IMPORTANTE:
-// El orden de procesamiento define la prioridad.
-// Si un mismo tema aparece en varias categorías,
-// queda solamente en la primera categoría procesada.
-//
-// PRIORIDAD:
-// 1. hipercompetencia
-// 2. perfil_pierde
-// 3. sin_cobertura_perfil
-// 4. oportunidades
-
-const temasVistos =
-  new Set();
-
-function eliminarDuplicadosTemas(
-  temas
-) {
-
-  return temas.filter(
-    tema => {
-
-      const clave =
-        limpiarTexto(
-          tema.tema
-        )
-          .normalize('NFD')
-          .replace(
-            /[\u0300-\u036f]/g,
-            ''
-          )
-          .toLowerCase()
-          .trim();
-
-      if (!clave) {
-        return false;
-      }
-
-      if (
-        temasVistos.has(clave)
-      ) {
-        return false;
-      }
-
-      temasVistos.add(clave);
-
-      return true;
-    }
-  );
-}
-
-
-// ============================================
-// 15. APLICAR PRIORIDAD DE CATEGORÍAS
-// ============================================
-
-const hipercompetenciaFinal =
-  eliminarDuplicadosTemas(
-    hipercompetencia
-  );
-
-const perfilPierdeFinal =
-  eliminarDuplicadosTemas(
-    perfilPierde
-  );
-
-const sinCoberturaFinal =
-  eliminarDuplicadosTemas(
-    sinCobertura
-  );
-
-const oportunidadesFinal =
-  eliminarDuplicadosTemas(
-    oportunidades
-  );
-
-
-// ============================================
-// 16. PRIORIDADES
-// ============================================
-
-let prioridadesRaw =
-  Array.isArray(
-    data.prioridades_del_dia
-  )
-    ? data.prioridades_del_dia
-    : [];
-
-const prioridades =
-  prioridadesRaw
-    .slice(0, 3)
-    .map(
-      (tema, index) => {
-
-        const procesado =
-          procesarTema(
-            tema
-          );
-
-        if (!procesado) {
-          return null;
-        }
-
-        procesado.prioridad =
-          numero(
-            tema?.prioridad
-          ) ||
-          index + 1;
-
-        return procesado;
-      }
-    )
-    .filter(Boolean);
-
-
-// ============================================
-// 17. FECHA
-// ============================================
-
-function formatearFecha(
-  fecha
-) {
-
-  if (!fecha) {
-    return '';
-  }
-
-  const texto =
-    String(fecha)
-      .trim();
-
-  // DD/MM/YYYY
-  let match =
-    texto.match(
-      /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/
-    );
-
-  // DD-MM-YYYY
-  if (!match) {
-    match =
-      texto.match(
-        /^(\d{1,2})-(\d{1,2})-(\d{4})$/
-      );
-  }
-
-  if (!match) {
-    return limpiarTexto(
-      fecha
-    );
-  }
-
-  const dia =
-    Number(
-      match[1]
-    );
-
-  const mes =
-    Number(
-      match[2]
-    );
-
-  const año =
-    match[3];
-
-  const meses = [
-    'enero',
-    'febrero',
-    'marzo',
-    'abril',
-    'mayo',
-    'junio',
-    'julio',
-    'agosto',
-    'septiembre',
-    'octubre',
-    'noviembre',
-    'diciembre'
-  ];
-
-  if (
-    mes < 1 ||
-    mes > 12
-  ) {
-    return limpiarTexto(
-      fecha
-    );
-  }
-
-  return `${dia} de ${meses[mes - 1]} de ${año}`;
-}
-
-
-// ============================================
-// 18. ANÁLISIS COMPLETO
-// ============================================
-
-const analisisCompleto = {
-
-  hipercompetencia:
-    hipercompetenciaFinal,
-
-  perfil_pierde:
-    perfilPierdeFinal,
-
-  sin_cobertura_perfil:
-    sinCoberturaFinal,
-
-  oportunidades:
-    oportunidadesFinal
 };
 
 
-// ============================================
-// 19. TOTAL DE TEMAS
-// ============================================
+// ==========================================
+// CARGAR DATOS
+// ==========================================
 
-const totalTemas =
+async function cargarDashboard() {
 
-  hipercompetenciaFinal.length +
+  try {
 
-  perfilPierdeFinal.length +
+    const response = await fetch(
+      'data-competencia.json?t=' +
+      new Date().getTime(),
+      {
+        cache: 'no-store'
+      }
+    );
 
-  sinCoberturaFinal.length +
-
-  oportunidadesFinal.length;
-
-
-// ============================================
-// 20. SALIDA FINAL
-// ============================================
-
-return [
-  {
-    json: {
-
-      fecha_analisis:
-        formatearFecha(
-          data.fecha_analisis
-        ),
-
-      // --------------------------------------
-      // CATEGORÍAS
-      // --------------------------------------
-
-      hipercompetencia:
-        hipercompetenciaFinal,
-
-      perfil_pierde:
-        perfilPierdeFinal,
-
-      sin_cobertura_perfil:
-        sinCoberturaFinal,
-
-      oportunidades:
-        oportunidadesFinal,
-
-      // --------------------------------------
-      // PRIORIDADES
-      // --------------------------------------
-
-      prioridades_del_dia:
-        prioridades,
-
-      // --------------------------------------
-      // ANÁLISIS COMPLETO
-      // --------------------------------------
-
-      analisis_completo:
-        analisisCompleto,
-
-      // --------------------------------------
-      // CONTROL
-      // --------------------------------------
-
-      total_temas:
-        totalTemas
+    if (!response.ok) {
+      throw new Error(
+        'No se pudo cargar data-competencia.json'
+      );
     }
+
+    DATA = await response.json();
+
+    mostrarFecha();
+
+    mostrarContadores();
+
+    mostrarPrioridades();
+
+    mostrarBrecha();
+
+    configurarEventos();
+
+    mostrarCategoria(
+      categoriaActual
+    );
+
+  } catch (error) {
+
+    console.error(
+      'Error cargando dashboard:',
+      error
+    );
+
+    document.getElementById(
+      'contenido'
+    ).innerHTML = `
+
+      <div class="tema-card vacio">
+
+        <h3>
+          No se pudieron cargar los datos
+        </h3>
+
+        <p>
+          Verificá que
+          <strong>data-competencia.json</strong>
+          exista en el repositorio.
+        </p>
+
+      </div>
+
+    `;
+
   }
-];
+
+}
+
+
+// ==========================================
+// ESCAPE HTML
+// ==========================================
+
+function escaparHTML(texto) {
+
+  if (
+    texto === null ||
+    texto === undefined
+  ) {
+    return '';
+  }
+
+  return String(texto)
+
+    .replace(/&/g, '&amp;')
+
+    .replace(/</g, '&lt;')
+
+    .replace(/>/g, '&gt;')
+
+    .replace(/"/g, '&quot;')
+
+    .replace(/'/g, '&#039;');
+
+}
+
+
+// ==========================================
+// FECHA
+// ==========================================
+
+function mostrarFecha() {
+
+  const elemento =
+    document.getElementById('fecha');
+
+  if (!elemento) {
+    return;
+  }
+
+  elemento.textContent =
+    DATA.fecha_analisis
+      ? 'Análisis: ' +
+        DATA.fecha_analisis
+      : 'Análisis actualizado';
+
+}
+
+
+// ==========================================
+// CONTADORES DE CATEGORÍAS
+// ==========================================
+
+function mostrarContadores() {
+
+  document.getElementById(
+    'count-hiper'
+  ).textContent =
+    (DATA.hipercompetencia || []).length;
+
+
+  document.getElementById(
+    'count-pierde'
+  ).textContent =
+    (DATA.perfil_pierde || []).length;
+
+
+  document.getElementById(
+    'count-sin'
+  ).textContent =
+    (DATA.sin_cobertura_perfil || []).length;
+
+
+  document.getElementById(
+    'count-oportunidades'
+  ).textContent =
+    (DATA.oportunidades || []).length;
+
+}
+
+
+// ==========================================
+// PRIORIDADES DEL DÍA
+// ==========================================
+
+function mostrarPrioridades() {
+
+  const contenedor =
+    document.getElementById(
+      'prioridades'
+    );
+
+  const prioridades =
+    (DATA.prioridades_del_dia || [])
+      .slice(0, 3);
+
+
+  if (!prioridades.length) {
+
+    contenedor.innerHTML = `
+      <div class="tema-card vacio">
+        <h3>
+          No hay prioridades disponibles
+        </h3>
+      </div>
+    `;
+
+    return;
+
+  }
+
+
+  contenedor.innerHTML =
+    prioridades
+      .map(item => {
+
+        const motivo =
+          item.motivo ||
+          item.insight ||
+          item.por_que_importa ||
+          '';
+
+        const accion =
+          item.accion_sugerida ||
+          '';
+
+
+        return `
+
+          <article class="prioridad-card">
+
+            <div class="prioridad-top">
+
+              <div class="prioridad-numero">
+                ${escaparHTML(
+                  item.prioridad
+                )}
+              </div>
+
+              <span class="prioridad-label">
+                PRIORIDAD
+              </span>
+
+            </div>
+
+
+            <h3>
+              ${escaparHTML(
+                item.tema
+              )}
+            </h3>
+
+
+            ${
+              motivo
+                ? `
+                  <p class="prioridad-motivo">
+                    ${escaparHTML(
+                      motivo
+                    )}
+                  </p>
+                `
+                : ''
+            }
+
+
+            ${
+              accion
+                ? `
+                  <div class="prioridad-accion">
+
+                    <strong>
+                      ACCIÓN SUGERIDA
+                    </strong>
+
+                    ${escaparHTML(
+                      accion
+                    )}
+
+                  </div>
+                `
+                : ''
+            }
+
+          </article>
+
+        `;
+
+      })
+      .join('');
+
+}
+
+
+// ==========================================
+// BRECHA DE COBERTURA
+// ==========================================
+
+function mostrarBrecha() {
+
+  const contenedor =
+    document.getElementById(
+      'brecha-chart'
+    );
+
+
+  const todos = [
+
+    ...(DATA.hipercompetencia || []),
+
+    ...(DATA.perfil_pierde || []),
+
+    ...(DATA.sin_cobertura_perfil || []),
+
+    ...(DATA.oportunidades || [])
+
+  ];
+
+
+  const temas = todos
+
+    .filter(item =>
+      Number(item.brecha) > 0
+    )
+
+    .sort(
+      (a, b) =>
+        Number(b.brecha || 0) -
+        Number(a.brecha || 0)
+    )
+
+    .slice(0, 8);
+
+
+  if (!temas.length) {
+
+    contenedor.innerHTML = `
+      <div class="vacio">
+        No hay brechas de cobertura detectadas.
+      </div>
+    `;
+
+    return;
+
+  }
+
+
+  const max =
+    Math.max(
+      ...temas.map(
+        item =>
+          Number(item.brecha) || 0
+      ),
+      1
+    );
+
+
+  contenedor.innerHTML =
+    temas
+      .map(item => {
+
+        const valor =
+          Number(item.brecha) || 0;
+
+        const porcentaje =
+          Math.max(
+            5,
+            (valor / max) * 100
+          );
+
+
+        return `
+
+          <div class="brecha-row">
+
+            <div class="brecha-topic">
+
+              <strong>
+                ${escaparHTML(
+                  item.tema
+                )}
+              </strong>
+
+              <span>
+                ${
+                  escaparHTML(
+                    item.medio_lider ||
+                    'Competencia'
+                  )
+                }
+                lidera · Perfil:
+                ${
+                  Number(
+                    item.cobertura_perfil
+                  ) || 0
+                }
+              </span>
+
+            </div>
+
+
+            <div class="brecha-track">
+
+              <div
+                class="brecha-fill"
+                style="width:${porcentaje}%"
+              ></div>
+
+            </div>
+
+
+            <div class="brecha-value">
+              -${valor}
+            </div>
+
+          </div>
+
+        `;
+
+      })
+      .join('');
+
+}
+
+
+// ==========================================
+// EVENTOS
+// ==========================================
+
+function configurarEventos() {
+
+
+  // Categorías
+
+  document
+    .querySelectorAll(
+      '.category-tab'
+    )
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          document
+            .querySelectorAll(
+              '.category-tab'
+            )
+            .forEach(btn =>
+              btn.classList.remove(
+                'active'
+              )
+            );
+
+
+          button.classList.add(
+            'active'
+          );
+
+
+          categoriaActual =
+            button.dataset.category;
+
+
+          mostrarCategoria(
+            categoriaActual
+          );
+
+        }
+      );
+
+    });
+
+
+  // Orden
+
+  document
+    .getElementById('orden')
+    .addEventListener(
+      'change',
+      () => {
+
+        mostrarCategoria(
+          categoriaActual
+        );
+
+      }
+    );
+
+
+  // Modal
+
+  document
+    .getElementById(
+      'cerrar-modal'
+    )
+    .addEventListener(
+      'click',
+      cerrarModal
+    );
+
+
+  document
+    .querySelector(
+      '.modal-overlay'
+    )
+    .addEventListener(
+      'click',
+      cerrarModal
+    );
+
+}
+
+
+// ==========================================
+// MOSTRAR CATEGORÍA
+// ==========================================
+
+function mostrarCategoria(
+  categoria
+) {
+
+  const contenedor =
+    document.getElementById(
+      'contenido'
+    );
+
+
+  const config =
+    CATEGORIAS[categoria];
+
+
+  const titulo =
+    document.getElementById(
+      'titulo-categoria'
+    );
+
+
+  if (titulo) {
+
+    titulo.textContent =
+      config
+        ? config.titulo
+        : categoria;
+
+  }
+
+
+  let items =
+    Array.isArray(
+      DATA[categoria]
+    )
+      ? [
+          ...DATA[categoria]
+        ]
+      : [];
+
+
+  ordenarTemas(items);
+
+
+  if (!items.length) {
+
+    contenedor.innerHTML = `
+
+      <div class="tema-card vacio">
+
+        <h3>
+          No hay temas detectados
+        </h3>
+
+        <p>
+          El análisis de hoy no encontró
+          elementos para esta categoría.
+        </p>
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  contenedor.innerHTML =
+    items
+      .map(
+        (item, index) =>
+          crearTema(
+            item,
+            categoria,
+            index
+          )
+      )
+      .join('');
+
+
+  configurarExpandibles();
+
+}
+
+
+// ==========================================
+// ORDENAR
+// ==========================================
+
+function ordenarTemas(
+  items
+) {
+
+  const orden =
+    document.getElementById(
+      'orden'
+    )?.value ||
+    'brecha';
+
+
+  if (orden === 'brecha') {
+
+    items.sort(
+      (a, b) =>
+        Number(b.brecha || 0) -
+        Number(a.brecha || 0)
+    );
+
+  }
+
+
+  if (orden === 'notas') {
+
+    items.sort(
+      (a, b) =>
+        Number(b.total_notas || 0) -
+        Number(a.total_notas || 0)
+    );
+
+  }
+
+
+  if (orden === 'medios') {
+
+    items.sort(
+      (a, b) =>
+        Number(b.cantidad_medios || 0) -
+        Number(a.cantidad_medios || 0)
+    );
+
+  }
+
+
+  if (orden === 'alfabetico') {
+
+    items.sort(
+      (a, b) =>
+        String(a.tema || '')
+          .localeCompare(
+            String(b.tema || ''),
+            'es'
+          )
+    );
+
+  }
+
+}
+
+
+// ==========================================
+// CREAR TEMA
+// ==========================================
+
+function crearTema(
+  item,
+  categoria,
+  index
+) {
+
+  const config =
+    CATEGORIAS[categoria];
+
+
+  const cobertura =
+    item.cobertura || {};
+
+
+  const maxCobertura =
+    Math.max(
+      ...Object.values(cobertura)
+        .map(Number)
+        .filter(
+          value =>
+            !isNaN(value)
+        ),
+      1
+    );
+
+
+  const coberturaHTML =
+    crearCobertura(
+      cobertura,
+      maxCobertura
+    );
+
+
+  const insight =
+    item.insight ||
+    item.motivo ||
+    item.motivo_oportunidad ||
+    item.por_que_importa ||
+    '';
+
+
+  const ejemplos =
+    crearEjemplos(
+      item.ejemplos
+    );
+
+
+  const enfoques =
+    crearEnfoques(
+      item.enfoques_sugeridos
+    );
+
+
+  const id =
+    `${categoria}-${index}`;
+
+
+  return `
+
+    <article
+      class="tema-card"
+      id="${escaparHTML(id)}"
+    >
+
+
+      <!-- HEADER -->
+
+      <div class="tema-card-header">
+
+        <h3 class="tema-title">
+
+          ${escaparHTML(
+            item.tema ||
+            'Sin tema'
+          )}
+
+        </h3>
+
+
+        <span
+          class="
+            category-badge
+            ${config.badge}
+          "
+        >
+
+          ${escaparHTML(
+            config.etiqueta
+          )}
+
+        </span>
+
+      </div>
+
+
+      <!-- METRICAS -->
+
+      <div class="mini-metrics">
+
+
+        <div class="mini-metric">
+
+          <strong>
+            ${Number(
+              item.total_notas
+            ) || 0}
+          </strong>
+
+          <span>
+            notas
+          </span>
+
+        </div>
+
+
+        <div class="mini-metric">
+
+          <strong>
+            ${Number(
+              item.cantidad_medios
+            ) || 0}
+          </strong>
+
+          <span>
+            medios
+          </span>
+
+        </div>
+
+
+        <div class="mini-metric">
+
+          <strong>
+            ${Number(
+              item.cobertura_perfil
+            ) || 0}
+          </strong>
+
+          <span>
+            Perfil
+          </span>
+
+        </div>
+
+
+        <div class="mini-metric">
+
+          <strong>
+            ${Number(
+              item.brecha
+            ) || 0}
+          </strong>
+
+          <span>
+            brecha
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- COBERTURA -->
+
+      <div class="coverage-box">
+
+        <div class="coverage-header">
+
+          <strong>
+            Cobertura por medio
+          </strong>
+
+          <span>
+            Líder:
+            ${
+              escaparHTML(
+                item.medio_lider ||
+                '—'
+              )
+            }
+          </span>
+
+        </div>
+
+
+        <div class="coverage-bars">
+
+          ${coberturaHTML}
+
+        </div>
+
+      </div>
+
+
+      <!-- INSIGHT -->
+
+      ${
+        insight
+          ? `
+
+            <div class="insight-box">
+
+              <div class="insight-label">
+                INSIGHT
+              </div>
+
+              <p>
+                ${escaparHTML(
+                  insight
+                )}
+              </p>
+
+            </div>
+
+          `
+          : ''
+      }
+
+
+      <!-- ACCION -->
+
+      ${
+        item.accion_sugerida
+          ? `
+
+            <div class="action-box">
+
+              <div class="action-label">
+                ACCIÓN SUGERIDA
+              </div>
+
+              <p>
+                ${escaparHTML(
+                  item.accion_sugerida
+                )}
+              </p>
+
+            </div>
+
+          `
+          : ''
+      }
+
+
+      <!-- BOTON -->
+
+      <button
+        class="expand-button"
+        data-target="${escaparHTML(id)}"
+      >
+
+        <span>
+          Ver análisis completo
+        </span>
+
+        <span class="expand-arrow">
+          ↓
+        </span>
+
+      </button>
+
+
+      <!-- DETALLE -->
+
+      <div class="detalle">
+
+
+        ${
+          item.por_que_importa
+            ? `
+
+              <div class="detalle-section">
+
+                <h4>
+                  Por qué importa
+                </h4>
+
+                <p>
+                  ${escaparHTML(
+                    item.por_que_importa
+                  )}
+                </p>
+
+              </div>
+
+            `
+            : ''
+        }
+
+
+        ${
+          item.tipo_de_oportunidad
+            ? `
+
+              <div class="detalle-section">
+
+                <h4>
+                  Tipo de oportunidad
+                </h4>
+
+                <p>
+                  ${escaparHTML(
+                    item.tipo_de_oportunidad
+                  )}
+                </p>
+
+              </div>
+
+            `
+            : ''
+        }
+
+
+        ${
+          item.motivo_oportunidad
+            ? `
+
+              <div class="detalle-section">
+
+                <h4>
+                  Motivo
+                </h4>
+
+                <p>
+                  ${escaparHTML(
+                    item.motivo_oportunidad
+                  )}
+                </p>
+
+              </div>
+
+            `
+            : ''
+        }
+
+
+        ${
+          enfoques
+            ? `
+
+              <div class="detalle-section">
+
+                <h4>
+                  Enfoques sugeridos
+                </h4>
+
+                <div class="enfoques">
+
+                  ${enfoques}
+
+                </div>
+
+              </div>
+
+            `
+            : ''
+        }
+
+
+        ${
+          ejemplos
+            ? `
+
+              <div class="detalle-section">
+
+                <h4>
+                  Qué está publicando la competencia
+                </h4>
+
+                <div class="ejemplos-grid">
+
+                  ${ejemplos}
+
+                </div>
+
+              </div>
+
+            `
+            : ''
+        }
+
+      </div>
+
+    </article>
+
+  `;
+
+}
+
+
+// ==========================================
+// COBERTURA
+// ==========================================
+
+function crearCobertura(
+  cobertura,
+  max
+) {
+
+  const medios = [
+
+    'Perfil',
+    'La Nación',
+    'Clarín',
+    'Infobae',
+    'TN',
+    'Ámbito',
+    'Página 12',
+    'El Cronista'
+
+  ];
+
+
+  return medios
+
+    .map(medio => {
+
+      const valor =
+        Number(
+          cobertura[medio]
+        ) || 0;
+
+
+      const porcentaje =
+        valor === 0
+          ? 0
+          : Math.max(
+              7,
+              (valor / max) * 100
+            );
+
+
+      const clase =
+        medio === 'Perfil'
+          ? 'perfil'
+          : '';
+
+
+      return `
+
+        <div
+          class="
+            coverage-line
+            ${clase}
+          "
+        >
+
+          <span class="coverage-name">
+            ${escaparHTML(
+              medio
+            )}
+          </span>
+
+
+          <div class="coverage-track">
+
+            <div
+              class="coverage-fill"
+              style="
+                width:${porcentaje}%
+              "
+            ></div>
+
+          </div>
+
+
+          <span class="coverage-value">
+            ${valor}
+          </span>
+
+        </div>
+
+      `;
+
+    })
+
+    .join('');
+
+}
+
+
+// ==========================================
+// ENFOQUES
+// ==========================================
+
+function crearEnfoques(
+  enfoques
+) {
+
+  if (
+    !Array.isArray(enfoques) ||
+    !enfoques.length
+  ) {
+    return '';
+  }
+
+
+  return enfoques
+    .slice(0, 2)
+    .map(
+      enfoque => `
+
+        <div class="enfoque">
+
+          ${escaparHTML(
+            enfoque
+          )}
+
+        </div>
+
+      `
+    )
+    .join('');
+
+}
+
+
+// ==========================================
+// EJEMPLOS
+// ==========================================
+
+function crearEjemplos(
+  ejemplos
+) {
+
+  if (
+    !Array.isArray(ejemplos) ||
+    !ejemplos.length
+  ) {
+    return '';
+  }
+
+
+  return ejemplos
+    .slice(0, 3)
+    .map(ejemplo => {
+
+      const imagen =
+        ejemplo.imagen ||
+        ejemplo.Imagen ||
+        '';
+
+
+      const link =
+        ejemplo.link ||
+        '#';
+
+
+      return `
+
+        <a
+          class="ejemplo-card"
+          href="${escaparHTML(link)}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          ${
+            imagen
+              ? `
+
+                <img
+                  class="ejemplo-image"
+                  src="${escaparHTML(
+                    imagen
+                  )}"
+                  alt=""
+                  loading="lazy"
+                  onerror="
+                    this.style.display='none'
+                  "
+                >
+
+              `
+              : `
+
+                <div
+                  class="ejemplo-image"
+                ></div>
+
+              `
+          }
+
+
+          <div class="ejemplo-body">
+
+            <div class="ejemplo-medio">
+
+              ${escaparHTML(
+                ejemplo.medio ||
+                ''
+              )}
+
+            </div>
+
+
+            <div class="ejemplo-title">
+
+              ${escaparHTML(
+                ejemplo.titulo ||
+                ''
+              )}
+
+            </div>
+
+          </div>
+
+        </a>
+
+      `;
+
+    })
+
+    .join('');
+
+}
+
+
+// ==========================================
+// EXPANDIBLES
+// ==========================================
+
+function configurarExpandibles() {
+
+  document
+    .querySelectorAll(
+      '.expand-button'
+    )
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          const card =
+            button.closest(
+              '.tema-card'
+            );
+
+
+          const detalle =
+            card.querySelector(
+              '.detalle'
+            );
+
+
+          const abierto =
+            detalle.classList.contains(
+              'abierto'
+            );
+
+
+          if (abierto) {
+
+            detalle.classList.remove(
+              'abierto'
+            );
+
+            button
+              .querySelector(
+                'span:first-child'
+              )
+              .textContent =
+              'Ver análisis completo';
+
+
+            button
+              .querySelector(
+                '.expand-arrow'
+              )
+              .textContent =
+              '↓';
+
+          } else {
+
+            detalle.classList.add(
+              'abierto'
+            );
+
+            button
+              .querySelector(
+                'span:first-child'
+              )
+              .textContent =
+              'Ocultar análisis';
+
+
+            button
+              .querySelector(
+                '.expand-arrow'
+              )
+              .textContent =
+              '↑';
+
+          }
+
+        }
+      );
+
+    });
+
+}
+
+
+// ==========================================
+// MODAL
+// ==========================================
+
+function cerrarModal() {
+
+  document
+    .getElementById('modal')
+    .classList.remove(
+      'visible'
+    );
+
+}
+
+
+// ==========================================
+// INICIAR
+// ==========================================
+
+cargarDashboard();
