@@ -1,42 +1,42 @@
 {
-  "fecha_analisis": "23 de septiembre de 2026",
+  "fecha_analisis": "2026-09-23",
   "hipercompetencia": [
     {
-      "tema": "Discurso de Javier Milei en la ONU y respuesta del Reino Unido sobre Malvinas",
+      "tema": "Reino Unido rechaza negociar la soberanía de las Islas Malvinas tras discurso de Milei en la ONU",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 12,
-      "cantidad_medios": 5,
+      "total_notas": 10,
+      "cantidad_medios": 4,
       "cobertura_perfil": 2,
       "perfil": 2,
-      "competencia_total": 10,
-      "medio_lider": "La Nación",
+      "competencia_total": 8,
+      "medio_lider": "Clarín",
       "cobertura_medio_lider": 4,
       "brecha": 2,
       "cobertura": {
         "Perfil": 2,
-        "La Nación": 4,
+        "La Nación": 3,
         "Clarín": 4,
         "Infobae": 1,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Concentra la máxima atención de la agenda política internacional y nacional, generando un fuerte impacto en la opinión pública y un choque diplomático directo con la negativa británica a renegociar la soberanía.",
-      "insight": "Los lectores buscan transcripciones, frases destacados y análisis de las repercusiones de la prensa británica, lo que dispara el tráfico en Google Discover por el alto componente patriótico y de confrontación.",
+      "por_que_importa": "Es el tema geopolítico central del día que moviliza la agenda internacional y genera fuerte repercusión en la opinión pública argentina debido al reclamo de soberanía.",
+      "insight": "Alto volumen de búsqueda en Google Discover y alta correlación con el interés de la audiencia local en política exterior y reclamos históricos.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un análisis de despiece con las reacciones internacionales y la cobertura en vivo de la respuesta diplomática británica, optimizando metatags enfocados en el discurso de Milei en la ONU.",
+      "accion_sugerida": "Profundizar el análisis con diplomáticos y coberturas de las reacciones de la prensa británica para capturar tráfico de última hora.",
       "enfoques_sugeridos": [
-        "Las repercusiones exactas de la prensa británica ante el reclamo soberano.",
-        "El análisis geopolítico de la estrategia argentina en el atril de Naciones Unidas."
+        "La reacción de la prensa británica ante el duro discurso presidencial",
+        "El impacto geopolítico en la relación bilateral tras el rechazo rotundo"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Reino Unido respondió a Milei tras su discurso en la ONU: no habrá negociaciones soberanía",
+          "titulo": "Reino Unido respondió a Milei tras su discurso en la ONU: no habrá negociaciones de soberanía",
           "link": "https://www.perfil.com/noticias/internacional/reino-unido-respondio-milei-tras-su-discurso-en-la-onu-no-habra-negociaciones-soberania.phtml",
           "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/javier-milei-y-andy-burnham-2332598.jpg"
         },
@@ -48,86 +48,86 @@
         },
         {
           "medio": "Clarín",
-          "titulo": "Gran Bretaña respondió el discurso de Milei por Malvinas: Reino Unido duda soberanía Islas Falkland",
+          "titulo": "Gran Bretaña respondió al discurso de Milei por Malvinas: Reino Unido duda de la soberanía islas Falkland",
           "link": "https://www.clarin.com/politica/gran-bretana-respondio-discurso-milei-malvinas-reino-unido-duda-soberania-islas-falkland_0_3FAcwRBrNy.html",
           "imagen": "https://www.clarin.com/img/2026/09/23/KXlHBrWuJ_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 4
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Visita del papa León XIV a la Argentina y cronograma en Córdoba",
+      "tema": "Discurso de Javier Milei en la Asamblea General de la ONU y críticas al organismo",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 5,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 2,
-      "perfil": 2,
-      "competencia_total": 3,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": 0,
+      "total_notas": 11,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 10,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 5,
+      "brecha": 4,
       "cobertura": {
-        "Perfil": 2,
-        "La Nación": 2,
-        "Clarín": 0,
-        "Infobae": 1,
+        "Perfil": 1,
+        "La Nación": 3,
+        "Clarín": 5,
+        "Infobae": 2,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Moviliza a una enorme porción de la audiencia religiosa y genera interés masivo por los feriados, disposiciones laborales y esquemas de seguridad en el interior del país.",
-      "insight": "Las notas prácticas sobre cómo afectará a la rutina diaria y los horarios oficiales registran picos de lectura sostenidos en dispositivos móviles.",
+      "por_que_importa": "Las duras declaraciones del presidente argentino contra la ONU y la agenda internacional polarizan fuertemente el debate político nacional.",
+      "insight": "Alto rendimiento garantizado en Google Discover por la combinación de la figura presidencial y la confrontación discursiva.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Armar un servicio interactivo o una guía de preguntas frecuentes con los feriados, impacto salarial y cronograma exacto de las actividades del Sumo Pontífice.",
+      "accion_sugerida": "Centralizar el minuto a minuto y destacar las frases más salientes en formatos visuales aptos para redes sociales.",
       "enfoques_sugeridos": [
-        "Guía completa de feriados y obligaciones del empleador durante la visita papal.",
-        "El impacto turístico y logístico en la provincia de Córdoba."
+        "El impacto de la calificación de la ONU como organización inútil por parte de Milei",
+        "Repercusiones en la diplomacia internacional y la oposición interna"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Feriados por la visita del León XIV: no se trabaja y el empleador tiene que pagar como corresponde",
-          "link": "https://www.perfil.com/noticias/cordoba/feriados-por-la-visita-del-leon-xiv-no-se-trabaja-y-el-empleador-tiene-que-pagar-como-corresponde.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/empleadas-domesticas-2332504.jpg"
+          "titulo": "Discurso de Javier Milei ante empresarios e inversores en Nueva York",
+          "link": "https://www.perfil.com/noticias/economia/javier-milei-diserta-ante-empresarios-e-inversores-en-nueva-york-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/javier-milei-democratic-values-economic-freedom-2332599.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Qué se sabe de la visita del papa León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
+          "titulo": "Javier Milei: \"La ONU se convirtió en una organización inútil que solo sirve para alimentar una casta\"",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-la-onu-se-convirtio-en-una-organizacion-inutil-que-solo-sirve-para-alimentar-una-casta-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/AXTSGSEDGZHKRNKW7YR4R43Z3Y.png?auth=f882364d6fa5c67a6b54fe71f19725f38754b6856550f8118822b3961ee9fcd1&smart=true&width=1477&height=964"
         },
         {
-          "medio": "Infobae",
-          "titulo": "Papá León XIV en Perú: todas las actividades del Santo Padre serán gratuitas",
-          "link": "https://www.infobae.com/peru/2026/09/23/papa-leon-xiv-en-peru-todas-las-actividades-del-santo-padre-seran-gratuitas/",
-          "imagen": "https://www.infobae.com/resizer/v2/QJXAP36VXZDNRPJJMU77NMZCTM.png?auth=a2eef83fbd9401548219416f0b564749f9b6a554ad218f8449b583ac8185b13c&smart=true&width=1920&height=1080"
+          "medio": "Clarín",
+          "titulo": "Malvinas, inteligencia artificial, críticas a la ONU y Agenda 2030: el discurso completo de Javier Milei en Naciones Unidas",
+          "link": "https://www.clarin.com/politica/malvinas-inteligencia-artificial-criticas-onu-agenda-2030-discurso-completo-javir-milei-naciones-unidas_0_DqmJOAuJaW.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/3wt8lHbJl_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Aumento del riesgo país y evolución de los mercados financieros",
+      "tema": "Gobierno obtiene dictamen sobre discapacidad tras marcha atrás en recortes",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 7,
-      "cantidad_medios": 4,
-      "cobertura_perfil": 3,
-      "perfil": 3,
+      "total_notas": 4,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 0,
+      "perfil": 0,
       "competencia_total": 4,
       "medio_lider": "Clarín",
       "cobertura_medio_lider": 2,
-      "brecha": 0,
+      "brecha": 2,
       "cobertura": {
-        "Perfil": 3,
+        "Perfil": 0,
         "La Nación": 1,
         "Clarín": 2,
         "Infobae": 1,
@@ -136,147 +136,33 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La economía cotidiana y el termómetro financiero marcan el pulso de la estabilidad del plan oficial, generando alta incertidumbre en inversores y ahorristas.",
-      "insight": "Los lectores económicos consumen actualizaciones constantes sobre la cotización de bonos, riesgo país y dólares paralelos para especular con sus finanzas.",
+      "por_que_importa": "Es un tema de alta sensibilidad social y política que involucra la gestión de recursos estatales y la presión de la oposición.",
+      "insight": "Interés sostenido por parte de lectores que buscan respuestas sobre políticas públicas y ajustes presupuestarios.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Mantener un minuto a minuto actualizado y explicaciones sencillas sobre por qué sube el riesgo país a pesar de los anuncios oficiales.",
+      "accion_sugerida": "Explicar de manera clara en qué consiste el dictamen y qué sectores se verán beneficiados o afectados.",
       "enfoques_sugeridos": [
-        "El impacto de la suba sostenida del riesgo país en las inversiones a mediano plazo.",
-        "Análisis de la brecha cambiaria y su reflejo en la city porteña."
+        "El costo político de la marcha atrás del Ejecutivo en el área de discapacidad",
+        "Los detalles técnicos del nuevo dictamen aprobado en el Congreso"
       ],
       "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Ya llevamos seis ruedas consecutivas de un riesgo país alejándose de esos 500 puntos",
-          "link": "https://www.perfil.com/noticias/canal-e/ya-llevamos-seis-ruedas-consecutivas-de-un-riesgo-pais-alejandose-de-esos-500-puntos.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/riesgo-pais-2332296.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Presión y riesgo país sube octavo día consecutivo",
-          "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
-          "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Mercados: bajan los bonos argentinos y el riesgo país alcanza su nivel más alto desde abril",
-          "link": "https://www.infobae.com/economia/2026/09/23/mercados-bajan-los-bonos-argentinos-y-el-riesgo-pais-alcanza-su-nivel-mas-alto-desde-abril/",
-          "imagen": "https://www.infobae.com/resizer/v2/A5QHQGXHCJEX5EANI3O2KG5A44.JPG?auth=83f54412b27b569e38d516abf730f8fb2d579d011095fdbd77ab7bb06845c8af&smart=true&width=6000&height=4000"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
-    },
-    {
-      "tema": "Advertencias de referentes de IA (OpenAI y Anthropic) en la ONU sobre regulación y riesgos",
-      "prioridad": 0,
-      "tipo": "hipercompetencia",
-      "tipo_de_oportunidad": "",
-      "total_notas": 7,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 3,
-      "perfil": 3,
-      "competencia_total": 4,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 3,
-      "brecha": 0,
-      "cobertura": {
-        "Perfil": 3,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 3,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "La irrupción de la inteligencia artificial en las agendas globales genera debates éticos, económicos y de seguridad nacional de alto voltaje.",
-      "insight": "Temas tecnológicos con declaraciones de CEOs globales traccionan muy bien en lectores jóvenes y profesionales, con alto CTR en motores de búsqueda.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar en las exigencias de regulación democrática que reclaman los líderes tecnológicos frente a la resistencia de potencias como Estados Unidos.",
-      "enfoques_sugeridos": [
-        "El choque entre los gigantes tecnológicos y los gobiernos por el control de la IA.",
-        "Los riesgos éticos y de seguridad señalados por Sam Altman ante la Asamblea."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Donald Trump rechaza la creación de una regulación internacional sobre Inteligencia Artificial",
-          "link": "https://www.perfil.com/noticias/bloomberg/bc-trump-rechaza-llamados-a-crear-una-regulacion-internacional-de-la-ia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/trump-2327578.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "En la ONU, Altman de OpenAI pide extremo cuidado con la IA",
-          "link": "https://www.clarin.com/estados-unidos/en-la-onu-altman-de-openai-pide-extremo-cuidado-con-la-ia_0_R8AZvxPYUQ.html",
-          "imagen": "https://www.clarin.com/img/2026/09/03/SdD3Jbupq_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Altman (OpenAI) advierte en la ONU del peligro de la IA y reclama supervisión democrática",
-          "link": "https://www.infobae.com/america/agencias/2026/09/23/altman-openai-advierte-en-la-onu-del-peligro-de-la-ia-y-reclama-supervision-democratica/",
-          "imagen": ""
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    }
-  ],
-  "perfil_pierde": [
-    {
-      "tema": "Dictamen en el Congreso sobre Discapacidad tras marcha atrás del Gobierno",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 6,
-      "cantidad_medios": 4,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 5,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 3,
-      "brecha": 2,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 3,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Involucra una sensible marcha atrás del oficialismo en materia social y de contención presupuestaria que genera fuertes cruces legislativos.",
-      "insight": "La temática social genera alto repudio o empatía en redes, convirtiéndose en notas de consumo masivo por la presión opositora.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar la cobertura legislativa con detalles del porqué de la marcha atrás y las exigencias de la oposición.",
-      "enfoques_sugeridos": [
-        "El costo político que debió pagar el oficialismo para conseguir el dictamen.",
-        "La desconfianza opositora ante los cambios normativos propuestos."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Disposiciones laborales sobre feriados por la visita del papa León XIV en Córdoba",
-          "link": "https://www.perfil.com/noticias/cordoba/feriados-por-la-visita-del-leon-xiv-no-se-trabaja-y-el-empleador-tiene-que-pagar-como-corresponde.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/empleadas-domesticas-2332504.jpg"
-        },
         {
           "medio": "La Nación",
-          "titulo": "Discapacidad: el gobierno dio marcha atrás y consiguió un dictamen pero persiste la desconfianza por...",
+          "titulo": "Discapacidad: el Gobierno dio marcha atrás y consiguió un dictamen, pero persiste la desconfianza por...",
           "link": "https://www.lanacion.com.ar/politica/discapacidad-el-gobierno-dio-marcha-atras-y-consiguio-un-dictamen-pero-persiste-la-desconfianza-por-nid23092026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/YNP4WUQQZBBKHBA75IGIXY3QCI.JPG?auth=b6710f0165875e2af31606dd2845e674a927216cc5a5c39741278a6a3c3f9fd3&smart=true&width=1040&height=730"
         },
         {
           "medio": "Clarín",
-          "titulo": "Gobierno equivocó fuerte crítica PRO gestión Milei tema discapacidad",
-          "link": "https://www.clarin.com/politica/gobierno-equivoco-fuerte-critica-pro-gestion-milei-tema-discapacidad_0_V6Id4d1VP4.html",
-          "imagen": "https://www.clarin.com/img/2026/09/23/0z4lqxGtK_1200x630__1.jpg"
+          "titulo": "Marcha del Gobierno: el oficialismo consiguió dictamen por discapacidad y avanza la ley pese a desconfianza opositora",
+          "link": "https://www.clarin.com/politica/marcha-gobierno-oficialismo-consiguio-dictamen-discapacidad-avanza-ley-pese-desconfianza-oposicion_0_01kSmaPyqE.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/oRuWgTh5M_1200x630__1.jpg"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Discapacidad: LLA retrocedió con el recorte y logró un dictamen para avanzar con una ley propia",
+          "link": "https://www.infobae.com/politica/2026/09/23/discapacidad-lla-retrocedio-con-el-recorte-y-logro-un-dictamen-para-avanzar-con-una-ley-propia/",
+          "imagen": "https://www.infobae.com/resizer/v2/QQ4UUX3OKRBZBFXUPF2MMT3AAI.JPG?auth=8bf2758c6ff129f0fc9b56694961f8d69f9ff8b74dff76c5ea40abaf05d2afa2&smart=true&width=4928&height=3280"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -284,76 +170,20 @@
       "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Trágico accidente en la Ruta 2 con saldo fatal para arquitectos",
+      "tema": "Cruce entre Dolores Fonzi y el titular del INCAA por recortes a la cultura",
       "prioridad": 0,
-      "tipo": "perfil_pierde",
+      "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 2,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Los siniestros viales con víctimas profesionales y de fuerte conmoción pública generan alto impacto en la sección de policiales y sociedad.",
-      "insight": "La identificación de las víctimas fatales y las causas del vuelco movilizan búsquedas geolocalizadas inmediatas.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Seguir de cerca los peritajes viales en la Autovía 2 y las condolencias de los colegios profesionales.",
-      "enfoques_sugeridos": [
-        "El estado de las rutas y los peritajes sobre el trágico vuelco.",
-        "El dolor en el ámbito de la arquitectura tras la pérdida de los profesionales."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Investigación judicial por el hallazgo de un cuerpo de un bebé en Córdoba",
-          "link": "https://www.perfil.com/noticias/cordoba/hallaron-el-cuerpo-de-un-bebe-en-una-plaza-del-norte-de-cordoba-investigan-que-paso.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/villa-maria-de-rio-seco-2332574.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Viaje arquitectos Mar del Plata terminó tragedia muertos vuelco Ruta 2",
-          "link": "https://www.clarin.com/sociedad/viaje-arquitectos-mar-plata-termino-tragedia-muertos-vuelco-ruta-2_0_UkpQzntSn9.html",
-          "imagen": "https://www.clarin.com/img/2026/09/23/T0jXkFiw4_1200x630__1.jpg"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Quiénes eran el arquitecto y el inspector de obra que murieron cuando volvían de ver una construcción en Mar del Plata",
-          "link": "https://tn.com.ar/sociedad/2026/09/23/quienes-eran-el-arquitecto-y-el-inspector-de-obra-que-murieron-cuando-volvian-de-ver-una-construccion-en-mar-del-plata/",
-          "imagen": "https://tn.com.ar/resizer/v2/TLPQW7TPJBF4XGJC5CDBACXDNE.jpg?auth=de9adafb74b028e2fe7d8f1c15480cfca126337d0b003563633a16ed4c108b70"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Operativos antidrogas y secuestro masivo de drogas sintéticas (éxtasis y MDMA)",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
       "competencia_total": 2,
       "medio_lider": "La Nación",
       "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "brecha": 1,
       "cobertura": {
-        "Perfil": 1,
+        "Perfil": 0,
         "La Nación": 1,
         "Clarín": 1,
         "Infobae": 0,
@@ -362,87 +192,25 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Los golpes al narcotráfico internacional y el contrabando de sustancias de diseño en rutas y aduanas captan el interés de la audiencia policial.",
-      "insight": "Los detalles operativos sobre los dobles fondos en vehículos y la ruta de la droga desde países limítrofes generan un consumo sostenido.",
+      "por_que_importa": "El enfrentamiento entre figuras del espectáculo y funcionarios del área cultural moviliza audiencias masivas en portales de noticias y redes.",
+      "insight": "Alto CTR en secciones de espectáculos y tendencias de redes sociales, excelente para tracción rápida en Discover.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar en las ramificaciones internacionales de las bandas dedicadas al tráfico de drogas sintéticas.",
+      "accion_sugerida": "Dar espacio a las declaraciones completas de ambas partes sin perder el tono periodístico.",
       "enfoques_sugeridos": [
-        "Cómo operaban las células de contrabando de éxtasis en la región.",
-        "Los detalles del operativo de seguridad que interceptó el cargamento."
+        "La reacción de la comunidad artística ante la política de ajuste en el cine nacional",
+        "El descargo oficial de las autoridades del INCAA frente a las críticas"
       ],
       "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Chaco: ocultaban casi 76 kilos de marihuana en sillones dentro de una concesionaria",
-          "link": "https://www.perfil.com/noticias/nea/chaco-ocultaban-casi-76-kilos-de-marihuana-en-sillones-dentro-de-una-concesionaria.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/allanamiento-en-una-concesionaria-de-resistencia-2332543.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Secuestraron 40 kilos de MDMA y 10000 pastillas de éxtasis ocultos en las ruedas y dobles fondos de...",
-          "link": "https://www.lanacion.com.ar/seguridad/secuestraron-40-kilos-de-mdma-y-10000-pastillas-de-extasis-ocultos-en-las-ruedas-y-dobles-fondos-de-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/XPOBE6VVUVFUXBLAAZT6UIUPWY.jpeg?auth=d6387f4e1b9d6c8846edccc77548a95be9104e0c57448ae7a8ea17fcc29cd630&smart=true&width=960&height=1280"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Viajaban Brasil Buenos Aires autos 40 kilos MDMA 10000 pastillas éxtasis",
-          "link": "https://www.clarin.com/policiales/viajaban-brasil-buenos-aires-autos-40-kilos-mdma-10000-pastillas-extasis_0_fmVcLfmO1t.html",
-          "imagen": "https://www.clarin.com/img/2026/09/23/sD57y1ic7_1200x630__1.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Declaraciones de la actriz Dolores Fonzi contra los recortes a la cultura y cruce con el INCAA",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 2,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "El enfrentamiento entre figuras del espectáculo y funcionarios del Gobierno por el presupuesto cultural encabeza los debates mediáticos.",
-      "insight": "La polarización ideológica en torno al cine nacional genera interacciones masivas en redes sociales y portales de noticias.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un compilado de los cruces más fuertes entre el sector artístico y las autoridades del área.",
-      "enfoques_sugeridos": [
-        "La respuesta institucional del INCAA frente a los reclamos del sector.",
-        "El impacto de los recortes presupuestarios en la producción cinematográfica local."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Informe sobre supuestos vínculos esotéricos y adopción de mascota en Casa Rosada",
-          "link": "https://www.perfil.com/noticias/masperfil/rdi-karina-milei-habria-adoptado-un-gato-con-despacho-propio-en-la-casa-rosada-y-tendria-un-fuerte-vinculo-con-el-esoterismo.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/karina-milei-2332441.jpg"
-        },
         {
           "medio": "La Nación",
           "titulo": "La actriz Dolores Fonzi criticó al Gobierno por los recortes a la cultura y el titular del INCAA salió al cruce",
-          "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-sali-al-cruce-nid23092026/",
+          "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-saliou-al-cruce-nid23092026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/P6IM75N5QJASDDP334S6JYHOPU.JPG?auth=1e3d3a61c8f5d88ba3014200f81826ab8591c46dc4bed531d9316a2986bc3894&smart=true&width=6704&height=4868"
         },
         {
           "medio": "Clarín",
-          "titulo": "Gente desalmada Dolores Fonzi criticó Milei recortes cultura titular INCAA acusó viuda gestión anterior",
+          "titulo": "\"Gente desalmada\": Dolores Fonzi criticó a Milei por recortes a la cultura y el titular del Incaa acusó a \"la viuda de la gestión anterior\"",
           "link": "https://www.clarin.com/espectaculos/gente-desalmada-dolores-fonzi-critico-milei-recortes-cultura-titular-incaa-acuso-viuda-gestion-anterior_0_x2HTadx42Q.html",
           "imagen": "https://www.clarin.com/img/2026/09/23/OtKSbYH2A_1200x630__1.jpg"
         }
@@ -452,161 +220,11 @@
       "cantidad_medios_competencia": 2
     }
   ],
-  "sin_cobertura_perfil": [
+  "perfil_pierde": [
     {
-      "tema": "Aumento del consumo de carne de cerdo frente al precio del asado",
+      "tema": "Aumento del riesgo país y comportamiento negativo de los bonos argentinos",
       "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 4,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": 2,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 2,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Interpela de lleno el bolsillo del consumidor argentino en un contexto de retracción de compras y búsqueda de alternativas alimentarias más económicas.",
-      "insight": "Las notas de consumo masivo y hábitos de ahorro familiar funcionan muy bien en Google Discover y redes sociales por su utilidad práctica.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un informe especial sobre precios relativos de cortes porcinos versus vacunos y la reconversión de las carnicerías.",
-      "enfoques_sugeridos": [
-        "La diferencia de precios que empuja a los consumidores a elegir el cerdo.",
-        "El impacto en las ventas de los frigoríficos y remates ganaderos."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 2,8 kilos de cerdo y se disparan las ventas",
-          "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-disparan-las-ventas-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Carne cerdo aliado bolsillo argentinos vale kilo asado pueden comprarse pechito",
-          "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
-          "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Despliegue y preparativos de Donald Trump para recibir a Xi Jinping en Washington",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Define el tablero geopolítico y comercial global entre las dos mayores potencias del planeta, con repercusión directa en los mercados internacionales.",
-      "insight": "Las cumbres bilaterales de alto rango atraen a lectores interesados en política exterior y economía internacional.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un perfil sobre las tensiones y acuerdos previos que se negociarán en la cumbre de Washington.",
-      "enfoques_sugeridos": [
-        "La alfombra roja con honores excepcionales que prepara la Casa Blanca.",
-        "La ausencia de grandes delegaciones empresariales chinas y su lectura económica."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Trump prepara un gran despliegue para recibir a Xi en Washington",
-          "link": "https://www.lanacion.com.ar/el-mundo/trump-prepara-un-gran-despliegue-para-recibir-a-xi-en-washington-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/TXN72KEE4ZCXLEHJS3GDHVA2Q4.JPG?auth=0540ac30e784906304f6296ef2c8151d5d0ad3ebe897700495f62b2d813a7cd1&smart=true&width=3483&height=2322"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "BC: Xi llegaría a la cumbre con Trump sin una delegación de ejecutivos chinos",
-          "link": "https://www.perfil.com/noticias/bloomberg/bc-xi-llegaria-a-la-cumbre-con-trump-sin-una-delegacion-de-ejecutivos-chinos.phtml",
-          "imagen": "https://fotos.perfil.com/2026/05/20/trim/540/304/el-presidente-estadounidense-donald-trump-izquierda-posa-para-fotos-con-el-presidente-chino-xi-jinping-durante-una-visita-al-jardin-zhongnanhai-en-pekin-el-15-de-mayo-de-2026-2244225.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "Nuevas alertas meteorológicas (naranjas y amarillas) por lluvias y viento Zonda",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 2,
-      "cantidad_medios": 2,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 2,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Informa de manera directa sobre fenómenos climáticos extremos que afectan la seguridad y la rutina diaria en distintas provincias argentinas.",
-      "insight": "Las alertas del Servicio Meteorológico Nacional generan un tráfico instantáneo muy alto impulsado por búsquedas móviles locales y Google Discover.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Elaborar un mapa interactivo o una lista detallada con las provincias afectadas y las precauciones a tomar.",
-      "enfoques_sugeridos": [
-        "Las zonas bajo alerta naranja por viento Zonda y tormentas severas.",
-        "Recomendaciones oficiales de Defensa Civil ante la inestabilidad climática."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Hay alerta naranja y amarilla por lluvias, nevadas y Zonda para este miércoles 23 de septiembre, las...",
-          "link": "https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-lluvias-nevadas-y-zonda-para-este-miercoles-23-de-septiembre-las-...",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/3HNRGEULW5DZDJAVYCKCWUEUB4.png?auth=6e05e170c679a4f924407a0eb02f5dcd40a437842db5d390ad9b8e423b7ee68c&smart=true&width=388&height=800"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Súper Niño 2026 Argentina vivo provincias afectadas esperan lluvias ola polar cambia clima",
-          "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-provincias-afectadas-esperan-lluvias-ola-polar-cambia-clima_0_psFNpTqdN3.html",
-          "imagen": "https://www.clarin.com/img/2019/04/13/MrrsgK7tw_1200x630__1.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Informe del Banco de España sobre déficit habitacional superior al millón de viviendas",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
+      "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
       "total_notas": 2,
       "cantidad_medios": 2,
@@ -626,51 +244,49 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Refleja una crisis estructural global en el acceso a la vivienda y el mercado inmobiliario que resuena fuertemente en las grandes urbes.",
-      "insight": "Las notas sobre alquileres, escasez de inmuebles y crisis habitacional generan un debate muy activo en redes y portales de noticias.",
+      "por_que_importa": "Indicador clave de la economía argentina que impacta en los mercados financieros y la confianza de los inversores.",
+      "insight": "Los lectores económicos y financieros buscan explicaciones detalladas sobre las subas consecutivas del riesgo país.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Analizar la problemática de la vivienda a nivel internacional y contrastarla con la coyuntura del mercado de alquileres en Argentina.",
+      "accion_sugerida": "Ampliar los reportes diarios de los mercados financieros con análisis de analistas de la city.",
       "enfoques_sugeridos": [
-        "Los motivos detrás del déficit de más de un millón de viviendas proyectado.",
-        "El impacto en los precios de alquileres y la falta de acceso para jóvenes."
+        "Los factores externos e internos que presionan al alza el riesgo país",
+        "El impacto en los títulos públicos y la colocación de deuda"
       ],
       "ejemplos": [
         {
-          "medio": "Infobae",
-          "titulo": "El Banco de España cree que el déficit de viviendas superará el millón en dos años",
-          "link": "https://www.infobae.com/espana/agencias/2026/09/23/el-banco-de-espana-cree-que-el-deficit-de-viviendas-superara-el-millon-en-dos-anos/",
-          "imagen": ""
+          "medio": "Clarín",
+          "titulo": "Presión: el riesgo país sube por octavo día consecutivo",
+          "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Dramático desalojo mujer 87 años Madrid desnuda voracidad fondo buitre",
-          "link": "https://www.clarin.com/mundo/dramatico-desalojo-mujer-87-anos-madrid-desnuda-voracidad-fondo-buitre_0_a8Nm042wIE.html",
-          "imagen": "https://www.clarin.com/img/2026/09/23/y0_PjvPhs_1200x630__1.jpg"
+          "medio": "Infobae",
+          "titulo": "Mercados: bajan los bonos argentinos y el riesgo país alcanza su nivel más alto desde abril",
+          "link": "https://www.infobae.com/economia/2026/09/23/mercados-bajan-los-bonos-argentinos-y-el-riesgo-pais-alcanzan-su-nivel-mas-alto-desde-abril/",
+          "imagen": "https://www.infobae.com/resizer/v2/A5QHQGXHCJEX5EANI3O2KG5A44.JPG?auth=83f54412b27b569e38d516abf730f8fb2d579d011095fdbd77ab7bb06845c8af&smart=true&width=6000&height=4000"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
       "cantidad_medios_competencia": 2
-    }
-  ],
-  "oportunidades": [
+    },
     {
-      "tema": "Fallo de Casación que ratifica culpabilidad de policía en el caso Bastián Escalante",
+      "tema": "Operativo de búsqueda de kayakistas desaparecidos en Santa Teresita",
       "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad parcial del competidor",
-      "total_notas": 1,
-      "cantidad_medios": 1,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
       "cobertura_perfil": 0,
       "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "Clarín",
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 1,
       "brecha": 1,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
+        "La Nación": 1,
         "Clarín": 1,
         "Infobae": 0,
         "TN": 0,
@@ -678,21 +294,279 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Los casos de gatillo fácil y sentencias judiciales sobre fuerzas de seguridad movilizan una intensa empatía social y judicial.",
-      "insight": "La audiencia penal y de derechos humanos consume ávidamente los detalles sobre la revisión de penas a efectivos policiales.",
+      "por_que_importa": "Noticia de fuerte impacto emocional y social que genera atención en todo el país durante la temporada baja.",
+      "insight": "Las coberturas en desarrollo sobre rescates y emergencias traccionan lecturas masivas en buscadores.",
       "motivo": "",
-      "motivo_oportunidad": "Clarín cubrió en solitario un tema judicial de alto impacto emocional y conmoción pública en el conurbano bonaerense, dejando un vacío total en la redacción de Perfil.",
-      "accion_sugerida": "Publicar un seguimiento inmediato con la palabra de los familiares de Bastián Escalante y los fundamentos del fallo de Casación.",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Actualizar el estado de los operativos de Prefectura Naval en tiempo real.",
       "enfoques_sugeridos": [
-        "El análisis técnico del fallo de Casación y la orden de revisar la pena.",
-        "El reclamo de justicia de los familiares tras la ratificación de culpabilidad."
+        "El despliegue de seguridad en la costa atlántica para dar con los deportistas",
+        "El testimonio de los familiares y los detalles del ingreso al mar"
       ],
       "ejemplos": [
         {
+          "medio": "La Nación",
+          "titulo": "Qué se sabe de los dos kayakistas desaparecidos en Santa Teresita: ingresaron al mar y no pudieron...",
+          "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-los-dos-kayakistas-desaparecidos-en-santa-teresita-ingresaron-al-mar-y-no-pudieron-nid22092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/2WEMFH4VHFAJFFJ7AS5KXOTMSE.jpeg?auth=d66837871c09ec8179ef381abaa64203356d80d4a9604e452f562755c734d68b&smart=true&width=720&height=815"
+        },
+        {
           "medio": "Clarín",
-          "titulo": "Caso Bastián Escalante polémico fallo Casación ratificó culpabilidad policía ordenó revisar pena",
-          "link": "https://www.clarin.com/policiales/caso-bastian-escalante-polemico-fallo-casacion-ratifico-culpabilidad-policia-ordeno-revisar-pena_0_PU9ztQZTrC.html",
-          "imagen": "https://www.clarin.com/img/2024/07/23/VYCAm8LCv_1200x630__1.jpg"
+          "titulo": "Amplían búsqueda de kayakistas que desaparecieron en el mar de Santa Teresita",
+          "link": "https://www.clarin.com/sociedad/amplian-busqueda-kayakistas-desaparecieron-mar-santa-teresita_0_NveKzJgNly.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/qf9zzAnvJ_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Comparativa de precios entre carne vacuna y carne de cerdo en Argentina",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Información de utilidad práctica para el consumo familiar y el presupuesto de los hogares frente a la inflación.",
+      "insight": "Altas búsquedas orientadas a la economía doméstica, ideales para posicionamiento en Discover y redes.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Elaborar guías de ahorro y opciones de sustitución de cortes cárnicos.",
+      "enfoques_sugeridos": [
+        "El incremento en el consumo de cerdo como alternativa al asado",
+        "La evolución de los precios en carnicerías y supermercados"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 28 kilos de cerdo y se...",
+          "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Carne de cerdo, aliado del bolsillo de los argentinos: cuánto vale el kilo de asado y cuántos pechitos...",
+          "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
+          "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Secuestro de 40 kilos de MDMA y pastillas de éxtasis ocultos en vehículos",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Operativo policial de gran envergadura vinculado al narcotráfico internacional de drogas sintéticas.",
+      "insight": "Atrae lectores interesados en crónicas policiales y procedimientos de fuerzas federales.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Profundizar en la ruta del tráfico de drogas sintéticas desde Brasil hacia Buenos Aires.",
+      "enfoques_sugeridos": [
+        "El modus operandi de los contrabandistas para ocultar la droga en dobles fondos",
+        "Los detalles del operativo realizado por las fuerzas de seguridad"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Secuestraron 40 kilos de MDMA y 10.000 pastillas de éxtasis ocultos en las ruedas y dobles fondos de...",
+          "link": "https://www.lanacion.com.ar/seguridad/secuestraron-40-kilos-de-mdma-y-10000-pastillas-de-extasis-ocultos-en-las-ruedas-y-dobles-fondos-de-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/XPOBE6VVUVFUXBLAAZT6UIUPWY.jpeg?auth=d6387f4e1b9d6c8846edccc77548a95be9104e0c57448ae7a8ea17fcc29cd630&smart=true&width=960&height=1280"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Viajaban de Brasil a Buenos Aires en autos con 40 kilos de MDMA y 10.000 pastillas de éxtasis",
+          "link": "https://www.clarin.com/policiales/viajaban-brasil-buenos-aires-autos-40-kilos-mdma-10000-pastillas-extasis_0_fmVcLfmO1t.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/sD57y1ic7_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    }
+  ],
+  "sin_cobertura_perfil": [
+    {
+      "tema": "Gobierno de la Ciudad pide juicio político y remoción de la jueza Laura Marinis",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Conflicto institucional de alto perfil en CABA vinculado al sistema penal juvenil y decisiones judiciales cuestionadas.",
+      "insight": "Alto interés local en temas judiciales y de seguridad en la Ciudad de Buenos Aires.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Seguir de cerca los fundamentos del pedido de jury y las repercusiones en el fuero penal.",
+      "enfoques_sugeridos": [
+        "Los argumentos del Gobierno porteño para solicitar la destitución de la magistrada",
+        "El debate en torno a la reforma penal juvenil y los fallos polémicos"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Habló la víctima del menor liberado por la jueza Laura De Marinis",
+          "link": "https://www.lanacion.com.ar/seguridad/hablo-la-victima-del-menor-liberado-por-la-jueza-laura-de-marinis-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ZK2CYQVMRNFATDXJ2RR6CKEYRA.jpg?auth=0c6b58ed4ecdc9ec6ab4ac5c2f8494ccf69b43a40b95bf4e4b70e2b26525a122&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Reforma penal juvenil: Gobierno porteño denunció mal desempeño de jueza Laura Marinis y pidió jury de enjuiciamiento para removerla",
+          "link": "https://www.clarin.com/policiales/reforma-penal-juvenil-gobierno-porteno-denuncio-mal-desempeno-jueza-laura-marinis-pidio-jury-enjuiciamiento-removerla_0_ZsOFLKUk4U.html",
+          "imagen": "https://www.clarin.com/img/2026/09/21/pLuEBfmLv_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Aprobación con cambios en el Senado de la reforma del Banco Central",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Modificación legislativa central sobre el sistema financiero y monetario que retorna a la Cámara de Diputados.",
+      "insight": "Relevante para audiencias interesadas en la macroeconomía y la actividad parlamentaria.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Analizar los cambios introducidos por el oficialismo y cómo impactarán en la estructura del BCRA.",
+      "enfoques_sugeridos": [
+        "El debate legislativo y los acuerdos políticos en la Cámara alta",
+        "El impacto institucional de la reforma monetaria que vuelve a Diputados"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Senado: el oficialismo aceptó cambios y la reforma del Central deberá volver a Diputados",
+          "link": "https://www.lanacion.com.ar/politica/senado-el-oficialismo-acepto-cambios-y-la-reforma-del-central-debera-volver-a-diputados-nid23092026/",
+          "imagen": ""
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Senado: el oficialismo introdujo cambios en la reforma del Banco Central e intentará aprobarla mañana",
+          "link": "https://www.infobae.com/politica/2026/09/23/senado-el-oficialismo-introdujo-cambios-en-la-reforma-del-banco-central-e-intentara-aprobarla-manana/",
+          "imagen": "https://www.infobae.com/resizer/v2/GYR6UPXC3VAULIRSKF7OYTRRLI.jpg?auth=851bfecd4c45d938d9308588b35a7b2c67b4125012a5ede958d429a894ec1c4d&smart=true&width=1920&height=1280"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Advertencia internacional de Anthropic y OpenAI sobre los riesgos de la inteligencia artificial",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 2,
+      "brecha": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 2,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Los principales referentes tecnológicos exigen marcos regulatorios globales ante el avance descontrolado de la IA.",
+      "insight": "Alta tracción en audiencias jóvenes y profesionales del sector tecnológico y científico.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Redactar artículos explicativos sobre los peligros señalados por los gigantes tecnológicos.",
+      "enfoques_sugeridos": [
+        "El pedido de supervisión democrática y regulación global ante la ONU",
+        "Los riesgos de entrenar modelos de IA con contenido protegido"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "OpenAI y Anthropic piden a Australia entrenar sus IA con contenido protegido bajo condiciones",
+          "link": "https://www.infobae.com/tecno/2026/09/23/openai-y-anthropic-piden-a-australia-entrenar-sus-ia-con-contenido-protegido-bajo-condiciones/",
+          "imagen": "https://www.infobae.com/resizer/v2/S4L7K4PFJJAJJAXXHVPJYFCQLI.JPG?auth=b1fec2fc05b90375f58e313ac63102b0c76a1872d4abd9b2b7a620fcdc43a5e5&smart=true&width=3500&height=2333"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Anthropic alerta en ONU de riesgos de IA: \"Ninguna nación puede gestionar esto en solitario\"",
+          "link": "https://www.infobae.com/america/agencias/2026/09/23/anthropic-alerta-en-onu-de-riesgos-de-ia-ninguna-nacion-puede-gestionar-esto-en-solitario/",
+          "imagen": ""
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -700,10 +574,56 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Entrada en vigencia de ley en Texas que habilita pagos respaldados con oro y plata",
+      "tema": "Gobierno nacional afronta nuevo vencimiento de deuda con el FMI",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Compromiso financiero internacional clave para la estabilidad de las reservas del Banco Central.",
+      "insight": "Tema prioritario para lectores especializados en economía y finanzas públicas.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Detallar el impacto en las reservas netas y los planes del Palacio de Hacienda para afrontar el pago.",
+      "enfoques_sugeridos": [
+        "El estado de las reservas internacionales frente al nuevo compromiso con el organismo",
+        "Las negociaciones y el impacto fiscal del cumplimiento de metas"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "El Gobierno enfrenta un nuevo vencimiento de deuda con el FMI: el impacto en las reservas y cómo espera compensarlo",
+          "link": "https://www.infobae.com/economia/2026/09/23/el-gobierno-enfrenta-un-nuevo-vencimiento-de-deuda-con-el-fmi-el-impacto-en-las-reservas-y-como-espera-compensarlo/",
+          "imagen": "https://www.infobae.com/resizer/v2/747W5H2G7RB6TFOQTADWXTB7SE.JPG?auth=121fb91ad7227779f64339b10eb95553e5979d2962e85322ce36b10275adb0fe&smart=true&width=800&height=533"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "oportunidades": [
+    {
+      "tema": "Entrada en vigencia de ley en Texas que habilita pagos respaldados en oro y plata",
       "prioridad": 0,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+      "tipo_de_oportunidad": "Cobertura exclusiva de La Nación en medios nacionales",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
@@ -722,14 +642,14 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Interesa a un nicho económico y financiero muy ávido de innovaciones monetarias alternativas al papel moneda tradicional.",
-      "insight": "Las notas sobre respaldo en metales preciosos suelen tener un excelente rendimiento en redes sociales y buscadores por su perfil disruptivo.",
+      "por_que_importa": "Innovación legislativa en materia monetaria alternativa que atrae a inversores y lectores interesados en refugios de valor.",
+      "insight": "Contenido de alta viralidad en redes sociales para comunidades interesadas en finanzas descentralizadas y oro.",
       "motivo": "",
-      "motivo_oportunidad": "La Nación abordó en exclusiva una medida económica de corte libertario en Estados Unidos que sintoniza directamente con el discurso económico oficial argentino.",
-      "accion_sugerida": "Redactar una nota de análisis explicando cómo funcionará el sistema de pagos electrónicos en oro y plata en Texas.",
+      "motivo_oportunidad": "La Nación es el único medio que cubre una medida monetaria de gran interés internacional, permitiendo captar tráfico de nicho sobre criptoactivos, metales preciosos y economía estadounidense.",
+      "accion_sugerida": "Desarrollar un análisis sobre el impacto de los pagos en metales preciosos frente a la desdolarización.",
       "enfoques_sugeridos": [
-        "El impacto de la nueva legislación impulsada en Texas sobre la dolarización y metales.",
-        "La viabilidad de implementar medios de pago respaldados en oro físico."
+        "Cómo funcionarán los pagos electrónicos respaldados en oro y plata en Texas",
+        "El antecedente para otras economías que buscan alternativas al sistema tradicional"
       ],
       "ejemplos": [
         {
@@ -744,10 +664,10 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Condena a 15 años de prisión para el exproductor de cine Harvey Weinstein",
+      "tema": "Justicia condena al Hospital Italiano a indemnizar a paciente con casi 100 millones de pesos",
       "prioridad": 0,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+      "tipo_de_oportunidad": "Exclusiva de Clarín en el segmento judicial de salud",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
@@ -766,21 +686,21 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Revive uno de los casos fundacionales del movimiento #MeToo con un fuerte peso en la agenda de espectáculos y policiales internacionales.",
-      "insight": "Las sentencias contra figuras caídas en desgracia en Hollywood garantizan un alto volumen de clics en la sección de Espectáculos y Mundo.",
+      "por_que_importa": "Establece un importante antecedente jurisprudencial en materia de indemnizaciones por responsabilidad médica en instituciones privadas.",
+      "insight": "Las notas sobre fallos judiciales millonarios generan alto tiempo de permanencia en página.",
       "motivo": "",
-      "motivo_oportunidad": "Clarín cubrió en solitario un fallo judicial internacional de enorme repercusión en la cultura global y el movimiento de reivindicación de género.",
-      "accion_sugerida": "Publicar un recuento de la caída judicial de Weinstein y las repercusiones en la industria cinematográfica.",
+      "motivo_oportunidad": "Clarín cubre un fallo por mala praxis de alta repercusión legal, un tema con un rendimiento excepcional en buscadores por consultas sobre derechos de pacientes.",
+      "accion_sugerida": "Publicar una nota legal explicando los fundamentos del fallo y los montos involucrados.",
       "enfoques_sugeridos": [
-        "Los detalles de la nueva condena a 15 años de prisión para el exmagnate.",
-        "El balance del impacto del movimiento #MeToo en Hollywood tras el fallo."
+        "Los detalles de la demanda por mala praxis que derivó en la millonaria condena",
+        "El criterio de la Justicia para fijar indemnizaciones en el sector de salud privado"
       ],
       "ejemplos": [
         {
           "medio": "Clarín",
-          "titulo": "Golpe expoderoso Hollywood condenaron Harvey Weinstein 15 años prisión",
-          "link": "https://www.clarin.com/mundo/golpe-expoderoso-hollywood-condenaron-harvey-weinstein-15-anos-prision_0_zoJCVT8r4O.html",
-          "imagen": "https://www.clarin.com/img/2026/09/23/OWVLNCPyI_1200x630__1.jpg"
+          "titulo": "Justicia: falló que Hospital Italiano deberá indemnizar a paciente con casi 100 millones",
+          "link": "https://www.clarin.com/policiales/justicia-fallo-hospital-italiano-debera-indemnizar-paciente-100-millones_0_W80jjsq2NR.html",
+          "imagen": "https://www.clarin.com/img/2025/02/12/yWs9rttDA_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -788,10 +708,54 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Preparativos del Ejército Argentino para el lanzamiento de su primer nanosatélite",
+      "tema": "Billetera virtual de los bancos lanza pagos integrados con ChatGPT",
       "prioridad": 0,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+      "tipo_de_oportunidad": "Exclusiva de Clarín en innovación tecnológica y fintech",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Marca un hito en la integración de la inteligencia artificial generativa con servicios financieros de uso masivo en Argentina.",
+      "insight": "Alto interés de la audiencia digital en herramientas de IA aplicada a la vida diaria.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín cubre en solitario una primicia de tecnología aplicada a las finanzas cotidianas, con gran potencial de viralización en audiencias interesadas en inteligencia artificial y medios de pago.",
+      "accion_sugerida": "Explicar cómo funcionarán los pagos mediante comandos conversacionales y qué medidas de seguridad incluirán.",
+      "enfoques_sugeridos": [
+        "La irrupción de ChatGPT en las transacciones financieras cotidianas",
+        "La competencia entre billeteras virtuales y la banca tradicional"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Competir con Mercado Libre: billetera virtual de los bancos lanza pagos con ChatGPT",
+          "link": "https://www.clarin.com/economia/competir-mercado-libre-billetera-virtual-bancos-lanza-pagos-chatgpt_0_Y8PoqZe3Wa.html",
+          "imagen": "https://www.clarin.com/img/2023/03/15/Zp4Z_xMtX_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Ejército Argentino avanza en los preparativos para lanzar su primer nanosatélite",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusiva de Infobae en ciencia y defensa",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
@@ -810,20 +774,20 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Combina tecnología aeroespacial, defensa nacional e innovación, temas que despiertan gran curiosidad en lectores tecnólogos.",
-      "insight": "Los hitos científicos nacionales traccionan muy bien en audiencias interesadas en ciencia, técnica y desarrollo local.",
+      "por_que_importa": "",
+      "insight": "Contenidos de ciencia y tecnología espacial tienen excelente rendimiento en Google Discover.",
       "motivo": "",
-      "motivo_oportunidad": "Infobae cubrió en exclusiva un avance científico-militar de soberanía tecnológica nacional que pasó desapercibido en Perfil.",
-      "accion_sugerida": "Ampliar la información con fichas técnicas sobre las funciones del nanosatélite y su importancia estratégica.",
+      "motivo_oportunidad": "Infobae cubre un acontecimiento científico-militar de desarrollo nacional que genera orgullo y curiosidad en la audiencia local.",
+      "accion_sugerida": "Ampliar con detalles técnicos sobre la misión, los objetivos estratégicos y el desarrollo de ingeniería local.",
       "enfoques_sugeridos": [
-        "Para qué servirá el primer nanosatélite desarrollado por el Ejército Argentino.",
-        "Los detalles técnicos de la misión espacial coordinada por fuerzas locales."
+        "Para qué servirá el primer nanosatélite desarrollado por el Ejército Argentino",
+        "Los detalles tecnológicos de la misión espacial en desarrollo"
       ],
       "ejemplos": [
         {
           "medio": "Infobae",
           "titulo": "El Ejército Argentino se prepara para lanzar su primer nanosatélite: para qué servirá y cómo será la misión",
-          "link": "https://www.infobae.com/tecno/2026/09/23/el-ejercito-argentino-se-prepara-para-lanzar-su-primer-nanosateligte-para-que-servira-y-como-sera-la-mision/",
+          "link": "https://www.infobae.com/tecno/2026/09/23/el-ejercito-argentino-se-prepara-lanzar-su-primer-nanosatelite-para-que-servira-y-como-sera-la-mision/",
           "imagen": "https://www.infobae.com/resizer/v2/NFLUO2M7MRCP3OFHRYD36YG4L4.png?auth=28f7e4f6b0fb84e427ee6b713d203066512994e7165a1c87f7fb0f3b49cb02a8&smart=true&width=1203&height=737"
         }
       ],
@@ -834,41 +798,41 @@
   ],
   "prioridades_del_dia": [
     {
-      "tema": "Discurso de Javier Milei en la ONU y respuesta del Reino Unido sobre Malvinas",
+      "tema": "Reino Unido rechaza negociar la soberanía de las Islas Malvinas tras discurso de Milei en la ONU",
       "prioridad": 1,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 12,
-      "cantidad_medios": 5,
+      "total_notas": 10,
+      "cantidad_medios": 4,
       "cobertura_perfil": 2,
       "perfil": 2,
-      "competencia_total": 10,
-      "medio_lider": "La Nación",
+      "competencia_total": 8,
+      "medio_lider": "Clarín",
       "cobertura_medio_lider": 4,
       "brecha": 2,
       "cobertura": {
         "Perfil": 2,
-        "La Nación": 4,
+        "La Nación": 3,
         "Clarín": 4,
         "Infobae": 1,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Concentra la máxima atención de la agenda política internacional y nacional, generando un fuerte impacto en la opinión pública y un choque diplomático directo con la negativa británica a renegociar la soberanía.",
-      "insight": "Los lectores buscan transcripciones, frases destacados y análisis de las repercusiones de la prensa británica, lo que dispara el tráfico en Google Discover por el alto componente patriótico y de confrontación.",
+      "por_que_importa": "Es el eje informativo central del día con repercusión internacional directa sobre la soberanía argentina.",
+      "insight": "Máxima prioridad en Google Discover y búsquedas de actualidad nacional.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un análisis de despiece con las reacciones internacionales y la cobertura en vivo de la respuesta diplomática británica, optimizando metatags enfocados en el discurso de Milei en la ONU.",
+      "accion_sugerida": "Actualizar el ángulo diplomático y sumar voces de especialistas en derecho internacional.",
       "enfoques_sugeridos": [
-        "Las repercusiones exactas de la prensa británica ante el reclamo soberano.",
-        "El análisis geopolítico de la estrategia argentina en el atril de Naciones Unidas."
+        "El rechazo británico y su impacto en la estrategia diplomática argentina",
+        "La repercusión en la prensa internacional sobre el reclamo en la ONU"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Reino Unido respondió a Milei tras su discurso en la ONU: no habrá negociaciones soberania",
+          "titulo": "Reino Unido respondió a Milei tras su discurso en la ONU: no habrá negociaciones de soberanía",
           "link": "https://www.perfil.com/noticias/internacional/reino-unido-respondio-milei-tras-su-discurso-en-la-onu-no-habra-negociaciones-soberania.phtml",
           "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/javier-milei-y-andy-burnham-2332598.jpg"
         },
@@ -880,59 +844,59 @@
         },
         {
           "medio": "Clarín",
-          "titulo": "Gran Bretaña respondió el discurso de Milei por Malvinas: Reino Unido duda soberanía Islas Falkland",
+          "titulo": "Gran Bretaña respondió al discurso de Milei por Malvinas: Reino Unido duda de la soberanía islas Falkland",
           "link": "https://www.clarin.com/politica/gran-bretana-respondio-discurso-milei-malvinas-reino-unido-duda-soberania-islas-falkland_0_3FAcwRBrNy.html",
           "imagen": "https://www.clarin.com/img/2026/09/23/KXlHBrWuJ_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 4
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Aumento del consumo de carne de cerdo frente al precio del asado",
+      "tema": "Aumento del riesgo país y comportamiento negativo de los bonos argentinos",
       "prioridad": 2,
-      "tipo": "sin_cobertura_perfil",
+      "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 4,
+      "total_notas": 2,
       "cantidad_medios": 2,
       "cobertura_perfil": 0,
       "perfil": 0,
-      "competencia_total": 4,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": 2,
+      "competencia_total": 2,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 2,
-        "Clarín": 2,
-        "Infobae": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 1,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Interpela de lleno el bolsillo del consumidor argentino en un contexto de retracción de compras y búsqueda de alternativas alimentarias más económicas.",
-      "insight": "Las notas de consumo masivo y hábitos de ahorro familiar funcionan muy bien en Google Discover y redes sociales por su utilidad práctica.",
+      "por_que_importa": "Es una falencia de cobertura propia en un tema económico altamente sensible para la audiencia inversora.",
+      "insight": "Los lectores financieros exigen inmediatez y profundidad en la cobertura de los vaivenes de los bonos.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un informe especial sobre precios relativos de cortes porcinos versus vacunos y la reconversión de las carnicerías.",
+      "accion_sugerida": "Publicar un informe de urgencia con las causas de la suba del riesgo país y el impacto en los títulos.",
       "enfoques_sugeridos": [
-        "La diferencia de precios que empuja a los consumidores a elegir el cerdo.",
-        "El impacto en las ventas de los frigoríficos y remates ganaderos."
+        "Por qué los bonos argentinos operan a la baja y se resiente el riesgo país",
+        "La lectura de los mercados financieros internacionales sobre la economía local"
       ],
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 2,8 kilos de cerdo y se disparan las ventas",
-          "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-disparan-las-ventas-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
+          "medio": "Clarín",
+          "titulo": "Presión: el riesgo país sube por octavo día consecutivo",
+          "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Carne cerdo aliado bolsillo argentinos vale kilo asado pueden comprarse pechito",
-          "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
-          "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
+          "medio": "Infobae",
+          "titulo": "Mercados: bajan los bonos argentinos y el riesgo país alcanza su nivel más alto desde abril",
+          "link": "https://www.infobae.com/economia/2026/09/23/mercados-bajan-los-bonos-argentinos-y-el-riesgo-pais-alcanzan-su-nivel-mas-alto-desde-abril/",
+          "imagen": "https://www.infobae.com/resizer/v2/A5QHQGXHCJEX5EANI3O2KG5A44.JPG?auth=83f54412b27b569e38d516abf730f8fb2d579d011095fdbd77ab7bb06845c8af&smart=true&width=6000&height=4000"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -940,43 +904,43 @@
       "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Entrada en vigencia de ley en Texas que habilita pagos respaldados con oro y plata",
+      "tema": "Billetera virtual de los bancos lanza pagos integrados con ChatGPT",
       "prioridad": 3,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+      "tipo_de_oportunidad": "Exclusiva de Clarín en innovación tecnológica y fintech",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
       "perfil": 0,
       "competencia_total": 1,
-      "medio_lider": "La Nación",
+      "medio_lider": "Clarín",
       "cobertura_medio_lider": 1,
       "brecha": 1,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
+        "La Nación": 0,
+        "Clarín": 1,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Interesa a un nicho económico y financiero muy ávido de innovaciones monetarias alternativas al papel moneda tradicional.",
-      "insight": "Las notas sobre respaldo en metales preciosos suelen tener un excelente rendimiento en redes sociales y buscadores por su perfil disruptivo.",
+      "por_que_importa": "Combina dos de las tendencias de consumo digital más fuertes: billeteras virtuales e inteligencia artificial.",
+      "insight": "Excelente tracción en redes sociales y buscadores para contenidos de innovación tecnológica.",
       "motivo": "",
-      "motivo_oportunidad": "La Nación abordó en exclusiva una medida económica de corte libertario en Estados Unidos que sintoniza directamente con el discurso económico oficial argentino.",
-      "accion_sugerida": "Redactar una nota de análisis explicando cómo funcionará el sistema de pagos electrónicos en oro y plata en Texas.",
+      "motivo_oportunidad": "Representa una oportunidad de capturar tráfico exclusivo en un nicho de alto crecimiento (IA y finanzas digitales) donde Perfil no tiene presencia hoy.",
+      "accion_sugerida": "Desarrollar un artículo propio sobre la integración de ChatGPT en las transacciones bancarias.",
       "enfoques_sugeridos": [
-        "El impacto de la nueva legislación impulsada en Texas sobre la dolarización y metales.",
-        "La viabilidad de implementar medios de pago respaldados en oro físico."
+        "Cómo la inteligencia artificial redefine las transacciones en las billeteras virtuales",
+        "El impacto de la innovación tecnológica en la competencia del sistema financiero"
       ],
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Oficial y confirmado: la ley que habilita pagos con oro y plata y ya se aplica desde septiembre 2026",
-          "link": "https://www.lanacion.com.ar/estados-unidos/texas/oficial-y-confirmado-la-ley-que-habilita-pagos-con-oro-y-plata-y-ya-se-aplica-desde-septiembre-2026-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/E5AYA2DPSRDVVNMCCU5CDHNPU4.jpg?auth=82255598ded08d08fc0e1bc5f123a6b866eb72dd8f653995aa4e2a0fcf1cce9c&smart=true&width=2000&height=1337"
+          "medio": "Clarín",
+          "titulo": "Competir con Mercado Libre: billetera virtual de los bancos lanza pagos con ChatGPT",
+          "link": "https://www.clarin.com/economia/competir-mercado-libre-billetera-virtual-bancos-lanza-pagos-chatgpt_0_Y8PoqZe3Wa.html",
+          "imagen": "https://www.clarin.com/img/2023/03/15/Zp4Z_xMtX_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -987,41 +951,41 @@
   "analisis_completo": {
     "hipercompetencia": [
       {
-        "tema": "Discurso de Javier Milei en la ONU y respuesta del Reino Unido sobre Malvinas",
+        "tema": "Reino Unido rechaza negociar la soberanía de las Islas Malvinas tras discurso de Milei en la ONU",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 12,
-        "cantidad_medios": 5,
+        "total_notas": 10,
+        "cantidad_medios": 4,
         "cobertura_perfil": 2,
         "perfil": 2,
-        "competencia_total": 10,
-        "medio_lider": "La Nación",
+        "competencia_total": 8,
+        "medio_lider": "Clarín",
         "cobertura_medio_lider": 4,
         "brecha": 2,
         "cobertura": {
           "Perfil": 2,
-          "La Nación": 4,
+          "La Nación": 3,
           "Clarín": 4,
           "Infobae": 1,
-          "TN": 1,
+          "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Concentra la máxima atención de la agenda política internacional y nacional, generando un fuerte impacto en la opinión pública y un choque diplomático directo con la negativa británica a renegociar la soberanía.",
-        "insight": "Los lectores buscan transcripciones, frases destacados y análisis de las repercusiones de la prensa británica, lo que dispara el tráfico en Google Discover por el alto componente patriótico y de confrontación.",
+        "por_que_importa": "Es el tema geopolítico central del día que moviliza la agenda internacional y genera fuerte repercusión en la opinión pública argentina debido al reclamo de soberanía.",
+        "insight": "Alto volumen de búsqueda en Google Discover y alta correlación con el interés de la audiencia local en política exterior y reclamos históricos.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Publicar un análisis de despiece con las reacciones internacionales y la cobertura en vivo de la respuesta diplomática británica, optimizando metatags enfocados en el discurso de Milei en la ONU.",
+        "accion_sugerida": "Profundizar el análisis con diplomáticos y coberturas de las reacciones de la prensa británica para capturar tráfico de última hora.",
         "enfoques_sugeridos": [
-          "Las repercusiones exactas de la prensa británica ante el reclamo soberano.",
-          "El análisis geopolítico de la estrategia argentina en el atril de Naciones Unidas."
+          "La reacción de la prensa británica ante el duro discurso presidencial",
+          "El impacto geopolítico en la relación bilateral tras el rechazo rotundo"
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Reino Unido respondió a Milei tras su discurso en la ONU: no habrá negociaciones soberanía",
+            "titulo": "Reino Unido respondió a Milei tras su discurso en la ONU: no habrá negociaciones de soberanía",
             "link": "https://www.perfil.com/noticias/internacional/reino-unido-respondio-milei-tras-su-discurso-en-la-onu-no-habra-negociaciones-soberania.phtml",
             "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/javier-milei-y-andy-burnham-2332598.jpg"
           },
@@ -1033,86 +997,86 @@
           },
           {
             "medio": "Clarín",
-            "titulo": "Gran Bretaña respondió el discurso de Milei por Malvinas: Reino Unido duda soberanía Islas Falkland",
+            "titulo": "Gran Bretaña respondió al discurso de Milei por Malvinas: Reino Unido duda de la soberanía islas Falkland",
             "link": "https://www.clarin.com/politica/gran-bretana-respondio-discurso-milei-malvinas-reino-unido-duda-soberania-islas-falkland_0_3FAcwRBrNy.html",
             "imagen": "https://www.clarin.com/img/2026/09/23/KXlHBrWuJ_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 4
+        "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Visita del papa León XIV a la Argentina y cronograma en Córdoba",
+        "tema": "Discurso de Javier Milei en la Asamblea General de la ONU y críticas al organismo",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 5,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 2,
-        "perfil": 2,
-        "competencia_total": 3,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 2,
-        "brecha": 0,
+        "total_notas": 11,
+        "cantidad_medios": 4,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 10,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 5,
+        "brecha": 4,
         "cobertura": {
-          "Perfil": 2,
-          "La Nación": 2,
-          "Clarín": 0,
-          "Infobae": 1,
+          "Perfil": 1,
+          "La Nación": 3,
+          "Clarín": 5,
+          "Infobae": 2,
           "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Moviliza a una enorme porción de la audiencia religiosa y genera interés masivo por los feriados, disposiciones laborales y esquemas de seguridad en el interior del país.",
-        "insight": "Las notas prácticas sobre cómo afectará a la rutina diaria y los horarios oficiales registran picos de lectura sostenidos en dispositivos móviles.",
+        "por_que_importa": "Las duras declaraciones del presidente argentino contra la ONU y la agenda internacional polarizan fuertemente el debate político nacional.",
+        "insight": "Alto rendimiento garantizado en Google Discover por la combinación de la figura presidencial y la confrontación discursiva.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Armar un servicio interactivo o una guía de preguntas frecuentes con los feriados, impacto salarial y cronograma exacto de las actividades del Sumo Pontífice.",
+        "accion_sugerida": "Centralizar el minuto a minuto y destacar las frases más salientes en formatos visuales aptos para redes sociales.",
         "enfoques_sugeridos": [
-          "Guía completa de feriados y obligaciones del empleador durante la visita papal.",
-          "El impacto turístico y logístico en la provincia de Córdoba."
+          "El impacto de la calificación de la ONU como organización inútil por parte de Milei",
+          "Repercusiones en la diplomacia internacional y la oposición interna"
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Feriados por la visita del León XIV: no se trabaja y el empleador tiene que pagar como corresponde",
-            "link": "https://www.perfil.com/noticias/cordoba/feriados-por-la-visita-del-leon-xiv-no-se-trabaja-y-el-empleador-tiene-que-pagar-como-corresponde.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/empleadas-domesticas-2332504.jpg"
+            "titulo": "Discurso de Javier Milei ante empresarios e inversores en Nueva York",
+            "link": "https://www.perfil.com/noticias/economia/javier-milei-diserta-ante-empresarios-e-inversores-en-nueva-york-a40.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/javier-milei-democratic-values-economic-freedom-2332599.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "Qué se sabe de la visita del papa León XIV a la Argentina",
-            "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
+            "titulo": "Javier Milei: \"La ONU se convirtió en una organización inútil que solo sirve para alimentar una casta\"",
+            "link": "https://www.lanacion.com.ar/politica/javier-milei-la-onu-se-convirtio-en-una-organizacion-inutil-que-solo-sirve-para-alimentar-una-casta-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/AXTSGSEDGZHKRNKW7YR4R43Z3Y.png?auth=f882364d6fa5c67a6b54fe71f19725f38754b6856550f8118822b3961ee9fcd1&smart=true&width=1477&height=964"
           },
           {
-            "medio": "Infobae",
-            "titulo": "Papá León XIV en Perú: todas las actividades del Santo Padre serán gratuitas",
-            "link": "https://www.infobae.com/peru/2026/09/23/papa-leon-xiv-en-peru-todas-las-actividades-del-santo-padre-seran-gratuitas/",
-            "imagen": "https://www.infobae.com/resizer/v2/QJXAP36VXZDNRPJJMU77NMZCTM.png?auth=a2eef83fbd9401548219416f0b564749f9b6a554ad218f8449b583ac8185b13c&smart=true&width=1920&height=1080"
+            "medio": "Clarín",
+            "titulo": "Malvinas, inteligencia artificial, críticas a la ONU y Agenda 2030: el discurso completo de Javier Milei en Naciones Unidas",
+            "link": "https://www.clarin.com/politica/malvinas-inteligencia-artificial-criticas-onu-agenda-2030-discurso-completo-javir-milei-naciones-unidas_0_DqmJOAuJaW.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/3wt8lHbJl_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
+        "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Aumento del riesgo país y evolución de los mercados financieros",
+        "tema": "Gobierno obtiene dictamen sobre discapacidad tras marcha atrás en recortes",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 7,
-        "cantidad_medios": 4,
-        "cobertura_perfil": 3,
-        "perfil": 3,
+        "total_notas": 4,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 0,
+        "perfil": 0,
         "competencia_total": 4,
         "medio_lider": "Clarín",
         "cobertura_medio_lider": 2,
-        "brecha": 0,
+        "brecha": 2,
         "cobertura": {
-          "Perfil": 3,
+          "Perfil": 0,
           "La Nación": 1,
           "Clarín": 2,
           "Infobae": 1,
@@ -1121,147 +1085,33 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "La economía cotidiana y el termómetro financiero marcan el pulso de la estabilidad del plan oficial, generando alta incertidumbre en inversores y ahorristas.",
-        "insight": "Los lectores económicos consumen actualizaciones constantes sobre la cotización de bonos, riesgo país y dólares paralelos para especular con sus finanzas.",
+        "por_que_importa": "Es un tema de alta sensibilidad social y política que involucra la gestión de recursos estatales y la presión de la oposición.",
+        "insight": "Interés sostenido por parte de lectores que buscan respuestas sobre políticas públicas y ajustes presupuestarios.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Mantener un minuto a minuto actualizado y explicaciones sencillas sobre por qué sube el riesgo país a pesar de los anuncios oficiales.",
+        "accion_sugerida": "Explicar de manera clara en qué consiste el dictamen y qué sectores se verán beneficiados o afectados.",
         "enfoques_sugeridos": [
-          "El impacto de la suba sostenida del riesgo país en las inversiones a mediano plazo.",
-          "Análisis de la brecha cambiaria y su reflejo en la city porteña."
+          "El costo político de la marcha atrás del Ejecutivo en el área de discapacidad",
+          "Los detalles técnicos del nuevo dictamen aprobado en el Congreso"
         ],
         "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Ya llevamos seis ruedas consecutivas de un riesgo país alejándose de esos 500 puntos",
-            "link": "https://www.perfil.com/noticias/canal-e/ya-llevamos-seis-ruedas-consecutivas-de-un-riesgo-pais-alejandose-de-esos-500-puntos.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/riesgo-pais-2332296.jpg"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Presión y riesgo país sube octavo día consecutivo",
-            "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
-            "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Mercados: bajan los bonos argentinos y el riesgo país alcanza su nivel más alto desde abril",
-            "link": "https://www.infobae.com/economia/2026/09/23/mercados-bajan-los-bonos-argentinos-y-el-riesgo-pais-alcanza-su-nivel-mas-alto-desde-abril/",
-            "imagen": "https://www.infobae.com/resizer/v2/A5QHQGXHCJEX5EANI3O2KG5A44.JPG?auth=83f54412b27b569e38d516abf730f8fb2d579d011095fdbd77ab7bb06845c8af&smart=true&width=6000&height=4000"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 3
-      },
-      {
-        "tema": "Advertencias de referentes de IA (OpenAI y Anthropic) en la ONU sobre regulación y riesgos",
-        "prioridad": 0,
-        "tipo": "hipercompetencia",
-        "tipo_de_oportunidad": "",
-        "total_notas": 7,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 3,
-        "perfil": 3,
-        "competencia_total": 4,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 3,
-        "brecha": 0,
-        "cobertura": {
-          "Perfil": 3,
-          "La Nación": 0,
-          "Clarín": 1,
-          "Infobae": 3,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "La irrupción de la inteligencia artificial en las agendas globales genera debates éticos, económicos y de seguridad nacional de alto voltaje.",
-        "insight": "Temas tecnológicos con declaraciones de CEOs globales traccionan muy bien en lectores jóvenes y profesionales, con alto CTR en motores de búsqueda.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Profundizar en las exigencias de regulación democrática que reclaman los líderes tecnológicos frente a la resistencia de potencias como Estados Unidos.",
-        "enfoques_sugeridos": [
-          "El choque entre los gigantes tecnológicos y los gobiernos por el control de la IA.",
-          "Los riesgos éticos y de seguridad señalados por Sam Altman ante la Asamblea."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Donald Trump rechaza la creación de una regulación internacional sobre Inteligencia Artificial",
-            "link": "https://www.perfil.com/noticias/bloomberg/bc-trump-rechaza-llamados-a-crear-una-regulacion-internacional-de-la-ia.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/trump-2327578.jpg"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "En la ONU, Altman de OpenAI pide extremo cuidado con la IA",
-            "link": "https://www.clarin.com/estados-unidos/en-la-onu-altman-de-openai-pide-extremo-cuidado-con-la-ia_0_R8AZvxPYUQ.html",
-            "imagen": "https://www.clarin.com/img/2026/09/03/SdD3Jbupq_1200x630__1.jpg"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Altman (OpenAI) advierte en la ONU del peligro de la IA y reclama supervisión democrática",
-            "link": "https://www.infobae.com/america/agencias/2026/09/23/altman-openai-advierte-en-la-onu-del-peligro-de-la-ia-y-reclama-supervision-democratica/",
-            "imagen": ""
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      }
-    ],
-    "perfil_pierde": [
-      {
-        "tema": "Dictamen en el Congreso sobre Discapacidad tras marcha atrás del Gobierno",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 6,
-        "cantidad_medios": 4,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 5,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 3,
-        "brecha": 2,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 1,
-          "Clarín": 3,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Involucra una sensible marcha atrás del oficialismo en materia social y de contención presupuestaria que genera fuertes cruces legislativos.",
-        "insight": "La temática social genera alto repudio o empatía en redes, convirtiéndose en notas de consumo masivo por la presión opositora.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Ampliar la cobertura legislativa con detalles del porqué de la marcha atrás y las exigencias de la oposición.",
-        "enfoques_sugeridos": [
-          "El costo político que debió pagar el oficialismo para conseguir el dictamen.",
-          "La desconfianza opositora ante los cambios normativos propuestos."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Disposiciones laborales sobre feriados por la visita del papa León XIV en Córdoba",
-            "link": "https://www.perfil.com/noticias/cordoba/feriados-por-la-visita-del-leon-xiv-no-se-trabaja-y-el-empleador-tiene-que-pagar-como-corresponde.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/empleadas-domesticas-2332504.jpg"
-          },
           {
             "medio": "La Nación",
-            "titulo": "Discapacidad: el gobierno dio marcha atrás y consiguió un dictamen pero persiste la desconfianza por...",
+            "titulo": "Discapacidad: el Gobierno dio marcha atrás y consiguió un dictamen, pero persiste la desconfianza por...",
             "link": "https://www.lanacion.com.ar/politica/discapacidad-el-gobierno-dio-marcha-atras-y-consiguio-un-dictamen-pero-persiste-la-desconfianza-por-nid23092026/",
             "imagen": "https://resizer.glanacion.com/resizer/v2/YNP4WUQQZBBKHBA75IGIXY3QCI.JPG?auth=b6710f0165875e2af31606dd2845e674a927216cc5a5c39741278a6a3c3f9fd3&smart=true&width=1040&height=730"
           },
           {
             "medio": "Clarín",
-            "titulo": "Gobierno equivocó fuerte crítica PRO gestión Milei tema discapacidad",
-            "link": "https://www.clarin.com/politica/gobierno-equivoco-fuerte-critica-pro-gestion-milei-tema-discapacidad_0_V6Id4d1VP4.html",
-            "imagen": "https://www.clarin.com/img/2026/09/23/0z4lqxGtK_1200x630__1.jpg"
+            "titulo": "Marcha del Gobierno: el oficialismo consiguió dictamen por discapacidad y avanza la ley pese a desconfianza opositora",
+            "link": "https://www.clarin.com/politica/marcha-gobierno-oficialismo-consiguio-dictamen-discapacidad-avanza-ley-pese-desconfianza-oposicion_0_01kSmaPyqE.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/oRuWgTh5M_1200x630__1.jpg"
+          },
+          {
+            "medio": "Infobae",
+            "titulo": "Discapacidad: LLA retrocedió con el recorte y logró un dictamen para avanzar con una ley propia",
+            "link": "https://www.infobae.com/politica/2026/09/23/discapacidad-lla-retrocedio-con-el-recorte-y-logro-un-dictamen-para-avanzar-con-una-ley-propia/",
+            "imagen": "https://www.infobae.com/resizer/v2/QQ4UUX3OKRBZBFXUPF2MMT3AAI.JPG?auth=8bf2758c6ff129f0fc9b56694961f8d69f9ff8b74dff76c5ea40abaf05d2afa2&smart=true&width=4928&height=3280"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1269,76 +1119,20 @@
         "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Trágico accidente en la Ruta 2 con saldo fatal para arquitectos",
+        "tema": "Cruce entre Dolores Fonzi y el titular del INCAA por recortes a la cultura",
         "prioridad": 0,
-        "tipo": "perfil_pierde",
+        "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 3,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 2,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 0,
-          "Clarín": 1,
-          "Infobae": 0,
-          "TN": 1,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Los siniestros viales con víctimas profesionales y de fuerte conmoción pública generan alto impacto en la sección de policiales y sociedad.",
-        "insight": "La identificación de las víctimas fatales y las causas del vuelco movilizan búsquedas geolocalizadas inmediatas.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Seguir de cerca los peritajes viales en la Autovía 2 y las condolencias de los colegios profesionales.",
-        "enfoques_sugeridos": [
-          "El estado de las rutas y los peritajes sobre el trágico vuelco.",
-          "El dolor en el ámbito de la arquitectura tras la pérdida de los profesionales."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Investigación judicial por el hallazgo de un cuerpo de un bebé en Córdoba",
-            "link": "https://www.perfil.com/noticias/cordoba/hallaron-el-cuerpo-de-un-bebe-en-una-plaza-del-norte-de-cordoba-investigan-que-paso.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/villa-maria-de-rio-seco-2332574.jpg"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Viaje arquitectos Mar del Plata terminó tragedia muertos vuelco Ruta 2",
-            "link": "https://www.clarin.com/sociedad/viaje-arquitectos-mar-plata-termino-tragedia-muertos-vuelco-ruta-2_0_UkpQzntSn9.html",
-            "imagen": "https://www.clarin.com/img/2026/09/23/T0jXkFiw4_1200x630__1.jpg"
-          },
-          {
-            "medio": "TN",
-            "titulo": "Quiénes eran el arquitecto y el inspector de obra que murieron cuando volvían de ver una construcción en Mar del Plata",
-            "link": "https://tn.com.ar/sociedad/2026/09/23/quienes-eran-el-arquitecto-y-el-inspector-de-obra-que-murieron-cuando-volvian-de-ver-una-construccion-en-mar-del-plata/",
-            "imagen": "https://tn.com.ar/resizer/v2/TLPQW7TPJBF4XGJC5CDBACXDNE.jpg?auth=de9adafb74b028e2fe7d8f1c15480cfca126337d0b003563633a16ed4c108b70"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Operativos antidrogas y secuestro masivo de drogas sintéticas (éxtasis y MDMA)",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 3,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 1,
-        "perfil": 1,
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
         "competencia_total": 2,
         "medio_lider": "La Nación",
         "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "brecha": 1,
         "cobertura": {
-          "Perfil": 1,
+          "Perfil": 0,
           "La Nación": 1,
           "Clarín": 1,
           "Infobae": 0,
@@ -1347,87 +1141,25 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Los golpes al narcotráfico internacional y el contrabando de sustancias de diseño en rutas y aduanas captan el interés de la audiencia policial.",
-        "insight": "Los detalles operativos sobre los dobles fondos en vehículos y la ruta de la droga desde países limítrofes generan un consumo sostenido.",
+        "por_que_importa": "El enfrentamiento entre figuras del espectáculo y funcionarios del área cultural moviliza audiencias masivas en portales de noticias y redes.",
+        "insight": "Alto CTR en secciones de espectáculos y tendencias de redes sociales, excelente para tracción rápida en Discover.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Profundizar en las ramificaciones internacionales de las bandas dedicadas al tráfico de drogas sintéticas.",
+        "accion_sugerida": "Dar espacio a las declaraciones completas de ambas partes sin perder el tono periodístico.",
         "enfoques_sugeridos": [
-          "Cómo operaban las células de contrabando de éxtasis en la región.",
-          "Los detalles del operativo de seguridad que interceptó el cargamento."
+          "La reacción de la comunidad artística ante la política de ajuste en el cine nacional",
+          "El descargo oficial de las autoridades del INCAA frente a las críticas"
         ],
         "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Chaco: ocultaban casi 76 kilos de marihuana en sillones dentro de una concesionaria",
-            "link": "https://www.perfil.com/noticias/nea/chaco-ocultaban-casi-76-kilos-de-marihuana-en-sillones-dentro-de-una-concesionaria.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/allanamiento-en-una-concesionaria-de-resistencia-2332543.jpg"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "Secuestraron 40 kilos de MDMA y 10000 pastillas de éxtasis ocultos en las ruedas y dobles fondos de...",
-            "link": "https://www.lanacion.com.ar/seguridad/secuestraron-40-kilos-de-mdma-y-10000-pastillas-de-extasis-ocultos-en-las-ruedas-y-dobles-fondos-de-nid23092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/XPOBE6VVUVFUXBLAAZT6UIUPWY.jpeg?auth=d6387f4e1b9d6c8846edccc77548a95be9104e0c57448ae7a8ea17fcc29cd630&smart=true&width=960&height=1280"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Viajaban Brasil Buenos Aires autos 40 kilos MDMA 10000 pastillas éxtasis",
-            "link": "https://www.clarin.com/policiales/viajaban-brasil-buenos-aires-autos-40-kilos-mdma-10000-pastillas-extasis_0_fmVcLfmO1t.html",
-            "imagen": "https://www.clarin.com/img/2026/09/23/sD57y1ic7_1200x630__1.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Declaraciones de la actriz Dolores Fonzi contra los recortes a la cultura y cruce con el INCAA",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 3,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 2,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 1,
-          "Clarín": 1,
-          "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "El enfrentamiento entre figuras del espectáculo y funcionarios del Gobierno por el presupuesto cultural encabeza los debates mediáticos.",
-        "insight": "La polarización ideológica en torno al cine nacional genera interacciones masivas en redes sociales y portales de noticias.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Publicar un compilado de los cruces más fuertes entre el sector artístico y las autoridades del área.",
-        "enfoques_sugeridos": [
-          "La respuesta institucional del INCAA frente a los reclamos del sector.",
-          "El impacto de los recortes presupuestarios en la producción cinematográfica local."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Informe sobre supuestos vínculos esotéricos y adopción de mascota en Casa Rosada",
-            "link": "https://www.perfil.com/noticias/masperfil/rdi-karina-milei-habria-adoptado-un-gato-con-despacho-propio-en-la-casa-rosada-y-tendria-un-fuerte-vinculo-con-el-esoterismo.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/karina-milei-2332441.jpg"
-          },
           {
             "medio": "La Nación",
             "titulo": "La actriz Dolores Fonzi criticó al Gobierno por los recortes a la cultura y el titular del INCAA salió al cruce",
-            "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-sali-al-cruce-nid23092026/",
+            "link": "https://www.lanacion.com.ar/espectaculos/cine/la-actriz-dolores-fonzi-critico-al-gobierno-por-los-recortes-a-la-cultura-y-el-titular-del-incaa-saliou-al-cruce-nid23092026/",
             "imagen": "https://resizer.glanacion.com/resizer/v2/P6IM75N5QJASDDP334S6JYHOPU.JPG?auth=1e3d3a61c8f5d88ba3014200f81826ab8591c46dc4bed531d9316a2986bc3894&smart=true&width=6704&height=4868"
           },
           {
             "medio": "Clarín",
-            "titulo": "Gente desalmada Dolores Fonzi criticó Milei recortes cultura titular INCAA acusó viuda gestión anterior",
+            "titulo": "\"Gente desalmada\": Dolores Fonzi criticó a Milei por recortes a la cultura y el titular del Incaa acusó a \"la viuda de la gestión anterior\"",
             "link": "https://www.clarin.com/espectaculos/gente-desalmada-dolores-fonzi-critico-milei-recortes-cultura-titular-incaa-acuso-viuda-gestion-anterior_0_x2HTadx42Q.html",
             "imagen": "https://www.clarin.com/img/2026/09/23/OtKSbYH2A_1200x630__1.jpg"
           }
@@ -1437,161 +1169,11 @@
         "cantidad_medios_competencia": 2
       }
     ],
-    "sin_cobertura_perfil": [
+    "perfil_pierde": [
       {
-        "tema": "Aumento del consumo de carne de cerdo frente al precio del asado",
+        "tema": "Aumento del riesgo país y comportamiento negativo de los bonos argentinos",
         "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 4,
-        "cantidad_medios": 2,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 4,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 2,
-        "brecha": 2,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 2,
-          "Clarín": 2,
-          "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Interpela de lleno el bolsillo del consumidor argentino en un contexto de retracción de compras y búsqueda de alternativas alimentarias más económicas.",
-        "insight": "Las notas de consumo masivo y hábitos de ahorro familiar funcionan muy bien en Google Discover y redes sociales por su utilidad práctica.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Desarrollar un informe especial sobre precios relativos de cortes porcinos versus vacunos y la reconversión de las carnicerías.",
-        "enfoques_sugeridos": [
-          "La diferencia de precios que empuja a los consumidores a elegir el cerdo.",
-          "El impacto en las ventas de los frigoríficos y remates ganaderos."
-        ],
-        "ejemplos": [
-          {
-            "medio": "La Nación",
-            "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 2,8 kilos de cerdo y se disparan las ventas",
-            "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-disparan-las-ventas-nid23092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Carne cerdo aliado bolsillo argentinos vale kilo asado pueden comprarse pechito",
-            "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
-            "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Despliegue y preparativos de Donald Trump para recibir a Xi Jinping en Washington",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 1,
-          "Clarín": 0,
-          "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Define el tablero geopolítico y comercial global entre las dos mayores potencias del planeta, con repercusión directa en los mercados internacionales.",
-        "insight": "Las cumbres bilaterales de alto rango atraen a lectores interesados en política exterior y economía internacional.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Publicar un perfil sobre las tensiones y acuerdos previos que se negociarán en la cumbre de Washington.",
-        "enfoques_sugeridos": [
-          "La alfombra roja con honores excepcionales que prepara la Casa Blanca.",
-          "La ausencia de grandes delegaciones empresariales chinas y su lectura económica."
-        ],
-        "ejemplos": [
-          {
-            "medio": "La Nación",
-            "titulo": "Trump prepara un gran despliegue para recibir a Xi en Washington",
-            "link": "https://www.lanacion.com.ar/el-mundo/trump-prepara-un-gran-despliegue-para-recibir-a-xi-en-washington-nid23092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/TXN72KEE4ZCXLEHJS3GDHVA2Q4.JPG?auth=0540ac30e784906304f6296ef2c8151d5d0ad3ebe897700495f62b2d813a7cd1&smart=true&width=3483&height=2322"
-          },
-          {
-            "medio": "Perfil",
-            "titulo": "BC: Xi llegaría a la cumbre con Trump sin una delegación de ejecutivos chinos",
-            "link": "https://www.perfil.com/noticias/bloomberg/bc-xi-llegaria-a-la-cumbre-con-trump-sin-una-delegacion-de-ejecutivos-chinos.phtml",
-            "imagen": "https://fotos.perfil.com/2026/05/20/trim/540/304/el-presidente-estadounidense-donald-trump-izquierda-posa-para-fotos-con-el-presidente-chino-xi-jinping-durante-una-visita-al-jardin-zhongnanhai-en-pekin-el-15-de-mayo-de-2026-2244225.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      },
-      {
-        "tema": "Nuevas alertas meteorológicas (naranjas y amarillas) por lluvias y viento Zonda",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 2,
-        "cantidad_medios": 2,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 2,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 1,
-          "Clarín": 1,
-          "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Informa de manera directa sobre fenómenos climáticos extremos que afectan la seguridad y la rutina diaria en distintas provincias argentinas.",
-        "insight": "Las alertas del Servicio Meteorológico Nacional generan un tráfico instantáneo muy alto impulsado por búsquedas móviles locales y Google Discover.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Elaborar un mapa interactivo o una lista detallada con las provincias afectadas y las precauciones a tomar.",
-        "enfoques_sugeridos": [
-          "Las zonas bajo alerta naranja por viento Zonda y tormentas severas.",
-          "Recomendaciones oficiales de Defensa Civil ante la inestabilidad climática."
-        ],
-        "ejemplos": [
-          {
-            "medio": "La Nación",
-            "titulo": "Hay alerta naranja y amarilla por lluvias, nevadas y Zonda para este miércoles 23 de septiembre, las...",
-            "link": "https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-lluvias-nevadas-y-zonda-para-este-miercoles-23-de-septiembre-las-...",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/3HNRGEULW5DZDJAVYCKCWUEUB4.png?auth=6e05e170c679a4f924407a0eb02f5dcd40a437842db5d390ad9b8e423b7ee68c&smart=true&width=388&height=800"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Súper Niño 2026 Argentina vivo provincias afectadas esperan lluvias ola polar cambia clima",
-            "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-provincias-afectadas-esperan-lluvias-ola-polar-cambia-clima_0_psFNpTqdN3.html",
-            "imagen": "https://www.clarin.com/img/2019/04/13/MrrsgK7tw_1200x630__1.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Informe del Banco de España sobre déficit habitacional superior al millón de viviendas",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
+        "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
         "total_notas": 2,
         "cantidad_medios": 2,
@@ -1611,51 +1193,49 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Refleja una crisis estructural global en el acceso a la vivienda y el mercado inmobiliario que resuena fuertemente en las grandes urbes.",
-        "insight": "Las notas sobre alquileres, escasez de inmuebles y crisis habitacional generan un debate muy activo en redes y portales de noticias.",
+        "por_que_importa": "Indicador clave de la economía argentina que impacta en los mercados financieros y la confianza de los inversores.",
+        "insight": "Los lectores económicos y financieros buscan explicaciones detalladas sobre las subas consecutivas del riesgo país.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Analizar la problemática de la vivienda a nivel internacional y contrastarla con la coyuntura del mercado de alquileres en Argentina.",
+        "accion_sugerida": "Ampliar los reportes diarios de los mercados financieros con análisis de analistas de la city.",
         "enfoques_sugeridos": [
-          "Los motivos detrás del déficit de más de un millón de viviendas proyectado.",
-          "El impacto en los precios de alquileres y la falta de acceso para jóvenes."
+          "Los factores externos e internos que presionan al alza el riesgo país",
+          "El impacto en los títulos públicos y la colocación de deuda"
         ],
         "ejemplos": [
           {
-            "medio": "Infobae",
-            "titulo": "El Banco de España cree que el déficit de viviendas superará el millón en dos años",
-            "link": "https://www.infobae.com/espana/agencias/2026/09/23/el-banco-de-espana-cree-que-el-deficit-de-viviendas-superara-el-millon-en-dos-anos/",
-            "imagen": ""
+            "medio": "Clarín",
+            "titulo": "Presión: el riesgo país sube por octavo día consecutivo",
+            "link": "https://www.clarin.com/economia/presion-riesgo-pais-sube-octavo-dia-consecutivo_0_TlAWiXIyOM.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/B2IlSQJEP_1200x630__1.jpg"
           },
           {
-            "medio": "Clarín",
-            "titulo": "Dramático desalojo mujer 87 años Madrid desnuda voracidad fondo buitre",
-            "link": "https://www.clarin.com/mundo/dramatico-desalojo-mujer-87-anos-madrid-desnuda-voracidad-fondo-buitre_0_a8Nm042wIE.html",
-            "imagen": "https://www.clarin.com/img/2026/09/23/y0_PjvPhs_1200x630__1.jpg"
+            "medio": "Infobae",
+            "titulo": "Mercados: bajan los bonos argentinos y el riesgo país alcanza su nivel más alto desde abril",
+            "link": "https://www.infobae.com/economia/2026/09/23/mercados-bajan-los-bonos-argentinos-y-el-riesgo-pais-alcanzan-su-nivel-mas-alto-desde-abril/",
+            "imagen": "https://www.infobae.com/resizer/v2/A5QHQGXHCJEX5EANI3O2KG5A44.JPG?auth=83f54412b27b569e38d516abf730f8fb2d579d011095fdbd77ab7bb06845c8af&smart=true&width=6000&height=4000"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
         "cantidad_medios_competencia": 2
-      }
-    ],
-    "oportunidades": [
+      },
       {
-        "tema": "Fallo de Casación que ratifica culpabilidad de policía en el caso Bastián Escalante",
+        "tema": "Operativo de búsqueda de kayakistas desaparecidos en Santa Teresita",
         "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusividad parcial del competidor",
-        "total_notas": 1,
-        "cantidad_medios": 1,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
         "cobertura_perfil": 0,
         "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "Clarín",
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
         "cobertura_medio_lider": 1,
         "brecha": 1,
         "cobertura": {
           "Perfil": 0,
-          "La Nación": 0,
+          "La Nación": 1,
           "Clarín": 1,
           "Infobae": 0,
           "TN": 0,
@@ -1663,21 +1243,279 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Los casos de gatillo fácil y sentencias judiciales sobre fuerzas de seguridad movilizan una intensa empatía social y judicial.",
-        "insight": "La audiencia penal y de derechos humanos consume ávidamente los detalles sobre la revisión de penas a efectivos policiales.",
+        "por_que_importa": "Noticia de fuerte impacto emocional y social que genera atención en todo el país durante la temporada baja.",
+        "insight": "Las coberturas en desarrollo sobre rescates y emergencias traccionan lecturas masivas en buscadores.",
         "motivo": "",
-        "motivo_oportunidad": "Clarín cubrió en solitario un tema judicial de alto impacto emocional y conmoción pública en el conurbano bonaerense, dejando un vacío total en la redacción de Perfil.",
-        "accion_sugerida": "Publicar un seguimiento inmediato con la palabra de los familiares de Bastián Escalante y los fundamentos del fallo de Casación.",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Actualizar el estado de los operativos de Prefectura Naval en tiempo real.",
         "enfoques_sugeridos": [
-          "El análisis técnico del fallo de Casación y la orden de revisar la pena.",
-          "El reclamo de justicia de los familiares tras la ratificación de culpabilidad."
+          "El despliegue de seguridad en la costa atlántica para dar con los deportistas",
+          "El testimonio de los familiares y los detalles del ingreso al mar"
         ],
         "ejemplos": [
           {
+            "medio": "La Nación",
+            "titulo": "Qué se sabe de los dos kayakistas desaparecidos en Santa Teresita: ingresaron al mar y no pudieron...",
+            "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-los-dos-kayakistas-desaparecidos-en-santa-teresita-ingresaron-al-mar-y-no-pudieron-nid22092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/2WEMFH4VHFAJFFJ7AS5KXOTMSE.jpeg?auth=d66837871c09ec8179ef381abaa64203356d80d4a9604e452f562755c734d68b&smart=true&width=720&height=815"
+          },
+          {
             "medio": "Clarín",
-            "titulo": "Caso Bastián Escalante polémico fallo Casación ratificó culpabilidad policía ordenó revisar pena",
-            "link": "https://www.clarin.com/policiales/caso-bastian-escalante-polemico-fallo-casacion-ratifico-culpabilidad-policia-ordeno-revisar-pena_0_PU9ztQZTrC.html",
-            "imagen": "https://www.clarin.com/img/2024/07/23/VYCAm8LCv_1200x630__1.jpg"
+            "titulo": "Amplían búsqueda de kayakistas que desaparecieron en el mar de Santa Teresita",
+            "link": "https://www.clarin.com/sociedad/amplian-busqueda-kayakistas-desaparecieron-mar-santa-teresita_0_NveKzJgNly.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/qf9zzAnvJ_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Comparativa de precios entre carne vacuna y carne de cerdo en Argentina",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Información de utilidad práctica para el consumo familiar y el presupuesto de los hogares frente a la inflación.",
+        "insight": "Altas búsquedas orientadas a la economía doméstica, ideales para posicionamiento en Discover y redes.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Elaborar guías de ahorro y opciones de sustitución de cortes cárnicos.",
+        "enfoques_sugeridos": [
+          "El incremento en el consumo de cerdo como alternativa al asado",
+          "La evolución de los precios en carnicerías y supermercados"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Tiene mucha demanda: por el precio de un kilo de asado se compran casi 28 kilos de cerdo y se...",
+            "link": "https://www.lanacion.com.ar/economia/campo/tiene-mucha-demanda-por-el-precio-de-un-kilo-de-asado-se-compran-casi-28-kilos-de-cerdo-y-se-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/NCWSVJWFSBFG7GSH3MLLTA74WY.JPG?auth=ba6f5ac0fa7267e0cc18654c33d433bb807fa8cb30bc38128682fb01c7ba04f0&smart=true&width=1069&height=1600"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Carne de cerdo, aliado del bolsillo de los argentinos: cuánto vale el kilo de asado y cuántos pechitos...",
+            "link": "https://www.clarin.com/rural/carne-cerdo-aliado-bolsillo-argentinos-vale-kilo-asado-pueden-comprarse-pechito_0_l3OXAfD32D.html",
+            "imagen": "https://www.clarin.com/img/2020/10/16/HI-cU-xNx_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Secuestro de 40 kilos de MDMA y pastillas de éxtasis ocultos en vehículos",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Operativo policial de gran envergadura vinculado al narcotráfico internacional de drogas sintéticas.",
+        "insight": "Atrae lectores interesados en crónicas policiales y procedimientos de fuerzas federales.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Profundizar en la ruta del tráfico de drogas sintéticas desde Brasil hacia Buenos Aires.",
+        "enfoques_sugeridos": [
+          "El modus operandi de los contrabandistas para ocultar la droga en dobles fondos",
+          "Los detalles del operativo realizado por las fuerzas de seguridad"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Secuestraron 40 kilos de MDMA y 10.000 pastillas de éxtasis ocultos en las ruedas y dobles fondos de...",
+            "link": "https://www.lanacion.com.ar/seguridad/secuestraron-40-kilos-de-mdma-y-10000-pastillas-de-extasis-ocultos-en-las-ruedas-y-dobles-fondos-de-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/XPOBE6VVUVFUXBLAAZT6UIUPWY.jpeg?auth=d6387f4e1b9d6c8846edccc77548a95be9104e0c57448ae7a8ea17fcc29cd630&smart=true&width=960&height=1280"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Viajaban de Brasil a Buenos Aires en autos con 40 kilos de MDMA y 10.000 pastillas de éxtasis",
+            "link": "https://www.clarin.com/policiales/viajaban-brasil-buenos-aires-autos-40-kilos-mdma-10000-pastillas-extasis_0_fmVcLfmO1t.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/sD57y1ic7_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      }
+    ],
+    "sin_cobertura_perfil": [
+      {
+        "tema": "Gobierno de la Ciudad pide juicio político y remoción de la jueza Laura Marinis",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Conflicto institucional de alto perfil en CABA vinculado al sistema penal juvenil y decisiones judiciales cuestionadas.",
+        "insight": "Alto interés local en temas judiciales y de seguridad en la Ciudad de Buenos Aires.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Seguir de cerca los fundamentos del pedido de jury y las repercusiones en el fuero penal.",
+        "enfoques_sugeridos": [
+          "Los argumentos del Gobierno porteño para solicitar la destitución de la magistrada",
+          "El debate en torno a la reforma penal juvenil y los fallos polémicos"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Habló la víctima del menor liberado por la jueza Laura De Marinis",
+            "link": "https://www.lanacion.com.ar/seguridad/hablo-la-victima-del-menor-liberado-por-la-jueza-laura-de-marinis-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/ZK2CYQVMRNFATDXJ2RR6CKEYRA.jpg?auth=0c6b58ed4ecdc9ec6ab4ac5c2f8494ccf69b43a40b95bf4e4b70e2b26525a122&smart=true&width=2000&height=1333"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Reforma penal juvenil: Gobierno porteño denunció mal desempeño de jueza Laura Marinis y pidió jury de enjuiciamiento para removerla",
+            "link": "https://www.clarin.com/policiales/reforma-penal-juvenil-gobierno-porteno-denuncio-mal-desempeno-jueza-laura-marinis-pidio-jury-enjuiciamiento-removerla_0_ZsOFLKUk4U.html",
+            "imagen": "https://www.clarin.com/img/2026/09/21/pLuEBfmLv_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Aprobación con cambios en el Senado de la reforma del Banco Central",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Modificación legislativa central sobre el sistema financiero y monetario que retorna a la Cámara de Diputados.",
+        "insight": "Relevante para audiencias interesadas en la macroeconomía y la actividad parlamentaria.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Analizar los cambios introducidos por el oficialismo y cómo impactarán en la estructura del BCRA.",
+        "enfoques_sugeridos": [
+          "El debate legislativo y los acuerdos políticos en la Cámara alta",
+          "El impacto institucional de la reforma monetaria que vuelve a Diputados"
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Senado: el oficialismo aceptó cambios y la reforma del Central deberá volver a Diputados",
+            "link": "https://www.lanacion.com.ar/politica/senado-el-oficialismo-acepto-cambios-y-la-reforma-del-central-debera-volver-a-diputados-nid23092026/",
+            "imagen": ""
+          },
+          {
+            "medio": "Infobae",
+            "titulo": "Senado: el oficialismo introdujo cambios en la reforma del Banco Central e intentará aprobarla mañana",
+            "link": "https://www.infobae.com/politica/2026/09/23/senado-el-oficialismo-introdujo-cambios-en-la-reforma-del-banco-central-e-intentara-aprobarla-manana/",
+            "imagen": "https://www.infobae.com/resizer/v2/GYR6UPXC3VAULIRSKF7OYTRRLI.jpg?auth=851bfecd4c45d938d9308588b35a7b2c67b4125012a5ede958d429a894ec1c4d&smart=true&width=1920&height=1280"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Advertencia internacional de Anthropic y OpenAI sobre los riesgos de la inteligencia artificial",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 2,
+        "brecha": 2,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 2,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Los principales referentes tecnológicos exigen marcos regulatorios globales ante el avance descontrolado de la IA.",
+        "insight": "Alta tracción en audiencias jóvenes y profesionales del sector tecnológico y científico.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Redactar artículos explicativos sobre los peligros señalados por los gigantes tecnológicos.",
+        "enfoques_sugeridos": [
+          "El pedido de supervisión democrática y regulación global ante la ONU",
+          "Los riesgos de entrenar modelos de IA con contenido protegido"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "OpenAI y Anthropic piden a Australia entrenar sus IA con contenido protegido bajo condiciones",
+            "link": "https://www.infobae.com/tecno/2026/09/23/openai-y-anthropic-piden-a-australia-entrenar-sus-ia-con-contenido-protegido-bajo-condiciones/",
+            "imagen": "https://www.infobae.com/resizer/v2/S4L7K4PFJJAJJAXXHVPJYFCQLI.JPG?auth=b1fec2fc05b90375f58e313ac63102b0c76a1872d4abd9b2b7a620fcdc43a5e5&smart=true&width=3500&height=2333"
+          },
+          {
+            "medio": "Infobae",
+            "titulo": "Anthropic alerta en ONU de riesgos de IA: \"Ninguna nación puede gestionar esto en solitario\"",
+            "link": "https://www.infobae.com/america/agencias/2026/09/23/anthropic-alerta-en-onu-de-riesgos-de-ia-ninguna-nacion-puede-gestionar-esto-en-solitario/",
+            "imagen": ""
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1685,10 +1523,56 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Entrada en vigencia de ley en Texas que habilita pagos respaldados con oro y plata",
+        "tema": "Gobierno nacional afronta nuevo vencimiento de deuda con el FMI",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Compromiso financiero internacional clave para la estabilidad de las reservas del Banco Central.",
+        "insight": "Tema prioritario para lectores especializados en economía y finanzas públicas.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Detallar el impacto en las reservas netas y los planes del Palacio de Hacienda para afrontar el pago.",
+        "enfoques_sugeridos": [
+          "El estado de las reservas internacionales frente al nuevo compromiso con el organismo",
+          "Las negociaciones y el impacto fiscal del cumplimiento de metas"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "El Gobierno enfrenta un nuevo vencimiento de deuda con el FMI: el impacto en las reservas y cómo espera compensarlo",
+            "link": "https://www.infobae.com/economia/2026/09/23/el-gobierno-enfrenta-un-nuevo-vencimiento-de-deuda-con-el-fmi-el-impacto-en-las-reservas-y-como-espera-compensarlo/",
+            "imagen": "https://www.infobae.com/resizer/v2/747W5H2G7RB6TFOQTADWXTB7SE.JPG?auth=121fb91ad7227779f64339b10eb95553e5979d2962e85322ce36b10275adb0fe&smart=true&width=800&height=533"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      }
+    ],
+    "oportunidades": [
+      {
+        "tema": "Entrada en vigencia de ley en Texas que habilita pagos respaldados en oro y plata",
         "prioridad": 0,
         "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+        "tipo_de_oportunidad": "Cobertura exclusiva de La Nación en medios nacionales",
         "total_notas": 1,
         "cantidad_medios": 1,
         "cobertura_perfil": 0,
@@ -1707,14 +1591,14 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Interesa a un nicho económico y financiero muy ávido de innovaciones monetarias alternativas al papel moneda tradicional.",
-        "insight": "Las notas sobre respaldo en metales preciosos suelen tener un excelente rendimiento en redes sociales y buscadores por su perfil disruptivo.",
+        "por_que_importa": "Innovación legislativa en materia monetaria alternativa que atrae a inversores y lectores interesados en refugios de valor.",
+        "insight": "Contenido de alta viralidad en redes sociales para comunidades interesadas en finanzas descentralizadas y oro.",
         "motivo": "",
-        "motivo_oportunidad": "La Nación abordó en exclusiva una medida económica de corte libertario en Estados Unidos que sintoniza directamente con el discurso económico oficial argentino.",
-        "accion_sugerida": "Redactar una nota de análisis explicando cómo funcionará el sistema de pagos electrónicos en oro y plata en Texas.",
+        "motivo_oportunidad": "La Nación es el único medio que cubre una medida monetaria de gran interés internacional, permitiendo captar tráfico de nicho sobre criptoactivos, metales preciosos y economía estadounidense.",
+        "accion_sugerida": "Desarrollar un análisis sobre el impacto de los pagos en metales preciosos frente a la desdolarización.",
         "enfoques_sugeridos": [
-          "El impacto de la nueva legislación impulsada en Texas sobre la dolarización y metales.",
-          "La viabilidad de implementar medios de pago respaldados en oro físico."
+          "Cómo funcionarán los pagos electrónicos respaldados en oro y plata en Texas",
+          "El antecedente para otras economías que buscan alternativas al sistema tradicional"
         ],
         "ejemplos": [
           {
@@ -1729,10 +1613,10 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Condena a 15 años de prisión para el exproductor de cine Harvey Weinstein",
+        "tema": "Justicia condena al Hospital Italiano a indemnizar a paciente con casi 100 millones de pesos",
         "prioridad": 0,
         "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+        "tipo_de_oportunidad": "Exclusiva de Clarín en el segmento judicial de salud",
         "total_notas": 1,
         "cantidad_medios": 1,
         "cobertura_perfil": 0,
@@ -1751,21 +1635,21 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Revive uno de los casos fundacionales del movimiento #MeToo con un fuerte peso en la agenda de espectáculos y policiales internacionales.",
-        "insight": "Las sentencias contra figuras caídas en desgracia en Hollywood garantizan un alto volumen de clics en la sección de Espectáculos y Mundo.",
+        "por_que_importa": "Establece un importante antecedente jurisprudencial en materia de indemnizaciones por responsabilidad médica en instituciones privadas.",
+        "insight": "Las notas sobre fallos judiciales millonarios generan alto tiempo de permanencia en página.",
         "motivo": "",
-        "motivo_oportunidad": "Clarín cubrió en solitario un fallo judicial internacional de enorme repercusión en la cultura global y el movimiento de reivindicación de género.",
-        "accion_sugerida": "Publicar un recuento de la caída judicial de Weinstein y las repercusiones en la industria cinematográfica.",
+        "motivo_oportunidad": "Clarín cubre un fallo por mala praxis de alta repercusión legal, un tema con un rendimiento excepcional en buscadores por consultas sobre derechos de pacientes.",
+        "accion_sugerida": "Publicar una nota legal explicando los fundamentos del fallo y los montos involucrados.",
         "enfoques_sugeridos": [
-          "Los detalles de la nueva condena a 15 años de prisión para el exmagnate.",
-          "El balance del impacto del movimiento #MeToo en Hollywood tras el fallo."
+          "Los detalles de la demanda por mala praxis que derivó en la millonaria condena",
+          "El criterio de la Justicia para fijar indemnizaciones en el sector de salud privado"
         ],
         "ejemplos": [
           {
             "medio": "Clarín",
-            "titulo": "Golpe expoderoso Hollywood condenaron Harvey Weinstein 15 años prisión",
-            "link": "https://www.clarin.com/mundo/golpe-expoderoso-hollywood-condenaron-harvey-weinstein-15-anos-prision_0_zoJCVT8r4O.html",
-            "imagen": "https://www.clarin.com/img/2026/09/23/OWVLNCPyI_1200x630__1.jpg"
+            "titulo": "Justicia: falló que Hospital Italiano deberá indemnizar a paciente con casi 100 millones",
+            "link": "https://www.clarin.com/policiales/justicia-fallo-hospital-italiano-debera-indemnizar-paciente-100-millones_0_W80jjsq2NR.html",
+            "imagen": "https://www.clarin.com/img/2025/02/12/yWs9rttDA_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1773,10 +1657,54 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Preparativos del Ejército Argentino para el lanzamiento de su primer nanosatélite",
+        "tema": "Billetera virtual de los bancos lanza pagos integrados con ChatGPT",
         "prioridad": 0,
         "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusividad parcial del competidor",
+        "tipo_de_oportunidad": "Exclusiva de Clarín en innovación tecnológica y fintech",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Marca un hito en la integración de la inteligencia artificial generativa con servicios financieros de uso masivo en Argentina.",
+        "insight": "Alto interés de la audiencia digital en herramientas de IA aplicada a la vida diaria.",
+        "motivo": "",
+        "motivo_oportunidad": "Clarín cubre en solitario una primicia de tecnología aplicada a las finanzas cotidianas, con gran potencial de viralización en audiencias interesadas en inteligencia artificial y medios de pago.",
+        "accion_sugerida": "Explicar cómo funcionarán los pagos mediante comandos conversacionales y qué medidas de seguridad incluirán.",
+        "enfoques_sugeridos": [
+          "La irrupción de ChatGPT en las transacciones financieras cotidianas",
+          "La competencia entre billeteras virtuales y la banca tradicional"
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Competir con Mercado Libre: billetera virtual de los bancos lanza pagos con ChatGPT",
+            "link": "https://www.clarin.com/economia/competir-mercado-libre-billetera-virtual-bancos-lanza-pagos-chatgpt_0_Y8PoqZe3Wa.html",
+            "imagen": "https://www.clarin.com/img/2023/03/15/Zp4Z_xMtX_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Ejército Argentino avanza en los preparativos para lanzar su primer nanosatélite",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusiva de Infobae en ciencia y defensa",
         "total_notas": 1,
         "cantidad_medios": 1,
         "cobertura_perfil": 0,
@@ -1795,20 +1723,20 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Combina tecnología aeroespacial, defensa nacional e innovación, temas que despiertan gran curiosidad en lectores tecnólogos.",
-        "insight": "Los hitos científicos nacionales traccionan muy bien en audiencias interesadas en ciencia, técnica y desarrollo local.",
+        "por_que_importa": "",
+        "insight": "Contenidos de ciencia y tecnología espacial tienen excelente rendimiento en Google Discover.",
         "motivo": "",
-        "motivo_oportunidad": "Infobae cubrió en exclusiva un avance científico-militar de soberanía tecnológica nacional que pasó desapercibido en Perfil.",
-        "accion_sugerida": "Ampliar la información con fichas técnicas sobre las funciones del nanosatélite y su importancia estratégica.",
+        "motivo_oportunidad": "Infobae cubre un acontecimiento científico-militar de desarrollo nacional que genera orgullo y curiosidad en la audiencia local.",
+        "accion_sugerida": "Ampliar con detalles técnicos sobre la misión, los objetivos estratégicos y el desarrollo de ingeniería local.",
         "enfoques_sugeridos": [
-          "Para qué servirá el primer nanosatélite desarrollado por el Ejército Argentino.",
-          "Los detalles técnicos de la misión espacial coordinada por fuerzas locales."
+          "Para qué servirá el primer nanosatélite desarrollado por el Ejército Argentino",
+          "Los detalles tecnológicos de la misión espacial en desarrollo"
         ],
         "ejemplos": [
           {
             "medio": "Infobae",
             "titulo": "El Ejército Argentino se prepara para lanzar su primer nanosatélite: para qué servirá y cómo será la misión",
-            "link": "https://www.infobae.com/tecno/2026/09/23/el-ejercito-argentino-se-prepara-para-lanzar-su-primer-nanosateligte-para-que-servira-y-como-sera-la-mision/",
+            "link": "https://www.infobae.com/tecno/2026/09/23/el-ejercito-argentino-se-prepara-lanzar-su-primer-nanosatelite-para-que-servira-y-como-sera-la-mision/",
             "imagen": "https://www.infobae.com/resizer/v2/NFLUO2M7MRCP3OFHRYD36YG4L4.png?auth=28f7e4f6b0fb84e427ee6b713d203066512994e7165a1c87f7fb0f3b49cb02a8&smart=true&width=1203&height=737"
           }
         ],
