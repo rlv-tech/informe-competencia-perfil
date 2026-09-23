@@ -11,19 +11,10 @@ let categoriaActual = 'hipercompetencia';
 // CONFIGURACIÓN
 // ==========================================
 
-// Ruta al JSON que n8n actualiza en GitHub
-const DATA_URL =
-  './data/data-competencia.json';
+const DATA_URL = './data.json';
 
+const INTERVALO_ACTUALIZACION = 5 * 60 * 1000;
 
-// Actualizar datos automáticamente cada 5 minutos
-const INTERVALO_ACTUALIZACION =
-  5 * 60 * 1000;
-
-
-// ==========================================
-// CATEGORÍAS
-// ==========================================
 
 const CATEGORIAS = {
 
@@ -62,11 +53,6 @@ async function cargarDashboard() {
 
   try {
 
-    /*
-     * El timestamp evita que el navegador
-     * utilice una versión vieja del JSON.
-     */
-
     const response = await fetch(
       DATA_URL + '?t=' + Date.now(),
       {
@@ -78,7 +64,7 @@ async function cargarDashboard() {
     if (!response.ok) {
 
       throw new Error(
-        'No se pudo cargar data-competencia.json'
+        'No se pudo cargar data.json'
       );
 
     }
@@ -87,53 +73,18 @@ async function cargarDashboard() {
     DATA = await response.json();
 
 
-    console.log(
-      'Datos recibidos desde GitHub:',
-      DATA
-    );
-
-
-    // Actualizar fecha
-
     mostrarFecha();
-
-
-    // Actualizar contadores
 
     mostrarContadores();
 
-
-    // Actualizar prioridades
-
     mostrarPrioridades();
-
-
-    // Actualizar gráfico de brechas
 
     mostrarBrecha();
 
-
-    /*
-     * Configuramos los eventos solamente una vez.
-     * Los datos pueden actualizarse sin duplicar
-     * listeners.
-     */
-
     configurarEventos();
-
-
-    /*
-     * Mantener la categoría que el usuario
-     * estaba viendo.
-     */
 
     mostrarCategoria(
       categoriaActual
-    );
-
-
-    console.log(
-      'Dashboard actualizado correctamente.'
     );
 
 
@@ -163,9 +114,7 @@ async function cargarDashboard() {
 
           <p>
             Verificá que
-            <strong>
-              data/data-competencia.json
-            </strong>
+            <strong>data.json</strong>
             exista en el repositorio.
           </p>
 
@@ -178,26 +127,6 @@ async function cargarDashboard() {
   }
 
 }
-
-
-// ==========================================
-// ACTUALIZACIÓN AUTOMÁTICA
-// ==========================================
-
-/*
- * n8n actualiza el JSON en GitHub.
- *
- * El dashboard consulta nuevamente el archivo
- * cada 5 minutos.
- *
- * Si n8n generó nuevos datos mientras el dashboard
- * estaba abierto, aparecerán automáticamente.
- */
-
-setInterval(
-  cargarDashboard,
-  INTERVALO_ACTUALIZACION
-);
 
 
 // ==========================================
@@ -266,12 +195,9 @@ function mostrarFecha() {
 
 
   elemento.textContent =
-
     DATA.fecha_analisis
-
       ? 'Análisis: ' +
         DATA.fecha_analisis
-
       : 'Análisis actualizado';
 
 }
@@ -373,12 +299,10 @@ function mostrarPrioridades() {
 
 
   const prioridades =
-
     (
       DATA.prioridades_del_dia ||
       []
-    )
-      .slice(0, 3);
+    ).slice(0, 3);
 
 
   if (!prioridades.length) {
@@ -401,26 +325,18 @@ function mostrarPrioridades() {
 
 
   contenedor.innerHTML =
-
     prioridades
-
       .map(item => {
 
         const motivo =
-
           item.motivo ||
-
           item.insight ||
-
           item.por_que_importa ||
-
           '';
 
 
         const accion =
-
           item.accion_sugerida ||
-
           '';
 
 
@@ -431,35 +347,27 @@ function mostrarPrioridades() {
             <div class="prioridad-top">
 
               <div class="prioridad-numero">
-
                 ${escaparHTML(
                   item.prioridad
                 )}
-
               </div>
 
-
               <span class="prioridad-label">
-
                 PRIORIDAD
-
               </span>
 
             </div>
 
 
             <h3>
-
               ${escaparHTML(
                 item.tema
               )}
-
             </h3>
 
 
             ${
               motivo
-
                 ? `
 
                   <p class="prioridad-motivo">
@@ -471,25 +379,19 @@ function mostrarPrioridades() {
                   </p>
 
                 `
-
                 : ''
-
             }
 
 
             ${
               accion
-
                 ? `
 
                   <div class="prioridad-accion">
 
                     <strong>
-
                       ACCIÓN SUGERIDA
-
                     </strong>
-
 
                     ${escaparHTML(
                       accion
@@ -498,9 +400,7 @@ function mostrarPrioridades() {
                   </div>
 
                 `
-
                 : ''
-
             }
 
           </article>
@@ -508,7 +408,6 @@ function mostrarPrioridades() {
         `;
 
       })
-
       .join('');
 
 }
@@ -548,8 +447,9 @@ function mostrarBrecha() {
 
   const temas = todos
 
-    .filter(item =>
-      Number(item.brecha) > 0
+    .filter(
+      item =>
+        Number(item.brecha) > 0
     )
 
     .sort(
@@ -567,7 +467,8 @@ function mostrarBrecha() {
 
       <div class="vacio">
 
-        No hay brechas de cobertura detectadas.
+        No hay brechas de cobertura
+        detectadas.
 
       </div>
 
@@ -579,23 +480,17 @@ function mostrarBrecha() {
 
 
   const max =
-
     Math.max(
-
       ...temas.map(
         item =>
           Number(item.brecha) || 0
       ),
-
       1
-
     );
 
 
   contenedor.innerHTML =
-
     temas
-
       .map(item => {
 
         const valor =
@@ -603,16 +498,9 @@ function mostrarBrecha() {
 
 
         const porcentaje =
-
           Math.max(
-
             5,
-
-            (
-              valor /
-              max
-            ) * 100
-
+            (valor / max) * 100
           );
 
 
@@ -657,9 +545,7 @@ function mostrarBrecha() {
 
               <div
                 class="brecha-fill"
-                style="
-                  width:${porcentaje}%
-                "
+                style="width:${porcentaje}%"
               ></div>
 
             </div>
@@ -676,7 +562,6 @@ function mostrarBrecha() {
         `;
 
       })
-
       .join('');
 
 }
@@ -688,18 +573,10 @@ function mostrarBrecha() {
 
 function configurarEventos() {
 
-  /*
-   * IMPORTANTE:
-   *
-   * Usamos onclick en lugar de addEventListener
-   * para no acumular eventos cada vez que el
-   * JSON se actualiza.
-   */
 
-
-  // ------------------------------------------
-  // Categorías
-  // ------------------------------------------
+  // ========================================
+  // CATEGORÍAS
+  // ========================================
 
   document
     .querySelectorAll(
@@ -738,9 +615,9 @@ function configurarEventos() {
     });
 
 
-  // ------------------------------------------
-  // Orden
-  // ------------------------------------------
+  // ========================================
+  // ORDEN
+  // ========================================
 
   const orden =
     document.getElementById(
@@ -761,9 +638,9 @@ function configurarEventos() {
   }
 
 
-  // ------------------------------------------
-  // Modal
-  // ------------------------------------------
+  // ========================================
+  // MODAL
+  // ========================================
 
   const cerrar =
     document.getElementById(
@@ -803,13 +680,6 @@ function mostrarCategoria(
   categoria
 ) {
 
-  if (!DATA) {
-
-    return;
-
-  }
-
-
   const contenedor =
     document.getElementById(
       'contenido'
@@ -836,7 +706,6 @@ function mostrarCategoria(
   if (titulo) {
 
     titulo.textContent =
-
       config
         ? config.titulo
         : categoria;
@@ -845,15 +714,12 @@ function mostrarCategoria(
 
 
   let items =
-
     Array.isArray(
       DATA[categoria]
     )
-
       ? [
           ...DATA[categoria]
         ]
-
       : [];
 
 
@@ -869,17 +735,12 @@ function mostrarCategoria(
       <div class="tema-card vacio">
 
         <h3>
-
           No hay temas detectados
-
         </h3>
 
-
         <p>
-
           El análisis de hoy no encontró
           elementos para esta categoría.
-
         </p>
 
       </div>
@@ -892,9 +753,7 @@ function mostrarCategoria(
 
 
   contenedor.innerHTML =
-
     items
-
       .map(
         (item, index) =>
           crearTema(
@@ -903,7 +762,6 @@ function mostrarCategoria(
             index
           )
       )
-
       .join('');
 
 
@@ -921,28 +779,18 @@ function ordenarTemas(
 ) {
 
   const orden =
-
     document.getElementById(
       'orden'
     )?.value ||
-
     'brecha';
 
 
   if (orden === 'brecha') {
 
     items.sort(
-
       (a, b) =>
-
-        Number(
-          b.brecha || 0
-        ) -
-
-        Number(
-          a.brecha || 0
-        )
-
+        Number(b.brecha || 0) -
+        Number(a.brecha || 0)
     );
 
   }
@@ -951,17 +799,9 @@ function ordenarTemas(
   if (orden === 'notas') {
 
     items.sort(
-
       (a, b) =>
-
-        Number(
-          b.total_notas || 0
-        ) -
-
-        Number(
-          a.total_notas || 0
-        )
-
+        Number(b.total_notas || 0) -
+        Number(a.total_notas || 0)
     );
 
   }
@@ -970,17 +810,9 @@ function ordenarTemas(
   if (orden === 'medios') {
 
     items.sort(
-
       (a, b) =>
-
-        Number(
-          b.cantidad_medios || 0
-        ) -
-
-        Number(
-          a.cantidad_medios || 0
-        )
-
+        Number(b.cantidad_medios || 0) -
+        Number(a.cantidad_medios || 0)
     );
 
   }
@@ -989,23 +821,12 @@ function ordenarTemas(
   if (orden === 'alfabetico') {
 
     items.sort(
-
       (a, b) =>
-
-        String(
-          a.tema || ''
-        )
-
+        String(a.tema || '')
           .localeCompare(
-
-            String(
-              b.tema || ''
-            ),
-
+            String(b.tema || ''),
             'es'
-
           )
-
     );
 
   }
@@ -1032,22 +853,14 @@ function crearTema(
 
 
   const maxCobertura =
-
     Math.max(
-
-      ...Object.values(
-        cobertura
-      )
-
+      ...Object.values(cobertura)
         .map(Number)
-
         .filter(
           value =>
             !isNaN(value)
         ),
-
       1
-
     );
 
 
@@ -1059,15 +872,10 @@ function crearTema(
 
 
   const insight =
-
     item.insight ||
-
     item.motivo ||
-
     item.motivo_oportunidad ||
-
     item.por_que_importa ||
-
     '';
 
 
@@ -1133,18 +941,13 @@ function crearTema(
         <div class="mini-metric">
 
           <strong>
-
             ${Number(
               item.total_notas
             ) || 0}
-
           </strong>
 
-
           <span>
-
             notas
-
           </span>
 
         </div>
@@ -1153,18 +956,13 @@ function crearTema(
         <div class="mini-metric">
 
           <strong>
-
             ${Number(
               item.cantidad_medios
             ) || 0}
-
           </strong>
 
-
           <span>
-
             medios
-
           </span>
 
         </div>
@@ -1173,18 +971,13 @@ function crearTema(
         <div class="mini-metric">
 
           <strong>
-
             ${Number(
               item.cobertura_perfil
             ) || 0}
-
           </strong>
 
-
           <span>
-
             Perfil
-
           </span>
 
         </div>
@@ -1193,18 +986,13 @@ function crearTema(
         <div class="mini-metric">
 
           <strong>
-
             ${Number(
               item.brecha
             ) || 0}
-
           </strong>
 
-
           <span>
-
             brecha
-
           </span>
 
         </div>
@@ -1219,11 +1007,8 @@ function crearTema(
         <div class="coverage-header">
 
           <strong>
-
             Cobertura por medio
-
           </strong>
-
 
           <span>
 
@@ -1254,17 +1039,13 @@ function crearTema(
 
       ${
         insight
-
           ? `
 
             <div class="insight-box">
 
               <div class="insight-label">
-
                 INSIGHT
-
               </div>
-
 
               <p>
 
@@ -1277,27 +1058,21 @@ function crearTema(
             </div>
 
           `
-
           : ''
-
       }
 
 
-      <!-- ACCION -->
+      <!-- ACCIÓN -->
 
       ${
         item.accion_sugerida
-
           ? `
 
             <div class="action-box">
 
               <div class="action-label">
-
                 ACCIÓN SUGERIDA
-
               </div>
-
 
               <p>
 
@@ -1310,31 +1085,23 @@ function crearTema(
             </div>
 
           `
-
           : ''
-
       }
 
 
-      <!-- BOTON -->
+      <!-- BOTÓN -->
 
       <button
         class="expand-button"
         data-target="${escaparHTML(id)}"
-        type="button"
       >
 
         <span>
-
           Ver análisis completo
-
         </span>
 
-
         <span class="expand-arrow">
-
           ↓
-
         </span>
 
       </button>
@@ -1347,17 +1114,13 @@ function crearTema(
 
         ${
           item.por_que_importa
-
             ? `
 
               <div class="detalle-section">
 
                 <h4>
-
                   Por qué importa
-
                 </h4>
-
 
                 <p>
 
@@ -1370,25 +1133,19 @@ function crearTema(
               </div>
 
             `
-
             : ''
-
         }
 
 
         ${
           item.tipo_de_oportunidad
-
             ? `
 
               <div class="detalle-section">
 
                 <h4>
-
                   Tipo de oportunidad
-
                 </h4>
-
 
                 <p>
 
@@ -1401,25 +1158,19 @@ function crearTema(
               </div>
 
             `
-
             : ''
-
         }
 
 
         ${
           item.motivo_oportunidad
-
             ? `
 
               <div class="detalle-section">
 
                 <h4>
-
                   Motivo
-
                 </h4>
-
 
                 <p>
 
@@ -1432,25 +1183,19 @@ function crearTema(
               </div>
 
             `
-
             : ''
-
         }
 
 
         ${
           enfoques
-
             ? `
 
               <div class="detalle-section">
 
                 <h4>
-
                   Enfoques sugeridos
-
                 </h4>
-
 
                 <div class="enfoques">
 
@@ -1461,25 +1206,20 @@ function crearTema(
               </div>
 
             `
-
             : ''
-
         }
 
 
         ${
           ejemplos
-
             ? `
 
               <div class="detalle-section">
 
                 <h4>
-
-                  Qué está publicando la competencia
-
+                  Qué está publicando
+                  la competencia
                 </h4>
-
 
                 <div class="ejemplos-grid">
 
@@ -1490,9 +1230,7 @@ function crearTema(
               </div>
 
             `
-
             : ''
-
         }
 
       </div>
@@ -1532,36 +1270,23 @@ function crearCobertura(
     .map(medio => {
 
       const valor =
-
         Number(
           cobertura[medio]
         ) || 0;
 
 
       const porcentaje =
-
         valor === 0
-
           ? 0
-
           : Math.max(
-
               7,
-
-              (
-                valor /
-                max
-              ) * 100
-
+              (valor / max) * 100
             );
 
 
       const clase =
-
         medio === 'Perfil'
-
           ? 'perfil'
-
           : '';
 
 
@@ -1621,11 +1346,8 @@ function crearEnfoques(
 ) {
 
   if (
-
     !Array.isArray(enfoques) ||
-
     !enfoques.length
-
   ) {
 
     return '';
@@ -1638,7 +1360,6 @@ function crearEnfoques(
     .slice(0, 2)
 
     .map(
-
       enfoque => `
 
         <div class="enfoque">
@@ -1650,7 +1371,6 @@ function crearEnfoques(
         </div>
 
       `
-
     )
 
     .join('');
@@ -1667,11 +1387,8 @@ function crearEjemplos(
 ) {
 
   if (
-
-    !Array.isArray(ejemplos) ||
-
-    !ejemplos.length
-
+    !Array.isArray(enemplos) ||
+    !enemplos.length
   ) {
 
     return '';
@@ -1686,18 +1403,13 @@ function crearEjemplos(
     .map(ejemplo => {
 
       const imagen =
-
         ejemplo.imagen ||
-
         ejemplo.Imagen ||
-
         '';
 
 
       const link =
-
         ejemplo.link ||
-
         '#';
 
 
@@ -1712,7 +1424,6 @@ function crearEjemplos(
 
           ${
             imagen
-
               ? `
 
                 <img
@@ -1728,7 +1439,6 @@ function crearEjemplos(
                 >
 
               `
-
               : `
 
                 <div
@@ -1736,7 +1446,6 @@ function crearEjemplos(
                 ></div>
 
               `
-
           }
 
 
@@ -1781,17 +1490,10 @@ function crearEjemplos(
 function configurarExpandibles() {
 
   document
-
     .querySelectorAll(
       '.expand-button'
     )
-
     .forEach(button => {
-
-      /*
-       * onclick reemplaza el evento anterior
-       * y evita duplicaciones.
-       */
 
       button.onclick = () => {
 
@@ -1822,7 +1524,6 @@ function configurarExpandibles() {
 
 
         const abierto =
-
           detalle.classList.contains(
             'abierto'
           );
@@ -1841,18 +1542,18 @@ function configurarExpandibles() {
             );
 
 
+          const flecha =
+            button.querySelector(
+              '.expand-arrow'
+            );
+
+
           if (texto) {
 
             texto.textContent =
               'Ver análisis completo';
 
           }
-
-
-          const flecha =
-            button.querySelector(
-              '.expand-arrow'
-            );
 
 
           if (flecha) {
@@ -1862,9 +1563,7 @@ function configurarExpandibles() {
 
           }
 
-        }
-
-        else {
+        } else {
 
           detalle.classList.add(
             'abierto'
@@ -1877,18 +1576,18 @@ function configurarExpandibles() {
             );
 
 
+          const flecha =
+            button.querySelector(
+              '.expand-arrow'
+            );
+
+
           if (texto) {
 
             texto.textContent =
               'Ocultar análisis';
 
           }
-
-
-          const flecha =
-            button.querySelector(
-              '.expand-arrow'
-            );
 
 
           if (flecha) {
@@ -1938,3 +1637,14 @@ function cerrarModal() {
 // ==========================================
 
 cargarDashboard();
+
+
+// ==========================================
+// ACTUALIZACIÓN AUTOMÁTICA
+// Cada 5 minutos
+// ==========================================
+
+setInterval(
+  cargarDashboard,
+  INTERVALO_ACTUALIZACION
+);
