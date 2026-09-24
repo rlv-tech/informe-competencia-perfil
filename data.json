@@ -1,69 +1,248 @@
 {
-  "fecha_analisis": "2026-09-24T20:38:14Z",
-  "hipercompetencia": [],
-  "perfil_pierde": [],
-  "sin_cobertura_perfil": [],
-  "oportunidades": [
+  "fecha_analisis": "2026-09-24",
+  "hipercompetencia": [
     {
-      "tema": "Partida presupuestaria para la inspección del avión militar KC-130H Hercules",
+      "tema": "Índice de pobreza del INDEC en el primer semestre de 2026",
       "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad temática",
-      "total_notas": 1,
-      "cantidad_medios": 1,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 4,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 0,
+      "competencia_total": 3,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
+      "cobertura_medio_lider": 1,
       "brecha": 0,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 1,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Involucra la asignación de fondos en moneda extranjera para las Fuerzas Armadas, un tema de interés para el seguimiento de la gestión de Defensa.",
-      "insight": "Perfil cuenta con cobertura propia sobre la medida, mientras que el resto de los competidores relevados no registra publicaciones sobre este anuncio específico.",
+      "por_que_importa": "Es el indicador social y económico más sensible de la Argentina, con un fuerte impacto directo en el humor social, la política y las búsquedas masivas en Google.",
+      "insight": "Hubo una cobertura masiva y simultánea en todos los portales principales, marcando la agenda económica del día.",
       "motivo": "",
-      "motivo_oportunidad": "Perfil es el único medio que aborda esta asignación presupuestaria específica de Defensa, permitiendo captar tráfico directo en buscadores sobre contratos militares.",
-      "accion_sugerida": "Profundizar en el estado actual de la flota de transporte de la Fuerza Aérea y el detalle técnico de la inspección sin reiterar el anuncio oficial ya cubierto.",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Profundizar con infografías interactivas sobre el impacto regional y el mapa de la indigencia sin repetir el cable oficial.",
       "enfoques_sugeridos": [
-        "Detalle técnico y operativo de por qué el Hércules es clave para la logística militar argentina.",
-        "Análisis del impacto de esta inversión dentro del presupuesto general asignado al Ministerio de Defensa."
+        "Desglose por regiones y franjas etarias más afectadas por la suba.",
+        "Análisis del impacto político del dato en la gestión económica oficial."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El ministro de Defensa, Carlos Presti, confirmó una partida de US$12 millones destinada a la inspección del KC-130H Hercules",
-          "link": "https://www.perfil.com/noticias/politica/el-ministro-de-defensa-carlos-presti-confirmo-una-partida-de-us12-millones-destinada-a-la-inspeccion-del-kc-130h-hercules.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/inspeccion-del-kc-130h-hercules-2333264.jpg"
+          "titulo": "Oficial: la pobreza escaló al 32,9% en el primer semestre de 2026 según el INDEC",
+          "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-el-primer-semestre-de-2026-segun-el-indec-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/04/26/trim/540/304/260426pobrezajubiladosadultosindigenciaafpg-2227685.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La pobreza creció a 32,3% en el primer semestre según el INDEC",
+          "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Pobreza sube al 32,3% en el primer semestre de 2026 según INDEC",
+          "link": "https://www.clarin.com/economia/pobreza-subio-323-primer-semestre-2026-medicion-indec_0_lzofGRGq0Q.html",
+          "imagen": "https://www.clarin.com/img/2026/08/03/3qz-0r3ur_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Aprobación en el Senado de la reforma de la Carta Orgánica del Banco Central",
+      "tema": "Caída de la actividad económica en julio de 2026 según el INDEC",
       "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusividad legislativa",
-      "total_notas": 1,
-      "cantidad_medios": 1,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 3,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 0,
+      "competencia_total": 2,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Mide el pulso real de la recesión o recuperación y genera alto interés en audiencias corporativas y de finanzas personales.",
+      "insight": "La noticia dominó los portales económicos con un enfoque unánime en el freno del repunte previo.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Publicar un análisis sector por sector para entender cuáles industrias traccionan hacia abajo.",
+      "enfoques_sugeridos": [
+        "Comparativa histórica del freno de la actividad con semestres anteriores.",
+        "Impacto en el empleo y la recaudación fiscal."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "La actividad económica cayó 2,9% en julio según el INDEC",
+          "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La economía cayó 2,9% en julio y borra repunte previo",
+          "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
+          "imagen": ""
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Actividad económica cae 2,9% en julio según el INDEC",
+          "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
+          "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Encuentro bilateral entre Donald Trump y Xi Jinping en la Casa Blanca",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "La geopolítica global tracciona masivamente en Google Discover por el peso de las potencias en la economía internacional.",
+      "insight": "Los principales medios cubrieron con múltiples piezas la llegada, honores y agenda de la cumbre.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Desarrollar una crónica centrada en los impactos comerciales para los mercados emergentes y Latinoamérica.",
+      "enfoques_sugeridos": [
+        "El trasfondo comercial y la guerra de aranceles entre Estados Unidos y China.",
+        "Repercusiones diplomáticas del encuentro en el plano internacional."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Donald Trump recibió con honores militares a Xi Jinping en la Casa Blanca",
+          "link": "https://www.perfil.com/noticias/internacional/trump-recibio-con-honores-militares-a-xi-jinping-en-la-casa-blanca.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/donald-trump-xi-jinping-20260924-2333216.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Claves del encuentro entre Donald Trump y Xi Jinping en la Casa Blanca",
+          "link": "https://www.lanacion.com.ar/el-mundo/trump-recibe-a-xi-en-la-casa-blanca-las-claves-de-un-encuentro-entre-la-pompa-y-las-tensiones-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/IYZQ63XJ6ZELRH6RFS42HE27I4.JPG?auth=b14816730c59e2af0b71281e5a15ac5debf7b9dc3a683b6a76305736807de0bd&smart=true&width=6317&height=4211"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Donald Trump recibe a Xi Jinping en la Casa Blanca para tratar agenda bilateral",
+          "link": "https://www.clarin.com/mundo/trump-recibe-honores-militares-xi-jinping-casa-blanca-aranceles-iran-ia-autos-chinos-agenda_0_7wjDI9awoQ.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/yvReX8yum_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Aumento de combustibles de petroleras privadas salvo YPF",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 2,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
       "brecha": 0,
       "cobertura": {
         "Perfil": 1,
         "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "El precio de la nafta impacta directamente en el bolsillo de los consumidores y moviliza consultas inmediatas en buscadores.",
+      "insight": "La cobertura se centró en la diferenciación de precios frente a la petrolera estatal.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Armar una guía con los cuadros tarifarios actualizados por marca y región.",
+      "enfoques_sugeridos": [
+        "El impacto del incremento en la logística y el transporte interno.",
+        "Estrategia comercial de YPF al congelar o moderar subas frente a la competencia."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Petroleras aumentan precios de combustibles hasta un 5% salvo YPF",
+          "link": "https://www.perfil.com/noticias/economia/salvo-ypf-las-petroleras-aumentaron-las-naftas-hasta-5.phtml",
+          "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/nafta-2309479.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Suben naftas entre 2,5% y 5% en estaciones de servicio salvo YPF",
+          "link": "https://www.clarin.com/energia-y-mineria/suben-naftas-25-5-principales-estaciones-servicio-excepcion-ypf_0_90w51KVVUf.html",
+          "imagen": "https://www.clarin.com/img/2021/02/17/hD2EqwPnr_1200x630__1.jpg"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Mercados caen las acciones y los bonos argentinos y vuelve a subir el riesgo país",
+          "link": "https://www.infobae.com/economia/2026/09/24/mercados-caen-las-acciones-y-los-bonos-argentinos-y-vuelve-a-subir-el-riesgo-pais/",
+          "imagen": "https://www.infobae.com/resizer/v2/VDLTAZL6Y5DBBF4P2VVNM3GAM4.JPG?auth=5ce39353a5dae94300470af5dd301133f8efeefc348cf47f18461e668adde383&smart=true&width=5672&height=3781"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    }
+  ],
+  "perfil_pierde": [
+    {
+      "tema": "Reflexiones y entrevistas sobre psicología, vínculos y desarrollo personal",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 13,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 12,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 12,
+      "brecha": 11,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 12,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -71,43 +250,161 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La modificación de la normativa del Banco Central y de zonas frías impacta directamente en la economía macroeconómica y en las tarifas de los usuarios.",
-      "insight": "El debate legislativo cuenta con el registro de Perfil, sin que se visualice una réplica inmediata en la muestra del resto de los jugadores del mercado.",
+      "por_que_importa": "Los contenidos de bienestar, salud mental y reflexiones de figuras como Gabriel Rolón poseen un altísimo tráfico orgánico y retención en Google Discover.",
+      "insight": "La Nación desplegó una cobertura masiva de notas vinculadas a psicología y bienestar, superando ampliamente la oferta de Perfil.",
       "motivo": "",
-      "motivo_oportunidad": "Permite posicionar al medio con el seguimiento en tiempo real de la actividad parlamentaria de alto impacto económico.",
-      "accion_sugerida": "Desarrollar una nota explicativa orientada al impacto directo que tendrá la nueva Carta Orgánica en el bolsillo de los ciudadanos y el sistema financiero.",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Desarrollar notas de servicio y entrevistas en profundidad sobre salud mental y dinámica familiar para captar tráfico de fin de semana.",
       "enfoques_sugeridos": [
-        "Claves económicas de los cambios introducidos en la entidad monetaria durante la sesión.",
-        "Repercusiones políticas del acuerdo legislativo para aprobar la iniciativa en la Cámara alta."
+        "Claves psicoanalíticas para entender los vínculos modernos y la frustración.",
+        "Guía práctica sobre la gestión del estrés crónico en la vida cotidiana."
       ],
       "ejemplos": [
         {
+          "medio": "La Nación",
+          "titulo": "Entrevista a Gabriel Rolón sobre el concepto de 'faltacidad'",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-podemos-alcanzar-la-faltacidad-la-mezcla-de-falta-y-felicidad-que-es-una-nid19092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Gabriel Rolón analiza cómo el deseo señala la falta en la naturaleza humana",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-la-naturaleza-humana-el-deseo-te-incomoda-porque-te-senala-la-falta-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+        },
+        {
           "medio": "Perfil",
-          "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central y zonas frías",
+          "titulo": "Samuel Cabanchick reflexiona sobre el impacto de la nueva tecnología",
+          "link": "https://www.perfil.com/noticias/modo-fontevecchia/samuel-cabanchick-la-nueva-tecnologia-aprisiona-por-los-juguetes-que-ofrece-a-cada-instante-modof.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/samuel-cabanchick-2333315.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Despate legislativo y aprobación en el Senado de la reforma de la Carta Orgánica del BCRA",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 7,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 6,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 3,
+      "brecha": 2,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 2,
+        "Clarín": 3,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Define el rumbo monetario del país y moviliza el análisis político y económico institucional.",
+      "insight": "La Nación y Clarín cubrieron con múltiples actualizaciones el minuto a minuto parlamentario, opacando la cobertura general de Perfil.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Realizar un análisis de impacto sobre cómo queda operativamente el Banco Central tras las modificaciones.",
+      "enfoques_sugeridos": [
+        "Los puntos clave que se modificaron en la Carta Orgánica del Banco Central.",
+        "El mapa de alianzas políticas que permitió la sanción en la Cámara alta."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "El oficialismo logró activar en el Senado el debate por la reforma del Banco Central y el régimen de zonas frías",
+          "link": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-activar-en-el-senado-el-debate-por-la-reforma-del-banco-central-y-el-regimen-de-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/7NNR3LQU65AA3JLBCLGKM3NMHU.JPG?auth=51347ea519571bb7a617c096120728d3499c04d993127a91a035b74943d70b44&smart=true&width=3000&height=2000"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Cena libertaria con Patricia Bullrich y senadores previo a sesión clave",
+          "link": "https://www.clarin.com/politica/sushi-lali-verborragia-karina-milei-cena-libertaria-bullrich-senadores-sesion-clave_0_8x95AgWZcx.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/5GYM9jLw1_1200x630__1.jpg"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "El Senado aprueba en general la reforma de la Carta Orgánica del Banco Central",
           "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
           "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Declaraciones de Carlos Heller sobre el impuesto a los ricos en California",
+      "tema": "Detención de Susan Sarandon en protesta en Nueva York contra Netanyahu",
       "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Análisis económico global",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
-      "brecha": 0,
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Combina el atractivo de las celebridades de Hollywood con la tensión geopolítica internacional, generando alto CTR en redes y portales.",
+      "insight": "Clarín y La Nación cubrieron el hecho con foco internacional, mientras Perfil no registró piezas equivalentes sobre el episodio.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Publicar un perfil sobre el activismo político histórico de la actriz y su historial de detenciones.",
+      "enfoques_sugeridos": [
+        "El rol de las figuras públicas en las protestas contra la política exterior de Israel en EE.UU.",
+        "La tensión en la Asamblea General de la ONU por las protestas callejeras."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Susan Sarandon detenida en protesta en Nueva York contra Benjamín Netanyahu",
+          "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Susan Sarandon detenida en protesta contra Netanyahu en Nueva York",
+          "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
+          "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Venta de entradas y precios para la despedida de Lionel Messi de la selección argentina",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 4,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": 4,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 4,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -115,133 +412,481 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Conecta el debate fiscal internacional con la discusión local sobre tributación a grandes patrimonios, un tópico de fuerte polarización política.",
-      "insight": "La temática internacional analizada por figuras locales se mantiene sin cobertura cruzada en la competencia.",
+      "por_que_importa": "Es un tema de altísimo interés popular que moviliza millones de búsquedas y tráfico masivo en dispositivos móviles.",
+      "insight": "La Nación centralizó la cobertura con guías completas de precios y plataformas, superando la presencia de los demás medios.",
       "motivo": "",
-      "motivo_oportunidad": "Atrae a una audiencia interesada en tendencias fiscales internacionales vinculadas a referentes políticos locales.",
-      "accion_sugerida": "Ampliar el contraste entre la medida aplicada en California y las propuestas impositivas que impulsa la oposición en el parlamento argentino.",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Elaborar una guía de pasos para evitar estafas virtuales en la reventa de tickets oficiales.",
       "enfoques_sugeridos": [
-        "Radiografía del impuesto del 5% a los sectores de mayores ingresos en California según la visión del legislador.",
-        "Viabilidad y antecedentes de gravar grandes fortunas en las economías occidentales."
+        "El impacto económico de la última presentación del capitán en el país.",
+        "Análisis de la demanda récord en la plataforma de comercialización."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Carlos Heller: 'California vota un impuesto del 5% a los 200 más ricos para financiar su salud'",
-          "link": "https://www.perfil.com/noticias/modo-fontevecchia/carlos-heller-california-vota-un-impuesto-del-5-a-los-200-mas-ricos-para-financiar-su-salud-modof.phtml",
-          "imagen": "https://fotos.perfil.com/2025/02/13/trim/540/304/carlos-heller-diputado-nacional-por-union-por-la-patria-1966507.jpg"
+          "medio": "La Nación",
+          "titulo": "A qué hora empieza hoy la venta de entradas para la despedida de Messi de la selección argentina",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-empieza-hoy-la-venta-de-entradas-para-la-despedida-de-messi-de-la-seleccion-argentina-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/OTYY74UT5VAKHLWNNRSC7MFT3Y.JPG?auth=8f2f26e514dd4cbb7574abf56d54ec68d9b830fbe8cbdac5baf9e8b806a06ea6&smart=true&width=3586&height=2391"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Precios y ubicaciones de entradas para la despedida de Messi en la selección",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/lista-de-precios-de-las-entradas-para-la-despedida-de-messi-de-la-seleccion-una-por-una-todas-las-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RPYYERTLSVA25DNZ7AVH2237KY.png?auth=b6e3a805673e774850108be56c5f4db4f89c3761ce1e6da38797124c361a62ff&smart=true&width=923&height=458"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Guía para comprar entradas para la despedida de Messi de la selección",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/como-comprar-las-entradas-para-la-despedida-de-messi-en-la-seleccion-precios-lugares-y-plataforma-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RPYYERTLSVA25DNZ7AVH2237KY.png?auth=b6e3a805673e774850108be56c5F4db4f89c3761ce1e6da38797124c361a62ff&smart=true&width=923&height=458"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
-    },
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "sin_cobertura_perfil": [
     {
-      "tema": "Disputa política entre Javier Milei y Axel Kicillof trasladada a Nueva York",
+      "tema": "Tragedia y búsqueda de kayakistas desaparecidos en Santa Teresita",
       "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Cobertura geopolítica y económica",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
-      "brecha": 0,
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La tensión entre el Gobierno nacional y la principal gobernación opositora en foros internacionales genera alto interés en la agenda política nacional.",
-      "insight": "El choque político en el exterior cuenta con cobertura inicial en Perfil, abriendo espacio para profundizar en la lectura económica que hacen los inversores extranjeros.",
+      "por_que_importa": "Los casos de rescate y emergencias en la costa atlántica generan un alto nivel de lectura en directo y alertas informativas.",
+      "insight": "La competencia cubrió el operativo de búsqueda con notas de seguimiento, mientras Perfil mantuvo nula presencia.",
       "motivo": "",
-      "motivo_oportunidad": "Posiciona al medio en la cobertura de alto nivel sobre la interna nacional proyectada al exterior.",
-      "accion_sugerida": "Analizar la recepción de los inversores en Wall Street ante las posturas contrapuestas del oficialismo nacional y el mandatario provincial.",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Hacer un seguimiento de las condiciones climáticas y el protocolo de Prefectura en zonas de riesgo.",
       "enfoques_sugeridos": [
-        "Cómo impacta la polarización Milei-Kicillof en la percepción del riesgo país y las inversiones.",
-        "El trasfondo diplomático y económico de la presencia de ambos dirigentes en Nueva York."
+        "El estado actual del operativo de búsqueda por parte de Prefectura Naval.",
+        "Testimonios de familiares y alertas meteorológicas en la Costa Atlántica."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Javier Milei y Axel Kicillof llevaron la disputa política a Nueva York ante empresarios e inversores",
-          "link": "https://www.perfil.com/noticias/masperfil/rdc-javier-milei-y-axel-kicillof-llevaron-la-disputa-politica-a-nueva-york-ante-empresarios-e-inversores.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/milei-y-kicillof-2333428.jpg"
+          "medio": "La Nación",
+          "titulo": "Búsqueda de dos kayakistas desaparecidos en Santa Teresita",
+          "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-los-dos-kayakistas-desaparecidos-en-santa-teresita-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/2WEMFH4VHFAJFFJ7AS5KXOTMSE.jpeg?auth=d66837871c09ec8179ef381abaa64203356d80d4a9604e452f562755c734d68b&smart=true&width=720&height=815"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Pronóstico del tiempo y alerta roja por lluvias en provincias",
+          "link": "https://www.clarin.com/sociedad/clima-hoy-llegan-primeras-temperaturas-primavera-ciudad-provincia-alerta-roja-fuertes-lluvias_0_8k4QH8uEyW.html",
+          "imagen": "https://www.clarin.com/img/2025/12/25/tzyJ1QBah_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Fallecimiento de Marcos Franchi, histórico representante de Maradona y manager de Riquelme",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "La historia del fútbol argentino y la figura de Diego Maradona generan un fuerte impacto emocional y viralización en redes.",
+      "insight": "Tanto La Nación como Infobae dedicaron piezas exclusivas al deceso, dejando a Perfil fuera de la cobertura.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Publicar un perfil retrospectivo sobre la época dorada de los representantes en el fútbol argentino de los años 90.",
+      "enfoques_sugeridos": [
+        "El legado de Marcos Franchi en las carreras de Diego Maradona y Juan Román Riquelme.",
+        "Anécdotas y recuerdos del ambiente futbolístico tras su partida."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Fallece Marcos Franchi, histórico representante de Maradona y manager de Riquelme, a los 75 años",
+          "link": "https://www.lanacion.com.ar/deportes/murio-marcos-franchi-historico-representante-de-maradona-y-manager-de-riquelme-a-los-75-anos-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/DJQSGLG3C5FKTL2H33QOGUQEEQ.jpg?auth=30bce8f983762a8a9b49c7b0be0799f895f83d5decdce4b80ef9eef1d765abca&smart=true&width=1200&height=800"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Fallece Marcos Franchi, histórico representante de Maradona y Riquelme",
+          "link": "https://www.infobae.com/deportes/2026/09/24/dolor-en-el-futbol-argentino-murio-marcos-franchi-historico-representante-de-maradona-y-riquelme/",
+          "imagen": "https://www.infobae.com/resizer/v2/6NRFPHBWUZC5BGII6NWPTR4UUI.png?auth=da945b62cd7d7b668f310aa50a0768002f022614d0276f120dd1f313c8a92142&smart=true&width=728&height=410"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Apertura de la 51ª Feria del Libro con Martín Caparrós y asistencia a librerías",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Moviliza al sector cultural, educativo y editorial, siendo un clásico de gran valor para la audiencia lectora argentina.",
+      "insight": "Clarín cubrió en exclusiva el anuncio oficial, mientras Perfil omitió el tratamiento del tema cultural.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Desarrollar una entrevista con referentes del sector sobre la crisis de las librerías independientes.",
+      "enfoques_sugeridos": [
+        "El rol de Martín Caparrós al frente de la apertura del tradicional evento literario.",
+        "Detalles del plan de asistencia financiera anunciado para el sector librero."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Martín Caparrós abrirá la 51.ª Feria del Libro y Ciudad anuncia ayuda a librerías",
+          "link": "https://www.clarin.com/cultura/martin-caparros-abrira-51-feria-libro-ciudad-anuncio-ayudas-librerias-crisis_0_WQRXjDl24p.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/VsQxesxLY_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "San Juan emite bono internacional por USD 600 millones tras 27 años",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Marca un hito en las finanzas sub soberanas y el regreso de las provincias al mercado voluntario de deuda externa.",
+      "insight": "Infobae cubrió la operación financiera en exclusiva sin réplica en Perfil.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Analizar la sustentabilidad fiscal de las provincias que buscan endeudarse en moneda extranjera.",
+      "enfoques_sugeridos": [
+        "Destino de los fondos obtenidos por la provincia de San Juan en el exterior.",
+        "El apetito de los inversores internacionales por los títulos sub soberanos argentinos."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "San Juan regresa al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
+          "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
+          "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    }
+  ],
+  "oportunidades": [
+    {
+      "tema": "Precios de alquileres en Mar del Plata para la temporada de verano",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusiva de un competidor en temporada alta de consultas de planificación vacacional.",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Anticipa el turismo estival y genera un alto volumen de búsquedas de servicios y costos inmobiliarios.",
+      "insight": "Solo Clarín abordó el relevamiento de valores de alquileres temporarios en la costa atlántica.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín publicó una guía de precios adelantada que tracciona fuerte en Google Discover, con cero cobertura de Perfil.",
+      "accion_sugerida": "Publicar un relevamiento propio comparando precios con otros destinos turísticos de la costa y las sierras.",
+      "enfoques_sugeridos": [
+        "Cuánto costará alquilar un departamento en Mar del Plata este verano.",
+        "Estrategias de los propietarios frente a la demanda y la inflación proyectada."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Dieron a conocer precios de alquileres en Mar del Plata para la temporada: cuánto costará a una familia tipo",
+          "link": "https://www.clarin.com/sociedad/dieron-conocer-precios-alquileres-mar-plata-verano-costara-familia-tipo_0_kNmFkkztIB.html",
+          "imagen": "https://www.clarin.com/img/2023/12/16/ON1KbX5rx_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Aprobación de la venta de medicamentos con receta en Brasil por Mercado Libre",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Cobertura aislada de un único competidor sobre negocio tecnológico regional.",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Interesa al sector corporativo, e-commerce y inversores de la región por el modelo de negocio disruptivo.",
+      "insight": "La noticia tecnológica pasó desapercibida para el resto de los medios nacionales.",
+      "motivo": "",
+      "motivo_oportunidad": "Infobae fue el único medio en destacar la expansión comercial del gigante tecnológico en el rubro farmacéutico.",
+      "accion_sugerida": "Analizar la regulación sanitaria en Argentina para la venta online de medicamentos con receta.",
+      "enfoques_sugeridos": [
+        "El impacto de la digitalización de farmacias en el mercado sudamericano.",
+        "Los desafíos logísticos de la entrega de medicamentos refrigerados."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Mercado Libre anuncia la venta de medicamentos con receta para Brasil",
+          "link": "https://www.infobae.com/america/agencias/2026/09/24/mercado-libre-anuncia-la-venta-de-medicamentos-con-receta-para-brasil/",
+          "imagen": ""
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Estudio descubre que el cerebro de los perros segmenta el habla como los humanos",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Nota de divulgación científica con alto potencial viral en redes sociales y Discover.",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Los contenidos sobre mascotas y ciencia curiosa registran tasas muy altas de clics y compartidos.",
+      "insight": "Es un contenido evergreen de ciencia blanda ideal para captar tráfico en horarios valle.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín cubrió en solitario un hallazgo etológico de gran empatía con la audiencia masiva.",
+      "accion_sugerida": "Redactar una nota complementaria consultando a veterinarios especialistas en conducta animal en Argentina.",
+      "enfoques_sugeridos": [
+        "Cómo interpretan realmente las palabras los perros según la nueva evidencia científica.",
+        "Consejos para mejorar la comunicación diaria con nuestras mascotas."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Descubren que el cerebro de los perros segmenta el habla igual que los humanos",
+          "link": "https://www.clarin.com/internacional/descubren-cerebro-perros-segmenta-habla-igual-humanos_0_yo3HtylYN6.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/VyMojk1A7_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Aprobación del fármaco Lenacapavir en México para prevenir el VIH",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusiva de salud internacional con alto valor de servicio médico.",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Los avances médicos de alto impacto generan fuerte interés en comunidades científicas y pacientes.",
+      "insight": "La temática de salud global estuvo ausente en el resto de la agenda local.",
+      "motivo": "",
+      "motivo_oportunidad": "Infobae reportó en solitario la aprobación de un tratamiento de aplicación semestral contra el VIH.",
+      "accion_sugerida": "Investigar los plazos estimados para la llegada de esta nueva medicación preventiva a la Argentina.",
+      "enfoques_sugeridos": [
+        "Cómo funciona la profilaxis semestral y su efectividad clínica comprobada.",
+        "El acceso a tratamientos innovadores de prevención en América Latina."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "México aprueba el lenacapavir, el fármaco que se aplica dos veces al año para prevenir el VIH",
+          "link": "https://www.infobae.com/mexico/2026/09/24/mexico-aprueba-el-lenacapavir-el-farmaco-que-se-aplica-dos-veces-al-ano-para-prevenir-el-vih/",
+          "imagen": "https://www.infobae.com/resizer/v2/O6FEVVGCIRDSPAIL4ZAAIUM2QQ.jpg?auth=21c3d02707737f5df4a299275c81b64997e68755d68b68750053959b44fe780f&smart=true&width=1920&height=1080"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
     }
   ],
   "prioridades_del_dia": [
     {
-      "tema": "Aprobación en el Senado de la reforma de la Carta Orgánica del Banco Central",
+      "tema": "Índice de pobreza del INDEC en el primer semestre de 2026",
       "prioridad": 1,
-      "tipo": "oportunidades",
+      "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
+      "total_notas": 4,
+      "cantidad_medios": 4,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 0,
+      "competencia_total": 3,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
+      "cobertura_medio_lider": 1,
       "brecha": 0,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 1,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La modificación de la normativa del Banco Central y de zonas frías impacta directamente en la economía macroeconómica y en las tarifas de los usuarios.",
-      "insight": "El debate legislativo cuenta con el registro de Perfil, sin que se visualice una réplica inmediata en la muestra del resto de los jugadores del mercado.",
+      "por_que_importa": "Es el indicador social y económico más sensible de la Argentina, con un fuerte impacto directo en el humor social, la política y las búsquedas masivas en Google.",
+      "insight": "Hubo una cobertura masiva y simultánea en todos los portales principales, marcando la agenda económica del día.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar una nota explicativa orientada al impacto directo que tendrá la nueva Carta Orgánica en el bolsillo de los ciudadanos y el sistema financiero.",
+      "accion_sugerida": "Profundizar con infografías interactivas sobre el impacto regional y el mapa de la indigencia sin repetir el cable oficial.",
       "enfoques_sugeridos": [
-        "Claves económicas de los cambios introducidos en la entidad monetaria durante la sesión.",
-        "Repercusiones políticas del acuerdo legislativo para aprobar la iniciativa en la Cámara alta."
+        "Desglose por regiones y franjas etarias más afectadas por la suba.",
+        "Análisis del impacto político del dato en la gestión económica oficial."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central y zonas frías",
-          "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
+          "titulo": "Oficial: la pobreza escaló al 32,9% en el primer semestre de 2026 según el INDEC",
+          "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-el-primer-semestre-de-2026-segun-el-indec-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/04/26/trim/540/304/260426pobrezajubiladosadultosindigenciaafpg-2227685.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La pobreza creció a 32,3% en el primer semestre según el INDEC",
+          "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Pobreza sube al 32,3% en el primer semestre de 2026 según INDEC",
+          "link": "https://www.clarin.com/economia/pobreza-subio-323-primer-semestre-2026-medicion-indec_0_lzofGRGq0Q.html",
+          "imagen": "https://www.clarin.com/img/2026/08/03/3qz-0r3ur_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Disputa política entre Javier Milei y Axel Kicillof trasladada a Nueva York",
+      "tema": "Reflexiones y entrevistas sobre psicología, vínculos y desarrollo personal",
       "prioridad": 2,
-      "tipo": "oportunidades",
+      "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
+      "total_notas": 13,
+      "cantidad_medios": 2,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 0,
+      "competencia_total": 12,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
-      "brecha": 0,
+      "cobertura_medio_lider": 12,
+      "brecha": 11,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
+        "La Nación": 12,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -249,137 +894,334 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La tensión entre el Gobierno nacional y la principal gobernación opositora en foros internacionales genera alto interés en la agenda política nacional.",
-      "insight": "El choque político en el exterior cuenta con cobertura inicial en Perfil, abriendo espacio para profundizar en la lectura económica que hacen los inversores extranjeros.",
+      "por_que_importa": "Los contenidos de bienestar, salud mental y reflexiones de figuras como Gabriel Rolón poseen un altísimo tráfico orgánico y retención en Google Discover.",
+      "insight": "La Nación desplegó una cobertura masiva de notas vinculadas a psicología y bienestar, superando ampliamente la oferta de Perfil.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Analizar la recepción de los inversores en Wall Street ante las posturas contrapuestas del oficialismo nacional y el mandatario provincial.",
+      "accion_sugerida": "Desarrollar notas de servicio y entrevistas en profundidad sobre salud mental y dinámica familiar para captar tráfico de fin de semana.",
       "enfoques_sugeridos": [
-        "Cómo impacta la polarización Milei-Kicillof en la percepción del riesgo país y las inversiones.",
-        "El trasfondo diplomático y económico de la presencia de ambos dirigentes en Nueva York."
+        "Claves psicoanalíticas para entender los vínculos modernos y la frustración.",
+        "Guía práctica sobre la gestión del estrés crónico en la vida cotidiana."
       ],
       "ejemplos": [
         {
+          "medio": "La Nación",
+          "titulo": "Entrevista a Gabriel Rolón sobre el concepto de 'faltacidad'",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-podemos-alcanzar-la-faltacidad-la-mezcla-de-falta-y-felicidad-que-es-una-nid19092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Gabriel Rolón analiza cómo el deseo señala la falta en la naturaleza humana",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-la-naturaleza-humana-el-deseo-te-incomoda-porque-te-senala-la-falta-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+        },
+        {
           "medio": "Perfil",
-          "titulo": "Javier Milei y Axel Kicillof llevaron la disputa política a Nueva York ante empresarios e inversores",
-          "link": "https://www.perfil.com/noticias/masperfil/rdc-javier-milei-y-axel-kicillof-llevaron-la-disputa-politica-a-nueva-york-ante-empresarios-e-inversores.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/milei-y-kicillof-2333428.jpg"
+          "titulo": "Samuel Cabanchick reflexiona sobre el impacto de la nueva tecnología",
+          "link": "https://www.perfil.com/noticias/modo-fontevecchia/samuel-cabanchick-la-nueva-tecnologia-aprisiona-por-los-juguetes-que-ofrece-a-cada-instante-modof.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/samuel-cabanchick-2333315.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
+      "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Declaraciones de Carlos Heller sobre el impuesto a los ricos en California",
+      "tema": "Fallecimiento de Marcos Franchi, histórico representante de Maradona y manager de Riquelme",
       "prioridad": 3,
-      "tipo": "oportunidades",
+      "tipo": "sin_cobertura_perfil",
       "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 0,
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 2,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 0,
-      "brecha": 0,
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
+        "Perfil": 0,
+        "La Nación": 1,
         "Clarín": 0,
-        "Infobae": 0,
+        "Infobae": 1,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Conecta el debate fiscal internacional con la discusión local sobre tributación a grandes patrimonios, un tópico de fuerte polarización política.",
-      "insight": "La temática internacional analizada por figuras locales se mantiene sin cobertura cruzada en la competencia.",
+      "por_que_importa": "La historia del fútbol argentino y la figura de Diego Maradona generan un fuerte impacto emocional y viralización en redes.",
+      "insight": "Tanto La Nación como Infobae dedicaron piezas exclusivas al deceso, dejando a Perfil fuera de la cobertura.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar el contraste entre la medida aplicada en California y las propuestas impositivas que impulsa la oposición en el parlamento argentino.",
+      "accion_sugerida": "Publicar un perfil retrospectivo sobre la época dorada de los representantes en el fútbol argentino de los años 90.",
       "enfoques_sugeridos": [
-        "Radiografía del impuesto del 5% a los sectores de mayores ingresos en California según la visión del legislador.",
-        "Viabilidad y antecedentes de gravar grandes fortunas en las economías occidentales."
+        "El legado de Marcos Franchi en las carreras de Diego Maradona y Juan Román Riquelme.",
+        "Anécdotas y recuerdos del ambiente futbolístico tras su partida."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Carlos Heller: 'California vota un impuesto del 5% a los 200 más ricos para financiar su salud'",
-          "link": "https://www.perfil.com/noticias/modo-fontevecchia/carlos-heller-california-vota-un-impuesto-del-5-a-los-200-mas-ricos-para-financiar-su-salud-modof.phtml",
-          "imagen": "https://fotos.perfil.com/2025/02/13/trim/540/304/carlos-heller-diputado-nacional-por-union-por-la-patria-1966507.jpg"
+          "medio": "La Nación",
+          "titulo": "Fallece Marcos Franchi, histórico representante de Maradona y manager de Riquelme, a los 75 años",
+          "link": "https://www.lanacion.com.ar/deportes/murio-marcos-franchi-historico-representante-de-maradona-y-manager-de-riquelme-a-los-75-anos-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/DJQSGLG3C5FKTL2H33QOGUQEEQ.jpg?auth=30bce8f983762a8a9b49c7b0be0799f895f83d5decdce4b80ef9eef1d765abca&smart=true&width=1200&height=800"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Fallece Marcos Franchi, histórico representante de Maradona y Riquelme",
+          "link": "https://www.infobae.com/deportes/2026/09/24/dolor-en-el-futbol-argentino-murio-marcos-franchi-historico-representante-de-maradona-y-riquelme/",
+          "imagen": "https://www.infobae.com/resizer/v2/6NRFPHBWUZC5BGII6NWPTR4UUI.png?auth=da945b62cd7d7b668f310aa50a0768002f022614d0276f120dd1f313c8a92142&smart=true&width=728&height=410"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 0
+      "cantidad_medios_competencia": 2
     }
   ],
   "analisis_completo": {
-    "hipercompetencia": [],
-    "perfil_pierde": [],
-    "sin_cobertura_perfil": [],
-    "oportunidades": [
+    "hipercompetencia": [
       {
-        "tema": "Partida presupuestaria para la inspección del avión militar KC-130H Hercules",
+        "tema": "Índice de pobreza del INDEC en el primer semestre de 2026",
         "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusividad temática",
-        "total_notas": 1,
-        "cantidad_medios": 1,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 4,
         "cobertura_perfil": 1,
         "perfil": 1,
-        "competencia_total": 0,
+        "competencia_total": 3,
         "medio_lider": "La Nación",
-        "cobertura_medio_lider": 0,
+        "cobertura_medio_lider": 1,
         "brecha": 0,
         "cobertura": {
           "Perfil": 1,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 1,
           "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Involucra la asignación de fondos en moneda extranjera para las Fuerzas Armadas, un tema de interés para el seguimiento de la gestión de Defensa.",
-        "insight": "Perfil cuenta con cobertura propia sobre la medida, mientras que el resto de los competidores relevados no registra publicaciones sobre este anuncio específico.",
+        "por_que_importa": "Es el indicador social y económico más sensible de la Argentina, con un fuerte impacto directo en el humor social, la política y las búsquedas masivas en Google.",
+        "insight": "Hubo una cobertura masiva y simultánea en todos los portales principales, marcando la agenda económica del día.",
         "motivo": "",
-        "motivo_oportunidad": "Perfil es el único medio que aborda esta asignación presupuestaria específica de Defensa, permitiendo captar tráfico directo en buscadores sobre contratos militares.",
-        "accion_sugerida": "Profundizar en el estado actual de la flota de transporte de la Fuerza Aérea y el detalle técnico de la inspección sin reiterar el anuncio oficial ya cubierto.",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Profundizar con infografías interactivas sobre el impacto regional y el mapa de la indigencia sin repetir el cable oficial.",
         "enfoques_sugeridos": [
-          "Detalle técnico y operativo de por qué el Hércules es clave para la logística militar argentina.",
-          "Análisis del impacto de esta inversión dentro del presupuesto general asignado al Ministerio de Defensa."
+          "Desglose por regiones y franjas etarias más afectadas por la suba.",
+          "Análisis del impacto político del dato en la gestión económica oficial."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "El ministro de Defensa, Carlos Presti, confirmó una partida de US$12 millones destinada a la inspección del KC-130H Hercules",
-            "link": "https://www.perfil.com/noticias/politica/el-ministro-de-defensa-carlos-presti-confirmo-una-partida-de-us12-millones-destinada-a-la-inspeccion-del-kc-130h-hercules.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/inspeccion-del-kc-130h-hercules-2333264.jpg"
+            "titulo": "Oficial: la pobreza escaló al 32,9% en el primer semestre de 2026 según el INDEC",
+            "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-el-primer-semestre-de-2026-segun-el-indec-a40.phtml",
+            "imagen": "https://fotos.perfil.com/2026/04/26/trim/540/304/260426pobrezajubiladosadultosindigenciaafpg-2227685.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "La pobreza creció a 32,3% en el primer semestre según el INDEC",
+            "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Pobreza sube al 32,3% en el primer semestre de 2026 según INDEC",
+            "link": "https://www.clarin.com/economia/pobreza-subio-323-primer-semestre-2026-medicion-indec_0_lzofGRGq0Q.html",
+            "imagen": "https://www.clarin.com/img/2026/08/03/3qz-0r3ur_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 0
+        "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Aprobación en el Senado de la reforma de la Carta Orgánica del Banco Central",
+        "tema": "Caída de la actividad económica en julio de 2026 según el INDEC",
         "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusividad legislativa",
-        "total_notas": 1,
-        "cantidad_medios": 1,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 3,
         "cobertura_perfil": 1,
         "perfil": 1,
-        "competencia_total": 0,
+        "competencia_total": 2,
         "medio_lider": "La Nación",
-        "cobertura_medio_lider": 0,
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Mide el pulso real de la recesión o recuperación y genera alto interés en audiencias corporativas y de finanzas personales.",
+        "insight": "La noticia dominó los portales económicos con un enfoque unánime en el freno del repunte previo.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Publicar un análisis sector por sector para entender cuáles industrias traccionan hacia abajo.",
+        "enfoques_sugeridos": [
+          "Comparativa histórica del freno de la actividad con semestres anteriores.",
+          "Impacto en el empleo y la recaudación fiscal."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "La actividad económica cayó 2,9% en julio según el INDEC",
+            "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
+            "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "La economía cayó 2,9% en julio y borra repunte previo",
+            "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
+            "imagen": ""
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Actividad económica cae 2,9% en julio según el INDEC",
+            "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
+            "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Encuentro bilateral entre Donald Trump y Xi Jinping en la Casa Blanca",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "La geopolítica global tracciona masivamente en Google Discover por el peso de las potencias en la economía internacional.",
+        "insight": "Los principales medios cubrieron con múltiples piezas la llegada, honores y agenda de la cumbre.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Desarrollar una crónica centrada en los impactos comerciales para los mercados emergentes y Latinoamérica.",
+        "enfoques_sugeridos": [
+          "El trasfondo comercial y la guerra de aranceles entre Estados Unidos y China.",
+          "Repercusiones diplomáticas del encuentro en el plano internacional."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Donald Trump recibió con honores militares a Xi Jinping en la Casa Blanca",
+            "link": "https://www.perfil.com/noticias/internacional/trump-recibio-con-honores-militares-a-xi-jinping-en-la-casa-blanca.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/donald-trump-xi-jinping-20260924-2333216.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Claves del encuentro entre Donald Trump y Xi Jinping en la Casa Blanca",
+            "link": "https://www.lanacion.com.ar/el-mundo/trump-recibe-a-xi-en-la-casa-blanca-las-claves-de-un-encuentro-entre-la-pompa-y-las-tensiones-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/IYZQ63XJ6ZELRH6RFS42HE27I4.JPG?auth=b14816730c59e2af0b71281e5a15ac5debf7b9dc3a683b6a76305736807de0bd&smart=true&width=6317&height=4211"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Donald Trump recibe a Xi Jinping en la Casa Blanca para tratar agenda bilateral",
+            "link": "https://www.clarin.com/mundo/trump-recibe-honores-militares-xi-jinping-casa-blanca-aranceles-iran-ia-autos-chinos-agenda_0_7wjDI9awoQ.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/yvReX8yum_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Aumento de combustibles de petroleras privadas salvo YPF",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 2,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
         "brecha": 0,
         "cobertura": {
           "Perfil": 1,
           "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "El precio de la nafta impacta directamente en el bolsillo de los consumidores y moviliza consultas inmediatas en buscadores.",
+        "insight": "La cobertura se centró en la diferenciación de precios frente a la petrolera estatal.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Armar una guía con los cuadros tarifarios actualizados por marca y región.",
+        "enfoques_sugeridos": [
+          "El impacto del incremento en la logística y el transporte interno.",
+          "Estrategia comercial de YPF al congelar o moderar subas frente a la competencia."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Petroleras aumentan precios de combustibles hasta un 5% salvo YPF",
+            "link": "https://www.perfil.com/noticias/economia/salvo-ypf-las-petroleras-aumentaron-las-naftas-hasta-5.phtml",
+            "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/nafta-2309479.jpg"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Suben naftas entre 2,5% y 5% en estaciones de servicio salvo YPF",
+            "link": "https://www.clarin.com/energia-y-mineria/suben-naftas-25-5-principales-estaciones-servicio-excepcion-ypf_0_90w51KVVUf.html",
+            "imagen": "https://www.clarin.com/img/2021/02/17/hD2EqwPnr_1200x630__1.jpg"
+          },
+          {
+            "medio": "Infobae",
+            "titulo": "Mercados caen las acciones y los bonos argentinos y vuelve a subir el riesgo país",
+            "link": "https://www.infobae.com/economia/2026/09/24/mercados-caen-las-acciones-y-los-bonos-argentinos-y-vuelve-a-subir-el-riesgo-pais/",
+            "imagen": "https://www.infobae.com/resizer/v2/VDLTAZL6Y5DBBF4P2VVNM3GAM4.JPG?auth=5ce39353a5dae94300470af5dd301133f8efeefc348cf47f18461e668adde383&smart=true&width=5672&height=3781"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      }
+    ],
+    "perfil_pierde": [
+      {
+        "tema": "Reflexiones y entrevistas sobre psicología, vínculos y desarrollo personal",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 13,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 12,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 12,
+        "brecha": 11,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 12,
           "Clarín": 0,
           "Infobae": 0,
           "TN": 0,
@@ -387,43 +1229,161 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "La modificación de la normativa del Banco Central y de zonas frías impacta directamente en la economía macroeconómica y en las tarifas de los usuarios.",
-        "insight": "El debate legislativo cuenta con el registro de Perfil, sin que se visualice una réplica inmediata en la muestra del resto de los jugadores del mercado.",
+        "por_que_importa": "Los contenidos de bienestar, salud mental y reflexiones de figuras como Gabriel Rolón poseen un altísimo tráfico orgánico y retención en Google Discover.",
+        "insight": "La Nación desplegó una cobertura masiva de notas vinculadas a psicología y bienestar, superando ampliamente la oferta de Perfil.",
         "motivo": "",
-        "motivo_oportunidad": "Permite posicionar al medio con el seguimiento en tiempo real de la actividad parlamentaria de alto impacto económico.",
-        "accion_sugerida": "Desarrollar una nota explicativa orientada al impacto directo que tendrá la nueva Carta Orgánica en el bolsillo de los ciudadanos y el sistema financiero.",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Desarrollar notas de servicio y entrevistas en profundidad sobre salud mental y dinámica familiar para captar tráfico de fin de semana.",
         "enfoques_sugeridos": [
-          "Claves económicas de los cambios introducidos en la entidad monetaria durante la sesión.",
-          "Repercusiones políticas del acuerdo legislativo para aprobar la iniciativa en la Cámara alta."
+          "Claves psicoanalíticas para entender los vínculos modernos y la frustración.",
+          "Guía práctica sobre la gestión del estrés crónico en la vida cotidiana."
         ],
         "ejemplos": [
           {
+            "medio": "La Nación",
+            "titulo": "Entrevista a Gabriel Rolón sobre el concepto de 'faltacidad'",
+            "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-podemos-alcanzar-la-faltacidad-la-mezcla-de-falta-y-felicidad-que-es-una-nid19092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Gabriel Rolón analiza cómo el deseo señala la falta en la naturaleza humana",
+            "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-la-naturaleza-humana-el-deseo-te-incomoda-porque-te-senala-la-falta-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+          },
+          {
             "medio": "Perfil",
-            "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central y zonas frías",
+            "titulo": "Samuel Cabanchick reflexiona sobre el impacto de la nueva tecnología",
+            "link": "https://www.perfil.com/noticias/modo-fontevecchia/samuel-cabanchick-la-nueva-tecnologia-aprisiona-por-los-juguetes-que-ofrece-a-cada-instante-modof.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/samuel-cabanchick-2333315.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Despate legislativo y aprobación en el Senado de la reforma de la Carta Orgánica del BCRA",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 7,
+        "cantidad_medios": 4,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 6,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 3,
+        "brecha": 2,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 2,
+          "Clarín": 3,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Define el rumbo monetario del país y moviliza el análisis político y económico institucional.",
+        "insight": "La Nación y Clarín cubrieron con múltiples actualizaciones el minuto a minuto parlamentario, opacando la cobertura general de Perfil.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Realizar un análisis de impacto sobre cómo queda operativamente el Banco Central tras las modificaciones.",
+        "enfoques_sugeridos": [
+          "Los puntos clave que se modificaron en la Carta Orgánica del Banco Central.",
+          "El mapa de alianzas políticas que permitió la sanción en la Cámara alta."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "El oficialismo logró activar en el Senado el debate por la reforma del Banco Central y el régimen de zonas frías",
+            "link": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-activar-en-el-senado-el-debate-por-la-reforma-del-banco-central-y-el-regimen-de-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/7NNR3LQU65AA3JLBCLGKM3NMHU.JPG?auth=51347ea519571bb7a617c096120728d3499c04d993127a91a035b74943d70b44&smart=true&width=3000&height=2000"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Cena libertaria con Patricia Bullrich y senadores previo a sesión clave",
+            "link": "https://www.clarin.com/politica/sushi-lali-verborragia-karina-milei-cena-libertaria-bullrich-senadores-sesion-clave_0_8x95AgWZcx.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/5GYM9jLw1_1200x630__1.jpg"
+          },
+          {
+            "medio": "Perfil",
+            "titulo": "El Senado aprueba en general la reforma de la Carta Orgánica del Banco Central",
             "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
             "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 0
+        "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Declaraciones de Carlos Heller sobre el impuesto a los ricos en California",
+        "tema": "Detención de Susan Sarandon en protesta en Nueva York contra Netanyahu",
         "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Análisis económico global",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
         "medio_lider": "La Nación",
-        "cobertura_medio_lider": 0,
-        "brecha": 0,
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
         "cobertura": {
-          "Perfil": 1,
-          "La Nación": 0,
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Combina el atractivo de las celebridades de Hollywood con la tensión geopolítica internacional, generando alto CTR en redes y portales.",
+        "insight": "Clarín y La Nación cubrieron el hecho con foco internacional, mientras Perfil no registró piezas equivalentes sobre el episodio.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Publicar un perfil sobre el activismo político histórico de la actriz y su historial de detenciones.",
+        "enfoques_sugeridos": [
+          "El rol de las figuras públicas en las protestas contra la política exterior de Israel en EE.UU.",
+          "La tensión en la Asamblea General de la ONU por las protestas callejeras."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Susan Sarandon detenida en protesta en Nueva York contra Benjamín Netanyahu",
+            "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Susan Sarandon detenida en protesta contra Netanyahu en Nueva York",
+            "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
+            "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Venta de entradas y precios para la despedida de Lionel Messi de la selección argentina",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 4,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 4,
+        "brecha": 4,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 4,
           "Clarín": 0,
           "Infobae": 0,
           "TN": 0,
@@ -431,72 +1391,408 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Conecta el debate fiscal internacional con la discusión local sobre tributación a grandes patrimonios, un tópico de fuerte polarización política.",
-        "insight": "La temática internacional analizada por figuras locales se mantiene sin cobertura cruzada en la competencia.",
+        "por_que_importa": "Es un tema de altísimo interés popular que moviliza millones de búsquedas y tráfico masivo en dispositivos móviles.",
+        "insight": "La Nación centralizó la cobertura con guías completas de precios y plataformas, superando la presencia de los demás medios.",
         "motivo": "",
-        "motivo_oportunidad": "Atrae a una audiencia interesada en tendencias fiscales internacionales vinculadas a referentes políticos locales.",
-        "accion_sugerida": "Ampliar el contraste entre la medida aplicada en California y las propuestas impositivas que impulsa la oposición en el parlamento argentino.",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Elaborar una guía de pasos para evitar estafas virtuales en la reventa de tickets oficiales.",
         "enfoques_sugeridos": [
-          "Radiografía del impuesto del 5% a los sectores de mayores ingresos en California según la visión del legislador.",
-          "Viabilidad y antecedentes de gravar grandes fortunas en las economías occidentales."
+          "El impacto económico de la última presentación del capitán en el país.",
+          "Análisis de la demanda récord en la plataforma de comercialización."
         ],
         "ejemplos": [
           {
-            "medio": "Perfil",
-            "titulo": "Carlos Heller: 'California vota un impuesto del 5% a los 200 más ricos para financiar su salud'",
-            "link": "https://www.perfil.com/noticias/modo-fontevecchia/carlos-heller-california-vota-un-impuesto-del-5-a-los-200-mas-ricos-para-financiar-su-salud-modof.phtml",
-            "imagen": "https://fotos.perfil.com/2025/02/13/trim/540/304/carlos-heller-diputado-nacional-por-union-por-la-patria-1966507.jpg"
+            "medio": "La Nación",
+            "titulo": "A qué hora empieza hoy la venta de entradas para la despedida de Messi de la selección argentina",
+            "link": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-empieza-hoy-la-venta-de-entradas-para-la-despedida-de-messi-de-la-seleccion-argentina-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/OTYY74UT5VAKHLWNNRSC7MFT3Y.JPG?auth=8f2f26e514dd4cbb7574abf56d54ec68d9b830fbe8cbdac5baf9e8b806a06ea6&smart=true&width=3586&height=2391"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Precios y ubicaciones de entradas para la despedida de Messi en la selección",
+            "link": "https://www.lanacion.com.ar/deportes/futbol/lista-de-precios-de-las-entradas-para-la-despedida-de-messi-de-la-seleccion-una-por-una-todas-las-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/RPYYERTLSVA25DNZ7AVH2237KY.png?auth=b6e3a805673e774850108be56c5f4db4f89c3761ce1e6da38797124c361a62ff&smart=true&width=923&height=458"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Guía para comprar entradas para la despedida de Messi de la selección",
+            "link": "https://www.lanacion.com.ar/deportes/futbol/como-comprar-las-entradas-para-la-despedida-de-messi-en-la-seleccion-precios-lugares-y-plataforma-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/RPYYERTLSVA25DNZ7AVH2237KY.png?auth=b6e3a805673e774850108be56c5F4db4f89c3761ce1e6da38797124c361a62ff&smart=true&width=923&height=458"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 0
-      },
+        "cantidad_medios_competencia": 1
+      }
+    ],
+    "sin_cobertura_perfil": [
       {
-        "tema": "Disputa política entre Javier Milei y Axel Kicillof trasladada a Nueva York",
+        "tema": "Tragedia y búsqueda de kayakistas desaparecidos en Santa Teresita",
         "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Cobertura geopolítica y económica",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
         "medio_lider": "La Nación",
-        "cobertura_medio_lider": 0,
-        "brecha": 0,
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
         "cobertura": {
-          "Perfil": 1,
-          "La Nación": 0,
-          "Clarín": 0,
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 1,
           "Infobae": 0,
           "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "La tensión entre el Gobierno nacional y la principal gobernación opositora en foros internacionales genera alto interés en la agenda política nacional.",
-        "insight": "El choque político en el exterior cuenta con cobertura inicial en Perfil, abriendo espacio para profundizar en la lectura económica que hacen los inversores extranjeros.",
+        "por_que_importa": "Los casos de rescate y emergencias en la costa atlántica generan un alto nivel de lectura en directo y alertas informativas.",
+        "insight": "La competencia cubrió el operativo de búsqueda con notas de seguimiento, mientras Perfil mantuvo nula presencia.",
         "motivo": "",
-        "motivo_oportunidad": "Posiciona al medio en la cobertura de alto nivel sobre la interna nacional proyectada al exterior.",
-        "accion_sugerida": "Analizar la recepción de los inversores en Wall Street ante las posturas contrapuestas del oficialismo nacional y el mandatario provincial.",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Hacer un seguimiento de las condiciones climáticas y el protocolo de Prefectura en zonas de riesgo.",
         "enfoques_sugeridos": [
-          "Cómo impacta la polarización Milei-Kicillof en la percepción del riesgo país y las inversiones.",
-          "El trasfondo diplomático y económico de la presencia de ambos dirigentes en Nueva York."
+          "El estado actual del operativo de búsqueda por parte de Prefectura Naval.",
+          "Testimonios de familiares y alertas meteorológicas en la Costa Atlántica."
         ],
         "ejemplos": [
           {
-            "medio": "Perfil",
-            "titulo": "Javier Milei y Axel Kicillof llevaron la disputa política a Nueva York ante empresarios e inversores",
-            "link": "https://www.perfil.com/noticias/masperfil/rdc-javier-milei-y-axel-kicillof-llevaron-la-disputa-politica-a-nueva-york-ante-empresarios-e-inversores.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/milei-y-kicillof-2333428.jpg"
+            "medio": "La Nación",
+            "titulo": "Búsqueda de dos kayakistas desaparecidos en Santa Teresita",
+            "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-los-dos-kayakistas-desaparecidos-en-santa-teresita-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/2WEMFH4VHFAJFFJ7AS5KXOTMSE.jpeg?auth=d66837871c09ec8179ef381abaa64203356d80d4a9604e452f562755c734d68b&smart=true&width=720&height=815"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Pronóstico del tiempo y alerta roja por lluvias en provincias",
+            "link": "https://www.clarin.com/sociedad/clima-hoy-llegan-primeras-temperaturas-primavera-ciudad-provincia-alerta-roja-fuertes-lluvias_0_8k4QH8uEyW.html",
+            "imagen": "https://www.clarin.com/img/2025/12/25/tzyJ1QBah_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 0
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Fallecimiento de Marcos Franchi, histórico representante de Maradona y manager de Riquelme",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 2,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "La historia del fútbol argentino y la figura de Diego Maradona generan un fuerte impacto emocional y viralización en redes.",
+        "insight": "Tanto La Nación como Infobae dedicaron piezas exclusivas al deceso, dejando a Perfil fuera de la cobertura.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Publicar un perfil retrospectivo sobre la época dorada de los representantes en el fútbol argentino de los años 90.",
+        "enfoques_sugeridos": [
+          "El legado de Marcos Franchi en las carreras de Diego Maradona y Juan Román Riquelme.",
+          "Anécdotas y recuerdos del ambiente futbolístico tras su partida."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Fallece Marcos Franchi, histórico representante de Maradona y manager de Riquelme, a los 75 años",
+            "link": "https://www.lanacion.com.ar/deportes/murio-marcos-franchi-historico-representante-de-maradona-y-manager-de-riquelme-a-los-75-anos-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/DJQSGLG3C5FKTL2H33QOGUQEEQ.jpg?auth=30bce8f983762a8a9b49c7b0be0799f895f83d5decdce4b80ef9eef1d765abca&smart=true&width=1200&height=800"
+          },
+          {
+            "medio": "Infobae",
+            "titulo": "Fallece Marcos Franchi, histórico representante de Maradona y Riquelme",
+            "link": "https://www.infobae.com/deportes/2026/09/24/dolor-en-el-futbol-argentino-murio-marcos-franchi-historico-representante-de-maradona-y-riquelme/",
+            "imagen": "https://www.infobae.com/resizer/v2/6NRFPHBWUZC5BGII6NWPTR4UUI.png?auth=da945b62cd7d7b668f310aa50a0768002f022614d0276f120dd1f313c8a92142&smart=true&width=728&height=410"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Apertura de la 51ª Feria del Libro con Martín Caparrós y asistencia a librerías",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Moviliza al sector cultural, educativo y editorial, siendo un clásico de gran valor para la audiencia lectora argentina.",
+        "insight": "Clarín cubrió en exclusiva el anuncio oficial, mientras Perfil omitió el tratamiento del tema cultural.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Desarrollar una entrevista con referentes del sector sobre la crisis de las librerías independientes.",
+        "enfoques_sugeridos": [
+          "El rol de Martín Caparrós al frente de la apertura del tradicional evento literario.",
+          "Detalles del plan de asistencia financiera anunciado para el sector librero."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Martín Caparrós abrirá la 51.ª Feria del Libro y Ciudad anuncia ayuda a librerías",
+            "link": "https://www.clarin.com/cultura/martin-caparros-abrira-51-feria-libro-ciudad-anuncio-ayudas-librerias-crisis_0_WQRXjDl24p.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/VsQxesxLY_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "San Juan emite bono internacional por USD 600 millones tras 27 años",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Marca un hito en las finanzas sub soberanas y el regreso de las provincias al mercado voluntario de deuda externa.",
+        "insight": "Infobae cubrió la operación financiera en exclusiva sin réplica en Perfil.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Analizar la sustentabilidad fiscal de las provincias que buscan endeudarse en moneda extranjera.",
+        "enfoques_sugeridos": [
+          "Destino de los fondos obtenidos por la provincia de San Juan en el exterior.",
+          "El apetito de los inversores internacionales por los títulos sub soberanos argentinos."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "San Juan regresa al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
+            "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
+            "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      }
+    ],
+    "oportunidades": [
+      {
+        "tema": "Precios de alquileres en Mar del Plata para la temporada de verano",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusiva de un competidor en temporada alta de consultas de planificación vacacional.",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Anticipa el turismo estival y genera un alto volumen de búsquedas de servicios y costos inmobiliarios.",
+        "insight": "Solo Clarín abordó el relevamiento de valores de alquileres temporarios en la costa atlántica.",
+        "motivo": "",
+        "motivo_oportunidad": "Clarín publicó una guía de precios adelantada que tracciona fuerte en Google Discover, con cero cobertura de Perfil.",
+        "accion_sugerida": "Publicar un relevamiento propio comparando precios con otros destinos turísticos de la costa y las sierras.",
+        "enfoques_sugeridos": [
+          "Cuánto costará alquilar un departamento en Mar del Plata este verano.",
+          "Estrategias de los propietarios frente a la demanda y la inflación proyectada."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Dieron a conocer precios de alquileres en Mar del Plata para la temporada: cuánto costará a una familia tipo",
+            "link": "https://www.clarin.com/sociedad/dieron-conocer-precios-alquileres-mar-plata-verano-costara-familia-tipo_0_kNmFkkztIB.html",
+            "imagen": "https://www.clarin.com/img/2023/12/16/ON1KbX5rx_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Aprobación de la venta de medicamentos con receta en Brasil por Mercado Libre",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Cobertura aislada de un único competidor sobre negocio tecnológico regional.",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Interesa al sector corporativo, e-commerce y inversores de la región por el modelo de negocio disruptivo.",
+        "insight": "La noticia tecnológica pasó desapercibida para el resto de los medios nacionales.",
+        "motivo": "",
+        "motivo_oportunidad": "Infobae fue el único medio en destacar la expansión comercial del gigante tecnológico en el rubro farmacéutico.",
+        "accion_sugerida": "Analizar la regulación sanitaria en Argentina para la venta online de medicamentos con receta.",
+        "enfoques_sugeridos": [
+          "El impacto de la digitalización de farmacias en el mercado sudamericano.",
+          "Los desafíos logísticos de la entrega de medicamentos refrigerados."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "Mercado Libre anuncia la venta de medicamentos con receta para Brasil",
+            "link": "https://www.infobae.com/america/agencias/2026/09/24/mercado-libre-anuncia-la-venta-de-medicamentos-con-receta-para-brasil/",
+            "imagen": ""
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Estudio descubre que el cerebro de los perros segmenta el habla como los humanos",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Nota de divulgación científica con alto potencial viral en redes sociales y Discover.",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Los contenidos sobre mascotas y ciencia curiosa registran tasas muy altas de clics y compartidos.",
+        "insight": "Es un contenido evergreen de ciencia blanda ideal para captar tráfico en horarios valle.",
+        "motivo": "",
+        "motivo_oportunidad": "Clarín cubrió en solitario un hallazgo etológico de gran empatía con la audiencia masiva.",
+        "accion_sugerida": "Redactar una nota complementaria consultando a veterinarios especialistas en conducta animal en Argentina.",
+        "enfoques_sugeridos": [
+          "Cómo interpretan realmente las palabras los perros según la nueva evidencia científica.",
+          "Consejos para mejorar la comunicación diaria con nuestras mascotas."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Descubren que el cerebro de los perros segmenta el habla igual que los humanos",
+            "link": "https://www.clarin.com/internacional/descubren-cerebro-perros-segmenta-habla-igual-humanos_0_yo3HtylYN6.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/VyMojk1A7_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Aprobación del fármaco Lenacapavir en México para prevenir el VIH",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusiva de salud internacional con alto valor de servicio médico.",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Los avances médicos de alto impacto generan fuerte interés en comunidades científicas y pacientes.",
+        "insight": "La temática de salud global estuvo ausente en el resto de la agenda local.",
+        "motivo": "",
+        "motivo_oportunidad": "Infobae reportó en solitario la aprobación de un tratamiento de aplicación semestral contra el VIH.",
+        "accion_sugerida": "Investigar los plazos estimados para la llegada de esta nueva medicación preventiva a la Argentina.",
+        "enfoques_sugeridos": [
+          "Cómo funciona la profilaxis semestral y su efectividad clínica comprobada.",
+          "El acceso a tratamientos innovadores de prevención en América Latina."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Infobae",
+            "titulo": "México aprueba el lenacapavir, el fármaco que se aplica dos veces al año para prevenir el VIH",
+            "link": "https://www.infobae.com/mexico/2026/09/24/mexico-aprueba-el-lenacapavir-el-farmaco-que-se-aplica-dos-veces-al-ano-para-prevenir-el-vih/",
+            "imagen": "https://www.infobae.com/resizer/v2/O6FEVVGCIRDSPAIL4ZAAIUM2QQ.jpg?auth=21c3d02707737f5df4a299275c81b64997e68755d68b68750053959b44fe780f&smart=true&width=1920&height=1080"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
       }
     ]
   },
-  "total_temas": 4
+  "total_temas": 16
 }
