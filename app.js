@@ -11,9 +11,9 @@ const categoryDescriptions = {
   hipercompetencia:
     "Temas donde la competencia concentra más cobertura que Perfil.",
   perfil_pierde:
-    "Temas con cobertura de la competencia pero sin presencia suficiente de Perfil.",
+    "Temas donde Perfil tiene menor cobertura que la competencia.",
   sin_cobertura_perfil:
-    "Temas cubiertos por otros medios sin cobertura de Perfil.",
+    "Temas cubiertos por la competencia sin cobertura de Perfil.",
   oportunidades:
     "Temas que presentan una oportunidad editorial."
 };
@@ -27,17 +27,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   loadData();
 
+
   document.querySelectorAll(".category-tab").forEach(button => {
 
     button.addEventListener("click", () => {
 
       currentCategory = button.dataset.category;
 
+
       document.querySelectorAll(".category-tab").forEach(tab => {
         tab.classList.remove("active");
       });
 
+
       button.classList.add("active");
+
 
       renderMonitoring();
 
@@ -46,15 +50,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
-  document
-    .getElementById("sortSelect")
-    .addEventListener("change", event => {
+  const sortSelect =
+    document.getElementById("sortSelect");
+
+
+  if (sortSelect) {
+
+    sortSelect.addEventListener("change", event => {
 
       currentSort = event.target.value;
 
       renderMonitoring();
 
     });
+
+  }
 
 });
 
@@ -70,31 +80,40 @@ async function loadData() {
       }
     );
 
+
     if (!response.ok) {
       throw new Error("No se pudo cargar data.json");
     }
 
-    dashboardData = await response.json();
+
+    dashboardData =
+      await response.json();
+
 
     renderDate();
     renderPriorities();
     renderMonitoring();
 
+
     document
       .getElementById("loading")
       .classList.add("hidden");
+
 
     document
       .getElementById("content")
       .classList.remove("hidden");
 
+
   } catch (error) {
 
     console.error(error);
 
+
     document
       .getElementById("loading")
       .classList.add("hidden");
+
 
     document
       .getElementById("error")
@@ -110,14 +129,17 @@ function renderDate() {
   const dateElement =
     document.getElementById("analysisDate");
 
+
   if (!dashboardData.fecha_analisis) {
-    dateElement.textContent = "";
     return;
   }
 
-  const date = new Date(
-    `${dashboardData.fecha_analisis}T12:00:00`
-  );
+
+  const date =
+    new Date(
+      `${dashboardData.fecha_analisis}T12:00:00`
+    );
+
 
   const formatted =
     new Intl.DateTimeFormat(
@@ -128,6 +150,7 @@ function renderDate() {
         year: "numeric"
       }
     ).format(date);
+
 
   dateElement.textContent =
     `Análisis: ${formatted}`;
@@ -144,7 +167,54 @@ function getCategoryLabel(type) {
     oportunidades: "OPORTUNIDAD"
   };
 
+
   return labels[type] || "PRIORIDAD";
+
+}
+
+
+function cleanMarkdownUrl(value) {
+
+  if (!value) {
+    return "";
+  }
+
+
+  let result =
+    String(value).trim();
+
+
+  const markdownMatch =
+    result.match(
+      /^\[.*?\]\((.*?)\)$/
+    );
+
+
+  if (markdownMatch) {
+    result = markdownMatch[1];
+  }
+
+
+  result =
+    result.replace(
+      /\\&/g,
+      "&"
+    );
+
+
+  return result;
+
+}
+
+
+function escapeHtml(value) {
+
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 
 }
 
@@ -161,16 +231,17 @@ function getImage(item) {
         example => example.imagen
       );
 
-    if (
-      example &&
-      example.imagen
-    ) {
+
+    if (example) {
+
       return cleanMarkdownUrl(
         example.imagen
       );
+
     }
 
   }
+
 
   return "";
 
@@ -181,6 +252,7 @@ function renderPriorities() {
 
   const container =
     document.getElementById("priorities");
+
 
   let priorities = [];
 
@@ -221,15 +293,9 @@ function renderPriorities() {
   );
 
 
-  /*
-    Si no hay tres prioridades
-    explícitas, completamos con
-    los temas de mayor brecha.
-  */
-
   if (priorities.length < 3) {
 
-    const allItems = [];
+    let allItems = [];
 
 
     Object.keys(categoryNames).forEach(category => {
@@ -291,149 +357,133 @@ function renderPriorities() {
   container.innerHTML = "";
 
 
-  priorities.forEach(
-    (item, index) => {
+  priorities.forEach((item, index) => {
 
-      const card =
-        document.createElement(
-          "article"
+    const card =
+      document.createElement("article");
+
+
+    card.className =
+      "priority-card";
+
+
+    const image =
+      getImage(item);
+
+
+    const category =
+      item.categoria ||
+      item.tipo ||
+      "";
+
+
+    card.innerHTML = `
+
+      ${
+        image
+          ? `
+            <img
+              class="priority-image"
+              src="${escapeHtml(image)}"
+              alt=""
+              loading="lazy"
+            >
+          `
+          : `
+            <div
+              class="priority-image priority-image-empty"
+            ></div>
+          `
+      }
+
+
+      <div class="priority-content">
+
+
+        <div class="priority-number">
+          ${String(index + 1).padStart(2, "0")}
+        </div>
+
+
+        <div class="priority-category">
+          ${getCategoryLabel(category)}
+        </div>
+
+
+        <h3>
+          ${escapeHtml(
+            item.tema ||
+            "Sin título"
+          )}
+        </h3>
+
+
+        ${
+          item.por_que_importa
+            ? `
+              <p class="priority-description">
+                ${escapeHtml(
+                  item.por_que_importa
+                )}
+              </p>
+            `
+            : ""
+        }
+
+
+      </div>
+
+    `;
+
+
+    card.addEventListener("click", () => {
+
+      currentCategory =
+        category ||
+        "hipercompetencia";
+
+
+      document
+        .querySelectorAll(".category-tab")
+        .forEach(tab => {
+
+          tab.classList.toggle(
+            "active",
+            tab.dataset.category ===
+              currentCategory
+          );
+
+        });
+
+
+      renderMonitoring();
+
+
+      const section =
+        document.getElementById(
+          "monitoringSection"
         );
 
 
-      card.className =
-        "priority-card";
+      if (section) {
+
+        setTimeout(() => {
+
+          section.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+
+        }, 50);
+
+      }
+
+    });
 
 
-      const image =
-        getImage(item);
+    container.appendChild(card);
 
-
-      const category =
-        item.categoria ||
-        item.tipo ||
-        "";
-
-
-      const label =
-        getCategoryLabel(category);
-
-
-      card.innerHTML = `
-
-        ${
-          image
-            ? `
-              <img
-                class="priority-image"
-                src="${escapeHtml(image)}"
-                alt=""
-                loading="lazy"
-              >
-            `
-            : `
-              <div
-                class="priority-image priority-image-empty"
-              ></div>
-            `
-        }
-
-
-        <div class="priority-content">
-
-          <div class="priority-number">
-            ${String(index + 1).padStart(2, "0")}
-          </div>
-
-
-          <div class="priority-category">
-            ${label}
-          </div>
-
-
-          <h3>
-            ${escapeHtml(
-              item.tema ||
-              "Sin título"
-            )}
-          </h3>
-
-
-          ${
-            item.por_que_importa
-              ? `
-                <p class="priority-description">
-                  ${escapeHtml(
-                    item.por_que_importa
-                  )}
-                </p>
-              `
-              : ""
-          }
-
-        </div>
-
-      `;
-
-
-      /*
-        Al hacer clic en una prioridad,
-        lleva a la categoría correspondiente.
-      */
-
-      card.addEventListener(
-        "click",
-        () => {
-
-          currentCategory =
-            category ||
-            "hipercompetencia";
-
-
-          document
-            .querySelectorAll(
-              ".category-tab"
-            )
-            .forEach(tab => {
-
-              tab.classList.toggle(
-                "active",
-                tab.dataset.category ===
-                  currentCategory
-              );
-
-            });
-
-
-          renderMonitoring();
-
-
-          setTimeout(() => {
-
-            const section =
-              document.getElementById(
-                "monitoringSection"
-              );
-
-
-            if (section) {
-
-              section.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-              });
-
-            }
-
-          }, 50);
-
-        }
-      );
-
-
-      container.appendChild(card);
-
-    }
-  );
+  });
 
 }
 
@@ -453,9 +503,7 @@ function renderMonitoring() {
 
 
   document
-    .getElementById(
-      "categoryTitle"
-    )
+    .getElementById("categoryTitle")
     .textContent =
       categoryNames[
         currentCategory
@@ -464,9 +512,7 @@ function renderMonitoring() {
 
 
   document
-    .getElementById(
-      "categoryDescription"
-    )
+    .getElementById("categoryDescription")
     .textContent =
       categoryDescriptions[
         currentCategory
@@ -474,12 +520,8 @@ function renderMonitoring() {
       "";
 
 
-  const sortedItems =
-    sortItems(items);
-
-
   renderThemeCards(
-    sortedItems
+    sortItems(items)
   );
 
 }
@@ -487,57 +529,46 @@ function renderMonitoring() {
 
 function sortItems(items) {
 
-  return items.sort(
-    (a, b) => {
+  return items.sort((a, b) => {
 
-      if (
-        currentSort ===
-        "notas"
-      ) {
-
-        return (
-          (b.total_notas || 0) -
-          (a.total_notas || 0)
-        );
-
-      }
-
-
-      if (
-        currentSort ===
-        "medios"
-      ) {
-
-        return (
-          (b.cantidad_medios || 0) -
-          (a.cantidad_medios || 0)
-        );
-
-      }
-
-
-      if (
-        currentSort ===
-        "az"
-      ) {
-
-        return (
-          a.tema || ""
-        ).localeCompare(
-          b.tema || "",
-          "es"
-        );
-
-      }
-
+    if (currentSort === "notas") {
 
       return (
-        (b.brecha || 0) -
-        (a.brecha || 0)
+        (b.total_notas || 0) -
+        (a.total_notas || 0)
       );
 
     }
-  );
+
+
+    if (currentSort === "medios") {
+
+      return (
+        (b.cantidad_medios || 0) -
+        (a.cantidad_medios || 0)
+      );
+
+    }
+
+
+    if (currentSort === "az") {
+
+      return (
+        a.tema || ""
+      ).localeCompare(
+        b.tema || "",
+        "es"
+      );
+
+    }
+
+
+    return (
+      (b.brecha || 0) -
+      (a.brecha || 0)
+    );
+
+  });
 
 }
 
@@ -602,25 +633,11 @@ function createThemeCard(item) {
     getImage(item);
 
 
-  const perfil =
-    Number(
-      item.perfil ??
-      item.cobertura_perfil ??
-      0
-    );
-
-
   const brecha =
     Number(
       item.brecha || 0
     );
 
-
-  /*
-    La brecha se muestra
-    como número negativo cuando
-    Perfil está por debajo.
-  */
 
   let brechaDisplay = "0";
 
@@ -641,6 +658,7 @@ function createThemeCard(item) {
 
     <div class="theme-hero">
 
+
       ${
         image
           ? `
@@ -658,6 +676,7 @@ function createThemeCard(item) {
           `
       }
 
+
     </div>
 
 
@@ -666,11 +685,9 @@ function createThemeCard(item) {
 
       <div class="theme-category">
 
-        ${escapeHtml(
-          getCategoryLabel(
-            item.tipo ||
-            currentCategory
-          )
+        ${getCategoryLabel(
+          item.tipo ||
+          currentCategory
         )}
 
       </div>
@@ -751,23 +768,67 @@ function createThemeCard(item) {
         <div class="details-content">
 
 
-          ${renderDetailSection(
-            "Por qué importa",
+          ${
             item.por_que_importa
-          )}
+              ? `
+                <div class="detail-card detail-importance">
+
+                  <div class="detail-card-label">
+                    Por qué importa
+                  </div>
+
+                  <p>
+                    ${escapeHtml(
+                      item.por_que_importa
+                    )}
+                  </p>
+
+                </div>
+              `
+              : ""
+          }
 
 
-          ${renderDetailSection(
-            "Insight",
+          ${
             item.insight
-          )}
+              ? `
+                <div class="detail-card">
+
+                  <div class="detail-card-label">
+                    Insight
+                  </div>
+
+                  <p>
+                    ${escapeHtml(
+                      item.insight
+                    )}
+                  </p>
+
+                </div>
+              `
+              : ""
+          }
 
 
-          ${renderDetailSection(
-            "Acción sugerida",
-            item.accion_sugerida,
-            "action"
-          )}
+          ${
+            item.accion_sugerida
+              ? `
+                <div class="detail-card detail-action">
+
+                  <div class="detail-card-label">
+                    Acción sugerida
+                  </div>
+
+                  <p>
+                    ${escapeHtml(
+                      item.accion_sugerida
+                    )}
+                  </p>
+
+                </div>
+              `
+              : ""
+          }
 
 
           ${renderApproaches(
@@ -796,52 +857,11 @@ function createThemeCard(item) {
 }
 
 
-function renderDetailSection(
-  title,
-  text,
-  extraClass = ""
-) {
-
-  if (!text) {
-    return "";
-  }
-
-
-  return `
-
-    <div
-      class="detail-card ${extraClass}"
-    >
-
-      <div class="detail-card-label">
-
-        ${escapeHtml(
-          title
-        )}
-
-      </div>
-
-
-      <p>
-
-        ${escapeHtml(
-          text
-        )}
-
-      </p>
-
-    </div>
-
-  `;
-
-}
-
-
 function renderApproaches(items) {
 
   if (
     !Array.isArray(items) ||
-    !items.length
+    items.length === 0
   ) {
 
     return "";
@@ -851,40 +871,150 @@ function renderApproaches(items) {
 
   return `
 
-    <div
-      class="detail-card approaches-card"
-    >
+    <div class="detail-card">
 
       <div class="detail-card-label">
-
         Enfoques sugeridos
-
       </div>
 
 
       <div class="approach-list">
 
-
         ${items
-          .map(
-            item => `
+          .map(item => `
 
-              <span
-                class="approach-chip"
-              >
+            <span class="approach-chip">
+              ${escapeHtml(item)}
+            </span>
 
-                ${escapeHtml(
-                  item
-                )}
+          `)
+          .join("")}
 
-              </span>
+      </div>
 
-            `
-          )
+    </div>
+
+  `;
+
+}
+
+
+function renderExamples(examples) {
+
+  if (
+    !Array.isArray(examples) ||
+    examples.length === 0
+  ) {
+
+    return "";
+
+  }
+
+
+  return `
+
+    <div class="detail-card notes-card">
+
+      <div class="detail-card-label">
+        Notas usadas
+      </div>
+
+
+      <div class="examples-list">
+
+
+        ${examples
+          .slice(0, 3)
+          .map(example => {
+
+            const image =
+              cleanMarkdownUrl(
+                example.imagen ||
+                ""
+              );
+
+
+            const link =
+              cleanMarkdownUrl(
+                example.link ||
+                ""
+              );
+
+
+            return `
+
+              <article class="example-card">
+
+
+                ${
+                  image
+                    ? `
+                      <img
+                        class="example-image"
+                        src="${escapeHtml(image)}"
+                        alt=""
+                        loading="lazy"
+                      >
+                    `
+                    : `
+                      <div class="example-image"></div>
+                    `
+                }
+
+
+                <div class="example-content">
+
+
+                  <div class="example-medium">
+
+                    ${escapeHtml(
+                      example.medio ||
+                      ""
+                    )}
+
+                  </div>
+
+
+                  <div class="example-title">
+
+
+                    ${
+                      link
+                        ? `
+                          <a
+                            href="${escapeHtml(link)}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            ${escapeHtml(
+                              example.titulo ||
+                              "Ver nota"
+                            )}
+                          </a>
+                        `
+                        : escapeHtml(
+                            example.titulo ||
+                            "Ver nota"
+                          )
+                    }
+
+
+                  </div>
+
+
+                </div>
+
+
+              </article>
+
+            `;
+
+          })
           .join("")}
 
 
       </div>
+
 
     </div>
 
@@ -901,8 +1031,7 @@ function renderCoverage(item) {
 
   if (
     !coverage ||
-    typeof coverage !==
-      "object" ||
+    typeof coverage !== "object" ||
     Array.isArray(coverage)
   ) {
 
@@ -938,9 +1067,7 @@ function renderCoverage(item) {
 
 
       <div class="coverage-title">
-
         Cobertura por medio
-
       </div>
 
 
@@ -948,205 +1075,48 @@ function renderCoverage(item) {
 
 
         ${entries
-          .map(
-            ([medium, value]) => {
+          .map(([medium, value]) => {
 
-              const count =
-                Number(value) || 0;
-
-
-              const width =
-                count > 0
-                  ? Math.max(
-                      7,
-                      (count /
-                        maxValue) *
-                        100
-                    )
-                  : 0;
+            const count =
+              Number(value) || 0;
 
 
-              return `
-
-                <div
-                  class="coverage-item"
-                >
-
-                  <div
-                    class="coverage-item-name"
-                  >
-
-                    ${escapeHtml(
-                      medium
-                    )}
-
-                  </div>
-
-
-                  <div
-                    class="coverage-bar"
-                  >
-
-                    <div
-                      class="coverage-fill"
-                      style="width:${width}%"
-                    ></div>
-
-                  </div>
-
-
-                  <strong>
-
-                    ${count}
-
-                  </strong>
-
-                </div>
-
-              `;
-
-            }
-          )
-          .join("")}
-
-
-      </div>
-
-    </div>
-
-  `;
-
-}
-
-
-function renderExamples(
-  examples
-) {
-
-  if (
-    !Array.isArray(examples) ||
-    !examples.length
-  ) {
-
-    return "";
-
-  }
-
-
-  return `
-
-    <div
-      class="detail-card notes-card"
-    >
-
-
-      <div
-        class="detail-card-label"
-      >
-
-        Notas usadas
-
-      </div>
-
-
-      <div class="examples-list">
-
-
-        ${examples
-          .slice(0, 3)
-          .map(example => {
-
-            const image =
-              cleanMarkdownUrl(
-                example.imagen ||
-                ""
-              );
-
-
-            const link =
-              cleanMarkdownUrl(
-                example.link ||
-                ""
-              );
+            const width =
+              count > 0
+                ? Math.max(
+                    7,
+                    (count / maxValue) *
+                      100
+                  )
+                : 0;
 
 
             return `
 
-              <article
-                class="example-card"
-              >
+              <div class="coverage-item">
 
 
-                ${
-                  image
-                    ? `
-                      <img
-                        class="example-image"
-                        src="${escapeHtml(image)}"
-                        alt=""
-                        loading="lazy"
-                      >
-                    `
-                    : `
-                      <div
-                        class="example-image"
-                      ></div>
-                    `
-                }
+                <div class="coverage-item-name">
+                  ${escapeHtml(medium)}
+                </div>
 
 
-                <div
-                  class="example-content"
-                >
-
+                <div class="coverage-bar">
 
                   <div
-                    class="example-medium"
-                  >
-
-                    ${escapeHtml(
-                      example.medio ||
-                      ""
-                    )}
-
-                  </div>
-
-
-                  <div
-                    class="example-title"
-                  >
-
-
-                    ${
-                      link
-                        ? `
-                          <a
-                            href="${escapeHtml(link)}"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-
-                            ${escapeHtml(
-                              example.titulo ||
-                              "Ver nota"
-                            )}
-
-                          </a>
-                        `
-                        : escapeHtml(
-                            example.titulo ||
-                            "Ver nota"
-                          )
-                    }
-
-
-                  </div>
-
+                    class="coverage-fill"
+                    style="width:${width}%"
+                  ></div>
 
                 </div>
 
 
-              </article>
+                <strong>
+                  ${count}
+                </strong>
+
+
+              </div>
 
             `;
 
@@ -1160,85 +1130,5 @@ function renderExamples(
     </div>
 
   `;
-
-}
-
-
-function cleanMarkdownUrl(
-  value
-) {
-
-  if (!value) {
-    return "";
-  }
-
-
-  let result =
-    String(value).trim();
-
-
-  /*
-    Convierte:
-    [texto](https://...)
-    en:
-    https://...
-  */
-
-  const markdownMatch =
-    result.match(
-      /^\[.*?\]\((.*?)\)$/
-    );
-
-
-  if (markdownMatch) {
-    result =
-      markdownMatch[1];
-  }
-
-
-  /*
-    Corrige URLs del JSON
-    que vienen con \&
-  */
-
-  result =
-    result.replace(
-      /\\&/g,
-      "&"
-    );
-
-
-  return result;
-
-}
-
-
-function escapeHtml(
-  value
-) {
-
-  return String(
-    value ?? ""
-  )
-    .replace(
-      /&/g,
-      "&amp;"
-    )
-    .replace(
-      /</g,
-      "&lt;"
-    )
-    .replace(
-      />/g,
-      "&gt;"
-    )
-    .replace(
-      /"/g,
-      "&quot;"
-    )
-    .replace(
-      /'/g,
-      "&#039;"
-    );
 
 }
