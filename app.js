@@ -1,641 +1,459 @@
 const DATA_URL = "./data.json";
 
-let dashboardData = null;
+const categoryNames = {
+  hipercompetencia: "Hipercompetencia",
+  perfil_pierde: "Perfil pierde",
+  sin_cobertura_perfil: "Sin cobertura",
+  oportunidades: "Oportunidad"
+};
 
+const categoryDescriptions = {
+  hipercompetencia: "Temas donde la competencia concentra más cobertura que Perfil.",
+  perfil_pierde: "Temas con cobertura de la competencia pero sin presencia suficiente de Perfil.",
+  sin_cobertura_perfil: "Temas relevantes cubiertos por otros medios sin notas de Perfil.",
+  oportunidades: "Temas donde existe una oportunidad editorial concreta."
+};
+
+let dashboardData = {};
 let currentCategory = "hipercompetencia";
 let currentSort = "brecha";
 
 
-/* =========================
-   ELEMENTOS
-========================= */
+document.addEventListener("DOMContentLoaded", () => {
 
-const loading =
-  document.getElementById("loading");
+  loadData();
 
-const error =
-  document.getElementById("error");
+  document.querySelectorAll(".category-tab").forEach(button => {
 
-const content =
-  document.getElementById("content");
+    button.addEventListener("click", () => {
 
-const analysisDate =
-  document.getElementById("analysisDate");
+      currentCategory = button.dataset.category;
 
-const priorities =
-  document.getElementById("priorities");
+      document.querySelectorAll(".category-tab").forEach(tab => {
+        tab.classList.remove("active");
+      });
 
-const themeGrid =
-  document.getElementById("themeGrid");
+      button.classList.add("active");
 
-const emptyState =
-  document.getElementById("emptyState");
+      renderMonitoring();
 
-const categoryTitle =
-  document.getElementById("categoryTitle");
+    });
 
-const categoryDescription =
-  document.getElementById("categoryDescription");
-
-const sortSelect =
-  document.getElementById("sortSelect");
-
-const categoryTabs =
-  document.querySelectorAll(".category-tab");
+  });
 
 
-/* =========================
-   CONFIGURACIÓN
-========================= */
+  document
+    .getElementById("sortSelect")
+    .addEventListener("change", event => {
 
-const categoryConfig = {
+      currentSort = event.target.value;
 
-  hipercompetencia: {
-    label: "Hipercompetencia",
+      renderMonitoring();
 
-    description:
-      "Temas donde la competencia tiene mayor cobertura."
-  },
+    });
 
-  perfil_pierde: {
-    label: "Perfil pierde",
+});
 
-    description:
-      "Temas donde otros medios publicaron y Perfil no tuvo cobertura."
-  },
-
-  sin_cobertura_perfil: {
-    label: "Sin cobertura",
-
-    description:
-      "Temas relevantes cubiertos por la competencia sin presencia de Perfil."
-  },
-
-  oportunidades: {
-    label: "Oportunidades",
-
-    description:
-      "Temas con posibilidades de desarrollo editorial."
-  }
-
-};
-
-
-/* =========================
-   INICIO
-========================= */
-
-document.addEventListener(
-  "DOMContentLoaded",
-  loadData
-);
-
-
-/* =========================
-   CARGA DE DATOS
-========================= */
 
 async function loadData() {
 
   try {
 
-    const separator =
-      DATA_URL.includes("?")
-        ? "&"
-        : "?";
-
-    const response =
-      await fetch(
-        `${DATA_URL}${separator}t=${Date.now()}`,
-        {
-          cache: "no-store"
-        }
-      );
+    const response = await fetch(
+      `${DATA_URL}?t=${Date.now()}`,
+      {
+        cache: "no-store"
+      }
+    );
 
     if (!response.ok) {
-      throw new Error(
-        `HTTP ${response.status}`
-      );
+      throw new Error("No se pudo cargar data.json");
     }
 
-    dashboardData =
-      await response.json();
+    dashboardData = await response.json();
 
-    renderDashboard();
+    renderDate();
+    renderPriorities();
+    renderMonitoring();
 
-    loading.classList.add(
-      "hidden"
-    );
+    document.getElementById("loading").classList.add("hidden");
+    document.getElementById("content").classList.remove("hidden");
 
-    error.classList.add(
-      "hidden"
-    );
+  } catch (error) {
 
-    content.classList.remove(
-      "hidden"
-    );
+    console.error(error);
 
-  } catch (err) {
-
-    console.error(
-      "Error cargando data.json:",
-      err
-    );
-
-    loading.classList.add(
-      "hidden"
-    );
-
-    content.classList.add(
-      "hidden"
-    );
-
-    error.classList.remove(
-      "hidden"
-    );
+    document.getElementById("loading").classList.add("hidden");
+    document.getElementById("error").classList.remove("hidden");
 
   }
 
 }
 
-
-/* =========================
-   DASHBOARD
-========================= */
-
-function renderDashboard() {
-
-  renderDate();
-
-  renderPriorities();
-
-  renderCategory();
-
-}
-
-
-/* =========================
-   FECHA
-========================= */
 
 function renderDate() {
 
-  if (!dashboardData?.fecha_analisis) {
+  const dateElement = document.getElementById("analysisDate");
 
-    analysisDate.textContent =
-      "Análisis editorial";
-
+  if (!dashboardData.fecha_analisis) {
+    dateElement.textContent = "";
     return;
   }
 
-  const date =
-    parseLocalDate(
-      dashboardData.fecha_analisis
-    );
+  const date = new Date(
+    `${dashboardData.fecha_analisis}T12:00:00`
+  );
 
-  if (!date) {
+  const formatted = new Intl.DateTimeFormat(
+    "es-AR",
+    {
+      day: "numeric",
+      month: "long",
+      year: "numeric"
+    }
+  ).format(date);
 
-    analysisDate.textContent =
-      `Análisis: ${dashboardData.fecha_analisis}`;
-
-    return;
-  }
-
-  const formatted =
-    new Intl.DateTimeFormat(
-      "es-AR",
-      {
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-      }
-    ).format(date);
-
-  analysisDate.textContent =
-    `Análisis: ${formatted}`;
+  dateElement.textContent = `Análisis: ${formatted}`;
 
 }
 
 
-/* =========================
-   PRIORIDADES DEL DÍA
-========================= */
+function getCategoryLabel(type) {
+
+  const labels = {
+    hipercompetencia: "HIPERCOMPETENCIA",
+    perfil_pierde: "PERFIL PIERDE",
+    sin_cobertura_perfil: "SIN COBERTURA",
+    oportunidades: "OPORTUNIDAD"
+  };
+
+  return labels[type] || "PRIORIDAD";
+
+}
+
+
+function getImage(item) {
+
+  if (
+    item.ejemplos &&
+    Array.isArray(item.ejemplos)
+  ) {
+
+    const example = item.ejemplos.find(
+      item => item.imagen
+    );
+
+    if (example && example.imagen) {
+      return cleanMarkdownUrl(example.imagen);
+    }
+
+  }
+
+  return "";
+
+}
+
 
 function renderPriorities() {
 
-  priorities.innerHTML = "";
+  const container = document.getElementById("priorities");
 
-  const allItems =
-    getAllItems();
+  let priorities = [];
 
+  Object.keys(categoryNames).forEach(category => {
 
-  /*
-    Las prioridades reales son aquellas
-    que tienen prioridad mayor a 0.
-  */
-
-  const priorityItems =
-    allItems
-      .filter(item => {
-
-        const priority =
-          Number(item.prioridad);
-
-        return (
-          Number.isFinite(priority) &&
-          priority > 0
-        );
-
-      })
-      .sort((a, b) => {
-
-        return (
-          Number(a.prioridad) -
-          Number(b.prioridad)
-        );
-
-      })
-      .slice(0, 3);
-
-
-  /*
-    Si no hay prioridades marcadas,
-    usamos los temas con mayor brecha.
-  */
-
-  const fallbackItems =
-    allItems
-      .filter(
-        item =>
-          !priorityItems.includes(item)
-      )
-      .sort((a, b) => {
-
-        return (
-          Number(b.brecha || 0) -
-          Number(a.brecha || 0)
-        );
-
-      })
-      .slice(
-        0,
-        3 - priorityItems.length
-      );
-
-
-  const items = [
-    ...priorityItems,
-    ...fallbackItems
-  ];
-
-
-  if (!items.length) {
-
-    priorities.innerHTML = `
-      <div class="empty-state">
-        No hay prioridades disponibles.
-      </div>
-    `;
-
-    return;
-  }
-
-
-  items.forEach(
-    (item, index) => {
-
-      const card =
-        document.createElement(
-          "article"
-        );
-
-      card.className =
-        "priority-card";
-
-
-      const image =
-        getImage(item);
-
-
-      card.innerHTML = `
-
-        ${
-          image
-            ? `
-              <img
-                class="priority-image"
-                src="${escapeAttribute(image)}"
-                alt=""
-                loading="lazy"
-              >
-            `
-            : `
-              <div class="priority-image"></div>
-            `
-        }
-
-
-        <div class="priority-content">
-
-          <div class="priority-number">
-            ${String(index + 1).padStart(2, "0")}
-          </div>
-
-
-          <div class="priority-category">
-            PRIORIDAD
-          </div>
-
-
-          <h3>
-            ${escapeHtml(
-              item.tema ||
-              "Tema sin título"
-            )}
-          </h3>
-
-
-          ${
-            item.por_que_importa
-              ? `
-                <p class="priority-description">
-                  ${escapeHtml(
-                    item.por_que_importa
-                  )}
-                </p>
-              `
-              : ""
-          }
-
-        </div>
-
-      `;
-
-
-      /*
-        Al hacer click en una prioridad,
-        lleva al tema correspondiente
-        dentro del monitoreo.
-      */
-
-      card.addEventListener(
-        "click",
-        () => {
-
-          currentCategory =
-            item.tipo &&
-            categoryConfig[item.tipo]
-              ? item.tipo
-              : "hipercompetencia";
-
-
-          categoryTabs.forEach(
-            tab => {
-
-              tab.classList.toggle(
-                "active",
-                tab.dataset.category ===
-                currentCategory
-              );
-
-            }
-          );
-
-
-          renderCategory();
-
-
-          document
-            .getElementById(
-              "monitoringSection"
-            )
-            ?.scrollIntoView({
-              behavior: "smooth",
-              block: "start"
-            });
-
-        }
-      );
-
-
-      priorities.appendChild(
-        card
-      );
-
-    }
-  );
-
-}
-
-
-/* =========================
-   CATEGORÍA
-========================= */
-
-function renderCategory() {
-
-  const config =
-    categoryConfig[currentCategory] ||
-    categoryConfig.hipercompetencia;
-
-
-  categoryTitle.textContent =
-    config.label;
-
-  categoryDescription.textContent =
-    config.description;
-
-
-  let items =
-    Array.isArray(
-      dashboardData?.[currentCategory]
-    )
-      ? [
-          ...dashboardData[
-            currentCategory
-          ]
-        ]
+    const items = Array.isArray(dashboardData[category])
+      ? dashboardData[category]
       : [];
 
+    items.forEach(item => {
 
-  items =
-    sortItems(items);
+      if (
+        typeof item.prioridad === "number" &&
+        item.prioridad > 0
+      ) {
+
+        priorities.push({
+          ...item,
+          categoria: category
+        });
+
+      }
+
+    });
+
+  });
 
 
-  themeGrid.innerHTML = "";
+  priorities.sort(
+    (a, b) => b.prioridad - a.prioridad
+  );
 
 
-  if (!items.length) {
+  if (priorities.length < 3) {
 
-    emptyState.classList.remove(
-      "hidden"
+    const allItems = [];
+
+    Object.keys(categoryNames).forEach(category => {
+
+      const items = Array.isArray(dashboardData[category])
+        ? dashboardData[category]
+        : [];
+
+      items.forEach(item => {
+
+        allItems.push({
+          ...item,
+          categoria: category
+        });
+
+      });
+
+    });
+
+
+    allItems.sort(
+      (a, b) => (b.brecha || 0) - (a.brecha || 0)
     );
 
-    return;
+
+    allItems.forEach(item => {
+
+      const exists = priorities.some(
+        priority =>
+          priority.tema === item.tema
+      );
+
+      if (!exists && priorities.length < 3) {
+        priorities.push(item);
+      }
+
+    });
+
   }
 
 
-  emptyState.classList.add(
-    "hidden"
-  );
+  priorities = priorities.slice(0, 3);
 
 
-  items.forEach(
-    item => {
+  container.innerHTML = "";
 
-      themeGrid.appendChild(
-        createThemeCard(item)
-      );
 
-    }
-  );
+  priorities.forEach((item, index) => {
+
+    const card = document.createElement("article");
+
+    card.className = "priority-card";
+
+
+    const image = getImage(item);
+
+
+    card.innerHTML = `
+
+      ${
+        image
+          ? `
+            <img
+              class="priority-image"
+              src="${escapeHtml(image)}"
+              alt=""
+              loading="lazy"
+            >
+          `
+          : `
+            <div class="priority-image priority-image-empty"></div>
+          `
+      }
+
+
+      <div class="priority-content">
+
+        <div class="priority-number">
+          ${String(index + 1).padStart(2, "0")}
+        </div>
+
+        <div class="priority-category">
+          ${getCategoryLabel(item.categoria || item.tipo)}
+        </div>
+
+        <h3>
+          ${escapeHtml(item.tema || "Sin título")}
+        </h3>
+
+        ${
+          item.por_que_importa
+            ? `
+              <p class="priority-description">
+                ${escapeHtml(item.por_que_importa)}
+              </p>
+            `
+            : ""
+        }
+
+      </div>
+
+    `;
+
+
+    card.addEventListener("click", () => {
+
+      currentCategory =
+        item.categoria ||
+        item.tipo ||
+        "hipercompetencia";
+
+
+      document
+        .querySelectorAll(".category-tab")
+        .forEach(tab => {
+
+          tab.classList.toggle(
+            "active",
+            tab.dataset.category === currentCategory
+          );
+
+        });
+
+
+      renderMonitoring();
+
+
+      setTimeout(() => {
+
+        document
+          .getElementById("monitoringSection")
+          .scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+
+      }, 50);
+
+    });
+
+
+    container.appendChild(card);
+
+  });
 
 }
 
 
-/* =========================
-   ORDENAMIENTO
-========================= */
+function renderMonitoring() {
+
+  const items = Array.isArray(
+    dashboardData[currentCategory]
+  )
+    ? [...dashboardData[currentCategory]]
+    : [];
+
+
+  document.getElementById("categoryTitle").textContent =
+    categoryNames[currentCategory] ||
+    currentCategory;
+
+
+  document.getElementById("categoryDescription").textContent =
+    categoryDescriptions[currentCategory] || "";
+
+
+  const sortedItems = sortItems(items);
+
+
+  renderThemeCards(sortedItems);
+
+}
+
 
 function sortItems(items) {
 
-  return items.sort(
-    (a, b) => {
+  return items.sort((a, b) => {
 
-      if (
-        currentSort ===
-        "brecha"
-      ) {
-
-        return (
-          Number(b.brecha || 0) -
-          Number(a.brecha || 0)
-        );
-
-      }
-
-
-      if (
-        currentSort ===
-        "notas"
-      ) {
-
-        return (
-          Number(b.total_notas || 0) -
-          Number(a.total_notas || 0)
-        );
-
-      }
-
-
-      if (
-        currentSort ===
-        "medios"
-      ) {
-
-        return (
-          Number(
-            b.cantidad_medios ??
-            b.cantidad_medios_competencia ??
-            0
-          ) -
-          Number(
-            a.cantidad_medios ??
-            a.cantidad_medios_competencia ??
-            0
-          )
-        );
-
-      }
-
-
-      if (
-        currentSort ===
-        "az"
-      ) {
-
-        return String(
-          a.tema || ""
-        ).localeCompare(
-          String(
-            b.tema || ""
-          ),
-          "es",
-          {
-            sensitivity: "base"
-          }
-        );
-
-      }
-
-
-      return 0;
-
+    if (currentSort === "notas") {
+      return (b.total_notas || 0) - (a.total_notas || 0);
     }
-  );
+
+
+    if (currentSort === "medios") {
+      return (b.cantidad_medios || 0) - (a.cantidad_medios || 0);
+    }
+
+
+    if (currentSort === "az") {
+      return (a.tema || "").localeCompare(
+        b.tema || "",
+        "es"
+      );
+    }
+
+
+    return (b.brecha || 0) - (a.brecha || 0);
+
+  });
 
 }
 
 
-/* =========================
-   TARJETA DE TEMA
-========================= */
+function renderThemeCards(items) {
+
+  const grid = document.getElementById("themeGrid");
+  const empty = document.getElementById("emptyState");
+
+  grid.innerHTML = "";
+
+
+  if (!items.length) {
+
+    empty.classList.remove("hidden");
+
+    return;
+
+  }
+
+
+  empty.classList.add("hidden");
+
+
+  items.forEach(item => {
+
+    grid.appendChild(
+      createThemeCard(item)
+    );
+
+  });
+
+}
+
 
 function createThemeCard(item) {
 
-  const card =
-    document.createElement(
-      "article"
-    );
+  const card = document.createElement("article");
 
-  card.className =
-    "theme-card";
+  card.className = "theme-card";
 
 
-  const image =
-    getImage(item);
+  const image = getImage(item);
 
 
-  const totalNotas =
-    Number(
-      item.total_notas || 0
-    );
+  const perfil = Number(
+    item.perfil ??
+    item.cobertura_perfil ??
+    0
+  );
 
 
-  const cantidadMedios =
-    Number(
-      item.cantidad_medios ??
-      item.cantidad_medios_competencia ??
-      0
-    );
+  const brecha = Number(
+    item.brecha || 0
+  );
 
 
-  const rawGap =
-    Number(
-      item.brecha || 0
-    );
-
-
-  /*
-    La brecha se interpreta
-    como diferencia frente a Perfil.
-
-    0      -> 0
-    +1     -> -1
-    +2     -> -2
-    etc.
-  */
-
-  const displayGap =
-    rawGap > 0
-      ? `-${rawGap}`
-      : `${rawGap}`;
-
-
-  const gapClass =
-    rawGap !== 0
-      ? "theme-stat theme-stat-gap"
-      : "theme-stat";
+  const brechaDisplay =
+    brecha > 0
+      ? `-${brecha}`
+      : brecha < 0
+        ? `${brecha}`
+        : "0";
 
 
   card.innerHTML = `
@@ -647,13 +465,13 @@ function createThemeCard(item) {
           ? `
             <img
               class="theme-image"
-              src="${escapeAttribute(image)}"
+              src="${escapeHtml(image)}"
               alt=""
               loading="lazy"
             >
           `
           : `
-            <div class="theme-image"></div>
+            <div class="theme-image theme-image-empty"></div>
           `
       }
 
@@ -664,32 +482,24 @@ function createThemeCard(item) {
 
       <div class="theme-category">
         ${escapeHtml(
-          getCategoryLabel(
-            item.tipo
-          )
+          getCategoryLabel(item.tipo || currentCategory)
         )}
       </div>
 
 
       <h3 class="theme-title">
-        ${escapeHtml(
-          item.tema ||
-          "Tema sin título"
-        )}
+        ${escapeHtml(item.tema || "Sin título")}
       </h3>
 
 
       <div class="theme-stats">
 
-
         <div class="theme-stat">
 
-          <span>
-            Notas
-          </span>
+          <span>Notas</span>
 
           <strong>
-            ${totalNotas}
+            ${Number(item.total_notas || 0)}
           </strong>
 
         </div>
@@ -697,36 +507,29 @@ function createThemeCard(item) {
 
         <div class="theme-stat">
 
-          <span>
-            Medios
-          </span>
+          <span>Medios</span>
 
           <strong>
-            ${cantidadMedios}
+            ${Number(item.cantidad_medios || 0)}
           </strong>
 
         </div>
 
 
-        <div class="${gapClass}">
+        <div class="theme-stat theme-stat-gap">
 
-          <span>
-            Brecha Perfil
-          </span>
+          <span>Brecha Perfil</span>
 
           <strong>
-            ${displayGap}
+            ${brechaDisplay}
           </strong>
 
         </div>
-
 
       </div>
 
 
-      ${renderCoverage(
-        item.cobertura
-      )}
+      ${renderCoverage(item)}
 
 
       <details class="theme-details">
@@ -738,140 +541,37 @@ function createThemeCard(item) {
 
         <div class="details-content">
 
-
-          ${
+          ${renderDetailSection(
+            "Por qué importa",
             item.por_que_importa
-              ? `
-                <div class="detail-section">
-
-                  <h4>
-                    Por qué importa
-                  </h4>
-
-                  <p>
-                    ${escapeHtml(
-                      item.por_que_importa
-                    )}
-                  </p>
-
-                </div>
-              `
-              : ""
-          }
+          )}
 
 
-          ${
+          ${renderDetailSection(
+            "Insight",
             item.insight
-              ? `
-                <div class="detail-section">
-
-                  <h4>
-                    Insight
-                  </h4>
-
-                  <p>
-                    ${escapeHtml(
-                      item.insight
-                    )}
-                  </p>
-
-                </div>
-              `
-              : ""
-          }
+          )}
 
 
-          ${
-            item.accion_sugerida
-              ? `
-                <div class="detail-section">
-
-                  <h4>
-                    Acción sugerida
-                  </h4>
-
-                  <p>
-                    ${escapeHtml(
-                      item.accion_sugerida
-                    )}
-                  </p>
-
-                </div>
-              `
-              : ""
-          }
+          ${renderDetailSection(
+            "Acción sugerida",
+            item.accion_sugerida,
+            "action"
+          )}
 
 
-          ${
-            Array.isArray(
-              item.enfoques_sugeridos
-            ) &&
-            item.enfoques_sugeridos.length
-              ? `
-                <div class="detail-section">
-
-                  <h4>
-                    Enfoques sugeridos
-                  </h4>
-
-                  <ul>
-
-                    ${item.enfoques_sugeridos
-                      .map(
-                        enfoque => `
-                          <li>
-                            ${escapeHtml(
-                              enfoque
-                            )}
-                          </li>
-                        `
-                      )
-                      .join("")}
-
-                  </ul>
-
-                </div>
-              `
-              : ""
-          }
+          ${renderApproaches(
+            item.enfoques_sugeridos
+          )}
 
 
-          ${
-            Array.isArray(
-              item.ejemplos
-            ) &&
-            item.ejemplos.length
-              ? `
-                <div class="detail-section">
-
-                  <h4>
-                    Notas usadas
-                  </h4>
-
-                  <div class="examples-list">
-
-                    ${item.ejemplos
-                      .slice(0, 3)
-                      .map(
-                        example =>
-                          renderExample(
-                            example
-                          )
-                      )
-                      .join("")}
-
-                  </div>
-
-                </div>
-              `
-              : ""
-          }
-
+          ${renderExamples(
+            item.ejemplos
+          )}
 
         </div>
 
       </details>
-
 
     </div>
 
@@ -883,112 +583,63 @@ function createThemeCard(item) {
 }
 
 
-/* =========================
-   COBERTURA
-========================= */
+function renderDetailSection(
+  title,
+  text,
+  extraClass = ""
+) {
 
-function renderCoverage(cobertura) {
-
-  if (
-    !cobertura ||
-    typeof cobertura !== "object" ||
-    Array.isArray(cobertura)
-  ) {
-
+  if (!text) {
     return "";
-
   }
-
-
-  const entries =
-    Object.entries(
-      cobertura
-    );
-
-
-  if (!entries.length) {
-
-    return "";
-
-  }
-
-
-  const maxValue =
-    Math.max(
-      ...entries.map(
-        ([, value]) =>
-          Number(value) || 0
-      ),
-      1
-    );
 
 
   return `
 
-    <div class="coverage-block">
+    <div class="detail-card ${extraClass}">
 
-      <div class="coverage-title">
-        Cobertura
+      <div class="detail-card-label">
+        ${escapeHtml(title)}
       </div>
 
+      <p>
+        ${escapeHtml(text)}
+      </p>
 
-      <div class="coverage-list">
+    </div>
 
-        ${
-          entries
-            .map(
-              ([medio, value]) => {
+  `;
 
-                const numericValue =
-                  Number(value) || 0;
-
-
-                const width =
-                  Math.max(
-                    0,
-                    Math.min(
-                      100,
-                      (
-                        numericValue /
-                        maxValue
-                      ) * 100
-                    )
-                  );
+}
 
 
-                return `
+function renderApproaches(items) {
 
-                  <div class="coverage-item">
-
-                    <span class="coverage-item-name">
-                      ${escapeHtml(
-                        medio
-                      )}
-                    </span>
-
-
-                    <div class="coverage-bar">
-
-                      <div
-                        class="coverage-fill"
-                        style="width:${width}%"
-                      ></div>
-
-                    </div>
+  if (
+    !Array.isArray(items) ||
+    !items.length
+  ) {
+    return "";
+  }
 
 
-                    <strong>
-                      ${numericValue}
-                    </strong>
+  return `
 
-                  </div>
+    <div class="detail-card approaches-card">
 
-                `;
+      <div class="detail-card-label">
+        Enfoques sugeridos
+      </div>
 
-              }
-            )
-            .join("")
-        }
+      <div class="approach-list">
+
+        ${items.map(item => `
+
+          <span class="approach-chip">
+            ${escapeHtml(item)}
+          </span>
+
+        `).join("")}
 
       </div>
 
@@ -999,440 +650,234 @@ function renderCoverage(cobertura) {
 }
 
 
-/* =========================
-   EJEMPLOS
-========================= */
+function renderCoverage(item) {
 
-function renderExample(example) {
+  const coverage = item.cobertura;
 
-  if (!example) {
-
+  if (
+    !coverage ||
+    typeof coverage !== "object" ||
+    Array.isArray(coverage)
+  ) {
     return "";
-
   }
 
 
-  const image =
-    cleanMarkdownUrl(
-      example.imagen || ""
-    );
+  const entries = Object.entries(coverage);
 
 
-  const link =
-    cleanMarkdownUrl(
-      example.link || ""
-    );
+  if (!entries.length) {
+    return "";
+  }
 
 
-  const title =
-    example.titulo ||
-    "Nota sin título";
+  const maxValue = Math.max(
+    ...entries.map(
+      ([, value]) => Number(value) || 0
+    ),
+    1
+  );
 
 
   return `
 
-    <article class="example-card">
+    <div class="coverage-block">
 
-
-      ${
-        image
-          ? `
-            <img
-              class="example-image"
-              src="${escapeAttribute(image)}"
-              alt=""
-              loading="lazy"
-            >
-          `
-          : `
-            <div class="example-image"></div>
-          `
-      }
-
-
-      <div>
-
-
-        ${
-          example.medio
-            ? `
-              <div class="example-medium">
-                ${escapeHtml(
-                  example.medio
-                )}
-              </div>
-            `
-            : ""
-        }
-
-
-        <div class="example-title">
-
-
-          ${
-            link
-              ? `
-                <a
-                  href="${escapeAttribute(link)}"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ${escapeHtml(
-                    title
-                  )}
-                </a>
-              `
-              : `
-                ${escapeHtml(
-                  title
-                )}
-              `
-          }
-
-
-        </div>
-
-
+      <div class="coverage-title">
+        Cobertura por medio
       </div>
 
 
-    </article>
+      <div class="coverage-list">
+
+        ${entries.map(([medium, value]) => {
+
+          const count = Number(value) || 0;
+
+          const width =
+            count > 0
+              ? Math.max(
+                  7,
+                  (count / maxValue) * 100
+                )
+              : 0;
+
+
+          return `
+
+            <div class="coverage-item">
+
+              <div class="coverage-item-name">
+                ${escapeHtml(medium)}
+              </div>
+
+              <div class="coverage-bar">
+
+                <div
+                  class="coverage-fill"
+                  style="width:${width}%"
+                ></div>
+
+              </div>
+
+              <strong>
+                ${count}
+              </strong>
+
+            </div>
+
+          `;
+
+        }).join("")}
+
+      </div>
+
+    </div>
 
   `;
 
 }
 
 
-/* =========================
-   IMAGEN
-========================= */
-
-function getImage(item) {
-
-  const possibleFields = [
-    "imagen",
-    "image",
-    "foto",
-    "image_url",
-    "imagen_url"
-  ];
-
-
-  for (
-    const field of possibleFields
-  ) {
-
-    if (item?.[field]) {
-
-      const url =
-        cleanMarkdownUrl(
-          item[field]
-        );
-
-
-      if (url) {
-
-        return url;
-
-      }
-
-    }
-
-  }
-
+function renderExamples(examples) {
 
   if (
-    Array.isArray(
-      item?.ejemplos
-    )
+    !Array.isArray(examples) ||
+    !examples.length
   ) {
-
-    for (
-      const example of item.ejemplos
-    ) {
-
-      if (example?.imagen) {
-
-        const url =
-          cleanMarkdownUrl(
-            example.imagen
-          );
-
-
-        if (url) {
-
-          return url;
-
-        }
-
-      }
-
-    }
-
+    return "";
   }
 
 
-  return "";
+  return `
+
+    <div class="detail-card notes-card">
+
+      <div class="detail-card-label">
+        Notas usadas
+      </div>
+
+
+      <div class="examples-list">
+
+        ${examples.slice(0, 3).map(example => {
+
+          const image =
+            cleanMarkdownUrl(
+              example.imagen || ""
+            );
+
+
+          const link =
+            cleanMarkdownUrl(
+              example.link || ""
+            );
+
+
+          return `
+
+            <article class="example-card">
+
+              ${
+                image
+                  ? `
+                    <img
+                      class="example-image"
+                      src="${escapeHtml(image)}"
+                      alt=""
+                      loading="lazy"
+                    >
+                  `
+                  : `
+                    <div class="example-image"></div>
+                  `
+              }
+
+
+              <div class="example-content">
+
+                <div class="example-medium">
+                  ${escapeHtml(
+                    example.medio || ""
+                  )}
+                </div>
+
+
+                <div class="example-title">
+
+                  ${
+                    link
+                      ? `
+                        <a
+                          href="${escapeHtml(link)}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          ${escapeHtml(
+                            example.titulo || "Ver nota"
+                          )}
+                        </a>
+                      `
+                      : escapeHtml(
+                          example.titulo || "Ver nota"
+                        )
+                  }
+
+                </div>
+
+              </div>
+
+            </article>
+
+          `;
+
+        }).join("")}
+
+      </div>
+
+    </div>
+
+  `;
 
 }
 
-
-/* =========================
-   NOMBRE DE CATEGORÍA
-========================= */
-
-function getCategoryLabel(tipo) {
-
-  const labels = {
-
-    hipercompetencia:
-      "Hipercompetencia",
-
-    perfil_pierde:
-      "Perfil pierde",
-
-    sin_cobertura_perfil:
-      "Sin cobertura",
-
-    oportunidades:
-      "Oportunidad"
-
-  };
-
-
-  return (
-    labels[tipo] ||
-    tipo ||
-    ""
-  );
-
-}
-
-
-/* =========================
-   TODOS LOS TEMAS
-========================= */
-
-function getAllItems() {
-
-  if (!dashboardData) {
-
-    return [];
-
-  }
-
-
-  const categories = [
-
-    "hipercompetencia",
-
-    "perfil_pierde",
-
-    "sin_cobertura_perfil",
-
-    "oportunidades"
-
-  ];
-
-
-  return categories.flatMap(
-    category =>
-      Array.isArray(
-        dashboardData[category]
-      )
-        ? dashboardData[category]
-        : []
-  );
-
-}
-
-
-/* =========================
-   LIMPIAR URL MARKDOWN
-========================= */
 
 function cleanMarkdownUrl(value) {
 
   if (!value) {
-
     return "";
-
   }
 
 
-  let stringValue =
-    String(value).trim();
+  let result = String(value).trim();
 
 
   const markdownMatch =
-    stringValue.match(
+    result.match(
       /^\[.*?\]\((.*?)\)$/
     );
 
 
   if (markdownMatch) {
-
-    stringValue =
-      markdownMatch[1];
-
+    result = markdownMatch[1];
   }
 
 
-  stringValue =
-    stringValue
-      .replace(
-        /\\&/g,
-        "&"
-      )
-      .replace(
-        /&amp;/g,
-        "&"
-      );
+  result = result.replace(/\\&/g, "&");
 
 
-  return stringValue;
+  return result;
 
 }
 
-
-/* =========================
-   FECHA LOCAL
-========================= */
-
-function parseLocalDate(value) {
-
-  if (!value) {
-
-    return null;
-
-  }
-
-
-  const match =
-    String(value).match(
-      /^(\d{4})-(\d{2})-(\d{2})$/
-    );
-
-
-  if (!match) {
-
-    return null;
-
-  }
-
-
-  const year =
-    Number(match[1]);
-
-
-  const month =
-    Number(match[2]) - 1;
-
-
-  const day =
-    Number(match[3]);
-
-
-  return new Date(
-    year,
-    month,
-    day
-  );
-
-}
-
-
-/* =========================
-   SEGURIDAD HTML
-========================= */
 
 function escapeHtml(value) {
 
-  return String(
-    value ?? ""
-  )
-    .replace(
-      /&/g,
-      "&amp;"
-    )
-    .replace(
-      /</g,
-      "&lt;"
-    )
-    .replace(
-      />/g,
-      "&gt;"
-    )
-    .replace(
-      /"/g,
-      "&quot;"
-    )
-    .replace(
-      /'/g,
-      "&#039;"
-    );
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 
 }
-
-
-function escapeAttribute(value) {
-
-  return escapeHtml(
-    value
-  );
-
-}
-
-
-/* =========================
-   TABS
-========================= */
-
-categoryTabs.forEach(
-  tab => {
-
-    tab.addEventListener(
-      "click",
-      () => {
-
-        currentCategory =
-          tab.dataset.category;
-
-
-        categoryTabs.forEach(
-          otherTab => {
-
-            otherTab.classList.toggle(
-              "active",
-              otherTab === tab
-            );
-
-          }
-        );
-
-
-        renderCategory();
-
-      }
-    );
-
-  }
-);
-
-
-/* =========================
-   ORDENAMIENTO
-========================= */
-
-sortSelect.addEventListener(
-  "change",
-  event => {
-
-    currentSort =
-      event.target.value;
-
-
-    renderCategory();
-
-  }
-);
