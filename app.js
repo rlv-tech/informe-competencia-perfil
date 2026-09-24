@@ -411,7 +411,7 @@ function createThemeCard(item) {
 
         <div class="theme-stat theme-stat-gap">
           <span>Brecha Perfil</span>
-          <strong>${gap}</strong>
+          <strong>${gap > 0 ? `-${gap}` : "0"}</strong>
         </div>
 
       </div>
