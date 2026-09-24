@@ -409,49 +409,56 @@ select {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 0 20px;
+  margin: 0 0 22px;
   overflow: hidden;
-  border: 1px solid #e3e8ed;
-  border-radius: 9px;
+  border: 1px solid #e2e7ec;
+  border-radius: 12px;
   background: #ffffff;
 }
 
 .theme-stat {
   min-width: 0;
-  padding: 12px 8px;
+  padding: 14px 12px 13px;
+  background: #ffffff;
   color: #23384f;
   text-align: center;
-  background: #ffffff;
 }
 
 .theme-stat + .theme-stat {
-  border-left: 1px solid #e3e8ed;
-}
-
-/* SOLO BRECHA PERFIL EN ROJO */
-
-.theme-stat-gap {
-  background: #b95b5b;
-  color: #ffffff;
-}
-
-.theme-stat-gap + .theme-stat {
-  border-left: 1px solid #e3e8ed;
+  border-left: 1px solid #e6eaee;
 }
 
 .theme-stat span {
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  color: #7b8793;
   font-size: 9px;
   font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 1;
   text-transform: uppercase;
-  letter-spacing: 0.4px;
 }
 
 .theme-stat strong {
   display: block;
-  font-size: 18px;
+  color: #23384f;
+  font-size: 22px;
+  line-height: 1;
   font-weight: 800;
+}
+
+/* Brecha Perfil */
+
+.theme-stat-gap {
+  background: #fff5f5;
+}
+
+.theme-stat-gap span {
+  color: #b95b5b;
+}
+
+.theme-stat-gap strong {
+  color: #b95b5b;
 }
 
 /* =========================
