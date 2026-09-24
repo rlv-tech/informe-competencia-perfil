@@ -1,145 +1,205 @@
 const DATA_URL = "./data.json";
 
-const categoryNames = {
-  hipercompetencia: "Hipercompetencia",
-  perfil_pierde: "Perfil pierde",
-  sin_cobertura_perfil: "Sin cobertura",
-  oportunidades: "Oportunidades"
-};
+let dashboardData = null;
 
-const categoryDescriptions = {
-  hipercompetencia:
-    "Temas donde la competencia concentra más cobertura que Perfil.",
-  perfil_pierde:
-    "Temas donde Perfil tiene menor cobertura que la competencia.",
-  sin_cobertura_perfil:
-    "Temas cubiertos por la competencia sin cobertura de Perfil.",
-  oportunidades:
-    "Temas que presentan una oportunidad editorial."
-};
-
-let dashboardData = {};
 let currentCategory = "hipercompetencia";
 let currentSort = "brecha";
 
 
-document.addEventListener("DOMContentLoaded", () => {
+/* =========================
+   ELEMENTOS
+========================= */
 
-  loadData();
+const loading =
+  document.getElementById("loading");
+
+const error =
+  document.getElementById("error");
+
+const content =
+  document.getElementById("content");
+
+const analysisDate =
+  document.getElementById("analysisDate");
+
+const priorities =
+  document.getElementById("priorities");
+
+const themeGrid =
+  document.getElementById("themeGrid");
+
+const emptyState =
+  document.getElementById("emptyState");
+
+const categoryTitle =
+  document.getElementById("categoryTitle");
+
+const categoryDescription =
+  document.getElementById("categoryDescription");
+
+const sortSelect =
+  document.getElementById("sortSelect");
+
+const categoryTabs =
+  document.querySelectorAll(".category-tab");
 
 
-  document.querySelectorAll(".category-tab").forEach(button => {
+/* =========================
+   CONFIGURACIÓN
+========================= */
 
-    button.addEventListener("click", () => {
+const categoryConfig = {
 
-      currentCategory = button.dataset.category;
+  hipercompetencia: {
+    label: "Hipercompetencia",
 
+    description:
+      "Temas donde la competencia tiene mayor cobertura."
+  },
 
-      document.querySelectorAll(".category-tab").forEach(tab => {
-        tab.classList.remove("active");
-      });
+  perfil_pierde: {
+    label: "Perfil pierde",
 
+    description:
+      "Temas donde otros medios publicaron y Perfil no tuvo cobertura."
+  },
 
-      button.classList.add("active");
+  sin_cobertura_perfil: {
+    label: "Sin cobertura",
 
+    description:
+      "Temas relevantes cubiertos por la competencia sin presencia de Perfil."
+  },
 
-      renderMonitoring();
+  oportunidades: {
+    label: "Oportunidades",
 
-    });
-
-  });
-
-
-  const sortSelect =
-    document.getElementById("sortSelect");
-
-
-  if (sortSelect) {
-
-    sortSelect.addEventListener("change", event => {
-
-      currentSort = event.target.value;
-
-      renderMonitoring();
-
-    });
-
+    description:
+      "Temas con posibilidades de desarrollo editorial."
   }
 
-});
+};
 
+
+/* =========================
+   INICIO
+========================= */
+
+document.addEventListener(
+  "DOMContentLoaded",
+  loadData
+);
+
+
+/* =========================
+   CARGA DE DATOS
+========================= */
 
 async function loadData() {
 
   try {
 
-    const response = await fetch(
-      `${DATA_URL}?t=${Date.now()}`,
-      {
-        cache: "no-store"
-      }
-    );
+    const separator =
+      DATA_URL.includes("?")
+        ? "&"
+        : "?";
 
+    const response =
+      await fetch(
+        `${DATA_URL}${separator}t=${Date.now()}`,
+        {
+          cache: "no-store"
+        }
+      );
 
     if (!response.ok) {
-      throw new Error("No se pudo cargar data.json");
+      throw new Error(
+        `HTTP ${response.status}`
+      );
     }
-
 
     dashboardData =
       await response.json();
 
+    renderDashboard();
 
-    renderDate();
-    renderPriorities();
-    renderMonitoring();
+    loading.classList.add(
+      "hidden"
+    );
 
+    error.classList.add(
+      "hidden"
+    );
 
-    document
-      .getElementById("loading")
-      .classList.add("hidden");
+    content.classList.remove(
+      "hidden"
+    );
 
+  } catch (err) {
 
-    document
-      .getElementById("content")
-      .classList.remove("hidden");
+    console.error(
+      "Error cargando data.json:",
+      err
+    );
 
+    loading.classList.add(
+      "hidden"
+    );
 
-  } catch (error) {
+    content.classList.add(
+      "hidden"
+    );
 
-    console.error(error);
-
-
-    document
-      .getElementById("loading")
-      .classList.add("hidden");
-
-
-    document
-      .getElementById("error")
-      .classList.remove("hidden");
+    error.classList.remove(
+      "hidden"
+    );
 
   }
 
 }
 
 
+/* =========================
+   DASHBOARD
+========================= */
+
+function renderDashboard() {
+
+  renderDate();
+
+  renderPriorities();
+
+  renderCategory();
+
+}
+
+
+/* =========================
+   FECHA
+========================= */
+
 function renderDate() {
 
-  const dateElement =
-    document.getElementById("analysisDate");
+  if (!dashboardData?.fecha_analisis) {
 
+    analysisDate.textContent =
+      "Análisis editorial";
 
-  if (!dashboardData.fecha_analisis) {
     return;
   }
 
-
   const date =
-    new Date(
-      `${dashboardData.fecha_analisis}T12:00:00`
+    parseLocalDate(
+      dashboardData.fecha_analisis
     );
 
+  if (!date) {
+
+    analysisDate.textContent =
+      `Análisis: ${dashboardData.fecha_analisis}`;
+
+    return;
+  }
 
   const formatted =
     new Intl.DateTimeFormat(
@@ -151,348 +211,244 @@ function renderDate() {
       }
     ).format(date);
 
-
-  dateElement.textContent =
+  analysisDate.textContent =
     `Análisis: ${formatted}`;
 
 }
 
 
-function getCategoryLabel(type) {
-
-  const labels = {
-    hipercompetencia: "HIPERCOMPETENCIA",
-    perfil_pierde: "PERFIL PIERDE",
-    sin_cobertura_perfil: "SIN COBERTURA",
-    oportunidades: "OPORTUNIDAD"
-  };
-
-
-  return labels[type] || "PRIORIDAD";
-
-}
-
-
-function cleanMarkdownUrl(value) {
-
-  if (!value) {
-    return "";
-  }
-
-
-  let result =
-    String(value).trim();
-
-
-  const markdownMatch =
-    result.match(
-      /^\[.*?\]\((.*?)\)$/
-    );
-
-
-  if (markdownMatch) {
-    result = markdownMatch[1];
-  }
-
-
-  result =
-    result.replace(
-      /\\&/g,
-      "&"
-    );
-
-
-  return result;
-
-}
-
-
-function escapeHtml(value) {
-
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-
-}
-
-
-function getImage(item) {
-
-  if (
-    item.ejemplos &&
-    Array.isArray(item.ejemplos)
-  ) {
-
-    const example =
-      item.ejemplos.find(
-        example => example.imagen
-      );
-
-
-    if (example) {
-
-      return cleanMarkdownUrl(
-        example.imagen
-      );
-
-    }
-
-  }
-
-
-  return "";
-
-}
-
+/* =========================
+   PRIORIDADES DEL DÍA
+========================= */
 
 function renderPriorities() {
 
-  const container =
-    document.getElementById("priorities");
+  priorities.innerHTML = "";
+
+  const allItems =
+    getAllItems();
 
 
-  let priorities = [];
+  /*
+    Las prioridades reales son aquellas
+    que tienen prioridad mayor a 0.
+  */
 
+  const priorityItems =
+    allItems
+      .filter(item => {
 
-  Object.keys(categoryNames).forEach(category => {
+        const priority =
+          Number(item.prioridad);
 
-    const items =
-      Array.isArray(
-        dashboardData[category]
-      )
-        ? dashboardData[category]
-        : [];
-
-
-    items.forEach(item => {
-
-      if (
-        typeof item.prioridad === "number" &&
-        item.prioridad > 0
-      ) {
-
-        priorities.push({
-          ...item,
-          categoria: category
-        });
-
-      }
-
-    });
-
-  });
-
-
-  priorities.sort(
-    (a, b) =>
-      (b.prioridad || 0) -
-      (a.prioridad || 0)
-  );
-
-
-  if (priorities.length < 3) {
-
-    let allItems = [];
-
-
-    Object.keys(categoryNames).forEach(category => {
-
-      const items =
-        Array.isArray(
-          dashboardData[category]
-        )
-          ? dashboardData[category]
-          : [];
-
-
-      items.forEach(item => {
-
-        allItems.push({
-          ...item,
-          categoria: category
-        });
-
-      });
-
-    });
-
-
-    allItems.sort(
-      (a, b) =>
-        (b.brecha || 0) -
-        (a.brecha || 0)
-    );
-
-
-    allItems.forEach(item => {
-
-      const exists =
-        priorities.some(
-          priority =>
-            priority.tema === item.tema
+        return (
+          Number.isFinite(priority) &&
+          priority > 0
         );
 
+      })
+      .sort((a, b) => {
 
-      if (
-        !exists &&
-        priorities.length < 3
-      ) {
+        return (
+          Number(a.prioridad) -
+          Number(b.prioridad)
+        );
 
-        priorities.push(item);
+      })
+      .slice(0, 3);
 
-      }
 
-    });
+  /*
+    Si no hay prioridades marcadas,
+    usamos los temas con mayor brecha.
+  */
 
+  const fallbackItems =
+    allItems
+      .filter(
+        item =>
+          !priorityItems.includes(item)
+      )
+      .sort((a, b) => {
+
+        return (
+          Number(b.brecha || 0) -
+          Number(a.brecha || 0)
+        );
+
+      })
+      .slice(
+        0,
+        3 - priorityItems.length
+      );
+
+
+  const items = [
+    ...priorityItems,
+    ...fallbackItems
+  ];
+
+
+  if (!items.length) {
+
+    priorities.innerHTML = `
+      <div class="empty-state">
+        No hay prioridades disponibles.
+      </div>
+    `;
+
+    return;
   }
 
 
-  priorities =
-    priorities.slice(0, 3);
+  items.forEach(
+    (item, index) => {
+
+      const card =
+        document.createElement(
+          "article"
+        );
+
+      card.className =
+        "priority-card";
 
 
-  container.innerHTML = "";
+      const image =
+        getImage(item);
 
 
-  priorities.forEach((item, index) => {
-
-    const card =
-      document.createElement("article");
-
-
-    card.className =
-      "priority-card";
-
-
-    const image =
-      getImage(item);
-
-
-    const category =
-      item.categoria ||
-      item.tipo ||
-      "";
-
-
-    card.innerHTML = `
-
-      ${
-        image
-          ? `
-            <img
-              class="priority-image"
-              src="${escapeHtml(image)}"
-              alt=""
-              loading="lazy"
-            >
-          `
-          : `
-            <div
-              class="priority-image priority-image-empty"
-            ></div>
-          `
-      }
-
-
-      <div class="priority-content">
-
-
-        <div class="priority-number">
-          ${String(index + 1).padStart(2, "0")}
-        </div>
-
-
-        <div class="priority-category">
-          ${getCategoryLabel(category)}
-        </div>
-
-
-        <h3>
-          ${escapeHtml(
-            item.tema ||
-            "Sin título"
-          )}
-        </h3>
-
+      card.innerHTML = `
 
         ${
-          item.por_que_importa
+          image
             ? `
-              <p class="priority-description">
-                ${escapeHtml(
-                  item.por_que_importa
-                )}
-              </p>
+              <img
+                class="priority-image"
+                src="${escapeAttribute(image)}"
+                alt=""
+                loading="lazy"
+              >
             `
-            : ""
+            : `
+              <div class="priority-image"></div>
+            `
         }
 
 
-      </div>
+        <div class="priority-content">
 
-    `;
-
-
-    card.addEventListener("click", () => {
-
-      currentCategory =
-        category ||
-        "hipercompetencia";
+          <div class="priority-number">
+            ${String(index + 1).padStart(2, "0")}
+          </div>
 
 
-      document
-        .querySelectorAll(".category-tab")
-        .forEach(tab => {
+          <div class="priority-category">
+            PRIORIDAD
+          </div>
 
-          tab.classList.toggle(
-            "active",
-            tab.dataset.category ===
-              currentCategory
+
+          <h3>
+            ${escapeHtml(
+              item.tema ||
+              "Tema sin título"
+            )}
+          </h3>
+
+
+          ${
+            item.por_que_importa
+              ? `
+                <p class="priority-description">
+                  ${escapeHtml(
+                    item.por_que_importa
+                  )}
+                </p>
+              `
+              : ""
+          }
+
+        </div>
+
+      `;
+
+
+      /*
+        Al hacer click en una prioridad,
+        lleva al tema correspondiente
+        dentro del monitoreo.
+      */
+
+      card.addEventListener(
+        "click",
+        () => {
+
+          currentCategory =
+            item.tipo &&
+            categoryConfig[item.tipo]
+              ? item.tipo
+              : "hipercompetencia";
+
+
+          categoryTabs.forEach(
+            tab => {
+
+              tab.classList.toggle(
+                "active",
+                tab.dataset.category ===
+                currentCategory
+              );
+
+            }
           );
 
-        });
+
+          renderCategory();
 
 
-      renderMonitoring();
+          document
+            .getElementById(
+              "monitoringSection"
+            )
+            ?.scrollIntoView({
+              behavior: "smooth",
+              block: "start"
+            });
+
+        }
+      );
 
 
-      const section =
-        document.getElementById(
-          "monitoringSection"
-        );
+      priorities.appendChild(
+        card
+      );
 
-
-      if (section) {
-
-        setTimeout(() => {
-
-          section.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-
-        }, 50);
-
-      }
-
-    });
-
-
-    container.appendChild(card);
-
-  });
+    }
+  );
 
 }
 
 
-function renderMonitoring() {
+/* =========================
+   CATEGORÍA
+========================= */
 
-  const items =
+function renderCategory() {
+
+  const config =
+    categoryConfig[currentCategory] ||
+    categoryConfig.hipercompetencia;
+
+
+  categoryTitle.textContent =
+    config.label;
+
+  categoryDescription.textContent =
+    config.description;
+
+
+  let items =
     Array.isArray(
-      dashboardData[currentCategory]
+      dashboardData?.[currentCategory]
     )
       ? [
           ...dashboardData[
@@ -502,120 +458,128 @@ function renderMonitoring() {
       : [];
 
 
-  document
-    .getElementById("categoryTitle")
-    .textContent =
-      categoryNames[
-        currentCategory
-      ] ||
-      currentCategory;
+  items =
+    sortItems(items);
 
 
-  document
-    .getElementById("categoryDescription")
-    .textContent =
-      categoryDescriptions[
-        currentCategory
-      ] ||
-      "";
-
-
-  renderThemeCards(
-    sortItems(items)
-  );
-
-}
-
-
-function sortItems(items) {
-
-  return items.sort((a, b) => {
-
-    if (currentSort === "notas") {
-
-      return (
-        (b.total_notas || 0) -
-        (a.total_notas || 0)
-      );
-
-    }
-
-
-    if (currentSort === "medios") {
-
-      return (
-        (b.cantidad_medios || 0) -
-        (a.cantidad_medios || 0)
-      );
-
-    }
-
-
-    if (currentSort === "az") {
-
-      return (
-        a.tema || ""
-      ).localeCompare(
-        b.tema || "",
-        "es"
-      );
-
-    }
-
-
-    return (
-      (b.brecha || 0) -
-      (a.brecha || 0)
-    );
-
-  });
-
-}
-
-
-function renderThemeCards(items) {
-
-  const grid =
-    document.getElementById(
-      "themeGrid"
-    );
-
-
-  const empty =
-    document.getElementById(
-      "emptyState"
-    );
-
-
-  grid.innerHTML = "";
+  themeGrid.innerHTML = "";
 
 
   if (!items.length) {
 
-    empty.classList.remove(
+    emptyState.classList.remove(
       "hidden"
     );
 
     return;
-
   }
 
 
-  empty.classList.add(
+  emptyState.classList.add(
     "hidden"
   );
 
 
-  items.forEach(item => {
+  items.forEach(
+    item => {
 
-    grid.appendChild(
-      createThemeCard(item)
-    );
+      themeGrid.appendChild(
+        createThemeCard(item)
+      );
 
-  });
+    }
+  );
 
 }
 
+
+/* =========================
+   ORDENAMIENTO
+========================= */
+
+function sortItems(items) {
+
+  return items.sort(
+    (a, b) => {
+
+      if (
+        currentSort ===
+        "brecha"
+      ) {
+
+        return (
+          Number(b.brecha || 0) -
+          Number(a.brecha || 0)
+        );
+
+      }
+
+
+      if (
+        currentSort ===
+        "notas"
+      ) {
+
+        return (
+          Number(b.total_notas || 0) -
+          Number(a.total_notas || 0)
+        );
+
+      }
+
+
+      if (
+        currentSort ===
+        "medios"
+      ) {
+
+        return (
+          Number(
+            b.cantidad_medios ??
+            b.cantidad_medios_competencia ??
+            0
+          ) -
+          Number(
+            a.cantidad_medios ??
+            a.cantidad_medios_competencia ??
+            0
+          )
+        );
+
+      }
+
+
+      if (
+        currentSort ===
+        "az"
+      ) {
+
+        return String(
+          a.tema || ""
+        ).localeCompare(
+          String(
+            b.tema || ""
+          ),
+          "es",
+          {
+            sensitivity: "base"
+          }
+        );
+
+      }
+
+
+      return 0;
+
+    }
+  );
+
+}
+
+
+/* =========================
+   TARJETA DE TEMA
+========================= */
 
 function createThemeCard(item) {
 
@@ -623,7 +587,6 @@ function createThemeCard(item) {
     document.createElement(
       "article"
     );
-
 
   card.className =
     "theme-card";
@@ -633,73 +596,86 @@ function createThemeCard(item) {
     getImage(item);
 
 
-  const brecha =
+  const totalNotas =
+    Number(
+      item.total_notas || 0
+    );
+
+
+  const cantidadMedios =
+    Number(
+      item.cantidad_medios ??
+      item.cantidad_medios_competencia ??
+      0
+    );
+
+
+  const rawGap =
     Number(
       item.brecha || 0
     );
 
 
-  let brechaDisplay = "0";
+  /*
+    La brecha se interpreta
+    como diferencia frente a Perfil.
+
+    0      -> 0
+    +1     -> -1
+    +2     -> -2
+    etc.
+  */
+
+  const displayGap =
+    rawGap > 0
+      ? `-${rawGap}`
+      : `${rawGap}`;
 
 
-  if (brecha > 0) {
-    brechaDisplay =
-      `-${brecha}`;
-  }
-
-
-  if (brecha < 0) {
-    brechaDisplay =
-      `${brecha}`;
-  }
+  const gapClass =
+    rawGap !== 0
+      ? "theme-stat theme-stat-gap"
+      : "theme-stat";
 
 
   card.innerHTML = `
 
     <div class="theme-hero">
 
-
       ${
         image
           ? `
             <img
               class="theme-image"
-              src="${escapeHtml(image)}"
+              src="${escapeAttribute(image)}"
               alt=""
               loading="lazy"
             >
           `
           : `
-            <div
-              class="theme-image theme-image-empty"
-            ></div>
+            <div class="theme-image"></div>
           `
       }
-
 
     </div>
 
 
     <div class="theme-body">
 
-
       <div class="theme-category">
-
-        ${getCategoryLabel(
-          item.tipo ||
-          currentCategory
+        ${escapeHtml(
+          getCategoryLabel(
+            item.tipo
+          )
         )}
-
       </div>
 
 
       <h3 class="theme-title">
-
         ${escapeHtml(
           item.tema ||
-          "Sin título"
+          "Tema sin título"
         )}
-
       </h3>
 
 
@@ -713,9 +689,7 @@ function createThemeCard(item) {
           </span>
 
           <strong>
-            ${Number(
-              item.total_notas || 0
-            )}
+            ${totalNotas}
           </strong>
 
         </div>
@@ -728,24 +702,20 @@ function createThemeCard(item) {
           </span>
 
           <strong>
-            ${Number(
-              item.cantidad_medios || 0
-            )}
+            ${cantidadMedios}
           </strong>
 
         </div>
 
 
-        <div
-          class="theme-stat theme-stat-gap"
-        >
+        <div class="${gapClass}">
 
           <span>
             Brecha Perfil
           </span>
 
           <strong>
-            ${brechaDisplay}
+            ${displayGap}
           </strong>
 
         </div>
@@ -754,11 +724,12 @@ function createThemeCard(item) {
       </div>
 
 
-      ${renderCoverage(item)}
+      ${renderCoverage(
+        item.cobertura
+      )}
 
 
       <details class="theme-details">
-
 
         <summary>
           Ver detalles
@@ -771,11 +742,11 @@ function createThemeCard(item) {
           ${
             item.por_que_importa
               ? `
-                <div class="detail-card detail-importance">
+                <div class="detail-section">
 
-                  <div class="detail-card-label">
+                  <h4>
                     Por qué importa
-                  </div>
+                  </h4>
 
                   <p>
                     ${escapeHtml(
@@ -792,11 +763,11 @@ function createThemeCard(item) {
           ${
             item.insight
               ? `
-                <div class="detail-card">
+                <div class="detail-section">
 
-                  <div class="detail-card-label">
+                  <h4>
                     Insight
-                  </div>
+                  </h4>
 
                   <p>
                     ${escapeHtml(
@@ -813,11 +784,11 @@ function createThemeCard(item) {
           ${
             item.accion_sugerida
               ? `
-                <div class="detail-card detail-action">
+                <div class="detail-section">
 
-                  <div class="detail-card-label">
+                  <h4>
                     Acción sugerida
-                  </div>
+                  </h4>
 
                   <p>
                     ${escapeHtml(
@@ -831,18 +802,73 @@ function createThemeCard(item) {
           }
 
 
-          ${renderApproaches(
-            item.enfoques_sugeridos
-          )}
+          ${
+            Array.isArray(
+              item.enfoques_sugeridos
+            ) &&
+            item.enfoques_sugeridos.length
+              ? `
+                <div class="detail-section">
+
+                  <h4>
+                    Enfoques sugeridos
+                  </h4>
+
+                  <ul>
+
+                    ${item.enfoques_sugeridos
+                      .map(
+                        enfoque => `
+                          <li>
+                            ${escapeHtml(
+                              enfoque
+                            )}
+                          </li>
+                        `
+                      )
+                      .join("")}
+
+                  </ul>
+
+                </div>
+              `
+              : ""
+          }
 
 
-          ${renderExamples(
-            item.ejemplos
-          )}
+          ${
+            Array.isArray(
+              item.ejemplos
+            ) &&
+            item.ejemplos.length
+              ? `
+                <div class="detail-section">
+
+                  <h4>
+                    Notas usadas
+                  </h4>
+
+                  <div class="examples-list">
+
+                    ${item.ejemplos
+                      .slice(0, 3)
+                      .map(
+                        example =>
+                          renderExample(
+                            example
+                          )
+                      )
+                      .join("")}
+
+                  </div>
+
+                </div>
+              `
+              : ""
+          }
 
 
         </div>
-
 
       </details>
 
@@ -857,182 +883,16 @@ function createThemeCard(item) {
 }
 
 
-function renderApproaches(items) {
+/* =========================
+   COBERTURA
+========================= */
+
+function renderCoverage(cobertura) {
 
   if (
-    !Array.isArray(items) ||
-    items.length === 0
-  ) {
-
-    return "";
-
-  }
-
-
-  return `
-
-    <div class="detail-card">
-
-      <div class="detail-card-label">
-        Enfoques sugeridos
-      </div>
-
-
-      <div class="approach-list">
-
-        ${items
-          .map(item => `
-
-            <span class="approach-chip">
-              ${escapeHtml(item)}
-            </span>
-
-          `)
-          .join("")}
-
-      </div>
-
-    </div>
-
-  `;
-
-}
-
-
-function renderExamples(examples) {
-
-  if (
-    !Array.isArray(examples) ||
-    examples.length === 0
-  ) {
-
-    return "";
-
-  }
-
-
-  return `
-
-    <div class="detail-card notes-card">
-
-      <div class="detail-card-label">
-        Notas usadas
-      </div>
-
-
-      <div class="examples-list">
-
-
-        ${examples
-          .slice(0, 3)
-          .map(example => {
-
-            const image =
-              cleanMarkdownUrl(
-                example.imagen ||
-                ""
-              );
-
-
-            const link =
-              cleanMarkdownUrl(
-                example.link ||
-                ""
-              );
-
-
-            return `
-
-              <article class="example-card">
-
-
-                ${
-                  image
-                    ? `
-                      <img
-                        class="example-image"
-                        src="${escapeHtml(image)}"
-                        alt=""
-                        loading="lazy"
-                      >
-                    `
-                    : `
-                      <div class="example-image"></div>
-                    `
-                }
-
-
-                <div class="example-content">
-
-
-                  <div class="example-medium">
-
-                    ${escapeHtml(
-                      example.medio ||
-                      ""
-                    )}
-
-                  </div>
-
-
-                  <div class="example-title">
-
-
-                    ${
-                      link
-                        ? `
-                          <a
-                            href="${escapeHtml(link)}"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            ${escapeHtml(
-                              example.titulo ||
-                              "Ver nota"
-                            )}
-                          </a>
-                        `
-                        : escapeHtml(
-                            example.titulo ||
-                            "Ver nota"
-                          )
-                    }
-
-
-                  </div>
-
-
-                </div>
-
-
-              </article>
-
-            `;
-
-          })
-          .join("")}
-
-
-      </div>
-
-
-    </div>
-
-  `;
-
-}
-
-
-function renderCoverage(item) {
-
-  const coverage =
-    item.cobertura;
-
-
-  if (
-    !coverage ||
-    typeof coverage !== "object" ||
-    Array.isArray(coverage)
+    !cobertura ||
+    typeof cobertura !== "object" ||
+    Array.isArray(cobertura)
   ) {
 
     return "";
@@ -1042,12 +902,14 @@ function renderCoverage(item) {
 
   const entries =
     Object.entries(
-      coverage
+      cobertura
     );
 
 
   if (!entries.length) {
+
     return "";
+
   }
 
 
@@ -1065,70 +927,512 @@ function renderCoverage(item) {
 
     <div class="coverage-block">
 
-
       <div class="coverage-title">
-        Cobertura por medio
+        Cobertura
       </div>
 
 
       <div class="coverage-list">
 
+        ${
+          entries
+            .map(
+              ([medio, value]) => {
 
-        ${entries
-          .map(([medium, value]) => {
-
-            const count =
-              Number(value) || 0;
-
-
-            const width =
-              count > 0
-                ? Math.max(
-                    7,
-                    (count / maxValue) *
-                      100
-                  )
-                : 0;
+                const numericValue =
+                  Number(value) || 0;
 
 
-            return `
-
-              <div class="coverage-item">
-
-
-                <div class="coverage-item-name">
-                  ${escapeHtml(medium)}
-                </div>
-
-
-                <div class="coverage-bar">
-
-                  <div
-                    class="coverage-fill"
-                    style="width:${width}%"
-                  ></div>
-
-                </div>
+                const width =
+                  Math.max(
+                    0,
+                    Math.min(
+                      100,
+                      (
+                        numericValue /
+                        maxValue
+                      ) * 100
+                    )
+                  );
 
 
-                <strong>
-                  ${count}
-                </strong>
+                return `
+
+                  <div class="coverage-item">
+
+                    <span class="coverage-item-name">
+                      ${escapeHtml(
+                        medio
+                      )}
+                    </span>
 
 
-              </div>
+                    <div class="coverage-bar">
 
-            `;
+                      <div
+                        class="coverage-fill"
+                        style="width:${width}%"
+                      ></div>
 
-          })
-          .join("")}
+                    </div>
 
+
+                    <strong>
+                      ${numericValue}
+                    </strong>
+
+                  </div>
+
+                `;
+
+              }
+            )
+            .join("")
+        }
 
       </div>
-
 
     </div>
 
   `;
 
 }
+
+
+/* =========================
+   EJEMPLOS
+========================= */
+
+function renderExample(example) {
+
+  if (!example) {
+
+    return "";
+
+  }
+
+
+  const image =
+    cleanMarkdownUrl(
+      example.imagen || ""
+    );
+
+
+  const link =
+    cleanMarkdownUrl(
+      example.link || ""
+    );
+
+
+  const title =
+    example.titulo ||
+    "Nota sin título";
+
+
+  return `
+
+    <article class="example-card">
+
+
+      ${
+        image
+          ? `
+            <img
+              class="example-image"
+              src="${escapeAttribute(image)}"
+              alt=""
+              loading="lazy"
+            >
+          `
+          : `
+            <div class="example-image"></div>
+          `
+      }
+
+
+      <div>
+
+
+        ${
+          example.medio
+            ? `
+              <div class="example-medium">
+                ${escapeHtml(
+                  example.medio
+                )}
+              </div>
+            `
+            : ""
+        }
+
+
+        <div class="example-title">
+
+
+          ${
+            link
+              ? `
+                <a
+                  href="${escapeAttribute(link)}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ${escapeHtml(
+                    title
+                  )}
+                </a>
+              `
+              : `
+                ${escapeHtml(
+                  title
+                )}
+              `
+          }
+
+
+        </div>
+
+
+      </div>
+
+
+    </article>
+
+  `;
+
+}
+
+
+/* =========================
+   IMAGEN
+========================= */
+
+function getImage(item) {
+
+  const possibleFields = [
+    "imagen",
+    "image",
+    "foto",
+    "image_url",
+    "imagen_url"
+  ];
+
+
+  for (
+    const field of possibleFields
+  ) {
+
+    if (item?.[field]) {
+
+      const url =
+        cleanMarkdownUrl(
+          item[field]
+        );
+
+
+      if (url) {
+
+        return url;
+
+      }
+
+    }
+
+  }
+
+
+  if (
+    Array.isArray(
+      item?.ejemplos
+    )
+  ) {
+
+    for (
+      const example of item.ejemplos
+    ) {
+
+      if (example?.imagen) {
+
+        const url =
+          cleanMarkdownUrl(
+            example.imagen
+          );
+
+
+        if (url) {
+
+          return url;
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+  return "";
+
+}
+
+
+/* =========================
+   NOMBRE DE CATEGORÍA
+========================= */
+
+function getCategoryLabel(tipo) {
+
+  const labels = {
+
+    hipercompetencia:
+      "Hipercompetencia",
+
+    perfil_pierde:
+      "Perfil pierde",
+
+    sin_cobertura_perfil:
+      "Sin cobertura",
+
+    oportunidades:
+      "Oportunidad"
+
+  };
+
+
+  return (
+    labels[tipo] ||
+    tipo ||
+    ""
+  );
+
+}
+
+
+/* =========================
+   TODOS LOS TEMAS
+========================= */
+
+function getAllItems() {
+
+  if (!dashboardData) {
+
+    return [];
+
+  }
+
+
+  const categories = [
+
+    "hipercompetencia",
+
+    "perfil_pierde",
+
+    "sin_cobertura_perfil",
+
+    "oportunidades"
+
+  ];
+
+
+  return categories.flatMap(
+    category =>
+      Array.isArray(
+        dashboardData[category]
+      )
+        ? dashboardData[category]
+        : []
+  );
+
+}
+
+
+/* =========================
+   LIMPIAR URL MARKDOWN
+========================= */
+
+function cleanMarkdownUrl(value) {
+
+  if (!value) {
+
+    return "";
+
+  }
+
+
+  let stringValue =
+    String(value).trim();
+
+
+  const markdownMatch =
+    stringValue.match(
+      /^\[.*?\]\((.*?)\)$/
+    );
+
+
+  if (markdownMatch) {
+
+    stringValue =
+      markdownMatch[1];
+
+  }
+
+
+  stringValue =
+    stringValue
+      .replace(
+        /\\&/g,
+        "&"
+      )
+      .replace(
+        /&amp;/g,
+        "&"
+      );
+
+
+  return stringValue;
+
+}
+
+
+/* =========================
+   FECHA LOCAL
+========================= */
+
+function parseLocalDate(value) {
+
+  if (!value) {
+
+    return null;
+
+  }
+
+
+  const match =
+    String(value).match(
+      /^(\d{4})-(\d{2})-(\d{2})$/
+    );
+
+
+  if (!match) {
+
+    return null;
+
+  }
+
+
+  const year =
+    Number(match[1]);
+
+
+  const month =
+    Number(match[2]) - 1;
+
+
+  const day =
+    Number(match[3]);
+
+
+  return new Date(
+    year,
+    month,
+    day
+  );
+
+}
+
+
+/* =========================
+   SEGURIDAD HTML
+========================= */
+
+function escapeHtml(value) {
+
+  return String(
+    value ?? ""
+  )
+    .replace(
+      /&/g,
+      "&amp;"
+    )
+    .replace(
+      /</g,
+      "&lt;"
+    )
+    .replace(
+      />/g,
+      "&gt;"
+    )
+    .replace(
+      /"/g,
+      "&quot;"
+    )
+    .replace(
+      /'/g,
+      "&#039;"
+    );
+
+}
+
+
+function escapeAttribute(value) {
+
+  return escapeHtml(
+    value
+  );
+
+}
+
+
+/* =========================
+   TABS
+========================= */
+
+categoryTabs.forEach(
+  tab => {
+
+    tab.addEventListener(
+      "click",
+      () => {
+
+        currentCategory =
+          tab.dataset.category;
+
+
+        categoryTabs.forEach(
+          otherTab => {
+
+            otherTab.classList.toggle(
+              "active",
+              otherTab === tab
+            );
+
+          }
+        );
+
+
+        renderCategory();
+
+      }
+    );
+
+  }
+);
+
+
+/* =========================
+   ORDENAMIENTO
+========================= */
+
+sortSelect.addEventListener(
+  "change",
+  event => {
+
+    currentSort =
+      event.target.value;
+
+
+    renderCategory();
+
+  }
+);
