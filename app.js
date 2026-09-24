@@ -146,12 +146,6 @@ const sortSelect =
   );
 
 
-const refreshBtn =
-  document.getElementById(
-    "refreshBtn"
-  );
-
-
 /* =========================================================
    NORMALIZAR MEDIOS
 ========================================================= */
@@ -651,7 +645,6 @@ function getBestCompetitor(
 
 /* =========================================================
    BRECHA PERFIL
-=========================================================
 
    Ejemplos:
 
@@ -1059,7 +1052,6 @@ function renderPriorities() {
             <article
               class="priority-card">
 
-
               <div
                 class="priority-image">
 
@@ -1098,7 +1090,6 @@ function renderPriorities() {
               <div
                 class="priority-content">
 
-
                 <div
                   class="priority-type">
 
@@ -1130,9 +1121,7 @@ function renderPriorities() {
 
                 </div>
 
-
               </div>
-
 
             </article>
 
@@ -2169,7 +2158,6 @@ function attachCategoryEvents() {
           "click",
           () => {
 
-
             document
 
               .querySelectorAll(
@@ -2210,7 +2198,6 @@ function attachCategoryEvents() {
                   "start"
               });
 
-
           }
         );
 
@@ -2239,41 +2226,10 @@ sortSelect.addEventListener(
 
 
 /* =========================================================
-   ACTUALIZAR
-========================================================= */
-
-const WEBHOOK_URL = "https://rominalv.app.n8n.cloud/webhook/actualizar-competencia";
-
-refreshBtn.addEventListener("click", async () => {
-  refreshBtn.disabled = true;
-  refreshBtn.textContent = "Actualizando...";
-
-  try {
-    const response = await fetch(WEBHOOK_URL, {
-      method: "POST"
-    });
-
-    if (!response.ok) {
-      throw new Error("No se pudo iniciar la actualización");
-    }
-
-    alert("Actualización iniciada correctamente.");
-  } catch (error) {
-    console.error(error);
-    alert("No se pudo iniciar la actualización.");
-  } finally {
-    refreshBtn.disabled = false;
-    refreshBtn.textContent = "Actualizar";
-  }
-});
-
-/* =========================================================
    CARGAR DATA.JSON
 ========================================================= */
 
-async function loadData(
-  forceReload = false
-) {
+async function loadData() {
 
   loading.classList.remove(
     "hidden"
@@ -2293,21 +2249,15 @@ async function loadData(
   try {
 
     const url =
-
       `${DATA_URL}?t=${Date.now()}`;
 
 
     const response =
-
       await fetch(
         url,
         {
-
           cache:
-            forceReload
-              ? "no-store"
-              : "default"
-
+            "no-store"
         }
       );
 
