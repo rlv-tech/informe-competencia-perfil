@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Editorial Perfil | Informe competencia</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>
+    Editorial Perfil | Informe de competencia
+  </title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
 
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   >
 
-  <link rel="stylesheet" href="./style.css">
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
 </head>
+
 
 <body>
 
   <main class="radar">
 
     <!-- HEADER -->
+
     <header class="hero-header">
 
       <div class="hero-text">
@@ -34,11 +54,15 @@
           Informe competencia
         </h1>
 
-        <div id="analysisDate" class="hero-date">
+        <div
+          id="analysisDate"
+          class="hero-date"
+        >
           Cargando fecha...
         </div>
 
       </div>
+
 
       <div class="hero-brand">
 
@@ -53,31 +77,46 @@
     </header>
 
 
-    <!-- CARGANDO -->
-    <div id="loading" class="status loading">
+    <!-- LOADING -->
+
+    <div
+      id="loading"
+      class="status loading"
+    >
       Cargando datos...
     </div>
 
 
     <!-- ERROR -->
-    <div id="error" class="status error hidden">
+
+    <div
+      id="error"
+      class="status error hidden"
+    >
 
       <strong>
         No se pudieron cargar los datos.
       </strong>
 
       <span>
-        Verificá que <strong>data.json</strong> exista en el repositorio.
+        Verificá que
+        <strong>data.json</strong>
+        exista en el repositorio.
       </span>
 
     </div>
 
 
     <!-- CONTENIDO -->
-    <div id="content" class="hidden">
+
+    <div
+      id="content"
+      class="hidden"
+    >
 
 
       <!-- PRIORIDADES -->
+
       <section class="section priorities-section">
 
         <div class="section-heading">
@@ -92,12 +131,17 @@
 
         </div>
 
-        <div id="priorities" class="priority-grid"></div>
+
+        <div
+          id="priorities"
+          class="priority-grid"
+        ></div>
 
       </section>
 
 
       <!-- MONITOREO -->
+
       <section
         id="monitoringSection"
         class="section monitoring-section"
@@ -117,6 +161,7 @@
 
 
         <!-- CATEGORÍAS -->
+
         <div class="category-tabs">
 
           <button
@@ -127,6 +172,7 @@
             Hipercompetencia
           </button>
 
+
           <button
             class="category-tab"
             data-category="perfil_pierde"
@@ -135,6 +181,7 @@
             Perfil pierde
           </button>
 
+
           <button
             class="category-tab"
             data-category="sin_cobertura_perfil"
@@ -142,6 +189,7 @@
           >
             Sin cobertura
           </button>
+
 
           <button
             class="category-tab"
@@ -155,24 +203,33 @@
 
 
         <!-- CONTROLES -->
+
         <div class="monitor-controls">
 
           <div class="results-label">
 
-            <strong id="categoryTitle">
+            <strong
+              id="categoryTitle"
+            >
               Hipercompetencia
             </strong>
 
-            <span id="categoryDescription"></span>
+            <span
+              id="categoryDescription"
+            ></span>
 
           </div>
+
 
           <div class="control-group">
 
             <label for="sortSelect">
+
               Ordenar
 
-              <select id="sortSelect">
+              <select
+                id="sortSelect"
+              >
 
                 <option value="brecha">
                   Mayor brecha
@@ -200,6 +257,7 @@
 
 
         <!-- TEMAS -->
+
         <div
           id="themeGrid"
           class="theme-grid"
@@ -207,6 +265,7 @@
 
 
         <!-- SIN RESULTADOS -->
+
         <div
           id="emptyState"
           class="empty-state hidden"
@@ -224,4 +283,5 @@
   <script src="./app.js"></script>
 
 </body>
+
 </html>
