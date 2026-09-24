@@ -1,17 +1,19 @@
 const DATA_URL = "./data.json";
 
-let data = {};
+let dashboardData = null;
+
 let currentCategory = "hipercompetencia";
+let currentSort = "brecha";
 
 
-/* =====================================================
+/* =========================
    ELEMENTOS
-===================================================== */
+========================= */
 
 const loading =
   document.getElementById("loading");
 
-const errorBox =
+const error =
   document.getElementById("error");
 
 const content =
@@ -20,7 +22,7 @@ const content =
 const analysisDate =
   document.getElementById("analysisDate");
 
-const prioritiesContainer =
+const priorities =
   document.getElementById("priorities");
 
 const themeGrid =
@@ -33,59 +35,55 @@ const categoryTitle =
   document.getElementById("categoryTitle");
 
 const categoryDescription =
-  document.getElementById(
-    "categoryDescription"
-  );
+  document.getElementById("categoryDescription");
 
 const sortSelect =
   document.getElementById("sortSelect");
 
-const monitoringSection =
-  document.getElementById(
-    "monitoringSection"
-  );
+const categoryTabs =
+  document.querySelectorAll(".category-tab");
 
 
-/* =====================================================
-   CATEGORÍAS
-===================================================== */
+/* =========================
+   CONFIGURACIÓN
+========================= */
 
-const categoryInfo = {
+const categoryConfig = {
 
   hipercompetencia: {
-    title: "Hipercompetencia",
+    label: "Hipercompetencia",
 
     description:
-      "Temas donde la competencia concentra más cobertura."
+      "Temas donde la competencia tiene mayor cobertura."
   },
 
   perfil_pierde: {
-    title: "Perfil pierde",
+    label: "Perfil pierde",
 
     description:
-      "Temas donde otros medios publicaron y Perfil no."
+      "Temas donde otros medios publicaron y Perfil no tuvo cobertura."
   },
 
   sin_cobertura_perfil: {
-    title: "Sin cobertura",
+    label: "Sin cobertura",
 
     description:
-      "Temas detectados en la competencia sin cobertura de Perfil."
+      "Temas relevantes cubiertos por la competencia sin presencia de Perfil."
   },
 
   oportunidades: {
-    title: "Oportunidades",
+    label: "Oportunidades",
 
     description:
-      "Temas con posibilidades concretas de cobertura."
+      "Temas con posibilidades de desarrollo editorial."
   }
 
 };
 
 
-/* =====================================================
+/* =========================
    INICIO
-===================================================== */
+========================= */
 
 document.addEventListener(
   "DOMContentLoaded",
@@ -93,42 +91,43 @@ document.addEventListener(
 );
 
 
+/* =========================
+   CARGA DE DATOS
+========================= */
+
 async function loadData() {
 
   try {
 
+    const separator =
+      DATA_URL.includes("?")
+        ? "&"
+        : "?";
+
     const response =
       await fetch(
-        `${DATA_URL}?v=${Date.now()}`,
+        `${DATA_URL}${separator}t=${Date.now()}`,
         {
           cache: "no-store"
         }
       );
 
-
     if (!response.ok) {
-
       throw new Error(
         `HTTP ${response.status}`
       );
-
     }
 
-
-    data =
+    dashboardData =
       await response.json();
 
-
-    renderDate();
-
-    renderPriorities();
-
-    setupCategories();
-
-    renderCategory();
-
+    renderDashboard();
 
     loading.classList.add(
+      "hidden"
+    );
+
+    error.classList.add(
       "hidden"
     );
 
@@ -136,19 +135,22 @@ async function loadData() {
       "hidden"
     );
 
-
-  } catch (error) {
+  } catch (err) {
 
     console.error(
       "Error cargando data.json:",
-      error
+      err
     );
 
     loading.classList.add(
       "hidden"
     );
 
-    errorBox.classList.remove(
+    content.classList.add(
+      "hidden"
+    );
+
+    error.classList.remove(
       "hidden"
     );
 
@@ -157,38 +159,47 @@ async function loadData() {
 }
 
 
-/* =====================================================
+/* =========================
+   DASHBOARD
+========================= */
+
+function renderDashboard() {
+
+  renderDate();
+
+  renderPriorities();
+
+  renderCategory();
+
+}
+
+
+/* =========================
    FECHA
-===================================================== */
+========================= */
 
 function renderDate() {
 
-  if (!data.fecha_analisis) {
-
-    analysisDate.textContent = "";
-
-    return;
-  }
-
-
-  const date =
-    new Date(
-      `${data.fecha_analisis}T12:00:00`
-    );
-
-
-  if (
-    Number.isNaN(
-      date.getTime()
-    )
-  ) {
+  if (!dashboardData?.fecha_analisis) {
 
     analysisDate.textContent =
-      `Análisis: ${data.fecha_analisis}`;
+      "Análisis editorial";
 
     return;
   }
 
+  const date =
+    parseLocalDate(
+      dashboardData.fecha_analisis
+    );
+
+  if (!date) {
+
+    analysisDate.textContent =
+      `Análisis: ${dashboardData.fecha_analisis}`;
+
+    return;
+  }
 
   const formatted =
     new Intl.DateTimeFormat(
@@ -200,97 +211,97 @@ function renderDate() {
       }
     ).format(date);
 
-
   analysisDate.textContent =
     `Análisis: ${formatted}`;
+
 }
 
 
-/* =====================================================
-   PRIORIDADES
-===================================================== */
+/* =========================
+   PRIORIDADES DEL DÍA
+========================= */
 
 function renderPriorities() {
 
-  prioritiesContainer.innerHTML = "";
+  priorities.innerHTML = "";
 
-
-  let priorities = [];
+  const allItems =
+    getAllItems();
 
 
   /*
-   * Si el JSON tiene prioridades_del_dia,
-   * las usamos.
-   */
+    Las prioridades reales son aquellas
+    que tienen prioridad mayor a 0.
+  */
 
-  if (
-    Array.isArray(
-      data.prioridades_del_dia
-    )
-  ) {
+  const priorityItems =
+    allItems
+      .filter(item => {
 
-    priorities =
-      [...data.prioridades_del_dia];
+        const priority =
+          Number(item.prioridad);
 
+        return (
+          Number.isFinite(priority) &&
+          priority > 0
+        );
+
+      })
+      .sort((a, b) => {
+
+        return (
+          Number(a.prioridad) -
+          Number(b.prioridad)
+        );
+
+      })
+      .slice(0, 3);
+
+
+  /*
+    Si no hay prioridades marcadas,
+    usamos los temas con mayor brecha.
+  */
+
+  const fallbackItems =
+    allItems
+      .filter(
+        item =>
+          !priorityItems.includes(item)
+      )
+      .sort((a, b) => {
+
+        return (
+          Number(b.brecha || 0) -
+          Number(a.brecha || 0)
+        );
+
+      })
+      .slice(
+        0,
+        3 - priorityItems.length
+      );
+
+
+  const items = [
+    ...priorityItems,
+    ...fallbackItems
+  ];
+
+
+  if (!items.length) {
+
+    priorities.innerHTML = `
+      <div class="empty-state">
+        No hay prioridades disponibles.
+      </div>
+    `;
+
+    return;
   }
 
 
-  /*
-   * Si no existe,
-   * buscamos los temas con prioridad.
-   */
-
-  if (!priorities.length) {
-
-    priorities =
-      getAllThemes()
-        .filter(
-          item =>
-            Number(
-              item.prioridad || 0
-            ) > 0
-        )
-        .sort(
-          (a, b) =>
-            Number(
-              a.prioridad || 999
-            ) -
-            Number(
-              b.prioridad || 999
-            )
-        )
-        .slice(0, 3);
-
-  }
-
-
-  /*
-   * Último fallback:
-   * primeras tres de hipercompetencia.
-   */
-
-  if (!priorities.length) {
-
-    priorities =
-      [
-        ...(data.hipercompetencia || [])
-      ]
-        .slice(0, 3)
-        .map(item => ({
-          ...item,
-
-          __category:
-            "hipercompetencia"
-        }));
-
-  }
-
-
-  /*
-   * Creamos cada prioridad.
-   */
-
-  priorities.forEach(
+  items.forEach(
     (item, index) => {
 
       const card =
@@ -298,62 +309,63 @@ function renderPriorities() {
           "article"
         );
 
-
       card.className =
         "priority-card";
 
 
-      const imageUrl =
+      const image =
         getImage(item);
 
 
       card.innerHTML = `
 
-        <div class="priority-image-wrap">
-
-          ${
-            imageUrl
-              ? `
-
-                <img
-                  class="priority-image"
-                  src="${escapeAttribute(
-                    imageUrl
-                  )}"
-                  alt=""
-                  loading="lazy"
-                >
-
-              `
-              : `
-
-                <div
-                  class="priority-image-placeholder"
-                >
-                  Sin imagen
-                </div>
-
-              `
-          }
-
-
-          <div class="priority-number">
-            ${index + 1}
-          </div>
-
-        </div>
+        ${
+          image
+            ? `
+              <img
+                class="priority-image"
+                src="${escapeAttribute(image)}"
+                alt=""
+                loading="lazy"
+              >
+            `
+            : `
+              <div class="priority-image"></div>
+            `
+        }
 
 
         <div class="priority-content">
 
-          <div class="priority-title">
+          <div class="priority-number">
+            ${String(index + 1).padStart(2, "0")}
+          </div>
 
+
+          <div class="priority-category">
+            PRIORIDAD
+          </div>
+
+
+          <h3>
             ${escapeHtml(
               item.tema ||
-              "Sin título"
+              "Tema sin título"
             )}
+          </h3>
 
-          </div>
+
+          ${
+            item.por_que_importa
+              ? `
+                <p class="priority-description">
+                  ${escapeHtml(
+                    item.por_que_importa
+                  )}
+                </p>
+              `
+              : ""
+          }
 
         </div>
 
@@ -361,76 +373,52 @@ function renderPriorities() {
 
 
       /*
-       * Si la imagen falla,
-       * mostramos placeholder.
-       */
-
-      const image =
-        card.querySelector(
-          ".priority-image"
-        );
-
-
-      if (image) {
-
-        image.addEventListener(
-          "error",
-          () => {
-
-            const wrapper =
-              image.closest(
-                ".priority-image-wrap"
-              );
-
-
-            if (!wrapper) {
-              return;
-            }
-
-
-            wrapper.innerHTML = `
-
-              <div
-                class="priority-image-placeholder"
-              >
-                Sin imagen
-              </div>
-
-
-              <div class="priority-number">
-                ${index + 1}
-              </div>
-
-            `;
-
-          }
-        );
-
-      }
-
-
-      /*
-       * Click:
-       * lleva a la temática.
-       */
+        Al hacer click en una prioridad,
+        lleva al tema correspondiente
+        dentro del monitoreo.
+      */
 
       card.addEventListener(
         "click",
         () => {
 
-          goToPriority(
-            item.tema,
+          currentCategory =
+            item.tipo &&
+            categoryConfig[item.tipo]
+              ? item.tipo
+              : "hipercompetencia";
 
-            item.__category ||
-            item.tipo ||
-            "hipercompetencia"
+
+          categoryTabs.forEach(
+            tab => {
+
+              tab.classList.toggle(
+                "active",
+                tab.dataset.category ===
+                currentCategory
+              );
+
+            }
           );
+
+
+          renderCategory();
+
+
+          document
+            .getElementById(
+              "monitoringSection"
+            )
+            ?.scrollIntoView({
+              behavior: "smooth",
+              block: "start"
+            });
 
         }
       );
 
 
-      prioritiesContainer.appendChild(
+      priorities.appendChild(
         card
       );
 
@@ -440,249 +428,44 @@ function renderPriorities() {
 }
 
 
-/* =====================================================
-   TODOS LOS TEMAS
-===================================================== */
-
-function getAllThemes() {
-
-  const categories = [
-
-    "hipercompetencia",
-
-    "perfil_pierde",
-
-    "sin_cobertura_perfil",
-
-    "oportunidades"
-
-  ];
-
-
-  const themes = [];
-
-
-  categories.forEach(
-    category => {
-
-      if (
-        !Array.isArray(
-          data[category]
-        )
-      ) {
-
-        return;
-      }
-
-
-      data[category].forEach(
-        item => {
-
-          themes.push({
-
-            ...item,
-
-            __category:
-              category
-
-          });
-
-        }
-      );
-
-    }
-  );
-
-
-  return themes;
-}
-
-
-/* =====================================================
-   IR DESDE PRIORIDAD
-===================================================== */
-
-function goToPriority(
-  topic,
-  category
-) {
-
-  setCategory(category);
-
-
-  monitoringSection.scrollIntoView(
-    {
-      behavior: "smooth",
-      block: "start"
-    }
-  );
-
-
-  setTimeout(
-    () => {
-
-      const cards =
-        document.querySelectorAll(
-          ".theme-card"
-        );
-
-
-      cards.forEach(
-        card => {
-
-          const cardTopic =
-            card.dataset.topic ||
-            "";
-
-
-          if (
-            normalizeText(
-              cardTopic
-            ) ===
-            normalizeText(
-              topic
-            )
-          ) {
-
-            card.classList.add(
-              "priority-highlight"
-            );
-
-
-            setTimeout(
-              () => {
-
-                card.classList.remove(
-                  "priority-highlight"
-                );
-
-              },
-              2200
-            );
-
-          }
-
-        }
-      );
-
-    },
-    500
-  );
-
-}
-
-
-/* =====================================================
-   CATEGORÍAS
-===================================================== */
-
-function setupCategories() {
-
-  const tabs =
-    document.querySelectorAll(
-      ".category-tab"
-    );
-
-
-  tabs.forEach(
-    tab => {
-
-      tab.addEventListener(
-        "click",
-        () => {
-
-          setCategory(
-            tab.dataset.category
-          );
-
-        }
-      );
-
-    }
-  );
-
-
-  sortSelect.addEventListener(
-    "change",
-    renderCategory
-  );
-
-}
-
-
-function setCategory(category) {
-
-  if (
-    !categoryInfo[category]
-  ) {
-
-    category =
-      "hipercompetencia";
-
-  }
-
-
-  currentCategory =
-    category;
-
-
-  document
-    .querySelectorAll(
-      ".category-tab"
-    )
-    .forEach(
-      tab => {
-
-        tab.classList.toggle(
-          "active",
-
-          tab.dataset.category ===
-          currentCategory
-        );
-
-      }
-    );
-
-
-  renderCategory();
-
-}
-
-
-/* =====================================================
-   RENDER CATEGORÍA
-===================================================== */
+/* =========================
+   CATEGORÍA
+========================= */
 
 function renderCategory() {
 
-  const info =
-    categoryInfo[
-      currentCategory
-    ];
+  const config =
+    categoryConfig[currentCategory] ||
+    categoryConfig.hipercompetencia;
 
 
   categoryTitle.textContent =
-    info.title;
-
+    config.label;
 
   categoryDescription.textContent =
-    info.description;
+    config.description;
+
+
+  let items =
+    Array.isArray(
+      dashboardData?.[currentCategory]
+    )
+      ? [
+          ...dashboardData[
+            currentCategory
+          ]
+        ]
+      : [];
+
+
+  items =
+    sortItems(items);
 
 
   themeGrid.innerHTML = "";
 
 
-  const themes =
-    Array.isArray(
-      data[currentCategory]
-    )
-      ? [
-          ...data[currentCategory]
-        ]
-      : [];
-
-
-  if (!themes.length) {
+  if (!items.length) {
 
     emptyState.classList.remove(
       "hidden"
@@ -697,24 +480,11 @@ function renderCategory() {
   );
 
 
-  const sortedThemes =
-    sortThemes(themes);
-
-
-  sortedThemes.forEach(
+  items.forEach(
     item => {
 
       themeGrid.appendChild(
-
-        createThemeCard({
-
-          ...item,
-
-          __category:
-            currentCategory
-
-        })
-
+        createThemeCard(item)
       );
 
     }
@@ -723,88 +493,77 @@ function renderCategory() {
 }
 
 
-/* =====================================================
-   ORDEN
-===================================================== */
+/* =========================
+   ORDENAMIENTO
+========================= */
 
-function sortThemes(themes) {
+function sortItems(items) {
 
-  const sort =
-    sortSelect.value;
-
-
-  return themes.sort(
+  return items.sort(
     (a, b) => {
 
-
       if (
-        sort === "brecha"
+        currentSort ===
+        "brecha"
       ) {
 
         return (
-
-          Number(
-            b.brecha || 0
-          ) -
-
-          Number(
-            a.brecha || 0
-          )
-
+          Number(b.brecha || 0) -
+          Number(a.brecha || 0)
         );
 
       }
 
 
       if (
-        sort === "notas"
+        currentSort ===
+        "notas"
       ) {
 
         return (
-
-          Number(
-            b.total_notas || 0
-          ) -
-
-          Number(
-            a.total_notas || 0
-          )
-
+          Number(b.total_notas || 0) -
+          Number(a.total_notas || 0)
         );
 
       }
 
 
       if (
-        sort === "medios"
+        currentSort ===
+        "medios"
       ) {
 
         return (
-
           Number(
-            b.cantidad_medios || 0
+            b.cantidad_medios ??
+            b.cantidad_medios_competencia ??
+            0
           ) -
-
           Number(
-            a.cantidad_medios || 0
+            a.cantidad_medios ??
+            a.cantidad_medios_competencia ??
+            0
           )
-
         );
 
       }
 
 
       if (
-        sort === "az"
+        currentSort ===
+        "az"
       ) {
 
-        return normalizeText(
+        return String(
           a.tema || ""
         ).localeCompare(
-          normalizeText(
+          String(
             b.tema || ""
           ),
-          "es"
+          "es",
+          {
+            sensitivity: "base"
+          }
         );
 
       }
@@ -818,9 +577,9 @@ function sortThemes(themes) {
 }
 
 
-/* =====================================================
-   TARJETA TEMÁTICA
-===================================================== */
+/* =========================
+   TARJETA DE TEMA
+========================= */
 
 function createThemeCard(item) {
 
@@ -829,16 +588,11 @@ function createThemeCard(item) {
       "article"
     );
 
-
   card.className =
     "theme-card";
 
 
-  card.dataset.topic =
-    item.tema || "";
-
-
-  const imageUrl =
+  const image =
     getImage(item);
 
 
@@ -850,96 +604,80 @@ function createThemeCard(item) {
 
   const cantidadMedios =
     Number(
-      item.cantidad_medios ||
-
-      item.cantidad_medios_competencia ||
-
+      item.cantidad_medios ??
+      item.cantidad_medios_competencia ??
       0
     );
 
 
-  const gap =
+  const rawGap =
     Number(
       item.brecha || 0
     );
 
 
   /*
-   * Brecha:
-   * 4 -> -4
-   * 2 -> -2
-   * 0 -> 0
-   */
+    La brecha se interpreta
+    como diferencia frente a Perfil.
 
-  const gapDisplay =
-    gap > 0
-      ? `-${gap}`
-      : "0";
+    0      -> 0
+    +1     -> -1
+    +2     -> -2
+    etc.
+  */
+
+  const displayGap =
+    rawGap > 0
+      ? `-${rawGap}`
+      : `${rawGap}`;
+
+
+  const gapClass =
+    rawGap !== 0
+      ? "theme-stat theme-stat-gap"
+      : "theme-stat";
 
 
   card.innerHTML = `
 
-    <!-- FOTO -->
-
-    <div class="theme-image-wrap">
+    <div class="theme-hero">
 
       ${
-        imageUrl
+        image
           ? `
-
             <img
               class="theme-image"
-              src="${escapeAttribute(
-                imageUrl
-              )}"
+              src="${escapeAttribute(image)}"
               alt=""
               loading="lazy"
             >
-
           `
           : `
-
-            <div
-              class="theme-image-placeholder"
-            >
-              Sin imagen
-            </div>
-
+            <div class="theme-image"></div>
           `
       }
-
-
-      <div class="category-badge">
-
-        ${escapeHtml(
-          categoryInfo[
-            currentCategory
-          ].title
-        )}
-
-      </div>
 
     </div>
 
 
-    <!-- CUERPO -->
-
     <div class="theme-body">
 
+      <div class="theme-category">
+        ${escapeHtml(
+          getCategoryLabel(
+            item.tipo
+          )
+        )}
+      </div>
 
-      <!-- TÍTULO -->
 
       <h3 class="theme-title">
-
         ${escapeHtml(
           item.tema ||
-          "Sin título"
+          "Tema sin título"
         )}
-
       </h3>
 
-
-      <!-- MÉTRICAS -->
 
       <div class="theme-stats">
 
@@ -970,19 +708,14 @@ function createThemeCard(item) {
         </div>
 
 
-        <div
-          class="
-            theme-stat
-            theme-stat-gap
-          "
-        >
+        <div class="${gapClass}">
 
           <span>
             Brecha Perfil
           </span>
 
           <strong>
-            ${gapDisplay}
+            ${displayGap}
           </strong>
 
         </div>
@@ -991,73 +724,12 @@ function createThemeCard(item) {
       </div>
 
 
-      <!-- COBERTURA -->
-
       ${renderCoverage(
         item.cobertura
       )}
 
 
-      <!-- POR QUÉ IMPORTA -->
-
-      ${
-        item.por_que_importa
-          ? `
-
-            <div class="why-box">
-
-              <div class="why-label">
-                Por qué importa
-              </div>
-
-
-              <p class="why-text">
-
-                ${escapeHtml(
-                  item.por_que_importa
-                )}
-
-              </p>
-
-            </div>
-
-          `
-          : ""
-      }
-
-
-      <!-- INSIGHT -->
-
-      ${
-        item.insight
-          ? `
-
-            <div class="insight-box">
-
-              <div class="insight-label">
-                Insight
-              </div>
-
-
-              <p class="insight-text">
-
-                ${escapeHtml(
-                  item.insight
-                )}
-
-              </p>
-
-            </div>
-
-          `
-          : ""
-      }
-
-
-      <!-- DETALLES -->
-
       <details class="theme-details">
-
 
         <summary>
           Ver detalles
@@ -1067,35 +739,68 @@ function createThemeCard(item) {
         <div class="details-content">
 
 
-          <!-- ACCIÓN -->
-
           ${
-            item.accion_sugerida
+            item.por_que_importa
               ? `
+                <div class="detail-section">
 
-                <div class="detail-block">
+                  <h4>
+                    Por qué importa
+                  </h4>
 
-                  <div class="detail-title">
-                    Acción sugerida
-                  </div>
-
-
-                  <p class="detail-text">
-
+                  <p>
                     ${escapeHtml(
-                      item.accion_sugerida
+                      item.por_que_importa
                     )}
-
                   </p>
 
                 </div>
-
               `
               : ""
           }
 
 
-          <!-- ENFOQUES -->
+          ${
+            item.insight
+              ? `
+                <div class="detail-section">
+
+                  <h4>
+                    Insight
+                  </h4>
+
+                  <p>
+                    ${escapeHtml(
+                      item.insight
+                    )}
+                  </p>
+
+                </div>
+              `
+              : ""
+          }
+
+
+          ${
+            item.accion_sugerida
+              ? `
+                <div class="detail-section">
+
+                  <h4>
+                    Acción sugerida
+                  </h4>
+
+                  <p>
+                    ${escapeHtml(
+                      item.accion_sugerida
+                    )}
+                  </p>
+
+                </div>
+              `
+              : ""
+          }
+
 
           ${
             Array.isArray(
@@ -1103,28 +808,22 @@ function createThemeCard(item) {
             ) &&
             item.enfoques_sugeridos.length
               ? `
+                <div class="detail-section">
 
-                <div class="detail-block">
-
-                  <div class="detail-title">
+                  <h4>
                     Enfoques sugeridos
-                  </div>
+                  </h4>
 
-
-                  <ul class="detail-list">
+                  <ul>
 
                     ${item.enfoques_sugeridos
                       .map(
                         enfoque => `
-
                           <li>
-
                             ${escapeHtml(
                               enfoque
                             )}
-
                           </li>
-
                         `
                       )
                       .join("")}
@@ -1132,13 +831,10 @@ function createThemeCard(item) {
                   </ul>
 
                 </div>
-
               `
               : ""
           }
 
-
-          <!-- NOTAS USADAS -->
 
           ${
             Array.isArray(
@@ -1146,27 +842,27 @@ function createThemeCard(item) {
             ) &&
             item.ejemplos.length
               ? `
+                <div class="detail-section">
 
-                <div class="detail-block">
-
-                  <div class="detail-title">
+                  <h4>
                     Notas usadas
-                  </div>
+                  </h4>
 
-
-                  <div class="examples">
+                  <div class="examples-list">
 
                     ${item.ejemplos
                       .slice(0, 3)
                       .map(
-                        renderExample
+                        example =>
+                          renderExample(
+                            example
+                          )
                       )
                       .join("")}
 
                   </div>
 
                 </div>
-
               `
               : ""
           }
@@ -1182,78 +878,25 @@ function createThemeCard(item) {
   `;
 
 
-  /* ===================================================
-     ERROR IMAGEN
-  =================================================== */
-
-  const image =
-    card.querySelector(
-      ".theme-image"
-    );
-
-
-  if (image) {
-
-    image.addEventListener(
-      "error",
-      () => {
-
-        const wrapper =
-          image.closest(
-            ".theme-image-wrap"
-          );
-
-
-        if (!wrapper) {
-          return;
-        }
-
-
-        wrapper.innerHTML = `
-
-          <div
-            class="theme-image-placeholder"
-          >
-            Sin imagen
-          </div>
-
-
-          <div class="category-badge">
-
-            ${escapeHtml(
-              categoryInfo[
-                currentCategory
-              ].title
-            )}
-
-          </div>
-
-        `;
-
-      }
-    );
-
-  }
-
-
   return card;
+
 }
 
 
-/* =====================================================
+/* =========================
    COBERTURA
-===================================================== */
+========================= */
 
-function renderCoverage(
-  cobertura
-) {
+function renderCoverage(cobertura) {
 
   if (
     !cobertura ||
-    typeof cobertura !== "object"
+    typeof cobertura !== "object" ||
+    Array.isArray(cobertura)
   ) {
 
     return "";
+
   }
 
 
@@ -1264,15 +907,17 @@ function renderCoverage(
 
 
   if (!entries.length) {
+
     return "";
+
   }
 
 
-  const max =
+  const maxValue =
     Math.max(
       ...entries.map(
         ([, value]) =>
-          Number(value || 0)
+          Number(value) || 0
       ),
       1
     );
@@ -1280,8 +925,7 @@ function renderCoverage(
 
   return `
 
-    <div class="coverage">
-
+    <div class="coverage-block">
 
       <div class="coverage-title">
         Cobertura
@@ -1290,311 +934,203 @@ function renderCoverage(
 
       <div class="coverage-list">
 
+        ${
+          entries
+            .map(
+              ([medio, value]) => {
 
-        ${entries
-          .map(
-            ([medio, value]) => {
-
-              const count =
-                Number(
-                  value || 0
-                );
+                const numericValue =
+                  Number(value) || 0;
 
 
-              const percentage =
-                count > 0
-                  ? (
-                      count / max
-                    ) * 100
-                  : 0;
+                const width =
+                  Math.max(
+                    0,
+                    Math.min(
+                      100,
+                      (
+                        numericValue /
+                        maxValue
+                      ) * 100
+                    )
+                  );
 
 
-              return `
+                return `
 
-                <div class="coverage-row">
+                  <div class="coverage-item">
 
-
-                  <div class="coverage-medium">
-
-                    ${escapeHtml(
-                      medio
-                    )}
-
-                  </div>
+                    <span class="coverage-item-name">
+                      ${escapeHtml(
+                        medio
+                      )}
+                    </span>
 
 
-                  <div class="coverage-bar">
+                    <div class="coverage-bar">
 
-                    <div
-                      class="coverage-fill"
-                      style="
-                        width:${percentage}%;
-                      "
-                    ></div>
+                      <div
+                        class="coverage-fill"
+                        style="width:${width}%"
+                      ></div>
 
-                  </div>
+                    </div>
 
 
-                  <div class="coverage-count">
-
-                    ${count}
+                    <strong>
+                      ${numericValue}
+                    </strong>
 
                   </div>
 
+                `;
 
-                </div>
-
-              `;
-
-            }
-          )
-          .join("")}
-
+              }
+            )
+            .join("")
+        }
 
       </div>
 
     </div>
 
   `;
+
 }
 
 
-/* =====================================================
+/* =========================
    EJEMPLOS
-===================================================== */
+========================= */
 
-function renderExample(
-  example
-) {
+function renderExample(example) {
 
   if (!example) {
+
     return "";
+
   }
 
 
-  const imageUrl =
+  const image =
     cleanMarkdownUrl(
-      example.imagen ||
-      example.image ||
-      example.image_url ||
-      example.imagen_url
+      example.imagen || ""
     );
 
 
   const link =
     cleanMarkdownUrl(
-      example.link ||
-      example.url
+      example.link || ""
     );
 
 
-  const imageHtml =
-    imageUrl
-      ? `
-
-        <div
-          class="example-image-wrap"
-        >
-
-          <img
-            class="example-image"
-            src="${escapeAttribute(
-              imageUrl
-            )}"
-            alt=""
-            loading="lazy"
-          >
-
-        </div>
-
-      `
-      : `
-
-        <div
-          class="example-image-wrap"
-        >
-
-          <div
-            class="
-              example-image-placeholder
-            "
-          >
-            Sin imagen
-          </div>
-
-        </div>
-
-      `;
-
-
-  const titleHtml =
-    link
-      ? `
-
-        <a
-          class="example-title"
-          href="${escapeAttribute(
-            link
-          )}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-
-          ${escapeHtml(
-            example.titulo ||
-            "Sin título"
-          )}
-
-        </a>
-
-      `
-      : `
-
-        <div
-          class="example-title"
-        >
-
-          ${escapeHtml(
-            example.titulo ||
-            "Sin título"
-          )}
-
-        </div>
-
-      `;
+  const title =
+    example.titulo ||
+    "Nota sin título";
 
 
   return `
 
-    <div class="example">
-
-      ${imageHtml}
+    <article class="example-card">
 
 
-      <div class="example-content">
+      ${
+        image
+          ? `
+            <img
+              class="example-image"
+              src="${escapeAttribute(image)}"
+              alt=""
+              loading="lazy"
+            >
+          `
+          : `
+            <div class="example-image"></div>
+          `
+      }
 
 
-        <div class="example-medium">
+      <div>
 
-          ${escapeHtml(
-            example.medio || ""
-          )}
+
+        ${
+          example.medio
+            ? `
+              <div class="example-medium">
+                ${escapeHtml(
+                  example.medio
+                )}
+              </div>
+            `
+            : ""
+        }
+
+
+        <div class="example-title">
+
+
+          ${
+            link
+              ? `
+                <a
+                  href="${escapeAttribute(link)}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ${escapeHtml(
+                    title
+                  )}
+                </a>
+              `
+              : `
+                ${escapeHtml(
+                  title
+                )}
+              `
+          }
+
 
         </div>
 
 
-        ${titleHtml}
-
-
       </div>
 
-    </div>
+
+    </article>
 
   `;
+
 }
 
 
-/* =====================================================
-   OBTENER IMAGEN
-===================================================== */
+/* =========================
+   IMAGEN
+========================= */
 
 function getImage(item) {
 
-  if (!item) {
-    return "";
-  }
-
-
-  /*
-   * Primero buscamos imagen directa.
-   */
-
-  const directImages = [
-
-    item.imagen,
-
-    item.image,
-
-    item.image_url,
-
-    item.imagen_url,
-
-    item.foto,
-
-    item.foto_url
-
+  const possibleFields = [
+    "imagen",
+    "image",
+    "foto",
+    "image_url",
+    "imagen_url"
   ];
 
 
   for (
-    const value of directImages
+    const field of possibleFields
   ) {
 
-    const url =
-      cleanMarkdownUrl(
-        value
-      );
-
-
-    if (
-      url &&
-      /^https?:\/\//i.test(
-        url
-      )
-    ) {
-
-      return url;
-
-    }
-
-  }
-
-
-  /*
-   * Si no existe,
-   * buscamos en ejemplos.
-   */
-
-  if (
-    Array.isArray(
-      item.ejemplos
-    )
-  ) {
-
-    for (
-      const ejemplo of
-      item.ejemplos
-    ) {
-
-      if (!ejemplo) {
-        continue;
-      }
-
+    if (item?.[field]) {
 
       const url =
         cleanMarkdownUrl(
-
-          ejemplo.imagen ||
-
-          ejemplo.image ||
-
-          ejemplo.image_url ||
-
-          ejemplo.imagen_url ||
-
-          ejemplo.foto ||
-
-          ejemplo.foto_url
-
+          item[field]
         );
 
 
-      if (
-        url &&
-        /^https?:\/\//i.test(
-          url
-        )
-      ) {
+      if (url) {
 
         return url;
 
@@ -1605,57 +1141,145 @@ function getImage(item) {
   }
 
 
-  return "";
-}
+  if (
+    Array.isArray(
+      item?.ejemplos
+    )
+  ) {
+
+    for (
+      const example of item.ejemplos
+    ) {
+
+      if (example?.imagen) {
+
+        const url =
+          cleanMarkdownUrl(
+            example.imagen
+          );
 
 
-/* =====================================================
-   LIMPIAR URL MARKDOWN
-===================================================== */
+        if (url) {
 
-function cleanMarkdownUrl(
-  value
-) {
+          return url;
 
-  if (!value) {
-    return "";
+        }
+
+      }
+
+    }
+
   }
 
 
-  let url =
+  return "";
+
+}
+
+
+/* =========================
+   NOMBRE DE CATEGORÍA
+========================= */
+
+function getCategoryLabel(tipo) {
+
+  const labels = {
+
+    hipercompetencia:
+      "Hipercompetencia",
+
+    perfil_pierde:
+      "Perfil pierde",
+
+    sin_cobertura_perfil:
+      "Sin cobertura",
+
+    oportunidades:
+      "Oportunidad"
+
+  };
+
+
+  return (
+    labels[tipo] ||
+    tipo ||
+    ""
+  );
+
+}
+
+
+/* =========================
+   TODOS LOS TEMAS
+========================= */
+
+function getAllItems() {
+
+  if (!dashboardData) {
+
+    return [];
+
+  }
+
+
+  const categories = [
+
+    "hipercompetencia",
+
+    "perfil_pierde",
+
+    "sin_cobertura_perfil",
+
+    "oportunidades"
+
+  ];
+
+
+  return categories.flatMap(
+    category =>
+      Array.isArray(
+        dashboardData[category]
+      )
+        ? dashboardData[category]
+        : []
+  );
+
+}
+
+
+/* =========================
+   LIMPIAR URL MARKDOWN
+========================= */
+
+function cleanMarkdownUrl(value) {
+
+  if (!value) {
+
+    return "";
+
+  }
+
+
+  let stringValue =
     String(value).trim();
 
 
-  /*
-   * Convierte:
-   *
-   * [https://foto.jpg](https://foto.jpg)
-   *
-   * en:
-   *
-   * https://foto.jpg
-   */
-
   const markdownMatch =
-    url.match(
+    stringValue.match(
       /^\[.*?\]\((.*?)\)$/
     );
 
 
   if (markdownMatch) {
 
-    url =
+    stringValue =
       markdownMatch[1];
 
   }
 
 
-  /*
-   * Limpieza de escapes.
-   */
-
-  url =
-    url
+  stringValue =
+    stringValue
       .replace(
         /\\&/g,
         "&"
@@ -1663,21 +1287,66 @@ function cleanMarkdownUrl(
       .replace(
         /&amp;/g,
         "&"
-      )
-      .trim();
+      );
 
 
-  return url;
+  return stringValue;
+
 }
 
 
-/* =====================================================
-   SEGURIDAD
-===================================================== */
+/* =========================
+   FECHA LOCAL
+========================= */
 
-function escapeHtml(
-  value
-) {
+function parseLocalDate(value) {
+
+  if (!value) {
+
+    return null;
+
+  }
+
+
+  const match =
+    String(value).match(
+      /^(\d{4})-(\d{2})-(\d{2})$/
+    );
+
+
+  if (!match) {
+
+    return null;
+
+  }
+
+
+  const year =
+    Number(match[1]);
+
+
+  const month =
+    Number(match[2]) - 1;
+
+
+  const day =
+    Number(match[3]);
+
+
+  return new Date(
+    year,
+    month,
+    day
+  );
+
+}
+
+
+/* =========================
+   SEGURIDAD HTML
+========================= */
+
+function escapeHtml(value) {
 
   return String(
     value ?? ""
@@ -1702,12 +1371,11 @@ function escapeHtml(
       /'/g,
       "&#039;"
     );
+
 }
 
 
-function escapeAttribute(
-  value
-) {
+function escapeAttribute(value) {
 
   return escapeHtml(
     value
@@ -1716,19 +1384,55 @@ function escapeAttribute(
 }
 
 
-function normalizeText(
-  value
-) {
+/* =========================
+   TABS
+========================= */
 
-  return String(
-    value || ""
-  )
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(
-      /[\u0300-\u036f]/g,
-      ""
-    )
-    .trim();
+categoryTabs.forEach(
+  tab => {
 
-}
+    tab.addEventListener(
+      "click",
+      () => {
+
+        currentCategory =
+          tab.dataset.category;
+
+
+        categoryTabs.forEach(
+          otherTab => {
+
+            otherTab.classList.toggle(
+              "active",
+              otherTab === tab
+            );
+
+          }
+        );
+
+
+        renderCategory();
+
+      }
+    );
+
+  }
+);
+
+
+/* =========================
+   ORDENAMIENTO
+========================= */
+
+sortSelect.addEventListener(
+  "change",
+  event => {
+
+    currentSort =
+      event.target.value;
+
+
+    renderCategory();
+
+  }
+);
