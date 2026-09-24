@@ -5,9 +5,8 @@
 :root {
 
   --perfil-blue: #0074ad;
-
-  --perfil-sky: #d9f1fa;
-  --perfil-sky-mid: #c5e7f3;
+  --perfil-blue-dark: #005f8d;
+  --perfil-blue-light: #eaf6fb;
 
   --text-main: #173f52;
   --text-secondary: #557383;
@@ -57,25 +56,29 @@ body {
 
 
 /* =========================================================
-   CONTENEDOR PRINCIPAL
+   CONTENEDOR
 ========================================================= */
 
 .radar {
 
-  width: min(
-    1440px,
-    calc(100% - 48px)
-  );
+  width:
+    min(
+      1440px,
+      calc(100% - 48px)
+    );
 
-  margin: 0 auto;
+  margin:
+    0 auto;
 
-  padding: 32px 0 60px;
+  padding:
+    32px 0 60px;
 
 }
 
 
 /* =========================================================
-   HEADER — EDITORIAL PERFIL
+   HEADER
+   SOLO EL HEADER ES AZUL DE PERFIL
 ========================================================= */
 
 .hero-header {
@@ -84,32 +87,24 @@ body {
 
   overflow: hidden;
 
-  margin-bottom: 46px;
+  margin-bottom:
+    46px;
 
-  padding: 34px 38px;
+  padding:
+    30px 38px 32px;
 
-  border:
-    1px solid
-    rgba(0, 102, 153, 0.12);
-
-  border-radius: 18px;
+  border-radius:
+    16px;
 
   background:
-    linear-gradient(
-      135deg,
-      #d9f1fa 0%,
-      #c5e7f3 55%,
-      #b3dceb 100%
-    );
+    var(--perfil-blue);
 
   box-shadow:
     0 8px 24px
-    rgba(0, 102, 153, 0.08);
+    rgba(0, 102, 153, 0.14);
 
 }
 
-
-/* Círculo decorativo principal */
 
 .hero-header::after {
 
@@ -117,21 +112,26 @@ body {
 
   position: absolute;
 
-  width: 220px;
-  height: 220px;
+  width:
+    240px;
 
-  right: -70px;
-  top: -120px;
+  height:
+    240px;
 
-  border-radius: 50%;
+  right:
+    -90px;
+
+  top:
+    -150px;
+
+  border-radius:
+    50%;
 
   background:
-    rgba(255, 255, 255, 0.22);
+    rgba(255, 255, 255, 0.08);
 
 }
 
-
-/* Segundo detalle */
 
 .hero-header::before {
 
@@ -139,131 +139,147 @@ body {
 
   position: absolute;
 
-  width: 100px;
-  height: 100px;
+  width:
+    130px;
 
-  right: 110px;
-  bottom: -70px;
+  height:
+    130px;
 
-  border-radius: 50%;
+  right:
+    100px;
 
-  background:
-    rgba(255, 255, 255, 0.14);
+  bottom:
+    -90px;
 
-}
-
-
-/* Decoraciones adicionales */
-
-.hero-decoration {
-
-  position: absolute;
-
-  border-radius: 50%;
-
-  pointer-events: none;
-
-}
-
-
-.hero-decoration-one {
-
-  width: 150px;
-  height: 150px;
-
-  right: 220px;
-  bottom: -115px;
+  border-radius:
+    50%;
 
   background:
-    rgba(0, 116, 173, 0.045);
+    rgba(255, 255, 255, 0.05);
 
 }
 
-
-.hero-decoration-two {
-
-  width: 55px;
-  height: 55px;
-
-  right: 70px;
-  bottom: 30px;
-
-  background:
-    rgba(0, 116, 173, 0.045);
-
-}
-
-
-/* Contenido */
 
 .hero-content {
 
-  position: relative;
+  position:
+    relative;
 
-  z-index: 2;
+  z-index:
+    2;
 
 }
 
 
-/* Kicker */
+/* =========================================================
+   LOGO
+========================================================= */
+
+.hero-brand {
+
+  margin-bottom:
+    20px;
+
+}
+
+
+.perfil-logo {
+
+  display:
+    block;
+
+  width:
+    150px;
+
+  height:
+    auto;
+
+  max-height:
+    58px;
+
+  object-fit:
+    contain;
+
+  object-position:
+    left center;
+
+  filter:
+    brightness(0)
+    invert(1);
+
+}
+
+
+/* =========================================================
+   HEADER TEXT
+========================================================= */
 
 .hero-kicker {
 
-  margin-bottom: 9px;
+  margin-bottom:
+    7px;
 
-  font-size: 11px;
+  font-size:
+    10px;
 
-  line-height: 1;
+  line-height:
+    1;
 
-  font-weight: 800;
+  font-weight:
+    700;
 
-  letter-spacing: 1.8px;
+  letter-spacing:
+    1.6px;
 
   color:
-    #006b9f;
+    rgba(255, 255, 255, 0.76);
 
 }
 
-
-/* Título */
 
 .hero-header h1 {
 
-  margin: 0;
+  margin:
+    0;
 
   font-size:
     clamp(
-      34px,
+      32px,
       4vw,
-      48px
+      46px
     );
 
-  line-height: 1.05;
+  line-height:
+    1.05;
 
-  letter-spacing: -1.8px;
+  letter-spacing:
+    -1.7px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
   color:
-    #123b52;
+    #ffffff;
 
 }
 
 
-/* Fecha */
-
 .hero-date {
 
-  margin-top: 10px;
+  margin-top:
+    10px;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  line-height: 1.4;
+  line-height:
+    1.4;
 
-  font-weight: 500;
+  font-weight:
+    500;
 
   color:
-    #456879;
+    rgba(255, 255, 255, 0.82);
 
 }
 
@@ -274,11 +290,14 @@ body {
 
 .status {
 
-  padding: 24px;
+  padding:
+    24px;
 
-  border-radius: 14px;
+  border-radius:
+    14px;
 
-  text-align: center;
+  text-align:
+    center;
 
   background:
     var(--white);
@@ -300,18 +319,22 @@ body {
 
 .status.error span {
 
-  display: block;
+  display:
+    block;
 
-  margin-top: 6px;
+  margin-top:
+    6px;
 
-  font-size: 13px;
+  font-size:
+    13px;
 
 }
 
 
 .hidden {
 
-  display: none !important;
+  display:
+    none !important;
 
 }
 
@@ -322,35 +345,45 @@ body {
 
 .section {
 
-  margin-bottom: 58px;
+  margin-bottom:
+    58px;
 
 }
 
 
 .section-heading {
 
-  display: flex;
+  display:
+    flex;
 
-  justify-content: space-between;
+  justify-content:
+    space-between;
 
-  align-items: flex-end;
+  align-items:
+    flex-end;
 
-  margin-bottom: 22px;
+  margin-bottom:
+    22px;
 
 }
 
 
 .section-kicker {
 
-  display: block;
+  display:
+    block;
 
-  margin-bottom: 7px;
+  margin-bottom:
+    7px;
 
-  font-size: 10px;
+  font-size:
+    10px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: 1.6px;
+  letter-spacing:
+    1.6px;
 
   color:
     var(--perfil-blue);
@@ -360,13 +393,17 @@ body {
 
 .section-heading h2 {
 
-  margin: 0;
+  margin:
+    0;
 
-  font-size: 27px;
+  font-size:
+    27px;
 
-  line-height: 1.1;
+  line-height:
+    1.1;
 
-  letter-spacing: -0.8px;
+  letter-spacing:
+    -0.8px;
 
   color:
     var(--text-main);
@@ -380,7 +417,8 @@ body {
 
 .priority-grid {
 
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     repeat(
@@ -388,24 +426,29 @@ body {
       minmax(0, 1fr)
     );
 
-  gap: 18px;
+  gap:
+    18px;
 
 }
 
 
 .priority-card {
 
-  position: relative;
+  position:
+    relative;
 
-  overflow: hidden;
+  overflow:
+    hidden;
 
-  min-height: 210px;
+  min-height:
+    210px;
 
   border:
     1px solid
     var(--border);
 
-  border-radius: 16px;
+  border-radius:
+    16px;
 
   background:
     var(--white);
@@ -413,14 +456,51 @@ body {
   box-shadow:
     var(--shadow);
 
+  cursor:
+    pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+
+}
+
+
+.priority-card:hover {
+
+  transform:
+    translateY(-3px);
+
+  border-color:
+    #b9dce9;
+
+  box-shadow:
+    0 12px 30px
+    rgba(20, 70, 90, 0.11);
+
+}
+
+
+.priority-card:focus-visible {
+
+  outline:
+    3px solid
+    rgba(0, 116, 173, 0.25);
+
+  outline-offset:
+    3px;
+
 }
 
 
 .priority-image {
 
-  height: 130px;
+  height:
+    130px;
 
-  overflow: hidden;
+  overflow:
+    hidden;
 
   background:
     #eaf1f4;
@@ -430,33 +510,46 @@ body {
 
 .priority-image img {
 
-  width: 100%;
+  width:
+    100%;
 
-  height: 100%;
+  height:
+    100%;
 
-  object-fit: cover;
+  object-fit:
+    cover;
 
 }
 
 
 .priority-number {
 
-  position: absolute;
+  position:
+    absolute;
 
-  top: 112px;
+  top:
+    112px;
 
-  left: 16px;
+  left:
+    16px;
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: center;
+  align-items:
+    center;
 
-  justify-content: center;
+  justify-content:
+    center;
 
-  width: 36px;
-  height: 36px;
+  width:
+    36px;
 
-  border-radius: 50%;
+  height:
+    36px;
+
+  border-radius:
+    50%;
 
   background:
     var(--perfil-blue);
@@ -464,9 +557,11 @@ body {
   color:
     #ffffff;
 
-  font-size: 14px;
+  font-size:
+    14px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
   box-shadow:
     0 4px 12px
@@ -485,15 +580,20 @@ body {
 
 .priority-type {
 
-  margin-bottom: 7px;
+  margin-bottom:
+    7px;
 
-  font-size: 10px;
+  font-size:
+    10px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: 0.8px;
+  letter-spacing:
+    0.8px;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
   color:
     var(--perfil-blue);
@@ -503,11 +603,14 @@ body {
 
 .priority-title {
 
-  font-size: 16px;
+  font-size:
+    16px;
 
-  line-height: 1.35;
+  line-height:
+    1.35;
 
-  font-weight: 700;
+  font-weight:
+    700;
 
   color:
     var(--text-main);
@@ -521,7 +624,11 @@ body {
 
 .monitoring-section {
 
-  margin-top: 12px;
+  margin-top:
+    12px;
+
+  scroll-margin-top:
+    25px;
 
 }
 
@@ -532,22 +639,28 @@ body {
 
 .category-tabs {
 
-  display: flex;
+  display:
+    flex;
 
-  gap: 8px;
+  gap:
+    8px;
 
-  margin-bottom: 20px;
+  margin-bottom:
+    20px;
 
-  overflow-x: auto;
+  overflow-x:
+    auto;
 
-  padding-bottom: 3px;
+  padding-bottom:
+    3px;
 
 }
 
 
 .category-tab {
 
-  flex-shrink: 0;
+  flex-shrink:
+    0;
 
   padding:
     10px 16px;
@@ -556,7 +669,8 @@ body {
     1px solid
     var(--border);
 
-  border-radius: 999px;
+  border-radius:
+    999px;
 
   background:
     #ffffff;
@@ -567,11 +681,14 @@ body {
   font-family:
     inherit;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  font-weight: 700;
+  font-weight:
+    700;
 
-  cursor: pointer;
+  cursor:
+    pointer;
 
   transition:
     all 0.2s ease;
@@ -610,35 +727,45 @@ body {
 
 .monitor-controls {
 
-  display: flex;
+  display:
+    flex;
 
-  justify-content: space-between;
+  justify-content:
+    space-between;
 
-  align-items: center;
+  align-items:
+    center;
 
-  gap: 20px;
+  gap:
+    20px;
 
-  margin-bottom: 22px;
+  margin-bottom:
+    22px;
 
 }
 
 
 .results-label {
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: baseline;
+  align-items:
+    baseline;
 
-  gap: 10px;
+  gap:
+    10px;
 
-  flex-wrap: wrap;
+  flex-wrap:
+    wrap;
 
 }
 
 
 .results-label strong {
 
-  font-size: 15px;
+  font-size:
+    15px;
 
   color:
     var(--text-main);
@@ -648,7 +775,8 @@ body {
 
 .results-label span {
 
-  font-size: 12px;
+  font-size:
+    12px;
 
   color:
     var(--text-muted);
@@ -658,15 +786,20 @@ body {
 
 .control-group label {
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: center;
+  align-items:
+    center;
 
-  gap: 8px;
+  gap:
+    8px;
 
-  font-size: 11px;
+  font-size:
+    11px;
 
-  font-weight: 700;
+  font-weight:
+    700;
 
   color:
     var(--text-secondary);
@@ -683,7 +816,8 @@ body {
     1px solid
     var(--border);
 
-  border-radius: 8px;
+  border-radius:
+    8px;
 
   background:
     #ffffff;
@@ -694,22 +828,26 @@ body {
   font-family:
     inherit;
 
-  font-size: 11px;
+  font-size:
+    11px;
 
-  font-weight: 600;
+  font-weight:
+    600;
 
-  cursor: pointer;
+  cursor:
+    pointer;
 
 }
 
 
 /* =========================================================
-   GRID DE TEMÁTICAS
+   GRID DE TEMAS
 ========================================================= */
 
 .theme-grid {
 
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     repeat(
@@ -717,24 +855,27 @@ body {
       minmax(0, 1fr)
     );
 
-  gap: 22px;
+  gap:
+    22px;
 
 }
 
 
 /* =========================================================
-   CARD DE TEMÁTICA
+   CARD TEMÁTICA
 ========================================================= */
 
 .theme-card {
 
-  overflow: hidden;
+  overflow:
+    hidden;
 
   border:
     1px solid
     var(--border);
 
-  border-radius: 17px;
+  border-radius:
+    17px;
 
   background:
     var(--white);
@@ -747,11 +888,14 @@ body {
 
 .theme-hero {
 
-  position: relative;
+  position:
+    relative;
 
-  height: 230px;
+  height:
+    230px;
 
-  overflow: hidden;
+  overflow:
+    hidden;
 
   background:
     #dfe9ed;
@@ -761,11 +905,14 @@ body {
 
 .theme-hero::after {
 
-  content: "";
+  content:
+    "";
 
-  position: absolute;
+  position:
+    absolute;
 
-  inset: 0;
+  inset:
+    0;
 
   background:
     linear-gradient(
@@ -780,29 +927,37 @@ body {
 
 .theme-hero img {
 
-  width: 100%;
+  width:
+    100%;
 
-  height: 100%;
+  height:
+    100%;
 
-  object-fit: cover;
+  object-fit:
+    cover;
 
 }
 
 
 .category-badge {
 
-  position: absolute;
+  position:
+    absolute;
 
-  z-index: 2;
+  z-index:
+    2;
 
-  top: 15px;
+  top:
+    15px;
 
-  left: 15px;
+  left:
+    15px;
 
   padding:
     7px 10px;
 
-  border-radius: 999px;
+  border-radius:
+    999px;
 
   background:
     rgba(255, 255, 255, 0.92);
@@ -810,39 +965,52 @@ body {
   color:
     var(--perfil-blue);
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: 0.7px;
+  letter-spacing:
+    0.7px;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
 }
 
 
 .theme-hero-title {
 
-  position: absolute;
+  position:
+    absolute;
 
-  z-index: 2;
+  z-index:
+    2;
 
-  left: 18px;
+  left:
+    18px;
 
-  right: 18px;
+  right:
+    18px;
 
-  bottom: 17px;
+  bottom:
+    17px;
 
   color:
     #ffffff;
 
-  font-size: 20px;
+  font-size:
+    20px;
 
-  line-height: 1.2;
+  line-height:
+    1.2;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: -0.3px;
+  letter-spacing:
+    -0.3px;
 
 }
 
@@ -865,7 +1033,8 @@ body {
 
 .metrics {
 
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     repeat(
@@ -873,9 +1042,11 @@ body {
       1fr
     );
 
-  gap: 10px;
+  gap:
+    10px;
 
-  margin-bottom: 21px;
+  margin-bottom:
+    21px;
 
 }
 
@@ -889,7 +1060,8 @@ body {
     1px solid
     #e7eef1;
 
-  border-radius: 10px;
+  border-radius:
+    10px;
 
   background:
     #f8fafb;
@@ -899,17 +1071,23 @@ body {
 
 .metric-label {
 
-  display: block;
+  display:
+    block;
 
-  margin-bottom: 5px;
+  margin-bottom:
+    5px;
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 700;
+  font-weight:
+    700;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
-  letter-spacing: 0.8px;
+  letter-spacing:
+    0.8px;
 
   color:
     var(--text-muted);
@@ -919,13 +1097,17 @@ body {
 
 .metric-value {
 
-  display: block;
+  display:
+    block;
 
-  font-size: 21px;
+  font-size:
+    21px;
 
-  line-height: 1;
+  line-height:
+    1;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
   color:
     var(--text-main);
@@ -947,11 +1129,14 @@ body {
 
 .coverage-title {
 
-  margin-bottom: 12px;
+  margin-bottom:
+    12px;
 
-  font-size: 11px;
+  font-size:
+    11px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
   color:
     var(--text-secondary);
@@ -961,36 +1146,44 @@ body {
 
 .coverage-list {
 
-  display: flex;
+  display:
+    flex;
 
-  flex-direction: column;
+  flex-direction:
+    column;
 
-  gap: 9px;
+  gap:
+    9px;
 
 }
 
 
 .coverage-row {
 
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     82px
     minmax(0, 1fr)
     32px;
 
-  align-items: center;
+  align-items:
+    center;
 
-  gap: 8px;
+  gap:
+    8px;
 
 }
 
 
 .coverage-name {
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 600;
+  font-weight:
+    600;
 
   color:
     var(--text-secondary);
@@ -1000,11 +1193,14 @@ body {
 
 .coverage-track {
 
-  height: 7px;
+  height:
+    7px;
 
-  overflow: hidden;
+  overflow:
+    hidden;
 
-  border-radius: 999px;
+  border-radius:
+    999px;
 
   background:
     #edf2f4;
@@ -1014,11 +1210,14 @@ body {
 
 .coverage-fill {
 
-  height: 100%;
+  height:
+    100%;
 
-  min-width: 2px;
+  min-width:
+    2px;
 
-  border-radius: 999px;
+  border-radius:
+    999px;
 
   background:
     #b7c8d0;
@@ -1036,7 +1235,8 @@ body {
 
 .coverage-row.perfil .coverage-name {
 
-  font-weight: 800;
+  font-weight:
+    800;
 
   color:
     var(--perfil-blue);
@@ -1046,11 +1246,14 @@ body {
 
 .coverage-value {
 
-  text-align: right;
+  text-align:
+    right;
 
-  font-size: 10px;
+  font-size:
+    10px;
 
-  font-weight: 700;
+  font-weight:
+    700;
 
   color:
     var(--text-main);
@@ -1064,7 +1267,8 @@ body {
 
 .insight-box {
 
-  margin-top: 20px;
+  margin-top:
+    20px;
 
   padding:
     15px 16px;
@@ -1073,7 +1277,8 @@ body {
     3px solid
     var(--perfil-blue);
 
-  border-radius: 0 10px 10px 0;
+  border-radius:
+    0 10px 10px 0;
 
   background:
     #f2f8fb;
@@ -1083,17 +1288,23 @@ body {
 
 .insight-label {
 
-  display: block;
+  display:
+    block;
 
-  margin-bottom: 6px;
+  margin-bottom:
+    6px;
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: 1px;
+  letter-spacing:
+    1px;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
   color:
     var(--perfil-blue);
@@ -1103,11 +1314,14 @@ body {
 
 .insight-text {
 
-  margin: 0;
+  margin:
+    0;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  line-height: 1.55;
+  line-height:
+    1.55;
 
   color:
     var(--text-secondary);
@@ -1121,7 +1335,8 @@ body {
 
 .details {
 
-  margin-top: 18px;
+  margin-top:
+    18px;
 
   border-top:
     1px solid
@@ -1132,18 +1347,23 @@ body {
 
 .detail-toggle {
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: center;
+  align-items:
+    center;
 
-  justify-content: space-between;
+  justify-content:
+    space-between;
 
-  width: 100%;
+  width:
+    100%;
 
   padding:
     15px 0;
 
-  border: 0;
+  border:
+    0;
 
   background:
     transparent;
@@ -1154,11 +1374,14 @@ body {
   font-family:
     inherit;
 
-  font-size: 11px;
+  font-size:
+    11px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  cursor: pointer;
+  cursor:
+    pointer;
 
 }
 
@@ -1181,16 +1404,19 @@ body {
 
 .detail-content {
 
-  display: none;
+  display:
+    none;
 
-  padding-bottom: 6px;
+  padding-bottom:
+    6px;
 
 }
 
 
 .details.open .detail-content {
 
-  display: block;
+  display:
+    block;
 
 }
 
@@ -1201,12 +1427,14 @@ body {
 
 .action-box {
 
-  margin-bottom: 17px;
+  margin-bottom:
+    17px;
 
   padding:
     14px 15px;
 
-  border-radius: 10px;
+  border-radius:
+    10px;
 
   background:
     #eef7fb;
@@ -1216,17 +1444,23 @@ body {
 
 .action-label {
 
-  display: block;
+  display:
+    block;
 
-  margin-bottom: 6px;
+  margin-bottom:
+    6px;
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: 0.9px;
+  letter-spacing:
+    0.9px;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
   color:
     var(--perfil-blue);
@@ -1236,11 +1470,14 @@ body {
 
 .action-text {
 
-  margin: 0;
+  margin:
+    0;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  line-height: 1.55;
+  line-height:
+    1.55;
 
   color:
     var(--text-secondary);
@@ -1249,27 +1486,33 @@ body {
 
 
 /* =========================================================
-   EJEMPLOS / ENFOQUES
+   ENFOQUES
 ========================================================= */
 
 .examples {
 
-  margin-top: 18px;
+  margin-top:
+    18px;
 
 }
 
 
 .examples-title {
 
-  margin-bottom: 10px;
+  margin-bottom:
+    10px;
 
-  font-size: 10px;
+  font-size:
+    10px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  letter-spacing: 0.8px;
+  letter-spacing:
+    0.8px;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
   color:
     var(--text-secondary);
@@ -1279,17 +1522,23 @@ body {
 
 .approach {
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: flex-start;
+  align-items:
+    flex-start;
 
-  gap: 9px;
+  gap:
+    9px;
 
-  margin-bottom: 9px;
+  margin-bottom:
+    9px;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  line-height: 1.45;
+  line-height:
+    1.45;
 
   color:
     var(--text-secondary);
@@ -1299,18 +1548,26 @@ body {
 
 .approach-number {
 
-  display: flex;
+  display:
+    flex;
 
-  align-items: center;
+  align-items:
+    center;
 
-  justify-content: center;
+  justify-content:
+    center;
 
-  flex-shrink: 0;
+  flex-shrink:
+    0;
 
-  width: 21px;
-  height: 21px;
+  width:
+    21px;
 
-  border-radius: 50%;
+  height:
+    21px;
+
+  border-radius:
+    50%;
 
   background:
     #e6f4fa;
@@ -1318,9 +1575,11 @@ body {
   color:
     var(--perfil-blue);
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
 }
 
@@ -1331,37 +1590,45 @@ body {
 
 .example-list {
 
-  display: flex;
+  display:
+    flex;
 
-  flex-direction: column;
+  flex-direction:
+    column;
 
-  gap: 9px;
+  gap:
+    9px;
 
 }
 
 
 .example {
 
-  display: grid;
+  display:
+    grid;
 
   grid-template-columns:
     72px
     minmax(0, 1fr);
 
-  gap: 11px;
+  gap:
+    11px;
 
-  padding: 8px;
+  padding:
+    8px;
 
   border:
     1px solid
     #edf1f3;
 
-  border-radius: 9px;
+  border-radius:
+    9px;
 
   background:
     #ffffff;
 
-  text-decoration: none;
+  text-decoration:
+    none;
 
   transition:
     border-color 0.2s ease,
@@ -1383,12 +1650,17 @@ body {
 
 .example-image {
 
-  width: 72px;
-  height: 52px;
+  width:
+    72px;
 
-  object-fit: cover;
+  height:
+    52px;
 
-  border-radius: 6px;
+  object-fit:
+    cover;
+
+  border-radius:
+    6px;
 
   background:
     #e9eef0;
@@ -1398,24 +1670,31 @@ body {
 
 .example-content {
 
-  min-width: 0;
+  min-width:
+    0;
 
 }
 
 
 .example-media {
 
-  display: block;
+  display:
+    block;
 
-  margin-bottom: 4px;
+  margin-bottom:
+    4px;
 
-  font-size: 9px;
+  font-size:
+    9px;
 
-  font-weight: 800;
+  font-weight:
+    800;
 
-  text-transform: uppercase;
+  text-transform:
+    uppercase;
 
-  letter-spacing: 0.6px;
+  letter-spacing:
+    0.6px;
 
   color:
     var(--perfil-blue);
@@ -1425,13 +1704,17 @@ body {
 
 .example-title {
 
-  display: block;
+  display:
+    block;
 
-  font-size: 11px;
+  font-size:
+    11px;
 
-  line-height: 1.35;
+  line-height:
+    1.35;
 
-  font-weight: 600;
+  font-weight:
+    600;
 
   color:
     var(--text-main);
@@ -1452,11 +1735,14 @@ body {
     1px dashed
     #d7e2e7;
 
-  border-radius: 14px;
+  border-radius:
+    14px;
 
-  text-align: center;
+  text-align:
+    center;
 
-  font-size: 13px;
+  font-size:
+    13px;
 
   color:
     var(--text-muted);
@@ -1501,7 +1787,8 @@ body {
     width:
       calc(100% - 28px);
 
-    padding-top: 18px;
+    padding-top:
+      18px;
 
   }
 
@@ -1509,10 +1796,18 @@ body {
   .hero-header {
 
     padding:
-      28px 24px 30px;
+      26px 24px 30px;
 
     margin-bottom:
       32px;
+
+  }
+
+
+  .perfil-logo {
+
+    width:
+      125px;
 
   }
 
@@ -1521,22 +1816,6 @@ body {
 
     font-size:
       34px;
-
-  }
-
-
-  .hero-decoration-one {
-
-    right:
-      -40px;
-
-  }
-
-
-  .hero-decoration-two {
-
-    right:
-      25px;
 
   }
 
