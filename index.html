@@ -1,301 +1,176 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radar Editorial | Competencia</title>
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <title>Radar de Competencia | Perfil</title>
-
-  <link
-    rel="stylesheet"
-    href="style.css"
-  >
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- ======================================
-       HEADER
-  ======================================= -->
+  <main class="radar">
 
-  <header class="topbar">
-
-    <div class="topbar-inner">
-
+    <!-- HEADER -->
+    <header class="header">
       <div>
-
-        <div class="eyebrow">
-          RADAR EDITORIAL
-        </div>
-
-        <h1>
-          Competencia
-        </h1>
-
+        <div class="eyebrow">RADAR EDITORIAL</div>
+        <h1>Competencia</h1>
+        <div id="analysisDate" class="date"></div>
       </div>
 
-      <div
-        id="fecha"
-        class="fecha"
-      >
-        Análisis actualizado
-      </div>
+      <button id="refreshBtn" class="refresh-btn" type="button">
+        ↻ Actualizar
+      </button>
+    </header>
 
+    <!-- ESTADO -->
+    <div id="loading" class="status loading">
+      Cargando datos...
     </div>
 
-  </header>
+    <div id="error" class="status error hidden">
+      No se pudieron cargar los datos.
+      <span>Verificá que <strong>data.json</strong> exista en el repositorio.</span>
+    </div>
 
+    <div id="content" class="hidden">
 
-  <main class="container">
+      <!-- PRIORIDADES -->
+      <section class="section priorities-section">
 
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">FOCO EDITORIAL</span>
+            <h2>Prioridades del día</h2>
+          </div>
 
-    <!-- ======================================
-         NAVEGACIÓN DE CATEGORÍAS
-    ======================================= -->
-
-    <nav class="category-nav">
-
-      <button
-        class="category-tab active"
-        data-category="hipercompetencia"
-      >
-
-        <span class="category-dot hiper"></span>
-
-        <span>
-          Hipercompetencia
-        </span>
-
-        <strong id="count-hiper">
-          0
-        </strong>
-
-      </button>
-
-
-      <button
-        class="category-tab"
-        data-category="perfil_pierde"
-      >
-
-        <span class="category-dot pierde"></span>
-
-        <span>
-          Perfil pierde
-        </span>
-
-        <strong id="count-pierde">
-          0
-        </strong>
-
-      </button>
-
-
-      <button
-        class="category-tab"
-        data-category="sin_cobertura_perfil"
-      >
-
-        <span class="category-dot sin-cobertura"></span>
-
-        <span>
-          Sin cobertura
-        </span>
-
-        <strong id="count-sin">
-          0
-        </strong>
-
-      </button>
-
-
-      <button
-        class="category-tab"
-        data-category="oportunidades"
-      >
-
-        <span class="category-dot oportunidad"></span>
-
-        <span>
-          Oportunidades
-        </span>
-
-        <strong id="count-oportunidades">
-          0
-        </strong>
-
-      </button>
-
-    </nav>
-
-
-    <!-- ======================================
-         PRIORIDADES
-    ======================================= -->
-
-    <section class="section-block">
-
-      <div class="section-heading">
-
-        <div>
-
-          <span class="section-kicker">
-            DECISIÓN EDITORIAL
-          </span>
-
-          <h2>
-            Prioridades del día
-          </h2>
-
+          <span id="priorityCount" class="section-count"></span>
         </div>
 
-        <span class="section-description">
-          Tres temas seleccionados por el análisis
-        </span>
+        <div id="priorities" class="priority-grid"></div>
 
-      </div>
+      </section>
 
 
-      <div
-        id="prioridades"
-        class="prioridades-grid"
-      ></div>
+      <!-- MAPA COMPETITIVO -->
+      <section class="section map-section">
 
-    </section>
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">LECTURA GENERAL</span>
+            <h2>Mapa competitivo</h2>
+          </div>
 
-
-    <!-- ======================================
-         BRECHA DE COBERTURA
-    ======================================= -->
-
-    <section class="section-block">
-
-      <div class="section-heading">
-
-        <div>
-
-          <span class="section-kicker">
-            MAPA COMPETITIVO
-          </span>
-
-          <h2>
-            Brecha de cobertura
-          </h2>
-
+          <div class="map-legend">
+            <span><i class="dot perfil"></i> Perfil</span>
+            <span><i class="dot competitor"></i> Competencia</span>
+          </div>
         </div>
 
-        <span class="section-description">
-          Perfil frente al medio líder de cada tema
-        </span>
+        <div id="competitiveMap" class="competitive-map"></div>
 
-      </div>
+      </section>
 
 
-      <div
-        id="brecha-chart"
-        class="brecha-chart"
-      ></div>
+      <!-- MONITOREO -->
+      <section class="section monitoring-section">
 
-    </section>
+        <div class="section-heading monitoring-heading">
+          <div>
+            <span class="section-kicker">OPORTUNIDADES EDITORIALES</span>
+            <h2>Monitoreo</h2>
+          </div>
+
+          <div id="totalThemes" class="total-themes"></div>
+        </div>
 
 
-    <!-- ======================================
-         CONTROLES
-    ======================================= -->
+        <!-- TABS -->
+        <div class="category-tabs" role="tablist">
 
-    <section class="section-block temas-section">
-
-      <div class="section-heading temas-heading">
-
-        <div>
-
-          <span class="section-kicker">
-            MONITOREO
-          </span>
-
-          <h2 id="titulo-categoria">
+          <button
+            class="category-tab active"
+            data-category="hipercompetencia"
+            type="button">
             Hipercompetencia
-          </h2>
+          </button>
+
+          <button
+            class="category-tab"
+            data-category="perfil_pierde"
+            type="button">
+            Perfil pierde
+          </button>
+
+          <button
+            class="category-tab"
+            data-category="sin_cobertura_perfil"
+            type="button">
+            Sin cobertura
+          </button>
+
+          <button
+            class="category-tab"
+            data-category="oportunidades"
+            type="button">
+            Oportunidades
+          </button>
 
         </div>
 
 
-        <div class="controles">
+        <!-- CONTROLES -->
+        <div class="monitor-controls">
 
-          <label>
-            Ordenar
+          <div class="results-label">
+            <strong id="categoryTitle">Hipercompetencia</strong>
+            <span id="categoryDescription"></span>
+          </div>
 
-            <select id="orden">
+          <div class="control-group">
 
-              <option value="brecha">
-                Mayor brecha
-              </option>
+            <label>
+              Ordenar
+              <select id="sortSelect">
+                <option value="brecha">Mayor brecha</option>
+                <option value="notas">Más notas</option>
+                <option value="medios">Más medios</option>
+                <option value="az">A-Z</option>
+              </select>
+            </label>
 
-              <option value="notas">
-                Más notas
-              </option>
+            <label>
+              Ver
+              <select id="viewSelect">
+                <option value="all">Todos</option>
+                <option value="3">3 temas</option>
+                <option value="6">6 temas</option>
+              </select>
+            </label>
 
-              <option value="medios">
-                Más medios
-              </option>
-
-              <option value="alfabetico">
-                Alfabético
-              </option>
-
-            </select>
-
-          </label>
+          </div>
 
         </div>
 
-      </div>
 
+        <!-- CARDS -->
+        <div id="themeGrid" class="theme-grid"></div>
 
-      <div
-        id="contenido"
-        class="temas-grid"
-      ></div>
+        <div id="emptyState" class="empty-state hidden">
+          No hay temas para esta categoría.
+        </div>
 
-    </section>
+      </section>
 
+    </div>
 
   </main>
-
-
-  <!-- ======================================
-       MODAL
-  ======================================= -->
-
-  <div
-    id="modal"
-    class="modal"
-    aria-hidden="true"
-  >
-
-    <div class="modal-overlay"></div>
-
-    <div class="modal-content">
-
-      <button
-        id="cerrar-modal"
-        class="modal-close"
-      >
-        ×
-      </button>
-
-      <div id="modal-body"></div>
-
-    </div>
-
-  </div>
-
 
   <script src="app.js"></script>
 
