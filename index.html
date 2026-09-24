@@ -3,176 +3,235 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Radar Editorial | Competencia</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <main class="radar">
+<main class="radar">
 
-    <!-- HEADER -->
-    <header class="header">
-      <div>
-        <div class="eyebrow">RADAR EDITORIAL</div>
-        <h1>Competencia</h1>
-        <div id="analysisDate" class="date"></div>
+  <!-- HEADER -->
+
+  <header class="header">
+
+    <div class="header-left">
+
+      <div class="eyebrow">
+        RADAR EDITORIAL
       </div>
 
-      <button id="refreshBtn" class="refresh-btn" type="button">
-        ↻ Actualizar
-      </button>
-    </header>
+      <div class="title-row">
+        <span class="perfil-accent"></span>
+        <h1>Competencia</h1>
+      </div>
 
-    <!-- ESTADO -->
-    <div id="loading" class="status loading">
-      Cargando datos...
+      <div id="analysisDate" class="date"></div>
+
     </div>
 
-    <div id="error" class="status error hidden">
-      No se pudieron cargar los datos.
-      <span>Verificá que <strong>data.json</strong> exista en el repositorio.</span>
-    </div>
+    <button id="refreshBtn" class="refresh-btn" type="button">
+      ↻ Actualizar
+    </button>
 
-    <div id="content" class="hidden">
+  </header>
 
-      <!-- PRIORIDADES -->
-      <section class="section priorities-section">
 
-        <div class="section-heading">
-          <div>
-            <span class="section-kicker">FOCO EDITORIAL</span>
-            <h2>Prioridades del día</h2>
-          </div>
+  <!-- ESTADO -->
 
-          <span id="priorityCount" class="section-count"></span>
+  <div id="loading" class="status loading">
+    Cargando datos...
+  </div>
+
+  <div id="error" class="status error hidden">
+    No se pudieron cargar los datos.
+    <span>
+      Verificá que <strong>data.json</strong> exista en el repositorio.
+    </span>
+  </div>
+
+
+  <div id="content" class="hidden">
+
+
+    <!-- PRIORIDADES -->
+
+    <section class="section priorities-section">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="section-kicker">
+            FOCO EDITORIAL
+          </span>
+
+          <h2>
+            Prioridades del día
+          </h2>
         </div>
 
-        <div id="priorities" class="priority-grid"></div>
+      </div>
 
-      </section>
+      <div id="priorities" class="priority-grid"></div>
+
+    </section>
 
 
-      <!-- MAPA COMPETITIVO -->
-      <section class="section map-section">
+    <!-- RADAR DE BRECHAS -->
 
-        <div class="section-heading">
-          <div>
-            <span class="section-kicker">LECTURA GENERAL</span>
-            <h2>Mapa competitivo</h2>
-          </div>
+    <section class="section gap-section">
 
-          <div class="map-legend">
-            <span><i class="dot perfil"></i> Perfil</span>
-            <span><i class="dot competitor"></i> Competencia</span>
-          </div>
+      <div class="section-heading">
+
+        <div>
+          <span class="section-kicker">
+            COBERTURA
+          </span>
+
+          <h2>
+            Radar de brechas
+          </h2>
         </div>
 
-        <div id="competitiveMap" class="competitive-map"></div>
-
-      </section>
-
-
-      <!-- MONITOREO -->
-      <section class="section monitoring-section">
-
-        <div class="section-heading monitoring-heading">
-          <div>
-            <span class="section-kicker">OPORTUNIDADES EDITORIALES</span>
-            <h2>Monitoreo</h2>
-          </div>
-
-          <div id="totalThemes" class="total-themes"></div>
+        <div class="gap-explanation">
+          Diferencia frente al competidor con mayor cobertura
         </div>
 
+      </div>
 
-        <!-- TABS -->
-        <div class="category-tabs" role="tablist">
+      <div id="competitiveMap" class="gap-radar"></div>
 
-          <button
-            class="category-tab active"
-            data-category="hipercompetencia"
-            type="button">
+    </section>
+
+
+    <!-- MONITOREO -->
+
+    <section class="section monitoring-section">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="section-kicker">
+            OPORTUNIDADES EDITORIALES
+          </span>
+
+          <h2>
+            Monitoreo
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <!-- TABS -->
+
+      <div class="category-tabs" role="tablist">
+
+        <button
+          class="category-tab active"
+          data-category="hipercompetencia"
+          type="button">
+          Hipercompetencia
+        </button>
+
+        <button
+          class="category-tab"
+          data-category="perfil_pierde"
+          type="button">
+          Perfil pierde
+        </button>
+
+        <button
+          class="category-tab"
+          data-category="sin_cobertura_perfil"
+          type="button">
+          Sin cobertura
+        </button>
+
+        <button
+          class="category-tab"
+          data-category="oportunidades"
+          type="button">
+          Oportunidades
+        </button>
+
+      </div>
+
+
+      <!-- CONTROLES -->
+
+      <div class="monitor-controls">
+
+        <div class="results-label">
+
+          <strong id="categoryTitle">
             Hipercompetencia
-          </button>
+          </strong>
 
-          <button
-            class="category-tab"
-            data-category="perfil_pierde"
-            type="button">
-            Perfil pierde
-          </button>
-
-          <button
-            class="category-tab"
-            data-category="sin_cobertura_perfil"
-            type="button">
-            Sin cobertura
-          </button>
-
-          <button
-            class="category-tab"
-            data-category="oportunidades"
-            type="button">
-            Oportunidades
-          </button>
+          <span id="categoryDescription"></span>
 
         </div>
 
 
-        <!-- CONTROLES -->
-        <div class="monitor-controls">
+        <div class="control-group">
 
-          <div class="results-label">
-            <strong id="categoryTitle">Hipercompetencia</strong>
-            <span id="categoryDescription"></span>
-          </div>
+          <label>
+            Ordenar
 
-          <div class="control-group">
+            <select id="sortSelect">
 
-            <label>
-              Ordenar
-              <select id="sortSelect">
-                <option value="brecha">Mayor brecha</option>
-                <option value="notas">Más notas</option>
-                <option value="medios">Más medios</option>
-                <option value="az">A-Z</option>
-              </select>
-            </label>
+              <option value="brecha">
+                Mayor brecha
+              </option>
 
-            <label>
-              Ver
-              <select id="viewSelect">
-                <option value="all">Todos</option>
-                <option value="3">3 temas</option>
-                <option value="6">6 temas</option>
-              </select>
-            </label>
+              <option value="notas">
+                Más notas
+              </option>
 
-          </div>
+              <option value="medios">
+                Más medios
+              </option>
+
+              <option value="az">
+                A-Z
+              </option>
+
+            </select>
+
+          </label>
 
         </div>
 
+      </div>
 
-        <!-- CARDS -->
-        <div id="themeGrid" class="theme-grid"></div>
 
-        <div id="emptyState" class="empty-state hidden">
-          No hay temas para esta categoría.
-        </div>
+      <!-- CARDS -->
 
-      </section>
+      <div id="themeGrid" class="theme-grid"></div>
 
-    </div>
+      <div id="emptyState" class="empty-state hidden">
+        No hay temas para esta categoría.
+      </div>
 
-  </main>
+    </section>
 
-  <script src="app.js"></script>
+  </div>
+
+</main>
+
+
+<script src="app.js"></script>
 
 </body>
 </html>
