@@ -218,7 +218,7 @@ function getImage(item) {
 
 
 /* =========================================================
-   CARGA
+   CARGAR DATA
 ========================================================= */
 
 async function loadData() {
@@ -292,7 +292,7 @@ function renderDashboard() {
 
 
 /* =========================================================
-   PRIORIDADES
+   PRIORIDADES DEL DÍA
 ========================================================= */
 
 function renderPriorities() {
@@ -330,43 +330,67 @@ function renderPriorities() {
       card.className =
         "priority-card";
 
+
       /*
-       * Guardamos toda la información
-       * necesaria para encontrar el tema.
+       * Tema de la prioridad
        */
 
-      const category =
+      const topic =
+        cleanText(
+          item.tema ||
+          item.titulo ||
+          item.title ||
+          item.prioridad ||
+          ""
+        );
+
+
+      /*
+       * Categoría.
+       *
+       * El JSON puede usar:
+       * categoria
+       * categoría
+       * tipo
+       * category
+       */
+
+      const rawCategory =
         item.categoria ||
+        item["categoría"] ||
         item.tipo ||
         item.category ||
         "";
 
-      const topic =
-        item.tema ||
-        item.titulo ||
-        item.title ||
-        item.prioridad ||
-        "";
 
-      card.dataset.category =
-        normalize(category);
+      const category =
+        resolveCategory(
+          rawCategory
+        );
+
 
       card.dataset.topic =
         normalize(topic);
+
+      card.dataset.category =
+        category || "";
 
 
       const image =
         getImage(item);
 
+
       const imageHtml =
         image
           ? `
             <div class="priority-image">
+
               <img
                 src="${escapeHtml(image)}"
                 alt=""
                 loading="lazy"
               >
+
             </div>
           `
           : `
@@ -374,20 +398,9 @@ function renderPriorities() {
           `;
 
 
-      const title =
-        escapeHtml(
-          item.tema ||
-          item.titulo ||
-          item.title ||
-          item.prioridad ||
-          "Prioridad editorial"
-        );
-
-
       const type =
         escapeHtml(
-          item.categoria ||
-          item.tipo ||
+          rawCategory ||
           "Prioridad editorial"
         );
 
@@ -407,7 +420,7 @@ function renderPriorities() {
           </div>
 
           <div class="priority-title">
-            ${title}
+            ${escapeHtml(topic)}
           </div>
 
         </div>
@@ -416,9 +429,7 @@ function renderPriorities() {
 
 
       /*
-       * CLICK:
-       * activa la categoría correspondiente
-       * y lleva al tema.
+       * CLICK
        */
 
       card.addEventListener(
@@ -435,8 +446,8 @@ function renderPriorities() {
 
 
       /*
-       * También permite ENTER/SPACE
-       * para accesibilidad.
+       * Accesibilidad:
+       * también funciona con Enter o espacio.
        */
 
       card.setAttribute(
@@ -483,7 +494,7 @@ function renderPriorities() {
 
 
 /* =========================================================
-   NAVEGAR DESDE PRIORIDADES
+   IR DESDE PRIORIDAD AL TEMA
 ========================================================= */
 
 function goToPriority(
@@ -491,20 +502,15 @@ function goToPriority(
   priorityTopic
 ) {
 
-  const category =
-    resolveCategory(
-      priorityCategory
-    );
-
-
   /*
-   * Primero cambiamos la pestaña.
+   * Si tenemos categoría,
+   * activamos esa pestaña.
    */
 
-  if (category) {
+  if (priorityCategory) {
 
     setCategory(
-      category,
+      priorityCategory,
       false
     );
 
@@ -512,7 +518,7 @@ function goToPriority(
 
 
   /*
-   * Bajamos hasta Monitoreo.
+   * Bajamos a Monitoreo.
    */
 
   monitoringSection.scrollIntoView({
@@ -522,8 +528,8 @@ function goToPriority(
 
 
   /*
-   * Esperamos un poco para que
-   * el contenido se haya renderizado.
+   * Esperamos a que el DOM termine
+   * de renderizar la categoría.
    */
 
   setTimeout(
@@ -539,7 +545,7 @@ function goToPriority(
 
 
       /*
-       * Buscamos coincidencia exacta.
+       * Primero buscamos coincidencia exacta.
        */
 
       cards.forEach(
@@ -568,7 +574,7 @@ function goToPriority(
 
       /*
        * Si no encuentra coincidencia exacta,
-       * busca si uno contiene al otro.
+       * busca coincidencia parcial.
        */
 
       if (!target) {
@@ -585,9 +591,14 @@ function goToPriority(
                 card.dataset.topic || ""
               );
 
+
             if (
-              title.includes(priorityTopic) ||
-              priorityTopic.includes(title)
+              title.includes(
+                priorityTopic
+              ) ||
+              priorityTopic.includes(
+                title
+              )
             ) {
 
               target = card;
@@ -600,6 +611,11 @@ function goToPriority(
       }
 
 
+      /*
+       * Si encontró el tema,
+       * hacemos scroll y resaltamos.
+       */
+
       if (target) {
 
         target.scrollIntoView({
@@ -607,10 +623,6 @@ function goToPriority(
           block: "center"
         });
 
-
-        /*
-         * Lo resaltamos brevemente.
-         */
 
         target.classList.add(
           "priority-target"
@@ -631,7 +643,7 @@ function goToPriority(
       }
 
     },
-    350
+    400
   );
 
 }
@@ -641,13 +653,17 @@ function goToPriority(
    RESOLVER CATEGORÍA
 ========================================================= */
 
-function resolveCategory(value) {
+function resolveCategory(
+  value
+) {
 
   const normalized =
     normalize(value);
 
 
   if (
+    normalized ===
+    "hipercompetencia" ||
     normalized.includes(
       "hipercompetencia"
     )
@@ -659,12 +675,14 @@ function resolveCategory(value) {
 
 
   if (
+    normalized ===
+    "perfil_pierde" ||
+    normalized ===
+    "perfil pierde" ||
     normalized.includes(
       "perfil pierde"
     ) ||
-    normalized.includes(
-      "pierde"
-    )
+    normalized === "pierde"
   ) {
 
     return "perfil_pierde";
@@ -673,11 +691,12 @@ function resolveCategory(value) {
 
 
   if (
+    normalized ===
+    "sin_cobertura_perfil" ||
+    normalized ===
+    "sin cobertura" ||
     normalized.includes(
       "sin cobertura"
-    ) ||
-    normalized.includes(
-      "sin_cobertura"
     )
   ) {
 
@@ -687,6 +706,10 @@ function resolveCategory(value) {
 
 
   if (
+    normalized ===
+    "oportunidades" ||
+    normalized ===
+    "oportunidad" ||
     normalized.includes(
       "oportunidad"
     )
@@ -698,8 +721,8 @@ function resolveCategory(value) {
 
 
   /*
-   * Si el JSON ya usa exactamente
-   * el nombre técnico.
+   * Si ya viene con el nombre
+   * técnico exacto.
    */
 
   if (
@@ -720,7 +743,7 @@ function resolveCategory(value) {
 
 
 /* =========================================================
-   CAMBIO DE CATEGORÍA
+   CAMBIAR CATEGORÍA
 ========================================================= */
 
 function setCategory(
@@ -784,7 +807,7 @@ function setCategory(
 
 
 /* =========================================================
-   RENDER CATEGORÍA
+   RENDER DE CATEGORÍA
 ========================================================= */
 
 function renderCategory(
@@ -800,10 +823,6 @@ function renderCategory(
         ]
       : [];
 
-
-  /*
-   * Orden
-   */
 
   sortItems(
     items,
@@ -871,13 +890,10 @@ function sortItems(
         b
       ) => {
 
-        const gapA =
-          getGap(a);
-
-        const gapB =
-          getGap(b);
-
-        return gapA - gapB;
+        return (
+          getGap(a) -
+          getGap(b)
+        );
 
       }
     );
@@ -940,7 +956,9 @@ function sortItems(
         return normalize(
           a.tema
         ).localeCompare(
-          normalize(b.tema)
+          normalize(
+            b.tema
+          )
         );
 
       }
@@ -980,8 +998,7 @@ function getBestCompetitor(
     {};
 
 
-  let best =
-    0;
+  let best = 0;
 
 
   if (
@@ -1049,6 +1066,11 @@ function getGap(
 
   }
 
+
+  /*
+   * Brecha Perfil =
+   * Perfil - mejor competidor
+   */
 
   return (
     getPerfilNotes(item) -
@@ -1133,7 +1155,7 @@ function getMediaCount(
 
 
 /* =========================================================
-   CARD TEMÁTICA
+   CREAR CARD DE TEMÁTICA
 ========================================================= */
 
 function createThemeCard(
@@ -1158,6 +1180,11 @@ function createThemeCard(
       "Sin título"
     );
 
+
+  /*
+   * Guardamos el tema para que
+   * las prioridades puedan encontrarlo.
+   */
 
   card.dataset.topic =
     normalize(topic);
@@ -1189,14 +1216,6 @@ function createThemeCard(
 
   const gap =
     getGap(item);
-
-
-  const totalNotes =
-    getTotalNotes(item);
-
-
-  const mediaCount =
-    getMediaCount(item);
 
 
   const insight =
@@ -1247,14 +1266,18 @@ function createThemeCard(
       ${imageHtml}
 
       <div class="category-badge">
+
         ${escapeHtml(
           categoryInfo[category]?.title ||
           category
         )}
+
       </div>
 
       <div class="theme-hero-title">
+
         ${escapeHtml(topic)}
+
       </div>
 
     </div>
@@ -1262,7 +1285,9 @@ function createThemeCard(
 
     <div class="theme-body">
 
+
       <div class="metrics">
+
 
         <div class="metric">
 
@@ -1302,12 +1327,14 @@ function createThemeCard(
 
         </div>
 
+
       </div>
 
 
       <div class="coverage-title">
         Cobertura por medio
       </div>
+
 
       <div class="coverage-list">
 
@@ -1337,6 +1364,7 @@ function createThemeCard(
 
       <div class="details">
 
+
         <button
           class="detail-toggle"
           type="button">
@@ -1353,6 +1381,7 @@ function createThemeCard(
 
 
         <div class="detail-content">
+
 
           ${
             action
@@ -1389,6 +1418,7 @@ function createThemeCard(
                         approach,
                         index
                       ) => `
+
                         <div class="approach">
 
                           <span class="approach-number">
@@ -1402,6 +1432,7 @@ function createThemeCard(
                           </span>
 
                         </div>
+
                       `
                     )
                     .join("")}
@@ -1440,9 +1471,11 @@ function createThemeCard(
               : ""
           }
 
+
         </div>
 
       </div>
+
 
     </div>
 
@@ -1450,7 +1483,7 @@ function createThemeCard(
 
 
   /*
-   * Abrir/cerrar detalle
+   * Abrir / cerrar detalle
    */
 
   const detailToggle =
@@ -1472,7 +1505,15 @@ function createThemeCard(
 
     detailToggle.addEventListener(
       "click",
-      () => {
+      event => {
+
+        /*
+         * Evita que el click
+         * se interprete como otra
+         * acción de la card.
+         */
+
+        event.stopPropagation();
 
         details.classList.toggle(
           "open"
@@ -1490,7 +1531,7 @@ function createThemeCard(
 
 
 /* =========================================================
-   COBERTURA
+   COBERTURA POR MEDIO
 ========================================================= */
 
 function buildCoverage(
@@ -1507,10 +1548,21 @@ function buildCoverage(
   const rows = [];
 
 
+  /*
+   * Siempre mostramos Perfil primero.
+   */
+
   rows.push({
-    name: "Perfil",
-    value: getPerfilNotes(item),
-    perfil: true
+
+    name:
+      "Perfil",
+
+    value:
+      getPerfilNotes(item),
+
+    perfil:
+      true
+
   });
 
 
@@ -1642,7 +1694,7 @@ function buildCoverage(
 
 
 /* =========================================================
-   EJEMPLOS
+   NOTAS USADAS
 ========================================================= */
 
 function createExample(
@@ -1722,7 +1774,7 @@ function createExample(
 
 
 /* =========================================================
-   EVENTOS TABS
+   TABS
 ========================================================= */
 
 categoryTabs.forEach(
@@ -1744,7 +1796,7 @@ categoryTabs.forEach(
 
 
 /* =========================================================
-   ORDEN
+   ORDENAMIENTO
 ========================================================= */
 
 sortSelect.addEventListener(
@@ -1760,7 +1812,7 @@ sortSelect.addEventListener(
 
 
 /* =========================================================
-   CARGAR
+   INICIAR
 ========================================================= */
 
 loadData();
