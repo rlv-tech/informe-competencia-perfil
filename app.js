@@ -4,14 +4,18 @@ const categoryNames = {
   hipercompetencia: "Hipercompetencia",
   perfil_pierde: "Perfil pierde",
   sin_cobertura_perfil: "Sin cobertura",
-  oportunidades: "Oportunidad"
+  oportunidades: "Oportunidades"
 };
 
 const categoryDescriptions = {
-  hipercompetencia: "Temas donde la competencia concentra más cobertura que Perfil.",
-  perfil_pierde: "Temas con cobertura de la competencia pero sin presencia suficiente de Perfil.",
-  sin_cobertura_perfil: "Temas relevantes cubiertos por otros medios sin notas de Perfil.",
-  oportunidades: "Temas donde existe una oportunidad editorial concreta."
+  hipercompetencia:
+    "Temas donde la competencia concentra más cobertura que Perfil.",
+  perfil_pierde:
+    "Temas con cobertura de la competencia pero sin presencia suficiente de Perfil.",
+  sin_cobertura_perfil:
+    "Temas cubiertos por otros medios sin cobertura de Perfil.",
+  oportunidades:
+    "Temas que presentan una oportunidad editorial."
 };
 
 let dashboardData = {};
@@ -76,15 +80,25 @@ async function loadData() {
     renderPriorities();
     renderMonitoring();
 
-    document.getElementById("loading").classList.add("hidden");
-    document.getElementById("content").classList.remove("hidden");
+    document
+      .getElementById("loading")
+      .classList.add("hidden");
+
+    document
+      .getElementById("content")
+      .classList.remove("hidden");
 
   } catch (error) {
 
     console.error(error);
 
-    document.getElementById("loading").classList.add("hidden");
-    document.getElementById("error").classList.remove("hidden");
+    document
+      .getElementById("loading")
+      .classList.add("hidden");
+
+    document
+      .getElementById("error")
+      .classList.remove("hidden");
 
   }
 
@@ -93,7 +107,8 @@ async function loadData() {
 
 function renderDate() {
 
-  const dateElement = document.getElementById("analysisDate");
+  const dateElement =
+    document.getElementById("analysisDate");
 
   if (!dashboardData.fecha_analisis) {
     dateElement.textContent = "";
@@ -104,16 +119,18 @@ function renderDate() {
     `${dashboardData.fecha_analisis}T12:00:00`
   );
 
-  const formatted = new Intl.DateTimeFormat(
-    "es-AR",
-    {
-      day: "numeric",
-      month: "long",
-      year: "numeric"
-    }
-  ).format(date);
+  const formatted =
+    new Intl.DateTimeFormat(
+      "es-AR",
+      {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      }
+    ).format(date);
 
-  dateElement.textContent = `Análisis: ${formatted}`;
+  dateElement.textContent =
+    `Análisis: ${formatted}`;
 
 }
 
@@ -139,12 +156,18 @@ function getImage(item) {
     Array.isArray(item.ejemplos)
   ) {
 
-    const example = item.ejemplos.find(
-      item => item.imagen
-    );
+    const example =
+      item.ejemplos.find(
+        example => example.imagen
+      );
 
-    if (example && example.imagen) {
-      return cleanMarkdownUrl(example.imagen);
+    if (
+      example &&
+      example.imagen
+    ) {
+      return cleanMarkdownUrl(
+        example.imagen
+      );
     }
 
   }
@@ -156,15 +179,21 @@ function getImage(item) {
 
 function renderPriorities() {
 
-  const container = document.getElementById("priorities");
+  const container =
+    document.getElementById("priorities");
 
   let priorities = [];
 
+
   Object.keys(categoryNames).forEach(category => {
 
-    const items = Array.isArray(dashboardData[category])
-      ? dashboardData[category]
-      : [];
+    const items =
+      Array.isArray(
+        dashboardData[category]
+      )
+        ? dashboardData[category]
+        : [];
+
 
     items.forEach(item => {
 
@@ -186,19 +215,32 @@ function renderPriorities() {
 
 
   priorities.sort(
-    (a, b) => b.prioridad - a.prioridad
+    (a, b) =>
+      (b.prioridad || 0) -
+      (a.prioridad || 0)
   );
 
+
+  /*
+    Si no hay tres prioridades
+    explícitas, completamos con
+    los temas de mayor brecha.
+  */
 
   if (priorities.length < 3) {
 
     const allItems = [];
 
+
     Object.keys(categoryNames).forEach(category => {
 
-      const items = Array.isArray(dashboardData[category])
-        ? dashboardData[category]
-        : [];
+      const items =
+        Array.isArray(
+          dashboardData[category]
+        )
+          ? dashboardData[category]
+          : [];
+
 
       items.forEach(item => {
 
@@ -213,19 +255,28 @@ function renderPriorities() {
 
 
     allItems.sort(
-      (a, b) => (b.brecha || 0) - (a.brecha || 0)
+      (a, b) =>
+        (b.brecha || 0) -
+        (a.brecha || 0)
     );
 
 
     allItems.forEach(item => {
 
-      const exists = priorities.some(
-        priority =>
-          priority.tema === item.tema
-      );
+      const exists =
+        priorities.some(
+          priority =>
+            priority.tema === item.tema
+        );
 
-      if (!exists && priorities.length < 3) {
+
+      if (
+        !exists &&
+        priorities.length < 3
+      ) {
+
         priorities.push(item);
+
       }
 
     });
@@ -233,186 +284,295 @@ function renderPriorities() {
   }
 
 
-  priorities = priorities.slice(0, 3);
+  priorities =
+    priorities.slice(0, 3);
 
 
   container.innerHTML = "";
 
 
-  priorities.forEach((item, index) => {
+  priorities.forEach(
+    (item, index) => {
 
-    const card = document.createElement("article");
-
-    card.className = "priority-card";
-
-
-    const image = getImage(item);
-
-
-    card.innerHTML = `
-
-      ${
-        image
-          ? `
-            <img
-              class="priority-image"
-              src="${escapeHtml(image)}"
-              alt=""
-              loading="lazy"
-            >
-          `
-          : `
-            <div class="priority-image priority-image-empty"></div>
-          `
-      }
+      const card =
+        document.createElement(
+          "article"
+        );
 
 
-      <div class="priority-content">
-
-        <div class="priority-number">
-          ${String(index + 1).padStart(2, "0")}
-        </div>
-
-        <div class="priority-category">
-          ${getCategoryLabel(item.categoria || item.tipo)}
-        </div>
-
-        <h3>
-          ${escapeHtml(item.tema || "Sin título")}
-        </h3>
-
-        ${
-          item.por_que_importa
-            ? `
-              <p class="priority-description">
-                ${escapeHtml(item.por_que_importa)}
-              </p>
-            `
-            : ""
-        }
-
-      </div>
-
-    `;
+      card.className =
+        "priority-card";
 
 
-    card.addEventListener("click", () => {
+      const image =
+        getImage(item);
 
-      currentCategory =
+
+      const category =
         item.categoria ||
         item.tipo ||
-        "hipercompetencia";
+        "";
 
 
-      document
-        .querySelectorAll(".category-tab")
-        .forEach(tab => {
-
-          tab.classList.toggle(
-            "active",
-            tab.dataset.category === currentCategory
-          );
-
-        });
+      const label =
+        getCategoryLabel(category);
 
 
-      renderMonitoring();
+      card.innerHTML = `
+
+        ${
+          image
+            ? `
+              <img
+                class="priority-image"
+                src="${escapeHtml(image)}"
+                alt=""
+                loading="lazy"
+              >
+            `
+            : `
+              <div
+                class="priority-image priority-image-empty"
+              ></div>
+            `
+        }
 
 
-      setTimeout(() => {
+        <div class="priority-content">
 
-        document
-          .getElementById("monitoringSection")
-          .scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-
-      }, 50);
-
-    });
+          <div class="priority-number">
+            ${String(index + 1).padStart(2, "0")}
+          </div>
 
 
-    container.appendChild(card);
+          <div class="priority-category">
+            ${label}
+          </div>
 
-  });
+
+          <h3>
+            ${escapeHtml(
+              item.tema ||
+              "Sin título"
+            )}
+          </h3>
+
+
+          ${
+            item.por_que_importa
+              ? `
+                <p class="priority-description">
+                  ${escapeHtml(
+                    item.por_que_importa
+                  )}
+                </p>
+              `
+              : ""
+          }
+
+        </div>
+
+      `;
+
+
+      /*
+        Al hacer clic en una prioridad,
+        lleva a la categoría correspondiente.
+      */
+
+      card.addEventListener(
+        "click",
+        () => {
+
+          currentCategory =
+            category ||
+            "hipercompetencia";
+
+
+          document
+            .querySelectorAll(
+              ".category-tab"
+            )
+            .forEach(tab => {
+
+              tab.classList.toggle(
+                "active",
+                tab.dataset.category ===
+                  currentCategory
+              );
+
+            });
+
+
+          renderMonitoring();
+
+
+          setTimeout(() => {
+
+            const section =
+              document.getElementById(
+                "monitoringSection"
+              );
+
+
+            if (section) {
+
+              section.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+              });
+
+            }
+
+          }, 50);
+
+        }
+      );
+
+
+      container.appendChild(card);
+
+    }
+  );
 
 }
 
 
 function renderMonitoring() {
 
-  const items = Array.isArray(
-    dashboardData[currentCategory]
-  )
-    ? [...dashboardData[currentCategory]]
-    : [];
+  const items =
+    Array.isArray(
+      dashboardData[currentCategory]
+    )
+      ? [
+          ...dashboardData[
+            currentCategory
+          ]
+        ]
+      : [];
 
 
-  document.getElementById("categoryTitle").textContent =
-    categoryNames[currentCategory] ||
-    currentCategory;
+  document
+    .getElementById(
+      "categoryTitle"
+    )
+    .textContent =
+      categoryNames[
+        currentCategory
+      ] ||
+      currentCategory;
 
 
-  document.getElementById("categoryDescription").textContent =
-    categoryDescriptions[currentCategory] || "";
+  document
+    .getElementById(
+      "categoryDescription"
+    )
+    .textContent =
+      categoryDescriptions[
+        currentCategory
+      ] ||
+      "";
 
 
-  const sortedItems = sortItems(items);
+  const sortedItems =
+    sortItems(items);
 
 
-  renderThemeCards(sortedItems);
+  renderThemeCards(
+    sortedItems
+  );
 
 }
 
 
 function sortItems(items) {
 
-  return items.sort((a, b) => {
+  return items.sort(
+    (a, b) => {
 
-    if (currentSort === "notas") {
-      return (b.total_notas || 0) - (a.total_notas || 0);
-    }
+      if (
+        currentSort ===
+        "notas"
+      ) {
+
+        return (
+          (b.total_notas || 0) -
+          (a.total_notas || 0)
+        );
+
+      }
 
 
-    if (currentSort === "medios") {
-      return (b.cantidad_medios || 0) - (a.cantidad_medios || 0);
-    }
+      if (
+        currentSort ===
+        "medios"
+      ) {
+
+        return (
+          (b.cantidad_medios || 0) -
+          (a.cantidad_medios || 0)
+        );
+
+      }
 
 
-    if (currentSort === "az") {
-      return (a.tema || "").localeCompare(
-        b.tema || "",
-        "es"
+      if (
+        currentSort ===
+        "az"
+      ) {
+
+        return (
+          a.tema || ""
+        ).localeCompare(
+          b.tema || "",
+          "es"
+        );
+
+      }
+
+
+      return (
+        (b.brecha || 0) -
+        (a.brecha || 0)
       );
+
     }
-
-
-    return (b.brecha || 0) - (a.brecha || 0);
-
-  });
+  );
 
 }
 
 
 function renderThemeCards(items) {
 
-  const grid = document.getElementById("themeGrid");
-  const empty = document.getElementById("emptyState");
+  const grid =
+    document.getElementById(
+      "themeGrid"
+    );
+
+
+  const empty =
+    document.getElementById(
+      "emptyState"
+    );
+
 
   grid.innerHTML = "";
 
 
   if (!items.length) {
 
-    empty.classList.remove("hidden");
+    empty.classList.remove(
+      "hidden"
+    );
 
     return;
 
   }
 
 
-  empty.classList.add("hidden");
+  empty.classList.add(
+    "hidden"
+  );
 
 
   items.forEach(item => {
@@ -428,32 +588,53 @@ function renderThemeCards(items) {
 
 function createThemeCard(item) {
 
-  const card = document.createElement("article");
-
-  card.className = "theme-card";
-
-
-  const image = getImage(item);
+  const card =
+    document.createElement(
+      "article"
+    );
 
 
-  const perfil = Number(
-    item.perfil ??
-    item.cobertura_perfil ??
-    0
-  );
+  card.className =
+    "theme-card";
 
 
-  const brecha = Number(
-    item.brecha || 0
-  );
+  const image =
+    getImage(item);
 
 
-  const brechaDisplay =
-    brecha > 0
-      ? `-${brecha}`
-      : brecha < 0
-        ? `${brecha}`
-        : "0";
+  const perfil =
+    Number(
+      item.perfil ??
+      item.cobertura_perfil ??
+      0
+    );
+
+
+  const brecha =
+    Number(
+      item.brecha || 0
+    );
+
+
+  /*
+    La brecha se muestra
+    como número negativo cuando
+    Perfil está por debajo.
+  */
+
+  let brechaDisplay = "0";
+
+
+  if (brecha > 0) {
+    brechaDisplay =
+      `-${brecha}`;
+  }
+
+
+  if (brecha < 0) {
+    brechaDisplay =
+      `${brecha}`;
+  }
 
 
   card.innerHTML = `
@@ -471,7 +652,9 @@ function createThemeCard(item) {
             >
           `
           : `
-            <div class="theme-image theme-image-empty"></div>
+            <div
+              class="theme-image theme-image-empty"
+            ></div>
           `
       }
 
@@ -480,26 +663,42 @@ function createThemeCard(item) {
 
     <div class="theme-body">
 
+
       <div class="theme-category">
+
         ${escapeHtml(
-          getCategoryLabel(item.tipo || currentCategory)
+          getCategoryLabel(
+            item.tipo ||
+            currentCategory
+          )
         )}
+
       </div>
 
 
       <h3 class="theme-title">
-        ${escapeHtml(item.tema || "Sin título")}
+
+        ${escapeHtml(
+          item.tema ||
+          "Sin título"
+        )}
+
       </h3>
 
 
       <div class="theme-stats">
 
+
         <div class="theme-stat">
 
-          <span>Notas</span>
+          <span>
+            Notas
+          </span>
 
           <strong>
-            ${Number(item.total_notas || 0)}
+            ${Number(
+              item.total_notas || 0
+            )}
           </strong>
 
         </div>
@@ -507,24 +706,33 @@ function createThemeCard(item) {
 
         <div class="theme-stat">
 
-          <span>Medios</span>
+          <span>
+            Medios
+          </span>
 
           <strong>
-            ${Number(item.cantidad_medios || 0)}
+            ${Number(
+              item.cantidad_medios || 0
+            )}
           </strong>
 
         </div>
 
 
-        <div class="theme-stat theme-stat-gap">
+        <div
+          class="theme-stat theme-stat-gap"
+        >
 
-          <span>Brecha Perfil</span>
+          <span>
+            Brecha Perfil
+          </span>
 
           <strong>
             ${brechaDisplay}
           </strong>
 
         </div>
+
 
       </div>
 
@@ -534,12 +742,14 @@ function createThemeCard(item) {
 
       <details class="theme-details">
 
+
         <summary>
           Ver detalles
         </summary>
 
 
         <div class="details-content">
+
 
           ${renderDetailSection(
             "Por qué importa",
@@ -569,9 +779,12 @@ function createThemeCard(item) {
             item.ejemplos
           )}
 
+
         </div>
 
+
       </details>
+
 
     </div>
 
@@ -596,14 +809,25 @@ function renderDetailSection(
 
   return `
 
-    <div class="detail-card ${extraClass}">
+    <div
+      class="detail-card ${extraClass}"
+    >
 
       <div class="detail-card-label">
-        ${escapeHtml(title)}
+
+        ${escapeHtml(
+          title
+        )}
+
       </div>
 
+
       <p>
-        ${escapeHtml(text)}
+
+        ${escapeHtml(
+          text
+        )}
+
       </p>
 
     </div>
@@ -619,27 +843,46 @@ function renderApproaches(items) {
     !Array.isArray(items) ||
     !items.length
   ) {
+
     return "";
+
   }
 
 
   return `
 
-    <div class="detail-card approaches-card">
+    <div
+      class="detail-card approaches-card"
+    >
 
       <div class="detail-card-label">
+
         Enfoques sugeridos
+
       </div>
+
 
       <div class="approach-list">
 
-        ${items.map(item => `
 
-          <span class="approach-chip">
-            ${escapeHtml(item)}
-          </span>
+        ${items
+          .map(
+            item => `
 
-        `).join("")}
+              <span
+                class="approach-chip"
+              >
+
+                ${escapeHtml(
+                  item
+                )}
+
+              </span>
+
+            `
+          )
+          .join("")}
+
 
       </div>
 
@@ -652,18 +895,26 @@ function renderApproaches(items) {
 
 function renderCoverage(item) {
 
-  const coverage = item.cobertura;
+  const coverage =
+    item.cobertura;
+
 
   if (
     !coverage ||
-    typeof coverage !== "object" ||
+    typeof coverage !==
+      "object" ||
     Array.isArray(coverage)
   ) {
+
     return "";
+
   }
 
 
-  const entries = Object.entries(coverage);
+  const entries =
+    Object.entries(
+      coverage
+    );
 
 
   if (!entries.length) {
@@ -671,64 +922,93 @@ function renderCoverage(item) {
   }
 
 
-  const maxValue = Math.max(
-    ...entries.map(
-      ([, value]) => Number(value) || 0
-    ),
-    1
-  );
+  const maxValue =
+    Math.max(
+      ...entries.map(
+        ([, value]) =>
+          Number(value) || 0
+      ),
+      1
+    );
 
 
   return `
 
     <div class="coverage-block">
 
+
       <div class="coverage-title">
+
         Cobertura por medio
+
       </div>
 
 
       <div class="coverage-list">
 
-        ${entries.map(([medium, value]) => {
 
-          const count = Number(value) || 0;
+        ${entries
+          .map(
+            ([medium, value]) => {
 
-          const width =
-            count > 0
-              ? Math.max(
-                  7,
-                  (count / maxValue) * 100
-                )
-              : 0;
+              const count =
+                Number(value) || 0;
 
 
-          return `
+              const width =
+                count > 0
+                  ? Math.max(
+                      7,
+                      (count /
+                        maxValue) *
+                        100
+                    )
+                  : 0;
 
-            <div class="coverage-item">
 
-              <div class="coverage-item-name">
-                ${escapeHtml(medium)}
-              </div>
-
-              <div class="coverage-bar">
+              return `
 
                 <div
-                  class="coverage-fill"
-                  style="width:${width}%"
-                ></div>
+                  class="coverage-item"
+                >
 
-              </div>
+                  <div
+                    class="coverage-item-name"
+                  >
 
-              <strong>
-                ${count}
-              </strong>
+                    ${escapeHtml(
+                      medium
+                    )}
 
-            </div>
+                  </div>
 
-          `;
 
-        }).join("")}
+                  <div
+                    class="coverage-bar"
+                  >
+
+                    <div
+                      class="coverage-fill"
+                      style="width:${width}%"
+                    ></div>
+
+                  </div>
+
+
+                  <strong>
+
+                    ${count}
+
+                  </strong>
+
+                </div>
+
+              `;
+
+            }
+          )
+          .join("")}
+
 
       </div>
 
@@ -739,101 +1019,143 @@ function renderCoverage(item) {
 }
 
 
-function renderExamples(examples) {
+function renderExamples(
+  examples
+) {
 
   if (
     !Array.isArray(examples) ||
     !examples.length
   ) {
+
     return "";
+
   }
 
 
   return `
 
-    <div class="detail-card notes-card">
+    <div
+      class="detail-card notes-card"
+    >
 
-      <div class="detail-card-label">
+
+      <div
+        class="detail-card-label"
+      >
+
         Notas usadas
+
       </div>
 
 
       <div class="examples-list">
 
-        ${examples.slice(0, 3).map(example => {
 
-          const image =
-            cleanMarkdownUrl(
-              example.imagen || ""
-            );
+        ${examples
+          .slice(0, 3)
+          .map(example => {
 
-
-          const link =
-            cleanMarkdownUrl(
-              example.link || ""
-            );
+            const image =
+              cleanMarkdownUrl(
+                example.imagen ||
+                ""
+              );
 
 
-          return `
-
-            <article class="example-card">
-
-              ${
-                image
-                  ? `
-                    <img
-                      class="example-image"
-                      src="${escapeHtml(image)}"
-                      alt=""
-                      loading="lazy"
-                    >
-                  `
-                  : `
-                    <div class="example-image"></div>
-                  `
-              }
+            const link =
+              cleanMarkdownUrl(
+                example.link ||
+                ""
+              );
 
 
-              <div class="example-content">
+            return `
 
-                <div class="example-medium">
-                  ${escapeHtml(
-                    example.medio || ""
-                  )}
+              <article
+                class="example-card"
+              >
+
+
+                ${
+                  image
+                    ? `
+                      <img
+                        class="example-image"
+                        src="${escapeHtml(image)}"
+                        alt=""
+                        loading="lazy"
+                      >
+                    `
+                    : `
+                      <div
+                        class="example-image"
+                      ></div>
+                    `
+                }
+
+
+                <div
+                  class="example-content"
+                >
+
+
+                  <div
+                    class="example-medium"
+                  >
+
+                    ${escapeHtml(
+                      example.medio ||
+                      ""
+                    )}
+
+                  </div>
+
+
+                  <div
+                    class="example-title"
+                  >
+
+
+                    ${
+                      link
+                        ? `
+                          <a
+                            href="${escapeHtml(link)}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+
+                            ${escapeHtml(
+                              example.titulo ||
+                              "Ver nota"
+                            )}
+
+                          </a>
+                        `
+                        : escapeHtml(
+                            example.titulo ||
+                            "Ver nota"
+                          )
+                    }
+
+
+                  </div>
+
+
                 </div>
 
 
-                <div class="example-title">
+              </article>
 
-                  ${
-                    link
-                      ? `
-                        <a
-                          href="${escapeHtml(link)}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          ${escapeHtml(
-                            example.titulo || "Ver nota"
-                          )}
-                        </a>
-                      `
-                      : escapeHtml(
-                          example.titulo || "Ver nota"
-                        )
-                  }
+            `;
 
-                </div>
+          })
+          .join("")}
 
-              </div>
-
-            </article>
-
-          `;
-
-        }).join("")}
 
       </div>
+
 
     </div>
 
@@ -842,15 +1164,25 @@ function renderExamples(examples) {
 }
 
 
-function cleanMarkdownUrl(value) {
+function cleanMarkdownUrl(
+  value
+) {
 
   if (!value) {
     return "";
   }
 
 
-  let result = String(value).trim();
+  let result =
+    String(value).trim();
 
+
+  /*
+    Convierte:
+    [texto](https://...)
+    en:
+    https://...
+  */
 
   const markdownMatch =
     result.match(
@@ -859,11 +1191,21 @@ function cleanMarkdownUrl(value) {
 
 
   if (markdownMatch) {
-    result = markdownMatch[1];
+    result =
+      markdownMatch[1];
   }
 
 
-  result = result.replace(/\\&/g, "&");
+  /*
+    Corrige URLs del JSON
+    que vienen con \&
+  */
+
+  result =
+    result.replace(
+      /\\&/g,
+      "&"
+    );
 
 
   return result;
@@ -871,13 +1213,32 @@ function cleanMarkdownUrl(value) {
 }
 
 
-function escapeHtml(value) {
+function escapeHtml(
+  value
+) {
 
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
+  return String(
+    value ?? ""
+  )
+    .replace(
+      /&/g,
+      "&amp;"
+    )
+    .replace(
+      /</g,
+      "&lt;"
+    )
+    .replace(
+      />/g,
+      "&gt;"
+    )
+    .replace(
+      /"/g,
+      "&quot;"
+    )
+    .replace(
+      /'/g,
+      "&#039;"
+    );
 
 }
