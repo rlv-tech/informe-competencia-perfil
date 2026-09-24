@@ -2242,17 +2242,30 @@ sortSelect.addEventListener(
    ACTUALIZAR
 ========================================================= */
 
-refreshBtn.addEventListener(
-  "click",
-  () => {
+const WEBHOOK_URL = "https://rominalv.app.n8n.cloud/webhook/actualizar-competencia";
 
-    loadData(
-      true
-    );
+refreshBtn.addEventListener("click", async () => {
+  refreshBtn.disabled = true;
+  refreshBtn.textContent = "Actualizando...";
 
+  try {
+    const response = await fetch(WEBHOOK_URL, {
+      method: "POST"
+    });
+
+    if (!response.ok) {
+      throw new Error("No se pudo iniciar la actualización");
+    }
+
+    alert("Actualización iniciada correctamente.");
+  } catch (error) {
+    console.error(error);
+    alert("No se pudo iniciar la actualización.");
+  } finally {
+    refreshBtn.disabled = false;
+    refreshBtn.textContent = "Actualizar";
   }
-);
-
+});
 
 /* =========================================================
    CARGAR DATA.JSON
