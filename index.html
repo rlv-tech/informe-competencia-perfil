@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Editorial Perfil | Radar de Competencia</title>
+  <title>Editorial Perfil | Informe competencia</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,62 +22,74 @@
 
 <main class="radar">
 
-  <!-- =========================================
+  <!-- =====================================================
        HEADER
-  ========================================== -->
+  ====================================================== -->
 
   <header class="hero-header">
+
+    <div class="hero-decoration hero-decoration-one"></div>
+    <div class="hero-decoration hero-decoration-two"></div>
 
     <div class="hero-content">
 
       <div class="hero-kicker">
-        RADAR EDITORIAL
+        EDITORIAL PERFIL
       </div>
 
       <h1>
-        Competencia
+        Informe competencia
       </h1>
 
-      <div id="analysisDate" class="hero-date"></div>
+      <div
+        id="analysisDate"
+        class="hero-date">
+      </div>
 
     </div>
 
   </header>
 
 
-  <!-- =========================================
+  <!-- =====================================================
        ESTADOS
-  ========================================== -->
+  ====================================================== -->
 
-  <div id="loading" class="status loading">
+  <div
+    id="loading"
+    class="status loading">
     Cargando datos...
   </div>
 
 
-  <div id="error" class="status error hidden">
+  <div
+    id="error"
+    class="status error hidden">
 
     No se pudieron cargar los datos.
 
     <span>
-      Verificá que <strong>data.json</strong>
-      exista en el repositorio.
+      Verificá que <strong>data.json</strong> exista en el repositorio.
     </span>
 
   </div>
 
 
-  <!-- =========================================
+  <!-- =====================================================
        CONTENIDO
-  ========================================== -->
+  ====================================================== -->
 
-  <div id="content" class="hidden">
+  <div
+    id="content"
+    class="hidden">
 
 
-    <!-- =======================================
-         PRIORIDADES DEL DÍA
-    ======================================== -->
+    <!-- ===================================================
+         PRIORIDADES
+    ==================================================== -->
 
-    <section class="section priorities-section">
+    <section
+      class="section priorities-section">
 
       <div class="section-heading">
 
@@ -103,13 +116,12 @@
     </section>
 
 
-    <!-- =======================================
+    <!-- ===================================================
          MONITOREO
-    ======================================== -->
+    ==================================================== -->
 
     <section
       class="section monitoring-section">
-
 
       <div class="section-heading">
 
@@ -128,12 +140,11 @@
       </div>
 
 
-      <!-- CATEGORÍAS -->
+      <!-- TABS -->
 
       <div
         class="category-tabs"
         role="tablist">
-
 
         <button
           class="category-tab active"
@@ -174,7 +185,6 @@
 
         </button>
 
-
       </div>
 
 
@@ -182,14 +192,14 @@
 
       <div class="monitor-controls">
 
-
         <div class="results-label">
 
           <strong id="categoryTitle">
             Hipercompetencia
           </strong>
 
-          <span id="categoryDescription"></span>
+          <span id="categoryDescription">
+          </span>
 
         </div>
 
@@ -227,13 +237,15 @@
       </div>
 
 
-      <!-- TEMÁTICAS -->
+      <!-- TEMAS -->
 
       <div
         id="themeGrid"
         class="theme-grid">
       </div>
 
+
+      <!-- VACÍO -->
 
       <div
         id="emptyState"
@@ -243,9 +255,7 @@
 
       </div>
 
-
     </section>
-
 
   </div>
 
@@ -255,4 +265,5 @@
 <script src="app.js"></script>
 
 </body>
+
 </html>
