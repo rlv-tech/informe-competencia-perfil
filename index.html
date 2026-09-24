@@ -22,7 +22,9 @@
   <main class="radar">
 
     <header class="hero-header">
+
       <div class="hero-text">
+
         <div class="hero-kicker">EDITORIAL PERFIL</div>
 
         <h1>Informe de competencia</h1>
@@ -30,15 +32,19 @@
         <div id="analysisDate" class="hero-date">
           Cargando fecha...
         </div>
+
       </div>
 
       <div class="hero-brand">
+
         <img
           class="perfil-logo"
           src="./Sin.png"
           alt="Editorial Perfil"
         >
+
       </div>
+
     </header>
 
 
@@ -48,24 +54,35 @@
 
 
     <div id="error" class="status error hidden">
-      <strong>No se pudieron cargar los datos.</strong>
+
+      <strong>
+        No se pudieron cargar los datos.
+      </strong>
 
       <span>
         Verificá que <strong>data.json</strong> exista en el repositorio.
       </span>
+
     </div>
 
 
     <div id="content" class="hidden">
 
-      <!-- PRIORIDADES -->
+
+      <!-- =========================
+           PRIORIDADES DEL DÍA
+      ========================== -->
 
       <section class="section priorities-section">
 
         <div class="section-heading">
-          <span class="section-kicker">FOCO EDITORIAL</span>
+
+          <span class="section-kicker">
+            FOCO EDITORIAL
+          </span>
 
           <h2>Prioridades del día</h2>
+
         </div>
 
         <div id="priorities" class="priority-grid"></div>
@@ -73,7 +90,9 @@
       </section>
 
 
-      <!-- MONITOREO -->
+      <!-- =========================
+           MONITOREO
+      ========================== -->
 
       <section
         id="monitoringSection"
@@ -81,54 +100,52 @@
       >
 
         <div class="section-heading">
+
           <span class="section-kicker">
             OPORTUNIDADES EDITORIALES
           </span>
 
           <h2>Monitoreo</h2>
+
         </div>
 
-
-        <!-- CATEGORÍAS -->
 
         <div class="category-tabs">
 
           <button
-            type="button"
             class="category-tab active"
             data-category="hipercompetencia"
+            type="button"
           >
             Hipercompetencia
           </button>
 
           <button
-            type="button"
             class="category-tab"
             data-category="perfil_pierde"
+            type="button"
           >
             Perfil pierde
           </button>
 
           <button
-            type="button"
             class="category-tab"
             data-category="sin_cobertura_perfil"
+            type="button"
           >
             Sin cobertura
           </button>
 
           <button
-            type="button"
             class="category-tab"
             data-category="oportunidades"
+            type="button"
           >
             Oportunidades
           </button>
 
         </div>
 
-
-        <!-- CONTROLES -->
 
         <div class="monitor-controls">
 
@@ -146,6 +163,7 @@
           <div class="control-group">
 
             <label for="sortSelect">
+
               Ordenar
 
               <select id="sortSelect">
@@ -167,6 +185,7 @@
                 </option>
 
               </select>
+
             </label>
 
           </div>
@@ -174,15 +193,11 @@
         </div>
 
 
-        <!-- TEMAS -->
-
         <div
           id="themeGrid"
           class="theme-grid"
         ></div>
 
-
-        <!-- SIN RESULTADOS -->
 
         <div
           id="emptyState"
