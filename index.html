@@ -21,7 +21,9 @@
 
 <main class="radar">
 
-  <!-- HEADER -->
+  <!-- =========================================
+       HEADER
+  ========================================== -->
 
   <header class="header">
 
@@ -32,45 +34,70 @@
       </div>
 
       <div class="title-row">
+
         <span class="perfil-accent"></span>
-        <h1>Competencia</h1>
+
+        <h1>
+          Competencia
+        </h1>
+
       </div>
 
       <div id="analysisDate" class="date"></div>
 
     </div>
 
-    <button id="refreshBtn" class="refresh-btn" type="button">
+
+    <button
+      id="refreshBtn"
+      class="refresh-btn"
+      type="button">
+
       ↻ Actualizar
+
     </button>
 
   </header>
 
 
-  <!-- ESTADO -->
+  <!-- =========================================
+       ESTADOS
+  ========================================== -->
 
   <div id="loading" class="status loading">
     Cargando datos...
   </div>
 
+
   <div id="error" class="status error hidden">
+
     No se pudieron cargar los datos.
+
     <span>
-      Verificá que <strong>data.json</strong> exista en el repositorio.
+      Verificá que <strong>data.json</strong>
+      exista en el repositorio.
     </span>
+
   </div>
 
+
+  <!-- =========================================
+       CONTENIDO
+  ========================================== -->
 
   <div id="content" class="hidden">
 
 
-    <!-- PRIORIDADES -->
+    <!-- =======================================
+         PRIORIDADES DEL DÍA
+    ======================================== -->
 
     <section class="section priorities-section">
 
       <div class="section-heading">
 
         <div>
+
           <span class="section-kicker">
             FOCO EDITORIAL
           </span>
@@ -78,49 +105,32 @@
           <h2>
             Prioridades del día
           </h2>
+
         </div>
 
       </div>
 
-      <div id="priorities" class="priority-grid"></div>
 
-    </section>
-
-
-    <!-- RADAR DE BRECHAS -->
-
-    <section class="section gap-section">
-
-      <div class="section-heading">
-
-        <div>
-          <span class="section-kicker">
-            COBERTURA
-          </span>
-
-          <h2>
-            Radar de brechas
-          </h2>
-        </div>
-
-        <div class="gap-explanation">
-          Diferencia frente al competidor con mayor cobertura
-        </div>
-
+      <div
+        id="priorities"
+        class="priority-grid">
       </div>
 
-      <div id="competitiveMap" class="gap-radar"></div>
-
     </section>
 
 
-    <!-- MONITOREO -->
+    <!-- =======================================
+         MONITOREO
+    ======================================== -->
 
-    <section class="section monitoring-section">
+    <section
+      class="section monitoring-section">
+
 
       <div class="section-heading">
 
         <div>
+
           <span class="section-kicker">
             OPORTUNIDADES EDITORIALES
           </span>
@@ -134,37 +144,52 @@
       </div>
 
 
-      <!-- TABS -->
+      <!-- CATEGORÍAS -->
 
-      <div class="category-tabs" role="tablist">
+      <div
+        class="category-tabs"
+        role="tablist">
+
 
         <button
           class="category-tab active"
           data-category="hipercompetencia"
           type="button">
+
           Hipercompetencia
+
         </button>
+
 
         <button
           class="category-tab"
           data-category="perfil_pierde"
           type="button">
+
           Perfil pierde
+
         </button>
+
 
         <button
           class="category-tab"
           data-category="sin_cobertura_perfil"
           type="button">
+
           Sin cobertura
+
         </button>
+
 
         <button
           class="category-tab"
           data-category="oportunidades"
           type="button">
+
           Oportunidades
+
         </button>
+
 
       </div>
 
@@ -172,6 +197,7 @@
       <!-- CONTROLES -->
 
       <div class="monitor-controls">
+
 
         <div class="results-label">
 
@@ -187,6 +213,7 @@
         <div class="control-group">
 
           <label>
+
             Ordenar
 
             <select id="sortSelect">
@@ -216,15 +243,25 @@
       </div>
 
 
-      <!-- CARDS -->
+      <!-- TEMÁTICAS -->
 
-      <div id="themeGrid" class="theme-grid"></div>
-
-      <div id="emptyState" class="empty-state hidden">
-        No hay temas para esta categoría.
+      <div
+        id="themeGrid"
+        class="theme-grid">
       </div>
 
+
+      <div
+        id="emptyState"
+        class="empty-state hidden">
+
+        No hay temas para esta categoría.
+
+      </div>
+
+
     </section>
+
 
   </div>
 
