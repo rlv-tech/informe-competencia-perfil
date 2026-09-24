@@ -229,11 +229,6 @@ function renderPriorities() {
     getAllItems();
 
 
-  /*
-    Las prioridades reales son aquellas
-    que tienen prioridad mayor a 0.
-  */
-
   const priorityItems =
     allItems
       .filter(item => {
@@ -257,11 +252,6 @@ function renderPriorities() {
       })
       .slice(0, 3);
 
-
-  /*
-    Si no hay prioridades marcadas,
-    usamos los temas con mayor brecha.
-  */
 
   const fallbackItems =
     allItems
@@ -343,7 +333,11 @@ function renderPriorities() {
 
 
           <div class="priority-category">
-            PRIORIDAD
+            ${escapeHtml(
+              getCategoryLabel(
+                item.tipo
+              )
+            )}
           </div>
 
 
@@ -371,12 +365,6 @@ function renderPriorities() {
 
       `;
 
-
-      /*
-        Al hacer click en una prioridad,
-        lleva al tema correspondiente
-        dentro del monitoreo.
-      */
 
       card.addEventListener(
         "click",
@@ -616,16 +604,6 @@ function createThemeCard(item) {
     );
 
 
-  /*
-    La brecha se interpreta
-    como diferencia frente a Perfil.
-
-    0      -> 0
-    +1     -> -1
-    +2     -> -2
-    etc.
-  */
-
   const displayGap =
     rawGap > 0
       ? `-${rawGap}`
@@ -681,7 +659,6 @@ function createThemeCard(item) {
 
       <div class="theme-stats">
 
-
         <div class="theme-stat">
 
           <span>
@@ -720,7 +697,6 @@ function createThemeCard(item) {
 
         </div>
 
-
       </div>
 
 
@@ -732,21 +708,20 @@ function createThemeCard(item) {
       <details class="theme-details">
 
         <summary>
-          Ver detalles
+          <span>Ver detalles</span>
         </summary>
 
 
         <div class="details-content">
 
-
           ${
             item.por_que_importa
               ? `
-                <div class="detail-section">
+                <div class="detail-card detail-importance">
 
-                  <h4>
+                  <div class="detail-card-label">
                     Por qué importa
-                  </h4>
+                  </div>
 
                   <p>
                     ${escapeHtml(
@@ -763,11 +738,11 @@ function createThemeCard(item) {
           ${
             item.insight
               ? `
-                <div class="detail-section">
+                <div class="detail-card detail-insight">
 
-                  <h4>
+                  <div class="detail-card-label">
                     Insight
-                  </h4>
+                  </div>
 
                   <p>
                     ${escapeHtml(
@@ -784,11 +759,11 @@ function createThemeCard(item) {
           ${
             item.accion_sugerida
               ? `
-                <div class="detail-section">
+                <div class="detail-card detail-action">
 
-                  <h4>
+                  <div class="detail-card-label">
                     Acción sugerida
-                  </h4>
+                  </div>
 
                   <p>
                     ${escapeHtml(
@@ -808,27 +783,27 @@ function createThemeCard(item) {
             ) &&
             item.enfoques_sugeridos.length
               ? `
-                <div class="detail-section">
+                <div class="detail-card detail-approaches">
 
-                  <h4>
+                  <div class="detail-card-label">
                     Enfoques sugeridos
-                  </h4>
+                  </div>
 
-                  <ul>
+                  <div class="approach-list">
 
                     ${item.enfoques_sugeridos
                       .map(
                         enfoque => `
-                          <li>
+                          <span class="approach-chip">
                             ${escapeHtml(
                               enfoque
                             )}
-                          </li>
+                          </span>
                         `
                       )
                       .join("")}
 
-                  </ul>
+                  </div>
 
                 </div>
               `
@@ -842,11 +817,11 @@ function createThemeCard(item) {
             ) &&
             item.ejemplos.length
               ? `
-                <div class="detail-section">
+                <div class="detail-card notes-card">
 
-                  <h4>
+                  <div class="detail-card-label">
                     Notas usadas
-                  </h4>
+                  </div>
 
                   <div class="examples-list">
 
@@ -866,7 +841,6 @@ function createThemeCard(item) {
               `
               : ""
           }
-
 
         </div>
 
@@ -1033,7 +1007,6 @@ function renderExample(example) {
 
     <article class="example-card">
 
-
       ${
         image
           ? `
@@ -1052,7 +1025,6 @@ function renderExample(example) {
 
       <div>
 
-
         ${
           example.medio
             ? `
@@ -1067,7 +1039,6 @@ function renderExample(example) {
 
 
         <div class="example-title">
-
 
           ${
             link
@@ -1089,12 +1060,9 @@ function renderExample(example) {
               `
           }
 
-
         </div>
 
-
       </div>
-
 
     </article>
 
