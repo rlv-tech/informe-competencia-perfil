@@ -584,17 +584,19 @@ select {
 
 
 /* =========================================================
-   POR QUÉ IMPORTA
+   POR QUÉ IMPORTA — PRINCIPAL
    ========================================================= */
 
 .detail-importance {
-  background: #f1f5f9;
-  border: 1px solid #d9e3ec;
+  background: #fff;
+  border: 1px solid #e5e9ee;
   border-left: 4px solid #6286b1;
+  padding: 16px 18px;
 }
 
 .detail-importance .detail-card-label {
-  color: #52779f;
+  color: #6286b1;
+  font-size: 10px;
 }
 
 .detail-importance p {
@@ -605,49 +607,47 @@ select {
 }
 
 
-/* =========================================================
-   INSIGHT
-   ========================================================= */
+/* INSIGHT — un poco más claro */
 
 .detail-insight {
-  background: #f6f8fa;
-  border: 1px solid #e2e8ed;
-  border-left: 4px solid #9db4c8;
+  background: #fafbfc;
+  border: 1px solid #e9edf0;
+  border-left: 3px solid #aebdca;
+  padding: 15px 17px;
 }
 
 .detail-insight .detail-card-label {
-  color: #6f8da8;
+  color: #7f8c97;
+  font-size: 10px;
 }
 
 .detail-insight p {
-  color: #4f6271;
-  font-size: 13px;
-  line-height: 1.6;
-  font-weight: 500;
+  color: #5d6a74;
+  font-size: 12.5px;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 
-/* =========================================================
-   ACCIÓN SUGERIDA
-   ========================================================= */
+/* ACCIÓN SUGERIDA — más liviana */
 
 .detail-action {
-  background: #fafbfc;
-  border: 1px solid #e9edf0;
-  border-left: 4px solid #c5ced5;
+  background: #fcfcfd;
+  border: 1px solid #f0f2f4;
+  padding: 14px 16px;
 }
 
 .detail-action .detail-card-label {
-  color: #7f8b94;
+  color: #9aa4ac;
+  font-size: 9px;
 }
 
 .detail-action p {
-  color: #66727c;
-  font-size: 13px;
-  line-height: 1.6;
-  font-weight: 500;
+  color: #7b858d;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
 }
-
 
 /* =========================================================
    ENFOQUES SUGERIDOS
@@ -920,22 +920,20 @@ select {
   }
 
   .detail-importance {
-    padding: 14px 16px;
+    padding: 17px 16px;
   }
 
   .detail-insight {
-    padding: 14px 16px;
+    padding: 16px;
   }
 
-  .detail-action {
-    padding: 14px 16px;
+  .detail-importance p {
+    font-size: 13px;
   }
 
-  .detail-importance p,
   .detail-insight p,
   .detail-action p {
     font-size: 12px;
-    line-height: 1.55;
   }
 
   .example-card {
