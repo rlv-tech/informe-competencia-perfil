@@ -654,6 +654,7 @@ select {
   font-weight: 500;
 }
 
+
 /* =========================================================
    ENFOQUES SUGERIDOS
    ========================================================= */
@@ -925,20 +926,22 @@ select {
   }
 
   .detail-importance {
-    padding: 17px 16px;
+    padding: 14px 16px;
   }
 
   .detail-insight {
-    padding: 16px;
+    padding: 14px 16px;
   }
 
-  .detail-importance p {
-    font-size: 13px;
+  .detail-action {
+    padding: 14px 16px;
   }
 
+  .detail-importance p,
   .detail-insight p,
   .detail-action p {
     font-size: 12px;
+    line-height: 1.55;
   }
 
   .example-card {
