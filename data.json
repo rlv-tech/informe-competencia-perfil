@@ -2,53 +2,53 @@
   "fecha_analisis": "2026-09-24",
   "hipercompetencia": [
     {
-      "tema": "El INDEC informó que la pobreza escaló al tercer trimestre/primer semestre de 2026 superando el 32%",
+      "tema": "Informe del INDEC sobre la pobreza y la caída de la actividad económica en el primer semestre de 2026",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 5,
+      "total_notas": 10,
       "cantidad_medios": 5,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 4,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "cobertura_perfil": 2,
+      "perfil": 2,
+      "competencia_total": 8,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 3,
+      "brecha": 1,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 1,
+        "Perfil": 2,
+        "La Nación": 2,
+        "Clarín": 2,
+        "Infobae": 3,
         "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "El dato de pobreza e indigencia es el indicador social más sensible de la economía argentina y define el termómetro de la crisis de ingresos.",
-      "insight": "Es el tema central de la agenda económica con cobertura masiva y simultánea en todos los portales de noticias del país.",
+      "por_que_importa": "Refleja el impacto directo del plan económico en los indicadores sociales y la recesión en curso.",
+      "insight": "Es el tema económico central de la jornada con cobertura masiva y simultánea en toda la agenda nacional.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar el desglose geográfico y por franjas etarias con infografías interactivas para diferenciarse del cable tradicional.",
+      "accion_sugerida": "Profundizar en un análisis de microdatos geográficos y el mapa de la indigencia para no repetir el cable oficial.",
       "enfoques_sugeridos": [
-        "Radiografía de la indigencia: qué regiones sufrieron el mayor impacto interanual.",
-        "El mapa del empleo informal y su correlación directa con la suba de la pobreza."
+        "Radiografía de las regiones más golpeadas por la pérdida de poder adquisitivo.",
+        "Comparativa técnica entre la caída de la actividad industrial y la suba de la pobreza."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El INDEC informa que la pobreza escaló al 32,9% en el primer semestre de 2026",
-          "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-el-primer-semestre-de-2026-segun-el-indec-a40.phtml",
+          "titulo": "Oficial: la pobreza escaló al 32,9% en el primer semestre de 2026 según el INDEC",
+          "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-primer-semestre-de-2026-segun-el-indec-a40.phtml",
           "imagen": "https://fotos.perfil.com/2026/04/26/trim/540/304/260426pobrezajubiladosadultosindigenciaafpg-2227685.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "La pobreza creció a 32,3% en el primer semestre según el Indec",
+          "titulo": "La pobreza creció a 32,3% en el primer semestre según el INDEC",
           "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
         },
         {
           "medio": "Clarín",
-          "titulo": "Medición del INDEC ubica la pobreza en el 32,3% para el primer semestre de 2026",
+          "titulo": "Pobreza subió 32,3% primer semestre 2026 medición INDEC",
           "link": "https://www.clarin.com/economia/pobreza-subio-323-primer-semestre-2026-medicion-indec_0_lzofGRGq0Q.html",
           "imagen": "https://www.clarin.com/img/2026/08/03/3qz-0r3ur_1200x630__1.jpg"
         }
@@ -58,7 +58,7 @@
       "cantidad_medios_competencia": 4
     },
     {
-      "tema": "Javier Milei proyecta desde Nueva York un 2028 de fuerte crecimiento económico y reelección",
+      "tema": "Javier Milei proyecta desde Nueva York un 2028 de fuerte crecimiento económico si es reelegido",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
@@ -80,31 +80,31 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Las proyecciones a largo plazo del Presidente marcan el pulso de las expectativas del mercado financiero y de los inversores extranjeros.",
-      "insight": "Todos los medios nacionales levantaron el discurso presidencial en el exterior enfocándose en la promesa de convertir al 2028 en un año histórico.",
+      "por_que_importa": "Marca la estrategia discursiva del oficialismo a largo plazo y su interlocución con los mercados internacionales.",
+      "insight": "Concentra la atención política con múltiples coberturas simultáneas debido al impacto de las declaraciones presidenciales en el exterior.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Analizar la viabilidad técnica de las proyecciones macroeconómicas prescindiendo del discurso político puro.",
+      "accion_sugerida": "Construir un análisis de factibilidad y contraste con los datos de recesión actuales publicados por el propio INDEC.",
       "enfoques_sugeridos": [
-        "Qué opinan los fondos de inversión en Wall Street sobre las proyecciones a 2028 de Milei.",
-        "El paralelismo entre el discurso en Nueva York y la realidad de los indicadores sociales locales."
+        "El termómetro de Wall Street ante la promesa de reelección y reformas estructurales.",
+        "Análisis del impacto político interno de las proyecciones a cuatro años."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Javier Milei proyecta un 2028 de fuerte crecimiento económico si es reelegido",
+          "titulo": "Milei habló de la reelección y proyectó un 2028 de fuerte crecimiento",
           "link": "https://www.perfil.com/noticias/politica/milei-hablo-de-la-reeleccion-y-proyecto-un-2028-de-fuerte-crecimiento-sera-el-mejor-ano-economico-de-la-historia.phtml",
           "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-2333298.jpg"
         },
         {
           "medio": "Clarín",
-          "titulo": "Javier Milei afirma desde Nueva York que un nuevo mandato convertirá al 2028 en el mejor año de la historia",
+          "titulo": "Milei en Nueva York: reelectos en 2028 será el mejor año de la historia",
           "link": "https://www.clarin.com/politica/milei-nueva-york-reelectos-2028-mejor-ano-historia_0_dSmkcglc5O.html",
           "imagen": "https://www.clarin.com/img/2026/09/24/nLdGyAJLR_1200x630__1.jpg"
         },
         {
           "medio": "Infobae",
-          "titulo": "Javier Milei asegura en Nueva York que si es reelegido el 2028 será el mejor año económico de la historia argentina",
+          "titulo": "Milei en New York: Si nuestro gobierno es reelecto, 2028 será el mejor año económico",
           "link": "https://www.infobae.com/politica/2026/09/24/milei-en-new-york-si-nuestro-gobierno-es-reelecto-2028-sera-el-mejor-ano-economico-de-la-historia-de-la-argentina/",
           "imagen": "https://www.infobae.com/resizer/v2/XZSOWHMVEZA65MQXJAKEFIAONI.jpg?auth=d76361c24d233f19196d7d352c2376718d48dd2065e2ec1a3accaff059767f43&smart=true&width=3590&height=2393"
         }
@@ -114,7 +114,7 @@
       "cantidad_medios_competencia": 4
     },
     {
-      "tema": "Aprobación general en el Senado de la reforma del Banco Central y retorno a Diputados",
+      "tema": "Aprobación general en el Senado de la reforma de la Carta Orgánica del Banco Central y debate por zonas frías",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
@@ -136,33 +136,33 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Modifica la estructura institucional y monetaria del país, constituyendo una de las batallas legislativas más importantes del periodo.",
-      "insight": "Alta tracción en la agenda parlamentaria con cobertura en vivo por parte de los principales portales políticos.",
+      "por_que_importa": "Modifica aspectos centrales de la arquitectura financiera del Estado y moviliza acuerdos legislativos complejos.",
+      "insight": "Generó cobertura en tiempo real en todos los portales por el peso político de la sesión en la Cámara alta.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Detallar los artículos específicos que sufrieron modificaciones en el recinto para informar con precisión a operadores económicos.",
+      "accion_sugerida": "Desarrollar una guía de lectura rápida sobre qué cambia concretamente para los ciudadanos tras la media sanción.",
       "enfoques_sugeridos": [
-        "El mapa de votos en la Cámara alta: cómo operó el interbloque oficialista.",
-        "Qué cambios sufrió el proyecto original y qué escenario le espera en Diputados."
+        "El porqué de los cambios introducidos y los artículos más resistidos por la oposición.",
+        "El mapa de votos y el escenario que le espera al proyecto en la Cámara de Diputados."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Aprobación general en el Senado de la reforma de la Carta Orgánica del Banco Central y retorno a Diputados",
+          "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central",
           "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
           "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "El oficialismo aprueba con modificaciones la reforma del Banco Central en el Senado, la cual regresa a Diputados",
+          "titulo": "El oficialismo logró activar en el Senado el debate por la reforma",
           "link": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-activar-en-el-senado-el-debate-por-la-reforma-del-banco-central-y-el-regimen-de-nid24092026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/7NNR3LQU65AA3JLBCLGKM3NMHU.JPG?auth=51347ea519571bb7a617c096120728d3499c04d993127a91a035b74943d70b44&smart=true&width=3000&height=2000"
         },
         {
-          "medio": "Infobae",
-          "titulo": "Seguimiento en vivo del Senado sobre modificaciones a la reforma del Banco Central y régimen de zonas frías",
-          "link": "https://www.infobae.com/politica/2026/09/24/senado-en-vivo-las-ultimas-noticias-sobre-la-reforma-de-la-carta-organica-del-bcra-y-el-regimen-de-zonas-frias/",
-          "imagen": "https://www.infobae.com/resizer/v2/RXV2KO234RAVDJ5PHFE5W6VD4U.JPG?auth=9c7d28ebe8d2356b33bc2bd124283ad9bf8f5438f08cf43caabc2e48613c7547&smart=true&width=5472&height=3648"
+          "medio": "TN",
+          "titulo": "Senado: El oficialismo consiguió quórum e intentará aprobar la quita de subsidios",
+          "link": "https://tn.com.ar/politica/2026/09/24/senado-el-oficialismo-consiguio-quorum-e-intentara-aprobar-la-quita-de-subsidios-en-zonas-frias-y-la-reforma-del-bcra/",
+          "imagen": ""
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -170,65 +170,65 @@
       "cantidad_medios_competencia": 4
     },
     {
-      "tema": "Caída de la actividad económica del 2,9% en julio según el INDEC",
+      "tema": "Delegaciones internacionales abandonan la Asamblea General de la ONU durante el discurso de Benjamin Netanyahu",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 4,
+      "total_notas": 5,
       "cantidad_medios": 4,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 3,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 5,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 2,
+      "brecha": 2,
       "cobertura": {
-        "Perfil": 1,
+        "Perfil": 0,
         "La Nación": 1,
         "Clarín": 1,
-        "Infobae": 1,
-        "TN": 0,
+        "Infobae": 2,
+        "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Confirma la desaceleración y el impacto recesivo en el entramado productivo nacional durante el segundo semestre.",
-      "insight": "Generó fuerte repercusión periodística por la contrastación entre los datos oficiales y las declaraciones del equipo económico.",
+      "por_que_importa": "Expone la profundización del aislamiento diplomático de Israel y la tensión geopolítica global en Medio Oriente.",
+      "insight": "Capturó el interés de la audiencia internacional y local por el fuerte componente visual y las repercusiones en directo.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Consultar a cámaras sectoriales industriales para medir el impacto directo en las PyMEs.",
+      "accion_sugerida": "Contextualizar el impacto del discurso en las negociaciones de paz en curso en la franja de Gaza.",
       "enfoques_sugeridos": [
-        "Sector por sector: cuáles fueron los rubros industriales que más cayeron en julio.",
-        "El contrapunto técnico entre la explicación oficial de los funcionarios y las mediciones privadas."
+        "El desglose de las acusaciones cruzadas entre Netanyahu y los representantes europeos.",
+        "El rol de Estados Unidos y las alianzas estratégicas en el organismo internacional."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Caída del 2,9% en la actividad económica en julio según informes del INDEC",
-          "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
+          "medio": "La Nación",
+          "titulo": "Delegaciones abandonan la sala antes del discurso de Netanyahu",
+          "link": "https://www.lanacion.com.ar/el-mundo/delegaciones-abandonan-la-sala-antes-del-discurso-de-netanyahu-y-en-la-onu-el-las-acusa-de-cobardes-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ZX3CHXC4N5EQ7A5YK7GJ6VZQF4.JPG?auth=df9fcffef8c4ffb7c780b4300ac779ad2ab64455b071412c6ceaa665c60904b0&smart=true&width=8339&height=5559"
         },
         {
-          "medio": "La Nación",
-          "titulo": "La economía cayó 2,9% en julio y borró el repunte del mes anterior",
-          "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
+          "medio": "Infobae",
+          "titulo": "Un Netanyahu a la defensiva ante la ONU niega genocidio y ataca a Europa",
+          "link": "https://www.infobae.com/america/agencias/2026/09/24/un-netanyahu-a-la-defensiva-ante-la-onu-niega-genocidio-ataca-a-europa-y-cita-la-biblia/",
           "imagen": ""
         },
         {
-          "medio": "Clarín",
-          "titulo": "INDEC reporta caída del 2,9% en la actividad económica durante julio",
-          "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
-          "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
+          "medio": "TN",
+          "titulo": "Delegados de distintos países abandonaron la Asamblea General de la ONU",
+          "link": "https://tn.com.ar/internacional/2026/09/24/video-delegados-de-distintos-paises-abandonaron-la-asamblea-general-de-la-onu-ante-el-discurso-de-benjamin-netanyahu/",
+          "imagen": "https://tn.com.ar/resizer/v2/23QUW6TMSJJ3YH7COVO7E2WBK4.jpg?auth=01440e7b097284a2293e2addf6b243f28b7ddfd8a0a7a54b1d1c6605b89874d4"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
+      "cantidad_medios_competencia": 4
     }
   ],
   "perfil_pierde": [
     {
-      "tema": "Susan Sarandon detenida en Nueva York en el marco de una protesta contra Benjamin Netanyahu",
+      "tema": "Susan Sarandon detenida en Nueva York durante una protesta contra Benjamin Netanyahu",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
@@ -250,31 +250,31 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La detención de figuras públicas de Hollywood en protestas geopolíticas genera gran interés internacional y viralización en redes.",
-      "insight": "La Nación, Clarín e Infobae cubrieron el arresto de la actriz con enfoque de última hora, superando la única mención aislada de Perfil.",
+      "por_que_importa": "Combina la agenda de espectáculos con la geopolítica internacional a través de figuras de alto perfil.",
+      "insight": "Perfil cubrió el hecho a través de agencias pero La Nación, Clarín e Infobae le destinaron múltiples coberturas específicas.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar el perfil de activismo político de las estrellas de Hollywood y su impacto mediático frente a la política exterior de EE.UU.",
+      "accion_sugerida": "Ampliar el perfil de activismo político de la actriz y su historial de detenciones en protestas previas.",
       "enfoques_sugeridos": [
-        "El historial de detenciones y activismo social de Susan Sarandon en Nueva York.",
-        "La tensión diplomática en la Asamblea General de la ONU reflejada en las calles estadounidenses."
+        "El rol de las celebridades de Hollywood en la polarización política de Estados Unidos.",
+        "Los detalles del arresto y la repercusión en las redes sociales norteamericanas."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Acusaciones de extorsión y amenazas contra el sobrino de Dolly Parton tras el fallecimiento de la artista",
+          "titulo": "Acusación de extorsión contra el sobrino de Dolly Parton",
           "link": "https://www.perfil.com/noticias/protagonistas/acusan-al-sobrino-de-dolly-parton-de-extorsion-y-amenazas-tras-la-muerte-de-la-artista.phtml",
           "imagen": "https://fotos.perfil.com/2026/08/26/trim/540/304/dolly-parton-2311983.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Susan Sarandon detenida en Nueva York durante una protesta contra el primer ministro israelí",
+          "titulo": "Susan Sarandon fue detenida en Nueva York durante una protesta",
           "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
         },
         {
           "medio": "Clarín",
-          "titulo": "Susan Sarandon arrestada en Nueva York durante protesta contra Benjamin Netanyahu",
+          "titulo": "Susan Sarandon detenida en Nueva York durante protesta contra Netanyahu",
           "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
           "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
         }
@@ -284,36 +284,36 @@
       "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Delegaciones internacionales abandonan la Asamblea General de la ONU durante el discurso de Benjamin Netanyahu",
+      "tema": "Encuentro bilateral entre Donald Trump y Xi Jinping en la Casa Blanca con eje en aranceles e inteligencia artificial",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 4,
+      "total_notas": 8,
       "cantidad_medios": 4,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 3,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "competencia_total": 7,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 3,
+      "brecha": 2,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 1,
+        "La Nación": 2,
+        "Clarín": 3,
+        "Infobae": 2,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Evidencia la profunda fractura diplomática global y el aislamiento de ciertos mandatarios en foros multilaterales.",
-      "insight": "Competidores como La Nación y Clarín dedicaron coberturas especiales y videos al desplante diplomático.",
+      "por_que_importa": "Define las reglas comerciales y tecnológicas globales entre las dos superpotencias.",
+      "insight": "La competencia directa abordó el evento con múltiples enfoques analíticos mientras Perfil mantuvo una cobertura mínima.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Analizar el peso simbólico de los boicots diplomáticos en la historia reciente de las Naciones Unidas.",
+      "accion_sugerida": "Analizar el impacto específico de los nuevos aranceles anunciados sobre la economía regional sudamericana.",
       "enfoques_sugeridos": [
-        "El duro cruce verbal y las acusaciones de 'cobardía' cruzadas en el recinto de la ONU.",
-        "Qué países lideraron el éxodo de la sala y cuáles fueron las repercusiones en Medio Oriente."
+        "La trastienda del protocolo militar y los gestos políticos en el Salón Oval.",
+        "El impacto en la industria tecnológica global de los acuerdos sobre superinteligencia."
       ],
       "ejemplos": [
         {
@@ -324,15 +324,15 @@
         },
         {
           "medio": "La Nación",
-          "titulo": "Delegaciones abandonan la sala antes del discurso de Netanyahu y en la ONU él las acusa de cobardes",
-          "link": "https://www.lanacion.com.ar/el-mundo/delegaciones-abandonan-la-sala-antes-del-discurso-de-netanyahu-y-en-la-onu-el-las-acusa-de-cobardes-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZX3CHXC4N5EQ7A5YK7GJ6VZQF4.JPG?auth=df9fcffef8c4ffb7c780b4300ac779ad2ab64455b071412c6ceaa665c60904b0&smart=true&width=8339&height=5559"
+          "titulo": "Trump recibe a Xi en la Casa Blanca: las claves de un encuentro",
+          "link": "https://www.lanacion.com.ar/el-mundo/trump-recibe-a-xi-en-la-casa-blanca-las-claves-de-un-encuentro-entre-la-pompa-y-las-tensiones-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/IYZQ63XJ6ZELRH6RFS42HE27I4.JPG?auth=b14816730c59e2af0b71281e5a15ac5debf7b9dc3a683b6a76305736807de0bd&smart=true&width=6317&height=4211"
         },
         {
-          "medio": "TN",
-          "titulo": "Video: delegados de distintos países abandonaron la Asamblea General de la ONU ante el discurso de Benjamin Netanyahu",
-          "link": "https://tn.com.ar/internacional/2026/09/24/video-delegados-de-distintos-paises-abandonaron-la-asamblea-general-de-la-onu-ante-el-discurso-de-benjamin-netanyahu/",
-          "imagen": "https://tn.com.ar/resizer/v2/23QUW6TMSJJ3YH7COVO7E2WBK4.jpg?auth=01440e7b097284a2293e2addf6b243f28b7ddfd8a0a7a54b1d1c6605b89874d4"
+          "medio": "Clarín",
+          "titulo": "Trump recibe honores militares Xi Jinping Casa Blanca aranceles",
+          "link": "https://www.clarin.com/mundo/trump-recibe-honores-militares-xi-jinping-casa-blanca-aranceles-iran-ia-autos-chinos-agenda_0_7wjDI9awoQ.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/yvReX8yum_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -340,7 +340,7 @@
       "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Aumento de precios en combustibles con excepción de YPF",
+      "tema": "Conductor evade control de tránsito, atropella y arrastra a un inspector municipal en el capot en Nueva Córdoba",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
@@ -362,27 +362,27 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Golpea directamente el bolsillo de los consumidores y altera las expectativas inflacionarias del mes en curso.",
-      "insight": "Clarín y otros competidores realizaron un desglose porcentual exhaustivo por estaciones de servicio, opacando el registro básico de Perfil.",
+      "por_que_importa": "Es un hecho policial de alto impacto viral con fuerte repercusión en medios de todo el país por la violencia urbana.",
+      "insight": "Clarín y portales de alcance federal cubrieron el suceso con mayor profundidad multimedia que la redacción cordobesa de Perfil.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar una tabla comparativa interactiva con los precios vigentes de todas las petroleras en el AMBA y el interior.",
+      "accion_sugerida": "Seguir la evolución judicial del conductor imputado y el parte médico oficial del agente agredido.",
       "enfoques_sugeridos": [
-        "La estrategia comercial de YPF al congelar valores frente a la suba del resto de las marcas.",
-        "El impacto del incremento de naftas en el costo logístico y el transporte público."
+        "La escalada de violencia en los controles viales nocturnos en zonas universitarias.",
+        "El testimonio de los testigos presenciales del operativo fallido."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Aumento de precios en combustibles hasta un 5% por parte de petroleras, con excepción de YPF",
-          "link": "https://www.perfil.com/noticias/economia/salvo-ypf-las-petroleras-aumentaron-las-naftas-hasta-5.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/nafta-2309479.jpg"
+          "titulo": "Nueva Córdoba: evadió un control y arrastró a un inspector en el capot",
+          "link": "https://www.perfil.com/noticias/cordoba/nueva-cordoba-evadio-un-control-y-arrastro-a-un-inspector-en-el-capot-por-cuatro-cuadras.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/24-09-2026-inspector-municipal-arrastrado-por-conductor-nueva-cordoba-2333047.jpeg"
         },
         {
           "medio": "Clarín",
-          "titulo": "Estaciones de servicio aumentan naftas entre un 2,5% y 5% sin participación de YPF",
-          "link": "https://www.clarin.com/energia-y-mineria/suben-naftas-25-5-principales-estaciones-servicio-excepcion-ypf_0_90w51KVVUf.html",
-          "imagen": "https://www.clarin.com/img/2021/02/17/hD2EqwPnr_1200x630__1.jpg"
+          "titulo": "Escapó control tránsito atropelló inspector arrastró cuadras capot",
+          "link": "https://www.clarin.com/sociedad/escapo-control-transito-atropello-inspector-arrastro-cuadras-capot_0_M14khtWx04.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/hKCHBt4u2_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -390,55 +390,55 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Apartan a jugadora cordobesa de la Selección de Pádel por mensaje antisemita y pedido de disculpas",
+      "tema": "Actualización y venta de entradas para la despedida de Lionel Messi de la Selección Argentina",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 2,
+      "total_notas": 6,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 6,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "cobertura_medio_lider": 4,
+      "brecha": 4,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
+        "Perfil": 0,
+        "La Nación": 4,
         "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
+        "Infobae": 0,
+        "TN": 2,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Instala un fuerte debate sobre los límites de la libertad de expresión en redes sociales y la conducta de atletas que representan al país.",
-      "insight": "Infobae y La Nación abordaron el descargo y las repercusiones institucionales con mayor profundidad que la nota local de Perfil.",
+      "por_que_importa": "Moviliza un masivo interés emocional y comercial de toda la audiencia deportiva y general.",
+      "insight": "La Nación y TN desplegaron una cobertura exhaustiva con guías de precios y plataformas, superando la mención aislada.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Consultar a especialistas en derecho deportivo sobre los códigos de ética de las federaciones nacionales.",
+      "accion_sugerida": "Elaborar un servicio interactivo detallando paso a paso cómo evitar estafas en la reventa online.",
       "enfoques_sugeridos": [
-        "El rol de las redes sociales en la carrera de los deportistas de alto rendimiento.",
-        "Los antecedentes de sanciones por discriminación en federaciones deportivas argentinas."
+        "El impacto económico de la demanda récord de tickets para el partido despedida.",
+        "La logística de seguridad prevista en torno al estadio para el evento."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
           "titulo": "Apartan a jugadora cordobesa de la Selección de Pádel por mensaje antisemita",
-          "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-son-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
+          "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-saben-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
           "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/florencia-guerra-sodero-2333273.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Jugadora de pádel excluida de la selección nacional pide disculpas públicas por comentarios antisemitas",
-          "link": "https://www.lanacion.com.ar/deportes/la-jugadora-de-padel-que-fue-excluida-de-la-seleccion-por-sus-comentarios-antisemitas-pidio-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/23IEDP33JNFTZLICDFHPGELG2U.jpg?auth=3476118f7b70589d42da54773d415095ffd90560b3d0308c930030815c00cedf&smart=true&width=910&height=1360"
+          "titulo": "A qué hora empieza hoy la venta de entradas para la despedida de Messi",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-empieza-hoy-la-venta-de-entradas-para-la-despedida-de-messi-de-la-seleccion-argentina-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/OTYY74UT5VAKHLWNNRSC7MFT3Y.JPG?auth=8f2f26e514dd4cbb7574abf56d54ec68d9b830fbe8cbdac5baf9e8b806a06ea6&smart=true&width=3586&height=2391"
         },
         {
-          "medio": "Infobae",
-          "titulo": "Perfil y exclusión de la jugadora cordobesa Florencia Guerra Sodero tras publicaciones antisemitas",
-          "link": "https://www.infobae.com/sociedad/2026/09/24/quien-es-florencia-guerra-sodero-la-cordobesa-que-quedo-fuera-del-panamericano-de-padel-por-publicaciones-antisemitas/",
-          "imagen": "https://www.infobae.com/resizer/v2/PZSHDYY46BFDBKJ2ASVY2XBNV4.jpeg?auth=5b2d3e0add5f7e525ffe4fcdfaf96530db32c98b2595608f0cbf606484cbfae8&smart=true&width=484&height=525"
+          "medio": "TN",
+          "titulo": "Salida nocturna de Lionel Scaloni y su cuerpo técnico en Belgrano",
+          "link": "https://tn.com.ar/deportes/futbol/2026/09/24/la-salida-nocturna-de-lionel-scaloni-y-su-cuerpo-tecnico-fueron-a-un-restaurante-en-belgrano-y-sorprendieron-a-los-vecinos/",
+          "imagen": "https://tn.com.ar/resizer/v2/WCJ2MBLLWZFTTKL7NODIW2NLSM.JPG?auth=e8d8cdd8d35e5a0edc30759fd08b3f3b867ac9fa25aa807e855b0d22c523288e"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -448,181 +448,187 @@
   ],
   "sin_cobertura_perfil": [
     {
-      "tema": "Aumento del riesgo país y caída generalizada de acciones y bonos argentinos",
+      "tema": "Reflexiones de Gabriel Rolón sobre los vínculos amorosos y la naturaleza del deseo",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 12,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 12,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 12,
+      "brecha": 12,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 12,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Los contenidos de psicología y bienestar personal poseen altísimo rendimiento sostenido en buscadores y redes.",
+      "insight": "La Nación publicó múltiples piezas sobre el autor generando un flujo masivo de tráfico orgánico sin respuesta de Perfil.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Entrevistar a referentes de la salud mental sobre los nuevos patrones de vinculación afectiva en la posmodernidad.",
+      "enfoques_sugeridos": [
+        "Por qué el concepto de la media naranja genera frustración en las nuevas generaciones.",
+        "Claves psicoanalíticas para entender la insatisfacción crónica en las parejas actuales."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Gabriel Rolón psicólogo sobre la naturaleza humana: el deseo te incomoda",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-la-naturaleza-humana-el-deseo-te-incomoda-porque-te-senala-la-falta-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Gabriel Rolón sobre el amor: a toda media naranja le falta un gajo",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-el-amor-a-toda-media-naranja-le-falta-al-menos-un-gajo-porque-esa-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Declaraciones del catedrático de Harvard Arthur Brooks sobre la inteligencia y la felicidad a partir de los 40 años",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 4,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": 4,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 4,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Conecta con el bienestar y el desarrollo personal, un nicho de altísima fidelización en Google Discover.",
+      "insight": "La Nación concentró la agenda de contenidos de superación personal sin que Perfil incursionara en esta temática.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Publicar un artículo de curaduría experta sobre los hábitos cotidianos que potencian la claridad mental en la madurez.",
+      "enfoques_sugeridos": [
+        "Cómo evoluciona la inteligencia fluida hacia la inteligencia cristalizada según la ciencia.",
+        "Hábitos diarios recomendados por expertos de Harvard para sostener el bienestar emocional."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Arthur Brooks catedrático de Harvard: hay una inteligencia que nace a los 40",
+          "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-catedratico-de-harvard-de-62-anos-hay-una-inteligencia-que-nace-a-partir-de-los-40-nid19092026/",
+          "imagen": ""
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Arthur Brooks sobre la felicidad: las personas más felices nunca paran",
+          "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-catedratico-de-harvard-sobre-la-felicidad-las-personas-mas-felices-son-las-que-nunca-nid21092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/Z4EOY2RITFGYLATGCA62HVI3AY.jpg?auth=adf982f64ce41fbf686e591e791161a724b9cc67641029e69702dddcd1de810b&smart=true&width=4096&height=2160"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Detalles sobre las últimas horas de Dolly Parton y su colaboración póstuma",
       "prioridad": 0,
       "tipo": "sin_cobertura_perfil",
       "tipo_de_oportunidad": "",
       "total_notas": 2,
-      "cantidad_medios": 2,
+      "cantidad_medios": 1,
       "cobertura_perfil": 0,
       "perfil": 0,
       "competencia_total": 2,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 2,
+      "brecha": 2,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Refleja el nerviosismo de los mercados financieros internacionales frente a la macroeconomía local.",
-      "insight": "Fue una de las noticias económicas más importantes del día para Infobae y Ámbito, mientras Perfil no registró coberturas específicas sobre la suba del indicador.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un panel bursátil diario para captar el tráfico de inversores en Google Discover.",
-      "enfoques_sugeridos": [
-        "Por qué los bonos soberanos volvieron a sufrir una fuerte toma de ganancias en la plaza neoyorquina.",
-        "El impacto directo de la suba del riesgo país en la capacidad de refinanciamiento de las provincias."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Clarín",
-          "titulo": "Riesgo país asciende a 570 puntos y retorna a niveles de cierre de 2025",
-          "link": "https://www.clarin.com/economia/riesgo-pais-sube-570-puntos-vuelve-nivel-cierre-2025_0_Uzg5kuBv51.html",
-          "imagen": "https://www.clarin.com/img/2023/04/24/dc8wSNQfd_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Caída de acciones y bonos argentinos con nuevo repunte del riesgo país",
-          "link": "https://www.infobae.com/economia/2026/09/24/mercados-caen-las-acciones-y-los-bonos-argentinos-y-vuelve-a-subir-el-riesgo-pais/",
-          "imagen": "https://www.infobae.com/resizer/v2/VDLTAZL6Y5DBBF4P2VVNM3GAM4.JPG?auth=5ce39353a5dae94300470af5dd301133f8efeefc348cf47f18461e668adde383&smart=true&width=5672&height=3781"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Críticas de las Madres del Dolor y polémica por video viral de la China Suárez vinculado a seguridad vial",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Combina la agenda de espectáculos con una fuerte discusión ciudadana sobre la responsabilidad en el tránsito y la exposición de menores.",
-      "insight": "Fue cubierto con alto rendimiento de tráfico en portales de entretenimiento y sociedad como Infobae y TN.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Abordar el caso desde la perspectiva legal sobre la responsabilidad de figuras públicas en redes sociales.",
-      "enfoques_sugeridos": [
-        "El reclamo de las organizaciones civiles ante la banalización de normas de tránsito en plataformas digitales.",
-        "La línea gris entre la vida privada y la influencia pública de las celebridades argentinas."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Infobae",
-          "titulo": "Críticas de las Madres del Dolor contra la China Suárez por video viral sobre seguridad vial",
-          "link": "https://www.infobae.com/teleshow/2026/09/24/las-madres-del-dolor-contra-la-china-suarez-luego-de-su-video-viral-utilizo-a-su-hijo-para-burlarse-de-la-seguridad-vial/",
-          "imagen": "https://www.infobae.com/resizer/v2/Y2YUSB6G6VBIFGLDQK3QNQWXDA.jpg?auth=a9b72f2fc0ebe228c87d263e2181e44114f65204712b8a12668a34957b1ad116&smart=true&width=1281&height=1312"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "La CGT evalúa continuidad de su plan de lucha y protestas previas a la visita papal",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Marca la estrategia de confrontación sindical frente al modelo económico y su articulación con la agenda religiosa.",
-      "insight": "Infobae y otros medios políticos destacaron la interna de la central obrera, un flanco no cubierto por Perfil en esta franja horaria.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Entrevistar a referentes gremiales de distintas vertientes para analizar el alcance real de las medidas de fuerza.",
-      "enfoques_sugeridos": [
-        "El dilema de la CGT entre profundizar el paro o negociar mesas sectoriales.",
-        "Cómo impactará la visita papal en la tregua o escalada de los conflictos laborales."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Infobae",
-          "titulo": "CGT evalúa continuidad del plan de lucha y posibles protestas previas a la visita del papa",
-          "link": "https://www.infobae.com/politica/2026/09/24/la-cgt-seguira-con-el-plan-de-lucha-cual-es-la-protesta-que-podrian-hacer-antes-de-la-visita-del-papa/",
-          "imagen": "https://www.infobae.com/resizer/v2/ASCERSBMOJBLBFFR6SDJOM4MUU.jpg?auth=0eef84a192946f4ee2ad651e21806cc2beb5cb54edfa39d20a63684a3aeb0eb5&smart=true&width=1920&height=1277"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "Calificadora de riesgo prevé mejora en crédito corporativo y baja en el consumo para 2027",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
+        "La Nación": 2,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Anticipa el escenario financiero corporativo y el enfriamiento del mercado interno para el próximo año.",
-      "insight": "TN focalizó su sección de economía en este informe corporativo sin correlato en la edición de Perfil.",
+      "por_que_importa": "Las grandes figuras de la cultura internacional generan picos de lectura nostálgica y masiva en buscadores.",
+      "insight": "La Nación y Clarín cubrieron el legado de la artista con notas de color y perfiles biográficos sin cobertura paralela en Perfil.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Analizar los balances de empresas líderes que cotizan en la Bolsa para contrastar con las proyecciones de las calificadoras.",
+      "accion_sugerida": "Preparar un especial multimedia sobre el impacto cultural de su obra musical y filantrópica.",
       "enfoques_sugeridos": [
-        "Qué sectores económicos liderarán la toma de créditos corporativos en 2027.",
-        "El impacto sostenido de la caída del consumo masivo en las cadenas de retail."
+        "El legado musical y los proyectos inéditos que dejó la icónica cantante.",
+        "Cómo se gestó su última colaboración artística antes de su fallecimiento."
       ],
       "ejemplos": [
         {
-          "medio": "TN",
-          "titulo": "Una calificadora prevé que mejorará el crédito para las empresas, pero anticipa que el consumo seguirá en baja en 2027",
-          "link": "https://tn.com.ar/economia/2026/09/24/una-calificadora-preve-que-mejorara-el-credito-para-las-empresas-pero-anticipa-que-el-consumo-seguira-en-baja-en-2027/",
-          "imagen": "https://tn.com.ar/resizer/v2/AADB3V2BPRDSJAWKEBNJV5MMJQ.PNG?auth=333ef66f769e7cc0d4c5892aac9939256543762c9f55f090569d4e2a0866fe73"
+          "medio": "La Nación",
+          "titulo": "Dolly Parton: quién fue la única persona autorizada a verla en su lecho de muerte",
+          "link": "https://www.lanacion.com.ar/espectaculos/personajes/dolly-parton-quien-fue-la-unica-persona-autorizada-a-verla-en-su-lecho-de-muerte-y-la-colaboracion-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/LHDK42IRFNANXAMJ474PV6TOJE.JPG?auth=ab4979af1157c738283489b331bb5643b059344637f2250572d8b2d35c865ff2&smart=true&width=1579&height=1974"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Análisis científico sobre las causas genéticas del sueño vespertino y la siesta",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Los contenidos de salud y bienestar cotidiano traccionan muy bien en redes sociales y motores de búsqueda.",
+      "insight": "La Nación abordó el fenómeno biológico con fuentes médicas especializadas sin réplica en Perfil.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Consultar a neurólogos locales sobre la duración óptima de la siesta para mejorar la productividad.",
+      "enfoques_sugeridos": [
+        "Qué dice la cronobiología sobre la caída de energía pasadas las 14 horas.",
+        "Mitos y verdades acerca de la siesta reparadora en adultos activos."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Jorge Tartaglione médico: el sueño de las 4 de la tarde no es pereza, es genética",
+          "link": "https://www.lanacion.com.ar/sociedad/jorge-tartaglione-medico-el-sueno-de-de-las-4-de-la-tarde-no-es-pereza-es-genetica-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JABDVVIGFJFDVANRID76QTQAEE.jpg?auth=1520b8ad801f6f78276c8d39d8f3400d81ee355345995cd5290be8f9469daacc&smart=true&width=1920&height=1280"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -632,7 +638,51 @@
   ],
   "oportunidades": [
     {
-      "tema": "Provincia de San Juan emite bono por 600 millones de dólares en su regreso al mercado internacional de deuda",
+      "tema": "Difusión de precios estimados para alquileres de verano en Mar del Plata dirigidos a familias tipo",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusiva de un competidor",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Anticipa la planificación vacacional de la clase media en un contexto económico complejo.",
+      "insight": "Solo Clarín abordó la temática de precios turísticos de verano, dejando un espacio libre para que Perfil desarrolle un informe propio.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín anticipó la temporada estival con un relevamiento de costos que genera alto interés práctico en la audiencia.",
+      "accion_sugerida": "Realizar un relevamiento propio consultando a martilleros de la Costa Atlántica sobre valores y reservas.",
+      "enfoques_sugeridos": [
+        "Comparativa de precios de alquileres temporarios respecto al verano anterior.",
+        "Estrategias de los propietarios para captar inquilinos ante la caída del poder adquisitivo."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Dieron a conocer precios alquileres Mar del Plata verano costará familia tipo",
+          "link": "https://www.clarin.com/sociedad/dieron-conocer-precios-alquileres-mar-plata-verano-costara-familia-tipo_0_kNmFkkztIB.html",
+          "imagen": "https://www.clarin.com/img/2023/12/16/ON1KbX5rx_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Investigación sobre redes de trata y desaparición de menores en México",
       "prioridad": 0,
       "tipo": "oportunidades",
       "tipo_de_oportunidad": "Exclusiva de un competidor",
@@ -654,21 +704,21 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Muestra la capacidad de endeudamiento de las provincias en moneda extranjera y el apetito de los inversores por títulos subnacionales.",
-      "insight": "Constituye una oportunidad editorial única para captar tráfico especializado en finanzas y economía regional.",
+      "por_que_importa": "Expone problemáticas criminales transnacionales de fuerte impacto en la agenda de derechos humanos.",
+      "insight": "Infobae operó en solitario con una investigación de largo aliento sobre la crisis de desapariciones.",
       "motivo": "",
-      "motivo_oportunidad": "Infobae fue el único medio en relevar este hito financiero subnacional de gran relevancia para el mercado de capitales argentino.",
-      "accion_sugerida": "Investigar qué otras provincias evalúan emitir deuda en moneda extranjera bajo el nuevo contexto macroeconómico.",
+      "motivo_oportunidad": "Infobae desarrolló un informe de investigación profunda sobre seguridad regional que no tuvo eco en Perfil.",
+      "accion_sugerida": "Reeditar el enfoque conectándolo con las alertas de organismos internacionales de protección infantil en Latinoamérica.",
       "enfoques_sugeridos": [
-        "Destino de los fondos: en qué obras se utilizarán los 600 millones de dólares obtenidos por San Juan.",
-        "El perfil crediticio de las provincias mineras frente a los inversores internacionales."
+        "El modus operandi de las bandas de trata de personas detectadas por inteligencia.",
+        "Testimonios de familiares y la respuesta institucional de los estados involucrados."
       ],
       "ejemplos": [
         {
           "medio": "Infobae",
-          "titulo": "San Juan regresó al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
-          "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
-          "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
+          "titulo": "Qué hay tras la desaparición de los más de 18 mil niños en México",
+          "link": "https://www.infobae.com/mexico/2026/09/24/que-hay-tras-la-desaparicion-de-los-mas-de-18-mil-ninos-en-mexico-redes-de-trata-trabajo-forzado-y-mas/",
+          "imagen": "https://www.infobae.com/resizer/v2/XBDASJC3EZAEVCIZYQQNYGOKXU.png?auth=b7ebc36dab05a3547f36a87542b25d007fbbf6b6a24185561cdf650d235bfa27&smart=true&width=2752&height=1536"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -676,7 +726,51 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Detienen a falsa traductora de inglés que ofrecía servicios profesionales sin título ni matrícula",
+      "tema": "Estudio científico revela similitudes en la segmentación del habla entre el cerebro canino y humano",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Exclusiva de un competidor",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Las notas sobre comportamiento animal y neurociencia generan altísimo CTR y compartidos en plataformas digitales.",
+      "insight": "Clarín cubrió en exclusividad este paper científico, desaprovechado por el resto de los medios.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín publicó un hallazgo de ciencia y mascotas con alto potencial viral en redes sociales.",
+      "accion_sugerida": "Ampliar la noticia consultando a veterinarios etólogos locales sobre cómo interpretan los perros las órdenes complejas.",
+      "enfoques_sugeridos": [
+        "Cómo procesan las palabras los perros a nivel cerebral según los escáneres recientes.",
+        "Consejos prácticos para mejorar la comunicación afectiva con nuestras mascotas."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Descubren cerebro perros segmenta habla igual humanos",
+          "link": "https://www.clarin.com/internacional/descubren-cerebro-perros-segmenta-habla-igual-humanos_0_yo3HtylYN6.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/VyMojk1A7_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Detención a falsa traductora de inglés que ofrecía servicios profesionales sin título ni matrícula",
       "prioridad": 0,
       "tipo": "oportunidades",
       "tipo_de_oportunidad": "Exclusiva de un competidor",
@@ -698,109 +792,21 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Expone las fallas en los controles de matriculación profesional y los riesgos del ejercicio ilegal de actividades técnicas.",
-      "insight": "Es un formato de nota de color policial que funciona muy bien para retención de usuarios en dispositivos móviles.",
+      "por_que_importa": "Ilustra las fallas en los controles de matriculación y los riesgos del fraude en servicios profesionales.",
+      "insight": "TN fue el único medio en relevar este caso policial urbano de interés general.",
       "motivo": "",
-      "motivo_oportunidad": "TN capturó una temática de interés general y policial con alto potencial viral en redes sociales y Google Discover.",
-      "accion_sugerida": "Consultar al Colegio de Traductores Públicos sobre los mecanismos de control y denuncia de falsos profesionales.",
+      "motivo_oportunidad": "TN cubrió un caso de estafa y ejercicio ilegal de la profesión con gran gancho para la audiencia general.",
+      "accion_sugerida": "Desarrollar una guía ciudadana sobre cómo verificar la legalidad de títulos y matrículas profesionales online.",
       "enfoques_sugeridos": [
-        "Cómo operaba la falsa traductora y qué documentos oficiales adulteró para ejercer.",
-        "Los peligros legales de contratar servicios profesionales no matriculados en el ámbito corporativo y judicial."
+        "Cómo operaba la falsa traductora y qué maniobras utilizaba para engañar a sus clientes.",
+        "Los recaudos legales que deben tomar las empresas al contratar servicios de interpretación."
       ],
       "ejemplos": [
         {
           "medio": "TN",
-          "titulo": "Se hacía pasar por traductora de inglés y ofrecía servicios como intérprete: descubrieron que no tenía título ni matrícula",
+          "titulo": "Se hacía pasar por traductora de inglés y ofrecía servicios sin título ni matrícula",
           "link": "https://tn.com.ar/sociedad/2026/09/24/se-hacia-pasar-por-traductora-de-ingles-y-ofrecia-servicios-como-interprete-descubrieron-que-no-tenia-titulo-ni-matricula/",
           "imagen": "https://tn.com.ar/resizer/v2/4OWA3KN5AZHLDK5LMCYVVSZKS4.jpg?auth=ca0d587245e44ac929f1fd56abc7c8601435f0d0f950f5085964466a9464c84d"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "Salida nocturna de Lionel Scaloni y su cuerpo técnico a un restaurante en Belgrano",
-      "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de un competidor",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "La figura del entrenador campeón del mundo moviliza un fuerte interés popular ante cualquier aparición pública.",
-      "insight": "Los contenidos de color sobre figuras de la Scaloneta tienen un rendimiento excepcional en Google Discover por la tarde/noche.",
-      "motivo": "",
-      "motivo_oportunidad": "TN cubrió una nota de color sobre el cuerpo técnico de la Selección que genera inmediata tracción de audiencia futbolera.",
-      "accion_sugerida": "Monitorear las interacciones de figuras públicas en zonas gastronómicas de Buenos Aires para notas de lifestyle.",
-      "enfoques_sugeridos": [
-        "El operativo simpatía: cómo reaccionaron los vecinos del barrio de Belgrano ante la presencia de Scaloni.",
-        "La agenda secreta del cuerpo técnico de la Selección en su visita al país."
-      ],
-      "ejemplos": [
-        {
-          "medio": "TN",
-          "titulo": "La salida nocturna de Lionel Scaloni y su cuerpo técnico: fueron a un restaurante en Belgrano y sorprendieron a los vecinos",
-          "link": "https://tn.com.ar/deportes/futbol/2026/09/24/la-salida-nocturna-de-lionel-scaloni-y-su-cuerpo-tecnico-fueron-a-un-restaurante-en-belgrano-y-sorprendieron-a-los-vecinos/",
-          "imagen": "https://tn.com.ar/resizer/v2/WCJ2MBLLWZFTTKL7NODIW2NLSM.JPG?auth=e8d8cdd8d35e5a0edc30759fd08b3f3b867ac9fa25aa807e855b0d22c523288e"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "Iniciativa del grupo Las Petunias con camiseta benéfica para el Sindicato de Inquilinas tras desahucio",
-      "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de un competidor",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Conecta la cultura pop y la moda alternativa con las luchas sociales actuales por el acceso a la vivienda.",
-      "insight": "Ofrece un ángulo original sobre cómo los artistas utilizan el merchandising para financiar causas habitacionales.",
-      "motivo": "",
-      "motivo_oportunidad": "Infobae abordó un cruce cultural y social internacional sobre la crisis habitacional en Madrid que conecta con problemáticas locales.",
-      "accion_sugerida": "Explorar iniciativas similares de artistas argentinos frente a la crisis de alquileres en el AMBA.",
-      "enfoques_sugeridos": [
-        "De la pasarela a la protesta: cómo la moda urbana se convirtió en herramienta de activismo político.",
-        "El trasfondo del conflicto habitacional en España y su similitud con el mercado locativo en Argentina."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Infobae",
-          "titulo": "Las Petunias convierten en oficial la camiseta pirata de Robert Pattinson y donarán los beneficios al Sindicato de Inquilinas",
-          "link": "https://www.infobae.com/espana/cultura/2026/09/24/las-petunias-convierten-en-oficial-la-camiseta-pirata-de-robert-pattinson-y-donaran-los-beneficios-al-sindicato-de-inquilinas-tras-el-desahucio-de-maricarmen-espero-que-este-orgulloso/",
-          "imagen": "https://www.infobae.com/resizer/v2/ERV2A7NKHVCX3AE4DNO6BVWRRE.png?auth=8fa5735559abd607049bb10c4142a973d49893e5a764f218532465838c5b7574&smart=true&width=3360&height=1890"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -810,206 +816,200 @@
   ],
   "prioridades_del_dia": [
     {
-      "tema": "Aumento del riesgo país y caída generalizada de acciones y bonos argentinos",
+      "tema": "Informe del INDEC sobre la pobreza y la caída de la actividad económica en el primer semestre de 2026",
       "prioridad": 1,
-      "tipo": "sin_cobertura_perfil",
+      "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 2,
-      "cantidad_medios": 2,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 2,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 1,
+      "total_notas": 10,
+      "cantidad_medios": 5,
+      "cobertura_perfil": 2,
+      "perfil": 2,
+      "competencia_total": 8,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 3,
       "brecha": 1,
       "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 1,
+        "Perfil": 2,
+        "La Nación": 2,
+        "Clarín": 2,
+        "Infobae": 3,
+        "TN": 1,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Refleja el impacto directo del plan económico en los indicadores sociales y la recesión en curso.",
+      "insight": "Es el tema económico central de la jornada con cobertura masiva y simultánea en toda la agenda nacional.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Profundizar en un análisis de microdatos geográficos y el mapa de la indigencia para no repetir el cable oficial.",
+      "enfoques_sugeridos": [
+        "Radiografía de las regiones más golpeadas por la pérdida de poder adquisitivo.",
+        "Comparativa técnica entre la caída de la industrialización y la suba de la pobreza."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Oficial: la pobreza escaló al 32,9% en el primer semestre de 2026 según el INDEC",
+          "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-primer-semestre-de-2026-segun-el-indec-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/04/26/trim/540/304/260426pobrezajubiladosadultosindigenciaafpg-2227685.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La pobreza creció a 32,3% en el primer semestre según el INDEC",
+          "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 4
+    },
+    {
+      "tema": "Encuentro bilateral entre Donald Trump y Xi Jinping en la Casa Blanca con eje en aranceles e inteligencia artificial",
+      "prioridad": 2,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 8,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 7,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 3,
+      "brecha": 2,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 2,
+        "Clarín": 3,
+        "Infobae": 2,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Refleja el nerviosismo de los mercados financieros internacionales frente a la macroeconomía local.",
-      "insight": "Fue una de las noticias económicas más importantes del día para Infobae y Ámbito, mientras Perfil no registró coberturas específicas sobre la suba del indicador.",
+      "por_que_importa": "Define las reglas comerciales y tecnológicas globales entre las dos superpotencias.",
+      "insight": "La competencia directa abordó el evento con múltiples enfoques analíticos mientras Perfil mantuvo una cobertura mínima.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un panel bursátil diario para captar el tráfico de inversores en Google Discover.",
+      "accion_sugerida": "Analizar el impacto específico de los nuevos aranceles anunciados sobre la economía regional sudamericana.",
       "enfoques_sugeridos": [
-        "Por qué los bonos soberanos volvieron a sufrir una fuerte toma de ganancias en la plaza neoyorquina.",
-        "El impacto directo de la suba del riesgo país en la capacidad de refinanciamiento de las provincias."
+        "La trastienda del protocolo militar y los gestos políticos en el Salón Oval.",
+        "El impacto en la industria tecnológica global de los acuerdos sobre superinteligencia."
       ],
       "ejemplos": [
         {
-          "medio": "Clarín",
-          "titulo": "Riesgo país asciende a 570 puntos y retorna a niveles de cierre de 2025",
-          "link": "https://www.clarin.com/economia/riesgo-pais-sube-570-puntos-vuelve-nivel-cierre-2025_0_Uzg5kuBv51.html",
-          "imagen": "https://www.clarin.com/img/2023/04/24/dc8wSNQfd_1200x630__1.jpg"
+          "medio": "Perfil",
+          "titulo": "Donald Trump recibió con honores militares a Xi Jinping en la Casa Blanca",
+          "link": "https://www.perfil.com/noticias/internacional/trump-recibio-con-honores-militares-a-xi-jinping-en-la-casa-blanca.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/donald-trump-xi-jinping-20260924-2333216.jpg"
         },
         {
-          "medio": "Infobae",
-          "titulo": "Caída de acciones y bonos argentinos con nuevo repunte del riesgo país",
-          "link": "https://www.infobae.com/economia/2026/09/24/mercados-caen-las-acciones-y-los-bonos-argentinos-y-vuelve-a-subir-el-riesgo-pais/",
-          "imagen": "https://www.infobae.com/resizer/v2/VDLTAZL6Y5DBBF4P2VVNM3GAM4.JPG?auth=5ce39353a5dae94300470af5dd301133f8efeefc348cf47f18461e668adde383&smart=true&width=5672&height=3781"
+          "medio": "La Nación",
+          "titulo": "Trump recibe a Xi en la Casa Blanca: las claves de un encuentro",
+          "link": "https://www.lanacion.com.ar/el-mundo/trump-recibe-a-xi-en-la-casa-blanca-las-claves-de-un-encuentro-entre-la-pompa-y-las-tensiones-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/IYZQ63XJ6ZELRH6RFS42HE27I4.JPG?auth=b14816730c59e2af0b71281e5a15ac5debf7b9dc3a683b6a76305736807de0bd&smart=true&width=6317&height=4211"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
+      "cantidad_medios_competencia": 3
     },
     {
-      "tema": "Provincia de San Juan emite bono por 600 millones de dólares en su regreso al mercado internacional de deuda",
-      "prioridad": 2,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de un competidor",
-      "total_notas": 1,
+      "tema": "Reflexiones de Gabriel Rolón sobre los vínculos amorosos y la naturaleza del deseo",
+      "prioridad": 3,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 12,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
       "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
+      "competencia_total": 12,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 12,
+      "brecha": 12,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
+        "La Nación": 12,
         "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Muestra la capacidad de endeudamiento de las provincias en moneda extranjera y el apetito de los inversores por títulos subnacionales.",
-      "insight": "Constituye una oportunidad editorial única para captar tráfico especializado en finanzas y economía regional.",
-      "motivo": "",
-      "motivo_oportunidad": "Infobae fue el único medio en relevar este hito financiero subnacional de gran relevancia para el mercado de capitales argentino.",
-      "accion_sugerida": "Investigar qué otras provincias evalúan emitir deuda en moneda extranjera bajo el nuevo contexto macroeconómico.",
-      "enfoques_sugeridos": [
-        "Destino de los fondos: en qué obras se utilizarán los 600 millones de dólares obtenidos por San Juan.",
-        "El perfil crediticio de las provincias mineras frente a los inversores internacionales."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Infobae",
-          "titulo": "San Juan regresó al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
-          "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
-          "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "Susan Sarandon detenida en Nueva York en el marco de una protesta contra Benjamin Netanyahu",
-      "prioridad": 3,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 2,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 1,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La detención de figuras públicas de Hollywood en protestas geopolíticas genera gran interés internacional y viralización en redes.",
-      "insight": "La Nación, Clarín e Infobae cubrieron el arresto de la actriz con enfoque de última hora, superando la única mención aislada de Perfil.",
+      "por_que_importa": "Los contenidos de psicología y bienestar personal poseen altísimo rendimiento sostenido en buscadores y redes.",
+      "insight": "La Nación publicó múltiples piezas sobre el autor generando un flujo masivo de tráfico orgánico sin respuesta de Perfil.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar el perfil de activismo político de las estrellas de Hollywood y su impacto mediático frente a la política exterior de EE.UU.",
+      "accion_sugerida": "Entrevistar a referentes de la salud mental sobre los nuevos patrones de vinculación afectiva en la posmodernidad.",
       "enfoques_sugeridos": [
-        "El historial de detenciones y activismo social de Susan Sarandon en Nueva York.",
-        "La tensión diplomática en la Asamblea General de la ONU reflejada en las calles estadounidenses."
+        "Por qué el concepto de la media naranja genera frustración en las nuevas generaciones.",
+        "Claves psicoanalíticas para entender la insatisfacción crónica en las parejas actuales."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Acusaciones de extorsión y amenazas contra el sobrino de Dolly Parton tras el fallecimiento de la artista",
-          "link": "https://www.perfil.com/noticias/protagonistas/acusan-al-sobrino-de-dolly-parton-de-extorsion-y-amenazas-tras-la-muerte-de-la-artista.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/26/trim/540/304/dolly-parton-2311983.jpg"
-        },
-        {
           "medio": "La Nación",
-          "titulo": "Susan Sarandon detenida en Nueva York durante una protesta contra el primer ministro israelí",
-          "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Susan Sarandon arrestada en Nueva York durante protesta contra Benjamin Netanyahu",
-          "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
-          "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
+          "titulo": "Gabriel Rolón psicólogo sobre la naturaleza humana: el deseo te incomoda",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-la-naturaleza-humana-el-deseo-te-incomoda-porque-te-senala-la-falta-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
+      "cantidad_medios_competencia": 1
     }
   ],
   "analisis_completo": {
     "hipercompetencia": [
       {
-        "tema": "El INDEC informó que la pobreza escaló al tercer trimestre/primer semestre de 2026 superando el 32%",
+        "tema": "Informe del INDEC sobre la pobreza y la caída de la actividad económica en el primer semestre de 2026",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 5,
+        "total_notas": 10,
         "cantidad_medios": 5,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 4,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "cobertura_perfil": 2,
+        "perfil": 2,
+        "competencia_total": 8,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 3,
+        "brecha": 1,
         "cobertura": {
-          "Perfil": 1,
-          "La Nación": 1,
-          "Clarín": 1,
-          "Infobae": 1,
+          "Perfil": 2,
+          "La Nación": 2,
+          "Clarín": 2,
+          "Infobae": 3,
           "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "El dato de pobreza e indigencia es el indicador social más sensible de la economía argentina y define el termómetro de la crisis de ingresos.",
-        "insight": "Es el tema central de la agenda económica con cobertura masiva y simultánea en todos los portales de noticias del país.",
+        "por_que_importa": "Refleja el impacto directo del plan económico en los indicadores sociales y la recesión en curso.",
+        "insight": "Es el tema económico central de la jornada con cobertura masiva y simultánea en toda la agenda nacional.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Profundizar el desglose geográfico y por franjas etarias con infografías interactivas para diferenciarse del cable tradicional.",
+        "accion_sugerida": "Profundizar en un análisis de microdatos geográficos y el mapa de la indigencia para no repetir el cable oficial.",
         "enfoques_sugeridos": [
-          "Radiografía de la indigencia: qué regiones sufrieron el mayor impacto interanual.",
-          "El mapa del empleo informal y su correlación directa con la suba de la pobreza."
+          "Radiografía de las regiones más golpeadas por la pérdida de poder adquisitivo.",
+          "Comparativa técnica entre la caída de la actividad industrial y la suba de la pobreza."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "El INDEC informa que la pobreza escaló al 32,9% en el primer semestre de 2026",
-            "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-el-primer-semestre-de-2026-segun-el-indec-a40.phtml",
+            "titulo": "Oficial: la pobreza escaló al 32,9% en el primer semestre de 2026 según el INDEC",
+            "link": "https://www.perfil.com/noticias/economia/oficial-la-pobreza-escalo-al-329-en-primer-semestre-de-2026-segun-el-indec-a40.phtml",
             "imagen": "https://fotos.perfil.com/2026/04/26/trim/540/304/260426pobrezajubiladosadultosindigenciaafpg-2227685.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "La pobreza creció a 32,3% en el primer semestre según el Indec",
+            "titulo": "La pobreza creció a 32,3% en el primer semestre según el INDEC",
             "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
             "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
           },
           {
             "medio": "Clarín",
-            "titulo": "Medición del INDEC ubica la pobreza en el 32,3% para el primer semestre de 2026",
+            "titulo": "Pobreza subió 32,3% primer semestre 2026 medición INDEC",
             "link": "https://www.clarin.com/economia/pobreza-subio-323-primer-semestre-2026-medicion-indec_0_lzofGRGq0Q.html",
             "imagen": "https://www.clarin.com/img/2026/08/03/3qz-0r3ur_1200x630__1.jpg"
           }
@@ -1019,7 +1019,7 @@
         "cantidad_medios_competencia": 4
       },
       {
-        "tema": "Javier Milei proyecta desde Nueva York un 2028 de fuerte crecimiento económico y reelección",
+        "tema": "Javier Milei proyecta desde Nueva York un 2028 de fuerte crecimiento económico si es reelegido",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
@@ -1041,31 +1041,31 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Las proyecciones a largo plazo del Presidente marcan el pulso de las expectativas del mercado financiero y de los inversores extranjeros.",
-        "insight": "Todos los medios nacionales levantaron el discurso presidencial en el exterior enfocándose en la promesa de convertir al 2028 en un año histórico.",
+        "por_que_importa": "Marca la estrategia discursiva del oficialismo a largo plazo y su interlocución con los mercados internacionales.",
+        "insight": "Concentra la atención política con múltiples coberturas simultáneas debido al impacto de las declaraciones presidenciales en el exterior.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Analizar la viabilidad técnica de las proyecciones macroeconómicas prescindiendo del discurso político puro.",
+        "accion_sugerida": "Construir un análisis de factibilidad y contraste con los datos de recesión actuales publicados por el propio INDEC.",
         "enfoques_sugeridos": [
-          "Qué opinan los fondos de inversión en Wall Street sobre las proyecciones a 2028 de Milei.",
-          "El paralelismo entre el discurso en Nueva York y la realidad de los indicadores sociales locales."
+          "El termómetro de Wall Street ante la promesa de reelección y reformas estructurales.",
+          "Análisis del impacto político interno de las proyecciones a cuatro años."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Javier Milei proyecta un 2028 de fuerte crecimiento económico si es reelegido",
+            "titulo": "Milei habló de la reelección y proyectó un 2028 de fuerte crecimiento",
             "link": "https://www.perfil.com/noticias/politica/milei-hablo-de-la-reeleccion-y-proyecto-un-2028-de-fuerte-crecimiento-sera-el-mejor-ano-economico-de-la-historia.phtml",
             "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-2333298.jpg"
           },
           {
             "medio": "Clarín",
-            "titulo": "Javier Milei afirma desde Nueva York que un nuevo mandato convertirá al 2028 en el mejor año de la historia",
+            "titulo": "Milei en Nueva York: reelectos en 2028 será el mejor año de la historia",
             "link": "https://www.clarin.com/politica/milei-nueva-york-reelectos-2028-mejor-ano-historia_0_dSmkcglc5O.html",
             "imagen": "https://www.clarin.com/img/2026/09/24/nLdGyAJLR_1200x630__1.jpg"
           },
           {
             "medio": "Infobae",
-            "titulo": "Javier Milei asegura en Nueva York que si es reelegido el 2028 será el mejor año económico de la historia argentina",
+            "titulo": "Milei en New York: Si nuestro gobierno es reelecto, 2028 será el mejor año económico",
             "link": "https://www.infobae.com/politica/2026/09/24/milei-en-new-york-si-nuestro-gobierno-es-reelecto-2028-sera-el-mejor-ano-economico-de-la-historia-de-la-argentina/",
             "imagen": "https://www.infobae.com/resizer/v2/XZSOWHMVEZA65MQXJAKEFIAONI.jpg?auth=d76361c24d233f19196d7d352c2376718d48dd2065e2ec1a3accaff059767f43&smart=true&width=3590&height=2393"
           }
@@ -1075,7 +1075,7 @@
         "cantidad_medios_competencia": 4
       },
       {
-        "tema": "Aprobación general en el Senado de la reforma del Banco Central y retorno a Diputados",
+        "tema": "Aprobación general en el Senado de la reforma de la Carta Orgánica del Banco Central y debate por zonas frías",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
@@ -1097,33 +1097,33 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Modifica la estructura institucional y monetaria del país, constituyendo una de las batallas legislativas más importantes del periodo.",
-        "insight": "Alta tracción en la agenda parlamentaria con cobertura en vivo por parte de los principales portales políticos.",
+        "por_que_importa": "Modifica aspectos centrales de la arquitectura financiera del Estado y moviliza acuerdos legislativos complejos.",
+        "insight": "Generó cobertura en tiempo real en todos los portales por el peso político de la sesión en la Cámara alta.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Detallar los artículos específicos que sufrieron modificaciones en el recinto para informar con precisión a operadores económicos.",
+        "accion_sugerida": "Desarrollar una guía de lectura rápida sobre qué cambia concretamente para los ciudadanos tras la media sanción.",
         "enfoques_sugeridos": [
-          "El mapa de votos en la Cámara alta: cómo operó el interbloque oficialista.",
-          "Qué cambios sufrió el proyecto original y qué escenario le espera en Diputados."
+          "El porqué de los cambios introducidos y los artículos más resistidos por la oposición.",
+          "El mapa de votos y el escenario que le espera al proyecto en la Cámara de Diputados."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Aprobación general en el Senado de la reforma de la Carta Orgánica del Banco Central y retorno a Diputados",
+            "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central",
             "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
             "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "El oficialismo aprueba con modificaciones la reforma del Banco Central en el Senado, la cual regresa a Diputados",
+            "titulo": "El oficialismo logró activar en el Senado el debate por la reforma",
             "link": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-activar-en-el-senado-el-debate-por-la-reforma-del-banco-central-y-el-regimen-de-nid24092026/",
             "imagen": "https://resizer.glanacion.com/resizer/v2/7NNR3LQU65AA3JLBCLGKM3NMHU.JPG?auth=51347ea519571bb7a617c096120728d3499c04d993127a91a035b74943d70b44&smart=true&width=3000&height=2000"
           },
           {
-            "medio": "Infobae",
-            "titulo": "Seguimiento en vivo del Senado sobre modificaciones a la reforma del Banco Central y régimen de zonas frías",
-            "link": "https://www.infobae.com/politica/2026/09/24/senado-en-vivo-las-ultimas-noticias-sobre-la-reforma-de-la-carta-organica-del-bcra-y-el-regimen-de-zonas-frias/",
-            "imagen": "https://www.infobae.com/resizer/v2/RXV2KO234RAVDJ5PHFE5W6VD4U.JPG?auth=9c7d28ebe8d2356b33bc2bd124283ad9bf8f5438f08cf43caabc2e48613c7547&smart=true&width=5472&height=3648"
+            "medio": "TN",
+            "titulo": "Senado: El oficialismo consiguió quórum e intentará aprobar la quita de subsidios",
+            "link": "https://tn.com.ar/politica/2026/09/24/senado-el-oficialismo-consiguio-quorum-e-intentara-aprobar-la-quita-de-subsidios-en-zonas-frias-y-la-reforma-del-bcra/",
+            "imagen": ""
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1131,65 +1131,65 @@
         "cantidad_medios_competencia": 4
       },
       {
-        "tema": "Caída de la actividad económica del 2,9% en julio según el INDEC",
+        "tema": "Delegaciones internacionales abandonan la Asamblea General de la ONU durante el discurso de Benjamin Netanyahu",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 4,
+        "total_notas": 5,
         "cantidad_medios": 4,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 3,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 5,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 2,
+        "brecha": 2,
         "cobertura": {
-          "Perfil": 1,
+          "Perfil": 0,
           "La Nación": 1,
           "Clarín": 1,
-          "Infobae": 1,
-          "TN": 0,
+          "Infobae": 2,
+          "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Confirma la desaceleración y el impacto recesivo en el entramado productivo nacional durante el segundo semestre.",
-        "insight": "Generó fuerte repercusión periodística por la contrastación entre los datos oficiales y las declaraciones del equipo económico.",
+        "por_que_importa": "Expone la profundización del aislamiento diplomático de Israel y la tensión geopolítica global en Medio Oriente.",
+        "insight": "Capturó el interés de la audiencia internacional y local por el fuerte componente visual y las repercusiones en directo.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Consultar a cámaras sectoriales industriales para medir el impacto directo en las PyMEs.",
+        "accion_sugerida": "Contextualizar el impacto del discurso en las negociaciones de paz en curso en la franja de Gaza.",
         "enfoques_sugeridos": [
-          "Sector por sector: cuáles fueron los rubros industriales que más cayeron en julio.",
-          "El contrapunto técnico entre la explicación oficial de los funcionarios y las mediciones privadas."
+          "El desglose de las acusaciones cruzadas entre Netanyahu y los representantes europeos.",
+          "El rol de Estados Unidos y las alianzas estratégicas en el organismo internacional."
         ],
         "ejemplos": [
           {
-            "medio": "Perfil",
-            "titulo": "Caída del 2,9% en la actividad económica en julio según informes del INDEC",
-            "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
-            "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
+            "medio": "La Nación",
+            "titulo": "Delegaciones abandonan la sala antes del discurso de Netanyahu",
+            "link": "https://www.lanacion.com.ar/el-mundo/delegaciones-abandonan-la-sala-antes-del-discurso-de-netanyahu-y-en-la-onu-el-las-acusa-de-cobardes-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/ZX3CHXC4N5EQ7A5YK7GJ6VZQF4.JPG?auth=df9fcffef8c4ffb7c780b4300ac779ad2ab64455b071412c6ceaa665c60904b0&smart=true&width=8339&height=5559"
           },
           {
-            "medio": "La Nación",
-            "titulo": "La economía cayó 2,9% en julio y borró el repunte del mes anterior",
-            "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
+            "medio": "Infobae",
+            "titulo": "Un Netanyahu a la defensiva ante la ONU niega genocidio y ataca a Europa",
+            "link": "https://www.infobae.com/america/agencias/2026/09/24/un-netanyahu-a-la-defensiva-ante-la-onu-niega-genocidio-ataca-a-europa-y-cita-la-biblia/",
             "imagen": ""
           },
           {
-            "medio": "Clarín",
-            "titulo": "INDEC reporta caída del 2,9% en la actividad económica durante julio",
-            "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
-            "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
+            "medio": "TN",
+            "titulo": "Delegados de distintos países abandonaron la Asamblea General de la ONU",
+            "link": "https://tn.com.ar/internacional/2026/09/24/video-delegados-de-distintos-paises-abandonaron-la-asamblea-general-de-la-onu-ante-el-discurso-de-benjamin-netanyahu/",
+            "imagen": "https://tn.com.ar/resizer/v2/23QUW6TMSJJ3YH7COVO7E2WBK4.jpg?auth=01440e7b097284a2293e2addf6b243f28b7ddfd8a0a7a54b1d1c6605b89874d4"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 3
+        "cantidad_medios_competencia": 4
       }
     ],
     "perfil_pierde": [
       {
-        "tema": "Susan Sarandon detenida en Nueva York en el marco de una protesta contra Benjamin Netanyahu",
+        "tema": "Susan Sarandon detenida en Nueva York durante una protesta contra Benjamin Netanyahu",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
@@ -1211,31 +1211,31 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "La detención de figuras públicas de Hollywood en protestas geopolíticas genera gran interés internacional y viralización en redes.",
-        "insight": "La Nación, Clarín e Infobae cubrieron el arresto de la actriz con enfoque de última hora, superando la única mención aislada de Perfil.",
+        "por_que_importa": "Combina la agenda de espectáculos con la geopolítica internacional a través de figuras de alto perfil.",
+        "insight": "Perfil cubrió el hecho a través de agencias pero La Nación, Clarín e Infobae le destinaron múltiples coberturas específicas.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Ampliar el perfil de activismo político de las estrellas de Hollywood y su impacto mediático frente a la política exterior de EE.UU.",
+        "accion_sugerida": "Ampliar el perfil de activismo político de la actriz y su historial de detenciones en protestas previas.",
         "enfoques_sugeridos": [
-          "El historial de detenciones y activismo social de Susan Sarandon en Nueva York.",
-          "La tensión diplomática en la Asamblea General de la ONU reflejada en las calles estadounidenses."
+          "El rol de las celebridades de Hollywood en la polarización política de Estados Unidos.",
+          "Los detalles del arresto y la repercusión en las redes sociales norteamericanas."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Acusaciones de extorsión y amenazas contra el sobrino de Dolly Parton tras el fallecimiento de la artista",
+            "titulo": "Acusación de extorsión contra el sobrino de Dolly Parton",
             "link": "https://www.perfil.com/noticias/protagonistas/acusan-al-sobrino-de-dolly-parton-de-extorsion-y-amenazas-tras-la-muerte-de-la-artista.phtml",
             "imagen": "https://fotos.perfil.com/2026/08/26/trim/540/304/dolly-parton-2311983.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "Susan Sarandon detenida en Nueva York durante una protesta contra el primer ministro israelí",
+            "titulo": "Susan Sarandon fue detenida en Nueva York durante una protesta",
             "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
             "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
           },
           {
             "medio": "Clarín",
-            "titulo": "Susan Sarandon arrestada en Nueva York durante protesta contra Benjamin Netanyahu",
+            "titulo": "Susan Sarandon detenida en Nueva York durante protesta contra Netanyahu",
             "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
             "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
           }
@@ -1245,36 +1245,36 @@
         "cantidad_medios_competencia": 2
       },
       {
-        "tema": "Delegaciones internacionales abandonan la Asamblea General de la ONU durante el discurso de Benjamin Netanyahu",
+        "tema": "Encuentro bilateral entre Donald Trump y Xi Jinping en la Casa Blanca con eje en aranceles e inteligencia artificial",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
-        "total_notas": 4,
+        "total_notas": 8,
         "cantidad_medios": 4,
         "cobertura_perfil": 1,
         "perfil": 1,
-        "competencia_total": 3,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "competencia_total": 7,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 3,
+        "brecha": 2,
         "cobertura": {
           "Perfil": 1,
-          "La Nación": 1,
-          "Clarín": 0,
-          "Infobae": 1,
-          "TN": 1,
+          "La Nación": 2,
+          "Clarín": 3,
+          "Infobae": 2,
+          "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Evidencia la profunda fractura diplomática global y el aislamiento de ciertos mandatarios en foros multilaterales.",
-        "insight": "Competidores como La Nación y Clarín dedicaron coberturas especiales y videos al desplante diplomático.",
+        "por_que_importa": "Define las reglas comerciales y tecnológicas globales entre las dos superpotencias.",
+        "insight": "La competencia directa abordó el evento con múltiples enfoques analíticos mientras Perfil mantuvo una cobertura mínima.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Analizar el peso simbólico de los boicots diplomáticos en la historia reciente de las Naciones Unidas.",
+        "accion_sugerida": "Analizar el impacto específico de los nuevos aranceles anunciados sobre la economía regional sudamericana.",
         "enfoques_sugeridos": [
-          "El duro cruce verbal y las acusaciones de 'cobardía' cruzadas en el recinto de la ONU.",
-          "Qué países lideraron el éxodo de la sala y cuáles fueron las repercusiones en Medio Oriente."
+          "La trastienda del protocolo militar y los gestos políticos en el Salón Oval.",
+          "El impacto en la industria tecnológica global de los acuerdos sobre superinteligencia."
         ],
         "ejemplos": [
           {
@@ -1285,15 +1285,15 @@
           },
           {
             "medio": "La Nación",
-            "titulo": "Delegaciones abandonan la sala antes del discurso de Netanyahu y en la ONU él las acusa de cobardes",
-            "link": "https://www.lanacion.com.ar/el-mundo/delegaciones-abandonan-la-sala-antes-del-discurso-de-netanyahu-y-en-la-onu-el-las-acusa-de-cobardes-nid24092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/ZX3CHXC4N5EQ7A5YK7GJ6VZQF4.JPG?auth=df9fcffef8c4ffb7c780b4300ac779ad2ab64455b071412c6ceaa665c60904b0&smart=true&width=8339&height=5559"
+            "titulo": "Trump recibe a Xi en la Casa Blanca: las claves de un encuentro",
+            "link": "https://www.lanacion.com.ar/el-mundo/trump-recibe-a-xi-en-la-casa-blanca-las-claves-de-un-encuentro-entre-la-pompa-y-las-tensiones-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/IYZQ63XJ6ZELRH6RFS42HE27I4.JPG?auth=b14816730c59e2af0b71281e5a15ac5debf7b9dc3a683b6a76305736807de0bd&smart=true&width=6317&height=4211"
           },
           {
-            "medio": "TN",
-            "titulo": "Video: delegados de distintos países abandonaron la Asamblea General de la ONU ante el discurso de Benjamin Netanyahu",
-            "link": "https://tn.com.ar/internacional/2026/09/24/video-delegados-de-distintos-paises-abandonaron-la-asamblea-general-de-la-onu-ante-el-discurso-de-benjamin-netanyahu/",
-            "imagen": "https://tn.com.ar/resizer/v2/23QUW6TMSJJ3YH7COVO7E2WBK4.jpg?auth=01440e7b097284a2293e2addf6b243f28b7ddfd8a0a7a54b1d1c6605b89874d4"
+            "medio": "Clarín",
+            "titulo": "Trump recibe honores militares Xi Jinping Casa Blanca aranceles",
+            "link": "https://www.clarin.com/mundo/trump-recibe-honores-militares-xi-jinping-casa-blanca-aranceles-iran-ia-autos-chinos-agenda_0_7wjDI9awoQ.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/yvReX8yum_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1301,7 +1301,7 @@
         "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Aumento de precios en combustibles con excepción de YPF",
+        "tema": "Conductor evade control de tránsito, atropella y arrastra a un inspector municipal en el capot en Nueva Córdoba",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
@@ -1323,27 +1323,27 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Golpea directamente el bolsillo de los consumidores y altera las expectativas inflacionarias del mes en curso.",
-        "insight": "Clarín y otros competidores realizaron un desglose porcentual exhaustivo por estaciones de servicio, opacando el registro básico de Perfil.",
+        "por_que_importa": "Es un hecho policial de alto impacto viral con fuerte repercusión en medios de todo el país por la violencia urbana.",
+        "insight": "Clarín y portales de alcance federal cubrieron el suceso con mayor profundidad multimedia que la redacción cordobesa de Perfil.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Publicar una tabla comparativa interactiva con los precios vigentes de todas las petroleras en el AMBA y el interior.",
+        "accion_sugerida": "Seguir la evolución judicial del conductor imputado y el parte médico oficial del agente agredido.",
         "enfoques_sugeridos": [
-          "La estrategia comercial de YPF al congelar valores frente a la suba del resto de las marcas.",
-          "El impacto del incremento de naftas en el costo logístico y el transporte público."
+          "La escalada de violencia en los controles viales nocturnos en zonas universitarias.",
+          "El testimonio de los testigos presenciales del operativo fallido."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Aumento de precios en combustibles hasta un 5% por parte de petroleras, con excepción de YPF",
-            "link": "https://www.perfil.com/noticias/economia/salvo-ypf-las-petroleras-aumentaron-las-naftas-hasta-5.phtml",
-            "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/nafta-2309479.jpg"
+            "titulo": "Nueva Córdoba: evadió un control y arrastró a un inspector en el capot",
+            "link": "https://www.perfil.com/noticias/cordoba/nueva-cordoba-evadio-un-control-y-arrastro-a-un-inspector-en-el-capot-por-cuatro-cuadras.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/24-09-2026-inspector-municipal-arrastrado-por-conductor-nueva-cordoba-2333047.jpeg"
           },
           {
             "medio": "Clarín",
-            "titulo": "Estaciones de servicio aumentan naftas entre un 2,5% y 5% sin participación de YPF",
-            "link": "https://www.clarin.com/energia-y-mineria/suben-naftas-25-5-principales-estaciones-servicio-excepcion-ypf_0_90w51KVVUf.html",
-            "imagen": "https://www.clarin.com/img/2021/02/17/hD2EqwPnr_1200x630__1.jpg"
+            "titulo": "Escapó control tránsito atropelló inspector arrastró cuadras capot",
+            "link": "https://www.clarin.com/sociedad/escapo-control-transito-atropello-inspector-arrastro-cuadras-capot_0_M14khtWx04.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/hKCHBt4u2_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1351,55 +1351,55 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Apartan a jugadora cordobesa de la Selección de Pádel por mensaje antisemita y pedido de disculpas",
+        "tema": "Actualización y venta de entradas para la despedida de Lionel Messi de la Selección Argentina",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
-        "total_notas": 3,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 2,
+        "total_notas": 6,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 6,
         "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "cobertura_medio_lider": 4,
+        "brecha": 4,
         "cobertura": {
-          "Perfil": 1,
-          "La Nación": 1,
+          "Perfil": 0,
+          "La Nación": 4,
           "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
+          "Infobae": 0,
+          "TN": 2,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Instala un fuerte debate sobre los límites de la libertad de expresión en redes sociales y la conducta de atletas que representan al país.",
-        "insight": "Infobae y La Nación abordaron el descargo y las repercusiones institucionales con mayor profundidad que la nota local de Perfil.",
+        "por_que_importa": "Moviliza un masivo interés emocional y comercial de toda la audiencia deportiva y general.",
+        "insight": "La Nación y TN desplegaron una cobertura exhaustiva con guías de precios y plataformas, superando la mención aislada.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Consultar a especialistas en derecho deportivo sobre los códigos de ética de las federaciones nacionales.",
+        "accion_sugerida": "Elaborar un servicio interactivo detallando paso a paso cómo evitar estafas en la reventa online.",
         "enfoques_sugeridos": [
-          "El rol de las redes sociales en la carrera de los deportistas de alto rendimiento.",
-          "Los antecedentes de sanciones por discriminación en federaciones deportivas argentinas."
+          "El impacto económico de la demanda récord de tickets para el partido despedida.",
+          "La logística de seguridad prevista en torno al estadio para el evento."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
             "titulo": "Apartan a jugadora cordobesa de la Selección de Pádel por mensaje antisemita",
-            "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-son-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
+            "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-saben-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
             "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/florencia-guerra-sodero-2333273.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "Jugadora de pádel excluida de la selección nacional pide disculpas públicas por comentarios antisemitas",
-            "link": "https://www.lanacion.com.ar/deportes/la-jugadora-de-padel-que-fue-excluida-de-la-seleccion-por-sus-comentarios-antisemitas-pidio-nid24092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/23IEDP33JNFTZLICDFHPGELG2U.jpg?auth=3476118f7b70589d42da54773d415095ffd90560b3d0308c930030815c00cedf&smart=true&width=910&height=1360"
+            "titulo": "A qué hora empieza hoy la venta de entradas para la despedida de Messi",
+            "link": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-empieza-hoy-la-venta-de-entradas-para-la-despedida-de-messi-de-la-seleccion-argentina-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/OTYY74UT5VAKHLWNNRSC7MFT3Y.JPG?auth=8f2f26e514dd4cbb7574abf56d54ec68d9b830fbe8cbdac5baf9e8b806a06ea6&smart=true&width=3586&height=2391"
           },
           {
-            "medio": "Infobae",
-            "titulo": "Perfil y exclusión de la jugadora cordobesa Florencia Guerra Sodero tras publicaciones antisemitas",
-            "link": "https://www.infobae.com/sociedad/2026/09/24/quien-es-florencia-guerra-sodero-la-cordobesa-que-quedo-fuera-del-panamericano-de-padel-por-publicaciones-antisemitas/",
-            "imagen": "https://www.infobae.com/resizer/v2/PZSHDYY46BFDBKJ2ASVY2XBNV4.jpeg?auth=5b2d3e0add5f7e525ffe4fcdfaf96530db32c98b2595608f0cbf606484cbfae8&smart=true&width=484&height=525"
+            "medio": "TN",
+            "titulo": "Salida nocturna de Lionel Scaloni y su cuerpo técnico en Belgrano",
+            "link": "https://tn.com.ar/deportes/futbol/2026/09/24/la-salida-nocturna-de-lionel-scaloni-y-su-cuerpo-tecnico-fueron-a-un-restaurante-en-belgrano-y-sorprendieron-a-los-vecinos/",
+            "imagen": "https://tn.com.ar/resizer/v2/WCJ2MBLLWZFTTKL7NODIW2NLSM.JPG?auth=e8d8cdd8d35e5a0edc30759fd08b3f3b867ac9fa25aa807e855b0d22c523288e"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1409,181 +1409,187 @@
     ],
     "sin_cobertura_perfil": [
       {
-        "tema": "Aumento del riesgo país y caída generalizada de acciones y bonos argentinos",
+        "tema": "Reflexiones de Gabriel Rolón sobre los vínculos amorosos y la naturaleza del deseo",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 12,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 12,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 12,
+        "brecha": 12,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 12,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Los contenidos de psicología y bienestar personal poseen altísimo rendimiento sostenido en buscadores y redes.",
+        "insight": "La Nación publicó múltiples piezas sobre el autor generando un flujo masivo de tráfico orgánico sin respuesta de Perfil.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Entrevistar a referentes de la salud mental sobre los nuevos patrones de vinculación afectiva en la posmodernidad.",
+        "enfoques_sugeridos": [
+          "Por qué el concepto de la media naranja genera frustración en las nuevas generaciones.",
+          "Claves psicoanalíticas para entender la insatisfacción crónica en las parejas actuales."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Gabriel Rolón psicólogo sobre la naturaleza humana: el deseo te incomoda",
+            "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-la-naturaleza-humana-el-deseo-te-incomoda-porque-te-senala-la-falta-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Gabriel Rolón sobre el amor: a toda media naranja le falta un gajo",
+            "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-el-amor-a-toda-media-naranja-le-falta-al-menos-un-gajo-porque-esa-nid23092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Declaraciones del catedrático de Harvard Arthur Brooks sobre la inteligencia y la felicidad a partir de los 40 años",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 4,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 4,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 4,
+        "brecha": 4,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 4,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Conecta con el bienestar y el desarrollo personal, un nicho de altísima fidelización en Google Discover.",
+        "insight": "La Nación concentró la agenda de contenidos de superación personal sin que Perfil incursionara en esta temática.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Publicar un artículo de curaduría experta sobre los hábitos cotidianos que potencian la claridad mental en la madurez.",
+        "enfoques_sugeridos": [
+          "Cómo evoluciona la inteligencia fluida hacia la inteligencia cristalizada según la ciencia.",
+          "Hábitos diarios recomendados por expertos de Harvard para sostener el bienestar emocional."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Arthur Brooks catedrático de Harvard: hay una inteligencia que nace a los 40",
+            "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-catedratico-de-harvard-de-62-anos-hay-una-inteligencia-que-nace-a-partir-de-los-40-nid19092026/",
+            "imagen": ""
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Arthur Brooks sobre la felicidad: las personas más felices nunca paran",
+            "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-catedratico-de-harvard-sobre-la-felicidad-las-personas-mas-felices-son-las-que-nunca-nid21092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/Z4EOY2RITFGYLATGCA62HVI3AY.jpg?auth=adf982f64ce41fbf686e591e791161a724b9cc67641029e69702dddcd1de810b&smart=true&width=4096&height=2160"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Detalles sobre las últimas horas de Dolly Parton y su colaboración póstuma",
         "prioridad": 0,
         "tipo": "sin_cobertura_perfil",
         "tipo_de_oportunidad": "",
         "total_notas": 2,
-        "cantidad_medios": 2,
+        "cantidad_medios": 1,
         "cobertura_perfil": 0,
         "perfil": 0,
         "competencia_total": 2,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 2,
+        "brecha": 2,
         "cobertura": {
           "Perfil": 0,
-          "La Nación": 0,
-          "Clarín": 1,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Refleja el nerviosismo de los mercados financieros internacionales frente a la macroeconomía local.",
-        "insight": "Fue una de las noticias económicas más importantes del día para Infobae y Ámbito, mientras Perfil no registró coberturas específicas sobre la suba del indicador.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Desarrollar un panel bursátil diario para captar el tráfico de inversores en Google Discover.",
-        "enfoques_sugeridos": [
-          "Por qué los bonos soberanos volvieron a sufrir una fuerte toma de ganancias en la plaza neoyorquina.",
-          "El impacto directo de la suba del riesgo país en la capacidad de refinanciamiento de las provincias."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Clarín",
-            "titulo": "Riesgo país asciende a 570 puntos y retorna a niveles de cierre de 2025",
-            "link": "https://www.clarin.com/economia/riesgo-pais-sube-570-puntos-vuelve-nivel-cierre-2025_0_Uzg5kuBv51.html",
-            "imagen": "https://www.clarin.com/img/2023/04/24/dc8wSNQfd_1200x630__1.jpg"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Caída de acciones y bonos argentinos con nuevo repunte del riesgo país",
-            "link": "https://www.infobae.com/economia/2026/09/24/mercados-caen-las-acciones-y-los-bonos-argentinos-y-vuelve-a-subir-el-riesgo-pais/",
-            "imagen": "https://www.infobae.com/resizer/v2/VDLTAZL6Y5DBBF4P2VVNM3GAM4.JPG?auth=5ce39353a5dae94300470af5dd301133f8efeefc348cf47f18461e668adde383&smart=true&width=5672&height=3781"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Críticas de las Madres del Dolor y polémica por video viral de la China Suárez vinculado a seguridad vial",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Combina la agenda de espectáculos con una fuerte discusión ciudadana sobre la responsabilidad en el tránsito y la exposición de menores.",
-        "insight": "Fue cubierto con alto rendimiento de tráfico en portales de entretenimiento y sociedad como Infobae y TN.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Abordar el caso desde la perspectiva legal sobre la responsabilidad de figuras públicas en redes sociales.",
-        "enfoques_sugeridos": [
-          "El reclamo de las organizaciones civiles ante la banalización de normas de tránsito en plataformas digitales.",
-          "La línea gris entre la vida privada y la influencia pública de las celebridades argentinas."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Infobae",
-            "titulo": "Críticas de las Madres del Dolor contra la China Suárez por video viral sobre seguridad vial",
-            "link": "https://www.infobae.com/teleshow/2026/09/24/las-madres-del-dolor-contra-la-china-suarez-luego-de-su-video-viral-utilizo-a-su-hijo-para-burlarse-de-la-seguridad-vial/",
-            "imagen": "https://www.infobae.com/resizer/v2/Y2YUSB6G6VBIFGLDQK3QNQWXDA.jpg?auth=a9b72f2fc0ebe228c87d263e2181e44114f65204712b8a12668a34957b1ad116&smart=true&width=1281&height=1312"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      },
-      {
-        "tema": "La CGT evalúa continuidad de su plan de lucha y protestas previas a la visita papal",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Marca la estrategia de confrontación sindical frente al modelo económico y su articulación con la agenda religiosa.",
-        "insight": "Infobae y otros medios políticos destacaron la interna de la central obrera, un flanco no cubierto por Perfil en esta franja horaria.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Entrevistar a referentes gremiales de distintas vertientes para analizar el alcance real de las medidas de fuerza.",
-        "enfoques_sugeridos": [
-          "El dilema de la CGT entre profundizar el paro o negociar mesas sectoriales.",
-          "Cómo impactará la visita papal en la tregua o escalada de los conflictos laborales."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Infobae",
-            "titulo": "CGT evalúa continuidad del plan de lucha y posibles protestas previas a la visita del papa",
-            "link": "https://www.infobae.com/politica/2026/09/24/la-cgt-seguira-con-el-plan-de-lucha-cual-es-la-protesta-que-podrian-hacer-antes-de-la-visita-del-papa/",
-            "imagen": "https://www.infobae.com/resizer/v2/ASCERSBMOJBLBFFR6SDJOM4MUU.jpg?auth=0eef84a192946f4ee2ad651e21806cc2beb5cb54edfa39d20a63684a3aeb0eb5&smart=true&width=1920&height=1277"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      },
-      {
-        "tema": "Calificadora de riesgo prevé mejora en crédito corporativo y baja en el consumo para 2027",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "TN",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 0,
+          "La Nación": 2,
           "Clarín": 0,
           "Infobae": 0,
-          "TN": 1,
+          "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Anticipa el escenario financiero corporativo y el enfriamiento del mercado interno para el próximo año.",
-        "insight": "TN focalizó su sección de economía en este informe corporativo sin correlato en la edición de Perfil.",
+        "por_que_importa": "Las grandes figuras de la cultura internacional generan picos de lectura nostálgica y masiva en buscadores.",
+        "insight": "La Nación y Clarín cubrieron el legado de la artista con notas de color y perfiles biográficos sin cobertura paralela en Perfil.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Analizar los balances de empresas líderes que cotizan en la Bolsa para contrastar con las proyecciones de las calificadoras.",
+        "accion_sugerida": "Preparar un especial multimedia sobre el impacto cultural de su obra musical y filantrópica.",
         "enfoques_sugeridos": [
-          "Qué sectores económicos liderarán la toma de créditos corporativos en 2027.",
-          "El impacto sostenido de la caída del consumo masivo en las cadenas de retail."
+          "El legado musical y los proyectos inéditos que dejó la icónica cantante.",
+          "Cómo se gestó su última colaboración artística antes de su fallecimiento."
         ],
         "ejemplos": [
           {
-            "medio": "TN",
-            "titulo": "Una calificadora prevé que mejorará el crédito para las empresas, pero anticipa que el consumo seguirá en baja en 2027",
-            "link": "https://tn.com.ar/economia/2026/09/24/una-calificadora-preve-que-mejorara-el-credito-para-las-empresas-pero-anticipa-que-el-consumo-seguira-en-baja-en-2027/",
-            "imagen": "https://tn.com.ar/resizer/v2/AADB3V2BPRDSJAWKEBNJV5MMJQ.PNG?auth=333ef66f769e7cc0d4c5892aac9939256543762c9f55f090569d4e2a0866fe73"
+            "medio": "La Nación",
+            "titulo": "Dolly Parton: quién fue la única persona autorizada a verla en su lecho de muerte",
+            "link": "https://www.lanacion.com.ar/espectaculos/personajes/dolly-parton-quien-fue-la-unica-persona-autorizada-a-verla-en-su-lecho-de-muerte-y-la-colaboracion-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/LHDK42IRFNANXAMJ474PV6TOJE.JPG?auth=ab4979af1157c738283489b331bb5643b059344637f2250572d8b2d35c865ff2&smart=true&width=1579&height=1974"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Análisis científico sobre las causas genéticas del sueño vespertino y la siesta",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Los contenidos de salud y bienestar cotidiano traccionan muy bien en redes sociales y motores de búsqueda.",
+        "insight": "La Nación abordó el fenómeno biológico con fuentes médicas especializadas sin réplica en Perfil.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Consultar a neurólogos locales sobre la duración óptima de la siesta para mejorar la productividad.",
+        "enfoques_sugeridos": [
+          "Qué dice la cronobiología sobre la caída de energía pasadas las 14 horas.",
+          "Mitos y verdades acerca de la siesta reparadora en adultos activos."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Jorge Tartaglione médico: el sueño de las 4 de la tarde no es pereza, es genética",
+            "link": "https://www.lanacion.com.ar/sociedad/jorge-tartaglione-medico-el-sueno-de-de-las-4-de-la-tarde-no-es-pereza-es-genetica-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/JABDVVIGFJFDVANRID76QTQAEE.jpg?auth=1520b8ad801f6f78276c8d39d8f3400d81ee355345995cd5290be8f9469daacc&smart=true&width=1920&height=1280"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1593,7 +1599,51 @@
     ],
     "oportunidades": [
       {
-        "tema": "Provincia de San Juan emite bono por 600 millones de dólares en su regreso al mercado internacional de deuda",
+        "tema": "Difusión de precios estimados para alquileres de verano en Mar del Plata dirigidos a familias tipo",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusiva de un competidor",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Anticipa la planificación vacacional de la clase media en un contexto económico complejo.",
+        "insight": "Solo Clarín abordó la temática de precios turísticos de verano, dejando un espacio libre para que Perfil desarrolle un informe propio.",
+        "motivo": "",
+        "motivo_oportunidad": "Clarín anticipó la temporada estival con un relevamiento de costos que genera alto interés práctico en la audiencia.",
+        "accion_sugerida": "Realizar un relevamiento propio consultando a martilleros de la Costa Atlántica sobre valores y reservas.",
+        "enfoques_sugeridos": [
+          "Comparativa de precios de alquileres temporarios respecto al verano anterior.",
+          "Estrategias de los propietarios para captar inquilinos ante la caída del poder adquisitivo."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Dieron a conocer precios alquileres Mar del Plata verano costará familia tipo",
+            "link": "https://www.clarin.com/sociedad/dieron-conocer-precios-alquileres-mar-plata-verano-costara-familia-tipo_0_kNmFkkztIB.html",
+            "imagen": "https://www.clarin.com/img/2023/12/16/ON1KbX5rx_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Investigación sobre redes de trata y desaparición de menores en México",
         "prioridad": 0,
         "tipo": "oportunidades",
         "tipo_de_oportunidad": "Exclusiva de un competidor",
@@ -1615,21 +1665,21 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Muestra la capacidad de endeudamiento de las provincias en moneda extranjera y el apetito de los inversores por títulos subnacionales.",
-        "insight": "Constituye una oportunidad editorial única para captar tráfico especializado en finanzas y economía regional.",
+        "por_que_importa": "Expone problemáticas criminales transnacionales de fuerte impacto en la agenda de derechos humanos.",
+        "insight": "Infobae operó en solitario con una investigación de largo aliento sobre la crisis de desapariciones.",
         "motivo": "",
-        "motivo_oportunidad": "Infobae fue el único medio en relevar este hito financiero subnacional de gran relevancia para el mercado de capitales argentino.",
-        "accion_sugerida": "Investigar qué otras provincias evalúan emitir deuda en moneda extranjera bajo el nuevo contexto macroeconómico.",
+        "motivo_oportunidad": "Infobae desarrolló un informe de investigación profunda sobre seguridad regional que no tuvo eco en Perfil.",
+        "accion_sugerida": "Reeditar el enfoque conectándolo con las alertas de organismos internacionales de protección infantil en Latinoamérica.",
         "enfoques_sugeridos": [
-          "Destino de los fondos: en qué obras se utilizarán los 600 millones de dólares obtenidos por San Juan.",
-          "El perfil crediticio de las provincias mineras frente a los inversores internacionales."
+          "El modus operandi de las bandas de trata de personas detectadas por inteligencia.",
+          "Testimonios de familiares y la respuesta institucional de los estados involucrados."
         ],
         "ejemplos": [
           {
             "medio": "Infobae",
-            "titulo": "San Juan regresó al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
-            "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
-            "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
+            "titulo": "Qué hay tras la desaparición de los más de 18 mil niños en México",
+            "link": "https://www.infobae.com/mexico/2026/09/24/que-hay-tras-la-desaparicion-de-los-mas-de-18-mil-ninos-en-mexico-redes-de-trata-trabajo-forzado-y-mas/",
+            "imagen": "https://www.infobae.com/resizer/v2/XBDASJC3EZAEVCIZYQQNYGOKXU.png?auth=b7ebc36dab05a3547f36a87542b25d007fbbf6b6a24185561cdf650d235bfa27&smart=true&width=2752&height=1536"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1637,7 +1687,51 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Detienen a falsa traductora de inglés que ofrecía servicios profesionales sin título ni matrícula",
+        "tema": "Estudio científico revela similitudes en la segmentación del habla entre el cerebro canino y humano",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Exclusiva de un competidor",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Las notas sobre comportamiento animal y neurociencia generan altísimo CTR y compartidos en plataformas digitales.",
+        "insight": "Clarín cubrió en exclusividad este paper científico, desaprovechado por el resto de los medios.",
+        "motivo": "",
+        "motivo_oportunidad": "Clarín publicó un hallazgo de ciencia y mascotas con alto potencial viral en redes sociales.",
+        "accion_sugerida": "Ampliar la noticia consultando a veterinarios etólogos locales sobre cómo interpretan los perros las órdenes complejas.",
+        "enfoques_sugeridos": [
+          "Cómo procesan las palabras los perros a nivel cerebral según los escáneres recientes.",
+          "Consejos prácticos para mejorar la comunicación afectiva con nuestras mascotas."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Descubren cerebro perros segmenta habla igual humanos",
+            "link": "https://www.clarin.com/internacional/descubren-cerebro-perros-segmenta-habla-igual-humanos_0_yo3HtylYN6.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/VyMojk1A7_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Detención a falsa traductora de inglés que ofrecía servicios profesionales sin título ni matrícula",
         "prioridad": 0,
         "tipo": "oportunidades",
         "tipo_de_oportunidad": "Exclusiva de un competidor",
@@ -1659,109 +1753,21 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Expone las fallas en los controles de matriculación profesional y los riesgos del ejercicio ilegal de actividades técnicas.",
-        "insight": "Es un formato de nota de color policial que funciona muy bien para retención de usuarios en dispositivos móviles.",
+        "por_que_importa": "Ilustra las fallas en los controles de matriculación y los riesgos del fraude en servicios profesionales.",
+        "insight": "TN fue el único medio en relevar este caso policial urbano de interés general.",
         "motivo": "",
-        "motivo_oportunidad": "TN capturó una temática de interés general y policial con alto potencial viral en redes sociales y Google Discover.",
-        "accion_sugerida": "Consultar al Colegio de Traductores Públicos sobre los mecanismos de control y denuncia de falsos profesionales.",
+        "motivo_oportunidad": "TN cubrió un caso de estafa y ejercicio ilegal de la profesión con gran gancho para la audiencia general.",
+        "accion_sugerida": "Desarrollar una guía ciudadana sobre cómo verificar la legalidad de títulos y matrículas profesionales online.",
         "enfoques_sugeridos": [
-          "Cómo operaba la falsa traductora y qué documentos oficiales adulteró para ejercer.",
-          "Los peligros legales de contratar servicios profesionales no matriculados en el ámbito corporativo y judicial."
+          "Cómo operaba la falsa traductora y qué maniobras utilizaba para engañar a sus clientes.",
+          "Los recaudos legales que deben tomar las empresas al contratar servicios de interpretación."
         ],
         "ejemplos": [
           {
             "medio": "TN",
-            "titulo": "Se hacía pasar por traductora de inglés y ofrecía servicios como intérprete: descubrieron que no tenía título ni matrícula",
+            "titulo": "Se hacía pasar por traductora de inglés y ofrecía servicios sin título ni matrícula",
             "link": "https://tn.com.ar/sociedad/2026/09/24/se-hacia-pasar-por-traductora-de-ingles-y-ofrecia-servicios-como-interprete-descubrieron-que-no-tenia-titulo-ni-matricula/",
             "imagen": "https://tn.com.ar/resizer/v2/4OWA3KN5AZHLDK5LMCYVVSZKS4.jpg?auth=ca0d587245e44ac929f1fd56abc7c8601435f0d0f950f5085964466a9464c84d"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      },
-      {
-        "tema": "Salida nocturna de Lionel Scaloni y su cuerpo técnico a un restaurante en Belgrano",
-        "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusiva de un competidor",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "TN",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 0,
-          "TN": 1,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "La figura del entrenador campeón del mundo moviliza un fuerte interés popular ante cualquier aparición pública.",
-        "insight": "Los contenidos de color sobre figuras de la Scaloneta tienen un rendimiento excepcional en Google Discover por la tarde/noche.",
-        "motivo": "",
-        "motivo_oportunidad": "TN cubrió una nota de color sobre el cuerpo técnico de la Selección que genera inmediata tracción de audiencia futbolera.",
-        "accion_sugerida": "Monitorear las interacciones de figuras públicas en zonas gastronómicas de Buenos Aires para notas de lifestyle.",
-        "enfoques_sugeridos": [
-          "El operativo simpatía: cómo reaccionaron los vecinos del barrio de Belgrano ante la presencia de Scaloni.",
-          "La agenda secreta del cuerpo técnico de la Selección en su visita al país."
-        ],
-        "ejemplos": [
-          {
-            "medio": "TN",
-            "titulo": "La salida nocturna de Lionel Scaloni y su cuerpo técnico: fueron a un restaurante en Belgrano y sorprendieron a los vecinos",
-            "link": "https://tn.com.ar/deportes/futbol/2026/09/24/la-salida-nocturna-de-lionel-scaloni-y-su-cuerpo-tecnico-fueron-a-un-restaurante-en-belgrano-y-sorprendieron-a-los-vecinos/",
-            "imagen": "https://tn.com.ar/resizer/v2/WCJ2MBLLWZFTTKL7NODIW2NLSM.JPG?auth=e8d8cdd8d35e5a0edc30759fd08b3f3b867ac9fa25aa807e855b0d22c523288e"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      },
-      {
-        "tema": "Iniciativa del grupo Las Petunias con camiseta benéfica para el Sindicato de Inquilinas tras desahucio",
-        "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusiva de un competidor",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Conecta la cultura pop y la moda alternativa con las luchas sociales actuales por el acceso a la vivienda.",
-        "insight": "Ofrece un ángulo original sobre cómo los artistas utilizan el merchandising para financiar causas habitacionales.",
-        "motivo": "",
-        "motivo_oportunidad": "Infobae abordó un cruce cultural y social internacional sobre la crisis habitacional en Madrid que conecta con problemáticas locales.",
-        "accion_sugerida": "Explorar iniciativas similares de artistas argentinos frente a la crisis de alquileres en el AMBA.",
-        "enfoques_sugeridos": [
-          "De la pasarela a la protesta: cómo la moda urbana se convirtió en herramienta de activismo político.",
-          "El trasfondo del conflicto habitacional en España y su similitud con el mercado locativo en Argentina."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Infobae",
-            "titulo": "Las Petunias convierten en oficial la camiseta pirata de Robert Pattinson y donarán los beneficios al Sindicato de Inquilinas",
-            "link": "https://www.infobae.com/espana/cultura/2026/09/24/las-petunias-convierten-en-oficial-la-camiseta-pirata-de-robert-pattinson-y-donaran-los-beneficios-al-sindicato-de-inquilinas-tras-el-desahucio-de-maricarmen-espero-que-este-orgulloso/",
-            "imagen": "https://www.infobae.com/resizer/v2/ERV2A7NKHVCX3AE4DNO6BVWRRE.png?auth=8fa5735559abd607049bb10c4142a973d49893e5a764f218532465838c5b7574&smart=true&width=3360&height=1890"
           }
         ],
         "medios_que_mas_publicaron": [],
