@@ -738,52 +738,75 @@ img {
 }
 
 
-/* =========================
-   POR QUÉ IMPORTA
-========================= */
+/* =========================================================
+   POR QUÉ IMPORTA — PRINCIPAL
+   ========================================================= */
 
 .detail-importance {
-  background: #f5f8fb;
-
-  border-color: #dce5ed;
+  padding: 16px 18px;
+  background: #f1f5f9;
+  border: 1px solid #d9e3ec;
+  border-left: 4px solid #6286b1;
 }
 
 .detail-importance .detail-card-label {
-  color: #6286b1;
+  color: #52779f;
+  font-size: 10px;
 }
 
 .detail-importance p {
-  color: #3f4e5b;
+  color: #354554;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 
-/* =========================
-   INSIGHT
-========================= */
+/* =========================================================
+   INSIGHT — MISMO TAMAÑO, COLOR MÁS CLARO
+   ========================================================= */
 
 .detail-insight {
-  background: #ffffff;
+  padding: 16px 18px;
+  background: #f6f8fa;
+  border: 1px solid #e2e8ed;
+  border-left: 4px solid #9db4c8;
+}
+
+.detail-insight .detail-card-label {
+  color: #6f8da8;
+  font-size: 10px;
+}
+
+.detail-insight p {
+  color: #4f6271;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 
-/* =========================
-   ACCIÓN SUGERIDA
-========================= */
+/* =========================================================
+   ACCIÓN SUGERIDA — MISMO TAMAÑO, MÁS NEUTRA
+   ========================================================= */
 
 .detail-action {
-  background: #edf4f9;
-
-  border-color: #d4e1eb;
+  padding: 16px 18px;
+  background: #fafbfc;
+  border: 1px solid #e9edf0;
+  border-left: 4px solid #c5ced5;
 }
 
 .detail-action .detail-card-label {
-  color: #6286b1;
+  color: #7f8b94;
+  font-size: 10px;
 }
 
 .detail-action p {
-  color: #354a5d;
-
-  font-weight: 700;
+  color: #66727c;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 
