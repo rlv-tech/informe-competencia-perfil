@@ -1,56 +1,106 @@
 {
-  "fecha_analisis": "2026-09-24",
+  "fecha_analisis": "Fri, 25 Sep 2026",
   "hipercompetencia": [
     {
-      "tema": "Informe oficial del INDEC sobre la contracción de la actividad económica en julio y suba de pobreza",
+      "tema": "Aprobación del recorte de subsidios por reforma del régimen de Zona Fría en el Senado",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 9,
-      "cantidad_medios": 5,
-      "cobertura_perfil": 2,
-      "perfil": 2,
-      "competencia_total": 7,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 3,
-      "brecha": 1,
+      "total_notas": 5,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 3,
+      "perfil": 3,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
       "cobertura": {
-        "Perfil": 2,
-        "La Nación": 2,
-        "Clarín": 3,
+        "Perfil": 3,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Impacta directamente en las tarifas de gas de miles de hogares en el interior del país, generando fuerte repercusión social y política.",
+      "insight": "Es el tema económico y político con mayor tracción en la agenda de medios nacionales de la jornada.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Profundizar el análisis con simuladores de tarifas o notas de servicio detalladas sobre qué regiones pierden el beneficio de manera exacta.",
+      "enfoques_sugeridos": [
+        "Mapa interactivo de las localidades que quedan excluidas del subsidio.",
+        "Análisis del impacto económico directo en las pymes y hogares de las provincias afectadas."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "El Senado aprobó el recorte de zona fría: cómo votaron los senadores de Córdoba y quiénes perderán el subsidio al gas",
+          "link": "https://www.perfil.com/noticias/cordoba/el-senado-aprobo-el-recorte-de-zona-fria-como-votaron-los-senadores-de-cordoba-y-quienes-perderan-el-subsidio-al-gas.phtml",
+          "imagen": "https://fotos.perfil.com/2025/07/04/trim/540/304/calefaccion-en-la-ola-de-frio-cual-es-el-mejor-sistema-2055443.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "El Senado sancionó el recorte de subsidios al gas; Javier Milei se reunió con Benjamin Netanyahu en...",
+          "link": "https://www.lanacion.com.ar/sociedad/el-senado-sanciono-el-recorte-de-subsidios-al-gas-javier-milei-se-reunio-con-benjamin-netanyahu-en-nid25092026/",
+          "imagen": ""
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Visita oficial del papa León XIV a Francia y discursos sobre IA y ética",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 5,
+      "cantidad_medios": 5,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 4,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
         "Infobae": 1,
         "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "El dato de caída de la actividad económica y el incremento de la pobreza reflejan el impacto directo del ajuste en el poder adquisitivo y la macroeconomía argentina.",
-      "insight": "Es el tema central de la agenda económica del día con masiva presencia y cobertura simultánea en todos los portales informativos del país.",
+      "por_que_importa": "La postura de la Iglesia Católica sobre la inteligencia artificial y la bioética genera interés global y debate en múltiples sectores intelectuales.",
+      "insight": "Varios medios jerarquizan la gira papal combinándola con la agenda geopolítica europea.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar el análisis sectorial de la caída con infografías interactivas para destacar el contraste que Perfil aún no cubrió en profundidad.",
+      "accion_sugerida": "Ampliar con crónicas de enviado especial o reacciones de los principales referentes tecnológicos locales ante las advertencias éticas del Sumo Pontífice.",
       "enfoques_sugeridos": [
-        "Radiografía por provincias y sectores más golpeados por la contracción de julio.",
-        "Análisis de la disparidad entre la desaceleración inflacionaria y el retroceso de los ingresos familiares."
+        "El choque entre la rápida adopción de la inteligencia artificial y los límites morales propuestos por el Vaticano.",
+        "Las repercusiones diplomáticas de los mensajes de León XIV en suelo francés."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Informe del INDEC sobre la caída de la actividad económica en julio",
-          "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
+          "titulo": "En París, León XIV habló de IA y criticó la gestación subrogada y la venta de órganos",
+          "link": "https://www.perfil.com/noticias/internacional/en-paris-leon-xiv-hablo-de-ia-y-critico-la-gestacion-subrogada-y-la-venta-de-organos.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/visita-del-papa-leon-xiv-2332960.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "La economía cayó 2,9% en julio y borró el repunte del mes anterior",
-          "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
+          "titulo": "El papa León XIV llegó a Francia: de su advertencia sobre la IA a una nueva crítica velada a Trump",
+          "link": "https://www.lanacion.com.ar/el-mundo/el-papa-leon-xiv-llego-a-francia-de-su-advertencia-sobre-la-ia-a-una-nueva-critica-velada-a-trump-nid25092026/",
           "imagen": ""
         },
         {
           "medio": "Clarín",
-          "titulo": "Actividad económica cayó 2,9% en julio, informó el INDEC",
-          "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
-          "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
+          "titulo": "León XIV llegó a Francia en la primera visita oficial de un Papa en 18 años: encuentro con Macron, visita a Notre Dame y advertencia",
+          "link": "https://www.clarin.com/mundo/leon-xiv-llego-francia-primera-visita-oficial-papa-18-anos-encuentro-macron-visita-notre-dame-advertencia_0_78PqX77FA3.html",
+          "imagen": "https://www.clarin.com/img/2026/09/25/qTZz_G_rQ_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -58,119 +108,7 @@
       "cantidad_medios_competencia": 4
     },
     {
-      "tema": "Declaraciones de Javier Milei en Nueva York sobre proyecciones económicas hacia 2028 y reelección",
-      "prioridad": 0,
-      "tipo": "hipercompetencia",
-      "tipo_de_oportunidad": "",
-      "total_notas": 7,
-      "cantidad_medios": 5,
-      "cobertura_perfil": 2,
-      "perfil": 2,
-      "competencia_total": 5,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": 0,
-      "cobertura": {
-        "Perfil": 2,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 1,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "El posicionamiento internacional del Presidente y sus expectativas a mediano plazo marcan el pulso político y la confianza de los inversores extranjeros.",
-      "insight": "Concentra la máxima atención de la prensa nacional con coberturas en simultáneo desde los principales medios digitales e internacionales.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Evitar la mera reproducción del discurso presidencial y contrastar las metas proyectadas con los informes de riesgo país actuales.",
-      "enfoques_sugeridos": [
-        "Recepción real de los inversores en Wall Street frente a las promesas de crecimiento récord.",
-        "Lectura política interna del mensaje presidencial pensando en el armado electoral futuro."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Declaraciones de Javier Milei sobre su reelección y proyecciones económicas para 2028",
-          "link": "https://www.perfil.com/noticias/politica/milei-hablo-de-la-reeleccion-y-proyecto-un-2028-de-fuerte-crecimiento-sera-el-mejor-ano-economico-de-la-historia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-2333298.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Milei en Nueva York: reelectos en 2028 será el mejor año de la historia",
-          "link": "https://www.clarin.com/politica/milei-nueva-york-reelectos-2028-mejor-ano-historia_0_dSmkcglc5O.html",
-          "imagen": "https://www.clarin.com/img/2026/09/24/nLdGyAJLR_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Milei en New York: Si nuestro gobierno es reelecto, 2028 será el mejor año económico de la historia de la Argentina",
-          "link": "https://www.infobae.com/politica/2026/09/24/milei-en-new-york-si-nuestro-gobierno-es-reelecto-2028-sera-el-mejor-ano-economico-de-la-historia-de-la-argentina/",
-          "imagen": "https://www.infobae.com/resizer/v2/XZSOWHMVEZA65MQXJAKEFIAONI.jpg?auth=d76361c24d233f19196d7d352c2376718d48dd2065e2ec1a3accaff059767f43&smart=true&width=3590&height=2393"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 4
-    },
-    {
-      "tema": "Aprobación y debate en el Senado sobre la reforma de la Carta Orgánica del Banco Central y zonas frías",
-      "prioridad": 0,
-      "tipo": "hipercompetencia",
-      "tipo_de_oportunidad": "",
-      "total_notas": 6,
-      "cantidad_medios": 5,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 5,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 1,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Define cambios estructurales en la política monetaria y el régimen de subsidios tarifarios con alto impacto en las provincias.",
-      "insight": "Movilizó a la mayor parte de las redacciones por tratarse de un hito legislativo clave en la agenda parlamentaria del día.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Elaborar una guía práctica sobre cómo impactará la modificación del régimen de zonas frías en las facturas de los usuarios.",
-      "enfoques_sugeridos": [
-        "El mapa de alianzas y tensiones que debió tejer el oficialismo para destrabar el quorum.",
-        "Alcances técnicos y consecuencias monetarias de la reforma del Banco Central aprobada."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central y zonas frías",
-          "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "El oficialismo logró activar en el Senado el debate por la reforma del Banco Central y el régimen de zonas frías",
-          "link": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-activar-en-el-senado-el-debate-por-la-reforma-del-banco-central-y-el-regimen-de-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/7NNR3LQU65AA3JLBCLGKM3NMHU.JPG?auth=51347ea519571bb7a617c096120728d3499c04d993127a91a035b74943d70b44&smart=true&width=3000&height=2000"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Senado en vivo: las últimas noticias sobre la reforma de la carta orgánica del BCRA y el régimen de zonas frías",
-          "link": "https://www.infobae.com/politica/2026/09/24/senado-en-vivo-las-ultimas-noticias-sobre-la-reforma-de-la-carta-organica-del-bcra-y-el-regimen-de-zonas-frias/",
-          "imagen": "https://www.infobae.com/resizer/v2/RXV2KO234RAVDJ5PHFE5W6VD4U.JPG?auth=9c7d28ebe8d2356b33bc2bd124283ad9bf8f5438f08cf43caabc2e48613c7547&smart=true&width=5472&height=3648"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 4
-    },
-    {
-      "tema": "Detención de la actriz Susan Sarandon en protesta contra Netanyahu en Nueva York",
+      "tema": "Indemnizaciones de Apple a usuarios argentinos por reducción de rendimiento en dispositivos",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
@@ -186,56 +124,118 @@
         "Perfil": 0,
         "La Nación": 1,
         "Clarín": 1,
-        "Infobae": 1,
-        "TN": 0,
+        "Infobae": 0,
+        "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Combina la agenda internacional de alto voltaje político con el atractivo de las figuras de Hollywood involucradas en causas globales.",
-      "insight": "Generó alto tráfico en redes sociales y posicionamiento orgánico en buscadores por su perfil viral para Google Discover.",
+      "por_que_importa": "Afecta a una gran masa de consumidores tecnológicos en el país con expectativas de compensación económica.",
+      "insight": "Los portales de noticias posicionan rápidamente notas de servicio sobre cómo iniciar reclamos por obsolescencia programada.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar el trasfondo del conflicto diplomático que motivó la protesta en la sede de la ONU en Nueva York.",
+      "accion_sugerida": "Elaborar una guía paso a paso para verificar si el modelo del usuario califica para el resarcimiento económico.",
       "enfoques_sugeridos": [
-        "El historial de activismo político y judicial de las estrellas de cine en Estados Unidos.",
-        "La tensión creciente en la Asamblea General de la ONU ante la presencia de líderes internacionales."
+        "Requisitos legales y modelos de iPhone incluidos en el acuerdo de indemnización.",
+        "El antecedente de las demandas colectivas contra gigantes tecnológicos en América Latina."
       ],
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Susan Sarandon fue detenida en Nueva York durante una protesta contra el primer ministro israelí",
-          "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
+          "titulo": "Apple indemnizará a usuarios de Argentina por una baja en el rendimiento del iPhone: quiénes pueden...",
+          "link": "https://www.lanacion.com.ar/tecnologia/apple-indemnizara-usuarios-de-argentina-por-una-baja-en-el-rendimiento-del-iphone-quienes-pueden-nid25092026/",
+          "imagen": ""
         },
         {
           "medio": "Clarín",
-          "titulo": "Susan Sarandon, detenida en Nueva York durante protesta contra Netanyahu",
-          "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
-          "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
+          "titulo": "Apple indemnizará a usuarios de Argentina por baja en rendimiento de iPhone: quiénes pueden reclamar y cuánto cobrarán",
+          "link": "https://www.clarin.com/tecnologia/apple-indemnizara-usuarios-argentina-baja-rendimiento-iphone-pueden-reclamar-cobraran_0_3M5YvKT9C4.html",
+          "imagen": "https://www.clarin.com/img/2024/03/21/Ix9ilc2T8_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Apple prometió una solución para una falla que estorbó a los primeros compradores del iPhone 18",
+          "link": "https://tn.com.ar/tecno/novedades/2026/09/25/apple-prometio-una-solucion-para-una-falla-que-estorbo-a-los-primeros-compradores-del-iphone-18/",
+          "imagen": "https://tn.com.ar/resizer/v2/Q5GCYCVUUBFTFB5HGVVDSFZSNM.jpg?auth=a90a22e92d2e9b95e37c33743c2d9b852595f36432521279c6076616b02fc7e4"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
       "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Cena oficial en la Casa Blanca entre Donald Trump, Xi Jinping y líderes de Inteligencia Artificial",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 5,
+      "cantidad_medios": 5,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 4,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 1,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Congela y redefine las tensiones geopolíticas y comerciales globales entre Estados Unidos y China con eje en la tecnología.",
+      "insight": "La cobertura se concentra en el impacto diplomático y la presencia de los magnates tecnológicos más influyentes del mundo.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Analizar las consecuencias directas de este cónclave sobre el mercado de semiconductores y la economía global.",
+      "enfoques_sugeridos": [
+        "El rol de los gigantes tecnológicos como mediadores en la nueva Guerra Fría comercial.",
+        "Los acuerdos secretos sobre regulaciones de IA pactados en Washington."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Donald Trump celebró una cena en la Casa Blanca con Xi Jinping y los grandes referentes de la Inteligencia Artificial",
+          "link": "https://www.perfil.com/noticias/internacional/donald-trump-celebro-una-cena-en-la-casa-blanca-con-xi-jinping-y-los-grandes-referentes-de-la-inteligencia-artificial.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/donald-trump-xi-jinping-20260924-2333216.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Donald Trump se reunió con gigantes de inteligencia artificial y Xi Jinping en la Casa Blanca",
+          "link": "https://www.clarin.com/mundo/donald-trump-reunio-gigantes-inteligencia-artificial-xi-jinping-casa-blanca_0_5njMyCe49W.html",
+          "imagen": "https://www.clarin.com/img/2026/09/25/6JNGLI22w_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Desde Elon Musk hasta Mark Zuckerberg: quiénes fueron los invitados a la cena de Estado entre Donald Trump y Xi Jinping",
+          "link": "https://tn.com.ar/internacional/2026/09/25/los-4-puntos-clave-de-la-cumbre-entre-trump-y-xi-jinping-en-eeuu-la-rivalidad-por-la-ia-y-la-tension-por-la-guerra-comercial/",
+          "imagen": "https://tn.com.ar/resizer/v2/4E76X5QWOY6OMCGVRTYZPMSN5E.jpg?auth=7b524b686965ea81c5abc08e23ab3e2d33c37fd4bf12c7b0a88fc590ffe5a291"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 4
     }
   ],
   "perfil_pierde": [
     {
-      "tema": "Conductor evasor de control de tránsito arrastra a inspector en Córdoba",
+      "tema": "Avances judiciales en el caso Agostina Vega e imputación a Claudio Barrelier",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 2,
+      "total_notas": 3,
       "cantidad_medios": 2,
-      "cobertura_perfil": 1,
-      "perfil": 1,
+      "cobertura_perfil": 2,
+      "perfil": 2,
       "competencia_total": 1,
       "medio_lider": "Clarín",
       "cobertura_medio_lider": 1,
       "brecha": 0,
       "cobertura": {
-        "Perfil": 1,
+        "Perfil": 2,
         "La Nación": 0,
         "Clarín": 1,
         "Infobae": 0,
@@ -244,27 +244,27 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Es un hecho policial de fuerte impacto local y viralización nacional que moviliza el interés de la audiencia por la inseguridad vial.",
-      "insight": "La Nación y Clarín superaron a Perfil en la cobertura exhaustiva y el seguimiento en tiempo real del incidente cordobés.",
+      "por_que_importa": "Es un caso policial de alta sensibilidad pública que mantiene en vilo a la opinión pública por las pruebas presentadas.",
+      "insight": "La competencia supera el volumen de notas publicadas por Perfil con enfoques multiplataforma y exclusivos de tribunales.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Realizar un seguimiento con la evolución de la salud del agente agredido y la situación judicial del automovilista.",
+      "accion_sugerida": "Hacer un seguimiento riguroso de las pericias telefónicas y las próximas citaciones a indagatoria.",
       "enfoques_sugeridos": [
-        "Entrevista exclusiva con testigos presenciales del operativo en Nueva Córdoba.",
-        "Estadísticas sobre agresiones a inspectores municipales de tránsito en el interior del país."
+        "El análisis criminológico de las pruebas digitales halladas en los dispositivos secuestrados.",
+        "El rol de la querella y los pasos procesales que definirán la elevación a juicio."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Nueva Córdoba: evadió un control y arrastró a un inspector en el capot por cuatro cuadras",
-          "link": "https://www.perfil.com/noticias/cordoba/nueva-cordoba-evadio-un-control-y-arrastro-a-un-inspector-en-el-capot-por-cuatro-cuadras.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/24-09-2026-inspector-municipal-arrastrado-por-conductor-nueva-cordoba-2333047.jpeg"
+          "titulo": "Caso Agostina Vega: imputaron a Claudio Barrelier por tenencia de material de abuso sexual infantil",
+          "link": "https://www.perfil.com/noticias/cordoba/caso-agostina-vega-imputaron-a-claudio-barrelier-por-tenencia-de-material-de-abuso-sexual-infantil.phtml",
+          "imagen": "https://fotos.perfil.com/2026/08/24/trim/540/304/claudio-barrelier-2310876.jpg"
         },
         {
           "medio": "Clarín",
-          "titulo": "Escapó de control de tránsito, atropelló a inspector y lo arrastró cuadras en el capot",
-          "link": "https://www.clarin.com/sociedad/escapo-control-transito-atropello-inspector-arrastro-cuadras-capot_0_M14khtWx04.html",
-          "imagen": "https://www.clarin.com/img/2026/09/24/hKCHBt4u2_1200x630__1.jpg"
+          "titulo": "Caso Agostina Vega: encuentran diálogos y fotos de adolescente en celular de Barrelier, ahora lo imputan en nueva causa",
+          "link": "https://www.clarin.com/policiales/caso-agostina-vega-encuentran-dialogos-fotos-adolescente-celular-barrelier-ahora-imputan-nueva-causa_0_0NYUbG4TCQ.html",
+          "imagen": "https://www.clarin.com/img/2026/09/25/wAaXZ0Jb2_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -272,77 +272,71 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Exclusión de jugadora cordobesa de pádel por publicaciones antisemitas en redes sociales",
+      "tema": "Informes y análisis económicos sobre el incremento de la pobreza e indigencia",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
       "total_notas": 3,
-      "cantidad_medios": 3,
+      "cantidad_medios": 2,
+      "cobertura_perfil": 2,
+      "perfil": 2,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 2,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Mide el pulso social y la efectividad de las políticas macroeconómicas oficiales sobre los sectores más vulnerables.",
+      "insight": "La Nación e Infobae lideran la agenda con infografías detalladas y repercusiones de especialistas.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Incorporar columnas de opinión con economistas heterodoxos y ortodoxos para contraponer interpretaciones sobre el rumbo de la indigencia.",
+      "enfoques_sugeridos": [
+        "Desglose por regiones del Gran Buenos Aires y principales aglomerados urbanos.",
+        "El impacto de la caída del salario real en la canasta básica alimentaria."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Especialista sobre la suba de la pobreza: \"Preocupante y doloroso\"",
+          "link": "https://www.perfil.com/noticias/cordoba/especialista-sobre-la-suba-de-la-pobreza-preocupante-y-doloroso.phtml",
+          "imagen": "https://fotos.perfil.com/2026/07/23/trim/540/304/el-sal salario-minimo-cayo-mas-del-40-y-cubre-apenas-la-mitad-de-la-canasta-de-indigencia-2289349.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La pobreza creció a 32,3% en el primer semestre, según el Indec",
+          "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Encuentro bilateral entre Javier Milei y Benjamin Netanyahu y tensiones internacionales",
+      "prioridad": 0,
+      "tipo": "perfil_pierde",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 2,
       "cobertura_perfil": 1,
       "perfil": 1,
       "competencia_total": 2,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "cobertura_medio_lider": 2,
+      "brecha": 1,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Combina discriminación, deporte y repercusiones institucionales con alta sensibilidad social y llegada en redes.",
-      "insight": "Infobae y La Nación profundizaron en las repercusiones y las disculpas públicas de la deportista con mayor volumen de notas.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Investigar las normativas disciplinarias vigentes en las federaciones deportivas ante casos de expresiones de odio.",
-      "enfoques_sugeridos": [
-        "El comunicado oficial de la Asociación de Pádel y las sanciones aplicadas a nivel internacional.",
-        "El impacto de la viralización de mensajes de odio en las carreras de deportistas amateurs."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Excepto judíos ustedes no son bienvenidos: apartaron a una jugadora cordobesa de la selección de pádel",
-          "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-son-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/florencia-guerra-sodero-2333273.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "La jugadora de pádel que fue excluida de la selección por sus comentarios antisemitas pidió disculpas",
-          "link": "https://www.lanacion.com.ar/deportes/la-jugadora-de-padel-que-fue-excluida-de-la-seleccion-por-sus-comentarios-antisemitas-pidio-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/23IEDP33JNFTZLICDFHPGELG2U.jpg?auth=3476118f7b70589d42da54773d415095ffd90560b3d0308c930030815c00cedf&smart=true&width=910&height=1360"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Quién es Florencia Guerra Sodero, la cordobesa que quedó fuera del panamericano de pádel",
-          "link": "https://www.infobae.com/sociedad/2026/09/24/quien-es-florencia-guerra-sodero-la-cordobesa-que-quedo-fuera-del-panamericano-de-padel-por-publicaciones-antisemitas/",
-          "imagen": "https://www.infobae.com/resizer/v2/PZSHDYY46BFDBKJ2ASVY2XBNV4.jpeg?auth=5b2d3e0add5f7e525ffe4fcdfaf96530db32c98b2595608f0cbf606484cbfae8&smart=true&width=484&height=525"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Declaraciones de Mark Zuckerberg sobre el futuro y regulación de la inteligencia artificial",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 2,
-      "cantidad_medios": 2,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 1,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
+        "La Nación": 2,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -350,27 +344,27 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Los avances y posicionamientos de los gigantes tecnológicos sobre IA generan un enorme interés en audiencias digitales y profesionales.",
-      "insight": "La Nación y otros competidores desplegaron coberturas técnicas más amplias sobre las declaraciones del CEO de Meta.",
+      "por_que_importa": "Define la política exterior del Gobierno y genera alineamientos geopolíticos complejos.",
+      "insight": "La cobertura de La Nación es más exhaustiva en el seguimiento del minuto a minuto presidencial en el exterior.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un análisis sobre las implicancias éticas y comerciales de los nuevos modelos de gobernanza en IA planteados por Silicon Valley.",
+      "accion_sugerida": "Ampliar el trasfondo diplomático evaluando las críticas recibidas en la ONU y su impacto en la imagen internacional de Argentina.",
       "enfoques_sugeridos": [
-        "El choque entre los modelos de código abierto y cerrado que impulsa Meta frente a sus competidores.",
-        "Cómo impactará la visión de Zuckerberg en la legislación sobre tecnología en América Latina."
+        "Las consecuencias comerciales y de seguridad de la alianza con Israel.",
+        "La reacción de la oposición legislativa ante los alineamientos automáticos de la Casa Rosada."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Mark Zuckerberg defendió el uso de la inteligencia artificial para empoderar a las personas",
-          "link": "https://www.perfil.com/noticias/sociedad/mark-zuckerberg-defendio-el-uso-de-la-inteligencia-artificial-para-empoderar-a-las-personas.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/10/trim/540/304/mark-zuckerberg-10082026-2301333.jpg"
+          "titulo": "Milei se reunió nuevamente con Netanyahu, repudiado en la ONU",
+          "link": "https://www.perfil.com/noticias/politica/milei-se-reunio-nuevamente-con-netanyahu-repudiado-en-la-onu.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-con-benjamin-netanyahu-24092026-2333559.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Mark Zuckerberg lanza un mensaje sobre el futuro de la IA y quién debería tener el control",
-          "link": "https://www.lanacion.com.ar/tecnologia/mark-zuckerberg-lanza-un-mensaje-sobre-el-futuro-de-la-ia-y-quien-deberia-tener-el-control-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/5FP4SZ5MX5E4HKSAL35LRBJO3Y.JPG?auth=783bfd281a2b214cf066b8af8e9b58ecac416254c81c38b8e4e361392283472f&smart=true&width=6926&height=4617"
+          "titulo": "Javier Milei y sus medidas en vivo: Netanyahu se reunió con el presidente en la ONU y lo definió como...",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-netanyahu-se-reunio-con-el-presidente-en-la-onu-y-lo-definio-como-nid25092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/GQS6OUKUQRCYFE54X4W2KJSOT4.jpg?auth=833c427bcdd4f3df375d294d0cc37decddf58b66a9afd83683f97f6750c51052&smart=true&width=2000&height=1333"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -378,109 +372,65 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Aumento en los precios de los combustibles en estaciones de servicio excepto YPF",
+      "tema": "Regreso de Javier Milei al país tras visita a Nueva York y preparativos para gira en Francia",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 2,
-      "cantidad_medios": 2,
+      "total_notas": 5,
+      "cantidad_medios": 4,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 1,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 1,
-      "brecha": 0,
+      "competencia_total": 4,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
+      "brecha": 1,
       "cobertura": {
         "Perfil": 1,
         "La Nación": 0,
         "Clarín": 1,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
+        "TN": 1,
+        "Ámbito": 2,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Afecta directamente el bolsillo de los consumidores y la dinámica inflacionaria general del sector energético.",
-      "insight": "Clarín y otros medios priorizaron el impacto tarifario con mayor despliegue de notas de servicio y actualización de precios.",
+      "por_que_importa": "Marca la agenda institucional semanal y anticipa los próximos destinos de la diplomacia presidencial.",
+      "insight": "TN y Ámbito logran mayor volumen de notas enfocadas en la comitiva de ministros y gobernadores que acompañarán a Europa.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Elaborar un relevamiento comparativo de precios en surtidores de distintas banderas en el conurbano bonaerense.",
+      "accion_sugerida": "Detallar el objetivo de atracción de inversiones de la gira por Francia y la agenda de reuniones con empresarios franceses.",
       "enfoques_sugeridos": [
-        "La estrategia comercial de YPF al desacoplarse temporalmente de los incrementos del mercado.",
-        "El impacto del nuevo cuadro tarifario en los costos logísticos del transporte de cargas."
+        "Radiografía de la comitiva oficial y gobernadores aliados que viajan a Europa.",
+        "Los resultados concretos obtenidos en la gira por Estados Unidos antes del retorno."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Salvo YPF, las petroleras aumentaron las naftas hasta 5%",
-          "link": "https://www.perfil.com/noticias/economia/salvo-ypf-las-petroleras-aumentaron-las-naftas-hasta-5.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/nafta-2309479.jpg"
+          "titulo": "BC Milei descarta recesión y se dice tranquilo de su reelección",
+          "link": "https://www.perfil.com/noticias/economia/bc-milei-descarta-recesion-y-se-dice-tranquilo-de-su-reeleccion.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/milei-2333410.jpg"
         },
         {
           "medio": "Clarín",
-          "titulo": "Suben naftas en principales estaciones de servicio con excepción de YPF",
-          "link": "https://www.clarin.com/energia-y-mineria/suben-naftas-25-5-principales-estaciones-servicio-excepcion-ypf_0_90w51KVVUf.html",
-          "imagen": "https://www.clarin.com/img/2021/02/17/hD2EqwPnr_1200x630__1.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    }
-  ],
-  "sin_cobertura_perfil": [
-    {
-      "tema": "Visita programada del papa León XIV a la Argentina y preparativos litúrgicos",
-      "prioridad": 0,
-      "tipo": "sin_cobertura_perfil",
-      "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 3,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Despierta un profundo interés espiritual y social en la feligresía argentina, movilizando agendas institucionales y comunitarias.",
-      "insight": "Perfil registró ausencia total en su cobertura mientras Clarín y La Nación avanzaron con detalles organizativos y la canción oficial.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Iniciar una cobertura de seguimiento sobre la logística de seguridad y el impacto político de la visita papal en el plano local.",
-      "enfoques_sugeridos": [
-        "El impacto pastoral y social que anticipa la llegada del Sumo Pontífice al país.",
-        "Los detalles organizativos y el financiamiento de las diócesis para recibir a la comitiva vaticana."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Qué se sabe de la visita del papa León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
+          "titulo": "Javier Milei y sus medidas en vivo: el presidente vuelve hoy al país tras visita a Nueva York y prepara viaje a Francia",
+          "link": "https://www.clarin.com/politica/javier-milei-medidas-vivo-presidente-vuelve-hoy-pais-visita-nueva-york-prepara-viaje-francia_0_Mowp5dlhjS.html",
+          "imagen": "https://www.clarin.com/img/2026/09/25/f7DkSa0uS_1200x630__1.jpg"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Iglesia presentó canción oficial visita León XIV lugar tiempo Argentina levante",
-          "link": "https://www.clarin.com/politica/iglesia-presento-cancion-oficial-visita-leon-xiv-lugar-tiempo-argentina-levante_0_JASw1zTNE1.html",
-          "imagen": "https://www.clarin.com/img/2026/09/24/dhd70FsIb_1200x630__1.jpg"
+          "medio": "TN",
+          "titulo": "Tras su viaje a Nueva York, Javier Milei se prepara para una nueva gira por Francia con ministros, gobernadores y empresarios",
+          "link": "https://tn.com.ar/politica/2026/09/25/tras-su-viaje-a-nueva-york-javier-milei-se-prepara-para-una-gira-por-francia-con-ministros-gobernadores-y-empresarios/",
+          "imagen": "https://tn.com.ar/resizer/v2/4CY7MTVAIBD35EB6ABF6VNQHJI.jfif?auth=04883c2c2a51fcfcf8dd0958b72440fd406aa371f679e1ff7386a1d138598d34"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
       "cantidad_medios_competencia": 3
-    },
+    }
+  ],
+  "sin_cobertura_perfil": [
     {
-      "tema": "Operativo judicial y policial en torno al caso del menor liberado por la jueza Laura De Marinis",
+      "tema": "Emergencia en vuelo de Aerolíneas Argentinas con destino a Madrid que debió regresar a Ezeiza",
       "prioridad": 0,
       "tipo": "sin_cobertura_perfil",
       "tipo_de_oportunidad": "",
@@ -495,34 +445,34 @@
       "cobertura": {
         "Perfil": 0,
         "La Nación": 1,
-        "Clarín": 1,
+        "Clarín": 0,
         "Infobae": 0,
-        "TN": 0,
+        "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Instala en el centro del debate público la discusión sobre el régimen penal juvenil, la actuación judicial y la inseguridad urbana.",
-      "insight": "Generó fuerte repercusión en medios masivos con múltiples enfoques sobre los fallos judiciales y el descontento de las víctimas.",
+      "por_que_importa": "Genera alarma pública por la seguridad aeronáutica y trastorno directo a cientos de pasajeros varados.",
+      "insight": "Es una noticia de última hora con alto potencial viral en redes sociales y buscadores.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Preparar un informe especial sobre los criterios de excarcelación en menores de edad en la justicia porteña.",
+      "accion_sugerida": "Publicar testimonios exclusivos de pasajeros afectados y el parte oficial de la aerolínea sobre las fallas técnicas.",
       "enfoques_sugeridos": [
-        "El reclamo de las víctimas y las asociaciones vecinales frente a las decisiones de los magistrados.",
-        "El debate legislativo en torno a la baja de la imputabilidad y el rol de los institutos de menores."
+        "El relato en primera persona de los pasajeros sobre el momento de la emergencia y el regreso a Ezeiza.",
+        "Los protocolos de seguridad aplicados ante fallas mecánicas en vuelos transatlánticos."
       ],
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Así fue el robo a Hernán, la víctima del menor liberado por la jueza Laura De Marinis",
-          "link": "https://www.lanacion.com.ar/seguridad/asi-fue-el-robo-a-hernan-la-victima-del-menor-liberado-por-la-jueza-laura-de-marinis-nid24092026/",
-          "imagen": ""
+          "titulo": "Un avión de Aerolíneas Argentinas que iba a Madrid tuvo que volver a Ezeiza",
+          "link": "https://www.lanacion.com.ar/sociedad/un-avion-de-aerolineas-argentinas-que-iba-a-madrid-tuvo-que-volver-a-ezeiza-nid25092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/2FFZAEKJ3VBSTPRLAEEOUZTOXA.jpeg?auth=d8c8ef0918e00c125f14937d596fcf32bc6f30f0c05d466f51fcbd25ae6bcb4e&smart=true&width=1320&height=692"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Nota caminar calle víctima ladrón 14 años sobreseído jueza porteña cuestionó duramente fallo",
-          "link": "https://www.clarin.com/politica/nota-caminar-calle-victima-ladron-14-anos-sobreseido-jueza-portena-cuestiono-duramente-fallo_0_t6HygkGZf9.html",
-          "imagen": "https://www.clarin.com/img/2026/09/21/AW5nXJzHh_1200x630__1.jpg"
+          "medio": "TN",
+          "titulo": "Un vuelo a Madrid regresó de emergencia a Ezeiza y vecinos del sur del Conurbano reportaron explosiones",
+          "link": "https://tn.com.ar/sociedad/2026/09/25/un-vuelo-a-madrid-regreso-de-emergencia-a-ezeiza-y-vecinos-del-sur-del-conurbano-reportaron-explosiones/",
+          "imagen": "https://tn.com.ar/resizer/v2/Z43FAFS6KFB6ND2QSNXPYDSI7Q.jpeg?auth=2a7f3c36a5be815461782d4a81ffa89684018f1d892b1c2955bd0c706208850c"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -530,57 +480,57 @@
       "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Alerta meteorológica por la llegada de un río atmosférico y pico del fenómeno de El Niño",
+      "tema": "Polémica por falta de inversión en infraestructura vial rural en municipio bonaerense",
       "prioridad": 0,
       "tipo": "sin_cobertura_perfil",
       "tipo_de_oportunidad": "",
-      "total_notas": 5,
-      "cantidad_medios": 3,
+      "total_notas": 3,
+      "cantidad_medios": 2,
       "cobertura_perfil": 0,
       "perfil": 0,
-      "competencia_total": 5,
+      "competencia_total": 3,
       "medio_lider": "La Nación",
       "cobertura_medio_lider": 2,
       "brecha": 2,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 2,
-        "Clarín": 2,
-        "Infobae": 1,
+        "Clarín": 1,
+        "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Anticipa eventos climáticos extremos, inundaciones y riesgos para la producción agropecuaria en distintas regiones del país.",
-      "insight": "Varios competidores cubrieron el pronóstico con enfoque preventivo debido al alto interés de búsqueda en Google Discover.",
+      "por_que_importa": "Expone la asignación de recursos públicos municipales y el malestar de los sectores productivos del campo.",
+      "insight": "La cobertura se concentra en portales con fuerte impronta agropecuaria e investigativa.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un mapa interactivo con las zonas de riesgo y las recomendaciones de Defensa Civil ante tormentas severas.",
+      "accion_sugerida": "Realizar un relevamiento de municipios bonaerenses con baja ejecución presupuestaria en caminos rurales.",
       "enfoques_sugeridos": [
-        "El impacto del super El Niño en la campaña agrícola y los recaudos del sector rural.",
-        "Informe de Defensa Civil sobre infraestructura urbana vulnerable ante precipitaciones intensas."
+        "El reclomo formal de las entidades ruralistas ante la inacción de las intendencias.",
+        "El impacto económico del deterioro de los caminos secundarios en la salida de la cosecha."
       ],
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Se viene un río atmosférico desde el Pacífico que provocará lluvias persistentes",
-          "link": "https://www.lanacion.com.ar/sociedad/se-viene-un-rio-atmosferico-desde-el-pacifico-que-provocara-lluvias-persistentes-con-90-y-160-mm-de-nid23092026/",
-          "imagen": ""
+          "titulo": "Quisieron justificarse y la empeoraron: un municipio bonaerense informó millones en gastos pero 0 en...",
+          "link": "https://www.lanacion.com.ar/economia/campo/quisieron-justificarse-y-la-empeoraron-un-municipio-bonaerense-informo-millones-en-gastos-pero-0-en-nid24092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JUXFH7JG2FAZZAU6AISVGDEP2I.png?auth=449aa5e20f8338c1752314fb0a3a5e1a05c6717622c1139e1e13e24d09adf306&smart=true&width=606&height=514"
         },
         {
           "medio": "Clarín",
-          "titulo": "Super Niño 2026 Argentina vivo provincias afectadas llegarán lluvias fuertes",
-          "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-provincias-afectadas-llegaran-lluvias-fuertes_0_2AJY9F7OF7.html",
-          "imagen": "https://www.clarin.com/img/2026/01/15/MyaZOi4Bz_1200x630__1.jpg"
+          "titulo": "Ridículo: municipio bonaerense reportó 0% inversión en obras infraestructura caminos rurales dos años consecutivos",
+          "link": "https://www.clarin.com/rural/ridiculo-municipio-bonaerense-reporto-0-inversion-obras-infraestructura-caminos-rurales-anos-consecutivos_0_XYcDE77T4E.html",
+          "imagen": "https://www.clarin.com/img/2026/04/23/pDJg2Wlrh_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
+      "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Emisión de bono internacional por 600 millones de dólares de la provincia de San Juan",
+      "tema": "Veredicto y sentencia en París por el homicidio del exrugbier Federico Martín Aramburú",
       "prioridad": 0,
       "tipo": "sin_cobertura_perfil",
       "tipo_de_oportunidad": "",
@@ -589,34 +539,78 @@
       "cobertura_perfil": 0,
       "perfil": 0,
       "competencia_total": 1,
-      "medio_lider": "Infobae",
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Cierra judicialmente un caso de enorme repercusión internacional que conmovió al deporte argentino y francés.",
+      "insight": "Los medios nacionales siguen de cerca los detalles de la condena dictada por la justicia francesa.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Publicar un perfil sobre la búsqueda de justicia por parte de los familiares de la víctima y los detalles técnicos del fallo.",
+      "enfoques_sugeridos": [
+        "El desglose de los años de condena dictados a los implicados en el crimen en París.",
+        "El recuerdo del legado deportivo de Aramburú y el impacto de la sentencia en su entorno."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Sentencia crimen rugbier Federico Aramburú Francia: \"El día podré curarme socialmente\"",
+          "link": "https://www.clarin.com/policiales/sentencia-crimen-rugbier-federico-aramburu-francia-dia-podre-curarme-socialmente_0_0LqZ9RpBBL.html",
+          "imagen": "https://www.clarin.com/img/2026/09/23/wP28hnYgu_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Vencimiento de deuda con el FMI por 800 millones de dólares y gestiones de la delegación técnica",
+      "prioridad": 0,
+      "tipo": "sin_cobertura_perfil",
+      "tipo_de_oportunidad": "",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "TN",
       "cobertura_medio_lider": 1,
       "brecha": 1,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
+        "Infobae": 0,
+        "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Marca el retorno de una provincia argentina al mercado financiero internacional de deuda tras casi tres décadas.",
-      "insight": "Infobae destacó la colocación financiera como un indicador de apetito por riesgo sub soberano que pasó desapercibido en Perfil.",
+      "por_que_importa": "Condiciona las reservas del Banco Central y marca el ritmo de las negociaciones económicas con el organismo internacional.",
+      "insight": "Es un tema clave para la sección de economía, cubierto con rigor por medios especializados en finanzas.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Analizar la sustentabilidad fiscal de las provincias mineras en el nuevo escenario macroeconómico.",
+      "accion_sugerida": "Analizar la evolución de las reservas netas del BCRA frente a este nuevo compromiso de pago.",
       "enfoques_sugeridos": [
-        "Destino de los fondos obtenidos mediante la colocación de deuda en los mercados externos.",
-        "Comparativa del endeudamiento sub soberano frente a las restricciones del gobierno nacional."
+        "El estado actual de las auditorías del staff del FMI en Buenos Aires.",
+        "El impacto del pago en el nivel de reservas líquidas de la autoridad monetaria."
       ],
       "ejemplos": [
         {
-          "medio": "Infobae",
-          "titulo": "San Juan regresó al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
-          "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
-          "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
+          "medio": "TN",
+          "titulo": "El Gobierno debe afrontar un vencimiento de US$800 millones al FMI mientras una delegación técnica sigue en Buenos Aires",
+          "link": "https://tn.com.ar/economia/2026/09/25/el-gobierno-debe-afrontar-un-vencimiento-de-us800-millones-al-fmi-mientras-una-delegacion-tecnica-sigue-en-buenos-aires/",
+          "imagen": "https://tn.com.ar/resizer/v2/A4CURS4CURCK3F7C3KV6LTLMTA.jpg?auth=fd8336aff0e040857b52ad910920ff45b0d591e14548384161f3e394cb706ef8"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -626,10 +620,10 @@
   ],
   "oportunidades": [
     {
-      "tema": "Apertura de la Feria del Libro de la Ciudad y subsidios de emergencia a librerías",
+      "tema": "Cálculo de costos mensuales por traslados en automóvil desde GBA hacia la Ciudad",
       "prioridad": 0,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de Clarín",
+      "tipo_de_oportunidad": "Nota de servicio y consumo",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
@@ -648,21 +642,21 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "La industria editorial atraviesa una profunda crisis de costos y ventas, por lo que las medidas de apoyo estatal interesan al sector cultural y educativo.",
-      "insight": "Representa un contenido nicho con muy buena recepción en audiencias interesadas en cultura, literatura y políticas públicas porteñas.",
+      "por_que_importa": "Interpela de forma directa al bolsillo de la clase trabajadora que se desplaja diariamente hacia los centros urbanos.",
+      "insight": "Los contenidos sobre estimación de gastos de movilidad urbana traccionan de manera excelente en lectores interesados en economía doméstica.",
       "motivo": "",
-      "motivo_oportunidad": "Clarín fue el único medio competidor que cubrió el anuncio cultural de la Feria del Libro y los subsidios al sector, dejando un espacio libre en el resto de los portales.",
-      "accion_sugerida": "Desarrollar un informe sobre la situación financiera de las librerías independientes de la Ciudad de Buenos Aires.",
+      "motivo_oportunidad": "Clarín publica un contenido de utilidad masiva sobre gastos cotidianos que genera alto tráfico en Google Discover sin cobertura actual de Perfil.",
+      "accion_sugerida": "Publicar una nota propia comparando los costos actuales de nafta, peajes y estacionamiento versus el uso de transporte público.",
       "enfoques_sugeridos": [
-        "El impacto de la caída de ventas en el circuito de librerías de barrio de la Ciudad.",
-        "Expectativas del sector editorial ante la próxima edición del tradicional encuentro literario."
+        "Desglose de gastos fijos mensuales para un trabajador que viaja en auto desde la zona norte, sur y oeste del GBA.",
+        "Alternativas de carpooling y ahorro frente al incremento sostenido de peajes y combustibles."
       ],
       "ejemplos": [
         {
           "medio": "Clarín",
-          "titulo": "Martín Caparrós abrirá 51° Feria del Libro Ciudad: anuncio ayudas librerías crisis",
-          "link": "https://www.clarin.com/cultura/martin-caparros-abrira-51-feria-libro-ciudad-anuncio-ayudas-librerias-crisis_0_WQRXjDl24p.html",
-          "imagen": "https://www.clarin.com/img/2026/09/24/VsQxesxLY_1200x630__1.jpg"
+          "titulo": "$ 1 millón por mes: el costo de ir en auto a trabajar a la Ciudad desde el GBA",
+          "link": "https://www.clarin.com/economia/1-millon-mes-costo-ir-auto-trabajar-ciudad-gba_0_UAR7HY3mjf.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/UeAdfPITd_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -670,10 +664,10 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Designación de Joaquín Gutiérrez como nuevo presidente de Ecopetrol",
+      "tema": "Arresto de actrices Susan Sarandon y Hannah Einbinder en protesta contra Benjamin Netanyahu en Nueva York",
       "prioridad": 0,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de Infobae",
+      "tipo_de_oportunidad": "Espectáculos e internacional",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
@@ -692,21 +686,21 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Ecopetrol es la empresa de energía más importante de Colombia y sus cambios de conducción repercuten en los mercados petroleros latinoamericanos.",
-      "insight": "Es una temática de relevancia corporativa internacional que permite captar tráfico de nicho especializado en energía y negocios.",
+      "por_que_importa": "Une el mundo del espectáculo con tensiones geopolíticas globales de alto voltaje.",
+      "insight": "Las detenciones de figuras públicas en protestas internacionales suelen posicionarse con facilidad en los agregadores de noticias.",
       "motivo": "",
-      "motivo_oportunidad": "Infobae fue el único competidor en relevar este movimiento corporativo energético regional, desatendido en el resto de los medios argentinos.",
-      "accion_sugerida": "Redactar un perfil sobre los desafíos operativos y de transición energética que afrontará la nueva gestión en la petrolera estatal.",
+      "motivo_oportunidad": "Infobae cubre en exclusiva una noticia que combina celebridades de Hollywood y activismo político internacional, generando alto interés en audiencia digital.",
+      "accion_sugerida": "Desarrollar una crónica detallada sobre las posturas políticas históricas de las actrices detenidas frente al conflicto en Medio Oriente.",
       "enfoques_sugeridos": [
-        "La estrategia corporativa frente a los compromisos de descarbonización en América Latina.",
-        "Repercusiones financieras del nombramiento en la bolsa de valores regional."
+        "El historial de activismo político de Susan Sarandon en Estados Unidos.",
+        "La reacción de la comunidad artística de Hollywood ante las visitas de mandatarios extranjeros."
       ],
       "ejemplos": [
         {
           "medio": "Infobae",
-          "titulo": "Joaquín Gutiérrez fue elegido como el nuevo presidente de Ecopetrol: este es su perfil y trayectoria",
-          "link": "https://www.infobae.com/colombia/2026/09/24/joaquin-gutierrez-fue-elegido-como-el-nuevo-presidente-de-ecopetrol-este-es-su-perfil-y-trayectoria/",
-          "imagen": "https://www.infobae.com/resizer/v2/K6THXIGFCJGDNBFMAN5X5D7QKE.jpg?auth=2292d545ea73799c010b1d68256911aac045ca640f64d3f5686828a62723a804&smart=true&width=1284&height=782"
+          "titulo": "Arrestaron a Susan Sarandon y Hannah Einbinder en una protesta contra Netanyahu en Nueva York",
+          "link": "https://www.infobae.com/estados-unidos/2026/09/25/arrestaron-a-susan-sarandon-y-hannah-einbinder-en-una-protesta-contra-netanyahu-en-nueva-york/",
+          "imagen": "https://www.infobae.com/resizer/v2/CN5RX2MZKRDW3KBL6JYFA7VTCQ.JPG?auth=d8c7d58e70d47b90e0f5380f60c9cbdcf8cdb9e22ab33ff79b5a81c8fa8090d0&smart=true&width=5310&height=3547"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -714,87 +708,43 @@
       "cantidad_medios_competencia": 1
     },
     {
-      "tema": "Informe sobre el rendimiento en matemática y su compromiso con el futuro laboral juvenil",
+      "tema": "Declaraciones y difusión de spot político por parte de Alberto Fernández sobre polémica frase",
       "prioridad": 0,
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de Clarín",
+      "tipo_de_oportunidad": "Política nacional",
       "total_notas": 1,
       "cantidad_medios": 1,
       "cobertura_perfil": 0,
       "perfil": 0,
       "competencia_total": 1,
-      "medio_lider": "Clarín",
+      "medio_lider": "TN",
       "cobertura_medio_lider": 1,
       "brecha": 1,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
-        "Clarín": 1,
+        "Clarín": 0,
         "Infobae": 0,
-        "TN": 0,
+        "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "El nivel educativo en ciencias exactas es un predictor clave de la empleabilidad y el desarrollo tecnológico de las nuevas generaciones.",
-      "insight": "Los contenidos sobre educación y empleabilidad juvenil tienen un excelente rendimiento sostenido en buscadores y redes sociales.",
+      "por_que_importa": "Revive polémicas políticas con alto nivel de interacción y polarización en la opinión pública.",
+      "insight": "Las notas vinculadas a exfuncionarios públicos generan un consumo sostenido en buscadores y redes.",
       "motivo": "",
-      "motivo_oportunidad": "Clarín desarrolló en solitario este diagnóstico educativo y laboral, un tópico de altísimo valor para padres, docentes y SEO educativo.",
-      "accion_sugerida": "Consultar a especialistas en pedagogía sobre metodologías alternativas para la enseñanza de las matemáticas en secundarias.",
+      "motivo_oportunidad": "TN instala un debate con fuerte repercusión en redes sociales sobre declaraciones del exmandatario que Perfil aún no ha abordado en su portal.",
+      "accion_sugerida": "Publicar una síntesis contextualizada sobre las repercusiones de la reaparición mediática del expresidente.",
       "enfoques_sugeridos": [
-        "La brecha entre las habilidades requeridas por la economía del conocimiento y los planes de estudio actuales.",
-        "Testimonios de docentes sobre los desafíos de sostener el interés por las ciencias exactas en las aulas."
+        "El impacto de las declaraciones en la interna de Unión por la Patria.",
+        "La estrategia comunicacional detrás de la difusión del spot en plataformas digitales."
       ],
       "ejemplos": [
         {
-          "medio": "Clarín",
-          "titulo": "Matemática, asignatura pendiente que compromete futuro laboral jóvenes argentinos",
-          "link": "https://www.clarin.com/sociedad/matematica-asignatura-pendiente-compromete-futuro-laboral-jovenes-argentinos_0_WVlJadb5ot.html",
-          "imagen": "https://www.clarin.com/img/2021/08/21/29vhhQJq1_1200x630__1.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 1
-    },
-    {
-      "tema": "Aprobación de nuevo cobro de alumbrado público asociado al impuesto predial en Bogotá",
-      "prioridad": 0,
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Exclusiva de Infobae",
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 1,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Ilustra las tensiones fiscales entre municipios y contribuyentes por la creación de nuevas tasas atadas a tributos inmobiliarios.",
-      "insight": "Es una nota de interés internacional sobre gestión urbana que permite diversificar la oferta informativa regional.",
-      "motivo": "",
-      "motivo_oportunidad": "Infobae cubrió en exclusiva esta modificación impositiva municipal en Colombia, un tema de gestión urbana sin presencia en la agenda local.",
-      "accion_sugerida": "Realizar una comparativa sobre la presión fiscal municipal en ciudades capitales de América Latina.",
-      "enfoques_sugeridos": [
-        "El rechazo de las asociaciones de propietarios frente al recargo en las tasas locales.",
-        "El destino de los fondos recaudados para la modernización del sistema lumínico metropolitano."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Infobae",
-          "titulo": "Concejo de Bogotá aprobó nuevo cobro de alumbrado público mediante el impuesto predial: así funcionará",
-          "link": "https://www.infobae.com/colombia/2026/09/24/concejo-de-bogota-aprobo-nuevo-cobro-de-alumbrado-publico-mediante-el-impuesto-predial-asimismo-funcionara-y-quienes-deberan-pagarlo/",
-          "imagen": "https://www.infobae.com/resizer/v2/CUQ3VCZUFVE2DOKNKIM57EQIXU.jpeg?auth=726aee4952dbf3990decd16a6b1447e8853f16be1198c5149b09c19a52c66fdc&smart=true&width=1050&height=551"
+          "medio": "TN",
+          "titulo": "Alberto Fernández compartió un spot de Lula para justificar su frase sobre el origen de los brasileños: \"Salieron de la selva\"",
+          "link": "https://tn.com.ar/politica/2026/09/25/alberto-fernandez-compartio-un-spot-de-lula-para-justificar-su-frase-sobre-el-origen-de-los-brasilenos-salieron-de-la-selva/",
+          "imagen": "https://tn.com.ar/resizer/v2/FX2NZJKIKSN6KJPSDHGE4PBNEI.jpg?auth=bfd00b7898b18d40374ea4b02c9d18fbba7bec8bfff5d87f8e21709b06da8f0b"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -804,111 +754,43 @@
   ],
   "prioridades_del_dia": [
     {
-      "tema": "Informe oficial del INDEC sobre la contracción de la actividad económica en julio y suba de pobreza",
+      "tema": "Aprobación del recorte de subsidios por reforma del régimen de Zona Fría en el Senado",
       "prioridad": 1,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 9,
-      "cantidad_medios": 5,
-      "cobertura_perfil": 2,
-      "perfil": 2,
-      "competencia_total": 7,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 3,
-      "brecha": 1,
-      "cobertura": {
-        "Perfil": 2,
-        "La Nación": 2,
-        "Clarín": 3,
-        "Infobae": 1,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "El dato de caída de la actividad económica y el incremento de la pobreza reflejan el impacto directo del ajuste en el poder adquisitivo y la macroeconomía argentina.",
-      "insight": "Es el tema central de la agenda económica del día con masiva presencia y cobertura simultánea en todos los portales informativos del país.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar el análisis sectorial de la caída con infografías interactivas para destacar el contraste que Perfil aún no cubrió en profundidad.",
-      "enfoques_sugeridos": [
-        "Radiografía por provincias y sectores más golpeados por la contracción de julio.",
-        "Análisis de la disparidad entre la desaceleración inflacionaria y el retroceso de los ingresos familiares."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Informe del INDEC sobre la caída de la actividad económica en julio",
-          "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "La economía cayó 2,9% en julio y borró el repunte del mes anterior",
-          "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
-          "imagen": ""
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Actividad económica cayó 2,9% en julio, informó el INDEC",
-          "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
-          "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 4
-    },
-    {
-      "tema": "Exclusión de jugadora cordobesa de pádel por publicaciones antisemitas en redes sociales",
-      "prioridad": 2,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 3,
+      "total_notas": 5,
       "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
+      "cobertura_perfil": 3,
+      "perfil": 3,
       "competencia_total": 2,
       "medio_lider": "La Nación",
       "cobertura_medio_lider": 1,
       "brecha": 0,
       "cobertura": {
-        "Perfil": 1,
+        "Perfil": 3,
         "La Nación": 1,
         "Clarín": 0,
-        "Infobae": 1,
+        "Infobae": 0,
         "TN": 0,
-        "Ámbito": 0,
+        "Ámbito": 1,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Combina discriminación, deporte y repercusiones institucionales con alta sensibilidad social y llegada en redes.",
-      "insight": "Infobae y La Nación profundizaron en las repercusiones y las disculpas públicas de la deportista con mayor volumen de notas.",
+      "por_que_importa": "Impacta directamente en las tarifas de gas de miles de hogares en el interior del país, generando fuerte repercusión social y política.",
+      "insight": "Es el tema económico y político con mayor tracción en la agenda de medios nacionales de la jornada.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Investigar las normativas disciplinarias vigentes en las federaciones deportivas ante casos de expresiones de odio.",
+      "accion_sugerida": "Profundizar el análisis con simuladores de tarifas o notas de servicio detalladas sobre qué regiones pierden el beneficio de manera exacta.",
       "enfoques_sugeridos": [
-        "El comunicado oficial de la Asociación de Pádel y las sanciones aplicadas a nivel internacional.",
-        "El impacto de la viralización de mensajes de odio en las carreras de deportistas amateurs."
+        "Mapa interactivo de las localidades que quedan excluidas del subsidio.",
+        "Análisis del impacto económico directo en las pymes y hogares de las provincias afectadas."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Excepto judíos ustedes no son bienvenidos: apartaron a una jugadora cordobesa de la selección de pádel",
-          "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-son-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/florencia-guerra-sodero-2333273.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "La jugadora de pádel que fue excluida de la selección por sus comentarios antisemitas pidió disculpas",
-          "link": "https://www.lanacion.com.ar/deportes/la-jugadora-de-padel-que-fue-excluida-de-la-seleccion-por-sus-comentarios-antisemitas-pidio-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/23IEDP33JNFTZLICDFHPGELG2U.jpg?auth=3476118f7b70589d42da54773d415095ffd90560b3d0308c930030815c00cedf&smart=true&width=910&height=1360"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Quién es Florencia Guerra Sodero, la cordobesa que quedó fuera del panamericano de pádel",
-          "link": "https://www.infobae.com/sociedad/2026/09/24/quien-es-florencia-guerra-sodero-la-cordobesa-que-quedo-fuera-del-panamericano-de-padel-por-publicaciones-antisemitas/",
-          "imagen": "https://www.infobae.com/resizer/v2/PZSHDYY46BFDBKJ2ASVY2XBNV4.jpeg?auth=5b2d3e0add5f7e525ffe4fcdfaf96530db32c98b2595608f0cbf606484cbfae8&smart=true&width=484&height=525"
+          "titulo": "El Senado aprobó el recorte de zona fría: cómo votaron los senadores de Córdoba y quiénes perderán el subsidio al gas",
+          "link": "https://www.perfil.com/noticias/cordoba/el-senado-aprobo-el-recorte-de-zona-fria-como-votaron-los-senadores-de-cordoba-y-quienes-perderan-el-subsidio-al-gas.phtml",
+          "imagen": "https://fotos.perfil.com/2025/07/04/trim/540/304/calefaccion-en-la-ola-de-frio-cual-es-el-mejor-sistema-2055443.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -916,108 +798,196 @@
       "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Visita programada del papa León XIV a la Argentina y preparativos litúrgicos",
-      "prioridad": 3,
-      "tipo": "sin_cobertura_perfil",
+      "tema": "Regreso de Javier Milei al país tras visita a Nueva York y preparativos para gira en Francia",
+      "prioridad": 2,
+      "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 3,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 0,
-      "perfil": 0,
-      "competencia_total": 3,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
+      "total_notas": 5,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 4,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
       "brecha": 1,
       "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
+        "Perfil": 1,
+        "La Nación": 0,
         "Clarín": 1,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 2,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Despierta un profundo interés espiritual y social en la feligresía argentina, movilizando agendas institucionales y comunitarias.",
-      "insight": "Perfil registró ausencia total en su cobertura mientras Clarín y La Nación avanzaron con detalles organizativos y la canción oficial.",
+      "por_que_importa": "Marca la agenda institucional semanal y anticipa los próximos destinos de la diplomacia presidencial.",
+      "insight": "TN y Ámbito logran mayor volumen de notas enfocadas en la comitiva de ministros y gobernadores que acompañarán a Europa.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Iniciar una cobertura de seguimiento sobre la logística de seguridad y el impacto político de la visita papal en el plano local.",
+      "accion_sugerida": "Detallar el objetivo de atracción de inversiones de la gira por Francia y la agenda de reuniones con empresarios franceses.",
       "enfoques_sugeridos": [
-        "El impacto pastoral y social que anticipa la llegada del Sumo Pontífice al país.",
-        "Los detalles organizativos y el financiamiento de las diócesis para recibir a la comitiva vaticana."
+        "Radiografía de la comitiva oficial y gobernadores aliados que viajan a Europa.",
+        "Los resultados concretos obtenidos en la gira por Estados Unidos antes del retorno."
       ],
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Qué se sabe de la visita del papa León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
-        },
-        {
           "medio": "Clarín",
-          "titulo": "Iglesia presentó canción oficial visita León XIV lugar tiempo Argentina levante",
-          "link": "https://www.clarin.com/politica/iglesia-presento-cancion-oficial-visita-leon-xiv-lugar-tiempo-argentina-levante_0_JASw1zTNE1.html",
-          "imagen": "https://www.clarin.com/img/2026/09/24/dhd70FsIb_1200x630__1.jpg"
+          "titulo": "Javier Milei y sus medidas en vivo: el presidente vuelve hoy al país tras visita a Nueva York y prepara viaje a Francia",
+          "link": "https://www.clarin.com/politica/javier-milei-medidas-vivo-presidente-vuelve-hoy-pais-visita-nueva-york-prepara-viaje-francia_0_Mowp5dlhjS.html",
+          "imagen": "https://www.clarin.com/img/2026/09/25/f7DkSa0uS_1200x630__1.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
       "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Cálculo de costos mensuales por traslados en automóvil desde GBA hacia la Ciudad",
+      "prioridad": 3,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Nota de servicio y consumo",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Interpela de forma directa al bolsillo de la clase trabajadora que se desplaja diariamente hacia los centros urbanos.",
+      "insight": "Los contenidos sobre estimación de gastos de movilidad urbana traccionan de manera excelente en lectores interesados en economía doméstica.",
+      "motivo": "",
+      "motivo_oportunidad": "Clarín publica un contenido de utilidad masiva sobre gastos cotidianos que genera alto tráfico en Google Discover sin cobertura actual de Perfil.",
+      "accion_sugerida": "Publicar una nota propia comparando los costos actuales de nafta, peajes y estacionamiento versus el uso de transporte público.",
+      "enfoques_sugeridos": [
+        "Desglose de gastos fijos mensuales para un trabajador que viaja en auto desde la zona norte, sur y oeste del GBA.",
+        "Alternativas de carpooling y ahorro frente al incremento sostenido de peajes y combustibles."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "$ 1 millón por mes: el costo de ir en auto a trabajar a la Ciudad desde el GBA",
+          "link": "https://www.clarin.com/economia/1-millon-mes-costo-ir-auto-trabajar-ciudad-gba_0_UAR7HY3mjf.html",
+          "imagen": "https://www.clarin.com/img/2026/09/24/UeAdfPITd_1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
     }
   ],
   "analisis_completo": {
     "hipercompetencia": [
       {
-        "tema": "Informe oficial del INDEC sobre la contracción de la actividad económica en julio y suba de pobreza",
+        "tema": "Aprobación del recorte de subsidios por reforma del régimen de Zona Fría en el Senado",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 9,
-        "cantidad_medios": 5,
-        "cobertura_perfil": 2,
-        "perfil": 2,
-        "competencia_total": 7,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 3,
-        "brecha": 1,
+        "total_notas": 5,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 3,
+        "perfil": 3,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
         "cobertura": {
-          "Perfil": 2,
-          "La Nación": 2,
-          "Clarín": 3,
+          "Perfil": 3,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 1,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Impacta directamente en las tarifas de gas de miles de hogares en el interior del país, generando fuerte repercusión social y política.",
+        "insight": "Es el tema económico y político con mayor tracción en la agenda de medios nacionales de la jornada.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Profundizar el análisis con simuladores de tarifas o notas de servicio detalladas sobre qué regiones pierden el beneficio de manera exacta.",
+        "enfoques_sugeridos": [
+          "Mapa interactivo de las localidades que quedan excluidas del subsidio.",
+          "Análisis del impacto económico directo en las pymes y hogares de las provincias afectadas."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "El Senado aprobó el recorte de zona fría: cómo votaron los senadores de Córdoba y quiénes perderán el subsidio al gas",
+            "link": "https://www.perfil.com/noticias/cordoba/el-senado-aprobo-el-recorte-de-zona-fria-como-votaron-los-senadores-de-cordoba-y-quienes-perderan-el-subsidio-al-gas.phtml",
+            "imagen": "https://fotos.perfil.com/2025/07/04/trim/540/304/calefaccion-en-la-ola-de-frio-cual-es-el-mejor-sistema-2055443.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "El Senado sancionó el recorte de subsidios al gas; Javier Milei se reunió con Benjamin Netanyahu en...",
+            "link": "https://www.lanacion.com.ar/sociedad/el-senado-sanciono-el-recorte-de-subsidios-al-gas-javier-milei-se-reunio-con-benjamin-netanyahu-en-nid25092026/",
+            "imagen": ""
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Visita oficial del papa León XIV a Francia y discursos sobre IA y ética",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 5,
+        "cantidad_medios": 5,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 4,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 1,
+          "Clarín": 1,
           "Infobae": 1,
           "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "El dato de caída de la actividad económica y el incremento de la pobreza reflejan el impacto directo del ajuste en el poder adquisitivo y la macroeconomía argentina.",
-        "insight": "Es el tema central de la agenda económica del día con masiva presencia y cobertura simultánea en todos los portales informativos del país.",
+        "por_que_importa": "La postura de la Iglesia Católica sobre la inteligencia artificial y la bioética genera interés global y debate en múltiples sectores intelectuales.",
+        "insight": "Varios medios jerarquizan la gira papal combinándola con la agenda geopolítica europea.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Profundizar el análisis sectorial de la caída con infografías interactivas para destacar el contraste que Perfil aún no cubrió en profundidad.",
+        "accion_sugerida": "Ampliar con crónicas de enviado especial o reacciones de los principales referentes tecnológicos locales ante las advertencias éticas del Sumo Pontífice.",
         "enfoques_sugeridos": [
-          "Radiografía por provincias y sectores más golpeados por la contracción de julio.",
-          "Análisis de la disparidad entre la desaceleración inflacionaria y el retroceso de los ingresos familiares."
+          "El choque entre la rápida adopción de la inteligencia artificial y los límites morales propuestos por el Vaticano.",
+          "Las repercusiones diplomáticas de los mensajes de León XIV en suelo francés."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Informe del INDEC sobre la caída de la actividad económica en julio",
-            "link": "https://www.perfil.com/noticias/economia/la-actividad-economica-cayo-29-en-julio-segun-el-indec-a40.phtml",
-            "imagen": "https://fotos.perfil.com/2026/02/24/trim/540/304/actividad-economica-2191348.jpg"
+            "titulo": "En París, León XIV habló de IA y criticó la gestación subrogada y la venta de órganos",
+            "link": "https://www.perfil.com/noticias/internacional/en-paris-leon-xiv-hablo-de-ia-y-critico-la-gestacion-subrogada-y-la-venta-de-organos.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/visita-del-papa-leon-xiv-2332960.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "La economía cayó 2,9% en julio y borró el repunte del mes anterior",
-            "link": "https://www.lanacion.com.ar/economia/la-economia-cayo-29-en-julio-y-borro-el-repunte-del-mes-anterior-nid24092026/",
+            "titulo": "El papa León XIV llegó a Francia: de su advertencia sobre la IA a una nueva crítica velada a Trump",
+            "link": "https://www.lanacion.com.ar/el-mundo/el-papa-leon-xiv-llego-a-francia-de-su-advertencia-sobre-la-ia-a-una-nueva-critica-velada-a-trump-nid25092026/",
             "imagen": ""
           },
           {
             "medio": "Clarín",
-            "titulo": "Actividad económica cayó 2,9% en julio, informó el INDEC",
-            "link": "https://www.clarin.com/economia/actividad-economica-cayo-29-julio-informo-indec_0_0qohgvyXA2.html",
-            "imagen": "https://www.clarin.com/img/2021/08/02/_vvo2zkeH_1200x630__1.jpg"
+            "titulo": "León XIV llegó a Francia en la primera visita oficial de un Papa en 18 años: encuentro con Macron, visita a Notre Dame y advertencia",
+            "link": "https://www.clarin.com/mundo/leon-xiv-llego-francia-primera-visita-oficial-papa-18-anos-encuentro-macron-visita-notre-dame-advertencia_0_78PqX77FA3.html",
+            "imagen": "https://www.clarin.com/img/2026/09/25/qTZz_G_rQ_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1025,119 +995,7 @@
         "cantidad_medios_competencia": 4
       },
       {
-        "tema": "Declaraciones de Javier Milei en Nueva York sobre proyecciones económicas hacia 2028 y reelección",
-        "prioridad": 0,
-        "tipo": "hipercompetencia",
-        "tipo_de_oportunidad": "",
-        "total_notas": 7,
-        "cantidad_medios": 5,
-        "cobertura_perfil": 2,
-        "perfil": 2,
-        "competencia_total": 5,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 2,
-        "brecha": 0,
-        "cobertura": {
-          "Perfil": 2,
-          "La Nación": 1,
-          "Clarín": 2,
-          "Infobae": 1,
-          "TN": 1,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "El posicionamiento internacional del Presidente y sus expectativas a mediano plazo marcan el pulso político y la confianza de los inversores extranjeros.",
-        "insight": "Concentra la máxima atención de la prensa nacional con coberturas en simultáneo desde los principales medios digitales e internacionales.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Evitar la mera reproducción del discurso presidencial y contrastar las metas proyectadas con los informes de riesgo país actuales.",
-        "enfoques_sugeridos": [
-          "Recepción real de los inversores en Wall Street frente a las promesas de crecimiento récord.",
-          "Lectura política interna del mensaje presidencial pensando en el armado electoral futuro."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Declaraciones de Javier Milei sobre su reelección y proyecciones económicas para 2028",
-            "link": "https://www.perfil.com/noticias/politica/milei-hablo-de-la-reeleccion-y-proyecto-un-2028-de-fuerte-crecimiento-sera-el-mejor-ano-economico-de-la-historia.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-2333298.jpg"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Milei en Nueva York: reelectos en 2028 será el mejor año de la historia",
-            "link": "https://www.clarin.com/politica/milei-nueva-york-reelectos-2028-mejor-ano-historia_0_dSmkcglc5O.html",
-            "imagen": "https://www.clarin.com/img/2026/09/24/nLdGyAJLR_1200x630__1.jpg"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Milei en New York: Si nuestro gobierno es reelecto, 2028 será el mejor año económico de la historia de la Argentina",
-            "link": "https://www.infobae.com/politica/2026/09/24/milei-en-new-york-si-nuestro-gobierno-es-reelecto-2028-sera-el-mejor-ano-economico-de-la-historia-de-la-argentina/",
-            "imagen": "https://www.infobae.com/resizer/v2/XZSOWHMVEZA65MQXJAKEFIAONI.jpg?auth=d76361c24d233f19196d7d352c2376718d48dd2065e2ec1a3accaff059767f43&smart=true&width=3590&height=2393"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 4
-      },
-      {
-        "tema": "Aprobación y debate en el Senado sobre la reforma de la Carta Orgánica del Banco Central y zonas frías",
-        "prioridad": 0,
-        "tipo": "hipercompetencia",
-        "tipo_de_oportunidad": "",
-        "total_notas": 6,
-        "cantidad_medios": 5,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 5,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 2,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 1,
-          "Clarín": 2,
-          "Infobae": 1,
-          "TN": 1,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Define cambios estructurales en la política monetaria y el régimen de subsidios tarifarios con alto impacto en las provincias.",
-        "insight": "Movilizó a la mayor parte de las redacciones por tratarse de un hito legislativo clave en la agenda parlamentaria del día.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Elaborar una guía práctica sobre cómo impactará la modificación del régimen de zonas frías en las facturas de los usuarios.",
-        "enfoques_sugeridos": [
-          "El mapa de alianzas y tensiones que debió tejer el oficialismo para destrabar el quorum.",
-          "Alcances técnicos y consecuencias monetarias de la reforma del Banco Central aprobada."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "El Senado sesiona este jueves para debatir la reforma del Banco Central y zonas frías",
-            "link": "https://www.perfil.com/noticias/politica/el-senado-sesiona-este-jueves-para-debatir-la-reforma-del-banco-central-y-zonas-frias.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/sesion-senado-24092026-2333185.jpg"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "El oficialismo logró activar en el Senado el debate por la reforma del Banco Central y el régimen de zonas frías",
-            "link": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-activar-en-el-senado-el-debate-por-la-reforma-del-banco-central-y-el-regimen-de-nid24092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/7NNR3LQU65AA3JLBCLGKM3NMHU.JPG?auth=51347ea519571bb7a617c096120728d3499c04d993127a91a035b74943d70b44&smart=true&width=3000&height=2000"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Senado en vivo: las últimas noticias sobre la reforma de la carta orgánica del BCRA y el régimen de zonas frías",
-            "link": "https://www.infobae.com/politica/2026/09/24/senado-en-vivo-las-ultimas-noticias-sobre-la-reforma-de-la-carta-organica-del-bcra-y-el-regimen-de-zonas-frias/",
-            "imagen": "https://www.infobae.com/resizer/v2/RXV2KO234RAVDJ5PHFE5W6VD4U.JPG?auth=9c7d28ebe8d2356b33bc2bd124283ad9bf8f5438f08cf43caabc2e48613c7547&smart=true&width=5472&height=3648"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 4
-      },
-      {
-        "tema": "Detención de la actriz Susan Sarandon en protesta contra Netanyahu en Nueva York",
+        "tema": "Indemnizaciones de Apple a usuarios argentinos por reducción de rendimiento en dispositivos",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
@@ -1153,56 +1011,118 @@
           "Perfil": 0,
           "La Nación": 1,
           "Clarín": 1,
-          "Infobae": 1,
-          "TN": 0,
+          "Infobae": 0,
+          "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Combina la agenda internacional de alto voltaje político con el atractivo de las figuras de Hollywood involucradas en causas globales.",
-        "insight": "Generó alto tráfico en redes sociales y posicionamiento orgánico en buscadores por su perfil viral para Google Discover.",
+        "por_que_importa": "Afecta a una gran masa de consumidores tecnológicos en el país con expectativas de compensación económica.",
+        "insight": "Los portales de noticias posicionan rápidamente notas de servicio sobre cómo iniciar reclamos por obsolescencia programada.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Ampliar el trasfondo del conflicto diplomático que motivó la protesta en la sede de la ONU en Nueva York.",
+        "accion_sugerida": "Elaborar una guía paso a paso para verificar si el modelo del usuario califica para el resarcimiento económico.",
         "enfoques_sugeridos": [
-          "El historial de activismo político y judicial de las estrellas de cine en Estados Unidos.",
-          "La tensión creciente en la Asamblea General de la ONU ante la presencia de líderes internacionales."
+          "Requisitos legales y modelos de iPhone incluidos en el acuerdo de indemnización.",
+          "El antecedente de las demandas colectivas contra gigantes tecnológicos en América Latina."
         ],
         "ejemplos": [
           {
             "medio": "La Nación",
-            "titulo": "Susan Sarandon fue detenida en Nueva York durante una protesta contra el primer ministro israelí",
-            "link": "https://www.lanacion.com.ar/espectaculos/personajes/susan-sarandon-fue-detenida-en-nueva-york-durante-una-protesta-contra-el-primer-ministro-israeli-nid24092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/N5ZPURCOINGFTP5R5X6PNH3OQM.jpg?auth=9a0c60bf41e981244726889d3384fe74b5a5705280dd8fa9d3adbb416a42d7d6&smart=true&width=2000&height=1333"
+            "titulo": "Apple indemnizará a usuarios de Argentina por una baja en el rendimiento del iPhone: quiénes pueden...",
+            "link": "https://www.lanacion.com.ar/tecnologia/apple-indemnizara-usuarios-de-argentina-por-una-baja-en-el-rendimiento-del-iphone-quienes-pueden-nid25092026/",
+            "imagen": ""
           },
           {
             "medio": "Clarín",
-            "titulo": "Susan Sarandon, detenida en Nueva York durante protesta contra Netanyahu",
-            "link": "https://www.clarin.com/estados-unidos/susan-sarandon-detenida-en-nueva-york-durante-protesta-contra-netanyahu_0_OEFMRSOyG3.html",
-            "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
+            "titulo": "Apple indemnizará a usuarios de Argentina por baja en rendimiento de iPhone: quiénes pueden reclamar y cuánto cobrarán",
+            "link": "https://www.clarin.com/tecnologia/apple-indemnizara-usuarios-argentina-baja-rendimiento-iphone-pueden-reclamar-cobraran_0_3M5YvKT9C4.html",
+            "imagen": "https://www.clarin.com/img/2024/03/21/Ix9ilc2T8_1200x630__1.jpg"
+          },
+          {
+            "medio": "TN",
+            "titulo": "Apple prometió una solución para una falla que estorbó a los primeros compradores del iPhone 18",
+            "link": "https://tn.com.ar/tecno/novedades/2026/09/25/apple-prometio-una-solucion-para-una-falla-que-estorbo-a-los-primeros-compradores-del-iphone-18/",
+            "imagen": "https://tn.com.ar/resizer/v2/Q5GCYCVUUBFTFB5HGVVDSFZSNM.jpg?auth=a90a22e92d2e9b95e37c33743c2d9b852595f36432521279c6076616b02fc7e4"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
         "cantidad_medios_competencia": 3
+      },
+      {
+        "tema": "Cena oficial en la Casa Blanca entre Donald Trump, Xi Jinping y líderes de Inteligencia Artificial",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 5,
+        "cantidad_medios": 5,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 4,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 1,
+          "TN": 1,
+          "Ámbito": 1,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Congela y redefine las tensiones geopolíticas y comerciales globales entre Estados Unidos y China con eje en la tecnología.",
+        "insight": "La cobertura se concentra en el impacto diplomático y la presencia de los magnates tecnológicos más influyentes del mundo.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Analizar las consecuencias directas de este cónclave sobre el mercado de semiconductores y la economía global.",
+        "enfoques_sugeridos": [
+          "El rol de los gigantes tecnológicos como mediadores en la nueva Guerra Fría comercial.",
+          "Los acuerdos secretos sobre regulaciones de IA pactados en Washington."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Donald Trump celebró una cena en la Casa Blanca con Xi Jinping y los grandes referentes de la Inteligencia Artificial",
+            "link": "https://www.perfil.com/noticias/internacional/donald-trump-celebro-una-cena-en-la-casa-blanca-con-xi-jinping-y-los-grandes-referentes-de-la-inteligencia-artificial.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/donald-trump-xi-jinping-20260924-2333216.jpg"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "Donald Trump se reunió con gigantes de inteligencia artificial y Xi Jinping en la Casa Blanca",
+            "link": "https://www.clarin.com/mundo/donald-trump-reunio-gigantes-inteligencia-artificial-xi-jinping-casa-blanca_0_5njMyCe49W.html",
+            "imagen": "https://www.clarin.com/img/2026/09/25/6JNGLI22w_1200x630__1.jpg"
+          },
+          {
+            "medio": "TN",
+            "titulo": "Desde Elon Musk hasta Mark Zuckerberg: quiénes fueron los invitados a la cena de Estado entre Donald Trump y Xi Jinping",
+            "link": "https://tn.com.ar/internacional/2026/09/25/los-4-puntos-clave-de-la-cumbre-entre-trump-y-xi-jinping-en-eeuu-la-rivalidad-por-la-ia-y-la-tension-por-la-guerra-comercial/",
+            "imagen": "https://tn.com.ar/resizer/v2/4E76X5QWOY6OMCGVRTYZPMSN5E.jpg?auth=7b524b686965ea81c5abc08e23ab3e2d33c37fd4bf12c7b0a88fc590ffe5a291"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 4
       }
     ],
     "perfil_pierde": [
       {
-        "tema": "Conductor evasor de control de tránsito arrastra a inspector en Córdoba",
+        "tema": "Avances judiciales en el caso Agostina Vega e imputación a Claudio Barrelier",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
-        "total_notas": 2,
+        "total_notas": 3,
         "cantidad_medios": 2,
-        "cobertura_perfil": 1,
-        "perfil": 1,
+        "cobertura_perfil": 2,
+        "perfil": 2,
         "competencia_total": 1,
         "medio_lider": "Clarín",
         "cobertura_medio_lider": 1,
         "brecha": 0,
         "cobertura": {
-          "Perfil": 1,
+          "Perfil": 2,
           "La Nación": 0,
           "Clarín": 1,
           "Infobae": 0,
@@ -1211,27 +1131,27 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Es un hecho policial de fuerte impacto local y viralización nacional que moviliza el interés de la audiencia por la inseguridad vial.",
-        "insight": "La Nación y Clarín superaron a Perfil en la cobertura exhaustiva y el seguimiento en tiempo real del incidente cordobés.",
+        "por_que_importa": "Es un caso policial de alta sensibilidad pública que mantiene en vilo a la opinión pública por las pruebas presentadas.",
+        "insight": "La competencia supera el volumen de notas publicadas por Perfil con enfoques multiplataforma y exclusivos de tribunales.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Realizar un seguimiento con la evolución de la salud del agente agredido y la situación judicial del automovilista.",
+        "accion_sugerida": "Hacer un seguimiento riguroso de las pericias telefónicas y las próximas citaciones a indagatoria.",
         "enfoques_sugeridos": [
-          "Entrevista exclusiva con testigos presenciales del operativo en Nueva Córdoba.",
-          "Estadísticas sobre agresiones a inspectores municipales de tránsito en el interior del país."
+          "El análisis criminológico de las pruebas digitales halladas en los dispositivos secuestrados.",
+          "El rol de la querella y los pasos procesales que definirán la elevación a juicio."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Nueva Córdoba: evadió un control y arrastró a un inspector en el capot por cuatro cuadras",
-            "link": "https://www.perfil.com/noticias/cordoba/nueva-cordoba-evadio-un-control-y-arrastro-a-un-inspector-en-el-capot-por-cuatro-cuadras.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/24-09-2026-inspector-municipal-arrastrado-por-conductor-nueva-cordoba-2333047.jpeg"
+            "titulo": "Caso Agostina Vega: imputaron a Claudio Barrelier por tenencia de material de abuso sexual infantil",
+            "link": "https://www.perfil.com/noticias/cordoba/caso-agostina-vega-imputaron-a-claudio-barrelier-por-tenencia-de-material-de-abuso-sexual-infantil.phtml",
+            "imagen": "https://fotos.perfil.com/2026/08/24/trim/540/304/claudio-barrelier-2310876.jpg"
           },
           {
             "medio": "Clarín",
-            "titulo": "Escapó de control de tránsito, atropelló a inspector y lo arrastró cuadras en el capot",
-            "link": "https://www.clarin.com/sociedad/escapo-control-transito-atropello-inspector-arrastro-cuadras-capot_0_M14khtWx04.html",
-            "imagen": "https://www.clarin.com/img/2026/09/24/hKCHBt4u2_1200x630__1.jpg"
+            "titulo": "Caso Agostina Vega: encuentran diálogos y fotos de adolescente en celular de Barrelier, ahora lo imputan en nueva causa",
+            "link": "https://www.clarin.com/policiales/caso-agostina-vega-encuentran-dialogos-fotos-adolescente-celular-barrelier-ahora-imputan-nueva-causa_0_0NYUbG4TCQ.html",
+            "imagen": "https://www.clarin.com/img/2026/09/25/wAaXZ0Jb2_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1239,77 +1159,71 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Exclusión de jugadora cordobesa de pádel por publicaciones antisemitas en redes sociales",
+        "tema": "Informes y análisis económicos sobre el incremento de la pobreza e indigencia",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
         "total_notas": 3,
-        "cantidad_medios": 3,
+        "cantidad_medios": 2,
+        "cobertura_perfil": 2,
+        "perfil": 2,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 2,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Mide el pulso social y la efectividad de las políticas macroeconómicas oficiales sobre los sectores más vulnerables.",
+        "insight": "La Nación e Infobae lideran la agenda con infografías detalladas y repercusiones de especialistas.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Incorporar columnas de opinión con economistas heterodoxos y ortodoxos para contraponer interpretaciones sobre el rumbo de la indigencia.",
+        "enfoques_sugeridos": [
+          "Desglose por regiones del Gran Buenos Aires y principales aglomerados urbanos.",
+          "El impacto de la caída del salario real en la canasta básica alimentaria."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Especialista sobre la suba de la pobreza: \"Preocupante y doloroso\"",
+            "link": "https://www.perfil.com/noticias/cordoba/especialista-sobre-la-suba-de-la-pobreza-preocupante-y-doloroso.phtml",
+            "imagen": "https://fotos.perfil.com/2026/07/23/trim/540/304/el-sal salario-minimo-cayo-mas-del-40-y-cubre-apenas-la-mitad-de-la-canasta-de-indigencia-2289349.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "La pobreza creció a 32,3% en el primer semestre, según el Indec",
+            "link": "https://www.lanacion.com.ar/economia/la-pobreza-crecio-a-323-en-el-primer-semestre-segun-el-indec-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/5OPEJIZX4VEOHAPH2T5D2FSNVA.jpg?auth=61f2fb601d2e8ff4713605777afca25a8b70dfaa7378624ed20f7552a150e7c3&smart=true&width=2000&height=1333"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Encuentro bilateral entre Javier Milei y Benjamin Netanyahu y tensiones internacionales",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 2,
         "cobertura_perfil": 1,
         "perfil": 1,
         "competencia_total": 2,
         "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "cobertura_medio_lider": 2,
+        "brecha": 1,
         "cobertura": {
           "Perfil": 1,
-          "La Nación": 1,
-          "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Combina discriminación, deporte y repercusiones institucionales con alta sensibilidad social y llegada en redes.",
-        "insight": "Infobae y La Nación profundizaron en las repercusiones y las disculpas públicas de la deportista con mayor volumen de notas.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Investigar las normativas disciplinarias vigentes en las federaciones deportivas ante casos de expresiones de odio.",
-        "enfoques_sugeridos": [
-          "El comunicado oficial de la Asociación de Pádel y las sanciones aplicadas a nivel internacional.",
-          "El impacto de la viralización de mensajes de odio en las carreras de deportistas amateurs."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Excepto judíos ustedes no son bienvenidos: apartaron a una jugadora cordobesa de la selección de pádel",
-            "link": "https://www.perfil.com/noticias/cordoba/excepto-judios-ustedes-no-son-bienvenidos-apartaron-a-una-jugadora-cordobesa-de-la-seleccion-de-padel-por-un-mensaje-antisemita.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/florencia-guerra-sodero-2333273.jpg"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "La jugadora de pádel que fue excluida de la selección por sus comentarios antisemitas pidió disculpas",
-            "link": "https://www.lanacion.com.ar/deportes/la-jugadora-de-padel-que-fue-excluida-de-la-seleccion-por-sus-comentarios-antisemitas-pidio-nid24092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/23IEDP33JNFTZLICDFHPGELG2U.jpg?auth=3476118f7b70589d42da54773d415095ffd90560b3d0308c930030815c00cedf&smart=true&width=910&height=1360"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Quién es Florencia Guerra Sodero, la cordobesa que quedó fuera del panamericano de pádel",
-            "link": "https://www.infobae.com/sociedad/2026/09/24/quien-es-florencia-guerra-sodero-la-cordobesa-que-quedo-fuera-del-panamericano-de-padel-por-publicaciones-antisemitas/",
-            "imagen": "https://www.infobae.com/resizer/v2/PZSHDYY46BFDBKJ2ASVY2XBNV4.jpeg?auth=5b2d3e0add5f7e525ffe4fcdfaf96530db32c98b2595608f0cbf606484cbfae8&smart=true&width=484&height=525"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Declaraciones de Mark Zuckerberg sobre el futuro y regulación de la inteligencia artificial",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 2,
-        "cantidad_medios": 2,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 1,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 1,
+          "La Nación": 2,
           "Clarín": 0,
           "Infobae": 0,
           "TN": 0,
@@ -1317,27 +1231,27 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Los avances y posicionamientos de los gigantes tecnológicos sobre IA generan un enorme interés en audiencias digitales y profesionales.",
-        "insight": "La Nación y otros competidores desplegaron coberturas técnicas más amplias sobre las declaraciones del CEO de Meta.",
+        "por_que_importa": "Define la política exterior del Gobierno y genera alineamientos geopolíticos complejos.",
+        "insight": "La cobertura de La Nación es más exhaustiva en el seguimiento del minuto a minuto presidencial en el exterior.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Desarrollar un análisis sobre las implicancias éticas y comerciales de los nuevos modelos de gobernanza en IA planteados por Silicon Valley.",
+        "accion_sugerida": "Ampliar el trasfondo diplomático evaluando las críticas recibidas en la ONU y su impacto en la imagen internacional de Argentina.",
         "enfoques_sugeridos": [
-          "El choque entre los modelos de código abierto y cerrado que impulsa Meta frente a sus competidores.",
-          "Cómo impactará la visión de Zuckerberg en la legislación sobre tecnología en América Latina."
+          "Las consecuencias comerciales y de seguridad de la alianza con Israel.",
+          "La reacción de la oposición legislativa ante los alineamientos automáticos de la Casa Rosada."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Mark Zuckerberg defendió el uso de la inteligencia artificial para empoderar a las personas",
-            "link": "https://www.perfil.com/noticias/sociedad/mark-zuckerberg-defendio-el-uso-de-la-inteligencia-artificial-para-empoderar-a-las-personas.phtml",
-            "imagen": "https://fotos.perfil.com/2026/08/10/trim/540/304/mark-zuckerberg-10082026-2301333.jpg"
+            "titulo": "Milei se reunió nuevamente con Netanyahu, repudiado en la ONU",
+            "link": "https://www.perfil.com/noticias/politica/milei-se-reunio-nuevamente-con-netanyahu-repudiado-en-la-onu.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-con-benjamin-netanyahu-24092026-2333559.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "Mark Zuckerberg lanza un mensaje sobre el futuro de la IA y quién debería tener el control",
-            "link": "https://www.lanacion.com.ar/tecnologia/mark-zuckerberg-lanza-un-mensaje-sobre-el-futuro-de-la-ia-y-quien-deberia-tener-el-control-nid24092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/5FP4SZ5MX5E4HKSAL35LRBJO3Y.JPG?auth=783bfd281a2b214cf066b8af8e9b58ecac416254c81c38b8e4e361392283472f&smart=true&width=6926&height=4617"
+            "titulo": "Javier Milei y sus medidas en vivo: Netanyahu se reunió con el presidente en la ONU y lo definió como...",
+            "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-netanyahu-se-reunio-con-el-presidente-en-la-onu-y-lo-definio-como-nid25092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/GQS6OUKUQRCYFE54X4W2KJSOT4.jpg?auth=833c427bcdd4f3df375d294d0cc37decddf58b66a9afd83683f97f6750c51052&smart=true&width=2000&height=1333"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1345,109 +1259,65 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Aumento en los precios de los combustibles en estaciones de servicio excepto YPF",
+        "tema": "Regreso de Javier Milei al país tras visita a Nueva York y preparativos para gira en Francia",
         "prioridad": 0,
         "tipo": "perfil_pierde",
         "tipo_de_oportunidad": "",
-        "total_notas": 2,
-        "cantidad_medios": 2,
+        "total_notas": 5,
+        "cantidad_medios": 4,
         "cobertura_perfil": 1,
         "perfil": 1,
-        "competencia_total": 1,
-        "medio_lider": "Clarín",
-        "cobertura_medio_lider": 1,
-        "brecha": 0,
+        "competencia_total": 4,
+        "medio_lider": "Ámbito",
+        "cobertura_medio_lider": 2,
+        "brecha": 1,
         "cobertura": {
           "Perfil": 1,
           "La Nación": 0,
           "Clarín": 1,
           "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
+          "TN": 1,
+          "Ámbito": 2,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Afecta directamente el bolsillo de los consumidores y la dinámica inflacionaria general del sector energético.",
-        "insight": "Clarín y otros medios priorizaron el impacto tarifario con mayor despliegue de notas de servicio y actualización de precios.",
+        "por_que_importa": "Marca la agenda institucional semanal y anticipa los próximos destinos de la diplomacia presidencial.",
+        "insight": "TN y Ámbito logran mayor volumen de notas enfocadas en la comitiva de ministros y gobernadores que acompañarán a Europa.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Elaborar un relevamiento comparativo de precios en surtidores de distintas banderas en el conurbano bonaerense.",
+        "accion_sugerida": "Detallar el objetivo de atracción de inversiones de la gira por Francia y la agenda de reuniones con empresarios franceses.",
         "enfoques_sugeridos": [
-          "La estrategia comercial de YPF al desacoplarse temporalmente de los incrementos del mercado.",
-          "El impacto del nuevo cuadro tarifario en los costos logísticos del transporte de cargas."
+          "Radiografía de la comitiva oficial y gobernadores aliados que viajan a Europa.",
+          "Los resultados concretos obtenidos en la gira por Estados Unidos antes del retorno."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Salvo YPF, las petroleras aumentaron las naftas hasta 5%",
-            "link": "https://www.perfil.com/noticias/economia/salvo-ypf-las-petroleras-aumentaron-las-naftas-hasta-5.phtml",
-            "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/nafta-2309479.jpg"
+            "titulo": "BC Milei descarta recesión y se dice tranquilo de su reelección",
+            "link": "https://www.perfil.com/noticias/economia/bc-milei-descarta-recesion-y-se-dice-tranquilo-de-su-reeleccion.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/milei-2333410.jpg"
           },
           {
             "medio": "Clarín",
-            "titulo": "Suben naftas en principales estaciones de servicio con excepción de YPF",
-            "link": "https://www.clarin.com/energia-y-mineria/suben-naftas-25-5-principales-estaciones-servicio-excepcion-ypf_0_90w51KVVUf.html",
-            "imagen": "https://www.clarin.com/img/2021/02/17/hD2EqwPnr_1200x630__1.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      }
-    ],
-    "sin_cobertura_perfil": [
-      {
-        "tema": "Visita programada del papa León XIV a la Argentina y preparativos litúrgicos",
-        "prioridad": 0,
-        "tipo": "sin_cobertura_perfil",
-        "tipo_de_oportunidad": "",
-        "total_notas": 3,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 3,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 1,
-          "Clarín": 1,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Despierta un profundo interés espiritual y social en la feligresía argentina, movilizando agendas institucionales y comunitarias.",
-        "insight": "Perfil registró ausencia total en su cobertura mientras Clarín y La Nación avanzaron con detalles organizativos y la canción oficial.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Iniciar una cobertura de seguimiento sobre la logística de seguridad y el impacto político de la visita papal en el plano local.",
-        "enfoques_sugeridos": [
-          "El impacto pastoral y social que anticipa la llegada del Sumo Pontífice al país.",
-          "Los detalles organizativos y el financiamiento de las diócesis para recibir a la comitiva vaticana."
-        ],
-        "ejemplos": [
-          {
-            "medio": "La Nación",
-            "titulo": "Qué se sabe de la visita del papa León XIV a la Argentina",
-            "link": "https://www.lanacion.com.ar/sociedad/que-se-sabe-de-la-visita-del-papa-leon-xiv-a-la-argentina-nid23092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853"
+            "titulo": "Javier Milei y sus medidas en vivo: el presidente vuelve hoy al país tras visita a Nueva York y prepara viaje a Francia",
+            "link": "https://www.clarin.com/politica/javier-milei-medidas-vivo-presidente-vuelve-hoy-pais-visita-nueva-york-prepara-viaje-francia_0_Mowp5dlhjS.html",
+            "imagen": "https://www.clarin.com/img/2026/09/25/f7DkSa0uS_1200x630__1.jpg"
           },
           {
-            "medio": "Clarín",
-            "titulo": "Iglesia presentó canción oficial visita León XIV lugar tiempo Argentina levante",
-            "link": "https://www.clarin.com/politica/iglesia-presento-cancion-oficial-visita-leon-xiv-lugar-tiempo-argentina-levante_0_JASw1zTNE1.html",
-            "imagen": "https://www.clarin.com/img/2026/09/24/dhd70FsIb_1200x630__1.jpg"
+            "medio": "TN",
+            "titulo": "Tras su viaje a Nueva York, Javier Milei se prepara para una nueva gira por Francia con ministros, gobernadores y empresarios",
+            "link": "https://tn.com.ar/politica/2026/09/25/tras-su-viaje-a-nueva-york-javier-milei-se-prepara-para-una-gira-por-francia-con-ministros-gobernadores-y-empresarios/",
+            "imagen": "https://tn.com.ar/resizer/v2/4CY7MTVAIBD35EB6ABF6VNQHJI.jfif?auth=04883c2c2a51fcfcf8dd0958b72440fd406aa371f679e1ff7386a1d138598d34"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
         "cantidad_medios_competencia": 3
-      },
+      }
+    ],
+    "sin_cobertura_perfil": [
       {
-        "tema": "Operativo judicial y policial en torno al caso del menor liberado por la jueza Laura De Marinis",
+        "tema": "Emergencia en vuelo de Aerolíneas Argentinas con destino a Madrid que debió regresar a Ezeiza",
         "prioridad": 0,
         "tipo": "sin_cobertura_perfil",
         "tipo_de_oportunidad": "",
@@ -1462,34 +1332,34 @@
         "cobertura": {
           "Perfil": 0,
           "La Nación": 1,
-          "Clarín": 1,
+          "Clarín": 0,
           "Infobae": 0,
-          "TN": 0,
+          "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Instala en el centro del debate público la discusión sobre el régimen penal juvenil, la actuación judicial y la inseguridad urbana.",
-        "insight": "Generó fuerte repercusión en medios masivos con múltiples enfoques sobre los fallos judiciales y el descontento de las víctimas.",
+        "por_que_importa": "Genera alarma pública por la seguridad aeronáutica y trastorno directo a cientos de pasajeros varados.",
+        "insight": "Es una noticia de última hora con alto potencial viral en redes sociales y buscadores.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Preparar un informe especial sobre los criterios de excarcelación en menores de edad en la justicia porteña.",
+        "accion_sugerida": "Publicar testimonios exclusivos de pasajeros afectados y el parte oficial de la aerolínea sobre las fallas técnicas.",
         "enfoques_sugeridos": [
-          "El reclamo de las víctimas y las asociaciones vecinales frente a las decisiones de los magistrados.",
-          "El debate legislativo en torno a la baja de la imputabilidad y el rol de los institutos de menores."
+          "El relato en primera persona de los pasajeros sobre el momento de la emergencia y el regreso a Ezeiza.",
+          "Los protocolos de seguridad aplicados ante fallas mecánicas en vuelos transatlánticos."
         ],
         "ejemplos": [
           {
             "medio": "La Nación",
-            "titulo": "Así fue el robo a Hernán, la víctima del menor liberado por la jueza Laura De Marinis",
-            "link": "https://www.lanacion.com.ar/seguridad/asi-fue-el-robo-a-hernan-la-victima-del-menor-liberado-por-la-jueza-laura-de-marinis-nid24092026/",
-            "imagen": ""
+            "titulo": "Un avión de Aerolíneas Argentinas que iba a Madrid tuvo que volver a Ezeiza",
+            "link": "https://www.lanacion.com.ar/sociedad/un-avion-de-aerolineas-argentinas-que-iba-a-madrid-tuvo-que-volver-a-ezeiza-nid25092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/2FFZAEKJ3VBSTPRLAEEOUZTOXA.jpeg?auth=d8c8ef0918e00c125f14937d596fcf32bc6f30f0c05d466f51fcbd25ae6bcb4e&smart=true&width=1320&height=692"
           },
           {
-            "medio": "Clarín",
-            "titulo": "Nota caminar calle víctima ladrón 14 años sobreseído jueza porteña cuestionó duramente fallo",
-            "link": "https://www.clarin.com/politica/nota-caminar-calle-victima-ladron-14-anos-sobreseido-jueza-portena-cuestiono-duramente-fallo_0_t6HygkGZf9.html",
-            "imagen": "https://www.clarin.com/img/2026/09/21/AW5nXJzHh_1200x630__1.jpg"
+            "medio": "TN",
+            "titulo": "Un vuelo a Madrid regresó de emergencia a Ezeiza y vecinos del sur del Conurbano reportaron explosiones",
+            "link": "https://tn.com.ar/sociedad/2026/09/25/un-vuelo-a-madrid-regreso-de-emergencia-a-ezeiza-y-vecinos-del-sur-del-conurbano-reportaron-explosiones/",
+            "imagen": "https://tn.com.ar/resizer/v2/Z43FAFS6KFB6ND2QSNXPYDSI7Q.jpeg?auth=2a7f3c36a5be815461782d4a81ffa89684018f1d892b1c2955bd0c706208850c"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1497,57 +1367,57 @@
         "cantidad_medios_competencia": 2
       },
       {
-        "tema": "Alerta meteorológica por la llegada de un río atmosférico y pico del fenómeno de El Niño",
+        "tema": "Polémica por falta de inversión en infraestructura vial rural en municipio bonaerense",
         "prioridad": 0,
         "tipo": "sin_cobertura_perfil",
         "tipo_de_oportunidad": "",
-        "total_notas": 5,
-        "cantidad_medios": 3,
+        "total_notas": 3,
+        "cantidad_medios": 2,
         "cobertura_perfil": 0,
         "perfil": 0,
-        "competencia_total": 5,
+        "competencia_total": 3,
         "medio_lider": "La Nación",
         "cobertura_medio_lider": 2,
         "brecha": 2,
         "cobertura": {
           "Perfil": 0,
           "La Nación": 2,
-          "Clarín": 2,
-          "Infobae": 1,
+          "Clarín": 1,
+          "Infobae": 0,
           "TN": 0,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Anticipa eventos climáticos extremos, inundaciones y riesgos para la producción agropecuaria en distintas regiones del país.",
-        "insight": "Varios competidores cubrieron el pronóstico con enfoque preventivo debido al alto interés de búsqueda en Google Discover.",
+        "por_que_importa": "Expone la asignación de recursos públicos municipales y el malestar de los sectores productivos del campo.",
+        "insight": "La cobertura se concentra en portales con fuerte impronta agropecuaria e investigativa.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Publicar un mapa interactivo con las zonas de riesgo y las recomendaciones de Defensa Civil ante tormentas severas.",
+        "accion_sugerida": "Realizar un relevamiento de municipios bonaerenses con baja ejecución presupuestaria en caminos rurales.",
         "enfoques_sugeridos": [
-          "El impacto del super El Niño en la campaña agrícola y los recaudos del sector rural.",
-          "Informe de Defensa Civil sobre infraestructura urbana vulnerable ante precipitaciones intensas."
+          "El reclomo formal de las entidades ruralistas ante la inacción de las intendencias.",
+          "El impacto económico del deterioro de los caminos secundarios en la salida de la cosecha."
         ],
         "ejemplos": [
           {
             "medio": "La Nación",
-            "titulo": "Se viene un río atmosférico desde el Pacífico que provocará lluvias persistentes",
-            "link": "https://www.lanacion.com.ar/sociedad/se-viene-un-rio-atmosferico-desde-el-pacifico-que-provocara-lluvias-persistentes-con-90-y-160-mm-de-nid23092026/",
-            "imagen": ""
+            "titulo": "Quisieron justificarse y la empeoraron: un municipio bonaerense informó millones en gastos pero 0 en...",
+            "link": "https://www.lanacion.com.ar/economia/campo/quisieron-justificarse-y-la-empeoraron-un-municipio-bonaerense-informo-millones-en-gastos-pero-0-en-nid24092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/JUXFH7JG2FAZZAU6AISVGDEP2I.png?auth=449aa5e20f8338c1752314fb0a3a5e1a05c6717622c1139e1e13e24d09adf306&smart=true&width=606&height=514"
           },
           {
             "medio": "Clarín",
-            "titulo": "Super Niño 2026 Argentina vivo provincias afectadas llegarán lluvias fuertes",
-            "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-provincias-afectadas-llegaran-lluvias-fuertes_0_2AJY9F7OF7.html",
-            "imagen": "https://www.clarin.com/img/2026/01/15/MyaZOi4Bz_1200x630__1.jpg"
+            "titulo": "Ridículo: municipio bonaerense reportó 0% inversión en obras infraestructura caminos rurales dos años consecutivos",
+            "link": "https://www.clarin.com/rural/ridiculo-municipio-bonaerense-reporto-0-inversion-obras-infraestructura-caminos-rurales-anos-consecutivos_0_XYcDE77T4E.html",
+            "imagen": "https://www.clarin.com/img/2026/04/23/pDJg2Wlrh_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 3
+        "cantidad_medios_competencia": 2
       },
       {
-        "tema": "Emisión de bono internacional por 600 millones de dólares de la provincia de San Juan",
+        "tema": "Veredicto y sentencia en París por el homicidio del exrugbier Federico Martín Aramburú",
         "prioridad": 0,
         "tipo": "sin_cobertura_perfil",
         "tipo_de_oportunidad": "",
@@ -1556,34 +1426,78 @@
         "cobertura_perfil": 0,
         "perfil": 0,
         "competencia_total": 1,
-        "medio_lider": "Infobae",
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Cierra judicialmente un caso de enorme repercusión internacional que conmovió al deporte argentino y francés.",
+        "insight": "Los medios nacionales siguen de cerca los detalles de la condena dictada por la justicia francesa.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Publicar un perfil sobre la búsqueda de justicia por parte de los familiares de la víctima y los detalles técnicos del fallo.",
+        "enfoques_sugeridos": [
+          "El desglose de los años de condena dictados a los implicados en el crimen en París.",
+          "El recuerdo del legado deportivo de Aramburú y el impacto de la sentencia en su entorno."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Clarín",
+            "titulo": "Sentencia crimen rugbier Federico Aramburú Francia: \"El día podré curarme socialmente\"",
+            "link": "https://www.clarin.com/policiales/sentencia-crimen-rugbier-federico-aramburu-francia-dia-podre-curarme-socialmente_0_0LqZ9RpBBL.html",
+            "imagen": "https://www.clarin.com/img/2026/09/23/wP28hnYgu_1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Vencimiento de deuda con el FMI por 800 millones de dólares y gestiones de la delegación técnica",
+        "prioridad": 0,
+        "tipo": "sin_cobertura_perfil",
+        "tipo_de_oportunidad": "",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "TN",
         "cobertura_medio_lider": 1,
         "brecha": 1,
         "cobertura": {
           "Perfil": 0,
           "La Nación": 0,
           "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
+          "Infobae": 0,
+          "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Marca el retorno de una provincia argentina al mercado financiero internacional de deuda tras casi tres décadas.",
-        "insight": "Infobae destacó la colocación financiera como un indicador de apetito por riesgo sub soberano que pasó desapercibido en Perfil.",
+        "por_que_importa": "Condiciona las reservas del Banco Central y marca el ritmo de las negociaciones económicas con el organismo internacional.",
+        "insight": "Es un tema clave para la sección de economía, cubierto con rigor por medios especializados en finanzas.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Analizar la sustentabilidad fiscal de las provincias mineras en el nuevo escenario macroeconómico.",
+        "accion_sugerida": "Analizar la evolución de las reservas netas del BCRA frente a este nuevo compromiso de pago.",
         "enfoques_sugeridos": [
-          "Destino de los fondos obtenidos mediante la colocación de deuda en los mercados externos.",
-          "Comparativa del endeudamiento sub soberano frente a las restricciones del gobierno nacional."
+          "El estado actual de las auditorías del staff del FMI en Buenos Aires.",
+          "El impacto del pago en el nivel de reservas líquidas de la autoridad monetaria."
         ],
         "ejemplos": [
           {
-            "medio": "Infobae",
-            "titulo": "San Juan regresó al mercado internacional de deuda tras 27 años: emitió un bono por USD 600 millones",
-            "link": "https://www.infobae.com/economia/2026/09/24/san-juan-regreso-al-mercado-internacional-de-deuda-tras-27-anos-emitio-un-bono-por-usd-600-millones/",
-            "imagen": "https://www.infobae.com/resizer/v2/EEGZ5TEZUVC3XN5CN2LMRUQ7YY.JPG?auth=0c7e9cd91cfb178ab6a81ac0b1d00d49af78e0eb472805e1491742283e5e6720&smart=true&width=5000&height=3151"
+            "medio": "TN",
+            "titulo": "El Gobierno debe afrontar un vencimiento de US$800 millones al FMI mientras una delegación técnica sigue en Buenos Aires",
+            "link": "https://tn.com.ar/economia/2026/09/25/el-gobierno-debe-afrontar-un-vencimiento-de-us800-millones-al-fmi-mientras-una-delegacion-tecnica-sigue-en-buenos-aires/",
+            "imagen": "https://tn.com.ar/resizer/v2/A4CURS4CURCK3F7C3KV6LTLMTA.jpg?auth=fd8336aff0e040857b52ad910920ff45b0d591e14548384161f3e394cb706ef8"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1593,10 +1507,10 @@
     ],
     "oportunidades": [
       {
-        "tema": "Apertura de la Feria del Libro de la Ciudad y subsidios de emergencia a librerías",
+        "tema": "Cálculo de costos mensuales por traslados en automóvil desde GBA hacia la Ciudad",
         "prioridad": 0,
         "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusiva de Clarín",
+        "tipo_de_oportunidad": "Nota de servicio y consumo",
         "total_notas": 1,
         "cantidad_medios": 1,
         "cobertura_perfil": 0,
@@ -1615,21 +1529,21 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "La industria editorial atraviesa una profunda crisis de costos y ventas, por lo que las medidas de apoyo estatal interesan al sector cultural y educativo.",
-        "insight": "Representa un contenido nicho con muy buena recepción en audiencias interesadas en cultura, literatura y políticas públicas porteñas.",
+        "por_que_importa": "Interpela de forma directa al bolsillo de la clase trabajadora que se desplaja diariamente hacia los centros urbanos.",
+        "insight": "Los contenidos sobre estimación de gastos de movilidad urbana traccionan de manera excelente en lectores interesados en economía doméstica.",
         "motivo": "",
-        "motivo_oportunidad": "Clarín fue el único medio competidor que cubrió el anuncio cultural de la Feria del Libro y los subsidios al sector, dejando un espacio libre en el resto de los portales.",
-        "accion_sugerida": "Desarrollar un informe sobre la situación financiera de las librerías independientes de la Ciudad de Buenos Aires.",
+        "motivo_oportunidad": "Clarín publica un contenido de utilidad masiva sobre gastos cotidianos que genera alto tráfico en Google Discover sin cobertura actual de Perfil.",
+        "accion_sugerida": "Publicar una nota propia comparando los costos actuales de nafta, peajes y estacionamiento versus el uso de transporte público.",
         "enfoques_sugeridos": [
-          "El impacto de la caída de ventas en el circuito de librerías de barrio de la Ciudad.",
-          "Expectativas del sector editorial ante la próxima edición del tradicional encuentro literario."
+          "Desglose de gastos fijos mensuales para un trabajador que viaja en auto desde la zona norte, sur y oeste del GBA.",
+          "Alternativas de carpooling y ahorro frente al incremento sostenido de peajes y combustibles."
         ],
         "ejemplos": [
           {
             "medio": "Clarín",
-            "titulo": "Martín Caparrós abrirá 51° Feria del Libro Ciudad: anuncio ayudas librerías crisis",
-            "link": "https://www.clarin.com/cultura/martin-caparros-abrira-51-feria-libro-ciudad-anuncio-ayudas-librerias-crisis_0_WQRXjDl24p.html",
-            "imagen": "https://www.clarin.com/img/2026/09/24/VsQxesxLY_1200x630__1.jpg"
+            "titulo": "$ 1 millón por mes: el costo de ir en auto a trabajar a la Ciudad desde el GBA",
+            "link": "https://www.clarin.com/economia/1-millon-mes-costo-ir-auto-trabajar-ciudad-gba_0_UAR7HY3mjf.html",
+            "imagen": "https://www.clarin.com/img/2026/09/24/UeAdfPITd_1200x630__1.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1637,10 +1551,10 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Designación de Joaquín Gutiérrez como nuevo presidente de Ecopetrol",
+        "tema": "Arresto de actrices Susan Sarandon y Hannah Einbinder en protesta contra Benjamin Netanyahu en Nueva York",
         "prioridad": 0,
         "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusiva de Infobae",
+        "tipo_de_oportunidad": "Espectáculos e internacional",
         "total_notas": 1,
         "cantidad_medios": 1,
         "cobertura_perfil": 0,
@@ -1659,21 +1573,21 @@
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Ecopetrol es la empresa de energía más importante de Colombia y sus cambios de conducción repercuten en los mercados petroleros latinoamericanos.",
-        "insight": "Es una temática de relevancia corporativa internacional que permite captar tráfico de nicho especializado en energía y negocios.",
+        "por_que_importa": "Une el mundo del espectáculo con tensiones geopolíticas globales de alto voltaje.",
+        "insight": "Las detenciones de figuras públicas en protestas internacionales suelen posicionarse con facilidad en los agregadores de noticias.",
         "motivo": "",
-        "motivo_oportunidad": "Infobae fue el único competidor en relevar este movimiento corporativo energético regional, desatendido en el resto de los medios argentinos.",
-        "accion_sugerida": "Redactar un perfil sobre los desafíos operativos y de transición energética que afrontará la nueva gestión en la petrolera estatal.",
+        "motivo_oportunidad": "Infobae cubre en exclusiva una noticia que combina celebridades de Hollywood y activismo político internacional, generando alto interés en audiencia digital.",
+        "accion_sugerida": "Desarrollar una crónica detallada sobre las posturas políticas históricas de las actrices detenidas frente al conflicto en Medio Oriente.",
         "enfoques_sugeridos": [
-          "La estrategia corporativa frente a los compromisos de descarbonización en América Latina.",
-          "Repercusiones financieras del nombramiento en la bolsa de valores regional."
+          "El historial de activismo político de Susan Sarandon en Estados Unidos.",
+          "La reacción de la comunidad artística de Hollywood ante las visitas de mandatarios extranjeros."
         ],
         "ejemplos": [
           {
             "medio": "Infobae",
-            "titulo": "Joaquín Gutiérrez fue elegido como el nuevo presidente de Ecopetrol: este es su perfil y trayectoria",
-            "link": "https://www.infobae.com/colombia/2026/09/24/joaquin-gutierrez-fue-elegido-como-el-nuevo-presidente-de-ecopetrol-este-es-su-perfil-y-trayectoria/",
-            "imagen": "https://www.infobae.com/resizer/v2/K6THXIGFCJGDNBFMAN5X5D7QKE.jpg?auth=2292d545ea73799c010b1d68256911aac045ca640f64d3f5686828a62723a804&smart=true&width=1284&height=782"
+            "titulo": "Arrestaron a Susan Sarandon y Hannah Einbinder en una protesta contra Netanyahu en Nueva York",
+            "link": "https://www.infobae.com/estados-unidos/2026/09/25/arrestaron-a-susan-sarandon-y-hannah-einbinder-en-una-protesta-contra-netanyahu-en-nueva-york/",
+            "imagen": "https://www.infobae.com/resizer/v2/CN5RX2MZKRDW3KBL6JYFA7VTCQ.JPG?auth=d8c7d58e70d47b90e0f5380f60c9cbdcf8cdb9e22ab33ff79b5a81c8fa8090d0&smart=true&width=5310&height=3547"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1681,87 +1595,43 @@
         "cantidad_medios_competencia": 1
       },
       {
-        "tema": "Informe sobre el rendimiento en matemática y su compromiso con el futuro laboral juvenil",
+        "tema": "Declaraciones y difusión de spot político por parte de Alberto Fernández sobre polémica frase",
         "prioridad": 0,
         "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusiva de Clarín",
+        "tipo_de_oportunidad": "Política nacional",
         "total_notas": 1,
         "cantidad_medios": 1,
         "cobertura_perfil": 0,
         "perfil": 0,
         "competencia_total": 1,
-        "medio_lider": "Clarín",
+        "medio_lider": "TN",
         "cobertura_medio_lider": 1,
         "brecha": 1,
         "cobertura": {
           "Perfil": 0,
           "La Nación": 0,
-          "Clarín": 1,
+          "Clarín": 0,
           "Infobae": 0,
-          "TN": 0,
+          "TN": 1,
           "Ámbito": 0,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "El nivel educativo en ciencias exactas es un predictor clave de la empleabilidad y el desarrollo tecnológico de las nuevas generaciones.",
-        "insight": "Los contenidos sobre educación y empleabilidad juvenil tienen un excelente rendimiento sostenido en buscadores y redes sociales.",
+        "por_que_importa": "Revive polémicas políticas con alto nivel de interacción y polarización en la opinión pública.",
+        "insight": "Las notas vinculadas a exfuncionarios públicos generan un consumo sostenido en buscadores y redes.",
         "motivo": "",
-        "motivo_oportunidad": "Clarín desarrolló en solitario este diagnóstico educativo y laboral, un tópico de altísimo valor para padres, docentes y SEO educativo.",
-        "accion_sugerida": "Consultar a especialistas en pedagogía sobre metodologías alternativas para la enseñanza de las matemáticas en secundarias.",
+        "motivo_oportunidad": "TN instala un debate con fuerte repercusión en redes sociales sobre declaraciones del exmandatario que Perfil aún no ha abordado en su portal.",
+        "accion_sugerida": "Publicar una síntesis contextualizada sobre las repercusiones de la reaparición mediática del expresidente.",
         "enfoques_sugeridos": [
-          "La brecha entre las habilidades requeridas por la economía del conocimiento y los planes de estudio actuales.",
-          "Testimonios de docentes sobre los desafíos de sostener el interés por las ciencias exactas en las aulas."
+          "El impacto de las declaraciones en la interna de Unión por la Patria.",
+          "La estrategia comunicacional detrás de la difusión del spot en plataformas digitales."
         ],
         "ejemplos": [
           {
-            "medio": "Clarín",
-            "titulo": "Matemática, asignatura pendiente que compromete futuro laboral jóvenes argentinos",
-            "link": "https://www.clarin.com/sociedad/matematica-asignatura-pendiente-compromete-futuro-laboral-jovenes-argentinos_0_WVlJadb5ot.html",
-            "imagen": "https://www.clarin.com/img/2021/08/21/29vhhQJq1_1200x630__1.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 1
-      },
-      {
-        "tema": "Aprobación de nuevo cobro de alumbrado público asociado al impuesto predial en Bogotá",
-        "prioridad": 0,
-        "tipo": "oportunidades",
-        "tipo_de_oportunidad": "Exclusiva de Infobae",
-        "total_notas": 1,
-        "cantidad_medios": 1,
-        "cobertura_perfil": 0,
-        "perfil": 0,
-        "competencia_total": 1,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
-        "cobertura": {
-          "Perfil": 0,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 1,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Ilustra las tensiones fiscales entre municipios y contribuyentes por la creación de nuevas tasas atadas a tributos inmobiliarios.",
-        "insight": "Es una nota de interés internacional sobre gestión urbana que permite diversificar la oferta informativa regional.",
-        "motivo": "",
-        "motivo_oportunidad": "Infobae cubrió en exclusiva esta modificación impositiva municipal en Colombia, un tema de gestión urbana sin presencia en la agenda local.",
-        "accion_sugerida": "Realizar una comparativa sobre la presión fiscal municipal en ciudades capitales de América Latina.",
-        "enfoques_sugeridos": [
-          "El rechazo de las asociaciones de propietarios frente al recargo en las tasas locales.",
-          "El destino de los fondos recaudados para la modernización del sistema lumínico metropolitano."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Infobae",
-            "titulo": "Concejo de Bogotá aprobó nuevo cobro de alumbrado público mediante el impuesto predial: así funcionará",
-            "link": "https://www.infobae.com/colombia/2026/09/24/concejo-de-bogota-aprobo-nuevo-cobro-de-alumbrado-publico-mediante-el-impuesto-predial-asimismo-funcionara-y-quienes-deberan-pagarlo/",
-            "imagen": "https://www.infobae.com/resizer/v2/CUQ3VCZUFVE2DOKNKIM57EQIXU.jpeg?auth=726aee4952dbf3990decd16a6b1447e8853f16be1198c5149b09c19a52c66fdc&smart=true&width=1050&height=551"
+            "medio": "TN",
+            "titulo": "Alberto Fernández compartió un spot de Lula para justificar su frase sobre el origen de los brasileños: \"Salieron de la selva\"",
+            "link": "https://tn.com.ar/politica/2026/09/25/alberto-fernandez-compartio-un-spot-de-lula-para-justificar-su-frase-sobre-el-origen-de-los-brasilenos-salieron-de-la-selva/",
+            "imagen": "https://tn.com.ar/resizer/v2/FX2NZJKIKSN6KJPSDHGE4PBNEI.jpg?auth=bfd00b7898b18d40374ea4b02c9d18fbba7bec8bfff5d87f8e21709b06da8f0b"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1770,5 +1640,5 @@
       }
     ]
   },
-  "total_temas": 16
+  "total_temas": 15
 }
