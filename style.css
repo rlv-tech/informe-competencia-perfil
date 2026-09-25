@@ -588,67 +588,71 @@ select {
    ========================================================= */
 
 .detail-importance {
-  padding: 19px 20px;
-  background: #edf3f8;
-  border: 1px solid #d5e1ec;
+  padding: 16px 18px;
+  background: #f1f5f9;
+  border: 1px solid #d9e3ec;
   border-left: 4px solid #6286b1;
 }
 
 .detail-importance .detail-card-label {
   color: #52779f;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .detail-importance p {
-  color: #263746;
-  font-size: 14px;
-  line-height: 1.65;
-  font-weight: 600;
-}
-
-
-/* =========================================================
-   INSIGHT — SEGUNDO NIVEL
-   ========================================================= */
-
-.detail-insight {
-  padding: 18px 20px;
-  background: #f7f9fb;
-  border: 1px solid #dfe6ec;
-  border-left: 4px solid #8fa9bf;
-}
-
-.detail-insight .detail-card-label {
-  color: #6286b1;
-  font-size: 11px;
-}
-
-.detail-insight p {
-  color: #344653;
-  font-size: 13.5px;
-  line-height: 1.65;
+  color: #354554;
+  font-size: 13px;
+  line-height: 1.6;
   font-weight: 500;
 }
 
 
 /* =========================================================
-   ACCIÓN SUGERIDA — OPERATIVA
+   INSIGHT — MISMO TAMAÑO, COLOR MÁS CLARO
+   ========================================================= */
+
+.detail-insight {
+  padding: 16px 18px;
+  background: #f6f8fa;
+  border: 1px solid #e2e8ed;
+  border-left: 4px solid #9db4c8;
+}
+
+.detail-insight .detail-card-label {
+  color: #6f8da8;
+  font-size: 10px;
+}
+
+.detail-insight p {
+  color: #4f6271;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+
+/* =========================================================
+   ACCIÓN SUGERIDA — MISMO TAMAÑO, MÁS NEUTRA
    ========================================================= */
 
 .detail-action {
-  background: #fff;
-  border: 1px solid #e5e9ee;
+  padding: 16px 18px;
+  background: #fafbfc;
+  border: 1px solid #e9edf0;
+  border-left: 4px solid #c5ced5;
 }
 
 .detail-action .detail-card-label {
-  color: #7c8994;
+  color: #7f8b94;
+  font-size: 10px;
 }
 
 .detail-action p {
-  color: #4a5864;
+  color: #66727c;
   font-size: 13px;
+  line-height: 1.6;
+  font-weight: 500;
 }
-
 
 /* =========================================================
    ENFOQUES SUGERIDOS
