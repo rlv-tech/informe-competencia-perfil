@@ -584,11 +584,10 @@ select {
 
 
 /* =========================================================
-   POR QUÉ IMPORTA — PRINCIPAL
+   POR QUÉ IMPORTA
    ========================================================= */
 
 .detail-importance {
-  padding: 16px 18px;
   background: #f1f5f9;
   border: 1px solid #d9e3ec;
   border-left: 4px solid #6286b1;
@@ -596,7 +595,6 @@ select {
 
 .detail-importance .detail-card-label {
   color: #52779f;
-  font-size: 10px;
 }
 
 .detail-importance p {
@@ -608,11 +606,10 @@ select {
 
 
 /* =========================================================
-   INSIGHT — MISMO TAMAÑO, COLOR MÁS CLARO
+   INSIGHT
    ========================================================= */
 
 .detail-insight {
-  padding: 16px 18px;
   background: #f6f8fa;
   border: 1px solid #e2e8ed;
   border-left: 4px solid #9db4c8;
@@ -620,7 +617,6 @@ select {
 
 .detail-insight .detail-card-label {
   color: #6f8da8;
-  font-size: 10px;
 }
 
 .detail-insight p {
@@ -632,11 +628,10 @@ select {
 
 
 /* =========================================================
-   ACCIÓN SUGERIDA — MISMO TAMAÑO, MÁS NEUTRA
+   ACCIÓN SUGERIDA
    ========================================================= */
 
 .detail-action {
-  padding: 16px 18px;
   background: #fafbfc;
   border: 1px solid #e9edf0;
   border-left: 4px solid #c5ced5;
@@ -644,7 +639,6 @@ select {
 
 .detail-action .detail-card-label {
   color: #7f8b94;
-  font-size: 10px;
 }
 
 .detail-action p {
