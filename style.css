@@ -218,15 +218,20 @@ img {
   box-shadow: 0 12px 28px rgba(37, 55, 70, .09);
 }
 
+
+/* =========================
+   IMÁGENES DE PRIORIDADES
+========================= */
+
 .priority-image {
   width: 100%;
   aspect-ratio: 16 / 9;
   height: auto;
 
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
 
-  background: #e9edf1;
+  background: transparent;
 }
 
 .priority-content {
@@ -446,15 +451,20 @@ img {
   position: relative;
 }
 
+
+/* =========================
+   IMÁGENES DE TEMÁTICAS
+========================= */
+
 .theme-image {
   width: 100%;
   aspect-ratio: 16 / 9;
   height: auto;
 
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
 
-  background: #e9edf1;
+  background: transparent;
 }
 
 .theme-body {
@@ -744,7 +754,7 @@ img {
 
 /* =========================================================
    POR QUÉ IMPORTA — PRINCIPAL
-   ========================================================= */
+========================================================= */
 
 .detail-importance {
   padding: 16px 18px;
@@ -768,7 +778,7 @@ img {
 
 /* =========================================================
    INSIGHT — MISMO TAMAÑO, COLOR MÁS CLARO
-   ========================================================= */
+========================================================= */
 
 .detail-insight {
   padding: 16px 18px;
@@ -792,7 +802,7 @@ img {
 
 /* =========================================================
    ACCIÓN SUGERIDA — MISMO TAMAÑO, MÁS NEUTRA
-   ========================================================= */
+========================================================= */
 
 .detail-action {
   padding: 16px 18px;
