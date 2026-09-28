@@ -220,10 +220,10 @@ img {
 
 .priority-image {
   width: 100%;
-  height: 155px;
+  height: 150px;
 
   object-fit: cover;
-  object-position: center center;
+  object-position: center 40%;
 
   background: transparent;
 }
@@ -447,10 +447,10 @@ img {
 
 .theme-image {
   width: 100%;
-  height: 235px;
+  height: 225px;
 
   object-fit: cover;
-  object-position: center center;
+  object-position: center 40%;
 
   background: transparent;
 }
@@ -742,7 +742,7 @@ img {
 
 /* =========================================================
    POR QUÉ IMPORTA — PRINCIPAL
-   ========================================================= */
+========================================================= */
 
 .detail-importance {
   padding: 16px 18px;
@@ -766,7 +766,7 @@ img {
 
 /* =========================================================
    INSIGHT — MISMO TAMAÑO, COLOR MÁS CLARO
-   ========================================================= */
+========================================================= */
 
 .detail-insight {
   padding: 16px 18px;
@@ -790,7 +790,7 @@ img {
 
 /* =========================================================
    ACCIÓN SUGERIDA — MISMO TAMAÑO, MÁS NEUTRA
-   ========================================================= */
+========================================================= */
 
 .detail-action {
   padding: 16px 18px;
@@ -1133,7 +1133,7 @@ img {
   }
 
   .theme-image {
-    height: 195px;
+    height: 190px;
   }
 
   .theme-title {
