@@ -2,63 +2,119 @@
   "fecha_analisis": "30 de septiembre de 2026",
   "hipercompetencia": [
     {
-      "tema": "Medidas de precaución e impacto del fenómeno El Niño",
+      "tema": "Críticas y reclamos al fallo de la Corte sobre la Ley de Tierras y el DNU",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 4,
-      "cantidad_medios": 3,
+      "total_notas": 9,
+      "cantidad_medios": 6,
       "cobertura_perfil": 2,
       "perfil": 2,
-      "competencia_total": 2,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": 1,
+      "competencia_total": 7,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 2,
+      "brecha": 0,
       "cobertura": {
         "Perfil": 2,
         "La Nación": 1,
-        "Clarín": 1,
+        "Clarín": 2,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
+        "TN": 1,
+        "Ámbito": 2,
+        "Página 12": 1,
         "El Cronista": 0
       },
-      "por_que_importa": "Interesa directamente a los lectores de Perfil por su impacto en la economía regional, la producción agropecuaria y la seguridad ciudadana ante eventos climáticos extremos.",
-      "insight": "La competencia directa ya genera coberturas con fuerte enfoque en mapas de riesgo y proyecciones meteorológicas a mediano plazo.",
+      "por_que_importa": "Involucra un fallo clave de la Corte Suprema sobre desregulación económica y soberanía territorial que moviliza a la oposición.",
+      "insight": "Gran parte de la agenda política está concentrada en las repercusiones institucionales y el posicionamiento del peronismo.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar el análisis con reportes exclusivos sobre infraestructura urbana y prevención municipal para diferenciarse de la cobertura generalista.",
+      "accion_sugerida": "Profundizar en el impacto económico real que tendrá la habilitación de compras extranjeras en zonas rurales.",
       "enfoques_sugeridos": [
-        "Impacto económico y productivo en las economías regionales del Litoral y centro del país.",
-        "Guía de prevención y costos estimados para la reparación de daños vehiculares y habitacionales."
+        "Análisis legal sobre los alcances del fallo en las provincias.",
+        "Repercusiones en el Congreso y estrategia opositora frente al DNU."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El Niño: qué deben hacer los automovilistas si los sorprende el granizo ",
-          "link": "https://www.perfil.com/noticias/cordoba/el-nino-que-deben-hacer-los-automovilistas-si-los-sorprende-el-granizo.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/28/trim/540/304/tormenta-con-granizo-en-cordoba-2335651.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "“El Niño” se podría convertir esta primavera en el fenómeno más potente de los últimos 40 años ",
-          "link": "https://www.perfil.com/noticias/nea/el-nino-se-podria-convertir-esta-primavera-en-el-fenomeno-mas-potente-de-los-ultimos-40-anos.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/el-nino-alertan-por-crecidas-historicas-del-rio-parana-y-pone-al-litoral-bajo-mayor-2327121.jpg"
+          "titulo": "Fuerte críticas al fallo de la Corte sobre la Ley de Tierras y reclamos contra el DNU de Milei",
+          "link": "https://www.perfil.com/noticias/politica/reacciones-al-fallo-de-la-corte-sobre-la-ley-de-tierras-criticas-del-peronismo-y-reclamos-contra-el-dnu-de-milei.phtml",
+          "imagen": "https://fotos.perfil.com/2026/08/06/trim/540/304/congreso-manifestacion-por-la-ley-de-tierras-06082026-2298991.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "El Niño alcanzará en diciembre su máxima fuerza, con lluvias extendidas en gran parte de la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/el-nino-alcanzara-en-diciembre-su-maxima-fuerza-con-lluvias-extendidas-en-gran-parte-de-la-argentina-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024"
+          "titulo": "Por un fallo de la Corte, ya no hay límites a la venta de tierras a extranjeros",
+          "link": "https://www.lanacion.com.ar/politica/la-corte-suprema-dejo-en-vigencia-la-derogacion-de-la-ley-de-tierras-que-decreto-milei-en-2023-nid29092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/J3DEAOJHGJBZNJJCYFUXXYU6SQ.JPG?auth=9150b8a212d5fd8d1d9ff9476b0f6fa7fa6a35c0c25866b1330c80e179c64c34&smart=true&width=1280&height=853"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Ley de Tierras: la oposición se reúne con el CECIM y analiza los pasos a seguir tras el fallo de la Corte",
+          "link": "https://www.ambito.com/politica/ley-tierras-la-oposicion-se-reune-el-cecim-y-analiza-los-pasos-seguir-el-fallo-la-corte-n6328364",
+          "imagen": "https://media.ambito.com/p/8da67b3c180cc0e2d1f674d7d81807a6/adjuntos/239/imagenes/042/689/0042689687/1200x675/smart/union-la-patria-diputados-peronismo.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
+      "cantidad_medios_competencia": 5
     },
     {
-      "tema": "Muerte de turista francesa por avalancha en El Chaltén",
+      "tema": "Viaje de Javier Milei a París con gobernadores y empresarios",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 6,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 2,
+      "perfil": 2,
+      "competencia_total": 4,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 2,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 2,
+        "La Nación": 2,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 1,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Muestra la dinámica entre el Ejecutivo nacional, los mandatarios provinciales y el sector privado en busca de respaldo político y económico.",
+      "insight": "Los principales medios cubren la comitiva y las negociaciones paralelas de cara a la agenda legislativa.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Seguir de cerca las demandas de los gobernadores durante el viaje y su impacto en las futuras alianzas en el Congreso.",
+      "enfoques_sugeridos": [
+        "El detrás de escena del trato político entre Milei y los 13 gobernadores.",
+        "La recepción de los inversores europeos ante las medidas económicas."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "RDE: Javier Milei viaja a París con 13 gobernadores y la mirada puesta en el Congreso",
+          "link": "https://www.perfil.com/noticias/masperfil/javier-milei-viaja-a-paris-con-13-gobernadores-y-la-mirada-puesta-en-el-congreso.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-2333297.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Los gobernadores que viajaron a París esperan un “mano a mano” con Milei por las PASO",
+          "link": "https://www.lanacion.com.ar/politica/los-gobernadores-que-viajaron-a-paris-esperan-un-mano-a-mano-con-milei-por-las-paso-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/XRYYENQ3ORHYNFJ2DUQ7QE2UX4.jpg?auth=692f5d1335008e5be2daadb4ad22c0946343f0d6396765cf22a4252bf6924010&smart=true&width=2706&height=1525"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Javier Milei busca seducir a los gobernadores en París",
+          "link": "https://www.pagina12.com.ar/2026/09/30/milei-busca-seducir-a-los-gobernadores-en-paris/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/B5FGRST5Q5DDRACXMNCZYABVM4.jpeg?auth=f1d0349fdbf0880c604b0c21ea0e2712e5a3cfdce93fbd24bf7a1fee533b296e&amp;smart=true&amp;width=929&amp;height=620"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Postergación del aumento al impuesto a los combustibles",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
@@ -75,19 +131,243 @@
         "La Nación": 1,
         "Clarín": 1,
         "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Impacta de forma directa en el bolsillo de la clase media y en las proyecciones de inflación del equipo económico.",
+      "insight": "Los medios económicos y generales reflejan la decisión oficial de administrar las subas para evitar mayores presiones inflacionarias.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Evaluar el costo fiscal de esta nueva postergación y cómo afecta el equilibrio fiscal pretendido por Economía.",
+      "enfoques_sugeridos": [
+        "El impacto de la medida en la desaceleración inflacionaria de corto plazo.",
+        "El reclamo de las petroleras frente a los sucesivos congelamientos."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "El Gobierno frenó otro aumento a los combustibles y trasladó para noviembre la actualización de impuestos",
+          "link": "https://www.perfil.com/noticias/economia/gobierno-freno-otro-aumento-combustibles-traslado-para-noviembre-actualizacion-impuestos-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/07/31/trim/540/304/estacion-de-servicio-combustible-31072026-2294888.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Hasta noviembre: el Gobierno volvió a postergar el aumento del impuesto a los combustibles",
+          "link": "https://www.lanacion.com.ar/economia/hasta-noviembre-el-gobierno-volvio-a-postergar-el-aumento-del-impuesto-a-los-combustibles-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/HS6EXH3DMNHN7M64QRVTI2T4YE.jpg?auth=ff7a8d750548631957eaaa8b68310bf4cbe6fc15ee9e5a8d356507628401111e&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Combustibles: el Gobierno volvió a postergar la suba de impuestos y busca contener el impacto en los surtidores",
+          "link": "https://www.ambito.com/economia/combustibles-el-gobierno-volvio-postergar-la-suba-impuestos-y-busca-contener-el-impacto-los-surtidores-n6328318",
+          "imagen": "https://media.ambito.com/p/1446800e2719b104cc4b64dbd4e754b7/adjuntos/239/imagenes/043/256/0043256924/1200x675/2414x1501:2434x1521/combustibles-naftas-petroleo.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Reapertura del mercado de carne argentina en Japón",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 3,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Representa una noticia de alto impacto para las economías regionales y el sector agroexportador tras dos décadas de restricciones.",
+      "insight": "La cobertura se alinea en destacar el anuncio oficial y las expectativas comerciales del sector frigorífico.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Desarrollar un informe sobre cuáles serán los frigoríficos beneficiados y el volumen potencial de exportación.",
+      "enfoques_sugeridos": [
+        "El largo camino sanitario para destrabar el mercado japonés.",
+        "Expectativa del sector ganadero ante el ingreso de divisas."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Carne argentina a Japón: tras 20 años, reabre un mercado de más de u$s3.000 millones",
+          "link": "https://www.perfil.com/noticias/economia/carne-argentina-a-japon-tras-20-anos-acordaron-la-reapertura-de-un-mercado-de-mas-de-us3000-millones-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/04/24/trim/540/304/carne-2226982.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "\"Acuerdo histórico\": Caputo anunció la apertura total del mercado de Japón para la carne bovina argentina después de 20 años",
+          "link": "https://www.clarin.com/rural/acuerdo-historico-caputo-anuncio-apertura-total-mercado-japon-carne-bovina-argentina_0_EICEkJLEOn.html",
+          "imagen": "https://www.clarin.com/img/2025/02/26/2PQrwd2Kc_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Luis Caputo anunció que Japón reabrió su mercado a la carne vacuna argentina después de 20 años",
+          "link": "https://tn.com.ar/campo/2026/09/30/luis-caputo-anuncio-que-japon-reabrio-su-mercado-a-la-carne-vacuna-argentina-despues-de-20-anos/",
+          "imagen": "https://tn.com.ar/resizer/v2/LARU523NGNEJ7BIFSKUVY747QA.jpeg?auth=2cbcabcaec9bd4ffe1713f29470108bb0dc78d7950aa84071878294d916dd482"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Próxima ejecución de Christa Pike en Tennessee",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 4,
+      "cantidad_medios": 4,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 3,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Atrae un fuerte interés internacional por tratarse de un caso histórico en el sistema judicial estadounidense.",
+      "insight": "Los portales de noticias compiten por el relato minuto a minuto de las horas previas en el corredor de la muerte.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Aportar una perspectiva criminológica o de derechos humanos sobre la pena capital en Estados Unidos.",
+      "enfoques_sugeridos": [
+        "El perfil psicológico del caso y el debate sobre la pena de muerte.",
+        "Testimonios de los familiares de la víctima tras décadas de litigio."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Christa Pike, la primera mujer que Tennessee ejecutará en 200 años: sus últimas horas en el corredor de la muerte",
+          "link": "https://www.perfil.com/noticias/policia/a41-christa-pike-la-primera-mujer-que-tennessee-ejecutara-en-200-anos-sus-ultimas-horas-en-el-corredor-de-la-muerte.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/29/trim/540/304/christa-pike-y-tadaryl-shipp-29092026-2336806.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Christa Pike afronta sus últimas horas: hoy será la primera mujer ejecutada en Tennessee en 200 años",
+          "link": "https://www.lanacion.com.ar/el-mundo/christa-pike-afronta-sus-ultimas-horas-hoy-sera-la-primera-mujer-ejecutada-en-tennessee-en-200-anos-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CDF4SKFAHNBPLIU3HY6AGA2LL4.webp?auth=305d54e9223ac69b6eaccdfcee8aca3d0e2956057c7e7e5279e28254a479f30d&smart=true&width=800&height=800"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "May Martínez, la madre de Colleen Slemmer, habló antes de la ejecución de Christa Pike: \"Quizás ahora por fin tengamos justicia\"",
+          "link": "https://www.clarin.com/estados-unidos/may-martinez-madre-colleen-slemmer-hablo-ejecucion-christa-pike-ahora-fin-justicia_0_z3lwp7oUkr.html",
+          "imagen": "https://www.clarin.com/img/2026/09/30/wts1XTU___1200x630__1.jpg"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 3
+    },
+    {
+      "tema": "Pronóstico del clima en CABA y AMBA",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 2,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 1,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Es un contenido de utilidad diaria con un alto volumen de búsquedas recurrentes en buscadores.",
+      "insight": "Varios medios mantienen actualizaciones constantes sobre el estado del tiempo para la audiencia urbana.",
+      "motivo": "",
+      "motivo_oportunidad": "",
+      "accion_sugerida": "Optimizar el SEO local para captar tráfico directo desde Google Discover durante las primeras horas de la mañana.",
+      "enfoques_sugeridos": [
+        "Detalle hora por hora de la temperatura y humedad.",
+        "Proyección extendida para los próximos días en la región metropolitana."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Clima en Ciudad Autónoma de Buenos Aires este miércoles 30 de septiembre: llega una tarde agradable con sol y sin lluvias",
+          "link": "https://www.perfil.com/noticias/clima/clima-en-ciudad-autonoma-de-buenos-aires-este-miercoles-30-de-septiembre-llega-una-tarde-agradable-con-sol-y-sin-lluvias-a35.phtml",
+          "imagen": "https://fotos.perfil.com/2025/09/23/trim/540/304/clima-buenos-aires-20250922-2104122.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Pronóstico del tiempo: hasta cuándo siguen las lluvias en el AMBA, según el Servicio Meteorológico Nacional ",
+          "link": "https://www.lanacion.com.ar/sociedad/pronostico-del-tiempo-hasta-cuando-siguen-las-lluvias-en-el-amba-segun-el-servicio-meteorologico-nid29092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/AKLVDLFRWRCL7GKCEIUNAMO5AA.png?auth=535689ac93ff555a30a35c80c995d764ede069bf9afd672192ffcf566031da5b&smart=true&width=1560&height=455"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Clima en Buenos Aires: el pronóstico del tiempo para este miércoles 30 de septiembre",
+          "link": "https://www.pagina12.com.ar/2026/09/30/clima-en-buenos-aires-el-pronostico-del-tiempo-para-este-miercoles-30-de-septiembre/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GU3DQM3BMMZTKNJQMJSDGYJRGI.jpg?auth=9578a1442723056e0d1f30fbaa81d55b26133e47d43c1c9a98b5a3834d856483&amp;smart=true&amp;width=960&amp;height=640"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 2
+    },
+    {
+      "tema": "Muerte de turista francesa por avalancha en Santa Cruz",
+      "prioridad": 0,
+      "tipo": "hipercompetencia",
+      "tipo_de_oportunidad": "",
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 2,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
         "TN": 1,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Es un hecho policial y de alto impacto emocional que moviliza el interés nacional e internacional sobre la seguridad en zonas turísticas extremas.",
-      "insight": "Los principales portales compiten por los detalles humanos, las declaraciones de allegados y los últimos registros en redes sociales de la víctima.",
+      "por_que_importa": "Tragedia en un destino turístico emblemático de la Patagonia que moviliza la cobertura de policiales y sociedad.",
+      "insight": "La combinación de turismo extremo, fatalidad y repercusiones en redes genera alto interés de la audiencia.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar con voces de rescatistas locales y expertos en montañismo para evaluar los riesgos actuales en los senderos de la Patagonia.",
+      "accion_sugerida": "Profundizar en las medidas de seguridad y advertencias para montañistas en El Chaltén.",
       "enfoques_sugeridos": [
-        "Protocolos de seguridad y advertencias para el turismo de alta montaña en la región.",
-        "Perfil humano de la esquiadora y el impacto de la tragedia en la comunidad local de El Chaltén."
+        "El operativo de rescate y el testimonio de los guías locales.",
+        "El perfil de la esquiadora profesional fallecida."
       ],
       "ejemplos": [
         {
@@ -97,109 +377,109 @@
           "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juliette-agathe-elena-willmann-2337152.jpg"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Quién era la turista francesa que murió por una avalancha de nieve en El Chaltén",
-          "link": "https://www.lanacion.com.ar/sociedad/quien-era-la-turista-francesa-que-murio-por-una-avalancha-de-nieve-en-el-chalten-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/6HVLDYS57JCLLBB7NS74UT732I.jpeg?auth=f76bb82f8866b38f8de28f74340ff44e1d4c80086127523971cf23822b013959&smart=true&width=1200&height=540"
-        },
-        {
           "medio": "Clarín",
           "titulo": "Esquiadora profesional y un último mensaje desde la montaña: la turista francesa que murió por una avalancha en El Chaltén",
           "link": "https://www.clarin.com/sociedad/esquiadora-profesional-ultimo-mensaje-montana-turista-francesa-murio-avalancha-chalten_0_5mU09Rz6MW.html",
           "imagen": "https://www.clarin.com/img/2026/09/29/ijD04II74_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El último posteo de la turista francesa que murió atrapada en una avalancha en El Chaltén: “Nos sentimos muy afortunados”",
+          "link": "https://tn.com.ar/sociedad/2026/09/30/el-ultimo-posteo-de-la-turista-francesa-que-murio-atrapada-en-una-avalancha-en-el-chalten-nos-sentimos-muy-afortunados/",
+          "imagen": "https://tn.com.ar/resizer/v2/VHXU6KQCSJHFRPSIBDDGXB4WCU.PNG?auth=b5c2cda4c54dd0ac1fd7a103829f0a4c94378c6fd29f88bf744209778c0753e8"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
+      "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Críticas al fallo de la Corte Suprema sobre la Ley de Tierras y DNU",
+      "tema": "Estado de salud de Mirtha Legrand",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 14,
-      "cantidad_medios": 7,
-      "cobertura_perfil": 2,
-      "perfil": 2,
-      "competencia_total": 12,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 6,
-      "brecha": -4,
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cobertura_perfil": 1,
+      "perfil": 1,
+      "competencia_total": 2,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 1,
+      "brecha": 0,
       "cobertura": {
-        "Perfil": 2,
-        "La Nación": 2,
-        "Clarín": 1,
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 0,
         "Infobae": 1,
         "TN": 1,
-        "Ámbito": 6,
-        "Página 12": 1,
+        "Ámbito": 0,
+        "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Constituye un eje central de la discusión jurídica y política en Argentina sobre las facultades del Ejecutivo y la extranjerización de recursos naturales.",
-      "insight": "La oposición y distintos actores institucionales se movilizan rápidamente, generando un volumen masivo de notas de opinión y reacciones políticas.",
+      "por_que_importa": "La salud de una figura central del espectáculo argentino moviliza inmediatamente el interés masivo.",
+      "insight": "Los portales de espectáculos actualizan de forma constante sobre los partes médicos y declaraciones familiares.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un análisis constitucional exclusivo sobre los efectos a largo plazo de la habilitación de compras para capitales extranjeros.",
+      "accion_sugerida": "Centralizar la información oficial sin caer en especulaciones para preservar el rigor periodístico.",
       "enfoques_sugeridos": [
-        "Repercusiones políticas y estrategia de la oposición en el Congreso tras el fallo.",
-        "Análisis técnico-legal de la sentencia a cargo de constitucionalistas de referencia."
+        "La palabra de su entorno íntimo y colegas del medio.",
+        "Revisión de su trayectoria histórica en la televisión."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Fuerte críticas al fallo de la Corte sobre la Ley de Tierras y reclamos contra el DNU de Milei",
-          "link": "https://www.perfil.com/noticias/politica/reacciones-al-fallo-de-la-corte-sobre-la-ley-de-tierras-criticas-del-peronismo-y-reclamos-contra-el-dnu-de-milei.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/06/trim/540/304/congreso-manifestacion-por-la-ley-de-tierras-06082026-2298991.jpg"
+          "titulo": "Juana Viale habló del estado de salud de Mirtha Legrand y remarcó: \"Es una mujer grande\"",
+          "link": "https://www.perfil.com/noticias/espectaculos/juana-viale-hablo-del-estado-de-mirtha-legrand-y-remarco-es-una-mujer-grande.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juana-viale-con-mario-pergolini-2337146.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Gil Domínguez: \"Cualquier persona o Estado extranjero pueden comprar toda la tierra rural donde quiera\"",
-          "link": "https://www.perfil.com/noticias/cordoba/gil-dominguez-cualquier-persona-o-estado-extranjero-pueden-comprar-toda-la-tierra-rural-a-donde-quieran.phtml",
-          "imagen": "https://fotos.perfil.com/2025/06/04/trim/540/304/andres-gil-dominguez-abogado-constitucionalista-2036436.jpg"
+          "medio": "Infobae",
+          "titulo": "Difundieron un nuevo parte médico sobre la salud de Mirtha Legrand",
+          "link": "https://www.infobae.com/teleshow/2026/09/30/difundieron-un-nuevo-parte-medico-sobre-la-salud-de-mirtha-legrand/",
+          "imagen": "https://www.infobae.com/resizer/v2/7FEAQNQU5ZCWXDZX45OVG6YBFQ.jpeg?auth=9aefd69082d1b648e20d3494ddd7a1396dd477da45a912ea018dafac57871a8b&smart=true&width=1066&height=1598"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Por un fallo de la Corte, ya no hay límites a la venta de tierras a extranjeros",
-          "link": "https://www.lanacion.com.ar/politica/la-corte-suprema-dejo-en-vigencia-la-derogacion-de-la-ley-de-tierras-que-decreto-milei-en-2023-nid29092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/J3DEAOJHGJBZNJJCYFUXXYU6SQ.JPG?auth=9150b8a212d5fd8d1d9ff9476b0f6fa7fa6a35c0c25866b1330c80e179c64c34&smart=true&width=1280&height=853"
+          "medio": "TN",
+          "titulo": "Qué dice el parte médico de Mirtha Legrand de este miércoles 30 de septiembre",
+          "link": "https://tn.com.ar/show/famosos/2026/09/30/que-dice-el-parte-medico-de-mirtha-legrand-de-este-miercoles-30-de-septiembre/",
+          "imagen": "https://tn.com.ar/resizer/v2/Z7FI25NJRFHFXIVOGBY7PJHH6I.jpeg?auth=fde4b85507afac5c21f5f7236620bca18f431d9b603e8373a45538a7d7cfc92f"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 6
+      "cantidad_medios_competencia": 2
     },
     {
-      "tema": "Incidente, aterrizaje de emergencia y sospecha de atentado en el vuelo de Flydubai hacia Israel",
+      "tema": "Incidente y aterrizaje de emergencia del avión de Flydubai",
       "prioridad": 0,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 41,
+      "total_notas": 32,
       "cantidad_medios": 7,
       "cobertura_perfil": 2,
       "perfil": 2,
-      "competencia_total": 39,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 11,
-      "brecha": -9,
+      "competencia_total": 30,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 10,
+      "brecha": -8,
       "cobertura": {
         "Perfil": 2,
-        "La Nación": 8,
-        "Clarín": 4,
-        "Infobae": 11,
-        "TN": 9,
-        "Ámbito": 5,
+        "La Nación": 9,
+        "Clarín": 1,
+        "Infobae": 4,
+        "TN": 10,
+        "Ámbito": 4,
         "Página 12": 2,
         "El Cronista": 0
       },
-      "por_que_importa": "Atrae masivamente a la audiencia digital por tratarse de un thriller en pleno vuelo con sospechas de terrorismo y tensión internacional en Medio Oriente.",
-      "insight": "La competencia satura la cobertura con actualizaciones minuto a minuto, testimonios de pasajeros y videos impactantes desde el interior de la aeronave.",
+      "por_que_importa": "Un hecho de extrema gravedad internacional con sospechas de terrorismo que genera alto nivel de consumo en la audiencia global.",
+      "insight": "Competencia feroz con una cobertura masiva de TN y La Nación, superando ampliamente la cantidad de notas del resto de los medios.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Centralizar la información en un formato de última hora con eje en la hipótesis oficial israelí y la respuesta de las aerolíneas internacionales.",
+      "accion_sugerida": "Realizar una crónica unificada con la reconstrucción minuto a minuto de la caída de altura y el testimonio de pasajeros.",
       "enfoques_sugeridos": [
-        "Las hipótesis oficiales de seguridad sobre el violento enfrentamiento en la cabina.",
-        "Testimonios exclusivos y el pánico de los pasajeros rescatados en Arabia Saudita."
+        "Las hipótesis oficiales de Israel sobre el presunto atentado en cabina.",
+        "El rol clave de los pasajeros para reducir al piloto agresor."
       ],
       "ejemplos": [
         {
@@ -216,9 +496,9 @@
         },
         {
           "medio": "La Nación",
-          "titulo": "Terror en avión de Flyubai, EN VIVO: apuñalaron a un piloto en un vuelo a Israel y lograron aterrizar de emergencia",
-          "link": "https://www.lanacion.com.ar/el-mundo/terror-en-avion-de-flyubai-en-vivo-apunalaron-a-un-piloto-en-un-vuelo-a-israel-y-lograron-aterrizar-nid30092026/",
-          "imagen": ""
+          "titulo": "Un analista internacional explicó en detalle qué pasó con el avión de Flydubai, que aterrizó de emergencia en Arabia Saudita, y la hipótesis más relevante ",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-que-paso-con-el-avion-de-flydubai-que-aterrizo-de-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/SXIWGGPV4FAP3O3NDS456J5F3Q.jpg?auth=7a5b45fe1676bd6139559f15d4f4a7a0cd50b89cb88e199ba18f41a7fc05da9b&smart=true&width=1360&height=910"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -228,148 +508,36 @@
   ],
   "perfil_pierde": [
     {
-      "tema": "Gira internacional de Javier Milei en París",
+      "tema": "Cotización del dólar blue y oficial en la City",
       "prioridad": 0,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 6,
-      "cantidad_medios": 4,
+      "total_notas": 10,
+      "cantidad_medios": 6,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 5,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -1,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 2,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Define la proyección exterior del Gobierno, la relación bilateral con Francia y el vínculo político con los gobernadores opositores en un escenario clave.",
-      "insight": "La Nación y Página 12 lideran la agenda con múltiples enfoques sobre la comitiva de gobernadores y las protestas locales.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un seguimiento exhaustivo sobre las reuniones bilaterales y el detrás de escena de la cumbre con inversores y mandatarios provinciales.",
-      "enfoques_sugeridos": [
-        "La negociación política secreta entre Milei y los gobernadores que viajaron a Europa.",
-        "El impacto de las declaraciones del Presidente frente a las protestas de la izquierda francesa."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Milei llega a París: foto con Macron, inversiones y puesta en pausa de la tensión geopolítica",
-          "link": "https://www.perfil.com/noticias/internacional/milei-llega-a-paris-en-busca-de-inversiones-y-respaldo-politico-a-su-programa-economico-a39.phtml",
-          "imagen": "https://fotos.perfil.com/2025/06/09/trim/540/304/javier-milei-y-emmanuel-macron-2039264.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Los gobernadores que viajaron a París esperan un “mano a mano” con Milei por las PASO",
-          "link": "https://www.lanacion.com.ar/politica/los-gobernadores-que-viajaron-a-paris-esperan-un-mano-a-mano-con-milei-por-las-paso-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/XRYYENQ3ORHYNFJ2DUQ7QE2UX4.jpg?auth=692f5d1335008e5be2daadb4ad22c0946343f0d6396765cf22a4252bf6924010&smart=true&width=2706&height=1525"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Javier Milei y sus medidas, EN VIVO: “Si la izquierda francesa protesta, se lo agradezco porque es un honor”, dijo el Presidente antes de partir a París",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-en-vivo-si-la-izquierda-francesa-protesta-se-lo-agradezco-porque-es-un-honor-dijo-el-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/I4PB2SEMYRHMFBRNGJU5MATHKE.jpg?auth=cf43308555cf0276ed1e54c2aa8a46d6ce77d1df8dd71d0be83b514657d366ed&smart=true&width=2495&height=1406"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
-    },
-    {
-      "tema": "Estado de salud de Mirtha Legrand",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 4,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 3,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 2,
-      "brecha": -1,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 2,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Es un tema de alto rendimiento en Google Discover y tráfico masivo de espectáculos debido al enorme arraigo popular de la conductora.",
-      "insight": "Infobae y TN capitalizan la atención de la audiencia mediante la cobertura directa de los partes médicos y declaraciones familiares.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Actualizar de forma inmediata con las declaraciones del entorno y la palabra oficial de los profesionales médicos tratantes.",
-      "enfoques_sugeridos": [
-        "La palabra de Juana Viale y la evaluación del círculo íntimo sobre su evolución.",
-        "Revisión de la trayectoria televisiva y el impacto institucional de su figura."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Juana Viale habló del estado de salud de Mirtha Legrand y remarcó: \"Es una mujer grande\"",
-          "link": "https://www.perfil.com/noticias/espectaculos/juana-viale-hablo-del-estado-de-mirtha-legrand-y-remarco-es-una-mujer-grande.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juana-viale-con-mario-pergolini-2337146.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Cayó un peligroso delincuente peruano con pedido de extradición: la persecución por la General Paz que derivó en su detención",
-          "link": "https://www.infobae.com/sociedad/policiales/2026/09/30/cayo-un-peligroso-delincuente-peruano-con-pedido-de-extradicion-la-persecucion-por-la-general-paz-que-derivo-en-su-detencion/",
-          "imagen": "https://www.infobae.com/resizer/v2/6L2DVQUPUVEN3MXUGZ73VYWKW4.jpg?auth=6b1eee89c79192186359bb10d9e61e625f9c4132a7c84f235d22498ed07e6398&smart=true&width=1920&height=1080"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Qué dice el parte médico de Mirtha Legrand de este miércoles 30 de septiembre",
-          "link": "https://tn.com.ar/show/famosos/2026/09/30/que-dice-el-parte-medico-de-mirtha-legrand-de-este-miercoles-30-de-septiembre/",
-          "imagen": "https://tn.com.ar/resizer/v2/Z7FI25NJRFHFXIVOGBY7PJHH6I.jpeg?auth=fde4b85507afac5c21f5f7236620bca18f431d9b603e8373a45538a7d7cfc92f"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
-    {
-      "tema": "Cotización del dólar blue en Argentina",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 7,
-      "cantidad_medios": 4,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 6,
-      "medio_lider": "Página 12",
+      "competencia_total": 9,
+      "medio_lider": "TN",
       "cobertura_medio_lider": 3,
       "brecha": -2,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
+        "La Nación": 1,
         "Clarín": 1,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 3,
+        "TN": 3,
+        "Ámbito": 3,
+        "Página 12": 1,
         "El Cronista": 0
       },
-      "por_que_importa": "Mantiene un interés público permanente y cotidiano por su influencia directa en el humor social y la formación de precios.",
-      "insight": "Medios como Ámbito y Página 12 dominan las búsquedas con coberturas en directo y análisis permanentes de las brechas cambiarias.",
+      "por_que_importa": "Es la consulta económica de mayor tráfico diario en la Argentina, fundamental para el rendimiento de audiencia y SEO.",
+      "insight": "TN y Ámbito lideran con coberturas múltiples y en tiempo real, superando la presencia de Perfil en esta temática.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Optimizar el servicio diario de cotizaciones con una lectura analítica rápida para el inversor y el consumidor minorista.",
+      "accion_sugerida": "Agilizar la actualización de los tipos de cambio con un widget dinámico y notas de análisis rápido sobre la brecha cambiaria.",
       "enfoques_sugeridos": [
-        "Evolución minuto a minuto de las cotizaciones paralelas y los dólares financieros.",
-        "Análisis de la estabilidad cambiaria y su reflejo en la inflación minorista esperada."
+        "Minuto a minuto de la cotización en las principales plazas financieras.",
+        "Análisis de la tendencia del mercado informal frente a las medidas oficiales."
       ],
       "ejemplos": [
         {
@@ -379,128 +547,283 @@
           "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/dolares-2333566.jpg"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo, minuto a minuto, este 30 de septiembre",
-          "link": "https://www.clarin.com/economia/dolar-hoy-dolar-blue-vivo-cotiza-oficial-precio-paralelo-minuto-minuto-30-septiembre_0_DmSqhePVgO.html",
-          "imagen": "https://www.clarin.com/img/2026/06/13/devC78NND_1200x630__1.jpg"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 30 de septiembre",
-          "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-30-septiembre-n6328270",
-          "imagen": "https://media.ambito.com/p/43ca1d37a632f6dec20f5081f89e0ff0/adjuntos/239/imagenes/043/657/0043657207/1200x675/2975x1126:2995x1146/mercados-acciones-bolsas-cedear-inversiones-finanzas-vivo-wall-street-cedears-riesgo-pais-merval-dolar.jpg"
-        }
-      ],
-      "medios_que_mas_publicaron": [],
-      "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
-    },
-    {
-      "tema": "Reapertura del mercado japonés para la carne bovina argentina",
-      "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 6,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 5,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 4,
-      "brecha": -3,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 4,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "por_que_importa": "Representa una noticia económica y agroindustrial de gran peso estratégico para las exportaciones y la generación de divisas.",
-      "insight": "TN y Clarín lideran la agenda económica destacando el anuncio oficial y el impacto financiero de la medida para el sector cárnico.",
-      "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar en los requisitos sanitarios y el potencial de facturación a mediano plazo para los frigoríficos locales.",
-      "enfoques_sugeridos": [
-        "El impacto en la cadena de valor ganadera tras dos décadas de restricciones comerciales.",
-        "Expectativa de los exportadores y proyecciones de ingresos en millones de dólares."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Carne argentina a Japón: tras 20 años, reabre un mercado de más de u$s3.000 millones",
-          "link": "https://www.perfil.com/noticias/economia/carne-argentina-a-japon-tras-20-anos-acordaron-la-reapertura-de-un-mercado-de-mas-de-us3000-millones-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/04/24/trim/540/304/carne-2226982.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "\"Acuerdo histórico\": Caputo anunció la apertura total del mercado de Japón para la carne bovina argentina después de 20 años",
-          "link": "https://www.clarin.com/rural/acuerdo-historico-caputo-anuncio-apertura-total-mercado-japon-carne-bovina-argentina_0_EICEkJLEOn.html",
-          "imagen": "https://www.clarin.com/img/2025/02/26/2PQrwd2Kc_1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 30 de septiembre, minuto a minuto",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333"
         },
         {
           "medio": "TN",
-          "titulo": "Luis Caputo anunció que Japón reabrió su mercado a la carne vacuna argentina después de 20 años",
-          "link": "https://tn.com.ar/campo/2026/09/30/luis-caputo-anuncio-que-japon-reabrio-su-mercado-a-la-carne-vacuna-argentina-despues-de-20-anos/",
-          "imagen": "https://tn.com.ar/resizer/v2/LARU523NGNEJ7BIFSKUVY747QA.jpeg?auth=2cbcabcaec9bd4ffe1713f29470108bb0dc78d7950aa84071878294d916dd482"
+          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este miércoles 30 de septiembre",
+          "link": "https://tn.com.ar/economia/2026/09/30/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-30-de-septiembre/",
+          "imagen": ""
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
-    },
+      "cantidad_medios_competencia": 5
+    }
+  ],
+  "sin_cobertura_perfil": [],
+  "oportunidades": [
     {
-      "tema": "Críticas al modelo económico de Javier Milei",
+      "tema": "Alquiler temporario en barrios del sur de CABA",
       "prioridad": 0,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 5,
-      "cantidad_medios": 2,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 4,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 4,
-      "brecha": -3,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "SEO de servicios y tendencias inmobiliarias",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
+        "Perfil": 0,
+        "La Nación": 1,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
-        "Página 12": 4,
+        "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Alimenta el debate político y social sobre la sustentabilidad del programa oficial en un contexto de tensiones inflacionarias y sociales.",
-      "insight": "Página 12 concentra la producción informativa articulando críticas sectoriales, proyectos legislativos y cuestionamientos de analistas.",
+      "por_que_importa": "Toca una problemática habitacional y urbana de gran interés para propietarios e inquilinos en Buenos Aires.",
+      "insight": "La competencia registra un único artículo en La Nación, lo que deja el terreno libre para que Perfil aporte una mirada propia.",
       "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Ampliar el abanico de opiniones críticas sumando voces de economistas liberales y heterodoxos que evalúan los riesgos del plan económico.",
+      "motivo_oportunidad": "Alta demanda de información sobre alternativas habitacionales en un contexto económico complejo.",
+      "accion_sugerida": "Publicar un informe sobre la rentabilidad real de los alquileres temporarios en zonas no tradicionales frente al tradicional Palermo.",
       "enfoques_sugeridos": [
-        "El balance de los referentes económicos independientes sobre los puntos críticos del modelo.",
-        "Proyectos legislativos y la resistencia social frente al ajuste en sectores vulnerables."
+        "Comparativa de precios por metro cuadrado entre el sur y el norte porteño.",
+        "Testimonios de inversores y el impacto en el mercado residencial."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "El modelo de Milei en crisis: qué dicen Cachanosky, Rodríguez, Giacomini y Maslatón",
-          "link": "https://www.perfil.com/noticias/nea/el-modelo-de-milei-en-crisis-que-dicen-cachanosky-rodriguez-giacomini-y-maslaton.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/25/trim/540/304/javier-milei-ante-el-nuevo-escenario-social-marcado-por-el-aumento-de-la-pobreza-2333784.jpg"
-        },
+          "medio": "La Nación",
+          "titulo": "Los barrios del sur de CABA donde el alquiler temporario ya compite con Palermo en precio, pero ¿qué ganancia generan?",
+          "link": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/los-barrios-del-sur-de-caba-donde-el-alquiler-temporario-ya-compite-con-palermo-en-precio-pero-que-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/PIJVUYWWHNCDPGVWLEBBDOIFHQ.jpg?auth=45f9ce92334991f2b8bbdb4f07e4e0eca02a3fc627b403a97542299288422c77&smart=true&width=6000&height=3523"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Usos alternativos para celulares viejos",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "SEO Evergreen y Google Discover",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Contenido de utilidad práctica (lifehacks) con excelente rendimiento orgánico en buscadores y redes sociales.",
+      "insight": "Hay una baja saturación en el mercado de medios, con apenas una mención aislada en la competencia.",
+      "motivo": "",
+      "motivo_oportunidad": "Contenido de consumo masivo ideal para captar clics por recomendación de plataformas.",
+      "accion_sugerida": "Crear una guía paso a paso optimizada para SEO sobre cómo reciclar tecnología hogareña y ahorrar dinero.",
+      "enfoques_sugeridos": [
+        "Ideas prácticas para convertir un viejo smartphone en cámara de seguridad.",
+        "Cómo optimizar dispositivos antiguos para darles una segunda vida útil."
+      ],
+      "ejemplos": [
         {
-          "medio": "Página 12",
-          "titulo": "Sin celulares en las escuelas",
-          "link": "https://www.pagina12.com.ar/2026/09/29/sin-celulares-en-las-escuelas/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HVGUTEO5XNH4VOLZIX64LASDLA.jpg?auth=522a3a6a031d79abe4f3e7374f1c5a53d20f884b3137da752322114c17a0d0b2&amp;smart=true&amp;width=6000&amp;height=4000"
-        },
+          "medio": "La Nación",
+          "titulo": "¿Tenés un celular viejo guardado? Seis usos para reutilizarlo y ahorrar dinero",
+          "link": "https://www.lanacion.com.ar/tecnologia/tenes-un-celular-viejo-guardado-seis-usos-para-reutilizarlo-y-ahorrar-dinero-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JEDMJTFY7NB55PNDWB4DQZ554E.jpg?auth=7f5bed0c521728394828ea59241e2a07968aaa12568c649ad3e538bd0ba15a73&smart=true&width=2000&height=1333"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Calendario de pagos de ANSES para octubre 2026",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Tráfico utilitario masivo",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Es una de las consultas de servicio más masivas del país por parte de jubilados, pensionados y beneficiarios de planes.",
+      "insight": "La competencia captura rápidamente el tráfico inicial, un nicho que Perfil suele desatender en la inmediatez.",
+      "motivo": "",
+      "motivo_oportunidad": "Alto volumen asegurado de búsquedas en Google al inicio de cada mes.",
+      "accion_sugerida": "Publicar un servicio claro y estructurado con el cronograma oficial de pagos para el mes entrante.",
+      "enfoques_sugeridos": [
+        "Cronograma detallado por terminación de DNI para jubilaciones y asignaciones.",
+        "Fechas de cobro con bonos extraordinarios incluidos."
+      ],
+      "ejemplos": [
         {
-          "medio": "Página 12",
-          "titulo": "Llega al Congreso el proyecto para barrios populares",
-          "link": "https://www.pagina12.com.ar/2026/09/30/llega-al-congreso-el-proyecto-para-barrios-populares/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GYZDAZJYMQ4DSNZZGI3DKNRVGY.jpg?auth=62a29b6e53185472a2da7c1bec267e312cbf83a5fb66e78b4cecd2c453927005&amp;smart=true&amp;width=4792&amp;height=3195"
+          "medio": "La Nación",
+          "titulo": "Cuándo cobro Anses: el calendario completo de octubre 2026 ",
+          "link": "https://www.lanacion.com.ar/economia/cuando-cobro-anses-el-calendario-completo-de-octubre-2026-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Compras de dólares del Banco Central",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Análisis económico especializado",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Indica el pulso de las reservas internacionales y la marcha del plan monetario del Gobierno.",
+      "insight": "Existe una cobertura muy acotada en la competencia, lo que permite a Perfil instalar un análisis económico más profundo.",
+      "motivo": "",
+      "motivo_oportunidad": "Permite posicionar a Perfil con fuentes calificadas en temas macroeconómicos clave.",
+      "accion_sugerida": "Redactar una nota de análisis sobre el saldo mensual de reservas y las perspectivas de acumulación de divisas.",
+      "enfoques_sugeridos": [
+        "Balance del desempeño del Banco Central al cierre del mes.",
+        "Impacto en las expectativas del mercado financiero y el riesgo país."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "El Banco Central compró US$70 millones, pero se encamina a cerrar el mes con el menor saldo del año",
+          "link": "https://www.lanacion.com.ar/economia/el-banco-central-compro-us70-millones-pero-se-encamina-a-cerrar-el-mes-con-el-menor-saldo-del-ano-nid29092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/DEENVKVICJATLB4DCBM4A5LDSI.JPG?auth=275d20a313a2d71625d7c7d25646818caa2169e36c25c27be55840e6d9d6e818&smart=true&width=1878&height=841"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Megaobra hidráulica contra anegamientos en el norte de CABA",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Interés local y urbano",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Interesa de manera directa a los vecinos de la Ciudad de Buenos Aires ante alertas meteorológicas y gestión urbana.",
+      "insight": "La cobertura se limita a una nota institucional en la competencia, dejando espacio para un enfoque periodístico local.",
+      "motivo": "",
+      "motivo_oportunidad": "Atrae audiencia segmentada de CABA con alto interés en la gestión de infraestructura.",
+      "accion_sugerida": "Detallar los barrios beneficiados, el presupuesto invertido y cómo funcionará la infraestructura frente a tormentas fuertes.",
+      "enfoques_sugeridos": [
+        "Especificaciones técnicas de la obra y su capacidad de drenaje.",
+        "El testimonio de vecinos de la zona norte sobre inundaciones históricas."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Chau anegamientos: terminó la megaobra en el norte de la Ciudad que promete enfrentar los efectos climáticos del Súper Niño",
+          "link": "https://www.lanacion.com.ar/sociedad/chau-anegamientos-termino-la-megaobra-en-el-norte-de-la-ciudad-que-promete-enfrentar-los-efectos-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/BLIEY7E3JRDXNKZLKFSYBGZXTA.jpg?auth=a0fb3235773da88024d5b84006ac77567376777dddca8deec38ded4ac3aac1df&smart=true&width=1600&height=1066"
+        }
+      ],
+      "medios_que_mas_publicaron": [],
+      "medios_que_cubrieron": [],
+      "cantidad_medios_competencia": 1
+    },
+    {
+      "tema": "Polémica por ticket de restaurante uruguayo y burla al peso argentino",
+      "prioridad": 0,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Viral y Social Media",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "por_que_importa": "Genera alto viral en redes sociales y consumo ágil por parte de usuarios interesados en tendencias de consumo y turismo.",
+      "insight": "Un tema netamente de viralización en redes cubierto de forma solitaria por La Nación.",
+      "motivo": "",
+      "motivo_oportunidad": "Alto potencial de CTR y clics masivos desde redes sociales y Google Discover.",
+      "accion_sugerida": "Desarrollar una nota ágil centrada en la reacción de los usuarios y la comparación de precios turísticos en Uruguay.",
+      "enfoques_sugeridos": [
+        "La repercusión viral del ticket en plataformas como X y TikTok.",
+        "El costo vacacional para los argentinos que eligen cruzar el charco."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Fue a un restaurante uruguayo y al ver el ticket desató una fuerte polémica por una burla al peso argentino",
+          "link": "https://www.lanacion.com.ar/lifestyle/fue-a-un-restaurante-uruguayo-y-al-ver-el-ticket-desato-una-fuerte-polemica-por-una-burla-al-peso-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/X7EXCVS6Y5HAJNURMZY5KFPXDA.JPG?auth=70bc4a8aca7624de42367a1ce8c52a0aedb5163e9a5e8be4cbcf109146b0b2a9&smart=true&width=712&height=563"
         }
       ],
       "medios_que_mas_publicaron": [],
@@ -508,40 +831,38 @@
       "cantidad_medios_competencia": 1
     }
   ],
-  "sin_cobertura_perfil": [],
-  "oportunidades": [],
   "prioridades_del_dia": [
     {
-      "tema": "Críticas al fallo de la Corte Suprema sobre la Ley de Tierras y DNU",
+      "tema": "Críticas y reclamos al fallo de la Corte sobre la Ley de Tierras y el DNU",
       "prioridad": 1,
       "tipo": "hipercompetencia",
       "tipo_de_oportunidad": "",
-      "total_notas": 14,
-      "cantidad_medios": 7,
+      "total_notas": 9,
+      "cantidad_medios": 6,
       "cobertura_perfil": 2,
       "perfil": 2,
-      "competencia_total": 12,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 6,
-      "brecha": -4,
+      "competencia_total": 7,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 2,
+      "brecha": 0,
       "cobertura": {
         "Perfil": 2,
-        "La Nación": 2,
-        "Clarín": 1,
-        "Infobae": 1,
+        "La Nación": 1,
+        "Clarín": 2,
+        "Infobae": 0,
         "TN": 1,
-        "Ámbito": 6,
+        "Ámbito": 2,
         "Página 12": 1,
         "El Cronista": 0
       },
-      "por_que_importa": "Constituye un eje central de la discusión jurídica y política en Argentina sobre las facultades del Ejecutivo y la extranjerización de recursos naturales.",
-      "insight": "La oposición y distintos actores institucionales se movilizan rápidamente, generando un volumen masivo de notas de opinión y reacciones políticas.",
+      "por_que_importa": "Involucra un fallo clave de la Corte Suprema sobre desregulación económica y soberanía territorial que moviliza a la oposición.",
+      "insight": "Gran parte de la agenda política está concentrada en las repercusiones institucionales y el posicionamiento del peronismo.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Desarrollar un análisis constitucional exclusivo sobre los efectos a largo plazo de la habilitación de compras para capitales extranjeros.",
+      "accion_sugerida": "Profundizar en el impacto económico real que tendrá la habilitación de compras extranjeras en zonas rurales.",
       "enfoques_sugeridos": [
-        "Repercusiones políticas y estrategia de la oposición en el Congreso tras el fallo.",
-        "Análisis técnico-legal de la sentencia a cargo de constitucionalistas de referencia."
+        "Análisis legal sobre los alcances del fallo en las provincias.",
+        "Repercusiones en el Congreso y estrategia opositora frente al DNU."
       ],
       "ejemplos": [
         {
@@ -551,195 +872,239 @@
           "imagen": "https://fotos.perfil.com/2026/08/06/trim/540/304/congreso-manifestacion-por-la-ley-de-tierras-06082026-2298991.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Gil Domínguez: \"Cualquier persona o Estado extranjero pueden comprar toda la tierra rural donde quiera\"",
-          "link": "https://www.perfil.com/noticias/cordoba/gil-dominguez-cualquier-persona-o-estado-extranjero-pueden-comprar-toda-la-tierra-rural-a-donde-quieran.phtml",
-          "imagen": "https://fotos.perfil.com/2025/06/04/trim/540/304/andres-gil-dominguez-abogado-constitucionalista-2036436.jpg"
-        },
-        {
           "medio": "La Nación",
           "titulo": "Por un fallo de la Corte, ya no hay límites a la venta de tierras a extranjeros",
           "link": "https://www.lanacion.com.ar/politica/la-corte-suprema-dejo-en-vigencia-la-derogacion-de-la-ley-de-tierras-que-decreto-milei-en-2023-nid29092026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/J3DEAOJHGJBZNJJCYFUXXYU6SQ.JPG?auth=9150b8a212d5fd8d1d9ff9476b0f6fa7fa6a35c0c25866b1330c80e179c64c34&smart=true&width=1280&height=853"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Ley de Tierras: la oposición se reúne con el CECIM y analiza los pasos a seguir tras el fallo de la Corte",
+          "link": "https://www.ambito.com/politica/ley-tierras-la-oposicion-se-reune-el-cecim-y-analiza-los-pasos-seguir-el-fallo-la-corte-n6328364",
+          "imagen": "https://media.ambito.com/p/8da67b3c180cc0e2d1f674d7d81807a6/adjuntos/239/imagenes/042/689/0042689687/1200x675/smart/union-la-patria-diputados-peronismo.jpg"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 6
+      "cantidad_medios_competencia": 5
     },
     {
-      "tema": "Gira internacional de Javier Milei en París",
+      "tema": "Cotización del dólar blue y oficial en la City",
       "prioridad": 2,
       "tipo": "perfil_pierde",
       "tipo_de_oportunidad": "",
-      "total_notas": 6,
-      "cantidad_medios": 4,
+      "total_notas": 10,
+      "cantidad_medios": 6,
       "cobertura_perfil": 1,
       "perfil": 1,
-      "competencia_total": 5,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -1,
+      "competencia_total": 9,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 3,
+      "brecha": -2,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 2,
+        "La Nación": 1,
         "Clarín": 1,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
+        "TN": 3,
+        "Ámbito": 3,
+        "Página 12": 1,
         "El Cronista": 0
       },
-      "por_que_importa": "Define la proyección exterior del Gobierno, la relación bilateral con Francia y el vínculo político con los gobernadores opositores en un escenario clave.",
-      "insight": "La Nación y Página 12 lideran la agenda con múltiples enfoques sobre la comitiva de gobernadores y las protestas locales.",
+      "por_que_importa": "Es la consulta económica de mayor tráfico diario en la Argentina, fundamental para el rendimiento de audiencia y SEO.",
+      "insight": "TN y Ámbito lideran con coberturas múltiples y en tiempo real, superando la presencia de Perfil en esta temática.",
       "motivo": "",
       "motivo_oportunidad": "",
-      "accion_sugerida": "Publicar un seguimiento exhaustivo sobre las reuniones bilaterales y el detrás de escena de la cumbre con inversores y mandatarios provinciales.",
+      "accion_sugerida": "Agilizar la actualización de los tipos de cambio con un widget dinámico y notas de análisis rápido sobre la brecha cambiaria.",
       "enfoques_sugeridos": [
-        "La negociación política secreta entre Milei y los gobernadores que viajaron a Europa.",
-        "El impacto de las declaraciones del Presidente frente a las protestas de la izquierda francesa."
+        "Minuto a minuto de la cotización en las principales plazas financieras.",
+        "Análisis de la tendencia del mercado informal frente a las medidas oficiales."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Milei llega a París: foto con Macron, inversiones y puesta en pausa de la tensión geopolítica",
-          "link": "https://www.perfil.com/noticias/internacional/milei-llega-a-paris-en-busca-de-inversiones-y-respaldo-politico-a-su-programa-economico-a39.phtml",
-          "imagen": "https://fotos.perfil.com/2025/06/09/trim/540/304/javier-milei-y-emmanuel-macron-2039264.jpg"
+          "titulo": "A cuánto cotiza el dólar blue hoy, miércoles 30 de septiembre",
+          "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-dolar-blue-hoy-miercoles-30-de-septiembre.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/dolares-2333566.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Los gobernadores que viajaron a París esperan un “mano a mano” con Milei por las PASO",
-          "link": "https://www.lanacion.com.ar/politica/los-gobernadores-que-viajaron-a-paris-esperan-un-mano-a-mano-con-milei-por-las-paso-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/XRYYENQ3ORHYNFJ2DUQ7QE2UX4.jpg?auth=692f5d1335008e5be2daadb4ad22c0946343f0d6396765cf22a4252bf6924010&smart=true&width=2706&height=1525"
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 30 de septiembre, minuto a minuto",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Javier Milei y sus medidas, EN VIVO: “Si la izquierda francesa protesta, se lo agradezco porque es un honor”, dijo el Presidente antes de partir a París",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-en-vivo-si-la-izquierda-francesa-protesta-se-lo-agradezco-porque-es-un-honor-dijo-el-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/I4PB2SEMYRHMFBRNGJU5MATHKE.jpg?auth=cf43308555cf0276ed1e54c2aa8a46d6ce77d1df8dd71d0be83b514657d366ed&smart=true&width=2495&height=1406"
+          "medio": "TN",
+          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este miércoles 30 de septiembre",
+          "link": "https://tn.com.ar/economia/2026/09/30/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-30-de-septiembre/",
+          "imagen": ""
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 3
+      "cantidad_medios_competencia": 5
     },
     {
-      "tema": "Reapertura del mercado japonés para la carne bovina argentina",
+      "tema": "Calendario de pagos de ANSES para octubre 2026",
       "prioridad": 3,
-      "tipo": "perfil_pierde",
-      "tipo_de_oportunidad": "",
-      "total_notas": 6,
-      "cantidad_medios": 3,
-      "cobertura_perfil": 1,
-      "perfil": 1,
-      "competencia_total": 5,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 4,
-      "brecha": -3,
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Tráfico utilitario masivo",
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cobertura_perfil": 0,
+      "perfil": 0,
+      "competencia_total": 1,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 1,
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
         "Infobae": 0,
-        "TN": 4,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "por_que_importa": "Representa una noticia económica y agroindustrial de gran peso estratégico para las exportaciones y la generación de divisas.",
-      "insight": "TN y Clarín lideran la agenda económica destacando el anuncio oficial y el impacto financiero de la medida para el sector cárnico.",
+      "por_que_importa": "Es una de las consultas de servicio más masivas del país por parte de jubilados, pensionados y beneficiarios de planes.",
+      "insight": "La competencia captura rápidamente el tráfico inicial, un nicho que Perfil suele desatender en la inmediatez.",
       "motivo": "",
-      "motivo_oportunidad": "",
-      "accion_sugerida": "Profundizar en los requisitos sanitarios y el potencial de facturación a mediano plazo para los frigoríficos locales.",
+      "motivo_oportunidad": "Alto volumen asegurado de búsquedas en Google al inicio de cada mes.",
+      "accion_sugerida": "Publicar un servicio claro y estructurado con el cronograma oficial de pagos para el mes entrante.",
       "enfoques_sugeridos": [
-        "El impacto en la cadena de valor ganadera tras dos décadas de restricciones comerciales.",
-        "Expectativa de los exportadores y proyecciones de ingresos en millones de dólares."
+        "Cronograma detallado por terminación de DNI para jubilaciones y asignaciones.",
+        "Fechas de cobro con bonos extraordinarios incluidos."
       ],
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Carne argentina a Japón: tras 20 años, reabre un mercado de más de u$s3.000 millones",
-          "link": "https://www.perfil.com/noticias/economia/carne-argentina-a-japon-tras-20-anos-acordaron-la-reapertura-de-un-mercado-de-mas-de-us3000-millones-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/04/24/trim/540/304/carne-2226982.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "\"Acuerdo histórico\": Caputo anunció la apertura total del mercado de Japón para la carne bovina argentina después de 20 años",
-          "link": "https://www.clarin.com/rural/acuerdo-historico-caputo-anuncio-apertura-total-mercado-japon-carne-bovina-argentina_0_EICEkJLEOn.html",
-          "imagen": "https://www.clarin.com/img/2025/02/26/2PQrwd2Kc_1200x630__1.jpg"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Luis Caputo anunció que Japón reabrió su mercado a la carne vacuna argentina después de 20 años",
-          "link": "https://tn.com.ar/campo/2026/09/30/luis-caputo-anuncio-que-japon-reabrio-su-mercado-a-la-carne-vacuna-argentina-despues-de-20-anos/",
-          "imagen": "https://tn.com.ar/resizer/v2/LARU523NGNEJ7BIFSKUVY747QA.jpeg?auth=2cbcabcaec9bd4ffe1713f29470108bb0dc78d7950aa84071878294d916dd482"
+          "medio": "La Nación",
+          "titulo": "Cuándo cobro Anses: el calendario completo de octubre 2026 ",
+          "link": "https://www.lanacion.com.ar/economia/cuando-cobro-anses-el-calendario-completo-de-octubre-2026-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333"
         }
       ],
       "medios_que_mas_publicaron": [],
       "medios_que_cubrieron": [],
-      "cantidad_medios_competencia": 2
+      "cantidad_medios_competencia": 1
     }
   ],
   "analisis_completo": {
     "hipercompetencia": [
       {
-        "tema": "Medidas de precaución e impacto del fenómeno El Niño",
+        "tema": "Críticas y reclamos al fallo de la Corte sobre la Ley de Tierras y el DNU",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 4,
-        "cantidad_medios": 3,
+        "total_notas": 9,
+        "cantidad_medios": 6,
         "cobertura_perfil": 2,
         "perfil": 2,
-        "competencia_total": 2,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 1,
-        "brecha": 1,
+        "competencia_total": 7,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 2,
+        "brecha": 0,
         "cobertura": {
           "Perfil": 2,
           "La Nación": 1,
-          "Clarín": 1,
+          "Clarín": 2,
           "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 0,
+          "TN": 1,
+          "Ámbito": 2,
+          "Página 12": 1,
           "El Cronista": 0
         },
-        "por_que_importa": "Interesa directamente a los lectores de Perfil por su impacto en la economía regional, la producción agropecuaria y la seguridad ciudadana ante eventos climáticos extremos.",
-        "insight": "La competencia directa ya genera coberturas con fuerte enfoque en mapas de riesgo y proyecciones meteorológicas a mediano plazo.",
+        "por_que_importa": "Involucra un fallo clave de la Corte Suprema sobre desregulación económica y soberanía territorial que moviliza a la oposición.",
+        "insight": "Gran parte de la agenda política está concentrada en las repercusiones institucionales y el posicionamiento del peronismo.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Profundizar el análisis con reportes exclusivos sobre infraestructura urbana y prevención municipal para diferenciarse de la cobertura generalista.",
+        "accion_sugerida": "Profundizar en el impacto económico real que tendrá la habilitación de compras extranjeras en zonas rurales.",
         "enfoques_sugeridos": [
-          "Impacto económico y productivo en las economías regionales del Litoral y centro del país.",
-          "Guía de prevención y costos estimados para la reparación de daños vehiculares y habitacionales."
+          "Análisis legal sobre los alcances del fallo en las provincias.",
+          "Repercusiones en el Congreso y estrategia opositora frente al DNU."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "El Niño: qué deben hacer los automovilistas si los sorprende el granizo ",
-            "link": "https://www.perfil.com/noticias/cordoba/el-nino-que-deben-hacer-los-automovilistas-si-los-sorprende-el-granizo.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/28/trim/540/304/tormenta-con-granizo-en-cordoba-2335651.jpg"
-          },
-          {
-            "medio": "Perfil",
-            "titulo": "“El Niño” se podría convertir esta primavera en el fenómeno más potente de los últimos 40 años ",
-            "link": "https://www.perfil.com/noticias/nea/el-nino-se-podria-convertir-esta-primavera-en-el-fenomeno-mas-potente-de-los-ultimos-40-anos.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/el-nino-alertan-por-crecidas-historicas-del-rio-parana-y-pone-al-litoral-bajo-mayor-2327121.jpg"
+            "titulo": "Fuerte críticas al fallo de la Corte sobre la Ley de Tierras y reclamos contra el DNU de Milei",
+            "link": "https://www.perfil.com/noticias/politica/reacciones-al-fallo-de-la-corte-sobre-la-ley-de-tierras-criticas-del-peronismo-y-reclamos-contra-el-dnu-de-milei.phtml",
+            "imagen": "https://fotos.perfil.com/2026/08/06/trim/540/304/congreso-manifestacion-por-la-ley-de-tierras-06082026-2298991.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "El Niño alcanzará en diciembre su máxima fuerza, con lluvias extendidas en gran parte de la Argentina",
-            "link": "https://www.lanacion.com.ar/sociedad/el-nino-alcanzara-en-diciembre-su-maxima-fuerza-con-lluvias-extendidas-en-gran-parte-de-la-argentina-nid30092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024"
+            "titulo": "Por un fallo de la Corte, ya no hay límites a la venta de tierras a extranjeros",
+            "link": "https://www.lanacion.com.ar/politica/la-corte-suprema-dejo-en-vigencia-la-derogacion-de-la-ley-de-tierras-que-decreto-milei-en-2023-nid29092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/J3DEAOJHGJBZNJJCYFUXXYU6SQ.JPG?auth=9150b8a212d5fd8d1d9ff9476b0f6fa7fa6a35c0c25866b1330c80e179c64c34&smart=true&width=1280&height=853"
+          },
+          {
+            "medio": "Ámbito",
+            "titulo": "Ley de Tierras: la oposición se reúne con el CECIM y analiza los pasos a seguir tras el fallo de la Corte",
+            "link": "https://www.ambito.com/politica/ley-tierras-la-oposicion-se-reune-el-cecim-y-analiza-los-pasos-seguir-el-fallo-la-corte-n6328364",
+            "imagen": "https://media.ambito.com/p/8da67b3c180cc0e2d1f674d7d81807a6/adjuntos/239/imagenes/042/689/0042689687/1200x675/smart/union-la-patria-diputados-peronismo.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
+        "cantidad_medios_competencia": 5
       },
       {
-        "tema": "Muerte de turista francesa por avalancha en El Chaltén",
+        "tema": "Viaje de Javier Milei a París con gobernadores y empresarios",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 6,
+        "cantidad_medios": 4,
+        "cobertura_perfil": 2,
+        "perfil": 2,
+        "competencia_total": 4,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 2,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 2,
+          "La Nación": 2,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 1,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Muestra la dinámica entre el Ejecutivo nacional, los mandatarios provinciales y el sector privado en busca de respaldo político y económico.",
+        "insight": "Los principales medios cubren la comitiva y las negociaciones paralelas de cara a la agenda legislativa.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Seguir de cerca las demandas de los gobernadores durante el viaje y su impacto en las futuras alianzas en el Congreso.",
+        "enfoques_sugeridos": [
+          "El detrás de escena del trato político entre Milei y los 13 gobernadores.",
+          "La recepción de los inversores europeos ante las medidas económicas."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "RDE: Javier Milei viaja a París con 13 gobernadores y la mirada puesta en el Congreso",
+            "link": "https://www.perfil.com/noticias/masperfil/javier-milei-viaja-a-paris-con-13-gobernadores-y-la-mirada-puesta-en-el-congreso.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/javier-milei-2333297.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Los gobernadores que viajaron a París esperan un “mano a mano” con Milei por las PASO",
+            "link": "https://www.lanacion.com.ar/politica/los-gobernadores-que-viajaron-a-paris-esperan-un-mano-a-mano-con-milei-por-las-paso-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/XRYYENQ3ORHYNFJ2DUQ7QE2UX4.jpg?auth=692f5d1335008e5be2daadb4ad22c0946343f0d6396765cf22a4252bf6924010&smart=true&width=2706&height=1525"
+          },
+          {
+            "medio": "Página 12",
+            "titulo": "Javier Milei busca seducir a los gobernadores en París",
+            "link": "https://www.pagina12.com.ar/2026/09/30/milei-busca-seducir-a-los-gobernadores-en-paris/",
+            "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/B5FGRST5Q5DDRACXMNCZYABVM4.jpeg?auth=f1d0349fdbf0880c604b0c21ea0e2712e5a3cfdce93fbd24bf7a1fee533b296e&amp;smart=true&amp;width=929&amp;height=620"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 3
+      },
+      {
+        "tema": "Postergación del aumento al impuesto a los combustibles",
         "prioridad": 0,
         "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
@@ -756,320 +1121,38 @@
           "La Nación": 1,
           "Clarín": 1,
           "Infobae": 0,
-          "TN": 1,
-          "Ámbito": 0,
+          "TN": 0,
+          "Ámbito": 1,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Es un hecho policial y de alto impacto emocional que moviliza el interés nacional e internacional sobre la seguridad en zonas turísticas extremas.",
-        "insight": "Los principales portales compiten por los detalles humanos, las declaraciones de allegados y los últimos registros en redes sociales de la víctima.",
+        "por_que_importa": "Impacta de forma directa en el bolsillo de la clase media y en las proyecciones de inflación del equipo económico.",
+        "insight": "Los medios económicos y generales reflejan la decisión oficial de administrar las subas para evitar mayores presiones inflacionarias.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Ampliar con voces de rescatistas locales y expertos en montañismo para evaluar los riesgos actuales en los senderos de la Patagonia.",
+        "accion_sugerida": "Evaluar el costo fiscal de esta nueva postergación y cómo afecta el equilibrio fiscal pretendido por Economía.",
         "enfoques_sugeridos": [
-          "Protocolos de seguridad y advertencias para el turismo de alta montaña en la región.",
-          "Perfil humano de la esquiadora y el impacto de la tragedia en la comunidad local de El Chaltén."
+          "El impacto de la medida en la desaceleración inflacionaria de corto plazo.",
+          "El reclamo de las petroleras frente a los sucesivos congelamientos."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "Murió una turista francesa tras una avalancha en Santa Cruz: el último mensaje que mandó desde la montaña",
-            "link": "https://www.perfil.com/noticias/sociedad/fallecio-una-turista-francesa-tras-una-avalancha-en-santa-cruz-cual-fue-el-ultimo-mensaje-que-mando-desde-la-montana.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juliette-agathe-elena-willmann-2337152.jpg"
+            "titulo": "El Gobierno frenó otro aumento a los combustibles y trasladó para noviembre la actualización de impuestos",
+            "link": "https://www.perfil.com/noticias/economia/gobierno-freno-otro-aumento-combustibles-traslado-para-noviembre-actualizacion-impuestos-a40.phtml",
+            "imagen": "https://fotos.perfil.com/2026/07/31/trim/540/304/estacion-de-servicio-combustible-31072026-2294888.jpg"
           },
           {
             "medio": "La Nación",
-            "titulo": "Quién era la turista francesa que murió por una avalancha de nieve en El Chaltén",
-            "link": "https://www.lanacion.com.ar/sociedad/quien-era-la-turista-francesa-que-murio-por-una-avalancha-de-nieve-en-el-chalten-nid30092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/6HVLDYS57JCLLBB7NS74UT732I.jpeg?auth=f76bb82f8866b38f8de28f74340ff44e1d4c80086127523971cf23822b013959&smart=true&width=1200&height=540"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Esquiadora profesional y un último mensaje desde la montaña: la turista francesa que murió por una avalancha en El Chaltén",
-            "link": "https://www.clarin.com/sociedad/esquiadora-profesional-ultimo-mensaje-montana-turista-francesa-murio-avalancha-chalten_0_5mU09Rz6MW.html",
-            "imagen": "https://www.clarin.com/img/2026/09/29/ijD04II74_1200x630__1.jpg"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 3
-      },
-      {
-        "tema": "Críticas al fallo de la Corte Suprema sobre la Ley de Tierras y DNU",
-        "prioridad": 0,
-        "tipo": "hipercompetencia",
-        "tipo_de_oportunidad": "",
-        "total_notas": 14,
-        "cantidad_medios": 7,
-        "cobertura_perfil": 2,
-        "perfil": 2,
-        "competencia_total": 12,
-        "medio_lider": "Ámbito",
-        "cobertura_medio_lider": 6,
-        "brecha": -4,
-        "cobertura": {
-          "Perfil": 2,
-          "La Nación": 2,
-          "Clarín": 1,
-          "Infobae": 1,
-          "TN": 1,
-          "Ámbito": 6,
-          "Página 12": 1,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Constituye un eje central de la discusión jurídica y política en Argentina sobre las facultades del Ejecutivo y la extranjerización de recursos naturales.",
-        "insight": "La oposición y distintos actores institucionales se movilizan rápidamente, generando un volumen masivo de notas de opinión y reacciones políticas.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Desarrollar un análisis constitucional exclusivo sobre los efectos a largo plazo de la habilitación de compras para capitales extranjeros.",
-        "enfoques_sugeridos": [
-          "Repercusiones políticas y estrategia de la oposición en el Congreso tras el fallo.",
-          "Análisis técnico-legal de la sentencia a cargo de constitucionalistas de referencia."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Fuerte críticas al fallo de la Corte sobre la Ley de Tierras y reclamos contra el DNU de Milei",
-            "link": "https://www.perfil.com/noticias/politica/reacciones-al-fallo-de-la-corte-sobre-la-ley-de-tierras-criticas-del-peronismo-y-reclamos-contra-el-dnu-de-milei.phtml",
-            "imagen": "https://fotos.perfil.com/2026/08/06/trim/540/304/congreso-manifestacion-por-la-ley-de-tierras-06082026-2298991.jpg"
-          },
-          {
-            "medio": "Perfil",
-            "titulo": "Gil Domínguez: \"Cualquier persona o Estado extranjero pueden comprar toda la tierra rural donde quiera\"",
-            "link": "https://www.perfil.com/noticias/cordoba/gil-dominguez-cualquier-persona-o-estado-extranjero-pueden-comprar-toda-la-tierra-rural-a-donde-quieran.phtml",
-            "imagen": "https://fotos.perfil.com/2025/06/04/trim/540/304/andres-gil-dominguez-abogado-constitucionalista-2036436.jpg"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "Por un fallo de la Corte, ya no hay límites a la venta de tierras a extranjeros",
-            "link": "https://www.lanacion.com.ar/politica/la-corte-suprema-dejo-en-vigencia-la-derogacion-de-la-ley-de-tierras-que-decreto-milei-en-2023-nid29092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/J3DEAOJHGJBZNJJCYFUXXYU6SQ.JPG?auth=9150b8a212d5fd8d1d9ff9476b0f6fa7fa6a35c0c25866b1330c80e179c64c34&smart=true&width=1280&height=853"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 6
-      },
-      {
-        "tema": "Incidente, aterrizaje de emergencia y sospecha de atentado en el vuelo de Flydubai hacia Israel",
-        "prioridad": 0,
-        "tipo": "hipercompetencia",
-        "tipo_de_oportunidad": "",
-        "total_notas": 41,
-        "cantidad_medios": 7,
-        "cobertura_perfil": 2,
-        "perfil": 2,
-        "competencia_total": 39,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 11,
-        "brecha": -9,
-        "cobertura": {
-          "Perfil": 2,
-          "La Nación": 8,
-          "Clarín": 4,
-          "Infobae": 11,
-          "TN": 9,
-          "Ámbito": 5,
-          "Página 12": 2,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Atrae masivamente a la audiencia digital por tratarse de un thriller en pleno vuelo con sospechas de terrorismo y tensión internacional en Medio Oriente.",
-        "insight": "La competencia satura la cobertura con actualizaciones minuto a minuto, testimonios de pasajeros y videos impactantes desde el interior de la aeronave.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Centralizar la información en un formato de última hora con eje en la hipótesis oficial israelí y la respuesta de las aerolíneas internacionales.",
-        "enfoques_sugeridos": [
-          "Las hipótesis oficiales de seguridad sobre el violento enfrentamiento en la cabina.",
-          "Testimonios exclusivos y el pánico de los pasajeros rescatados en Arabia Saudita."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Una “pelea entre pilotos” y pánico entre los pasajeros: Israel denuncia \"terrorismo\" en el vuelo de FlyDubai",
-            "link": "https://www.perfil.com/noticias/internacional/una-pelea-entre-pilotos-y-panico-entre-los-pasajeros-israel-investiga-el-incidente-de-flydubai-como-posible-atentado-terrorista.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/imagenes-aterradoras-del-incidente-2337226.jpg"
-          },
-          {
-            "medio": "Perfil",
-            "titulo": "Avión de FlyDubai con destino a Tel Aviv aterrizó en Arabia Saudita por un brusco \"incidente\": qué pasó",
-            "link": "https://www.perfil.com/noticias/internacional/avion-de-flydubai-con-destino-a-tel-aviv-aterrizo-en-arabia-saudita-por-un-brusco-incidente.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/avion-de-flydubai-con-destino-a-tel-aviv-2337161.jpg"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "Terror en avión de Flyubai, EN VIVO: apuñalaron a un piloto en un vuelo a Israel y lograron aterrizar de emergencia",
-            "link": "https://www.lanacion.com.ar/el-mundo/terror-en-avion-de-flyubai-en-vivo-apunalaron-a-un-piloto-en-un-vuelo-a-israel-y-lograron-aterrizar-nid30092026/",
-            "imagen": ""
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 6
-      }
-    ],
-    "perfil_pierde": [
-      {
-        "tema": "Gira internacional de Javier Milei en París",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 6,
-        "cantidad_medios": 4,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 5,
-        "medio_lider": "La Nación",
-        "cobertura_medio_lider": 2,
-        "brecha": -1,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 2,
-          "Clarín": 1,
-          "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 0,
-          "Página 12": 2,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Define la proyección exterior del Gobierno, la relación bilateral con Francia y el vínculo político con los gobernadores opositores en un escenario clave.",
-        "insight": "La Nación y Página 12 lideran la agenda con múltiples enfoques sobre la comitiva de gobernadores y las protestas locales.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Publicar un seguimiento exhaustivo sobre las reuniones bilaterales y el detrás de escena de la cumbre con inversores y mandatarios provinciales.",
-        "enfoques_sugeridos": [
-          "La negociación política secreta entre Milei y los gobernadores que viajaron a Europa.",
-          "El impacto de las declaraciones del Presidente frente a las protestas de la izquierda francesa."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Milei llega a París: foto con Macron, inversiones y puesta en pausa de la tensión geopolítica",
-            "link": "https://www.perfil.com/noticias/internacional/milei-llega-a-paris-en-busca-de-inversiones-y-respaldo-politico-a-su-programa-economico-a39.phtml",
-            "imagen": "https://fotos.perfil.com/2025/06/09/trim/540/304/javier-milei-y-emmanuel-macron-2039264.jpg"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "Los gobernadores que viajaron a París esperan un “mano a mano” con Milei por las PASO",
-            "link": "https://www.lanacion.com.ar/politica/los-gobernadores-que-viajaron-a-paris-esperan-un-mano-a-mano-con-milei-por-las-paso-nid30092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/XRYYENQ3ORHYNFJ2DUQ7QE2UX4.jpg?auth=692f5d1335008e5be2daadb4ad22c0946343f0d6396765cf22a4252bf6924010&smart=true&width=2706&height=1525"
-          },
-          {
-            "medio": "La Nación",
-            "titulo": "Javier Milei y sus medidas, EN VIVO: “Si la izquierda francesa protesta, se lo agradezco porque es un honor”, dijo el Presidente antes de partir a París",
-            "link": "https://www.lanacion.com.ar/politica/javier-milei-en-vivo-si-la-izquierda-francesa-protesta-se-lo-agradezco-porque-es-un-honor-dijo-el-nid30092026/",
-            "imagen": "https://resizer.glanacion.com/resizer/v2/I4PB2SEMYRHMFBRNGJU5MATHKE.jpg?auth=cf43308555cf0276ed1e54c2aa8a46d6ce77d1df8dd71d0be83b514657d366ed&smart=true&width=2495&height=1406"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 3
-      },
-      {
-        "tema": "Estado de salud de Mirtha Legrand",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 4,
-        "cantidad_medios": 3,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 3,
-        "medio_lider": "Infobae",
-        "cobertura_medio_lider": 2,
-        "brecha": -1,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 2,
-          "TN": 1,
-          "Ámbito": 0,
-          "Página 12": 0,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Es un tema de alto rendimiento en Google Discover y tráfico masivo de espectáculos debido al enorme arraigo popular de la conductora.",
-        "insight": "Infobae y TN capitalizan la atención de la audiencia mediante la cobertura directa de los partes médicos y declaraciones familiares.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Actualizar de forma inmediata con las declaraciones del entorno y la palabra oficial de los profesionales médicos tratantes.",
-        "enfoques_sugeridos": [
-          "La palabra de Juana Viale y la evaluación del círculo íntimo sobre su evolución.",
-          "Revisión de la trayectoria televisiva y el impacto institucional de su figura."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "Juana Viale habló del estado de salud de Mirtha Legrand y remarcó: \"Es una mujer grande\"",
-            "link": "https://www.perfil.com/noticias/espectaculos/juana-viale-hablo-del-estado-de-mirtha-legrand-y-remarco-es-una-mujer-grande.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juana-viale-con-mario-pergolini-2337146.jpg"
-          },
-          {
-            "medio": "Infobae",
-            "titulo": "Cayó un peligroso delincuente peruano con pedido de extradición: la persecución por la General Paz que derivó en su detención",
-            "link": "https://www.infobae.com/sociedad/policiales/2026/09/30/cayo-un-peligroso-delincuente-peruano-con-pedido-de-extradicion-la-persecucion-por-la-general-paz-que-derivo-en-su-detencion/",
-            "imagen": "https://www.infobae.com/resizer/v2/6L2DVQUPUVEN3MXUGZ73VYWKW4.jpg?auth=6b1eee89c79192186359bb10d9e61e625f9c4132a7c84f235d22498ed07e6398&smart=true&width=1920&height=1080"
-          },
-          {
-            "medio": "TN",
-            "titulo": "Qué dice el parte médico de Mirtha Legrand de este miércoles 30 de septiembre",
-            "link": "https://tn.com.ar/show/famosos/2026/09/30/que-dice-el-parte-medico-de-mirtha-legrand-de-este-miercoles-30-de-septiembre/",
-            "imagen": "https://tn.com.ar/resizer/v2/Z7FI25NJRFHFXIVOGBY7PJHH6I.jpeg?auth=fde4b85507afac5c21f5f7236620bca18f431d9b603e8373a45538a7d7cfc92f"
-          }
-        ],
-        "medios_que_mas_publicaron": [],
-        "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
-      },
-      {
-        "tema": "Cotización del dólar blue en Argentina",
-        "prioridad": 0,
-        "tipo": "perfil_pierde",
-        "tipo_de_oportunidad": "",
-        "total_notas": 7,
-        "cantidad_medios": 4,
-        "cobertura_perfil": 1,
-        "perfil": 1,
-        "competencia_total": 6,
-        "medio_lider": "Página 12",
-        "cobertura_medio_lider": 3,
-        "brecha": -2,
-        "cobertura": {
-          "Perfil": 1,
-          "La Nación": 0,
-          "Clarín": 1,
-          "Infobae": 0,
-          "TN": 0,
-          "Ámbito": 2,
-          "Página 12": 3,
-          "El Cronista": 0
-        },
-        "por_que_importa": "Mantiene un interés público permanente y cotidiano por su influencia directa en el humor social y la formación de precios.",
-        "insight": "Medios como Ámbito y Página 12 dominan las búsquedas con coberturas en directo y análisis permanentes de las brechas cambiarias.",
-        "motivo": "",
-        "motivo_oportunidad": "",
-        "accion_sugerida": "Optimizar el servicio diario de cotizaciones con una lectura analítica rápida para el inversor y el consumidor minorista.",
-        "enfoques_sugeridos": [
-          "Evolución minuto a minuto de las cotizaciones paralelas y los dólares financieros.",
-          "Análisis de la estabilidad cambiaria y su reflejo en la inflación minorista esperada."
-        ],
-        "ejemplos": [
-          {
-            "medio": "Perfil",
-            "titulo": "A cuánto cotiza el dólar blue hoy, miércoles 30 de septiembre",
-            "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-dolar-blue-hoy-miercoles-30-de-septiembre.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/dolares-2333566.jpg"
-          },
-          {
-            "medio": "Clarín",
-            "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo, minuto a minuto, este 30 de septiembre",
-            "link": "https://www.clarin.com/economia/dolar-hoy-dolar-blue-vivo-cotiza-oficial-precio-paralelo-minuto-minuto-30-septiembre_0_DmSqhePVgO.html",
-            "imagen": "https://www.clarin.com/img/2026/06/13/devC78NND_1200x630__1.jpg"
+            "titulo": "Hasta noviembre: el Gobierno volvió a postergar el aumento del impuesto a los combustibles",
+            "link": "https://www.lanacion.com.ar/economia/hasta-noviembre-el-gobierno-volvio-a-postergar-el-aumento-del-impuesto-a-los-combustibles-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/HS6EXH3DMNHN7M64QRVTI2T4YE.jpg?auth=ff7a8d750548631957eaaa8b68310bf4cbe6fc15ee9e5a8d356507628401111e&smart=true&width=2000&height=1333"
           },
           {
             "medio": "Ámbito",
-            "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 30 de septiembre",
-            "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-30-septiembre-n6328270",
-            "imagen": "https://media.ambito.com/p/43ca1d37a632f6dec20f5081f89e0ff0/adjuntos/239/imagenes/043/657/0043657207/1200x675/2975x1126:2995x1146/mercados-acciones-bolsas-cedear-inversiones-finanzas-vivo-wall-street-cedears-riesgo-pais-merval-dolar.jpg"
+            "titulo": "Combustibles: el Gobierno volvió a postergar la suba de impuestos y busca contener el impacto en los surtidores",
+            "link": "https://www.ambito.com/economia/combustibles-el-gobierno-volvio-postergar-la-suba-impuestos-y-busca-contener-el-impacto-los-surtidores-n6328318",
+            "imagen": "https://media.ambito.com/p/1446800e2719b104cc4b64dbd4e754b7/adjuntos/239/imagenes/043/256/0043256924/1200x675/2414x1501:2434x1521/combustibles-naftas-petroleo.jpg"
           }
         ],
         "medios_que_mas_publicaron": [],
@@ -1077,36 +1160,36 @@
         "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Reapertura del mercado japonés para la carne bovina argentina",
+        "tema": "Reapertura del mercado de carne argentina en Japón",
         "prioridad": 0,
-        "tipo": "perfil_pierde",
+        "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 6,
-        "cantidad_medios": 3,
+        "total_notas": 4,
+        "cantidad_medios": 4,
         "cobertura_perfil": 1,
         "perfil": 1,
-        "competencia_total": 5,
-        "medio_lider": "TN",
-        "cobertura_medio_lider": 4,
-        "brecha": -3,
+        "competencia_total": 3,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
         "cobertura": {
           "Perfil": 1,
           "La Nación": 0,
           "Clarín": 1,
           "Infobae": 0,
-          "TN": 4,
-          "Ámbito": 0,
+          "TN": 1,
+          "Ámbito": 1,
           "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Representa una noticia económica y agroindustrial de gran peso estratégico para las exportaciones y la generación de divisas.",
-        "insight": "TN y Clarín lideran la agenda económica destacando el anuncio oficial y el impacto financiero de la medida para el sector cárnico.",
+        "por_que_importa": "Representa una noticia de alto impacto para las economías regionales y el sector agroexportador tras dos décadas de restricciones.",
+        "insight": "La cobertura se alinea en destacar el anuncio oficial y las expectativas comerciales del sector frigorífico.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Profundizar en los requisitos sanitarios y el potencial de facturación a mediano plazo para los frigoríficos locales.",
+        "accion_sugerida": "Desarrollar un informe sobre cuáles serán los frigoríficos beneficiados y el volumen potencial de exportación.",
         "enfoques_sugeridos": [
-          "El impacto en la cadena de valor ganadera tras dos décadas de restricciones comerciales.",
-          "Expectativa de los exportadores y proyecciones de ingresos en millones de dólares."
+          "El largo camino sanitario para destrabar el mercado japonés.",
+          "Expectativa del sector ganadero ante el ingreso de divisas."
         ],
         "ejemplos": [
           {
@@ -1130,67 +1213,614 @@
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
-        "cantidad_medios_competencia": 2
+        "cantidad_medios_competencia": 3
       },
       {
-        "tema": "Críticas al modelo económico de Javier Milei",
+        "tema": "Próxima ejecución de Christa Pike en Tennessee",
         "prioridad": 0,
-        "tipo": "perfil_pierde",
+        "tipo": "hipercompetencia",
         "tipo_de_oportunidad": "",
-        "total_notas": 5,
-        "cantidad_medios": 2,
+        "total_notas": 4,
+        "cantidad_medios": 4,
         "cobertura_perfil": 1,
         "perfil": 1,
-        "competencia_total": 4,
-        "medio_lider": "Página 12",
-        "cobertura_medio_lider": 4,
-        "brecha": -3,
+        "competencia_total": 3,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
         "cobertura": {
           "Perfil": 1,
-          "La Nación": 0,
-          "Clarín": 0,
-          "Infobae": 0,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 1,
           "TN": 0,
           "Ámbito": 0,
-          "Página 12": 4,
+          "Página 12": 0,
           "El Cronista": 0
         },
-        "por_que_importa": "Alimenta el debate político y social sobre la sustentabilidad del programa oficial en un contexto de tensiones inflacionarias y sociales.",
-        "insight": "Página 12 concentra la producción informativa articulando críticas sectoriales, proyectos legislativos y cuestionamientos de analistas.",
+        "por_que_importa": "Atrae un fuerte interés internacional por tratarse de un caso histórico en el sistema judicial estadounidense.",
+        "insight": "Los portales de noticias compiten por el relato minuto a minuto de las horas previas en el corredor de la muerte.",
         "motivo": "",
         "motivo_oportunidad": "",
-        "accion_sugerida": "Ampliar el abanico de opiniones críticas sumando voces de economistas liberales y heterodoxos que evalúan los riesgos del plan económico.",
+        "accion_sugerida": "Aportar una perspectiva criminológica o de derechos humanos sobre la pena capital en Estados Unidos.",
         "enfoques_sugeridos": [
-          "El balance de los referentes económicos independientes sobre los puntos críticos del modelo.",
-          "Proyectos legislativos y la resistencia social frente al ajuste en sectores vulnerables."
+          "El perfil psicológico del caso y el debate sobre la pena de muerte.",
+          "Testimonios de los familiares de la víctima tras décadas de litigio."
         ],
         "ejemplos": [
           {
             "medio": "Perfil",
-            "titulo": "El modelo de Milei en crisis: qué dicen Cachanosky, Rodríguez, Giacomini y Maslatón",
-            "link": "https://www.perfil.com/noticias/nea/el-modelo-de-milei-en-crisis-que-dicen-cachanosky-rodriguez-giacomini-y-maslaton.phtml",
-            "imagen": "https://fotos.perfil.com/2026/09/25/trim/540/304/javier-milei-ante-el-nuevo-escenario-social-marcado-por-el-aumento-de-la-pobreza-2333784.jpg"
+            "titulo": "Christa Pike, la primera mujer que Tennessee ejecutará en 200 años: sus últimas horas en el corredor de la muerte",
+            "link": "https://www.perfil.com/noticias/policia/a41-christa-pike-la-primera-mujer-que-tennessee-ejecutara-en-200-anos-sus-ultimas-horas-en-el-corredor-de-la-muerte.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/29/trim/540/304/christa-pike-y-tadaryl-shipp-29092026-2336806.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Christa Pike afronta sus últimas horas: hoy será la primera mujer ejecutada en Tennessee en 200 años",
+            "link": "https://www.lanacion.com.ar/el-mundo/christa-pike-afronta-sus-ultimas-horas-hoy-sera-la-primera-mujer-ejecutada-en-tennessee-en-200-anos-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/CDF4SKFAHNBPLIU3HY6AGA2LL4.webp?auth=305d54e9223ac69b6eaccdfcee8aca3d0e2956057c7e7e5279e28254a479f30d&smart=true&width=800&height=800"
+          },
+          {
+            "medio": "Clarín",
+            "titulo": "May Martínez, la madre de Colleen Slemmer, habló antes de la ejecución de Christa Pike: \"Quizás ahora por fin tengamos justicia\"",
+            "link": "https://www.clarin.com/estados-unidos/may-martinez-madre-colleen-slemmer-hablo-ejecucion-christa-pike-ahora-fin-justicia_0_z3lwp7oUkr.html",
+            "imagen": "https://www.clarin.com/img/2026/09/30/wts1XTU___1200x630__1.jpg"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 3
+      },
+      {
+        "tema": "Pronóstico del clima en CABA y AMBA",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 2,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 1,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Es un contenido de utilidad diaria con un alto volumen de búsquedas recurrentes en buscadores.",
+        "insight": "Varios medios mantienen actualizaciones constantes sobre el estado del tiempo para la audiencia urbana.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Optimizar el SEO local para captar tráfico directo desde Google Discover durante las primeras horas de la mañana.",
+        "enfoques_sugeridos": [
+          "Detalle hora por hora de la temperatura y humedad.",
+          "Proyección extendida para los próximos días en la región metropolitana."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Clima en Ciudad Autónoma de Buenos Aires este miércoles 30 de septiembre: llega una tarde agradable con sol y sin lluvias",
+            "link": "https://www.perfil.com/noticias/clima/clima-en-ciudad-autonoma-de-buenos-aires-este-miercoles-30-de-septiembre-llega-una-tarde-agradable-con-sol-y-sin-lluvias-a35.phtml",
+            "imagen": "https://fotos.perfil.com/2025/09/23/trim/540/304/clima-buenos-aires-20250922-2104122.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Pronóstico del tiempo: hasta cuándo siguen las lluvias en el AMBA, según el Servicio Meteorológico Nacional ",
+            "link": "https://www.lanacion.com.ar/sociedad/pronostico-del-tiempo-hasta-cuando-siguen-las-lluvias-en-el-amba-segun-el-servicio-meteorologico-nid29092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/AKLVDLFRWRCL7GKCEIUNAMO5AA.png?auth=535689ac93ff555a30a35c80c995d764ede069bf9afd672192ffcf566031da5b&smart=true&width=1560&height=455"
           },
           {
             "medio": "Página 12",
-            "titulo": "Sin celulares en las escuelas",
-            "link": "https://www.pagina12.com.ar/2026/09/29/sin-celulares-en-las-escuelas/",
-            "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HVGUTEO5XNH4VOLZIX64LASDLA.jpg?auth=522a3a6a031d79abe4f3e7374f1c5a53d20f884b3137da752322114c17a0d0b2&amp;smart=true&amp;width=6000&amp;height=4000"
+            "titulo": "Clima en Buenos Aires: el pronóstico del tiempo para este miércoles 30 de septiembre",
+            "link": "https://www.pagina12.com.ar/2026/09/30/clima-en-buenos-aires-el-pronostico-del-tiempo-para-este-miercoles-30-de-septiembre/",
+            "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GU3DQM3BMMZTKNJQMJSDGYJRGI.jpg?auth=9578a1442723056e0d1f30fbaa81d55b26133e47d43c1c9a98b5a3834d856483&amp;smart=true&amp;width=960&amp;height=640"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Muerte de turista francesa por avalancha en Santa Cruz",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 2,
+        "medio_lider": "Clarín",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 0,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 1,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Tragedia en un destino turístico emblemático de la Patagonia que moviliza la cobertura de policiales y sociedad.",
+        "insight": "La combinación de turismo extremo, fatalidad y repercusiones en redes genera alto interés de la audiencia.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Profundizar en las medidas de seguridad y advertencias para montañistas en El Chaltén.",
+        "enfoques_sugeridos": [
+          "El operativo de rescate y el testimonio de los guías locales.",
+          "El perfil de la esquiadora profesional fallecida."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Murió una turista francesa tras una avalancha en Santa Cruz: el último mensaje que mandó desde la montaña",
+            "link": "https://www.perfil.com/noticias/sociedad/fallecio-una-turista-francesa-tras-una-avalancha-en-santa-cruz-cual-fue-el-ultimo-mensaje-que-mando-desde-la-montana.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juliette-agathe-elena-willmann-2337152.jpg"
           },
           {
-            "medio": "Página 12",
-            "titulo": "Llega al Congreso el proyecto para barrios populares",
-            "link": "https://www.pagina12.com.ar/2026/09/30/llega-al-congreso-el-proyecto-para-barrios-populares/",
-            "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GYZDAZJYMQ4DSNZZGI3DKNRVGY.jpg?auth=62a29b6e53185472a2da7c1bec267e312cbf83a5fb66e78b4cecd2c453927005&amp;smart=true&amp;width=4792&amp;height=3195"
+            "medio": "Clarín",
+            "titulo": "Esquiadora profesional y un último mensaje desde la montaña: la turista francesa que murió por una avalancha en El Chaltén",
+            "link": "https://www.clarin.com/sociedad/esquiadora-profesional-ultimo-mensaje-montana-turista-francesa-murio-avalancha-chalten_0_5mU09Rz6MW.html",
+            "imagen": "https://www.clarin.com/img/2026/09/29/ijD04II74_1200x630__1.jpg"
+          },
+          {
+            "medio": "TN",
+            "titulo": "El último posteo de la turista francesa que murió atrapada en una avalancha en El Chaltén: “Nos sentimos muy afortunados”",
+            "link": "https://tn.com.ar/sociedad/2026/09/30/el-ultimo-posteo-de-la-turista-francesa-que-murio-atrapada-en-una-avalancha-en-el-chalten-nos-sentimos-muy-afortunados/",
+            "imagen": "https://tn.com.ar/resizer/v2/VHXU6KQCSJHFRPSIBDDGXB4WCU.PNG?auth=b5c2cda4c54dd0ac1fd7a103829f0a4c94378c6fd29f88bf744209778c0753e8"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Estado de salud de Mirtha Legrand",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 3,
+        "cantidad_medios": 3,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 2,
+        "medio_lider": "Infobae",
+        "cobertura_medio_lider": 1,
+        "brecha": 0,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 0,
+          "Clarín": 0,
+          "Infobae": 1,
+          "TN": 1,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "La salud de una figura central del espectáculo argentino moviliza inmediatamente el interés masivo.",
+        "insight": "Los portales de espectáculos actualizan de forma constante sobre los partes médicos y declaraciones familiares.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Centralizar la información oficial sin caer en especulaciones para preservar el rigor periodístico.",
+        "enfoques_sugeridos": [
+          "La palabra de su entorno íntimo y colegas del medio.",
+          "Revisión de su trayectoria histórica en la televisión."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Juana Viale habló del estado de salud de Mirtha Legrand y remarcó: \"Es una mujer grande\"",
+            "link": "https://www.perfil.com/noticias/espectaculos/juana-viale-hablo-del-estado-de-mirtha-legrand-y-remarco-es-una-mujer-grande.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/juana-viale-con-mario-pergolini-2337146.jpg"
+          },
+          {
+            "medio": "Infobae",
+            "titulo": "Difundieron un nuevo parte médico sobre la salud de Mirtha Legrand",
+            "link": "https://www.infobae.com/teleshow/2026/09/30/difundieron-un-nuevo-parte-medico-sobre-la-salud-de-mirtha-legrand/",
+            "imagen": "https://www.infobae.com/resizer/v2/7FEAQNQU5ZCWXDZX45OVG6YBFQ.jpeg?auth=9aefd69082d1b648e20d3494ddd7a1396dd477da45a912ea018dafac57871a8b&smart=true&width=1066&height=1598"
+          },
+          {
+            "medio": "TN",
+            "titulo": "Qué dice el parte médico de Mirtha Legrand de este miércoles 30 de septiembre",
+            "link": "https://tn.com.ar/show/famosos/2026/09/30/que-dice-el-parte-medico-de-mirtha-legrand-de-este-miercoles-30-de-septiembre/",
+            "imagen": "https://tn.com.ar/resizer/v2/Z7FI25NJRFHFXIVOGBY7PJHH6I.jpeg?auth=fde4b85507afac5c21f5f7236620bca18f431d9b603e8373a45538a7d7cfc92f"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 2
+      },
+      {
+        "tema": "Incidente y aterrizaje de emergencia del avión de Flydubai",
+        "prioridad": 0,
+        "tipo": "hipercompetencia",
+        "tipo_de_oportunidad": "",
+        "total_notas": 32,
+        "cantidad_medios": 7,
+        "cobertura_perfil": 2,
+        "perfil": 2,
+        "competencia_total": 30,
+        "medio_lider": "TN",
+        "cobertura_medio_lider": 10,
+        "brecha": -8,
+        "cobertura": {
+          "Perfil": 2,
+          "La Nación": 9,
+          "Clarín": 1,
+          "Infobae": 4,
+          "TN": 10,
+          "Ámbito": 4,
+          "Página 12": 2,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Un hecho de extrema gravedad internacional con sospechas de terrorismo que genera alto nivel de consumo en la audiencia global.",
+        "insight": "Competencia feroz con una cobertura masiva de TN y La Nación, superando ampliamente la cantidad de notas del resto de los medios.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Realizar una crónica unificada con la reconstrucción minuto a minuto de la caída de altura y el testimonio de pasajeros.",
+        "enfoques_sugeridos": [
+          "Las hipótesis oficiales de Israel sobre el presunto atentado en cabina.",
+          "El rol clave de los pasajeros para reducir al piloto agresor."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "Una “pelea entre pilotos” y pánico entre los pasajeros: Israel denuncia \"terrorismo\" en el vuelo de FlyDubai",
+            "link": "https://www.perfil.com/noticias/internacional/una-pelea-entre-pilotos-y-panico-entre-los-pasajeros-israel-investiga-el-incidente-de-flydubai-como-posible-atentado-terrorista.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/imagenes-aterradoras-del-incidente-2337226.jpg"
+          },
+          {
+            "medio": "Perfil",
+            "titulo": "Avión de FlyDubai con destino a Tel Aviv aterrizó en Arabia Saudita por un brusco \"incidente\": qué pasó",
+            "link": "https://www.perfil.com/noticias/internacional/avion-de-flydubai-con-destino-a-tel-aviv-aterrizo-en-arabia-saudita-por-un-brusco-incidente.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/avion-de-flydubai-con-destino-a-tel-aviv-2337161.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Un analista internacional explicó en detalle qué pasó con el avión de Flydubai, que aterrizó de emergencia en Arabia Saudita, y la hipótesis más relevante ",
+            "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-que-paso-con-el-avion-de-flydubai-que-aterrizo-de-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/SXIWGGPV4FAP3O3NDS456J5F3Q.jpg?auth=7a5b45fe1676bd6139559f15d4f4a7a0cd50b89cb88e199ba18f41a7fc05da9b&smart=true&width=1360&height=910"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 6
+      }
+    ],
+    "perfil_pierde": [
+      {
+        "tema": "Cotización del dólar blue y oficial en la City",
+        "prioridad": 0,
+        "tipo": "perfil_pierde",
+        "tipo_de_oportunidad": "",
+        "total_notas": 10,
+        "cantidad_medios": 6,
+        "cobertura_perfil": 1,
+        "perfil": 1,
+        "competencia_total": 9,
+        "medio_lider": "TN",
+        "cobertura_medio_lider": 3,
+        "brecha": -2,
+        "cobertura": {
+          "Perfil": 1,
+          "La Nación": 1,
+          "Clarín": 1,
+          "Infobae": 0,
+          "TN": 3,
+          "Ámbito": 3,
+          "Página 12": 1,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Es la consulta económica de mayor tráfico diario en la Argentina, fundamental para el rendimiento de audiencia y SEO.",
+        "insight": "TN y Ámbito lideran con coberturas múltiples y en tiempo real, superando la presencia de Perfil en esta temática.",
+        "motivo": "",
+        "motivo_oportunidad": "",
+        "accion_sugerida": "Agilizar la actualización de los tipos de cambio con un widget dinámico y notas de análisis rápido sobre la brecha cambiaria.",
+        "enfoques_sugeridos": [
+          "Minuto a minuto de la cotización en las principales plazas financieras.",
+          "Análisis de la tendencia del mercado informal frente a las medidas oficiales."
+        ],
+        "ejemplos": [
+          {
+            "medio": "Perfil",
+            "titulo": "A cuánto cotiza el dólar blue hoy, miércoles 30 de septiembre",
+            "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-dolar-blue-hoy-miercoles-30-de-septiembre.phtml",
+            "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/dolares-2333566.jpg"
+          },
+          {
+            "medio": "La Nación",
+            "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 30 de septiembre, minuto a minuto",
+            "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333"
+          },
+          {
+            "medio": "TN",
+            "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este miércoles 30 de septiembre",
+            "link": "https://tn.com.ar/economia/2026/09/30/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-30-de-septiembre/",
+            "imagen": ""
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 5
+      }
+    ],
+    "sin_cobertura_perfil": [],
+    "oportunidades": [
+      {
+        "tema": "Alquiler temporario en barrios del sur de CABA",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "SEO de servicios y tendencias inmobiliarias",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": -1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Toca una problemática habitacional y urbana de gran interés para propietarios e inquilinos en Buenos Aires.",
+        "insight": "La competencia registra un único artículo en La Nación, lo que deja el terreno libre para que Perfil aporte una mirada propia.",
+        "motivo": "",
+        "motivo_oportunidad": "Alta demanda de información sobre alternativas habitacionales en un contexto económico complejo.",
+        "accion_sugerida": "Publicar un informe sobre la rentabilidad real de los alquileres temporarios en zonas no tradicionales frente al tradicional Palermo.",
+        "enfoques_sugeridos": [
+          "Comparativa de precios por metro cuadrado entre el sur y el norte porteño.",
+          "Testimonios de inversores y el impacto en el mercado residencial."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Los barrios del sur de CABA donde el alquiler temporario ya compite con Palermo en precio, pero ¿qué ganancia generan?",
+            "link": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/los-barrios-del-sur-de-caba-donde-el-alquiler-temporario-ya-compite-con-palermo-en-precio-pero-que-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/PIJVUYWWHNCDPGVWLEBBDOIFHQ.jpg?auth=45f9ce92334991f2b8bbdb4f07e4e0eca02a3fc627b403a97542299288422c77&smart=true&width=6000&height=3523"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Usos alternativos para celulares viejos",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "SEO Evergreen y Google Discover",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": -1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Contenido de utilidad práctica (lifehacks) con excelente rendimiento orgánico en buscadores y redes sociales.",
+        "insight": "Hay una baja saturación en el mercado de medios, con apenas una mención aislada en la competencia.",
+        "motivo": "",
+        "motivo_oportunidad": "Contenido de consumo masivo ideal para captar clics por recomendación de plataformas.",
+        "accion_sugerida": "Crear una guía paso a paso optimizada para SEO sobre cómo reciclar tecnología hogareña y ahorrar dinero.",
+        "enfoques_sugeridos": [
+          "Ideas prácticas para convertir un viejo smartphone en cámara de seguridad.",
+          "Cómo optimizar dispositivos antiguos para darles una segunda vida útil."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "¿Tenés un celular viejo guardado? Seis usos para reutilizarlo y ahorrar dinero",
+            "link": "https://www.lanacion.com.ar/tecnologia/tenes-un-celular-viejo-guardado-seis-usos-para-reutilizarlo-y-ahorrar-dinero-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/JEDMJTFY7NB55PNDWB4DQZ554E.jpg?auth=7f5bed0c521728394828ea59241e2a07968aaa12568c649ad3e538bd0ba15a73&smart=true&width=2000&height=1333"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Calendario de pagos de ANSES para octubre 2026",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Tráfico utilitario masivo",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": -1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Es una de las consultas de servicio más masivas del país por parte de jubilados, pensionados y beneficiarios de planes.",
+        "insight": "La competencia captura rápidamente el tráfico inicial, un nicho que Perfil suele desatender en la inmediatez.",
+        "motivo": "",
+        "motivo_oportunidad": "Alto volumen asegurado de búsquedas en Google al inicio de cada mes.",
+        "accion_sugerida": "Publicar un servicio claro y estructurado con el cronograma oficial de pagos para el mes entrante.",
+        "enfoques_sugeridos": [
+          "Cronograma detallado por terminación de DNI para jubilaciones y asignaciones.",
+          "Fechas de cobro con bonos extraordinarios incluidos."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Cuándo cobro Anses: el calendario completo de octubre 2026 ",
+            "link": "https://www.lanacion.com.ar/economia/cuando-cobro-anses-el-calendario-completo-de-octubre-2026-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Compras de dólares del Banco Central",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Análisis económico especializado",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": -1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Indica el pulso de las reservas internacionales y la marcha del plan monetario del Gobierno.",
+        "insight": "Existe una cobertura muy acotada en la competencia, lo que permite a Perfil instalar un análisis económico más profundo.",
+        "motivo": "",
+        "motivo_oportunidad": "Permite posicionar a Perfil con fuentes calificadas en temas macroeconómicos clave.",
+        "accion_sugerida": "Redactar una nota de análisis sobre el saldo mensual de reservas y las perspectivas de acumulación de divisas.",
+        "enfoques_sugeridos": [
+          "Balance del desempeño del Banco Central al cierre del mes.",
+          "Impacto en las expectativas del mercado financiero y el riesgo país."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "El Banco Central compró US$70 millones, pero se encamina a cerrar el mes con el menor saldo del año",
+            "link": "https://www.lanacion.com.ar/economia/el-banco-central-compro-us70-millones-pero-se-encamina-a-cerrar-el-mes-con-el-menor-saldo-del-ano-nid29092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/DEENVKVICJATLB4DCBM4A5LDSI.JPG?auth=275d20a313a2d71625d7c7d25646818caa2169e36c25c27be55840e6d9d6e818&smart=true&width=1878&height=841"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Megaobra hidráulica contra anegamientos en el norte de CABA",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Interés local y urbano",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": -1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Interesa de manera directa a los vecinos de la Ciudad de Buenos Aires ante alertas meteorológicas y gestión urbana.",
+        "insight": "La cobertura se limita a una nota institucional en la competencia, dejando espacio para un enfoque periodístico local.",
+        "motivo": "",
+        "motivo_oportunidad": "Atrae audiencia segmentada de CABA con alto interés en la gestión de infraestructura.",
+        "accion_sugerida": "Detallar los barrios beneficiados, el presupuesto invertido y cómo funcionará la infraestructura frente a tormentas fuertes.",
+        "enfoques_sugeridos": [
+          "Especificaciones técnicas de la obra y su capacidad de drenaje.",
+          "El testimonio de vecinos de la zona norte sobre inundaciones históricas."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Chau anegamientos: terminó la megaobra en el norte de la Ciudad que promete enfrentar los efectos climáticos del Súper Niño",
+            "link": "https://www.lanacion.com.ar/sociedad/chau-anegamientos-termino-la-megaobra-en-el-norte-de-la-ciudad-que-promete-enfrentar-los-efectos-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/BLIEY7E3JRDXNKZLKFSYBGZXTA.jpg?auth=a0fb3235773da88024d5b84006ac77567376777dddca8deec38ded4ac3aac1df&smart=true&width=1600&height=1066"
+          }
+        ],
+        "medios_que_mas_publicaron": [],
+        "medios_que_cubrieron": [],
+        "cantidad_medios_competencia": 1
+      },
+      {
+        "tema": "Polémica por ticket de restaurante uruguayo y burla al peso argentino",
+        "prioridad": 0,
+        "tipo": "oportunidades",
+        "tipo_de_oportunidad": "Viral y Social Media",
+        "total_notas": 1,
+        "cantidad_medios": 1,
+        "cobertura_perfil": 0,
+        "perfil": 0,
+        "competencia_total": 1,
+        "medio_lider": "La Nación",
+        "cobertura_medio_lider": 1,
+        "brecha": -1,
+        "cobertura": {
+          "Perfil": 0,
+          "La Nación": 1,
+          "Clarín": 0,
+          "Infobae": 0,
+          "TN": 0,
+          "Ámbito": 0,
+          "Página 12": 0,
+          "El Cronista": 0
+        },
+        "por_que_importa": "Genera alto viral en redes sociales y consumo ágil por parte de usuarios interesados en tendencias de consumo y turismo.",
+        "insight": "Un tema netamente de viralización en redes cubierto de forma solitaria por La Nación.",
+        "motivo": "",
+        "motivo_oportunidad": "Alto potencial de CTR y clics masivos desde redes sociales y Google Discover.",
+        "accion_sugerida": "Desarrollar una nota ágil centrada en la reacción de los usuarios y la comparación de precios turísticos en Uruguay.",
+        "enfoques_sugeridos": [
+          "La repercusión viral del ticket en plataformas como X y TikTok.",
+          "El costo vacacional para los argentinos que eligen cruzar el charco."
+        ],
+        "ejemplos": [
+          {
+            "medio": "La Nación",
+            "titulo": "Fue a un restaurante uruguayo y al ver el ticket desató una fuerte polémica por una burla al peso argentino",
+            "link": "https://www.lanacion.com.ar/lifestyle/fue-a-un-restaurante-uruguayo-y-al-ver-el-ticket-desato-una-fuerte-polemica-por-una-burla-al-peso-nid30092026/",
+            "imagen": "https://resizer.glanacion.com/resizer/v2/X7EXCVS6Y5HAJNURMZY5KFPXDA.JPG?auth=70bc4a8aca7624de42367a1ce8c52a0aedb5163e9a5e8be4cbcf109146b0b2a9&smart=true&width=712&height=563"
           }
         ],
         "medios_que_mas_publicaron": [],
         "medios_que_cubrieron": [],
         "cantidad_medios_competencia": 1
       }
-    ],
-    "sin_cobertura_perfil": [],
-    "oportunidades": []
+    ]
   },
-  "total_temas": 9
+  "total_temas": 16
 }
