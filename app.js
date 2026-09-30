@@ -3,7 +3,7 @@ const DATA_URL = "./data.json";
 let dashboardData = null;
 
 let currentCategory = "hipercompetencia";
-let currentSort = "brecha";
+let currentSort = "notas";
 
 
 /* =========================
