@@ -2,70 +2,19 @@
   "fecha_analisis": "2026-10-01",
   "hipercompetencia": [
     {
-      "tema": "Argentina Week en París y atracción de inversiones francesas",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Involucra la gira presidencial, anuncios de inversión récord (TotalEnergies, Eramet) y la relación bilateral, un eje central para la política económica que Perfil debe cubrir para sostener su liderazgo analítico.",
-      "insight": "Es el tema con mayor volumen de cobertura del día, dominado por Página 12 y La Nación con enfoques contrapuestos sobre las promesas de Milei y las protestas locales.",
-      "accion_sugerida": "Profundizar en el impacto real de los contratos anunciados bajo el RIGI y la viabilidad financiera de las promesas a largo plazo, evitando la simple reproducción de los discursos oficiales.",
-      "enfoques_sugeridos": [
-        "Radiografía técnica de los proyectos energéticos e industriales que aplicarán al RIGI tras los anuncios en París.",
-        "El clima social y las protestas sindicales que recibieron a la comitiva argentina en Francia."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        3
-      ],
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 2,
-        "Clarín": 3,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 3,
-        "Página 12": 17,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Transferencia de autos y fallas en Rentas: \"De cada 10 pesos que cobraba un registro, 7 eran impuestos\"",
-          "link": "https://www.perfil.com/noticias/cordoba/transferencia-de-autos-y-fallas-en-rentas-de-cada-10-pesos-que-cobraba-un-registro-7-eran-impuestos.phtml",
-          "imagen": "https://fotos.perfil.com/2026/06/25/trim/540/304/carreno-2268649.jpg"
-        }
-      ]
-    },
-    {
       "tema": "Ataque y emergencia en el vuelo de Flydubai",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Atrae masivamente tráfico internacional en Google Discover debido a la inusual naturaleza del incidente y las derivaciones geopolíticas en Medio Oriente.",
-      "insight": "La competencia volcó una cobertura intensiva minuto a minuto y perfiles de los protagonistas, liderada por La Nación.",
-      "accion_sugerida": "Desarrollar una crónica de análisis internacional centrada en los protocolos de seguridad aérea y las tensiones regionales que investiga inteligencia.",
+      "por_que_importa": "Es un hecho internacional de alto impacto con fuerte tracción en Google Discover y búsquedas globales que interesa a la audiencia argentina.",
+      "insight": "La cobertura se concentra fuertemente en los detalles del incidente y las declaraciones cruzadas de las autoridades sobre las motivaciones del piloto.",
+      "accion_sugerida": "Profundizar en la normativa de seguridad de las aerolíneas internacionales y los controles psicológicos a tripulaciones.",
       "enfoques_sugeridos": [
-        "El rol clave de los pasajeros y la respuesta de la tripulación ante el ataque en pleno vuelo.",
-        "Las hipótesis geopolíticas detrás del atentado y la postura oficial de Israel sobre una posible vinculación externa."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "Los antecedentes de fallas de seguridad en cabina a nivel global.",
+        "El rol de los pasajeros en situaciones críticas de emergencia aérea."
       ],
       "cobertura": {
         "Perfil": 2,
-        "La Nación": 5,
-        "Clarín": 2,
+        "La Nación": 4,
+        "Clarín": 0,
         "Infobae": 1,
         "TN": 3,
         "Ámbito": 2,
@@ -75,84 +24,74 @@
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "\"Superhéroe en el cielo\": el piloto apuñalado en pleno vuelo es celebrado por su \"extraordinario coraje\"",
+          "link": "https://www.perfil.com/noticias/internacional/superheroe-en-el-cielo-el-piloto-que-fue-apunalado-en-pleno-vuelo-es-celebrado-por-su-extraordinario-coraje.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/smit-machchhar-piloto-2338255.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "La Nación",
+          "titulo": "Netanyahu afirma que el copiloto omaní de Flydubai fue sometido a un “adoctrinamiento islamista radical”",
+          "link": "https://www.lanacion.com.ar/el-mundo/netanyahu-afirma-que-el-copiloto-omani-de-flydubai-fue-sometido-a-un-adoctrinamiento-islamista-nid01102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/USMPUQMBYZG5RBPDK56TN35AAQ.jpg?auth=f70a99c2f3673d4403283b9be1c99d21f85917941bcc3b93b73374852291f7fb&smart=true&width=1006&height=928"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Infobae",
+          "titulo": "Cómo cuatro pasajeros israelíes salvaron al piloto y evitaron que se estrellara el vuelo de Flydubai",
+          "link": "https://www.infobae.com/america/mundo/2026/10/01/las-personas-indicadas-en-el-momento-indicado-como-cuatro-pasajeros-israelies-evitaron-que-se-estrellara-el-vuelo-de-flydubai/",
+          "imagen": "https://www.infobae.com/resizer/v2/4V73MUCN3RGQ3DBL2FREFUJQUM.jpg?auth=d8a6db3df555f0349ae741900ae0ad01be3ff5c46313cd7dd5a71c745b0babee&smart=true&width=1920&height=1080"
         }
       ]
     },
     {
-      "tema": "Cotización del dólar y del euro blue",
+      "tema": "Fallo de la Corte Suprema sobre la Ley de Tierras y la extranjerización",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Es un servicio esencial de alta fidelización y consulta permanente para la audiencia de finanzas y economía de Perfil.",
-      "insight": "Ámbito y TN encabezan la cobertura con seguimientos constantes de los tipos de cambio paralelos al inicio de octubre.",
-      "accion_sugerida": "Mantener actualizado el tablero de cotizaciones sumando un análisis breve sobre la brecha cambiaria y la acumulación de reservas del Banco Central.",
+      "por_que_importa": "Atraviesa de lleno la agenda institucional y económica del país, generando intensos debates jurídicos y políticos.",
+      "insight": "Todos los grandes medios siguen de cerca las aclaraciones del tribunal y las reacciones de los distintos bloques legislativos.",
+      "accion_sugerida": "Analizar el impacto real de la sentencia sobre la propiedad rural en las distintas provincias argentinas.",
       "enfoques_sugeridos": [
-        "Evolución del dólar blue y las cotizaciones financieras en el primer día hábil del mes.",
-        "El impacto de la compra de reservas en la confianza del mercado cambiario."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "Las consecuencias jurídicas a mediano plazo sobre el régimen de tierras.",
+        "El cruce político entre el oficialismo y la oposición en el Congreso."
       ],
       "cobertura": {
         "Perfil": 3,
         "La Nación": 1,
-        "Clarín": 0,
+        "Clarín": 1,
         "Infobae": 0,
-        "TN": 3,
-        "Ámbito": 7,
-        "Página 12": 2,
+        "TN": 1,
+        "Ámbito": 3,
+        "Página 12": 5,
         "El Cronista": 0
       },
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "La Corte Suprema responde por la Ley de Tierras: \"La descalificación y el odio sólo deterioran las instituciones y la democracia\"",
+          "link": "https://www.perfil.com/noticias/politica/corte-responde-a-las-criticas-por-la-ley-de-tierras-la-descalificacion-y-el-odio-solo-deterioran-las-instituciones-y-la-democracia.phtml",
+          "imagen": "https://fotos.perfil.com/2026/04/15/trim/540/304/corte-suprema-de-justicia-de-la-nacion-2220761.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Clarín",
+          "titulo": "Venta de tierras a extranjeros: la Corte Suprema aclaró que su polémico fallo fue sobre un tema procesal y no por el fondo de la cuestión",
+          "link": "https://www.clarin.com/politica/venta-tierras-extranjeros-corte-suprema-aclaro-polemico-fallo-tema-procesal-fondo-cuestion_0_fq4IfWN5di.html",
+          "imagen": "https://www.clarin.com/img/2025/06/10/WvPJF-aHT_1200x630__1.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Página 12",
+          "titulo": "El peronismo prepara una sesión en Diputados para frenar la extranjerización de la tierra",
+          "link": "https://www.pagina12.com.ar/2026/10/01/el-peronismo-prepara-una-sesion-en-diputados-para-frenar-la-extranjerizacion-de-la-tierra/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/DFQ5DORM7JBIRA3BZPTKMCUOFQ.jpeg?auth=4353084056f8860ee65a773932a983866738953834330203cffd4c018d2dbcdd&amp;smart=true&amp;width=1600&amp;height=1066"
         }
       ]
     },
     {
-      "tema": "Disputa diplomática y arbitraje por la exploración petrolera en Malvinas",
+      "tema": "Rechazo y disputa diplomática con el Reino Unido por las Islas Malvinas",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Hace a la soberanía nacional y genera un fuerte debate geopolítico con el Reino Unido que moviliza a la opinión pública argentina.",
-      "insight": "Medios como Ámbito y Clarín cubrieron con inmediatez la convocatoria a la embajadora argentina en Londres y la postura de Estados Unidos.",
-      "accion_sugerida": "Aportar una perspectiva jurídica e internacional sobre la legitimidad del arbitraje solicitado por la Argentina.",
+      "por_que_importa": "La causa Malvinas es un eje central de sensibilidad nacional y geopolítica para los lectores de Perfil.",
+      "insight": "La tensión trepó tras la convocatoria a la embajadora argentina y la respuesta de Cancillería ante la exploración petrolera.",
+      "accion_sugerida": "Desarrollar un análisis sobre la estrategia diplomática actual y el posicionamiento de potencias aliadas.",
       "enfoques_sugeridos": [
-        "Los argumentos de Cancillería para defender el procedimiento ante el tribunal internacional.",
-        "La reacción del gobierno británico y el llamado de Estados Unidos a desescalar el conflicto."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "El trasfondo legal y económico del arbitraje por la explotación hidrocarburífera.",
+        "La postura de Estados Unidos y su llamado a la desescalada."
       ],
       "cobertura": {
         "Perfil": 1,
@@ -167,185 +106,42 @@
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "Malvinas: el Gobierno argentino rechazó las acusaciones del Reino Unido ",
+          "link": "https://www.perfil.com/noticias/politica/malvinas-el-gobierno-argentino-rechazo-las-acusaciones-del-reino-unido.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/22/trim/540/304/pablo-quirno-x-22092026-2331780.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Clarín",
+          "titulo": "Causa Malvinas: EE.UU. llamó a desescalar la tensión entre Argentina y Gran Bretaña",
+          "link": "https://www.clarin.com/politica/causa-malvinas-eeuu-llamo-desescalar-tension-argentina-gran-bretana_0_49dhYOBmXK.html",
+          "imagen": "https://www.clarin.com/img/2026/10/01/5NoFt6EFC_1200x630__1.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Fallo y controversia en torno a la Ley de Tierras y la Corte Suprema",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Toca el corazón de la división de poderes, el federalismo y el debate político institucional con fuerte impacto en la agenda legislativa.",
-      "insight": "La cobertura está polarizada entre las aclaraciones institucionales de la Corte y las críticas del arco político y constitucionalistas.",
-      "accion_sugerida": "Publicar un análisis legal detallado que desglose la diferencia entre cuestión procesal y el fondo del régimen de tierras.",
-      "enfoques_sugeridos": [
-        "La defensa institucional de la Corte Suprema frente a las descalificaciones políticas.",
-        "El impacto práctico que advierten los especialistas constitucionales sobre la compra de tierras rurales por extranjeros."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 3,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 3,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Infobae",
+          "titulo": "Se tensa el vínculo entre Argentina y Reino Unido por Malvinas: los próximos pasos en la disputa por el petróleo",
+          "link": "https://www.infobae.com/politica/2026/10/01/se-tensa-el-vinculo-entre-argentina-y-reino-unido-por-malvinas-los-proximos-pasos-en-la-disputa-por-el-petroleo/",
+          "imagen": "https://www.infobae.com/resizer/v2/6OXIHTGJ7ZA6XL2A6YEFRXQDWI.JPG?auth=7f856ed9b435710135fba870d2a1bf33c7dab77e61a5e573b6138c96b15b8f17&smart=true&width=6000&height=4000"
         }
       ]
     }
   ],
   "perfil_pierde": [
     {
-      "tema": "Controversia y fallas en la ejecución con inyección letal de Christa Pike en Tennessee",
+      "tema": "Incendio, incidentes y evacuación en la estación Constitución",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Es un hecho internacional de alto impacto criminal y de derechos humanos que genera gran curiosidad y consumo en portales de noticias.",
-      "insight": "Clarín y TN capturaron la atención de la audiencia con el caso de la reclusa que sobrevivió a la ejecución, un tema ausente en Perfil.",
-      "accion_sugerida": "Redactar un artículo de actualización sobre la suspensión de las ejecuciones en Tennessee y el debate ético en torno a los métodos letales.",
+      "por_que_importa": "Afecta de manera directa a cientos de miles de usuarios del transporte metropolitano, generando un alto caudal de búsquedas en tiempo real.",
+      "insight": "La competencia desplegó coberturas en vivo con amplia repercusión digital mientras Perfil mantuvo una presencia mínima.",
+      "accion_sugerida": "Ampliar el servicio informativo con el estado actualizado de los servicios ferroviarios y las pericias del siniestro.",
       "enfoques_sugeridos": [
-        "El informe médico y legal sobre las fallas técnicas en la aplicación de las inyecciones.",
-        "La postura de los organismos internacionales de derechos humanos respecto a la continuidad de la pena capital."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 4,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Elecciones en Brasil y riesgo de abstención récord",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "La política del principal socio comercial de la Argentina define el equilibrio regional y moviliza el interés geopolítico de los lectores.",
-      "insight": "Clarín, La Nación y Cronista cubren los comicios y el fenómeno de la abstención, mientras Perfil no registra notas propias sobre esta arista.",
-      "accion_sugerida": "Publicar un pantallazo previo a la votación enfocado en el clima de apatía electoral y su posible incidencia en el resultado entre oficialismo y oposición.",
-      "enfoques_sugeridos": [
-        "Las claves del desinterés ciudadano y el fantasma de la abstención récord en la primera vuelta.",
-        "El mapa electoral que divide el apoyo entre la derecha y el liderazgo de Lula da Silva."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 1,
-        "TN": 1,
-        "Ámbito": 2,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Incendio y evacuación en la estación Constitución",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Afecta de manera directa el traslado cotidiano de cientos de miles de trabajadores en el Área Metropolitana de Buenos Aires (AMBA).",
-      "insight": "La competencia abordó con inmediatez el operativo de bomberos y el estado de los servicios, superando el volumen de cobertura de Perfil.",
-      "accion_sugerida": "Ampliar el servicio de última hora informando sobre la normalización definitiva de las líneas ferroviarias y del subte.",
-      "enfoques_sugeridos": [
-        "El informe oficial sobre el origen del fuego en la escalera mecánica y los atendidos por humo.",
-        "El impacto en el caos vehicular y las alternativas de transporte tomadas por los pasajeros."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "El estado de mantenimiento de las terminales ferroviarias del conurbano.",
+        "El testimonio de los pasajeros evacuados durante el momento de tensión."
       ],
       "cobertura": {
         "Perfil": 1,
         "La Nación": 2,
         "Clarín": 1,
         "Infobae": 1,
-        "TN": 1,
+        "TN": 2,
         "Ámbito": 0,
         "Página 12": 1,
         "El Cronista": 0
@@ -353,91 +149,40 @@
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "Incendio en Constitución: el fuego quedó controlado y solo hubo un traslado por inhalación de humo",
+          "link": "https://www.perfil.com/noticias/sociedad/fuego-en-constitucion-un-principio-de-incendio-en-la-cabecera-del-tren-roca-genera-demoras.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/incendio-dentro-de-la-estacion-constitucion-2338311.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "La Nación",
+          "titulo": "Incendio en la estación Constitución: evacuaron la terminal y Bomberos trabaja en el lugar",
+          "link": "https://www.lanacion.com.ar/sociedad/incendio-en-la-estacion-constitucion-evacuaron-la-terminal-y-bomberos-trabaja-en-el-lugar-nid01102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ZID27IIYJ5ALXDCERF7ZX7NTTQ.jpg?auth=22ec2172cf88f8822f853e37584d80cbeaaa9c6ea7bd7e6b80d762b3bd02e9ef&smart=true&width=2000&height=1333"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Liquidación de divisas por exportaciones del agro en septiembre",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Aporta datos duros sobre el ingreso de dólares, un termómetro clave para la macroeconomía y la estabilidad cambiaria del Gobierno.",
-      "insight": "Clarín, Ámbito y TN informaron con precisión el salto del 17% impulsado por el maíz, sector en el que Perfil no posicionó notas.",
-      "accion_sugerida": "Analizar el impacto de estas cifras en la acumulación de reservas netas y su lectura por parte de los mercados financieros.",
-      "enfoques_sugeridos": [
-        "El desglose de los más de 3.200 millones ingresados y el protagonismo de los embarques de maíz.",
-        "La comparación interanual y su peso en las proyecciones económicas para el tramo final del año."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 2,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Infobae",
+          "titulo": "Un incendio en una escalera mecánica obligó a evacuar y cerrar temporalmente la Estación Constitución",
+          "link": "https://www.infobae.com/sociedad/2026/10/01/un-incendio-en-una-escalera-mecanica-obligo-a-evacuar-y-cerrar-la-estacion-constitucion/",
+          "imagen": "https://www.infobae.com/resizer/v2/445RHYCKVRCBZLHQMY5Y2PTEEU.png?auth=158c3e7481df68c3515d6ddaf1c9836f640ecd1fcccb8fc0a038c327624cb523&smart=true&width=1273&height=635"
         }
       ]
     },
     {
       "tema": "Inversiones millonarias de TotalEnergies en Vaca Muerta y Tierra del Fuego",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Constituye el núcleo del desarrollo energético nacional y la promesa de ingreso de capitales extranjeros de envergadura.",
-      "insight": "Ámbito lidera la cobertura sobre los anuncios y la posibilidad de giro de dividendos, mientras Perfil cuenta con una cobertura mínima.",
-      "accion_sugerida": "Profundizar en los detalles técnicos de los proyectos hidrocarburíferos y las condiciones financieras exigidas por la multinacional.",
+      "por_que_importa": "La economía energética y los anuncios de grandes capitales son cruciales para el perfil económico del medio.",
+      "insight": "Ámbito y otros portales especializados capturaron el interés con los anuncios del CEO global de la compañía.",
+      "accion_sugerida": "Cubrir las proyecciones de exportación y el impacto fiscal de estos desembarcos en las economías regionales.",
       "enfoques_sugeridos": [
-        "El peso específico de los 10.000 millones de dólares en la matriz de producción de gas y petróleo offshore.",
-        "Las declaraciones del CEO sobre la seguridad jurídica y las facilidades para operar en el mercado local."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "El régimen de incentivos y su relación con la llegada de capitales extranjeros.",
+        "El detalle técnico de los proyectos offshore en el sur del país."
       ],
       "cobertura": {
         "Perfil": 1,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 3,
         "Página 12": 0,
         "El Cronista": 0
@@ -445,266 +190,153 @@
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "TotalEnergies anunció inversiones millonarias en Argentina con nuevos desarrollos en Vaca Muerta y Tierra del Fuego",
+          "link": "https://www.perfil.com/noticias/economia/totalenergies-prepara-inversiones-millonarias-argentina-proyecta-nuevos-desarrollos-vaca-muerta-tierra-del-fuego-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/vaca-muerta-2332668.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Ámbito",
+          "titulo": "TotalEnergies anunció inversiones por casi u$s10.000 millones y su CEO destacó poder girar dividendos en Argentina",
+          "link": "https://www.ambito.com/energia/totalenergies-anuncio-inversiones-casi-us10000-millones-y-su-ceo-destaco-poder-girar-dividendos-argentina-n6328790",
+          "imagen": "https://media.ambito.com/p/fc88fcc5704c5a39aefa0c418d7735b4/adjuntos/239/imagenes/043/096/0043096011/patrick-pouyanne-ceo-totalenergies.png"
         }
       ]
     },
     {
-      "tema": "Megaproyecto de GNL en Argentina y anuncios de inversión energética",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Representa la obra de infraestructura e inversión más ambiciosa de la historia económica reciente del país.",
-      "insight": "Clarín y Cronista marcaron agenda con fechas concretas y socios involucrados, dejando a Perfil sin cobertura en este segmento.",
-      "accion_sugerida": "Elaborar una nota de perspectiva económica evaluando los plazos de ejecución informados por YPF y sus socios internacionales.",
+      "tema": "Caída y retroceso de la inversión real en la economía",
+      "tipo_de_oportunidad": "",
+      "motivo_oportunidad": "",
+      "por_que_importa": "Los indicadores macroeconómicos de caída real interpelan directamente al lector de contenido económico y político.",
+      "insight": "La competencia y la prensa opositora visibilizaron los datos negativos con mayor profundidad analítica.",
+      "accion_sugerida": "Publicar un informe detallando qué sectores sufrieron las mayores retracciones en el último periodo.",
       "enfoques_sugeridos": [
-        "El cronograma oficial de la firma del acuerdo definitivo prevista para noviembre.",
-        "El rol de las empresas extranjeras y el impacto exportador proyectado para el sector gasífero."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "El impacto del freno de la obra pública en la formación de capital fijo.",
+        "La perspectiva de los analistas sobre la reactivación a corto plazo."
       ],
       "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 3,
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
-        "Página 12": 0,
+        "Página 12": 2,
         "El Cronista": 0
       },
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "Impacto en la inversión real: cayó 5,4% en agosto",
+          "link": "https://www.perfil.com/noticias/nea/impacto-en-la-inversion-real-cayo-54-en-agosto.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/luis-caputo-2327674.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Página 12",
+          "titulo": "Números negativos en inversión",
+          "link": "https://www.pagina12.com.ar/2026/09/30/numeros-negativos-en-inversion/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/3IPD6FNXC5AU7J435HHAEGHLGU.jpg?auth=92cafab9ba72ea02608508acc4874a865ce2df35d2db0eceb8d67b44f7410378&amp;smart=true&amp;width=900&amp;height=600"
         }
       ]
-    },
+    }
+  ],
+  "sin_cobertura_perfil": [
     {
-      "tema": "Fenómeno del Súper Niño 2026, pronósticos climáticos y lluvias",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Tiene un interés masivo en Google Discover por su impacto directo en la producción agropecuaria y la vida cotidiana de las provincias.",
-      "insight": "Clarín y La Nación captaron la atención de la audiencia con alertas y proyecciones meteorológicas de largo alcance.",
-      "accion_sugerida": "Publicar un informe de servicio con el mapa de las regiones más afectadas por el exceso de lluvias y las recomendaciones del sector rural.",
+      "tema": "Cotización del dólar oficial y dólar blue en Argentina",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Es el contenido utilitario de mayor consulta diaria en la web argentina, clave para el tráfico orgánico y SEO.",
+      "insight": "Los competidores directos capitalizan masivamente las fluctuaciones cambiarias desde las primeras horas de la mañana.",
+      "accion_sugerida": "Implementar un formato de cobertura en vivo y actualización permanente de las cotizaciones financieras.",
       "enfoques_sugeridos": [
-        "Los datos científicos detrás del desvío térmico y el pico máximo previsto del fenómeno climático.",
-        "Las medidas preventivas adoptadas en las zonas agrícolas clave frente al riesgo hídrico."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 3,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Desestimación de la demanda judicial por la criptomoneda $LIBRA en Nueva York",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Conecta temas de finanzas, tecnología y derivaciones políticas internacionales vinculadas indirectamente al oficialismo.",
-      "insight": "Ámbito y La Nación cubrieron el cierre de la causa en tribunales estadounidenses, un flanco no cubierto por Perfil.",
-      "accion_sugerida": "Resumir el dictamen judicial de la jueza de Nueva York y su implicancia legal para los involucrados en la demanda colectiva.",
-      "enfoques_sugeridos": [
-        "Los argumentos jurídicos que llevaron a la desestimación definitiva de la demanda contra Hayden Davis.",
-        "El impacto del fallo en el ecosistema cripto y sus repercusiones políticas locales."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Coloquio de IDEA: pedidos de inversión y agenda empresaria",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Es el foro empresario más influyente del establishment local, donde se discuten el rumbo económico y las demandas del sector privado.",
-      "insight": "La Nación y Clarín cubrieron los pedidos oficiales de inversión y las inquietudes del empresariado, superando a Perfil.",
-      "accion_sugerida": "Realizar una síntesis de las demandas planteadas por los ejecutivos y la respuesta del equipo económico del Gobierno.",
-      "enfoques_sugeridos": [
-        "El llamado de los funcionarios a respaldar el cambio de reglas con inversiones productivas.",
-        "La preocupación empresaria por la caída de la actividad, la relación con China y la incertidumbre electoral."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Aumento en los boletos de transporte público y peajes porteños",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Impacta de forma directa sobre el bolsillo de los sectores medios y trabajadores en el inicio del mes.",
-      "insight": "TN y Ámbito registraron puntualmente la suba de tarifas en colectivos, subtes y autopistas, un tema ausente en la cobertura de Perfil.",
-      "accion_sugerida": "Armar una guía práctica con el detalle de los cuadros tarifarios vigentes desde octubre para el AMBA.",
-      "enfoques_sugeridos": [
-        "El cuadro completo de aumentos en colectivos, subte y peajes de la red urbana.",
-        "El peso de las actualizaciones tarifarias en la medición mensual de la inflación."
-      ],
-      "ejemplos_indices": [
-        0,
-        1
+        "El comportamiento de los tipos de cambio paralelos al inicio de mes.",
+        "La evolución de la brecha cambiaria y su impacto en la acumulación de reservas."
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 2,
+        "TN": 3,
+        "Ámbito": 7,
+        "Página 12": 1,
+        "El Cronista": 0
+      },
+      "ejemplos": [
+        {
+          "medio": "TN",
+          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 1 de octubre",
+          "link": "https://tn.com.ar/economia/2026/10/01/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-1-de-octubre/",
+          "imagen": ""
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Dólar blue hoy: a cuánto opera este jueves 1 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-jueves-1-octubre-n6328731",
+          "imagen": "https://media.ambito.com/p/a348a9e8530044da166c252ba6ef7dad/adjuntos/239/imagenes/042/772/0042772189/dolar-blue-mercados-finanzas-inversiones.jpg"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Dólar blue, dólar hoy: a cuánto cotizan el jueves 1 de octubre de 2026",
+          "link": "https://www.pagina12.com.ar/2026/10/01/dolar-blue-dolar-hoy-a-cuanto-cotizan-el-jueves-1-de-octubre-de-2026/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GI3TOZRTGYYWMNRRGYZDGN3FMM.jpg?auth=16de8d85ac3b64804c909751646fe8d9df3b410ed42f8b012486122f6ee41b3d&amp;smart=true&amp;width=5664&amp;height=3186"
+        }
+      ]
+    },
+    {
+      "tema": "Discurso y declaraciones de Javier Milei en París sobre sus políticas económicas",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "La agenda internacional del Presidente y sus promesas sobre el rumbo económico generan alto interés en la audiencia.",
+      "insight": "Los principales portales cubrieron extensamente las declaraciones desde la capital francesa sobre la reelección y el futuro económico.",
+      "accion_sugerida": "Evaluar la viabilidad de las proyecciones presidenciales con economistas locales.",
+      "enfoques_sugeridos": [
+        "El impacto político de sus declaraciones en plena gira europea.",
+        "La recepción de sus anuncios por parte de los mercados internacionales."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 2,
+        "Ámbito": 3,
         "Página 12": 0,
         "El Cronista": 0
       },
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "medio": "La Nación",
+          "titulo": "Javier Milei y sus medidas, EN VIVO: habló en París de sus políticas económicas y dijo que “la comparación es demoledora”",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-la-argentina-va-a-estar-en-el-cuarto-lugar-de-los-paises-que-mas-nid01102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/DF2VZXJMHVCVFJXH7TLOL5PKYU.jpeg?auth=b8915fed5b3b5b3bae90b13432b29175b26ccd69b7d3996bfee48bda53459acc&smart=true&width=4160&height=2339"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Clarín",
+          "titulo": "Javier Milei, EN VIVO en París: \"Si somos reelectos, 2028 va a ser el mejor año económico de nuestra historia\"",
+          "link": "https://www.clarin.com/politica/javier-milei-vivo-presidente-habla-argentina-week-paris-reune-gobernadores-visita-macron_0_8yBzUrRNFu.html",
+          "imagen": "https://www.clarin.com/img/2026/10/01/Z-aDIoftW_1200x630__1.jpg"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "En París, Javier Milei volvió a hablar de la reelección y prometió que 2028 será &quot;el mejor año económico de la historia&quot;",
+          "link": "https://www.ambito.com/economia/en-paris-javier-milei-volvio-hablar-la-reeleccion-y-prometio-que-2028-sera-el-mejor-ano-economico-la-historia-n6328747",
+          "imagen": "https://media.ambito.com/p/732a1c508bd6a3b4a8103cc5df517f91/adjuntos/239/imagenes/043/676/0043676812/1200x675/796x337:816x357/milei-argentina-week.jpeg"
         }
       ]
     },
     {
-      "tema": "Evolución del presupuesto educativo en Argentina",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Involucra un sector altamente sensible y de debate permanente vinculado a la asignación de recursos estatales y políticas públicas.",
-      "insight": "Clarín e Infobae analizaron los números del proyecto presupuestario con foco en la comparación histórica con 2023.",
-      "accion_sugerida": "Publicar un informe de datos precisos sobre la asignación de fondos para educación en el proyecto de presupuesto.",
+      "tema": "Megaproyecto de GNL y anuncios de inversión energética en Argentina",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Representa la apuesta inversora más importante para el desarrollo energético y exportador del país en décadas.",
+      "insight": "Clarín y La Nación lideraron la cobertura sobre los plazos y los montos confirmados por YPF y las empresas globales.",
+      "accion_sugerida": "Realizar un seguimiento detallado sobre los plazos de ejecución de la obra y su impacto en la balanza comercial.",
       "enfoques_sugeridos": [
-        "El análisis técnico de la recuperación real del 5,6% frente a la brecha acumulada respecto a 2023.",
-        "Las reacciones de la comunidad académica y los gremios docentes ante las proyecciones oficiales."
-      ],
-      "ejemplos_indices": [
-        0,
-        1
+        "Cómo se estructurará el financiamiento del megaproyecto de GNL.",
+        "El rol del RIGI en la confirmación de estas inversiones."
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 1,
+        "La Nación": 1,
+        "Clarín": 5,
+        "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
@@ -712,75 +344,124 @@
       },
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "medio": "La Nación",
+          "titulo": "Ponen fecha a la firma del megaproyecto de US$51.000 millones que busca convertir a la Argentina en exportadora de GNL",
+          "link": "https://www.lanacion.com.ar/economia/ponen-fecha-a-la-firma-del-megaproyecto-de-us51000-millones-que-busca-convertir-a-la-argentina-en-nid01102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/MWTZKAETUZFF7HUNRFCORMFYYI.jpeg?auth=3f2326f247fcc81d3c22d6f81624d2b970b8b54c67bff66adef1ebf8706fb17a&smart=true&width=1450&height=736"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Clarín",
+          "titulo": "Eramet dijo en el Argentina Week que se presentará al RIGI para ampliar su planta de litio en Salta por US$350 millones",
+          "link": "https://www.clarin.com/economia/eramet-dijo-argentina-week-presentara-rigi-ampliar-planta-litio-salta-us350-millones_0_n2ZFT59Jh1.html",
+          "imagen": "https://www.clarin.com/img/2026/10/01/6kX--EXtk_1200x630__1.jpg"
+        },
+        {
+          "medio": "Cronista",
+          "titulo": "Cómo es el proyecto de u$s 51.000 millones que desarrollará YPF junto a Eni y XRG y cuándo comenzarán las obras",
+          "link": "https://www.cronista.com/economia-politica/ypf-pone-fecha-a-la-mayor-inversion-de-la-historia-26-de-noviembre/",
+          "imagen": "https://www.cronista.com/resizer/v2/BWKCOKCP75AQFMEJX55QFMZR4Y.jpeg?auth=11dcc15c7a789554afe6d6775e3e2a0c126ab27252639f0704236614c17ed71f&smart=true&width=1200&height=900"
         }
       ]
-    },
+    }
+  ],
+  "oportunidades": [
     {
-      "tema": "Crimen y abuso sexual de una niña en Berazategui",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Genera altísimo interés en la sección policiales y tracción de tráfico masivo por la conmoción social que provoca.",
-      "insight": "Clarín y TN cubrieron los detalles del operativo y las detenciones familiares, mientras Perfil no abordó el caso.",
-      "accion_sugerida": "Hacer un seguimiento riguroso de la causa judicial y los peritajes forenses manteniendo la prudencia informativa.",
+      "tema": "Pronóstico del clima en diversas ciudades de Estados Unidos",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "SEO Internacional / Tráfico Masivo",
+      "motivo_oportunidad": "TN acapara en solitario un volumen masivo de búsquedas automatizadas sobre el clima exterior que puede replicarse para traccionar audiencia.",
+      "por_que_importa": "Permite captar un flujo constante de búsquedas transaccionales e informativas desde buscadores.",
+      "insight": "Un único medio genera docenas de notas con consultas específicas de temperaturas en el extranjero.",
+      "accion_sugerida": "Desarrollar un módulo automatizado o notas breves con el pronóstico de ciudades clave de interés internacional.",
       "enfoques_sugeridos": [
-        "El avance de la investigación fiscal tras la detención de los familiares en Berazategui.",
-        "Los informes preliminares de la autopsia y los pasos procesales de la fiscalía interviniente."
-      ],
-      "ejemplos_indices": [
-        0,
-        1
+        "Las condiciones meteorológicas para los viajeros argentinos en el exterior.",
+        "El impacto del cambio climático en las principales metrópolis globales."
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
-        "Clarín": 1,
+        "Clarín": 0,
         "Infobae": 0,
-        "TN": 1,
+        "TN": 12,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "medio": "TN",
+          "titulo": "¿Cómo estará el clima en Phoenix este jueves 1 de octubre?",
+          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/01/como-estara-el-clima-en-phoenix-este-jueves-1-de-octubre/",
+          "imagen": ""
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "TN",
+          "titulo": "¿Cómo estará el clima en Chicago este jueves 1 de octubre?",
+          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/01/como-estara-el-clima-en-chicago-este-jueves-1-de-octubre/",
+          "imagen": ""
+        },
+        {
+          "medio": "TN",
+          "titulo": "¿Cómo estará el clima en New York este jueves 1 de octubre?",
+          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/01/como-estara-el-clima-en-new-york-este-jueves-1-de-octubre/",
+          "imagen": ""
         }
       ]
-    }
-  ],
-  "sin_cobertura_perfil": [],
-  "oportunidades": [
+    },
+    {
+      "tema": "Reflexiones y estudios sobre la felicidad, vínculos y relaciones personales",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Google Discover / Engagement",
+      "motivo_oportunidad": "La Nación genera un alto rendimiento en Discover con entrevistas y notas de bienestar emocional que Perfil puede aprovechar.",
+      "por_que_importa": "Este tipo de contenidos viraliza con gran facilidad en dispositivos móviles y genera alta retención.",
+      "insight": "Las declaraciones de especialistas en salud mental y vínculos personales dominan las recomendaciones de tráfico.",
+      "accion_sugerida": "Producir contenidos propios basados en conceptos de bienestar emocional y psicología cotidiana.",
+      "enfoques_sugeridos": [
+        "Las claves para construir relaciones afectivas saludables en contextos de crisis.",
+        "Los descubrimientos de la ciencia sobre la longevidad y la felicidad."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 11,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Arthur Brooks, experto en felicidad de Harvard: “Las personas que son felices y saludables cuando son mayores tienen un matrimonio sólido o amistades cercanas”   ",
+          "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-experto-en-felicidad-de-harvard-las-personas-que-son-felices-y-saludables-cuando-son-nid28092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/B5TH4SG32FAUZD62D6F4LDJ5NE.JPG?auth=0bad2ebeb97aa2f66a932eaabe50607a09d47240007c279b3ad0c0bd7d6a7711&smart=true&width=706&height=821"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Gabriel Rolón, psicólogo, sobre los vínculos: “La mayoría de las personas tienen desgraciadamente parejas que no querrían tener”      ",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-los-vinculos-la-mayoria-de-las-personas-tienen-desgraciadamente-nid01102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/3KX7L6HGQFAXVCTTD2MDMLKBDI.png?auth=bb62a007fd84bc8d94bcd98804bd94b7d4adb7fc6113c0abe207d38cadd5384d&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Marian Rojas Estapé, psiquiatra: “La clave de la vida es aprender a renunciar sin culpa”    ",
+          "link": "https://www.lanacion.com.ar/sociedad/marian-rojas-estape-psiquiatra-espanola-y-su-frase-sobre-el-autocuidado-la-clave-de-la-vida-es-nid04092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/IDF5QFFPG5DIBOPIH6G2JXQX6U.jpg?auth=d76f0dc20f7768936be3e51da57c12e471a34a10cfe0b33f6ae32243fc6e1422&smart=true&width=5760&height=3840"
+        }
+      ]
+    },
     {
       "tema": "Reglamentación y funcionamiento del Fondo de Cese Laboral (FAL) por parte de ARCA",
       "tipo": "oportunidades",
-      "por_que_importa": "Es una reforma laboral y fiscal de primera magnitud que afecta a todas las empresas y trabajadores inscriptos bajo el nuevo régimen.",
-      "insight": "Ámbito y Cronista cubrieron en exclusiva las claves de la reglamentación de ARCA, representando una oportunidad vacante para Perfil.",
-      "accion_sugerida": "Publicar un explicativo económico y legal detallando cómo funcionarán los aportes patronales y el sistema de indemnizaciones.",
+      "tipo_de_oportunidad": "Utilitario / SEO Económico",
+      "motivo_oportunidad": "Ámbito y El Cronista cubren una temática de altísimo interés práctico para empleadores y trabajadores que Perfil ignoró.",
+      "por_que_importa": "Atrae a una audiencia calificada interesada en cambios normativos laborales y tributarios.",
+      "insight": "La entrada en vigencia del nuevo régimen genera dudas operativas que los lectores buscan resolver online.",
+      "accion_sugerida": "Publicar una guía práctica explicativa sobre cómo funcionarán los aportes y las indemnizaciones.",
       "enfoques_sugeridos": [
-        "Paso a paso: cómo deben registrarse los empleadores y qué cambia con la entrada en vigencia del FAL en noviembre.",
-        "El impacto financiero para las empresas y la evaluación de los especialistas laborales sobre el nuevo fondo."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "El paso a paso para que las empresas implementen el nuevo fondo.",
+        "El impacto del FAL sobre el esquema tradicional de despidos."
       ],
       "cobertura": {
         "Perfil": 0,
@@ -792,207 +473,79 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "tipo_de_oportunidad": "Exclusiva de agenda económica y laboral",
-      "motivo_oportunidad": "La fuerte tracción de consultas sobre reformas impositivas y laborales en Google Discover hace indispensable cubrir la reglamentación oficial de ARCA.",
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "medio": "Ámbito",
+          "titulo": "ARCA reglamentó el FAL:  las claves del nuevo régimen que entra en vigencia el 1 de noviembre",
+          "link": "https://www.ambito.com/economia/arca-reglamento-el-fal-las-claves-del-nuevo-regimen-que-entra-vigencia-el-1ro-noviembre-n6328828",
+          "imagen": "https://media.ambito.com/p/a0a55d42ef8071ca97185392fd925993/adjuntos/239/imagenes/043/453/0043453800/impuestos-calculadora-numeros.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Ámbito",
+          "titulo": "ARCA reglamentó el FAL: cómo y desde cuándo deberán aportar los empleadores",
+          "link": "https://www.ambito.com/economia/arca-reglamento-el-fal-como-y-cuando-deberan-aportar-los-empleadores-n6328741",
+          "imagen": "https://media.ambito.com/p/22d88560a7c705fe5d1646084ee22ede/adjuntos/239/imagenes/043/633/0043633199/1200x675/1114x361:1134x381/fal-bancos-empresas.png"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Denuncia a una docente de una escuela de Palermo por grabar a sus alumnos",
-      "tipo": "oportunidades",
-      "por_que_importa": "Combina educación, seguridad escolar y privacidad de menores, generando inmediata repercusión en la opinión pública.",
-      "insight": "Solo La Nación registró el hecho, dejando un espacio abierto para un abordaje propio en la sección de sociedad y policiales.",
-      "accion_sugerida": "Investigar el estado de la denuncia judicial y las medidas adoptadas por las autoridades educativas porteñas.",
-      "enfoques_sugeridos": [
-        "El reclamo de los padres y la intervención del establecimiento educativo ante la acusación.",
-        "Los protocolos legales vigentes sobre el uso de dispositivos móviles y grabación de menores en el aula."
-      ],
-      "ejemplos_indices": [
-        0
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "tipo_de_oportunidad": "Temática de alto rendimiento en Google Discover",
-      "motivo_oportunidad": "Las notas sobre incidentes en ámbitos educativos y denuncias de padres suelen captar un gran caudal de lectores interesados en temas de seguridad y niñez.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Hallazgo de pez tóxico en la playa",
-      "tipo": "oportunidades",
-      "por_que_importa": "Es una gacetilla de tono curioso y de fuerte viralización en redes sociales y buscadores web.",
-      "insight": "La Nación publicó un artículo de estilo lifestyle que atrae clics rápidos, un formato ideal para capitalizar tráfico ocasional.",
-      "accion_sugerida": "Redactar una nota breve de color explicando las características de la especie marina y los riesgos de toxicidad para quienes concurren a la costa.",
-      "enfoques_sugeridos": [
-        "Identificación de la especie y qué hacer en caso de un hallazgo similar en la costa atlántica.",
-        "Las advertencias de los especialistas en biología marina sobre la toxicidad del ejemplar."
-      ],
-      "ejemplos_indices": [
-        0
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "tipo_de_oportunidad": "Contenido viral y SEO de curiosidades",
-      "motivo_oportunidad": "Permite captar tráfico de audiencia masiva mediante historias llamativas de bajo costo de producción y alto rendimiento en plataformas móviles.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "medio": "Cronista",
+          "titulo": "ARCA definió los detalles del FAL: cómo funcionarán los fondos para despidos",
+          "link": "https://www.cronista.com/economia-politica/arca-definio-los-detalles-del-fal-como-funcionaran-los-fondos-para-despidos/",
+          "imagen": "https://www.cronista.com/resizer/v2/UEJWJW335VDWRFRSGJFBLVHWUU.jpg?auth=6e6e3d008b8e01cda82a1a200333153903cbfc4c2fa292011fd8ed2018161e5f&smart=true&width=1200&height=900"
         }
       ]
     }
   ],
   "prioridades_del_dia": [
     {
-      "tema": "Reglamentación y funcionamiento del Fondo de Cese Laboral (FAL) por parte de ARCA",
-      "tipo": "oportunidades",
-      "por_que_importa": "Es una reforma laboral y fiscal de primera magnitud que afecta a todas las empresas y trabajadores inscriptos bajo el nuevo régimen.",
-      "insight": "Ámbito y Cronista cubrieron en exclusiva las claves de la reglamentación de ARCA, representando una oportunidad vacante para Perfil.",
-      "accion_sugerida": "Publicar un explicativo económico y legal detallando cómo funcionarán los aportes patronales y el sistema de indemnizaciones.",
+      "tema": "Cotización del dólar oficial y dólar blue en Argentina",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Es el contenido utilitario de mayor consulta diaria en la web argentina, clave para el tráfico orgánico y SEO.",
+      "insight": "Los competidores directos capitalizan masivamente las fluctuaciones cambiarias desde las primeras horas de la mañana.",
+      "accion_sugerida": "Implementar un formato de cobertura en vivo y actualización permanente de las cotizaciones financieras.",
       "enfoques_sugeridos": [
-        "Paso a paso: cómo deben registrarse los empleadores y qué cambia con la entrada en vigencia del FAL en noviembre.",
-        "El impacto financiero para las empresas y la evaluación de los especialistas laborales sobre el nuevo fondo."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "El comportamiento de los tipos de cambio paralelos al inicio de mes.",
+        "La evolución de la brecha cambiaria y su impacto en la acumulación de reservas."
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 4,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "tipo_de_oportunidad": "Exclusiva de agenda económica y laboral",
-      "motivo_oportunidad": "La fuerte tracción de consultas sobre reformas impositivas y laborales en Google Discover hace indispensable cubrir la reglamentación oficial de ARCA.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Inversiones millonarias de TotalEnergies en Vaca Muerta y Tierra del Fuego",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Constituye el núcleo del desarrollo energético nacional y la promesa de ingreso de capitales extranjeros de envergadura.",
-      "insight": "Ámbito lidera la cobertura sobre los anuncios y la posibilidad de giro de dividendos, mientras Perfil cuenta con una cobertura mínima.",
-      "accion_sugerida": "Profundizar en los detalles técnicos de los proyectos hidrocarburíferos y las condiciones financieras exigidas por la multinacional.",
-      "enfoques_sugeridos": [
-        "El peso específico de los 10.000 millones de dólares en la matriz de producción de gas y petróleo offshore.",
-        "Las declaraciones del CEO sobre la seguridad jurídica y las facilidades para operar en el mercado local."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
-      ],
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 3,
-        "Página 12": 0,
+        "TN": 3,
+        "Ámbito": 7,
+        "Página 12": 1,
         "El Cronista": 0
       },
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "medio": "TN",
+          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 1 de octubre",
+          "link": "https://tn.com.ar/economia/2026/10/01/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-1-de-octubre/",
+          "imagen": ""
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Ámbito",
+          "titulo": "Dólar blue hoy: a cuánto opera este jueves 1 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-jueves-1-octubre-n6328731",
+          "imagen": "https://media.ambito.com/p/a348a9e8530044da166c252ba6ef7dad/adjuntos/239/imagenes/042/772/0042772189/dolar-blue-mercados-finanzas-inversiones.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Página 12",
+          "titulo": "Dólar blue, dólar hoy: a cuánto cotizan el jueves 1 de octubre de 2026",
+          "link": "https://www.pagina12.com.ar/2026/10/01/dolar-blue-dolar-hoy-a-cuanto-cotizan-el-jueves-1-de-octubre-de-2026/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GI3TOZRTGYYWMNRRGYZDGN3FMM.jpg?auth=16de8d85ac3b64804c909751646fe8d9df3b410ed42f8b012486122f6ee41b3d&amp;smart=true&amp;width=5664&amp;height=3186"
         }
       ]
     },
     {
-      "tema": "Fallo y controversia en torno a la Ley de Tierras y la Corte Suprema",
+      "tema": "Fallo de la Corte Suprema sobre la Ley de Tierras y la extranjerización",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Toca el corazón de la división de poderes, el federalismo y el debate político institucional con fuerte impacto en la agenda legislativa.",
-      "insight": "La cobertura está polarizada entre las aclaraciones institucionales de la Corte y las críticas del arco político y constitucionalistas.",
-      "accion_sugerida": "Publicar un análisis legal detallado que desglose la diferencia entre cuestión procesal y el fondo del régimen de tierras.",
+      "por_que_importa": "Atraviesa de lleno la agenda institucional y económica del país, generando intensos debates jurídicos y políticos.",
+      "insight": "Todos los grandes medios siguen de cerca las aclaraciones del tribunal y las reacciones de los distintos bloques legislativos.",
+      "accion_sugerida": "Analizar el impacto real de la sentencia sobre la propiedad rural en las distintas provincias argentinas.",
       "enfoques_sugeridos": [
-        "La defensa institucional de la Corte Suprema frente a las descalificaciones políticas.",
-        "El impacto práctico que advierten los especialistas constitucionales sobre la compra de tierras rurales por extranjeros."
-      ],
-      "ejemplos_indices": [
-        0,
-        1,
-        2
+        "Las consecuencias jurídicas a mediano plazo sobre el régimen de tierras.",
+        "El cruce político entre el oficialismo y la oposición en el Congreso."
       ],
       "cobertura": {
         "Perfil": 3,
@@ -1001,34 +554,72 @@
         "Infobae": 0,
         "TN": 1,
         "Ámbito": 3,
-        "Página 12": 2,
+        "Página 12": 5,
         "El Cronista": 0
       },
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Cardenal Rossi sobre la situación del país: \"Presentar como que esto es una maravilla es casi burlesco\"",
-          "link": "https://www.perfil.com/noticias/cordoba/cardenal-rossi-sobre-la-situacion-del-pais-presentar-como-que-esto-es-una-maravilla-es-casi-burlesco.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/01-10-2026-cardenal-angel-rossi-cordoba-2338364.jpg"
+          "titulo": "La Corte Suprema responde por la Ley de Tierras: \"La descalificación y el odio sólo deterioran las instituciones y la democracia\"",
+          "link": "https://www.perfil.com/noticias/politica/corte-responde-a-las-criticas-por-la-ley-de-tierras-la-descalificacion-y-el-odio-solo-deterioran-las-instituciones-y-la-democracia.phtml",
+          "imagen": "https://fotos.perfil.com/2026/04/15/trim/540/304/corte-suprema-de-justicia-de-la-nacion-2220761.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "medio": "Clarín",
+          "titulo": "Venta de tierras a extranjeros: la Corte Suprema aclaró que su polémico fallo fue sobre un tema procesal y no por el fondo de la cuestión",
+          "link": "https://www.clarin.com/politica/venta-tierras-extranjeros-corte-suprema-aclaro-polemico-fallo-tema-procesal-fondo-cuestion_0_fq4IfWN5di.html",
+          "imagen": "https://www.clarin.com/img/2025/06/10/WvPJF-aHT_1200x630__1.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Más KPop con XLOV y el regreso de Placebo a la Argentina",
-          "link": "https://www.perfil.com/noticias/vivo/mas-kpop-con-xlov-y-el-regreso-de-placebo-a-la-argentina.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/21/trim/540/304/0921xlov-2330878.jpg"
+          "medio": "Página 12",
+          "titulo": "El peronismo prepara una sesión en Diputados para frenar la extranjerización de la tierra",
+          "link": "https://www.pagina12.com.ar/2026/10/01/el-peronismo-prepara-una-sesion-en-diputados-para-frenar-la-extranjerizacion-de-la-tierra/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/DFQ5DORM7JBIRA3BZPTKMCUOFQ.jpeg?auth=4353084056f8860ee65a773932a983866738953834330203cffd4c018d2dbcdd&amp;smart=true&amp;width=1600&amp;height=1066"
+        }
+      ]
+    },
+    {
+      "tema": "Reglamentación y funcionamiento del Fondo de Cese Laboral (FAL) por parte de ARCA",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Utilitario / SEO Económico",
+      "motivo_oportunidad": "Ámbito y El Cronista cubren una temática de altísimo interés práctico para empleadores y trabajadores que Perfil ignoró.",
+      "por_que_importa": "Atrae a una audiencia calificada interesada en cambios normativos laborales y tributarios.",
+      "insight": "La entrada en vigencia del nuevo régimen genera dudas operativas que los lectores buscan resolver online.",
+      "accion_sugerida": "Publicar una guía práctica explicativa sobre cómo funcionarán los aportes y las indemnizaciones.",
+      "enfoques_sugeridos": [
+        "El paso a paso para que las empresas implementen el nuevo fondo.",
+        "El impacto del FAL sobre el esquema tradicional de despidos."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 4,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "ejemplos": [
+        {
+          "medio": "Ámbito",
+          "titulo": "ARCA reglamentó el FAL:  las claves del nuevo régimen que entra en vigencia el 1 de noviembre",
+          "link": "https://www.ambito.com/economia/arca-reglamento-el-fal-las-claves-del-nuevo-regimen-que-entra-vigencia-el-1ro-noviembre-n6328828",
+          "imagen": "https://media.ambito.com/p/a0a55d42ef8071ca97185392fd925993/adjuntos/239/imagenes/043/453/0043453800/impuestos-calculadora-numeros.jpg"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "ARCA reglamentó el FAL: cómo y desde cuándo deberán aportar los empleadores",
+          "link": "https://www.ambito.com/economia/arca-reglamento-el-fal-como-y-cuando-deberan-aportar-los-empleadores-n6328741",
+          "imagen": "https://media.ambito.com/p/22d88560a7c705fe5d1646084ee22ede/adjuntos/239/imagenes/043/633/0043633199/1200x675/1114x361:1134x381/fal-bancos-empresas.png"
+        },
+        {
+          "medio": "Cronista",
+          "titulo": "ARCA definió los detalles del FAL: cómo funcionarán los fondos para despidos",
+          "link": "https://www.cronista.com/economia-politica/arca-definio-los-detalles-del-fal-como-funcionaran-los-fondos-para-despidos/",
+          "imagen": "https://www.cronista.com/resizer/v2/UEJWJW335VDWRFRSGJFBLVHWUU.jpg?auth=6e6e3d008b8e01cda82a1a200333153903cbfc4c2fa292011fd8ed2018161e5f&smart=true&width=1200&height=900"
         }
       ]
     }
-  ],
-  "control": {
-    "noticias_originales": 572,
-    "categorias_procesadas": 20,
-    "prioridades": 3
-  }
+  ]
 }
