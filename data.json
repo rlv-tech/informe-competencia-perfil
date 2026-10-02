@@ -1,256 +1,164 @@
 {
-  "fecha_analisis": "2026-10-01",
+  "fecha_analisis": "2026-10-02",
   "hipercompetencia": [
     {
-      "tema": "Fallo de la Corte Suprema sobre la Ley de Tierras y la extranjerización",
+      "tema": "Elecciones en Brasil y análisis de la situación política",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Es un tema de máxima relevancia institucional y económica que moviliza a la política nacional y genera fuerte debate jurídico.",
-      "insight": "La cobertura está polarizada entre el descargo institucional del tribunal y las críticas del peronismo que prepara acciones legislativas.",
-      "accion_sugerida": "Publicar un análisis de impacto económico sobre las restricciones a la propiedad rural y las consecuencias para la inversión extranjera.",
+      "por_que_importa": "El proceso electoral en el principal socio comercial del Mercosur impacta de manera directa en la economía y la agenda geopolítica argentina.",
+      "insight": "Casi todos los grandes portales siguen minuto a minuto los sondeos y el clima de tensión judicial en la recta final.",
+      "accion_sugerida": "Profundizar en el impacto cambiario y bursátil que tendría un triunfo de cada uno de los candidatos en los activos argentinos.",
       "enfoques_sugeridos": [
-        "Análisis constitucional del alcance procesal del fallo de la Corte",
-        "Repercusiones en el arco político y económico tras la aclaración del tribunal"
-      ],
-      "cobertura": {
-        "Perfil": 3,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 3,
-        "Página 12": 5,
-        "El Cronista": 0
-      },
-      "total_notas": 14,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 5,
-      "cobertura_perfil": 3,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 5,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "La Corte Suprema responde por la Ley de Tierras: \"La descalificación y el odio sólo deterioran las instituciones y la democracia\"",
-          "link": "https://www.perfil.com/noticias/politica/corte-responde-a-las-criticas-por-la-ley-de-tierras-la-descalificacion-y-el-odio-solo-deterioran-las-instituciones-y-la-democracia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/04/15/trim/540/304/corte-suprema-de-justicia-de-la-nacion-2220761.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Venta de tierras a extranjeros: la Corte Suprema aclaró que su polémico fallo fue sobre un tema procesal y no por el fondo de la cuestión",
-          "link": "https://www.clarin.com/politica/venta-tierras-extranjeros-corte-suprema-aclaro-polemico-fallo-tema-procesal-fondo-cuestion_0_fq4IfWN5di.html",
-          "imagen": "https://www.clarin.com/img/2025/06/10/WvPJF-aHT_1200x630__1.jpg"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "El peronismo prepara una sesión en Diputados para frenar la extranjerización de la tierra",
-          "link": "https://www.pagina12.com.ar/2026/10/01/el-peronismo-prepara-una-sesion-en-diputados-para-frenar-la-extranjerizacion-de-la-tierra/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/DFQ5DORM7JBIRA3BZPTKMCUOFQ.jpeg?auth=4353084056f8860ee65a773932a983866738953834330203cffd4c018d2dbcdd&amp;smart=true&amp;width=1600&amp;height=1066"
-        }
-      ]
-    },
-    {
-      "tema": "Rechazo y disputa diplomática con el Reino Unido por las Islas Malvinas",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Involucra la soberanía nacional y las relaciones bilaterales estratégicas, un eje central para la agenda exterior de Perfil.",
-      "insight": "Los principales medios siguen de cerca el cruce en Cancillería y la llamada de atención de Estados Unidos para desescalar la tensión.",
-      "accion_sugerida": "Profundizar en los aspectos técnicos y legales del arbitraje internacional por la exploración petrolera en el área de las islas.",
-      "enfoques_sugeridos": [
-        "El rol de Estados Unidos y la presión geopolítica en el Atlántico Sur",
-        "Implicancias económicas de la disputa petrolera y la respuesta británica"
+        "El impacto del balotaje brasileño en el comercio bilateral y el Mercosur",
+        "Radiografía de la polarización: encuestas y estrategias de última hora"
       ],
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 2,
-        "TN": 1,
+        "La Nación": 2,
+        "Clarín": 3,
+        "Infobae": 0,
+        "TN": 0,
         "Ámbito": 3,
-        "Página 12": 2,
+        "Página 12": 3,
         "El Cronista": 0
       },
       "total_notas": 12,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
+      "cantidad_medios": 5,
+      "cantidad_competidores": 4,
       "cobertura_perfil": 1,
-      "medio_lider": "Ámbito",
+      "medio_lider": "Clarín",
       "cobertura_medio_lider": 3,
       "brecha": -2,
       "brecha_formateada": "-2",
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "Malvinas: el Gobierno argentino rechazó las acusaciones del Reino Unido ",
-          "link": "https://www.perfil.com/noticias/politica/malvinas-el-gobierno-argentino-rechazo-las-acusaciones-del-reino-unido.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/22/trim/540/304/pablo-quirno-x-22092026-2331780.jpg"
-        },
-        {
           "medio": "La Nación",
-          "titulo": "El Gobierno rechazó el reclamo de Reino Unido para frenar el arbitraje por la exploración petrolera en Malvinas",
-          "link": "https://www.lanacion.com.ar/politica/el-gobierno-rechazo-el-reclamo-de-reino-unido-para-frenar-el-arbitraje-por-la-exploracion-petrolera-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/IVP6RLZHPRAN7H5J4TLCUCIEGA.JPG?auth=812b7f1a76fabe4e972f2094d5c5c075a62935acde2b1da2051e773d3efc61fd&smart=true&width=2000&height=1333"
+          "titulo": "Elecciones Brasil 2026, EN VIVO: encuestas, dónde voto en Argentina y las últimas noticias este viernes 2 de octubre",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-encuestas-donde-voto-en-argentina-y-las-ultimas-noticias-este-viernes-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/664JMP7FNJH73FFAZIFZGPKLNU.JPG?auth=e8571b353992bdd4e7f105a5e024d63da86ac826c95b8ce6d444bcfd392a1e6b&smart=true&width=2000&height=1333"
         },
         {
           "medio": "Clarín",
-          "titulo": "Causa Malvinas: EE.UU. llamó a desescalar la tensión entre Argentina y Gran Bretaña",
-          "link": "https://www.clarin.com/politica/causa-malvinas-eeuu-llamo-desescalar-tension-argentina-gran-bretana_0_49dhYOBmXK.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/5NoFt6EFC_1200x630__1.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Ataque y emergencia en el vuelo de Flydubai",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Atrae un masivo volumen de audiencia digital y genera alto interés en Google Discover por su carácter internacional y dramático.",
-      "insight": "La competencia cubre intensamente las declaraciones de Netanyahu y el perfil del piloto con múltiples notas y actualizaciones en vivo.",
-      "accion_sugerida": "Desarrollar un perfil detallado de la tripulación y el rol de los pasajeros israelíes que evitaron una tragedia mayor.",
-      "enfoques_sugeridos": [
-        "Las fallas en los protocolos de seguridad aérea y el trasfondo geopolítico",
-        "Testimonios y reconstrucción minuto a minuto de la maniobra de emergencia"
-      ],
-      "cobertura": {
-        "Perfil": 2,
-        "La Nación": 4,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 3,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 14,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 5,
-      "cobertura_perfil": 2,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 4,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Netanyahu afirma que el piloto que quiso estrellar el avión pasó por \"adoctrinación islámica radical\"",
-          "link": "https://www.perfil.com/noticias/internacional/netanyahu-afirma-que-el-piloto-que-quiso-estrellar-el-avion-paso-por-adoctrinacion-islamica-radical.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/benjamin-netanyahu-en-la-onu-24092026-2333482.jpg"
+          "titulo": "Panorama internacional: Quién gana o pierde en las elecciones brasileñas",
+          "link": "https://www.clarin.com/mundo/panorama-internacional-gana-pierde-elecciones-brasilenas_0_sU8DEKKid4.html",
+          "imagen": "https://www.clarin.com/img/2026/10/01/DcP5O7kJH_1200x630__1.jpg"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Netanyahu afirma que el copiloto omaní de Flydubai fue sometido a un “adoctrinamiento islamista radical”",
-          "link": "https://www.lanacion.com.ar/el-mundo/netanyahu-afirma-que-el-copiloto-omani-de-flydubai-fue-sometido-a-un-adoctrinamiento-islamista-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/USMPUQMBYZG5RBPDK56TN35AAQ.jpg?auth=f70a99c2f3673d4403283b9be1c99d21f85917941bcc3b93b73374852291f7fb&smart=true&width=1006&height=928"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Cómo cuatro pasajeros israelíes salvaron al piloto y evitaron que se estrellara el vuelo de Flydubai",
-          "link": "https://www.infobae.com/america/mundo/2026/10/01/las-personas-indicadas-en-el-momento-indicado-como-cuatro-pasajeros-israelies-evitaron-que-se-estrellara-el-vuelo-de-flydubai/",
-          "imagen": "https://www.infobae.com/resizer/v2/4V73MUCN3RGQ3DBL2FREFUJQUM.jpg?auth=d8a6db3df555f0349ae741900ae0ad01be3ff5c46313cd7dd5a71c745b0babee&smart=true&width=1920&height=1080"
+          "medio": "Página 12",
+          "titulo": "La justicia electoral interviene contra publicaciones falsas sobre Lula y Flávio Bolsonaro",
+          "link": "https://www.pagina12.com.ar/2026/10/01/la-justicia-electoral-interviene-contra-publicaciones-falsas-sobre-lula-y-flavio-bolsonaro/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UXHMSQVYYRAGZFB3NWZO5XO2RM.jpg?auth=54c64718161c0a6c9d0534233e51490157047f71c99debc631930341d37595da&amp;smart=true&amp;width=3333&amp;height=2222"
         }
       ]
     }
   ],
   "perfil_pierde": [
     {
-      "tema": "Inversiones millonarias de TotalEnergies en Vaca Muerta y Tierra del Fuego",
+      "tema": "Ataque a un piloto en un vuelo de FlyDubai y aterrizaje de emergencia",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Trata sobre el motor energético del país y las grandes inversiones bajo el régimen de incentivos, clave para el lector de economía.",
-      "insight": "Ámbito lidera la cobertura destacando los anuncios del CEO de la compañía francesa, mientras Perfil cuenta con menor despliegue.",
-      "accion_sugerida": "Ampliar la cobertura con un informe sobre el impacto de estas inversiones en la balanza comercial y la producción de gas.",
+      "por_que_importa": "Es uno de los hechos internacionales de mayor viralidad y consumo en redes de la jornada, un terreno donde Perfil no puede ceder terreno.",
+      "insight": "La competencia volcó múltiples actualizaciones con declaraciones en exclusiva del piloto y análisis de seguridad aérea.",
+      "accion_sugerida": "Publicar un perfil detallado sobre los protocolos de seguridad en cabina y los antecedentes de incidentes similares.",
       "enfoques_sugeridos": [
-        "El impacto del RIGI en los proyectos hidrocarburíferos de la Patagonia",
-        "Perspectivas de giro de dividendos y confianza empresaria en el sector"
+        "Cómo reaccionó la tripulación ante el ataque en pleno vuelo a Israel",
+        "Los vacíos en los controles de salud mental para pilotos comerciales"
       ],
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
+        "La Nación": 3,
+        "Clarín": 1,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 3,
+        "TN": 1,
+        "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 1,
+      "total_notas": 6,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
       "cobertura_perfil": 1,
-      "medio_lider": "Ámbito",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 3,
       "brecha": -2,
       "brecha_formateada": "-2",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "TotalEnergies anunció inversiones millonarias en Argentina con nuevos desarrollos en Vaca Muerta y Tierra del Fuego",
-          "link": "https://www.perfil.com/noticias/economia/totalenergies-prepara-inversiones-millonarias-argentina-proyecta-nuevos-desarrollos-vaca-muerta-tierra-del-fuego-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/vaca-muerta-2332668.jpg"
+          "titulo": "\"No podía dejar morir a toda esa gente\": el piloto apuñalado en el vuelo de FlyDubai habló con el presidente de la India",
+          "link": "https://www.perfil.com/noticias/internacional/no-podia-dejar-morir-a-toda-esa-gente-el-piloto-apunalado-en-el-vuelo-de-flydubai-hablo-con-el-presidente-de-la-india.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/02/trim/540/304/piloto-indio-smit-machchhar-y-el-presidente-narendra-modi-2339098.jpg"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "TotalEnergies anunció inversiones por casi u$s10.000 millones y su CEO destacó poder girar dividendos en Argentina",
-          "link": "https://www.ambito.com/energia/totalenergies-anuncio-inversiones-casi-us10000-millones-y-su-ceo-destaco-poder-girar-dividendos-argentina-n6328790",
-          "imagen": "https://media.ambito.com/p/fc88fcc5704c5a39aefa0c418d7735b4/adjuntos/239/imagenes/043/096/0043096011/patrick-pouyanne-ceo-totalenergies.png"
+          "medio": "La Nación",
+          "titulo": "Un analista internacional explicó en detalle qué pasó con el avión de Flydubai, que aterrizó de emergencia en Arabia Saudita, y la hipótesis más relevante ",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-que-paso-con-el-avion-de-flydubai-que-aterrizo-de-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/SXIWGGPV4FAP3O3NDS456J5F3Q.jpg?auth=7a5b45fe1676bd6139559f15d4f4a7a0cd50b89cb88e199ba18f41a7fc05da9b&smart=true&width=1360&height=910"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El piloto indio de Flydubai contó cómo sobrevivió al ataque de su copiloto durante el vuelo a Israel ",
+          "link": "https://tn.com.ar/internacional/2026/10/02/el-piloto-indio-de-flydubai-conto-como-sobrevivio-al-ataque-de-su-copiloto-durante-el-vuelo-a-israel/",
+          "imagen": "https://tn.com.ar/resizer/v2/2IYZHJAOVRHSFB4UUNIPZWLWRY.jpg?auth=a8e3d4760abed6ceefd0a93073d04a2d01eaf64b6ff6629f70c4dde36b863dba"
         }
       ]
     },
     {
-      "tema": "Incendio, incidentes y evacuación en la estación Constitución",
+      "tema": "Inversión minera de Glencore en el proyecto Agua Rica",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Es un hecho de alto impacto urbano que afecta a miles de usuarios del transporte público en el área metropolitana.",
-      "insight": "La competencia despliega coberturas completas sobre el estado de los servicios y la evacuación de la terminal ferroviaria.",
-      "accion_sugerida": "Monitorear el restablecimiento de los servicios y la peritaje técnica sobre la escalera mecánica afectada.",
+      "por_que_importa": "Inversiones millonarias de esta magnitud traccionan el interés de la audiencia de negocios y política económica.",
+      "insight": "Ámbito y La Nación cubrieron con mayor despliegue los detalles del anuncio realizado desde el exterior.",
+      "accion_sugerida": "Desarrollar un informe sobre el impacto regional de la minería de cobre en Catamarca y el régimen de incentivos.",
       "enfoques_sugeridos": [
-        "El estado de la infraestructura en las principales terminales ferroviarias",
-        "Testimonios de pasajeros y operativo de emergencia en la zona"
+        "Los detalles técnicos y financieros del desembolso de Glencore",
+        "El rol de las provincias mineras en la llegada de capitales extranjeros"
       ],
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 2,
-        "Clarín": 1,
-        "Infobae": 1,
-        "TN": 2,
-        "Ámbito": 0,
-        "Página 12": 1,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 2,
+        "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 8,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 5,
+      "total_notas": 4,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 2,
       "cobertura_perfil": 1,
-      "medio_lider": "La Nación",
+      "medio_lider": "Ámbito",
       "cobertura_medio_lider": 2,
       "brecha": -1,
       "brecha_formateada": "-1",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Incendio en Constitución: el fuego quedó controlado y solo hubo un traslado por inhalación de humo",
-          "link": "https://www.perfil.com/noticias/sociedad/fuego-en-constitucion-un-principio-de-incendio-en-la-cabecera-del-tren-roca-genera-demoras.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/incendio-dentro-de-la-estacion-constitucion-2338311.jpg"
+          "titulo": "Milei y Glencore anunciaron una inversión de u$s4.000 millones para desarrollar el proyecto minero Agua Rica",
+          "link": "https://www.perfil.com/noticias/economia/milei-glencore-anunciaron-inversion-us4000-millones-desarrollar-proyecto-minero-agua-rica-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/02/trim/540/304/milei-y-glencore-anunciaron-en-paris-el-desarrollo-del-proyecto-agua-rica-2339163.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Incendio en la estación Constitución: evacuaron la terminal y Bomberos trabaja en el lugar",
-          "link": "https://www.lanacion.com.ar/sociedad/incendio-en-la-estacion-constitucion-evacuaron-la-terminal-y-bomberos-trabaja-en-el-lugar-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZID27IIYJ5ALXDCERF7ZX7NTTQ.jpg?auth=22ec2172cf88f8822f853e37584d80cbeaaa9c6ea7bd7e6b80d762b3bd02e9ef&smart=true&width=2000&height=1333"
+          "titulo": "Glencore anunció una inversión de US$4000 millones para desarrollar Agua Rica en Catamarca",
+          "link": "https://www.lanacion.com.ar/economia/glencore-anuncio-una-inversion-de-us4000-millones-para-desarrollar-agua-rica-en-catamarca-nid02102026/",
+          "imagen": ""
         },
         {
-          "medio": "Clarín",
-          "titulo": "Susto en Constitución: se prendió fuego una escalera mecánica y evacuaron la estación",
-          "link": "https://www.clarin.com/ciudades/susto-constitucion-prendio-fuego-escalera-mecanica-evacuaron-estacion_0_EVxmryIwOe.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/AZdrrz60o_1200x630__1.jpg"
+          "medio": "Ámbito",
+          "titulo": "Glencore anunció u$s4 mil millones de inversión para el Proyecto Agua Rica en Catamarca",
+          "link": "https://www.ambito.com/economia/glencore-anuncio-us4-mil-millones-inversion-el-proyecto-agua-rica-catamarca-n6329296",
+          "imagen": "https://media.ambito.com/p/49a430c83d955fe966bb94d71bca57b8/adjuntos/239/imagenes/043/679/0043679579/1200x675/682x202:702x222/glencore-y-milei.jpg"
         }
       ]
     },
     {
-      "tema": "Caída y retroceso de la inversión real en la economía",
+      "tema": "Anuncio de inversión de Pluspetrol y GyP en Vaca Muerta",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Aporta datos duros indispensables para evaluar la macroeconomía y el pulso de la actividad productiva.",
-      "insight": "Página 12 registra notas específicas sobre la retracción de la inversión real que contrastan con los anuncios oficiales.",
-      "accion_sugerida": "Analizar las causas sectoriales de la caída de la inversión y su correlación con las tasas de interés.",
+      "por_que_importa": "El desarrollo energético es clave para el futuro macroeconómico del país y genera alto tráfico de búsqueda.",
+      "insight": "La competencia directa posicionó primicias sobre montos y plazos que superaron la cobertura inicial de Perfil.",
+      "accion_sugerida": "Analizar el impacto específico de estos fondos en la balanza comercial energética de los próximos años.",
       "enfoques_sugeridos": [
-        "Radiografía de los sectores más golpeados por la retracción de capitales",
-        "El dilema entre estabilización fiscal y reactivación productiva"
+        "Vaca Muerta acelera: claves del nuevo megaproyecto petrolero",
+        "El peso del RIGI en la llegada de capitales al sector hidrocarburífero"
       ],
       "cobertura": {
         "Perfil": 1,
@@ -258,259 +166,210 @@
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
+        "Ámbito": 2,
+        "Página 12": 0,
         "El Cronista": 0
       },
       "total_notas": 3,
       "cantidad_medios": 2,
       "cantidad_competidores": 1,
       "cobertura_perfil": 1,
-      "medio_lider": "Página 12",
+      "medio_lider": "Ámbito",
       "cobertura_medio_lider": 2,
       "brecha": -1,
       "brecha_formateada": "-1",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Impacto en la inversión real: cayó 5,4% en agosto",
-          "link": "https://www.perfil.com/noticias/nea/impacto-en-la-inversion-real-cayo-54-en-agosto.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/luis-caputo-2327674.jpg"
+          "titulo": "El Gobierno anunció una inversión de US$12.400 millones de Pluspetrol y GyP en Vaca Muerta",
+          "link": "https://www.perfil.com/noticias/economia/anuncian-una-nueva-inversion-en-el-rigi-por-usd-12400-millones-en-vaca-muerta.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/29/trim/540/304/vaca-muerta-2336897.jpg"
         },
         {
-          "medio": "Página 12",
-          "titulo": "Números negativos en inversión",
-          "link": "https://www.pagina12.com.ar/2026/09/30/numeros-negativos-en-inversion/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/3IPD6FNXC5AU7J435HHAEGHLGU.jpg?auth=92cafab9ba72ea02608508acc4874a865ce2df35d2db0eceb8d67b44f7410378&amp;smart=true&amp;width=900&amp;height=600"
+          "medio": "Ámbito",
+          "titulo": "Pluspetrol anuncia la inversión de u$s 12.400 millones en Vaca Muerta a través del RIGI",
+          "link": "https://www.ambito.com/economia/pluspetrol-anuncia-la-inversion-us-12400-millones-vaca-muerta-traves-del-rigi-n6329233",
+          "imagen": "https://media.ambito.com/p/879814cebf997fee72b5f0929cbe7978/adjuntos/239/imagenes/043/679/0043679382/1200x675/735x415:755x435/pluspetrol.jpg"
         }
       ]
     }
   ],
   "sin_cobertura_perfil": [
     {
-      "tema": "Cotización del dólar oficial y dólar blue en Argentina",
+      "tema": "Pronóstico del clima y alertas meteorológicas",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Constituye la información financiera de consulta obligatoria y diaria con mayor tráfico orgánico en buscadores.",
-      "insight": "Ámbito y TN concentran la mayor cantidad de notas con actualizaciones minuto a minuto de las distintas cotizaciones cambiarias.",
-      "accion_sugerida": "Implementar un desarrollo propio de cotizaciones en tiempo real para capturar el tráfico de búsqueda financiera.",
+      "por_que_importa": "Es un contenido de altísimo rendimiento en Google Discover y búsquedas de última hora para toda la audiencia nacional.",
+      "insight": "TN y El Cronista dominan por completo el tráfico con coberturas locales y alertas del Servicio Meteorológico Nacional.",
+      "accion_sugerida": "Incorporar un servicio permanente de alertas meteorológicas y pronóstico extendido optimizado para SEO diario.",
       "enfoques_sugeridos": [
-        "Seguimiento diario de la brecha cambiaria y reservas del Banco Central",
-        "Análisis del comportamiento del mercado minorista al inicio del mes"
+        "Alerta amarilla por tormentas: qué provincias están en la mira",
+        "Cómo afectará el frente de inestabilidad al fin de semana largo"
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 3,
-        "Ámbito": 7,
+        "TN": 22,
+        "Ámbito": 1,
         "Página 12": 1,
         "El Cronista": 0
       },
-      "total_notas": 11,
+      "total_notas": 24,
       "cantidad_medios": 3,
       "cantidad_competidores": 3,
       "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 7,
-      "brecha": -7,
-      "brecha_formateada": "-7",
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 22,
+      "brecha": -22,
+      "brecha_formateada": "-22",
       "ejemplos": [
         {
           "medio": "TN",
-          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 1 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/01/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-1-de-octubre/",
-          "imagen": ""
+          "titulo": "Hay alerta amarilla por tormentas y lluvias fuertes en 9 provincias para hoy, viernes 2 de octubre ",
+          "link": "https://tn.com.ar/sociedad/2026/10/02/hay-alerta-amarilla-por-tormentas-y-lluvias-fuertes-en-9-provincias-para-hoy-viernes-2-de-octubre/",
+          "imagen": "https://tn.com.ar/resizer/v2/4GMSGESC2NDRDHI2WB6SBKXOAY.png?auth=8b4b2976c548efabedf6450a9f0e987e444ee3251a21d79b4386bf9a0ffc9397"
         },
         {
           "medio": "Ámbito",
-          "titulo": "Dólar blue hoy: a cuánto opera este jueves 1 de octubre",
-          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-jueves-1-octubre-n6328731",
-          "imagen": "https://media.ambito.com/p/a348a9e8530044da166c252ba6ef7dad/adjuntos/239/imagenes/042/772/0042772189/dolar-blue-mercados-finanzas-inversiones.jpg"
+          "titulo": "Sábado 3 de octubre, peregrinación a Luján 2026 bajo agua: cómo estará el clima este fin de semana",
+          "link": "https://www.ambito.com/informacion-general/sabado-3-octubre-peregrinacion-lujan-2026-agua-como-estara-el-clima-este-fin-semana-n6329314",
+          "imagen": "https://media.ambito.com/p/f10d95d9ba36785bc9314c868045fc07/adjuntos/239/imagenes/042/032/0042032115/1200x675/1154x872:1174x892/basilica-de-lujanjpg.jpg"
         },
         {
-          "medio": "Página 12",
-          "titulo": "Dólar blue, dólar hoy: a cuánto cotizan el jueves 1 de octubre de 2026",
-          "link": "https://www.pagina12.com.ar/2026/10/01/dolar-blue-dolar-hoy-a-cuanto-cotizan-el-jueves-1-de-octubre-de-2026/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GI3TOZRTGYYWMNRRGYZDGN3FMM.jpg?auth=16de8d85ac3b64804c909751646fe8d9df3b410ed42f8b012486122f6ee41b3d&amp;smart=true&amp;width=5664&amp;height=3186"
+          "medio": "Cronista",
+          "titulo": "Cambia el pronóstico y hay alerta por tormentas en el AMBA: qué día lloverá y cuándo mejorará el clima",
+          "link": "https://www.cronista.com/informacion-gral/cambia-el-pronostico-y-hay-alerta-por-tormentas-en-el-amba-que-dia-llovera-y-cuando-mejorara-el-clima/",
+          "imagen": "https://www.cronista.com/resizer/v2/H6EAPPZ5LJEBJD4WRW474KP7OA.jpg?auth=7c20bc631f8c3fa18d0cd18c40251706704ed2611ceb16967743f9ee63c32af5&smart=true&width=1200&height=900"
         }
       ]
     },
     {
-      "tema": "Discurso y declaraciones de Javier Milei en París sobre sus políticas económicas",
+      "tema": "Cotizaciones y valor del dólar, oficial, blue, MEP y CCL en Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las proyecciones presidenciales en el exterior marcan la agenda política y generan fuertes repercusiones locales.",
-      "insight": "Amplia cobertura de la competencia sobre las promesas de reelección y el balance de las medidas económicas desde la Argentina Week.",
-      "accion_sugerida": "Publicar una columna analítica sobre la recepción del modelo económico libertario ante los inversores europeos.",
+      "por_que_importa": "La cotización de las distintas Terminales cambiarias constituye la consulta diaria obligatoria de la audiencia económica.",
+      "insight": "Los portales competidores actualizan minuto a minuto las variaciones de la City porteña capturando la intención de búsqueda.",
+      "accion_sugerida": "Crear un widget dinámico y notas de seguimiento diario con el cierre de las principales plazas cambiarias.",
       "enfoques_sugeridos": [
-        "Las proyecciones electorales de cara a 2028 según el discurso presidencial",
-        "El contraste entre las promesas de inversión y las demandas de los mercados"
+        "Minuto a minuto: a cuánto operan el dólar blue y los financieros",
+        "El oficial alcanza nuevos máximos nominales: qué evalúan los analistas"
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 2,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 3,
-        "Página 12": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 3,
+        "Ámbito": 8,
+        "Página 12": 1,
         "El Cronista": 0
       },
-      "total_notas": 8,
+      "total_notas": 13,
       "cantidad_medios": 4,
       "cantidad_competidores": 4,
       "cobertura_perfil": 0,
       "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
+      "cobertura_medio_lider": 8,
+      "brecha": -8,
+      "brecha_formateada": "-8",
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Javier Milei y sus medidas, EN VIVO: habló en París de sus políticas económicas y dijo que “la comparación es demoledora”",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-la-argentina-va-a-estar-en-el-cuarto-lugar-de-los-paises-que-mas-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/DF2VZXJMHVCVFJXH7TLOL5PKYU.jpeg?auth=b8915fed5b3b5b3bae90b13432b29175b26ccd69b7d3996bfee48bda53459acc&smart=true&width=4160&height=2339"
+          "medio": "Infobae",
+          "titulo": "Dólar hoy: a cuánto operan todas las cotizaciones minuto a minuto este viernes 2 de octubre",
+          "link": "https://www.infobae.com/economia/2026/10/02/dolar-hoy-a-cuanto-operan-todas-las-cotizaciones-minuto-a-minuto-este-viernes-2-de-octubre/",
+          "imagen": ""
         },
         {
-          "medio": "Clarín",
-          "titulo": "Javier Milei, EN VIVO en París: \"Si somos reelectos, 2028 va a ser el mejor año económico de nuestra historia\"",
-          "link": "https://www.clarin.com/politica/javier-milei-vivo-presidente-habla-argentina-week-paris-reune-gobernadores-visita-macron_0_8yBzUrRNFu.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/Z-aDIoftW_1200x630__1.jpg"
+          "medio": "TN",
+          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este viernes 2 de octubre",
+          "link": "https://tn.com.ar/economia/2026/10/02/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-viernes-2-de-octubre/",
+          "imagen": ""
         },
         {
           "medio": "Ámbito",
-          "titulo": "En París, Javier Milei volvió a hablar de la reelección y prometió que 2028 será &quot;el mejor año económico de la historia&quot;",
-          "link": "https://www.ambito.com/economia/en-paris-javier-milei-volvio-hablar-la-reeleccion-y-prometio-que-2028-sera-el-mejor-ano-economico-la-historia-n6328747",
-          "imagen": "https://media.ambito.com/p/732a1c508bd6a3b4a8103cc5df517f91/adjuntos/239/imagenes/043/676/0043676812/1200x675/796x337:816x357/milei-argentina-week.jpeg"
+          "titulo": "Dólar blue hoy: a cuánto opera este viernes 2 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-viernes-2-octubre-n6329220",
+          "imagen": "https://media.ambito.com/p/8ef0265872827a1c4541a98ff0bddd00/adjuntos/239/imagenes/042/747/0042747588/dolar-blue.jpg"
         }
       ]
     },
     {
-      "tema": "Megaproyecto de GNL y anuncios de inversión energética en Argentina",
+      "tema": "Shows, declaraciones y disculpas públicas de Robbie Williams en Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Representa la promesa de ingresos más importante de la historia reciente para la infraestructura energética y exportadora.",
-      "insight": "Clarín y El Cronista detallan los plazos y montos confirmados por YPF y las empresas globales para el sector de gas natural.",
-      "accion_sugerida": "Redactar un informe especial sobre la viabilidad técnica y financiera del megaproyecto de GNL.",
+      "por_que_importa": "Las visitas de grandes figuras internacionales generan picos masivos de audiencia en espectáculos y redes sociales.",
+      "insight": "La Nación y Clarín capturaron el interés con apostillas de color y referencias inesperadas durante el recital.",
+      "accion_sugerida": "Cobertura en directo y crónicas de color de los conciertos internacionales con foco en las declaraciones virales.",
       "enfoques_sugeridos": [
-        "Cronograma y desafíos de ingeniería para concretar la planta exportadora",
-        "El impacto geopolítico y comercial de convertir a Argentina en potencia gasífera"
+        "El paso de comedia y las disculpas de Robbie Williams en su regreso",
+        "Setlist y momentos clave del show que enloqueció a los fans"
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 5,
+        "La Nación": 3,
+        "Clarín": 1,
         "Infobae": 0,
-        "TN": 0,
+        "TN": 2,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
       "total_notas": 6,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 5,
-      "brecha": -5,
-      "brecha_formateada": "-5",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Ponen fecha a la firma del megaproyecto de US$51.000 millones que busca convertir a la Argentina en exportadora de GNL",
-          "link": "https://www.lanacion.com.ar/economia/ponen-fecha-a-la-firma-del-megaproyecto-de-us51000-millones-que-busca-convertir-a-la-argentina-en-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/MWTZKAETUZFF7HUNRFCORMFYYI.jpeg?auth=3f2326f247fcc81d3c22d6f81624d2b970b8b54c67bff66adef1ebf8706fb17a&smart=true&width=1450&height=736"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Priorizar las exportaciones y que no haya \"sorpresas\": las definiciones de tres pesos pesados de la energía global sobre el Plan Milei",
-          "link": "https://www.clarin.com/economia/priorizar-exportaciones-sorpresas-definiciones-pesos-pesados-energia-global-plan-milei_0_QYJnfYYXcM.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/l06Hyiy7p_1200x630__1.jpg"
-        },
-        {
-          "medio": "Cronista",
-          "titulo": "Cómo es el proyecto de u$s 51.000 millones que desarrollará YPF junto a Eni y XRG y cuándo comenzarán las obras",
-          "link": "https://www.cronista.com/economia-politica/ypf-pone-fecha-a-la-mayor-inversion-de-la-historia-26-de-noviembre/",
-          "imagen": "https://www.cronista.com/resizer/v2/BWKCOKCP75AQFMEJX55QFMZR4Y.jpeg?auth=11dcc15c7a789554afe6d6775e3e2a0c126ab27252639f0704236614c17ed71f&smart=true&width=1200&height=900"
-        }
-      ]
-    },
-    {
-      "tema": "Elecciones en Brasil",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "El proceso electoral en el principal socio comercial del país impacta de forma directa en la geopolítica regional.",
-      "insight": "Los medios principales cubren la primera vuelta presidencial y el fantasma de una abstención récord debido al desinterés.",
-      "accion_sugerida": "Elaborar una cobertura especial sobre el escenario de polarización y sus consecuencias para el Mercosur.",
-      "enfoques_sugeridos": [
-        "Claves de la puja entre Lula y la oposición en las urnas",
-        "El impacto del resultado brasileño en la política exterior argentina"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 3,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 5,
       "cantidad_medios": 3,
       "cantidad_competidores": 3,
       "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 3,
       "brecha": -3,
       "brecha_formateada": "-3",
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Elecciones Brasil 2026, EN VIVO: Lula vs. Bolsonaro Jr.  y las últimas noticias hoy",
-          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-lula-vs-bolsonaro-jr-y-las-ultimas-noticias-hoy-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/664JMP7FNJH73FFAZIFZGPKLNU.JPG?auth=e8571b353992bdd4e7f105a5e024d63da86ac826c95b8ce6d444bcfd392a1e6b&smart=true&width=2000&height=1333"
+          "titulo": "Robbie Williams, del pícaro guiño a su pasado en la Argentina a un potente show y una sentida promesa",
+          "link": "https://www.lanacion.com.ar/espectaculos/personajes/robbie-williams-del-picaro-guino-a-su-pasado-en-la-argentina-a-un-potente-show-y-una-sentida-promesa-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/E42C6ZQXYFECPOUC424DOMCIB4.jpg?auth=5883cd88cebddb2beb3509d21a0043e37c186f7966a3302b0c7a3dcaa14d0f6e&smart=true&width=1863&height=3000"
         },
         {
           "medio": "Clarín",
-          "titulo": "Elecciones en Brasil: el desinterés electoral agita el fantasma de una abstención récord este domingo",
-          "link": "https://www.clarin.com/mundo/elecciones-brasil-desinteres-electoral-agita-fantasma-abstencion-record-domingo_0_bUus6x91zH.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/DcP5O7kJH_1200x630__1.jpg"
+          "titulo": "Robbie Williams y un inesperado guiño a Amalia Granata en su show en Argentina: \"No es la que ustedes creen\"",
+          "link": "https://www.clarin.com/fama/robbie-williams-inesperado-guino-amalia-granata-show-argentina-ustedes-creen_0_dk6U0FkkL8.html",
+          "imagen": "https://www.clarin.com/img/2026/10/02/E3xtqTAVa_1200x630__1.jpg"
         },
         {
-          "medio": "Infobae",
-          "titulo": "Elecciones Brasil 2026, en vivo: primera vuelta presidencial",
-          "link": "https://www.infobae.com/america/america-latina/2026/10/01/elecciones-brasil-2026-en-vivo-primera-vuelta-presidencial/",
-          "imagen": "https://www.infobae.com/resizer/v2/MS7VNBL5MY3O4VEQRJ23HASX5A.jpg?auth=40e8e0a4c73f842de87a00dece071c3df5e4116ae3f92e6f2c555edbeb5345fa&smart=true&width=4000&height=2667"
+          "medio": "TN",
+          "titulo": "Robbie Williams volvió a la Argentina después de 20 años y se disculpó con sus fans: ““Fue mi culpa y lo siento”",
+          "link": "https://tn.com.ar/musica/noticias/2026/10/02/robbie-williams-volvio-a-la-argentina-despues-de-20-anos-y-se-disculpo-con-sus-fans-fue-mi-culpa-y-lo-siento/",
+          "imagen": "https://tn.com.ar/resizer/v2/X7PFWBWUDJE27EEZZIKKPNDPVE.PNG?auth=ba524ad1412f6dc39d3c598f7945ab8a7803a251e84230cb853c662b93f2e032"
         }
       ]
     },
     {
-      "tema": "Historia y condena de la reclusa Christa Pike y su ejecución con inyección letal",
+      "tema": "Perfil, juicio y estado de salud de la reclusa Christa Pike tras inyecciones letales",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Posee un altísimo potencial de viralización y consumo en Google Discover por su contenido de crónica policial internacional.",
-      "insight": "Clarín y La Nación capturan un importante volumen de lectores con los detalles de la supervivencia a la inyección letal.",
-      "accion_sugerida": "Publicar un racconto cronológico del caso y los debates éticos y técnicos en torno a la pena de muerte en Estados Unidos.",
+      "por_que_importa": "Las historias de crónica negra internacional y casos extremos de condenas poseen un rendimiento excepcional en Google Discover.",
+      "insight": "Infobae y La Nación detallaron los dramáticos momentos de la ejecución fallida y las reacciones políticas asociadas.",
+      "accion_sugerida": "Redactar un perfil cronológico sobre los crímenes más impactantes del sistema carcelario estadounidense.",
       "enfoques_sugeridos": [
-        "Los errores en los protocolos de ejecución en las cárceles norteamericanas",
-        "El perfil psicológico e historial judicial de la interna condenada"
+        "Los errores médicos y legales detrás de la fallida inyección letal",
+        "El historial de crímenes que llevó a Christa Pike al corredor de la muerte"
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 2,
-        "Clarín": 4,
-        "Infobae": 0,
-        "TN": 2,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 3,
+        "TN": 1,
         "Ámbito": 0,
-        "Página 12": 0,
+        "Página 12": 2,
         "El Cronista": 0
       },
       "total_notas": 8,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 3,
+      "cantidad_medios": 5,
+      "cantidad_competidores": 5,
       "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 4,
-      "brecha": -4,
-      "brecha_formateada": "-4",
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
       "ejemplos": [
         {
           "medio": "La Nación",
@@ -519,36 +378,36 @@
           "imagen": "https://resizer.glanacion.com/resizer/v2/BEX64VIUYFFYZJCJ22WWTD5AS4.png?auth=58153421599ed9e404ebf854c3b0960c0da40c22d0c57685320bb23fc48fae81&smart=true&width=560&height=747"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Aseguran que Christa Pike sobrevivió a dos inyecciones letales durante su ejecución en Tennessee ",
-          "link": "https://www.lanacion.com.ar/estados-unidos/aseguran-que-christa-pike-sobrevivio-a-dos-inyecciones-letales-durante-su-ejecucion-en-tennessee-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/2MPZJHY5J5CQNGVSQZFZY6TTAA.png?auth=0908116810a21ed04863fbdfc9ea9621751b7f344ec61d1acb3c220007e74e63&smart=true&width=613&height=442"
+          "medio": "Clarín",
+          "titulo": "Christa Pike está en estado crítico tras sobrevivir a dos inyecciones letales: surgen nuevos detalles sobre la noche de la ejecución",
+          "link": "https://www.clarin.com/mundo/christa-pike-estado-critico-sobrevivir-inyecciones-letales-surgen-nuevos-detalles-noche-ejecucion_0_hcruWRZCXm.html",
+          "imagen": "https://www.clarin.com/img/2026/10/02/hmm9gb2c__1200x630__1.jpg"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Cables mal conectados, venas inaccesibles y agonías que duran horas: por qué fallan las ejecuciones como en el caso de Christa Pike",
-          "link": "https://www.clarin.com/mundo/cables-mal-conectados-venas-inaccesibles-agonias-duran-horas-fallan-ejecuciones-caso-christa-pike_0_ZRdIQPpqs8.html",
-          "imagen": "https://www.clarin.com/img/2026/09/29/F8Il73aAI_1200x630__1.jpg"
+          "medio": "Infobae",
+          "titulo": "\"El brazo me va a reventar\": las últimas palabras de Christa Pike en su fallida ejecución en Tennessee",
+          "link": "https://www.infobae.com/estados-unidos/2026/10/01/el-brazo-me-va-a-reventar-las-ultimas-palabras-de-christa-pike-en-su-fallida-ejecucion-en-tennessee/",
+          "imagen": "https://www.infobae.com/resizer/v2/5ZITUVZ7TZCTTN2XQE7UMPD5NY.jpg?auth=1fbc70dabc58099d65af407d993b740cfd2898846201e7faa337ef42e6e998a4&smart=true&width=3000&height=2000"
         }
       ]
     },
     {
-      "tema": "Liquidación de divisas por exportaciones del agro en septiembre",
+      "tema": "Crisis política en España por el plan y decretos de vivienda de Pedro Sánchez",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Es un indicador financiero crucial para medir el ingreso genuino de dólares y el fortalecimiento de las reservas.",
-      "insight": "Clarín y Ámbito destacan el incremento del 17% impulsado por los embarques de maíz y su peso en la balanza comercial.",
-      "accion_sugerida": "Analizar el aporte del sector agroexportador frente a las metas fiscales y financieras del último trimestre.",
+      "por_que_importa": "La inestabilidad política en Europa y las tensiones habitacionales interesan a un segmento lector muy fiel de política internacional.",
+      "insight": "Infobae y La Nación cubrieron la votación clave en el Congreso español y el riesgo de un adelanto electoral.",
+      "accion_sugerida": "Publicar un análisis de fondo sobre el impacto de la crisis de alquileres en la gobernabilidad europea.",
       "enfoques_sugeridos": [
-        "El rol del maíz y la retención de granos por parte de los productores",
-        "Proyecciones de liquidación para el cierre del año fiscal"
+        "El revés parlamentario que deja a Pedro Sánchez al borde del precipicio",
+        "El rol de los partidos regionalistas en la caída de las medidas habitacionales"
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 0,
+        "Clarín": 1,
+        "Infobae": 3,
         "TN": 0,
-        "Ámbito": 2,
+        "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
@@ -556,381 +415,147 @@
       "cantidad_medios": 3,
       "cantidad_competidores": 3,
       "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Por los embarques de maíz: en septiembre creció un 17% la liquidación de divisas por exportaciones de granos y oleaginosas",
-          "link": "https://www.lanacion.com.ar/economia/campo/por-los-embarques-de-maiz-en-septiembre-crecio-un-17-la-liquidacion-de-divisas-por-exportaciones-de-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/G26GU5B62JHO3BWYAVBRVJLJ6M.jpg?auth=8a284a25b1e2b59f3b050e1150edaaddb9d2454938ed4b3f9d11dbcb82d9daa8&smart=true&width=2000&height=1333"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Ingresaron US$ 3.228 millones: por el maíz, la liquidación del agro creció 17% en septiembre",
-          "link": "https://www.clarin.com/rural/ingresaron-us-3228-millones-maiz-liquidacion-agro-crecio-17-septiembre_0_hUXzJTEnne.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/C5dc0xYb9_1200x630__1.jpg"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "El agro liquidó u$s3.228 millones en septiembre y alcanzó el tercer mejor registro en 25 años",
-          "link": "https://www.ambito.com/economia/el-agro-liquido-us3228-millones-septiembre-y-alcanzo-el-tercer-mejor-registro-25-anos-n6328761",
-          "imagen": "https://media.ambito.com/p/2d2874a06e50095f002da702343999ee/adjuntos/239/imagenes/040/723/0040723123/dolar-agro-5-grandejpgjpg.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Alerta por el fenómeno climático del Súper Niño",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Genera gran expectativa y preocupación en la sociedad y el sector productivo por sus consecuencias meteorológicas.",
-      "insight": "La Nación y Clarín lideran la cobertura sobre el impacto del fenómeno y los pronósticos de precipitaciones extraordinarias.",
-      "accion_sugerida": "Preparar una guía de prevención y análisis sectorial sobre las zonas más vulnerables ante el exceso hídrico.",
-      "enfoques_sugeridos": [
-        "Cómo afectará el Súper Niño a la producción agrícola y los centros urbanos",
-        "El componente de desvío térmico y su relación con el cambio climático global"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 3,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
+      "medio_lider": "Infobae",
       "cobertura_medio_lider": 3,
       "brecha": -3,
       "brecha_formateada": "-3",
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Alarma por el Súper Niño 2026: qué se sabe del fenómeno “extremadamente fuerte” que cambiará por completo el pronóstico en la Argentina (y el mundo)  ",
-          "link": "https://www.lanacion.com.ar/sociedad/alarma-por-el-super-nino-2026-que-se-sabe-del-fenomeno-extremadamente-fuerte-que-cambiara-por-nid29092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/D5MJFEG23VAL5AUXTWQ4NSZRCA.jpg?auth=bb47e1d2903cd2579e70aaba893bb404637afa4f3a6ca62af629e24617eae069&smart=true&width=2000&height=1333"
+          "titulo": "Pedro Sánchez recibe un revés en el Congreso para su plan de vivienda y su gobierno queda al borde del precipicio",
+          "link": "https://www.lanacion.com.ar/el-mundo/pedro-sanchez-recibe-un-reves-en-el-congreso-para-su-plan-de-vivienda-y-queda-al-borde-del-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/Q2GBUXG7WZEIVDYFF3QWROMQJI.jpg?auth=a777f7d6f6889dcd674219ef1f5de283e42b6db157cbbfa2bf19d862267d3d9d&smart=true&width=2000&height=1333"
         },
         {
           "medio": "Clarín",
-          "titulo": "Súper Niño 2026 en la Argentina, EN VIVO: cuándo llegará su pico máximo y en qué provincias se esperan fuertes lluvias",
-          "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-llegara-pico-maximo-provincias-esperan-fuertes-lluvias_0_Kpx9zg1C6U.html",
-          "imagen": "https://www.clarin.com/img/2025/05/19/ClOIKfVVg_1200x630__1.jpg"
+          "titulo": "Convulsión en España: los decretos de vivienda del gobierno podrían caer en el Parlamento y Pedro Sánchez amenaza con un adelanto electoral",
+          "link": "https://www.clarin.com/mundo/convulsion-espana-decretos-vivienda-gobierno-podrian-caer-parlamento-pedro-sanchez-amenaza-adelanto-electoral_0_EC4awRgxPQ.html",
+          "imagen": "https://www.clarin.com/img/2026/10/02/myyrbsvEc_1200x630__1.jpg"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Un país recurrirá a la siembra de nubes para mitigar la sequía por \"El Superniño\"",
-          "link": "https://www.clarin.com/internacional/pais-recurrira-siembra-nubes-mitigar-sequia-supernino_0_BNxIMYnjeU.html",
-          "imagen": "https://www.clarin.com/img/2026/04/14/2z36qa6Jm_1200x630__1.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Impacto y proyecciones del auge de la inteligencia artificial en la economía y la tecnología",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Atrae a una audiencia interesada en tendencias globales, innovación y el futuro del mercado laboral.",
-      "insight": "Ámbito y Página 12 abordan tanto los balances financieros corporativos como las advertencias sobre dependencia tecnológica.",
-      "accion_sugerida": "Desarrollar un informe sobre la adopción de IA en las empresas argentinas y los riesgos de subordinación digital.",
-      "enfoques_sugeridos": [
-        "El boom de ingresos en fabricantes de semiconductores y su lectura bursátil",
-        "Debates éticos y regulaciones internacionales sobre la propiedad de la voz y datos"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 3,
-        "Página 12": 1,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "ejemplos": [
-        {
-          "medio": "Ámbito",
-          "titulo": "Micron prevé ingresos récord para el inicio de 2027 y reafirma el boom de la inteligencia artificial",
-          "link": "https://www.ambito.com/finanzas/micron-preve-ingresos-record-el-inicio-2027-y-reafirma-el-boom-la-inteligencia-artificial-n6328789",
-          "imagen": "https://media.ambito.com/p/e5a4e8bbce1a38837e0a2ce25f64bcd6/adjuntos/239/imagenes/043/471/0043471253/1200x675/smart/micron-ok.jpg"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "&quot;Colonia digital&quot;: la cruda advertencia de un experto en IA a las ideas de Javier Milei",
-          "link": "https://www.ambito.com/politica/colonia-digital-la-cruda-advertencia-un-experto-ia-las-ideas-javier-milei-n6328836",
-          "imagen": "https://media.ambito.com/p/764170056c375599de74a8ee028437fd/adjuntos/239/imagenes/043/676/0043676875/1200x675/smart/_gsi7684.JPG"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "¿La inteligencia artificial nos va a matar a todos? Esto dicen los especialistas",
-          "link": "https://www.pagina12.com.ar/2026/09/30/la-inteligencia-artificial-nos-va-a-matar-a-todos-esto-dicen-los-especialistas/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GZSDAMBTGA4WEZLFGY4DKNZYGU.jpg?auth=b50979b4988460e135edbbf7d1eb6c3d4efe1243ffdb872c59b11b3ac7649392&amp;smart=true&amp;width=1500&amp;height=1000"
-        }
-      ]
-    },
-    {
-      "tema": "Desestimación de la demanda judicial por la criptomoneda $LIBRA en Nueva York",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Conecta temas de actualidad judicial internacional con figuras y polémicas del entorno político local.",
-      "insight": "La Nación, Clarín y Ámbito informan el cierre de la demanda colectiva contra Hayden Davis dictaminado por la justicia estadounidense.",
-      "accion_sugerida": "Publicar un resumen del recorrido judicial del caso y su impacto colateral en la imagen de los involucrados.",
-      "enfoques_sugeridos": [
-        "Los fundamentos legales de la jueza en Nueva York para desestimar el caso",
-        "El fin de una causa que mantuvo en vilo al mercado cripto y la política"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 3,
-      "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "$LIBRA: una jueza desestimó en Nueva York la demanda colectiva contra Hayden Davis y dispuso el cierre del caso",
-          "link": "https://www.lanacion.com.ar/politica/libra-una-jueza-desestimo-en-nueva-york-la-demanda-colectiva-contra-hayden-davis-y-dispuso-el-cierre-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/BGJTWZL7BNFV3CBRGHOIZ2C5FA.PNG?auth=2666ac8776fc8f6a2bda45f1debb7633245e00779269dcf3039b51088a1b3648&smart=true&width=595&height=776"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Caso $LIBRA: la justicia de Estados Unidos desestimó la causa contra Hayden Davis en Nueva York",
-          "link": "https://www.clarin.com/politica/caso-libra-justicia-estados-unidos-desestimo-causa-hayden-davis-nueva-york_0_ksUcKkjWAr.html",
-          "imagen": "https://www.clarin.com/img/2025/02/22/xwJkbA_ij_1200x630__1.jpg"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "La Justicia de Estados Unidos desestimó la demanda por $LIBRA y cerró la causa contra Hayden Davis",
-          "link": "https://www.ambito.com/politica/la-justicia-estados-unidos-desestimo-la-demanda-libra-y-cerro-la-causa-contra-hayden-davis-n6328863",
-          "imagen": "https://media.ambito.com/p/ce8a261d10bde9956650da084b1d3037/adjuntos/239/imagenes/042/202/0042202319/hayden-davis-y-javie-milei-2jpg.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Denuncia por abuso sexual contra Joaquín Levinton y respaldo de la banda",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Combina la agenda de espectáculos con temáticas judiciales sensibles de fuerte repercusión en redes sociales.",
-      "insight": "Página 12 y Ámbito registran la denuncia penal contra el músico y el posterior comunicado de respaldo de su grupo Turf.",
-      "accion_sugerida": "Dar cobertura equilibrada al avance de la investigación judicial sin descuidar los protocolos editoriales en casos de género.",
-      "enfoques_sugeridos": [
-        "El impacto de las denuncias penales en la industria de la música nacional",
-        "La respuesta corporativa de las bandas ante situaciones de crisis judicial"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 1,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 3,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Joaquín Levinton habló luego de de ser denunciado por abuso sexual y negó la acusación",
-          "link": "https://www.lanacion.com.ar/seguridad/la-grave-denuncia-contra-el-musico-joaquin-levinton-que-desmintio-todos-los-cargos-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/F4K3EJZ5LBFFPJ2F6IYQV4V4WQ.JPG?auth=73576dc4b05b45bad43f554971a14454fb64ce54c3be2e976c34c97761b22f5a&smart=true&width=4500&height=3001"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Turf respaldó a Joaquín Levinton tras la denuncia por abuso sexual en su contra",
-          "link": "https://www.ambito.com/espectaculos/turf-respaldo-joaquin-levinton-la-denuncia-abuso-sexual-su-contra-n6328807",
-          "imagen": ""
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Joaquín Levinton fue denunciado por delitos de abuso sexual: el cantante publicó un descargo",
-          "link": "https://www.pagina12.com.ar/2026/09/30/joaquin-levinton-fue-denunciado-por-delitos-de-abuso-sexual-el-cantante-publico-un-descargo/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/QKBOLQGLLNBF3BVUWYM2MUAEG4.jpg?auth=4ecb3652269fbe4b9bb37221c21bb87aac2a6138ffc5e2597a0e4e8f7beb34a2&amp;smart=true&amp;width=548&amp;height=382"
-        }
-      ]
-    },
-    {
-      "tema": "Coloquio de IDEA: pedidos de inversión y agenda empresaria",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Es el espacio de debate corporativo por excelencia donde el establishment dialoga con la política económica.",
-      "insight": "La Nación y Clarín reflejan los pedidos oficiales de acompañar el cambio de reglas con inversiones genuinas.",
-      "accion_sugerida": "Cubrir las mesas de debate central enfocadas en la caída de actividad y la ansiedad electoral del sector empresario.",
-      "enfoques_sugeridos": [
-        "El reclamo del Gobierno a los empresarios para que arriesguen capital",
-        "La agenda empresaria frente a la presión tributaria y la apertura comercial"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 3,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Quirno les pidió a los empresarios del Coloquio de IDEA que acompañen con inversiones el cambio de reglas",
-          "link": "https://www.lanacion.com.ar/economia/quirno-les-pidio-a-los-empresarios-del-coloquio-de-idea-que-acompanen-con-inversiones-el-cambio-de-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/53IGEFUQPREYHK4PK47PZJJQLE.jpg?auth=f91df5b712d3b1ae4beff6ad9c6f98b6660bb47e08a11663655b47c1fc647356&smart=true&width=6720&height=4480"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Coloquio de IDEA: Quirno hizo un fuerte llamado a los empresarios para que inviertan",
-          "link": "https://www.clarin.com/economia/coloquio-idea-quirno-hizo-fuerte-llamado-empresarios-inviertan_0_EXpNJFNWSG.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/ZkbnEslqA_1200x630__1.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Coloquio de IDEA: la caída de la actividad, China y la ansiedad electoral en la agenda empresaria",
-          "link": "https://www.clarin.com/economia/coloquio-idea-caida-actividad-china-ansiedad-electoral-agenda-empresaria_0_0EURvAHtfL.html",
-          "imagen": "https://www.clarin.com/img/2026/10/01/l_jRqUZgc_1200x630__1.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Aumento en los boletos de transporte público y peajes porteños",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Impacta de forma directa e inmediata en el bolsillo de los trabajadores del AMBA y en el índice inflacionario.",
-      "insight": "Ámbito y TN informan los cuadros tarifarios actualizados que entran en vigencia al comenzar el mes.",
-      "accion_sugerida": "Elaborar una calculadora o guía práctica para que los lectores conozcan el gasto mensual en movilidad.",
-      "enfoques_sugeridos": [
-        "El peso del boleto y los peajes en la estructura de gastos de la clase media",
-        "Actualización de subsidios y la política tarifaria del Gobierno"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 2,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 3,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "TN",
-          "titulo": "Aumentaron los boletos de colectivos, subte y los peajes en las autopistas porteñas: cuánto hay que pagar",
-          "link": "https://tn.com.ar/economia/2026/10/01/aumentaron-los-boletos-de-colectivos-subte-y-los-peajes-en-las-autopistas-portenas-cuanto-hay-que-pagar/",
-          "imagen": "https://tn.com.ar/resizer/v2/X3GZ6PMTPRHJZDDDF7GHOPWGNM.jpg?auth=bf2d3eedabe6ccd0c24a7ee883e201073549c0539138843da4720ee58fb3c942"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Octubre llega con aumentos en transporte, alquileres, prepagas y más: cuánto suben los servicios",
-          "link": "https://www.ambito.com/economia/octubre-llega-aumentos-transporte-alquileres-prepagas-y-mas-cuanto-suben-los-servicios-n6326586",
-          "imagen": "https://media.ambito.com/p/5410d6af1a356174d55c773013165ee1/adjuntos/239/imagenes/042/806/0042806466/1200x675/smart/aumentos.jpg"
+          "medio": "Infobae",
+          "titulo": "Votación de los decretos de vivienda, en directo: el ‘no’ de Junts tumba las medidas y Sánchez dice que “la historia les juzgará”",
+          "link": "https://www.infobae.com/espana/2026/10/02/votacion-de-los-decretos-maricarmen-de-vivienda-en-directo-sanchez-reta-a-junts-pp-y-vox-y-la-acampada-de-sol-se-traslada-al-congreso/",
+          "imagen": "https://www.infobae.com/resizer/v2/J4BB62P4Y5GOJKVKWBO5NF5JXA.JPG?auth=1e7f989bee3aa9ab3c76d1d4a180f21b8fcd7dbb509eee3185fc83ba947497fd&smart=true&width=6000&height=4000"
         }
       ]
     }
   ],
   "oportunidades": [
     {
-      "tema": "Pronóstico del clima en diversas ciudades de Estados Unidos",
-      "tipo": "SEO de servicio internacional",
-      "motivo_oportunidad": "TN acapara el tráfico de búsquedas geolocalizadas con cobertura masiva de boletines meteorológicos norteamericanos.",
-      "tipo_de_oportunidad": "Servicio SEO utilitario",
+      "tema": "Acciones y rechazos de la oposición contra el megaDNU y la derogación de la ley de Tierras",
+      "tipo": "Oportunidad legislativa y judicial",
+      "motivo_oportunidad": "Página 12 cubre en exclusiva la ofensiva opositora, dejando espacio para un análisis neutral y profundo en Perfil.",
+      "por_que_importa": "Permite posicionar a Perfil como referente en el análisis constitucional de las medidas del Ejecutivo.",
+      "insight": "La estrategia parlamentaria busca capitalizar el fallo judicial sobre tierras para tensionar el paquete de desregulaciones.",
+      "accion_sugerida": "Entrevistar a especialistas en derecho administrativo sobre la viabilidad del rechazo parlamentario.",
       "enfoques_sugeridos": [
-        "Reportes automatizados de temperatura y alertas meteorológicas en principales urbes",
-        "Guías para viajeros argentinos en el exterior"
+        "El porqué jurídico de la disputa en torno a los decretos y leyes",
+        "Los números que maneja la oposición en el Congreso para frenar la normativa"
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 12,
+        "TN": 0,
         "Ámbito": 0,
-        "Página 12": 0,
+        "Página 12": 5,
         "El Cronista": 0
       },
-      "total_notas": 12,
+      "total_notas": 5,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 12,
-      "brecha": -12,
-      "brecha_formateada": "-12",
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 5,
+      "brecha": -5,
+      "brecha_formateada": "-5",
       "ejemplos": [
         {
-          "medio": "TN",
-          "titulo": "¿Cómo estará el clima en Phoenix este jueves 1 de octubre?",
-          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/01/como-estara-el-clima-en-phoenix-este-jueves-1-de-octubre/",
-          "imagen": ""
+          "medio": "Página 12",
+          "titulo": "La oposición juega a fondo para voltear el megaDNU que derogó la ley de Tierras",
+          "link": "https://www.pagina12.com.ar/2026/10/02/la-oposicion-juega-a-fondo-para-voltear-el-megadnu-que-derogo-la-ley-de-tierras/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HWRCOTHJTVCWFOMBYSVQSH7LDI.jpeg?auth=dabb7f6d8ac47c257d55847e9b851b6a45c90ad44b494f9bb39fb71bb428f1bc&amp;smart=true&amp;width=1600&amp;height=1066"
         },
         {
-          "medio": "TN",
-          "titulo": "¿Cómo estará el clima en Chicago este jueves 1 de octubre?",
-          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/01/como-estara-el-clima-en-chicago-este-jueves-1-de-octubre/",
-          "imagen": ""
+          "medio": "Página 12",
+          "titulo": "Tras el fallo que derogó la Ley de Tierras, la Corte intenta desmarcarse y hasta se victimiza",
+          "link": "https://www.pagina12.com.ar/2026/10/02/tras-el-fallo-que-derogo-la-ley-de-tierras-la-corte-intenta-desmarcarse-y-hasta-se-victimiza/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6N2EBH7M6ZAOHP7MJU2HAQX4AA.JPG?auth=21c68fbe2648de397a6d68ea32aab40d4d211bcfa78d97db171938cb45cf53cf&amp;smart=true&amp;width=3000&amp;height=2000"
         },
         {
-          "medio": "TN",
-          "titulo": "¿Cómo estará el clima en New York este jueves 1 de octubre?",
-          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/01/como-estara-el-clima-en-new-york-este-jueves-1-de-octubre/",
-          "imagen": ""
+          "medio": "Cronista",
+          "titulo": "Prepagas, alquileres y otras desregulaciones: qué podría pasar si el Congreso rechaza el DNU 70/23",
+          "link": "https://www.cronista.com/economia-politica/prepagas-alquileres-y-otras-desregulaciones-que-podria-pasar-si-el-congreso-rechaza-el-dnu-7023/",
+          "imagen": "https://www.cronista.com/resizer/v2/ZXP442M57NCQHKZEI7T7NNPM2I.jpg?auth=18f925788af6e7efd6b28b1add7f181e021c3c65251ccb5857566ed13ef8cb1c&smart=true&width=1200&height=900"
         }
       ]
     },
     {
-      "tema": "Reflexiones y estudios sobre la felicidad, vínculos y relaciones personales",
-      "tipo": "Google Discover y bienestar",
-      "motivo_oportunidad": "La Nación genera un alto volumen de notas con entrevistas a expertos internacionales en bienestar que traccionan muy bien en Discover.",
-      "tipo_de_oportunidad": "Contenido de bienestar emocional",
+      "tema": "Búsqueda de inversiones y relaciones exteriores del gobierno de Milei",
+      "tipo": "Oportunidad de política internacional",
+      "motivo_oportunidad": "Los viajes oficiales y la gira económica generan un volumen alto de notas institucionales con enfoques diversos.",
+      "por_que_importa": "Atrae a una audiencia interesada en la inserción geopolítica de la Argentina actual.",
+      "insight": "Se multiplican los anuncios de atracción de capitales y la llegada de funcionarios extranjeros al país.",
+      "accion_sugerida": "Evaluar la efectividad real de las misiones comerciales y el nuevo programa de ciudadanía por inversión.",
       "enfoques_sugeridos": [
-        "Consejos prácticos basados en la ciencia de Harvard para mejorar los vínculos",
-        "Claves psicológicas para gestionar el estrés y la soledad en la adultez"
+        "De París al país: la estrategia oficial para seducir capitales externos",
+        "La agenda de visitas internacionales y su correlato en la economía doméstica"
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 11,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 5,
+        "El Cronista": 0
+      },
+      "total_notas": 5,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 5,
+      "brecha": -5,
+      "brecha_formateada": "-5",
+      "ejemplos": [
+        {
+          "medio": "Página 12",
+          "titulo": "Los jueces que Milei escogió para salir a buscar inversiones",
+          "link": "https://www.pagina12.com.ar/2026/10/01/los-jueces-que-milei-escogio-para-salir-a-buscar-inversiones/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MJTIFRHAK5BCLKKB7XRFPYWCLU.jpg?auth=cafffe4702d2dfdfdc2e7086bbead44558f112d7ea0c3a092fdec72bcc6ea2ad&amp;smart=true&amp;width=2427&amp;height=1618"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Más relaciones carnales: JD Vance viene a la Argentina",
+          "link": "https://www.pagina12.com.ar/2026/10/01/mas-relaciones-carnales-jd-vance-viene-a-la-argentina/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LEYXQSWCWJHFTESNXSYD52WUJI.jpg?auth=529f151913d016f1262a1bd7d5cacee227a24faf7ac139783d190c5206303d7f&amp;smart=true&amp;width=4724&amp;height=3149"
+        },
+        {
+          "medio": "Cronista",
+          "titulo": "Ciudadanía por inversión: el Gobierno lanza un nuevo programa para atraer capitales extranjeros",
+          "link": "https://www.cronista.com/economia-politica/el-gobierno-anuncio-la-puesta-en-marcha-del-programa-de-ciudadania-por-inversion-de-argentina/",
+          "imagen": "https://www.cronista.com/resizer/v2/RWYD23VQIJGW5JKY2Y56V2TZXY.jpeg?auth=624578b2de4815dc461d790a2b2236651e722a6f498c274d64bcc206095b8f4b&smart=true&width=1200&height=900"
+        }
+      ]
+    },
+    {
+      "tema": "Entrevistas y reflexiones de Gabriel Rolón sobre la felicidad, los vínculos y el tiempo",
+      "tipo": "Oportunidad de audiencia y bienestar",
+      "motivo_oportunidad": "La Nación monopoliza las entrevistas de bienestar, un nicho con un rendimiento excepcional en redes sociales y Discover.",
+      "por_que_importa": "Los contenidos de psicología y reflexión personal garantizan métricas estables de lectura prolongada.",
+      "insight": "Las reflexiones sobre los vínculos y la superación personal tienen altísima viralidad en plataformas móviles.",
+      "accion_sugerida": "Producir notas de estilo de vida basadas en conceptos de salud mental y psicoanálisis cotidiano.",
+      "enfoques_sugeridos": [
+        "Por qué nos cuesta tanto aceptar la pérdida según los especialistas",
+        "Las claves para construir vínculos sanos en tiempos de inmediatez"
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 4,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -938,20 +563,20 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 11,
+      "total_notas": 4,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 11,
-      "brecha": -11,
-      "brecha_formateada": "-11",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Arthur Brooks, experto en felicidad de Harvard: “Las personas que son felices y saludables cuando son mayores tienen un matrimonio sólido o amistades cercanas”   ",
-          "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-experto-en-felicidad-de-harvard-las-personas-que-son-felices-y-saludables-cuando-son-nid28092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/B5TH4SG32FAUZD62D6F4LDJ5NE.JPG?auth=0bad2ebeb97aa2f66a932eaabe50607a09d47240007c279b3ad0c0bd7d6a7711&smart=true&width=706&height=821"
+          "titulo": "Gabriel Rolón: “Podemos alcanzar la faltacidad, la mezcla de falta y felicidad, que es una felicidad en falta” ",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-podemos-alcanzar-la-faltacidad-la-mezcla-de-falta-y-felicidad-que-es-una-felicidad-en-nid26092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333"
         },
         {
           "medio": "La Nación",
@@ -961,76 +586,30 @@
         },
         {
           "medio": "La Nación",
-          "titulo": "Tony Robbins, experto en crecimiento personal: “El enfoque en uno mismo crea sufrimiento” ",
-          "link": "https://www.lanacion.com.ar/sociedad/tony-robbins-experto-en-crecimiento-personal-el-enfoque-en-uno-mismo-crea-sufrimiento-nid29092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/OZLBN6BHMFFMXP3XAEK5BASKIA.jpeg?auth=ce0c147ecda3061caa539510e0eb1b72db2125b9c0a5a22814db1fdb9a1f7c49&smart=true&width=6720&height=4480"
+          "titulo": "Gabriel Rolón, psicoanalista: “Ese momento donde lo que fuiste, lo que querés ser y lo que temés coexisten es irrepetible”  ",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-ese-momento-donde-lo-que-fuiste-lo-que-queres-ser-y-lo-que-temes-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/TDKJATRGXRAJFIQFXKTLLR2OHE.jpg?auth=c4fd9e65cb26f2a321094d87e1134346afee2cef04bfcb69ce424ccef6870762&smart=true&width=800&height=600"
         }
       ]
     },
     {
-      "tema": "Gira internacional de Javier Milei por Europa y protestas en su contra",
-      "tipo": "Cobertura política alternativa",
-      "motivo_oportunidad": "Página 12 explota el flanco crítico de la gira presidencial con foco en las manifestaciones y el rechazo en Francia.",
-      "tipo_de_oportunidad": "Enfoque político crítico",
+      "tema": "Consejos médicos sobre longevidad, estrés y salud cardiovascular",
+      "tipo": "Oportunidad de salud y bienestar",
+      "motivo_oportunidad": "Tratado únicamente por La Nación, representa un flanco muy competitivo para captar tráfico orgánico de salud.",
+      "por_que_importa": "Los consejos de expertos en longevidad y prevención médica son altamente compartidos por rangos etarios maduros.",
+      "insight": "La preocupación por el estrés crónico y el cuidado del colesterol encabeza las búsquedas de bienestar.",
+      "accion_sugerida": "Desarrollar guías prácticas de prevención cardiovascular avaladas por especialistas locales.",
       "enfoques_sugeridos": [
-        "Crónica de las protestas sindicales y sociales durante la llegada de la comitiva",
-        "Análisis del impacto político de los discursos presidenciales en el exterior"
+        "El impacto silencioso del cortisol alto en el organismo",
+        "Hábitos cotidianos que alargan la expectativa de vida con buena salud"
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
+        "La Nación": 4,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
-        "Página 12": 9,
-        "El Cronista": 0
-      },
-      "total_notas": 9,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 9,
-      "brecha": -9,
-      "brecha_formateada": "-9",
-      "ejemplos": [
-        {
-          "medio": "Página 12",
-          "titulo": "Milei llevó a París su discurso de fantasía",
-          "link": "https://www.pagina12.com.ar/2026/10/01/milei-llevo-a-paris-su-discurso-de-fantasia/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/32BDJKAINJGSZH6NKKPSKJWXAM.jpg?auth=48f5601b7a73e91f79f1a5adada3c282424ac5b68d4d9f7e41a4ea919a241f6d&amp;smart=true&amp;width=1920&amp;height=1280"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Milei prometió ajuste para otros 40 años",
-          "link": "https://www.pagina12.com.ar/2026/10/01/milei-prometio-ajuste-para-otros-40-anos/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/EAZ5V75IOBCRXPVM6ZAS7PYZ54.jpg?auth=f0ce9c7117849551f59c0c82881a76631558d873c611a8b243f141cc9952b9c7&amp;smart=true&amp;width=2046&amp;height=1364"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Milei llegó a Francia, donde lo esperaba una marcha de protesta y repudio",
-          "link": "https://www.pagina12.com.ar/2026/10/01/milei-llego-a-francia-donde-lo-esperaba-una-marcha-de-protesta-y-repudio/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/S7JXGDIWYZGCXBUG7KWHVSO32A.jpg?auth=15b14b630b18eb78aa8be2cae4a71efb41b1a8d015c4c1d03ee4519d1e3c7243&amp;smart=true&amp;width=1483&amp;height=989"
-        }
-      ]
-    },
-    {
-      "tema": "Reglamentación y funcionamiento del Fondo de Cese Laboral (FAL) por parte de ARCA",
-      "tipo": "Información económica y laboral útil",
-      "motivo_oportunidad": "Ámbito y El Cronista detallan una norma clave de ARCA que interesa profundamente al sector empleador y pymes.",
-      "tipo_de_oportunidad": "Guía práctica laboral y fiscal",
-      "enfoques_sugeridos": [
-        "Paso a paso sobre cómo funcionarán los aportes patronales para despidos",
-        "Impacto del nuevo régimen en las negociaciones paritarias y la contratación"
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 4,
         "Página 12": 0,
         "El Cronista": 0
       },
@@ -1038,219 +617,227 @@
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 4,
       "brecha": -4,
       "brecha_formateada": "-4",
       "ejemplos": [
         {
-          "medio": "Ámbito",
-          "titulo": "ARCA reglamentó el FAL:  las claves del nuevo régimen que entra en vigencia el 1 de noviembre",
-          "link": "https://www.ambito.com/economia/arca-reglamento-el-fal-las-claves-del-nuevo-regimen-que-entra-vigencia-el-1ro-noviembre-n6328828",
-          "imagen": "https://media.ambito.com/p/a0a55d42ef8071ca97185392fd925993/adjuntos/239/imagenes/043/453/0043453800/impuestos-calculadora-numeros.jpg"
+          "medio": "La Nación",
+          "titulo": "Mario Boskis, experto en longevidad: “El estrés crónico activa la liberación de cortisol”",
+          "link": "https://www.lanacion.com.ar/sociedad/mario-boskis-experto-en-longevidad-el-estres-cronico-activa-la-liberacion-de-cortisol-nid01102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NKR5HHYBTFHORDZT2GR6IBRGKQ.jpg?auth=8464b02a7c706101f2b555741b3ac957ae148a5397d95627751097648f170a26&smart=true&width=960&height=640"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "Qué es el FAL y cómo funcionará el fondo para pagar indemnizaciones",
-          "link": "https://www.ambito.com/que-es-el-fal-y-como-funcionara-el-fondo-pagar-indemnizaciones-n6328817",
-          "imagen": "https://media.ambito.com/p/458719e9f91c2ec6bb5a9a655ba0f1e4/adjuntos/239/imagenes/043/408/0043408200/1200x675/smart/indemnizacion.jpg"
+          "medio": "La Nación",
+          "titulo": "El medicamento “estrella” para bajar el colesterol y por qué la dieta sola no alcanza",
+          "link": "https://www.lanacion.com.ar/sociedad/el-medicamento-estrella-para-bajar-el-colesterol-y-por-que-la-dieta-sola-no-alcanza-nid20092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/TPAWUD26IVBJ5P7JZCUMSWCIII.png?auth=3cc240b43a4ff97ee480d9b2344177db247573b17f467ec63e6cddb652f91126&smart=true&width=641&height=395"
         },
         {
-          "medio": "Cronista",
-          "titulo": "ARCA definió los detalles del FAL: cómo funcionarán los fondos para despidos",
-          "link": "https://www.cronista.com/economia-politica/arca-definio-los-detalles-del-fal-como-funcionaran-los-fondos-para-despidos/",
-          "imagen": "https://www.cronista.com/resizer/v2/UEJWJW335VDWRFRSGJFBLVHWUU.jpg?auth=6e6e3d008b8e01cda82a1a200333153903cbfc4c2fa292011fd8ed2018161e5f&smart=true&width=1200&height=900"
+          "medio": "La Nación",
+          "titulo": "Un cardiólogo reveló cuál es el mayor miedo que tienen sus pacientes y qué relación tiene con la presión arterial     ",
+          "link": "https://www.lanacion.com.ar/sociedad/un-cardiologo-revelo-cual-es-el-mayor-miedo-que-tienen-sus-pacientes-y-que-relacion-tiene-con-la-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/YH7K7NQJVBH7VFXJLJUO55ZJB4.jpg?auth=73a8ba25f4dc0955036da51209f9a35937e27df347aed45825cfc8b12b1edbcd&smart=true&width=5760&height=3840"
         }
       ]
     },
     {
-      "tema": "Construcción y costos de casas prefabricadas y alternativas en Argentina",
-      "tipo": "SEO inmobiliario y de servicios",
-      "motivo_oportunidad": "La Nación cubre un nicho de altísima demanda en SEO sobre costos de vivienda, materiales alternativos y permisos municipales.",
-      "tipo_de_oportunidad": "Contenido utilitario inmobiliario",
+      "tema": "Actividad empresaria y presencia política en el Coloquio IDEA",
+      "tipo": "Oportunidad de agenda económica",
+      "motivo_oportunidad": "La cobertura se concentra en medios económicos y alternativos, dejando espacio para un análisis político global.",
+      "por_que_importa": "El pulso del empresariado marca el termómetro de las expectativas hacia el modelo económico.",
+      "insight": "Los principales referentes políticos despliegan su discurso ante el círculo rojo industrial.",
+      "accion_sugerida": "Realizar una crónica de color y síntesis de las demandas principales del sector empresario.",
       "enfoques_sugeridos": [
-        "Comparativa de costos entre steel frame, construcción modular y obra tradicional",
-        "Guía de habilitaciones y normativas municipales en el conurbano bonaerense"
+        "Las tres posturas del empresariado frente al rumbo de los próximos años",
+        "El operativo seducción de la política en el principal foro corporativo"
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 3,
+        "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
-        "Página 12": 0,
+        "Página 12": 4,
         "El Cronista": 0
       },
-      "total_notas": 3,
+      "total_notas": 4,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "En qué municipios del conurbano se puede instalar una casa prefabricada: permisos, costos y trabas",
-          "link": "https://www.lanacion.com.ar/propiedades/en-que-municipios-del-conurbano-se-puede-instalar-una-casa-prefabricada-permisos-costos-y-trabas-nid28092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/2YCNTSCGFZDSJK7NQR3ZLKL5IY.jpg?auth=b4ca4f99b25b7d9ca92bbd1b7ef1d445d176f35db6331cb211f99fb07063a921&smart=true&width=2000&height=1333"
+          "medio": "Página 12",
+          "titulo": "De local en IDEA",
+          "link": "https://www.pagina12.com.ar/2026/10/01/de-local-en-idea/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/IH62GFUZCJEO5CRU2P3PERG2SE.jpg?auth=813c46406adf4d04f02111b5fa2e6f28db8904cb8d400565a65075342420b66a&amp;smart=true&amp;width=1587&amp;height=1058"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Container, steel frame o prefabricada: cuál conviene para una casa de 60 m² y cuánto cuesta cada sistema",
-          "link": "https://www.lanacion.com.ar/propiedades/container-steel-frame-o-prefabricada-cual-conviene-para-una-casa-de-60-m-y-cuanto-cuesta-cada-nid25092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/OQ6CZ5DLE5G77F53O4REX4GIDQ.jpg?auth=70511104204ee5a9507244d15c3c3e63f363317b1ee130f464d26f75740fe508&smart=true&width=1000&height=600"
+          "medio": "Página 12",
+          "titulo": "Bullrich, de campaña y seduciendo al capital",
+          "link": "https://www.pagina12.com.ar/2026/10/01/bullrich-de-campana-y-seduciendo-al-capital/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/5D3PGF7LMVF3NPOFB4EYGGKWFM.jpg?auth=4f15144403fae972e9fde30892fe47be66f62720fdd7a31ab19dcd8af4089f8d&amp;smart=true&amp;width=1508&amp;height=1006"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Casas prefabricadas chinas en Argentina: cuánto cuestan y dónde se consiguen",
-          "link": "https://www.lanacion.com.ar/propiedades/construccion-y-diseno/casas-prefabricadas-chinas-en-argentina-cuanto-cuestan-y-donde-se-consiguen-nid26092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/62JOHWRWLNFUNILJD7Q44KDXRY.jpg?auth=c40e922d24c8b2bcd5804e09502380f63d6ba4cd27a40e2631e53f80225789c6&smart=true&width=2000&height=1333"
+          "medio": "Cronista",
+          "titulo": "El coloquio industrial de Pato Bullrich y los 3 tipos de empresarios en IDEA",
+          "link": "https://www.cronista.com/economia-politica/el-coloquio-industrial-de-bullrich-y-los-3-tipos-de-empresarios-en-idea/",
+          "imagen": "https://www.cronista.com/resizer/v2/YXPSETM2U5FRJD3FD5EG64T6EM.JPG?auth=8bc8b70ccef946b138c480c730404aa681645d7d2024a4346dff1d6c5be5ab30&smart=true&width=1200&height=900"
         }
       ]
     }
   ],
   "prioridades_del_dia": [
     {
-      "tema": "Fallo de la Corte Suprema sobre la Ley de Tierras y la extranjerización",
+      "tema": "Elecciones en Brasil y análisis de la situación política",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Es un tema de máxima relevancia institucional y económica que moviliza a la política nacional y genera fuerte debate jurídico.",
-      "insight": "La cobertura está polarizada entre el descargo institucional del tribunal y las críticas del peronismo que prepara acciones legislativas.",
-      "accion_sugerida": "Publicar un análisis de impacto económico sobre las restricciones a la propiedad rural y las consecuencias para la inversión extranjera.",
+      "por_que_importa": "El proceso electoral en el principal socio comercial del Mercosur impacta de manera directa en la economía y la agenda geopolítica argentina.",
+      "insight": "Casi todos los grandes portales siguen minuto a minuto los sondeos y el clima de tensión judicial en la recta final.",
+      "accion_sugerida": "Profundizar en el impacto cambiario y bursátil que tendría un triunfo de cada uno de los candidatos en los activos argentinos.",
       "enfoques_sugeridos": [
-        "Análisis constitucional del alcance procesal del fallo de la Corte",
-        "Repercusiones en el arco político y económico tras la aclaración del tribunal"
+        "El impacto del balotaje brasileño en el comercio bilateral y el Mercosur",
+        "Radiografía de la polarización: encuestas y estrategias de última hora"
       ],
       "cobertura": {
-        "Perfil": 3,
-        "La Nación": 1,
-        "Clarín": 1,
+        "Perfil": 1,
+        "La Nación": 2,
+        "Clarín": 3,
         "Infobae": 0,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 3,
-        "Página 12": 5,
+        "Página 12": 3,
         "El Cronista": 0
       },
-      "total_notas": 14,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 5,
-      "cobertura_perfil": 3,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 5,
+      "total_notas": 12,
+      "cantidad_medios": 5,
+      "cantidad_competidores": 4,
+      "cobertura_perfil": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 3,
       "brecha": -2,
       "brecha_formateada": "-2",
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "La Corte Suprema responde por la Ley de Tierras: \"La descalificación y el odio sólo deterioran las instituciones y la democracia\"",
-          "link": "https://www.perfil.com/noticias/politica/corte-responde-a-las-criticas-por-la-ley-de-tierras-la-descalificacion-y-el-odio-solo-deterioran-las-instituciones-y-la-democracia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/04/15/trim/540/304/corte-suprema-de-justicia-de-la-nacion-2220761.jpg"
+          "medio": "La Nación",
+          "titulo": "Elecciones Brasil 2026, EN VIVO: encuestas, dónde voto en Argentina y las últimas noticias este viernes 2 de octubre",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-encuestas-donde-voto-en-argentina-y-las-ultimas-noticias-este-viernes-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/664JMP7FNJH73FFAZIFZGPKLNU.JPG?auth=e8571b353992bdd4e7f105a5e024d63da86ac826c95b8ce6d444bcfd392a1e6b&smart=true&width=2000&height=1333"
         },
         {
           "medio": "Clarín",
-          "titulo": "Venta de tierras a extranjeros: la Corte Suprema aclaró que su polémico fallo fue sobre un tema procesal y no por el fondo de la cuestión",
-          "link": "https://www.clarin.com/politica/venta-tierras-extranjeros-corte-suprema-aclaro-polemico-fallo-tema-procesal-fondo-cuestion_0_fq4IfWN5di.html",
-          "imagen": "https://www.clarin.com/img/2025/06/10/WvPJF-aHT_1200x630__1.jpg"
+          "titulo": "Panorama internacional: Quién gana o pierde en las elecciones brasileñas",
+          "link": "https://www.clarin.com/mundo/panorama-internacional-gana-pierde-elecciones-brasilenas_0_sU8DEKKid4.html",
+          "imagen": "https://www.clarin.com/img/2026/10/01/DcP5O7kJH_1200x630__1.jpg"
         },
         {
           "medio": "Página 12",
-          "titulo": "El peronismo prepara una sesión en Diputados para frenar la extranjerización de la tierra",
-          "link": "https://www.pagina12.com.ar/2026/10/01/el-peronismo-prepara-una-sesion-en-diputados-para-frenar-la-extranjerizacion-de-la-tierra/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/DFQ5DORM7JBIRA3BZPTKMCUOFQ.jpeg?auth=4353084056f8860ee65a773932a983866738953834330203cffd4c018d2dbcdd&amp;smart=true&amp;width=1600&amp;height=1066"
+          "titulo": "La justicia electoral interviene contra publicaciones falsas sobre Lula y Flávio Bolsonaro",
+          "link": "https://www.pagina12.com.ar/2026/10/01/la-justicia-electoral-interviene-contra-publicaciones-falsas-sobre-lula-y-flavio-bolsonaro/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UXHMSQVYYRAGZFB3NWZO5XO2RM.jpg?auth=54c64718161c0a6c9d0534233e51490157047f71c99debc631930341d37595da&amp;smart=true&amp;width=3333&amp;height=2222"
         }
       ]
     },
     {
-      "tema": "Cotización del dólar oficial y dólar blue en Argentina",
+      "tema": "Pronóstico del clima y alertas meteorológicas",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Constituye la información financiera de consulta obligatoria y diaria con mayor tráfico orgánico en buscadores.",
-      "insight": "Ámbito y TN concentran la mayor cantidad de notas con actualizaciones minuto a minuto diaras de las distintas cotizaciones cambiarias.",
-      "accion_sugerida": "Implementar un desarrollo propio de cotizaciones en tiempo real para capturar el tráfico de búsqueda financiera.",
+      "por_que_importa": "Es un contenido de altísimo rendimiento en Google Discover y búsquedas de última hora para toda la audiencia nacional.",
+      "insight": "TN y El Cronista dominan por completo el tráfico con coberturas locales y alertas del Servicio Meteorológico Nacional.",
+      "accion_sugerida": "Incorporar un servicio permanente de alertas meteorológicas y pronóstico extendido optimizado para SEO diario.",
       "enfoques_sugeridos": [
-        "Seguimiento diario de la brecha cambiaria y reservas del Banco Central",
-        "Análisis del comportamiento del mercado minorista al inicio del mes"
+        "Alerta amarilla por tormentas: qué provincias están en la mira",
+        "Cómo afectará el frente de inestabilidad al fin de semana largo"
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 3,
-        "Ámbito": 7,
+        "TN": 22,
+        "Ámbito": 1,
         "Página 12": 1,
         "El Cronista": 0
       },
-      "total_notas": 11,
+      "total_notas": 24,
       "cantidad_medios": 3,
       "cantidad_competidores": 3,
       "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 7,
-      "brecha": -7,
-      "brecha_formateada": "-7",
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 22,
+      "brecha": -22,
+      "brecha_formateada": "-22",
       "ejemplos": [
         {
           "medio": "TN",
-          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 1 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/01/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-1-de-octubre/",
-          "imagen": ""
+          "titulo": "Hay alerta amarilla por tormentas y lluvias fuertes en 9 provincias para hoy, viernes 2 de octubre ",
+          "link": "https://tn.com.ar/sociedad/2026/10/02/hay-alerta-amarilla-por-tormentas-y-lluvias-fuertes-en-9-provincias-para-hoy-viernes-2-de-octubre/",
+          "imagen": "https://tn.com.ar/resizer/v2/4GMSGESC2NDRDHI2WB6SBKXOAY.png?auth=8b4b2976c548efabedf6450a9f0e987e444ee3251a21d79b4386bf9a0ffc9397"
         },
         {
           "medio": "Ámbito",
-          "titulo": "Dólar blue hoy: a cuánto opera este jueves 1 de octubre",
-          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-jueves-1-octubre-n6328731",
-          "imagen": "https://media.ambito.com/p/a348a9e8530044da166c252ba6ef7dad/adjuntos/239/imagenes/042/772/0042772189/dolar-blue-mercados-finanzas-inversiones.jpg"
+          "titulo": "Sábado 3 de octubre, peregrinación a Luján 2026 bajo agua: cómo estará el clima este fin de semana",
+          "link": "https://www.ambito.com/informacion-general/sabado-3-octubre-peregrinacion-lujan-2026-agua-como-estara-el-clima-este-fin-semana-n6329314",
+          "imagen": "https://media.ambito.com/p/f10d95d9ba36785bc9314c868045fc07/adjuntos/239/imagenes/042/032/0042032115/1200x675/1154x872:1174x892/basilica-de-lujanjpg.jpg"
         },
         {
-          "medio": "Página 12",
-          "titulo": "Dólar blue, dólar hoy: a cuánto cotizan el jueves 1 de octubre de 2026",
-          "link": "https://www.pagina12.com.ar/2026/10/01/dolar-blue-dolar-hoy-a-cuanto-cotizan-el-jueves-1-de-octubre-de-2026/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GI3TOZRTGYYWMNRRGYZDGN3FMM.jpg?auth=16de8d85ac3b64804c909751646fe8d9df3b410ed42f8b012486122f6ee41b3d&amp;smart=true&amp;width=5664&amp;height=3186"
+          "medio": "Cronista",
+          "titulo": "Cambia el pronóstico y hay alerta por tormentas en el AMBA: qué día lloverá y cuándo mejorará el clima",
+          "link": "https://www.cronista.com/informacion-gral/cambia-el-pronostico-y-hay-alerta-por-tormentas-en-el-amba-que-dia-llovera-y-cuando-mejorara-el-clima/",
+          "imagen": "https://www.cronista.com/resizer/v2/H6EAPPZ5LJEBJD4WRW474KP7OA.jpg?auth=7c20bc631f8c3fa18d0cd18c40251706704ed2611ceb16967743f9ee63c32af5&smart=true&width=1200&height=900"
         }
       ]
     },
     {
-      "tema": "Inversiones millonarias de TotalEnergies en Vaca Muerta y Tierra del Fuego",
+      "tema": "Ataque a un piloto en un vuelo de FlyDubai y aterrizaje de emergencia",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Trata sobre el motor energético del país y las grandes inversiones bajo el régimen de incentivos, clave para el lector de economía.",
-      "insight": "Ámbito lidera la cobertura destacando los anuncios del CEO de la compañía francesa, mientras Perfil cuenta con menor despliegue.",
-      "accion_sugerida": "Ampliar la cobertura con un informe sobre el impacto de estas inversiones en la balanza comercial y la producción de gas.",
+      "por_que_importa": "Es uno de los hechos internacionales de mayor viralidad y consumo en redes de la jornada, un terreno donde Perfil no puede ceder terreno.",
+      "insight": "La competencia volcó múltiples actualizaciones con declaraciones en exclusiva del piloto y análisis de seguridad aérea.",
+      "accion_sugerida": "Publicar un perfil detallado sobre los protocolos de seguridad en cabina y los antecedentes de incidentes similares.",
       "enfoques_sugeridos": [
-        "El impacto del RIGI en los proyectos hidrocarburíferos de la Patagonia",
-        "Perspectivas de giro de dividendos y confianza empresaria en el sector"
+        "Cómo reaccionó la tripulación ante el ataque en pleno vuelo a Israel",
+        "Los vacíos en los controles de salud mental para pilotos comerciales"
       ],
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
+        "La Nación": 3,
+        "Clarín": 1,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 3,
+        "TN": 1,
+        "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 1,
+      "total_notas": 6,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
       "cobertura_perfil": 1,
-      "medio_lider": "Ámbito",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 3,
       "brecha": -2,
       "brecha_formateada": "-2",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "TotalEnergies anunció inversiones millonarias en Argentina con nuevos desarrollos en Vaca Muerta y Tierra del Fuego",
-          "link": "https://www.perfil.com/noticias/economia/totalenergies-prepara-inversiones-millonarias-argentina-proyecta-nuevos-desarrollos-vaca-muerta-tierra-del-fuego-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/23/trim/540/304/vaca-muerta-2332668.jpg"
+          "titulo": "\"No podía dejar morir a toda esa gente\": el piloto apuñalado en el vuelo de FlyDubai habló con el presidente de la India",
+          "link": "https://www.perfil.com/noticias/internacional/no-podia-dejar-morir-a-toda-esa-gente-el-piloto-apunalado-en-el-vuelo-de-flydubai-hablo-con-el-presidente-de-la-india.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/02/trim/540/304/piloto-indio-smit-machchhar-y-el-presidente-narendra-modi-2339098.jpg"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "TotalEnergies anunció inversiones por casi u$s10.000 millones y su CEO destacó poder girar dividendos en Argentina",
-          "link": "https://www.ambito.com/energia/totalenergies-anuncio-inversiones-casi-us10000-millones-y-su-ceo-destaco-poder-girar-dividendos-argentina-n6328790",
-          "imagen": "https://media.ambito.com/p/fc88fcc5704c5a39aefa0c418d7735b4/adjuntos/239/imagenes/043/096/0043096011/patrick-pouyanne-ceo-totalenergies.png"
+          "medio": "La Nación",
+          "titulo": "Un analista internacional explicó en detalle qué pasó con el avión de Flydubai, que aterrizó de emergencia en Arabia Saudita, y la hipótesis más relevante ",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-que-paso-con-el-avion-de-flydubai-que-aterrizo-de-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/SXIWGGPV4FAP3O3NDS456J5F3Q.jpg?auth=7a5b45fe1676bd6139559f15d4f4a7a0cd50b89cb88e199ba18f41a7fc05da9b&smart=true&width=1360&height=910"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El piloto indio de Flydubai contó cómo sobrevivió al ataque de su copiloto durante el vuelo a Israel ",
+          "link": "https://tn.com.ar/internacional/2026/10/02/el-piloto-indio-de-flydubai-conto-como-sobrevivio-al-ataque-de-su-copiloto-durante-el-vuelo-a-israel/",
+          "imagen": "https://tn.com.ar/resizer/v2/2IYZHJAOVRHSFB4UUNIPZWLWRY.jpg?auth=a8e3d4760abed6ceefd0a93073d04a2d01eaf64b6ff6629f70c4dde36b863dba"
         }
       ]
     }
