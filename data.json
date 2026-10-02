@@ -4,12 +4,12 @@
     {
       "tema": "Viaje y actividades de Javier Milei en París",
       "tipo": "hipercompetencia",
-      "por_que_importa": "La gira presidencial y la atracción de inversiones mineras y energéticas impactan de lleno en la agenda económica y política que Perfil debe cubrir exhaustivamente para su audiencia.",
-      "insight": "La cobertura está masificada entre los principales competidores con un fuerte foco en los anuncios del RIGI, lo que demuestra que la agenda oficial en el exterior tracciona alto volumen de tráfico en Search.",
-      "accion_sugerida": "Ampliar el alcance analizando las repercusiones fiscales y provinciales específicas de los proyectos anunciados para diferenciarse del mero anuncio oficial.",
+      "por_que_importa": "La gira presidencial y los anuncios económicos en Europa impactan de forma directa en las expectativas financieras y las relaciones bilaterales de la Argentina.",
+      "insight": "La cobertura está masificada y distribuida de manera pareja entre los principales medios, lo que indica que el mercado informativo exige volumen y velocidad en cada anuncio internacional.",
+      "accion_sugerida": "Desarrollar un análisis financiero cruzado que detalle el impacto real de los anuncios en las cuentas provinciales para diferenciarse del flujo general de anuncios.",
       "enfoques_sugeridos": [
-        "Impacto detallado de los proyectos de inversión en las economías regionales de las provincias involucradas.",
-        "Lectura política de la comitiva de gobernadores que acompañaron al Presidente en territorio europeo."
+        "El impacto macroeconómico y regional de los convenios firmados en Europa",
+        "La trastienda política de los encuentros bilaterales y la agenda de los gobernadores"
       ],
       "cobertura": {
         "Perfil": 6,
@@ -43,22 +43,22 @@
           "imagen": "https://resizer.glanacion.com/resizer/v2/G65AW4S2QJGALPC2SHJZ6NVVKY.png?auth=e9ad4f086d78f148e9b11a08f7b15c93aa4f3b7351665d00aacf44a109f8020f&smart=true&width=1246&height=826"
         },
         {
-          "medio": "TN",
-          "titulo": "Desde París, el Gobierno anunció la aprobación de dos proyectos RIGI por US$16.500 millones para Vaca Muerta y la minería de cobre",
-          "link": "https://tn.com.ar/politica/2026/10/02/desde-paris-luis-caputo-anuncio-la-aprobacion-de-un-nuevo-rigi-por-us12500-millones-en-vaca-muerta/",
-          "imagen": ""
+          "medio": "Ámbito",
+          "titulo": "En el último día de Argentina Week, Caputo anunció Programa de Ciudadanía por Inversión de Argentina",
+          "link": "https://www.ambito.com/economia/en-el-ultimo-dia-argentina-week-caputo-anuncio-programa-ciudadania-inversion-argentina-n6329265",
+          "imagen": "https://media.ambito.com/p/ce03107ceb8f3085098a2985327ec053/adjuntos/239/imagenes/043/679/0043679422/1200x675/578x366:598x386/caputo-y-santilli-paris.jpeg"
         }
       ]
     },
     {
       "tema": "Cotización del dólar blue y tipo de cambio",
       "tipo": "hipercompetencia",
-      "por_que_importa": "El comportamiento del tipo de cambio es un servicio esencial de alta sensibilidad para el lector de Perfil que busca información financiera al instante.",
-      "insight": "Existe una saturación de coberturas minuto a minuto liderada por medios financieros especializados, lo que obliga a encontrar ángulos de análisis más profundos que la simple tabla de cotizaciones.",
-      "accion_sugerida": "Desarrollar una nota de análisis sobre la tendencia semanal y el comportamiento de las diferentes brechas cambiarias frente a la macroeconomía.",
+      "por_que_importa": "El seguimiento diario del mercado cambiario es un servicio esencial para la audiencia de Perfil interesada en la economía cotidiana y los activos financieros.",
+      "insight": "La alta concentración de notas en medios especializados muestra que la competencia compite fuertemente por el liderazgo en search mediante coberturas minuto a minuto.",
+      "accion_sugerida": "Optimizar los títulos y subtítulos con datos precisos de las brechas cambiarias para captar tráfico orgánico de última hora.",
       "enfoques_sugeridos": [
-        "Proyección del tipo de cambio oficial y su convergencia con las expectativas de la City para el cierre de mes.",
-        "Análisis del impacto de las cotizaciones paralelas en el poder adquisitivo y los contratos vigentes."
+        "El comportamiento de los dólares financieros frente al oficial en la última rueda",
+        "La lectura de los analistas sobre la estabilidad cambiaria de corto plazo"
       ],
       "cobertura": {
         "Perfil": 2,
@@ -102,12 +102,12 @@
     {
       "tema": "Elecciones presidenciales en Brasil y encuestas",
       "tipo": "hipercompetencia",
-      "por_que_importa": "El proceso electoral en el principal socio comercial de Argentina define el escenario geopolítico y comercial regional, un tema central para la sección internacional de Perfil.",
-      "insight": "La alta concentración de notas sobre sondeos y decisiones judiciales refleja un interés sostenido de la audiencia por los vaivenes políticos del vecino país.",
-      "accion_sugerida": "Publicar un panorama económico sobre cómo impacta el escenario electoral brasileño en los activos financieros argentinos y el Mercosur.",
+      "por_que_importa": "El resultado electoral en el principal socio comercial de la Argentina condiciona de manera directa el futuro del Mercosur y la política exterior nacional.",
+      "insight": "Existe una fuerte polarización en la agenda internacional que obliga a ofrecer contextos analíticos más allá de la mera publicación de sondeos.",
+      "accion_sugerida": "Publicar un informe especial sobre las consecuencias comerciales para las exportaciones argentinas según el candidato ganador.",
       "enfoques_sugeridos": [
-        "Radiografía de los principales candidatos y su nivel de rechazo en la recta final hacia el balotaje.",
-        "Consecuencias comerciales para la exportación argentina según el resultado de los comicios."
+        "El impacto financiero de los sondeos en los activos argentinos vinculados a Brasil",
+        "Las restricciones judiciales y la tensión institucional en la recta final de la campaña"
       ],
       "cobertura": {
         "Perfil": 1,
@@ -136,9 +136,9 @@
         },
         {
           "medio": "La Nación",
-          "titulo": "Elecciones Brasil 2026, EN VIVO: encuestas, dónde voto en Argentina y las últimas noticias este viernes 2 de octubre",
-          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-encuestas-donde-voto-en-argentina-y-las-ultimas-noticias-este-viernes-nid02102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/664JMP7FNJH73FFAZIFZGPKLNU.JPG?auth=e8571b353992bdd4e7f105a5e024d63da86ac826c95b8ce6d444bcfd392a1e6b&smart=true&width=2000&height=1333"
+          "titulo": "Lula gana terreno en una encuesta, pero el balotaje con Bolsonaro sigue en empate técnico",
+          "link": "https://www.lanacion.com.ar/el-mundo/lula-gana-terreno-en-una-encuesta-pero-el-balotaje-con-bolsonaro-sigue-en-empate-tecnico-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/M6HOYGTKAZHGFJHLHC2XNFYUX4.JPG?auth=780aaeee4def831a22f783e0a81fe3ca2f62f65c13881dd053b58eb2d683753e&smart=true&width=6192&height=4128"
         },
         {
           "medio": "Ámbito",
@@ -147,18 +147,116 @@
           "imagen": "https://media.ambito.com/p/ea03beb27e217bead2fcd34061845d95/adjuntos/239/imagenes/043/552/0043552911/1200x675/smart/elecciones-brasil.png"
         }
       ]
+    },
+    {
+      "tema": "Rechazo legislativo y judicial al DNU que derogó la Ley de Tierras",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "La revisión de las normas estructurales del Poder Ejecutivo en el Congreso y la Justicia marca el pulso de la gobernabilidad y el modelo económico.",
+      "insight": "La competencia concentra su atención en las consecuencias jurídicas y políticas, un segmento donde Perfil registra una ausencia total en este corte.",
+      "accion_sugerida": "Elaborar una guía explicativa sobre qué artículos específicos volverían a entrar en vigencia en caso de un revés parlamentario.",
+      "enfoques_sugeridos": [
+        "El mapa de votos en Diputados y las negociaciones de última hora",
+        "El conflicto de competencias entre el fallo judicial y las facultades del Congreso"
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 3,
+        "Página 12": 8,
+        "El Cronista": 0
+      },
+      "total_notas": 11,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 8,
+      "brecha": -8,
+      "brecha_formateada": "-8",
+      "ejemplos": [
+        {
+          "medio": "Ámbito",
+          "titulo": "DNU 70/2023: qué regulaciones podrían volver a regir si Diputados lo rechaza",
+          "link": "https://www.ambito.com/politica/dnu-702023-que-regulaciones-podrian-volver-regir-si-diputados-lo-rechaza-n6329253",
+          "imagen": "https://media.ambito.com/p/62bd8158a7f0169321981761586621f4/adjuntos/239/imagenes/041/641/0041641399/milei-y-federico-sturzeneggerjpeg.jpeg"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "La oposición juega a fondo para voltear el megaDNU que derogó la ley de Tierras",
+          "link": "https://www.pagina12.com.ar/2026/10/02/la-oposicion-juega-a-fondo-para-voltear-el-megadnu-que-derogo-la-ley-de-tierras/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HWRCOTHJTVCWFOMBYSVQSH7LDI.jpeg?auth=dabb7f6d8ac47c257d55847e9b851b6a45c90ad44b494f9bb39fb71bb428f1bc&amp;smart=true&amp;width=1600&amp;height=1066"
+        },
+        {
+          "medio": "Cronista",
+          "titulo": "Prepagas, alquileres y otras desregulaciones: qué podría pasar si el Congreso rechaza el DNU 70/23",
+          "link": "https://www.cronista.com/economia-politica/prepagas-alquileres-y-otras-desregulaciones-que-podria-pasar-si-el-congreso-rechaza-el-dnu-7023/",
+          "imagen": "https://www.cronista.com/resizer/v2/ZXP442M57NCQHKZEI7T7NNPM2I.jpg?auth=18f925788af6e7efd6b28b1add7f181e021c3c65251ccb5857566ed13ef8cb1c&smart=true&width=1200&height=900"
+        }
+      ]
+    },
+    {
+      "tema": "Crisis política en España por plan y decretos de vivienda",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "La inestabilidad institucional en un país clave de Europa repercute en el escenario político internacional y genera alto interés en la audiencia global.",
+      "insight": "La cobertura de los portales de noticias es intensiva y en tiempo real, reflejando el atractivo de las crisis europeas para el consumo digital.",
+      "accion_sugerida": "Construir un resumen cronológico que detalle los factores económicos y sociales que aceleraron el quiebre de la alianza de gobierno.",
+      "enfoques_sugeridos": [
+        "El impacto de la crisis habitacional en la gobernabilidad de Pedro Sánchez",
+        "Las repercusiones económicas del rechazo a los subsidios y alquileres"
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 6,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 2,
+        "El Cronista": 0
+      },
+      "total_notas": 10,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 4,
+      "cobertura_perfil": 0,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 6,
+      "brecha": -6,
+      "brecha_formateada": "-6",
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Pedro Sánchez recibe un revés en el Congreso para su plan de vivienda y su gobierno queda al borde del precipicio",
+          "link": "https://www.lanacion.com.ar/el-mundo/pedro-sanchez-recibe-un-reves-en-el-congreso-para-su-plan-de-vivienda-y-queda-al-borde-del-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/Q2GBUXG7WZEIVDYFF3QWROMQJI.jpg?auth=a777f7d6f6889dcd674219ef1f5de283e42b6db157cbbfa2bf19d862267d3d9d&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Votación de los decretos de vivienda, en directo: el ‘no’ de Junts tumba las medidas y Sánchez dice que “la historia les juzgará”",
+          "link": "https://www.infobae.com/espana/2026/10/02/votacion-de-los-decretos-maricarmen-de-vivienda-en-directo-sanchez-reta-a-junts-pp-y-vox-y-la-acampada-de-sol-se-traslada-al-congreso/",
+          "imagen": "https://www.infobae.com/resizer/v2/J4BB62P4Y5GOJKVKWBO5NF5JXA.JPG?auth=1e7f989bee3aa9ab3c76d1d4a180f21b8fcd7dbb509eee3185fc83ba947497fd&smart=true&width=6000&height=4000"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Junts tumba los decretos de vivienda, revienta la legislatura y empuja a Sánchez a considerar las elecciones generales",
+          "link": "https://www.infobae.com/espana/2026/10/02/junts-tumba-los-decretos-de-vivienda-revienta-la-legislatura-y-empuja-a-sanchez-a-considerar-las-elecciones-generales/",
+          "imagen": "https://www.infobae.com/resizer/v2/QFGH6VWONND5PH4ORE2ECMY6IM.jpg?auth=a73b9399aa3ddab3ea492219f52dc506e208e18cf22cadd0df3fcb482dc0b4a1&smart=true&width=1920&height=1280"
+        }
+      ]
     }
   ],
   "perfil_pierde": [
     {
       "tema": "Femicidio de Aixa en Tigre",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Los casos policiales de gran repercusión pública generan picos masivos de audiencia en Google Discover y buscadores, donde Perfil está perdiendo volumen frente a competidores directos.",
-      "insight": "La competencia destina múltiples actualizaciones y coberturas al seguimiento de las pruebas y la reacción vecinal, superando ampliamente la presencia de Perfil en el tema.",
-      "accion_sugerida": "Realizar una cobertura de seguimiento judicial y cronológico detallando el avance de la fiscalía sobre el sospechoso.",
+      "tipo": "perfiler_pierde",
+      "por_que_importa": "Los casos policiales de gran impacto social generan altos picos de audiencia y traccionan de forma inmediata en buscadores y redes.",
+      "insight": "Los competidores directos duplican o triplican el volumen de notas con actualizaciones de pruebas y testimonios, desplazando la primicia de Perfil.",
+      "accion_sugerida": "Realizar una cobertura de seguimiento enfocada en las pericias técnicas y los avances en la investigación judicial.",
       "enfoques_sugeridos": [
-        "Recuento de las evidencias clave presentadas por los investigadores en el expediente.",
-        "Análisis de los protocolos de seguridad y antecedentes en casos de violencia de género en la zona norte."
+        "El análisis criminológico de las pruebas clave presentadas por la fiscalía",
+        "Las medidas de seguridad y la respuesta institucional en la zona del hecho"
       ],
       "cobertura": {
         "Perfil": 1,
@@ -186,28 +284,28 @@
           "imagen": "https://fotos.perfil.com/2026/10/02/trim/540/304/femicidio-de-aixa-dana-mili-2339143.jpg"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Femicidio de Aixa Mili: cómo se logró ubicar a Alejandra Sofía y qué evidencias tienen en su contra",
-          "link": "https://www.lanacion.com.ar/seguridad/femicidio-de-aixa-mili-como-se-logro-ubicar-a-alejandra-sofia-y-que-evidencias-tienen-en-su-contra-nid02102026/",
-          "imagen": ""
-        },
-        {
           "medio": "TN",
           "titulo": "El misterio de la perrita que apareció muerta en la casa donde ocurrió el femicidio de San Juan",
           "link": "https://tn.com.ar/policiales/2026/10/02/el-misterio-de-la-perrita-que-aparecio-muerta-en-la-casa-donde-ocurrio-el-femicidio-de-san-juan/",
           "imagen": "https://tn.com.ar/resizer/v2/MK6PPDL7QFD2LFTZLECFFRN2EY.png?auth=8f564f943464db78469ca180d5a6530186243641d3a3c0e1d3835bb9f7f99152"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Detuvieron a Alejandro Sofía, el acusado por el femicidio de Aixa en Tigre",
+          "link": "https://www.pagina12.com.ar/2026/10/01/detuvieron-a-alejandro-sofia-el-acusado-por-el-femicidio-de-aixa-en-tigre/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/FG33HX4HXVDXTDFTBFHSM2NSXA.jpg?auth=77f7f9524f5b22c3536dd57bf82804693cb517a32d7da809db7c44ae072dd737&amp;smart=true&amp;width=1063&amp;height=708"
         }
       ]
     },
     {
       "tema": "Incidente y agresión en el vuelo de Flydubai",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Las historias de alto impacto internacional y supervivencia en vuelos comerciales poseen un alto potencial viral en redes sociales y buscadores.",
-      "insight": "La Nación y Clarín centralizan la agenda con múltiples enfoques sobre los protocolos de seguridad aérea, dejando a Perfil con una cobertura testimonial aislada.",
-      "accion_sugerida": "Producir una crónica perfilada en la palabra del piloto y los testimonios de pasajeros que revele los vacíos en los controles de cabina.",
+      "tipo": "perfiler_pierde",
+      "por_que_importa": "Las historias de supervivencia y tensión extrema en vuelos internacionales poseen un alto atractivo viral para Google Discover.",
+      "insight": "La Nación lidera con holgura la cobertura explotando perfiles humanos y detalles técnicos sobre la seguridad aeronáutica.",
+      "accion_sugerida": "Ampliar el enfoque hacia los protocolos internacionales de seguridad para la tripulación en cabinas comerciales.",
       "enfoques_sugeridos": [
-        "Entrevista en profundidad con especialistas en seguridad aeronáutica sobre los riesgos en vuelos internacionales.",
-        "Cronología minuto a minuto de la reacción de la tripulación ante la agresión a bordo."
+        "Los testimonios exclusivos de los pasajeros y el rol de la tripulación",
+        "Las fallas detectadas en los controles de acceso a las aeronaves"
       ],
       "cobertura": {
         "Perfil": 1,
@@ -241,22 +339,22 @@
           "imagen": "https://resizer.glanacion.com/resizer/v2/SXIWGGPV4FAP3O3NDS456J5F3Q.jpg?auth=7a5b45fe1676bd6139559f15d4f4a7a0cd50b89cb88e199ba18f41a7fc05da9b&smart=true&width=1360&height=910"
         },
         {
-          "medio": "Clarín",
-          "titulo": "\"No podía dejar morir a toda esa gente\": el piloto indio de Flydubai habló por primera vez tras el ataque de su copiloto",
-          "link": "https://www.clarin.com/mundo/podia-dejar-morir-toda-gente-piloto-indio-flydubai-hablo-primera-vez-ataque-copiloto_0_R4qsnlpXjd.html",
-          "imagen": "https://www.clarin.com/img/2026/10/02/1EloLeB6Z_1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "Habló el piloto apuñalado del vuelo de Flydubai y reveló cómo los pasajeros redujeron al atacante",
+          "link": "https://www.lanacion.com.ar/el-mundo/hablo-el-piloto-apunalado-del-vuelo-de-flydubai-y-revelo-como-los-pasajeros-redujeron-al-atacante-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/BUWZZDZ6SRCTPDIOHA2FV2IXLY.jpg?auth=74ca086b061855322e84fb1027ee6249492e59470b6ed6c51f4288c5589a56b2&smart=true&width=1360&height=910"
         }
       ]
     },
     {
       "tema": "Coloquio de IDEA y sondeos del establishment",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "El pulso del empresariado argentino sobre la economía y la política electoral es un contenido de alta jerarquía para la audiencia corporativa y política de Perfil.",
-      "insight": "Mientras Página 12 y El Cronista abordan las definiciones del coloquio desde distintas ópticas políticas y económicas, Perfil cuenta con una presencia exigua pese al peso institucional del evento.",
-      "accion_sugerida": "Profundizar en las demandas sectoriales planteadas por los principales ejecutivos y su lectura sobre el futuro del modelo económico.",
+      "tipo": "perfiler_pierde",
+      "por_que_importa": "El pulso del empresariado argentino frente al escenario político y electoral es un contenido central para la sección de economía y política.",
+      "insight": "A pesar de contar con una cobertura inicial, la competencia y otros medios logran mayor profundidad con análisis paralelos sobre la postura sectorial.",
+      "accion_sugerida": "Profundizar en las demandas específicas que los principales referentes corporativos le plantearon a la oposición y al oficialismo.",
       "enfoques_sugeridos": [
-        "El debate interno entre los empresarios respecto al escenario político de mediano plazo.",
-        "Reacciones del sector industrial frente a los posicionamientos de los principales referentes políticos invitados."
+        "El debate empresario sobre la presión impositiva y el futuro de las inversiones",
+        "Las estrategias del sector privado ante el calendario electoral anticipado"
       ],
       "cobertura": {
         "Perfil": 1,
@@ -299,13 +397,13 @@
     },
     {
       "tema": "Próxima visita de JD Vance a la Argentina",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "La llegada de figuras clave de la administración estadounidense redefine la política exterior del gobierno y es de vital interés para los lectores interesados en geopolítica.",
-      "insight": "La cobertura está concentrada en medios de la competencia que anticipan la agenda bilateral pendiente, dejando a Perfil relegado en la primicia internacional.",
-      "accion_sugerida": "Desarrollar un informe especial sobre los temas comerciales y de seguridad que estarán sobre la mesa en la visita diplomática.",
+      "tipo": "perfiler_pierde",
+      "por_que_importa": "La llegada de figuras clave de la administración estadounidense redefine la agenda diplomática y las negociaciones comerciales bilaterales.",
+      "insight": "El tema cuenta con escasa cobertura general, pero la competencia directa instala el debate sobre los acuerdos pendientes con mayor visibilidad.",
+      "accion_sugerida": "Investigar el estado actual de los convenios comerciales bilaterales mencionados en la agenda oficial de la visita.",
       "enfoques_sugeridos": [
-        "Implicancias geopolíticas de la relación bilateral en el marco de la agenda regional de Estados Unidos.",
-        "Estado de situación de los acuerdos comerciales y de cooperación pendientes entre ambos países."
+        "El impacto político de la visita en la alineación internacional del Gobierno",
+        "Los puntos críticos pendientes en la agenda comercial y de seguridad"
       ],
       "cobertura": {
         "Perfil": 1,
@@ -343,112 +441,14 @@
   ],
   "sin_cobertura_perfil": [
     {
-      "tema": "Rechazo legislativo y judicial al DNU que derogó la Ley de Tierras",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "La disputa institucional entre el Congreso, el Poder Judicial y el Ejecutivo sobre la vigencia de normativas clave afecta la seguridad jurídica y capta el interés de lectores especializados.",
-      "insight": "La ausencia total de Perfil en este debate contrasta fuertemente con la intensa cobertura de la competencia sobre el futuro regulatorio de las normas afectadas.",
-      "accion_sugerida": "Publicar un análisis jurídico que desglose el impacto que tendría un eventual revés parlamentario sobre las normativas vigentes.",
-      "enfoques_sugeridos": [
-        "Consecuencias legales y económicas de la posible restitución de la Ley de Tierras.",
-        "Estrategia parlamentaria de la oposición para frenar el megaDNU en el Congreso."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 3,
-        "Página 12": 8,
-        "El Cronista": 0
-      },
-      "total_notas": 11,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 8,
-      "brecha": -8,
-      "brecha_formateada": "-8",
-      "ejemplos": [
-        {
-          "medio": "Ámbito",
-          "titulo": "DNU 70/2023: qué regulaciones podrían volver a regir si Diputados lo rechaza",
-          "link": "https://www.ambito.com/politica/dnu-702023-que-regulaciones-podrian-volver-regir-si-diputados-lo-rechaza-n6329253",
-          "imagen": "https://media.ambito.com/p/62bd8158a7f0169321981761586621f4/adjuntos/239/imagenes/041/641/0041641399/milei-y-federico-sturzeneggerjpeg.jpeg"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "La oposición juega a fondo para voltear el megaDNU que derogó la ley de Tierras",
-          "link": "https://www.pagina12.com.ar/2026/10/02/la-oposicion-juega-a-fondo-para-voltear-el-megadnu-que-derogo-la-ley-de-tierras/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HWRCOTHJTVCWFOMBYSVQSH7LDI.jpeg?auth=dabb7f6d8ac47c257d55847e9b851b6a45c90ad44b494f9bb39fb71bb428f1bc&amp;smart=true&amp;width=1600&amp;height=1066"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Tras el fallo que derogó la Ley de Tierras, la Corte intenta desmarcarse y hasta se victimiza",
-          "link": "https://www.pagina12.com.ar/2026/10/02/tras-el-fallo-que-derogo-la-ley-de-tierras-la-corte-intenta-desmarcarse-y-hasta-se-victimiza/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6N2EBH7M6ZAOHP7MJU2HAQX4AA.JPG?auth=21c68fbe2648de397a6d68ea32aab40d4d211bcfa78d97db171938cb45cf53cf&amp;smart=true&amp;width=3000&amp;height=2000"
-        }
-      ]
-    },
-    {
-      "tema": "Crisis política en España por plan y decretos de vivienda",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los conflictos políticos internacionales de gran escala con riesgo de elecciones anticipadas generan alto tráfico en la sección de noticias del mundo.",
-      "insight": "Varios portales impulsan coberturas exhaustivas sobre la inestabilidad parlamentaria europea, un flanco completamente desatendido por Perfil en esta jornada.",
-      "accion_sugerida": "Redactar una nota explicativa sobre los factores económicos y sociales que precipitaron la crisis del plan habitacional en España.",
-      "enfoques_sugeridos": [
-        "Impacto de la crisis de la vivienda en la gobernabilidad y las alianzas del Ejecutivo español.",
-        "El rol de las fuerzas opositoras y su presión para forzar un adelanto electoral."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 6,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 10,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
-      "cobertura_perfil": 0,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 6,
-      "brecha": -6,
-      "brecha_formateada": "-6",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Pedro Sánchez recibe un revés en el Congreso para su plan de vivienda y su gobierno queda al borde del precipicio",
-          "link": "https://www.lanacion.com.ar/el-mundo/pedro-sanchez-recibe-un-reves-en-el-congreso-para-su-plan-de-vivienda-y-queda-al-borde-del-nid02102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/Q2GBUXG7WZEIVDYFF3QWROMQJI.jpg?auth=a777f7d6f6889dcd674219ef1f5de283e42b6db157cbbfa2bf19d862267d3d9d&smart=true&width=2000&height=1333"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Convulsión en España: los decretos de vivienda del gobierno podrían caer en el Parlamento y Pedro Sánchez amenaza con un adelanto electoral",
-          "link": "https://www.clarin.com/mundo/convulsion-espana-decretos-vivienda-gobierno-podrian-caer-parlamento-pedro-sanchez-amenaza-adelanto-electoral_0_EC4awRgxPQ.html",
-          "imagen": "https://www.clarin.com/img/2026/10/02/myyrbsvEc_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Votación de los decretos de vivienda, en directo: el ‘no’ de Junts tumba las medidas y Sánchez dice que “la historia les juzgará”",
-          "link": "https://www.infobae.com/espana/2026/10/02/votacion-de-los-decretos-maricarmen-de-vivienda-en-directo-sanchez-reta-a-junts-pp-y-vox-y-la-acampada-de-sol-se-traslada-al-congreso/",
-          "imagen": "https://www.infobae.com/resizer/v2/J4BB62P4Y5GOJKVKWBO5NF5JXA.JPG?auth=1e7f989bee3aa9ab3c76d1d4a180f21b8fcd7dbb509eee3185fc83ba947497fd&smart=true&width=6000&height=4000"
-        }
-      ]
-    },
-    {
       "tema": "Estado de salud y detalles de la ejecución de Christa Pike",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las historias de crimen internacional y fallas en procedimientos judiciales extremos poseen un rendimiento excepcional en algoritmos de recomendación como Google Discover.",
-      "insight": "La cobertura está traccionando fuerte volumen en múltiples portales competidores, evidenciando un interés inercial del público por temas de crónica roja internacional.",
-      "accion_sugerida": "Publicar un perfil cronológico del caso judicial que derive en el debate sobre la pena de muerte en Estados Unidos.",
+      "por_que_importa": "Las historias de alto impacto penal internacional funcionan con gran efectividad para captar tráfico masivo en Google Discover.",
+      "insight": "La totalidad de los portales principales cubre el caso con múltiples notas, evidenciando una demanda sostenida de la audiencia por relatos policiales extremos.",
+      "accion_sugerida": "Publicar un perfil cronológico sobre los antecedentes del caso y las polémicas en torno a los métodos de ejecución en Estados Unidos.",
       "enfoques_sugeridos": [
-        "Controversia legal y médica en torno a los fallos en la aplicación de la inyección letal.",
-        "Reacciones políticas y sociales generadas en el sistema penal estadounidense."
+        "El debate legal sobre los derechos humanos y la aplicación de la inyección letal",
+        "Los testimonios del equipo legal y las reacciones políticas en el país del norte"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -492,12 +492,12 @@
     {
       "tema": "Declaraciones de García Cuerva sobre la pobreza en Argentina y visita del Papa",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las advertencias de la jerarquía eclesiástica sobre la situación social tocan el núcleo de la agenda de debate público nacional.",
-      "insight": "La competencia le otorga relevancia destacada a las definiciones eclesiásticas previas a la llegada papal, un espacio que Perfil dejó vacante.",
-      "accion_sugerida": "Desarrollar una cobertura que contraste las estadísticas oficiales de pobreza con las evaluaciones sociales planteadas por la Iglesia.",
+      "por_que_importa": "Las advertencias de la Iglesia sobre la situación social tienen fuerte repercusión en el debate público y político local.",
+      "insight": "La temática concentra un volumen considerable de notas en medios generales y especializados, sin registro en las publicaciones de Perfil.",
+      "accion_sugerida": "Redactar una pieza analítica que conecte las declaraciones eclesiásticas con los informes recientes de distribución del ingreso.",
       "enfoques_sugeridos": [
-        "El impacto político de los mensajes episcopales frente a la gestión económica actual.",
-        "Preparativos logísticos y pastorales de cara a la visita del Sumo Pontífice al país."
+        "La postura de la jerarquía católica frente a las políticas de ajuste y la pobreza",
+        "Los preparativos logísticos y pastorales de cara a la llegada del Sumo Pontífice"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -541,12 +541,12 @@
     {
       "tema": "Show y declaraciones de Robbie Williams en Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los grandes espectáculos internacionales y las declaraciones de figuras de la música convocan masivamente a audiencias interesadas en cultura y entretenimiento.",
-      "insight": "La cobertura cultural se concentra en la agenda de los principales competidores, generando un vacío de contenido de alto tráfico en la sección de espectáculos de Perfil.",
-      "accion_sugerida": "Publicar una crónica del concierto con eje en las interacciones del artista con el público local y sus declaraciones virales.",
+      "por_que_importa": "Los grandes eventos artísticos internacionales generan un pico instantáneo de búsquedas y un alto nivel de lectura en la sección de espectáculos.",
+      "insight": "Los principales competidores cubren el regreso del artista con galerías y apostillas de color que traccionan tráfico joven.",
+      "accion_sugerida": "Producir una crónica de color destacando las repercusiones de sus declaraciones en el escenario y el vínculo con el público local.",
       "enfoques_sugeridos": [
-        "El reencuentro del músico británico con sus fanáticos tras décadas de ausencia en los escenarios locales.",
-        "Análisis del impacto económico y turístico de los recitales internacionales en la Ciudad de Buenos Aires."
+        "El repaso de su trayectoria y los momentos más destacados del show en Buenos Aires",
+        "Las repercusiones en redes sociales de las declaraciones del músico"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -575,9 +575,9 @@
         },
         {
           "medio": "La Nación",
-          "titulo": "Robbie Williams: fama, excesos y excentricidades del gran cantante del pop británico ",
-          "link": "https://www.lanacion.com.ar/espectaculos/musica/robbie-williams-fama-excesos-y-excentricidades-del-gran-cantante-del-pop-britanico-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/WWNPEYVVFFHEFNZXL6N2FAT4FQ.jpg?auth=d4dc976eb64ca08433a95a73a3ebb9c150a8c25e5a0e45d0108166faf940c8a5&smart=true&width=4984&height=3697"
+          "titulo": "Robbie Williams: “Acabo de ver a una fan con la que dormí la última vez que estuve acá; no es quien ustedes creen”",
+          "link": "https://www.lanacion.com.ar/espectaculos/robbie-williams-acabo-de-ver-a-una-fan-con-la-que-dormi-la-ultima-vez-que-estuve-aca-no-es-quien-nid02102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/HHWNY2LKXZGUNLDQOLS6GFH4AM.png?auth=9bfa959fe050824b6fa092c071eee55ee5d5b940ae0bc74a0e4e2dd13490ec65&smart=true&width=301&height=484"
         },
         {
           "medio": "Clarín",
@@ -590,12 +590,12 @@
     {
       "tema": "Crecimiento de la desigualdad y pobreza en Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los informes sobre distribución del ingreso y indicadores sociales son ejes estructurantes del periodismo económico y de investigación de Perfil.",
-      "insight": "Los competidores directos explotan los datos estadísticos sobre desigualdad, evidenciando una falta de reacción editorial en la cobertura propia.",
-      "accion_sugerida": "Producir un informe especial basado en los datos de distribución del ingreso para analizar los sectores más vulnerables.",
+      "por_que_importa": "Los indicadores oficiales y privados sobre la distribución del ingreso interpelan de forma directa las condiciones de vida de la sociedad.",
+      "insight": "El tema es abordado con enfoque socioeconómico por medios opositores e independientes, marcando una vacancia en la agenda de Perfil para este tópico.",
+      "accion_sugerida": "Desarrollar una infografía interactiva que desglose el impacto de la caída de los ingresos en los distintos deciles de la población.",
       "enfoques_sugeridos": [
-        "Evolución de la brecha de ingresos entre deciles en el último trimestre.",
-        "Consecuencias del impacto inflacionario en las estrategias de supervivencia de los hogares."
+        "El contraste entre la recuperación sectorial y el deterioro de los salarios informales",
+        "Las consecuencias del ajuste en el endeudamiento de los hogares para cubrir gastos básicos"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -630,21 +630,21 @@
         },
         {
           "medio": "Página 12",
-          "titulo": "Si no hay Estado los pobres quedan afuera",
-          "link": "https://www.pagina12.com.ar/2026/10/02/si-no-hay-estado-los-pobres-quedan-afuera/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/Q2QNFIFRIVAXXLEZCFPAMPQVTE.jpg?auth=b522d0afab005ee50aa2fb9d2ce5493562ca21e774f3b2b24c0e723269241cc9&amp;smart=true&amp;width=1800&amp;height=1200"
+          "titulo": "Endeudarse para comer",
+          "link": "https://www.pagina12.com.ar/2026/10/02/endeudarse-para-comer/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6AFYT77TRFD7LI765D3LASHOXM.jpeg?auth=f16a9269285e56df4014fcfa29240ca73e9512ff4a928ac6f29b9c74e65d664c&amp;smart=true&amp;width=5253&amp;height=3502"
         }
       ]
     },
     {
       "tema": "Protestas estudiantiles en Francia",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los conflictos sociales masivos en Europa con impacto institucional atraen el interés de los lectores de secciones internacionales.",
-      "insight": "La cobertura de las movilizaciones y el gabinete de crisis en Francia está siendo cubierta por la competencia sin contraparte en Perfil.",
-      "accion_sugerida": "Cubrir el conflicto estudiantil francés vinculándolo con el descontento presupuestario y las políticas educativas del gobierno europeo.",
+      "por_que_importa": "Las revueltas sociales y educativas en Europa interesan a una audiencia amplia que busca comprender los conflictos globales contemporáneos.",
+      "insight": "La cobertura se limita a portales con fuerte presencia internacional, lo que representa una oportunidad para instalar contenidos de alcance global.",
+      "accion_sugerida": "Explicar los reclamos presupuestarios y educativos que motivaron la convocatoria al gabinete de crisis en París.",
       "enfoques_sugeridos": [
-        "Reclamos de fondo de los secundarios y universitarios franceses contra las medidas oficiales.",
-        "La respuesta del Ejecutivo galo ante la escalada de disturbios y cierres de establecimientos."
+        "El trasfondo político de las movilizaciones juveniles contra las políticas del gobierno francés",
+        "El operativo de seguridad y los incidentes en los establecimientos secundarios"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -688,12 +688,12 @@
     {
       "tema": "Accidente vial en Escobar de conductor alcoholizado y drogado",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los hechos policiales y viales registrados en video poseen un alto nivel de viralización en redes sociales y buscadores.",
-      "insight": "La viralización del caso en portales de noticias policiales expone una oportunidad perdida de captar tráfico inercial en la sección de sociedad.",
-      "accion_sugerida": "Desarrollar una nota informativa sobre las consecuencias legales y las multas aplicadas a conductores bajo efectos de sustancias.",
+      "por_que_importa": "Los hechos policiales urbanos con registro audiovisual generan un consumo viral inmediato en redes sociales y buscadores.",
+      "insight": "El tema concentra notas en medios con fuerte enfoque en sucesos policiales, sin cobertura por parte de Perfil en este segmento.",
+      "accion_sugerida": "Redactar una nota de servicio sobre las normativas de controles de alcoholemia y las sanciones aplicadas a infractores reincidentes.",
       "enfoques_sugeridos": [
-        "El peligro de las imprudencias al volante registradas y difundidas en plataformas digitales.",
-        "Medidas de control de alcoholemia y narcolemia en rutas y accesos de la provincia de Buenos Aires."
+        "La imprudencia al volante y el peligro de la combinación de alcohol y estupefacientes",
+        "Las pericias sobre el material fílmico aportado a la causa judicial"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -737,12 +737,12 @@
     {
       "tema": "Agenda y preparativos por la visita del Papa a la Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "La expectativa por los feriados y la organización logística de la visita papal genera un pico de consultas prácticas de utilidad para la audiencia.",
-      "insight": "La competencia cubre los aspectos logísticos y sindicales asociados a la llegada del Papa, un flanco de servicio que Perfil dejó vacante.",
-      "accion_sugerida": "Publicar un servicio detallado sobre cómo afectará el esquema de feriados y cese de actividades bancarias a la operatoria diaria.",
+      "por_que_importa": "La logística, los feriados y las actividades vinculadas a la llegada del Pontífice generan gran expectativa en la agenda social y económica.",
+      "insight": "La cobertura está fragmentada en notas de servicio sobre feriados y peregrinaciones, un formato de alta utilidad para la audiencia.",
+      "accion_sugerida": "Elaborar una guía práctica sobre cómo funcionarán los servicios y el transporte durante los días previstos por la visita papal.",
       "enfoques_sugeridos": [
-        "Impacto económico y financiero de los días sin atención bancaria acumulados por las medidas.",
-        "Cronograma oficial de eventos y peregrinaciones previstas en el marco de la visita."
+        "El impacto económico y laboral de los posibles feriados en la actividad comercial",
+        "La previa espiritual y las movilizaciones de fieles hacia los santuarios"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -786,12 +786,12 @@
     {
       "tema": "Liberación y situación judicial del actor Maxi Ghione",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las novedades judiciales en causas que involucran a figuras del espectáculo generan interés sostenido en la sección de farándula.",
-      "insight": "La cobertura sobre la excarcelación del actor está limitada a medios de la competencia, dejando a Perfil sin presencia en un tema de consumo ágil.",
-      "accion_sugerida": "Redactar una actualización sobre el estado de la investigación y los pasos procesales a seguir por la defensa y la querella.",
+      "por_que_importa": "Las novedades sobre figuras públicas involucradas en causas judiciales atraen de forma constante el interés de los lectores de espectáculos.",
+      "insight": "La cobertura es acotada pero constante en los portales de entretenimiento, un nicho que Perfil podría aprovechar con notas de actualización.",
+      "accion_sugerida": "Desarrollar una actualización breve sobre los pasos procesales que continuarán tras la excarcelación del actor.",
       "enfoques_sugeridos": [
-        "Detalles de la resolución judicial que determinó la liberación del imputado.",
-        "Testimonio y postura de los representantes legales tras la decisión de la justicia."
+        "Los fundamentos legales de la resolución judicial que determinó la liberación",
+        "El impacto de la denuncia en la carrera artística del imputado"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -829,12 +829,12 @@
     {
       "tema": "Juicio y condena contra el exmarido de Julieta Prandi",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las causas de violencia de género con condenas a figuras públicas convocan el interés de la audiencia en temas de género y policiales.",
-      "insight": "La apelación del fallo por parte del condenado genera una nueva ventana de cobertura que Perfil aún no ha aprovechado.",
-      "accion_sugerida": "Desarrollar una nota de seguimiento sobre los argumentos de la defensa para apelar la condena ante la máxima instancia judicial.",
+      "por_que_importa": "Las causas por violencia de género que involucran a personas de notoriedad pública movilizan un fuerte debate en la opinión pública.",
+      "insight": "La temática cuenta con coberturas específicas en medios líderes centradas en las apelaciones judiciales y los testimonios de la víctima.",
+      "accion_sugerida": "Producir una crónica sobre el estado actual de las instancias de apelación en la Suprema Corte provincial.",
       "enfoques_sugeridos": [
-        "Repercusiones en el entorno familiar y declaraciones de la víctima tras la apelación judicial.",
-        "Análisis de los plazos procesales que definirá la Suprema Corte bonaerense."
+        "Los argumentos de la defensa para intentar revertir la condena de prisión",
+        "El testimonio de la víctima sobre el impacto emocional en su entorno familiar"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -873,15 +873,13 @@
   "oportunidades": [
     {
       "tema": "Entrevistas y reflexiones sobre psicología y vínculos con Gabriel Rolón",
-      "tipo_de_oportunidad": "Exclusividad de la competencia en contenidos de alta retención",
-      "motivo_oportunidad": "La Nación concentra en solitario un volumen de cuatro notas con entrevistas de gran profundidad sobre salud mental y vínculos, un formato de alto rendimiento en lectura prolongada.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los contenidos sobre bienestar emocional, psicoanálisis y relaciones humanas registran tasas muy elevadas de permanencia en página y fidelización de lectores en Perfil.",
-      "insight": "El monopolio del tema por parte de un único medio competidor evidencia un espacio vacante ideal para capturar tráfico orgánico mediante notas de opinión o entrevistas propias en el área de salud mental.",
-      "accion_sugerida": "Producir una entrevista o columna firmada por un especialista propio que aborde las complejidades de los vínculos afectivos contemporáneos.",
+      "tipo": "Oportunidad de contenido de bienestar y psicología",
+      "motivo_oportunidad": "La cobertura está concentrada exclusivamente en un competidor (La Nación) con un volumen de 4 notas, lo que evidencia una temática de alto interés humano sin presencia de Perfil.",
+      "tipo_de_oportunidad": "Contenido de bienestar y entrevistas de alto rendimiento en Google Discover",
+      "accion_sugerida": "Producir una entrevista propia o un artículo de profundización sobre las dinámicas de pareja y salud mental basadas en conceptos recientes del psicoanálisis.",
       "enfoques_sugeridos": [
-        "Claves psicológicas para gestionar la frustración en las relaciones de pareja actuales.",
-        "El peso del pasado emocional en la construcción de los proyectos de vida individuales."
+        "Las claves psicológicas para superar los mandatos en las relaciones afectivas",
+        "La elaboración del duelo por el pasado y la construcción de vínculos saludables"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -924,15 +922,14 @@
     },
     {
       "tema": "Programa del Gobierno argentino de ciudadanía por inversión",
-      "tipo_de_oportunidad": "Baja saturación en un tema de alto interés económico",
-      "motivo_oportunidad": "Con solo dos medios cubriendo el lanzamiento de esta medida oficial, existe una clara ventana para posicionar a Perfil como referente en el análisis de normativas para inversores extranjeros.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los anuncios económicos vinculados a la radicación de capitales extranjeros y regulaciones migratorias interesan fuertemente al segmento corporativo y de negocios.",
-      "insight": "La escasa competencia en la cobertura inicial permite desarrollar contenidos explicativos antes de que el tema se sature en la agenda mediática diaria.",
-      "accion_sugerida": "Elaborar una guía práctica sobre los requisitos y montos exigidos por el nuevo programa gubernamental.",
+      "tipo": "Oportunidad de economía y políticas de atracción de capitales",
+      "motivo_oportunidad": "Es un anuncio oficial de fuerte impacto económico cubierto de forma parcial por dos competidores, lo que deja un espacio vacante para una cobertura técnica propia.",
+      "tipo_de_oportunidad": "Guía explicativa de servicios económicos para inversores",
+      "motivo_oportunidad_interior": "El lector busca detalles prácticos sobre requisitos y montos que aún no fueron masificados.",
+      "accion_sugerida": "Elaborar una nota de servicio detallando paso a paso los requisitos fiscales y los montos mínimos exigidos por el nuevo régimen.",
       "enfoques_sugeridos": [
-        "Comparativa internacional del nuevo régimen de ciudadanía por inversión frente a experiencias de otros países.",
-        "Requisitos legales y patrimoniales que deberán cumplir los extranjeros interesados en postularse."
+        "El perfil de los inversores extranjeros a los que apunta el programa gubernamental",
+        "La comparación con normativas similares implementadas en otros países de la región"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -975,15 +972,14 @@
     },
     {
       "tema": "Evolución del consumo de carnes en Argentina",
-      "tipo_de_oportunidad": "Tema de consumo masivo con cobertura reducida",
-      "motivo_oportunidad": "La existencia de un único medio abordando los cambios en los hábitos alimenticios de los hogares deja abierta una ventana para notas de servicio y economía cotidiana.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los informes sobre la canasta básica y el reemplazo de cortes tradicionales traccionan de forma orgánica en buscadores por su impacto directo en el bolsillo.",
-      "insight": "El bajo volumen de notas sobre un tema de fuerte arraigo cotidiano representa una oportunidad para ofrecer datos comparativos de precios y preferencias de consumo.",
-      "accion_sugerida": "Publicar un informe de consumo que desglose el aumento de la demanda de pollo y cerdo frente a la carne vacuna.",
+      "tipo": "Oportunidad de consumo masivo y tendencias agropecuarias",
+      "motivo_oportunidad": "Un único medio cubre el cambio en los hábitos alimentarios de la población, permitiendo a Perfil abordar la temática desde un ángulo económico o nutricional.",
+      "tipo_de_oportunidad": "Informe especial sobre cambios en el consumo interno",
+      "motivo_oportunidad_interior": "Los datos sobre sustitución de carnes interesan al público general y generan buen rendimiento en buscadores.",
+      "accion_sugerida": "Publicar un informe sobre el impacto de la inflación en la modificación de la dieta diaria de los argentinos.",
       "enfoques_sugeridos": [
-        "Impacto del cambio de hábitos alimenticios en los costos y la rentabilidad de los productores locales.",
-        "Variación de precios por kilo entre los distintos tipos de carnes en las góndolas."
+        "El crecimiento del pollo y el cerdo como reemplazos de la carne vacuna en las góndolas",
+        "El análisis de los costos de producción y su traslado al bolsillo del consumidor"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1014,15 +1010,14 @@
     },
     {
       "tema": "Absolución de Evo Morales en la Argentina",
-      "tipo_de_oportunidad": "Cobertura limitada a un solo medio competidor",
-      "motivo_oportunidad": "Un fallo judicial de relevancia regional y política cubierto por un único medio ofrece la posibilidad de ampliar el enfoque sin incurrir en hipercompetencia.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las resoluciones judiciales sobre figuras políticas extranjeras residentes en el país son de gran interés para los lectores de política internacional.",
-      "insight": "Al ser tratado por un solo competidor, Perfil puede sumar su propia lectura jurídica y política sobre las implicancias de la resolución judicial.",
-      "accion_sugerida": "Profundizar en los fundamentos de la sentencia absolutoria y su impacto en la situación legal del exmandatario boliviano.",
+      "tipo": "Oportunidad de política internacional y judicial",
+      "motivo_oportunidad": "La resolución judicial sobre una figura política extranjera de peso en el país cuenta con registros mínimos y exclusivos en un solo medio.",
+      "tipo_de_oportunidad": "Cobertura de impacto político y judicial regional",
+      "motivo_oportunidad_interior": "El cruce entre causas penales y asilo político despierta interés en la audiencia interesada en geopolítica.",
+      "accion_sugerida": "Investigar los fundamentos de la resolución y las repercusiones en el escenario político boliviano.",
       "enfoques_sugeridos": [
-        "Revisión de los cargos y las pruebas evaluadas por la justicia argentina en el proceso.",
-        "Repercusiones políticas del fallo en el escenario de la política internacional sudamericana."
+        "El recorrido procesal de la causa radicada en los tribunales argentinos",
+        "Las repercusiones de la absolución en la estrategia electoral del movimiento político"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1059,15 +1054,14 @@
     },
     {
       "tema": "Lanzamiento del nanosatélite universitario argentino",
-      "tipo_de_oportunidad": "Espacio libre en ciencia y tecnología aplicada",
-      "motivo_oportunidad": "El desarrollo científico nacional cuenta con cobertura mínima, permitiendo posicionar contenidos de innovación y ciencia con buen rendimiento en Google Discover.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las gacetillas e hitos sobre desarrollo tecnológico argentino generan interés en audiencias interesadas en ciencia, educación superior y tecnología.",
-      "insight": "La baja presencia de notas sobre este lanzamiento permite a Perfil destacar la producción científica académica con un enfoque propio y atractivo para Discovery.",
-      "accion_sugerida": "Realizar una nota técnica explicando las funciones específicas y el desarrollo de ingeniería detrás del nanosatélite.",
+      "tipo": "Oportunidad de ciencia, tecnología y educación",
+      "motivo_oportunidad": "Un hito científico desarrollado en el ámbito académico local con escasa difusión en la competencia, ideal para posicionamiento en Google Discover.",
+      "tipo_de_oportunidad": "Nota de divulgación científica y desarrollo tecnológico nacional",
+      "motivo_oportunidad_interior": "Los logros en tecnología espacial atraen lectores interesados en innovación y ciencia.",
+      "accion_sugerida": "Entrevistar a los investigadores universitarios responsables del diseño y la puesta en órbita del dispositivo.",
       "enfoques_sugeridos": [
-        "El rol de las universidades públicas nacionales en la investigación aeroespacial y tecnológica.",
-        "Aplicaciones prácticas de la tecnología satelital desarrollada por equipos académicos locales."
+        "Las aplicaciones prácticas del nanosatélite para la observación y el monitoreo ambiental",
+        "El esfuerzo presupuestario y técnico de la universidad pública para concretar el proyecto"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1104,15 +1098,14 @@
     },
     {
       "tema": "Proyecto de ley contra el hostigamiento a deudores morosos",
-      "tipo_de_oportunidad": "Oportunidad de servicio y defensa del consumidor",
-      "motivo_oportunidad": "Una iniciativa legislativa con impacto directo en la vida cotidiana de los ciudadanos con escasa cobertura mediática inicial.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los temas vinculados al endeudamiento de las familias y las prácticas de cobranza abusiva conectan de manera directa con las preocupaciones de gran parte de la audiencia.",
-      "insight": "La escasa difusión del proyecto parlamentario representa una oportunidad para desarrollar una nota de servicio sobre los derechos de los consumidores.",
-      "accion_sugerida": "Explicar los alcances de la iniciativa legal y los límites actuales a las prácticas de hostigamiento telefónico y financiero.",
+      "tipo": "Oportunidad de derechos del consumidor y legislación",
+      "motivo_oportunidad": "Una iniciativa legislativa que afecta de manera directa a la vida cotidiana de un sector amplio de la ciudadanía con baja cobertura mediática.",
+      "tipo_de_oportunidad": "Nota de servicio y análisis legislativo sobre defensa del consumidor",
+      "motivo_oportunidad_interior": "Los temas vinculados a deudas y prácticas abusivas de cobranza generan alto engagement y empatía en la audiencia.",
+      "accion_sugerida": "Detallar los alcances de la iniciativa parlamentaria y qué prácticas específicas de las empresas de cobranza quedarían prohibidas.",
       "enfoques_sugeridos": [
-        "Qué herramientas legales tienen actualmente los ciudadanos frente a los reclamos intimidatorios de deudas.",
-        "Detalles del proyecto presentado en el parlamento para frenar los abusos de agencias de cobranza."
+        "Los límites legales al acoso telefónico y digital por deudas impagas",
+        "El testimonio de especialistas en derecho del consumidor sobre la efectividad de la norma"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1149,15 +1142,14 @@
     },
     {
       "tema": "Fallo judicial sobre acceso al aborto en San Isidro",
-      "tipo_de_oportunidad": "Trascendencia jurídica y social sin saturación de agenda",
-      "motivo_oportunidad": "Un fallo judicial de impacto local sobre derechos sanitarios cubierto por un único medio, ideal para un tratamiento de profundidad institucional.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las decisiones de la justicia en materia de salud pública y cumplimiento de normativas vigentes son de gran relevancia para el debate social.",
-      "insight": "La poca visibilidad del fallo abre un espacio para que Perfil desarrolle un análisis legal sobre las obligaciones de los municipios en la materia.",
-      "accion_sugerida": "Informar sobre los fundamentos del fallo judicial que obliga al municipio a garantizar la práctica sanitaria.",
+      "tipo": "Oportunidad de actualidad judicial y derechos sociales",
+      "motivo_oportunidad": "Una sentencia de relevancia institucional en un municipio clave que registra cobertura aislada en un solo medio.",
+      "tipo_de_oportunidad": "Cobertura de fallos judiciales de impacto en políticas públicas locales",
+      "motivo_oportunidad_interior": "Los litigios sobre la implementación de leyes sanitarias movilizan a sectores activos de la audiencia.",
+      "accion_sugerida": "Analizar los argumentos del fallo y la respuesta del municipio intimado a garantizar las prestaciones.",
       "enfoques_sugeridos": [
-        "Implicancias institucionales del fallo para la aplicación de políticas sanitarias a nivel municipal.",
-        "El estado de cumplimiento de los protocolos de atención en distintos distritos de la provincia."
+        "Las obligaciones de los efectores de salud locales frente a las normativas vigentes",
+        "El alcance institucional de la medida cautelar dictada por la justicia provincial"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1194,15 +1186,14 @@
     },
     {
       "tema": "Retroceso histórico del glaciar Perito Moreno",
-      "tipo_de_oportunidad": "Alto potencial visual para Google Discover",
-      "motivo_oportunidad": "Un fenómeno ambiental de gran impacto gráfico cubierto por un solo medio, excelente para captar tráfico masivo mediante optimización visual.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las noticias sobre cambio climático y el estado de los glaciares patagónicos poseen un rendimiento sobresaliente en canales de descubrimiento y redes.",
-      "insight": "La escasa cobertura de un hecho de fuerte interés ambiental permite capitalizar el atractivo visual de la noticia con un enfoque científico riguroso.",
-      "accion_sugerida": "Publicar un informe especial con material gráfico sobre las causas climáticas que explican el retroceso registrado.",
+      "tipo": "Oportunidad de medio ambiente y cambio climático",
+      "motivo_oportunidad": "Un acontecimiento ambiental de magnitud sobre un atractivo natural emblemático del país con mínima presencia en la agenda actual.",
+      "tipo_de_oportunidad": "Informe especial sobre impacto ambiental y cambio climático",
+      "motivo_oportunidad_interior": "Las noticias sobre el estado de los glaciares argentinos tienen un alto potencial de viralización en buscadores.",
+      "accion_sugerida": "Consultar a glaciólogos e investigadores del CONICET para contextualizar el fenómeno dentro de las tendencias globales de calentamiento.",
       "enfoques_sugeridos": [
-        "Evaluación científica del impacto del calentamiento global en los hielos continentales patagónicos.",
-        "Testimonios de glaciólogos sobre la velocidad de los cambios observados en el área protegida."
+        "Las mediciones científicas que documentan la retracción del frente glaciario",
+        "Las consecuencias del cambio climático en los recursos hídricos de la Patagonia"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1239,15 +1230,14 @@
     },
     {
       "tema": "Compositor argentino triunfa en Hollywood",
-      "tipo_de_oportunidad": "Perfil humano inspirador con bajo nivel de competencia",
-      "motivo_oportunidad": "Una historia de talento local en el exterior cubierta por un único medio, con gran potencial de lectura ágil y positiva.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las historias de superación personal y triunfos artísticos internacionales generan altos niveles de empatía y clics en la sección de cultura.",
-      "insight": "El escaso tratamiento del tema en la competencia representa una oportunidad perfecta para destacar el perfil del creador argentino con una entrevista exclusiva.",
-      "accion_sugerida": "Realizar un perfil redactado en formato de entrevista sobre los inicios del compositor y su llegada a la industria cinematográfica estadounidense.",
+      "tipo": "Oportunidad de cultura, perfiles y talento nacional",
+      "motivo_oportunidad": "Una historia de éxito individual en el exterior con una única nota publicada, ideal para captar tráfico en la sección de cultura.",
+      "tipo_de_oportunidad": "Perfil humano y de superación profesional con atractivo en redes",
+      "motivo_oportunidad_interior": "Las historias de argentinos que triunfan en el exterior generan empatía y alto tiempo de permanencia.",
+      "accion_sugerida": "Realizar una entrevista enfocada en el camino recorrido desde San Isidro hasta los estudios de cine en Los Ángeles.",
       "enfoques_sugeridos": [
-        "El camino profesional desde los estudios locales hasta la composición de bandas sonoras en Los Ángeles.",
-        "Desafíos y oportunidades para los jóvenes talentos artísticos argentinos en el mercado internacional."
+        "Los desafíos de insertarse en la industria musical cinematográfica de Estados Unidos",
+        "El proceso creativo detrás de las bandas Sonoras compuestas por artistas locales"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1278,15 +1268,14 @@
     },
     {
       "tema": "Llegada de nuevas marcas de autos chinos a la Argentina",
-      "tipo_de_oportunidad": "Contenido de servicios e industria automotriz",
-      "motivo_oportunidad": "Un lanzamiento comercial relevante con impacto en precios y mercado automotor abordado por un solo competidor.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las novedades sobre el mercado automotor y la llegada de competidores internacionales interesan a lectores de negocios y consumo.",
-      "insight": "La escasa cobertura inicial permite desarrollar una guía de modelos y valores para posicionarse en búsquedas de intención de compra.",
-      "accion_sugerida": "Publicar un informe detallado con las características técnicas y precios de los vehículos recientemente ingresados al mercado.",
+      "tipo": "Oportunidad de mercado automotor e importaciones",
+      "motivo_oportunidad": "Un lanzamiento comercial en un sector competitivo cubierto por un solo medio, con fuerte interés para lectores de la industria y potenciales compradores.",
+      "tipo_de_oportunidad": "Guía de lanzamientos y precios en el mercado automotor",
+      "motivo_oportunidad_interior": "Los informes sobre precios y nuevos modelos traccionan en Google Discover y buscadores especializados.",
+      "accion_sugerida": "Publicar un relevamiento con fichas técnicas, equipamiento y valores de los nuevos vehículos llegados al mercado local.",
       "enfoques_sugeridos": [
-        "Impacto de la competencia asiática en la estrategia de precios de las terminales tradicionales.",
-        "Opciones de financiamiento y disponibilidad de modelos en la red de concesionarios."
+        "El impacto de la competencia asiática en las terminales tradicionales instaladas en el país",
+        "La estrategia de posicionamiento en precios frente a la apertura de importaciones"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1317,15 +1306,14 @@
     },
     {
       "tema": "Críticas de Javier Milei a la prensa",
-      "tipo_de_oportunidad": "Tensión política institucional con baja saturación",
-      "motivo_oportunidad": "Las declaraciones presidenciales sobre los medios de comunicación registradas en la cobertura en vivo por un solo competidor.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los cruces discursivos entre el Poder Ejecutivo y los medios de comunicación alimentan el debate sobre la libertad de expresión y la agenda política.",
-      "insight": "La cobertura atomizada de este cruce permite a Perfil editorializar sobre las relaciones entre la política y el periodismo con voz propia.",
-      "accion_sugerida": "Redactar una columna de análisis político sobre el tono de la relación entre la administración libertaria y los medios.",
+      "tipo": "Oportunidad de política y relación con los medios",
+      "motivo_oportunidad": "Las declaraciones presidenciales sobre la labor periodística constituyen un eje de tensión permanente con bajo despliegue en este corte.",
+      "tipo_de_oportunidad": "Análisis de discurso político y libertad de expresión",
+      "motivo_oportunidad_interior": "Los cruces entre el Poder Ejecutivo y los medios concentran el interés de la audiencia politizada.",
+      "accion_sugerida": "Desarrollar una columna de análisis sobre la estrategia comunicacional del Gobierno frente a los medios de comunicación.",
       "enfoques_sugeridos": [
-        "Implicancias institucionales del uso de descalificaciones hacia la labor periodística.",
-        "La estrategia comunicacional del Gobierno frente a los medios tradicionales."
+        "El impacto institucional de la confrontación verbal en el debate público",
+        "La construcción de la narrativa oficial en torno a la labor informativa"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1356,15 +1344,14 @@
     },
     {
       "tema": "Investigación judicial por hostigamiento digital y el caso del Gordo Dan",
-      "tipo_de_oportunidad": "Cobertura judicial sobre redes y política",
-      "motivo_oportunidad": "Un expediente judicial vinculado al activismo digital y la política tratado por un único medio competidor.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los cruces entre la justicia, la política partidaria y las redes sociales generan gran interés en lectores interesados en el detrás de escena del poder.",
-      "insight": "El tratamiento exclusivo por parte de la competencia abre una ventana para profundizar en los límites legales de la militancia digital.",
-      "accion_sugerida": "Analizar los fundamentos de la desestimación parcial y el estado de la investigación sobre los involucrados.",
+      "tipo": "Oportunidad de política, justicia y redes sociales",
+      "motivo_oportunidad": "Un expediente judicial sensible sobre activismo digital y política con cobertura limitada a un único medio.",
+      "tipo_de_oportunidad": "Investigación sobre judicialización de la política en redes",
+      "motivo_oportunidad_interior": "Los cruces entre la justicia federal y los operadores digitales del oficialismo generan alto interés en lectores de política.",
+      "accion_sugerida": "Profundizar en los fundamentos del magistrado para desestimar parte de la denuncia y mantener imputaciones a referentes digitales.",
       "enfoques_sugeridos": [
-        "El impacto del fallo en las reglas de juego del debate político en plataformas digitales.",
-        "Criterios de la justicia para trazar el límite entre la libertad de expresión y el hostigamiento."
+        "Los límites legales de la confrontación política en plataformas digitales",
+        "El rol de los armadores digitales en las causas por hostigamiento en la web"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1395,15 +1382,14 @@
     },
     {
       "tema": "Ventas y patentamientos de autos 0 km en Argentina",
-      "tipo_de_oportunidad": "Datos sectoriales de consumo con gran utilidad",
-      "motivo_oportunidad": "Un informe mensual de ventas automotrices cubierto por un solo medio, ideal para estructurar notas de servicio basadas en datos duros.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los balances de patentamientos sirven como termómetro del nivel de actividad económica y consumo durable de las familias.",
-      "insight": "La escasa difusión inicial de las estadísticas permite estructurar un ranking y análisis de los modelos más elegidos por los compradores.",
-      "accion_sugerida": "Desarrollar un informe analítico sobre el peso de los vehículos importados frente a la producción nacional en los patentamientos.",
+      "tipo": "Oportunidad de industria automotriz y economía real",
+      "motivo_oportunidad": "Los datos mensuales de patentamientos son un indicador clave de la actividad económica con presencia exclusiva en un portal.",
+      "tipo_de_oportunidad": "Informe estadístico de patentamientos y origen de vehículos",
+      "motivo_oportunidad_interior": "Las estadísticas de consumo industrial interesan a un segmento de lectores enfocado en negocios y economía.",
+      "accion_sugerida": "Analizar la proporción de vehículos nacionales frente a los importados en el ranking de los modelos más vendidos.",
       "enfoques_sugeridos": [
-        "Los diez modelos de vehículos más vendidos y su incidencia en el mercado local.",
-        "Evolución del financiamiento y la demanda en el sector automotor durante el último mes."
+        "El comportamiento de la demanda en el sector automotor tras los cambios macroeconómicos",
+        "El peso de las unidades importadas en la recomposición del stock de las agencias"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1434,15 +1420,14 @@
     },
     {
       "tema": "Investigación y condena por femicidio en Pilar",
-      "tipo_de_oportunidad": "Seguimiento policial de alto impacto social",
-      "motivo_oportunidad": "Un caso de violencia extrema con violaciones de medidas perimetrales abordado por un único medio competidor.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los hechos de violencia de género y las fallas en los dispositivos de protección cautelar exigen un tratamiento periodístico riguroso y constante.",
-      "insight": "La cobertura solitaria del caso por parte de la competencia abre un espacio para interpelar la eficacia de las medidas de restricción de acercamiento.",
-      "accion_sugerida": "Investigar el historial de denuncias previas y la actuación de los organismos de protección en el caso.",
+      "tipo": "Oportunidad de crónica policial y violencia de género",
+      "motivo_oportunidad": "Un caso policial de alta gravedad institucional con una cobertura inicial aislada en la competencia.",
+      "tipo_de_oportunidad": "Seguimiento periodístico de fallos judiciales en causas de violencia de género",
+      "motivo_oportunidad_interior": "Los hechos de violencia extrema con medidas perimetrales previas movilizan el debate social y la lectura sostenida.",
+      "accion_sugerida": "Investigar las fallas en los dispositivos de prevención y protección a víctimas de violencia de género.",
       "enfoques_sugeridos": [
-        "Fallos y vulnerabilidades en el cumplimiento de las perimetrales de protección a víctimas.",
-        "El testimonio de allegados y las medidas dispuestas por la justicia tras el crimen."
+        "La efectividad de las restricciones de acercamiento en causas con desenlace fatal",
+        "El accionar de los organismos de control ante las denuncias previas"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1472,16 +1457,15 @@
       ]
     },
     {
-      "tema": "Implementación del fondo militar o de despidos",
-      "tipo_de_oportunidad": "Información laboral y previsional clave",
-      "motivo_oportunidad": "La reglamentación de sanciones laborales por parte del Gobierno cubierta por un único medio especializado.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las modificaciones en las normas de contratación y despidos generan máxima atención entre empleadores, sindicatos y trabajadores.",
-      "insight": "La poca difusión del tema permite a Perfil anticiparse con una nota de servicio sobre las multas y obligaciones empresariales.",
-      "accion_sugerida": "Explicar en detalle cómo funcionará el esquema de penalizaciones para las empresas que no adhieran al fondo.",
+      "tema": "Implementación del fondo para despidos y sanciones a empresas",
+      "tipo": "Oportunidad de legislación laboral y relaciones del trabajo",
+      "motivo_oportunidad": "Una normativa clave de la reforma laboral con baja difusión mediática en este corte, relevante para empleadores y trabajadores.",
+      "tipo_de_oportunidad": "Guía práctica sobre cumplimiento de normativas laborales",
+      "motivo_oportunidad_interior": "Las modificaciones en los regímenes de despidos generan consultas frecuentes de la audiencia corporativa.",
+      "accion_sugerida": "Publicar un informe con las pautas de penalización para las empresas que no adopten el nuevo fondo.",
       "enfoques_sugeridos": [
-        "Reacciones del sector empresario y sindical frente a la inminente puesta en marcha del sistema.",
-        "Plazos y requisitos legales que fija la nueva normativa para la registración laboral."
+        "El nivel de adhesión del sector empresario al nuevo esquema de cese laboral",
+        "Las implicancias legales de las multas previstas para los empleadores incumplidores"
       ],
       "cobertura": {
         "Perfil": 0,
@@ -1493,6 +1477,14 @@
         "Página 12": 0,
         "El Cronista": 0
       },
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura_perfil": 0,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "brecha_formateada": "-1",
       "ejemplos": [
         {
           "medio": "Clarín",
@@ -1504,15 +1496,14 @@
     },
     {
       "tema": "Balance de la actividad industrial y consumo",
-      "tipo_de_oportunidad": "Panorama económico de cierre de año",
-      "motivo_oportunidad": "Un balance sobre el estado de la industria y las expectativas inflacionarias y cambiarias cubierto por un solo medio.",
-      "tipo": "oportunidades",
-      "por_que_importa": "Las proyecciones económicas de los sectores productivos son vitales para entender el pulso real de la economía más allá de los anuncios oficiales.",
-      "insight": "La baja saturación del tema permite posicionar un análisis económico profundo sobre las perspectivas de la actividad fabril.",
-      "accion_sugerida": "Producir una crónica económica centrada en los balances que realizan los industriales sobre la caída del consumo.",
+      "tipo": "Oportunidad de análisis macroeconómico y PyME",
+      "motivo_oportunidad": "Un balance sectorial de cierre de año con proyecciones financieras cubierto de manera aislada por un medio gráfico.",
+      "tipo_de_oportunidad": "Informe económico sobre perspectivas industriales y consumo masivo",
+      "motivo_oportunidad_interior": "Las proyecciones sobre el poder adquisitivo y la actividad fabril interesan al público de negocios.",
+      "accion_sugerida": "Elaborar un panorama económico que combine las expectativas del sector fabril con la evolución del mercado interno.",
       "enfoques_sugeridos": [
-        "Estimaciones de rentabilidad y nivel de uso de capacidad instalada en las plantas fabriles.",
-        "Expectativas del sector industrial frente a las proyecciones de dólar e inflación."
+        "Las dificultades del entramado PyME para sostener niveles de producción sin mejoras en el consumo",
+        "El impacto de las proyecciones cambiarias en los costos de reposición industrial"
       ],
       "cobertura": {
         "Perfil": 0,
