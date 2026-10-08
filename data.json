@@ -1,467 +1,516 @@
 {
-  "fecha_analisis": "2026-10-07",
+  "fecha_analisis": "2026-10-08",
   "hipercompetencia": [
     {
-      "tema": "Cotización oficial, blue y financiera del dólar",
+      "tema": "Cotización del dólar y mercado cambiario",
       "tipo": "hipercompetencia",
-      "por_que_importa": "El seguimiento de la divisa concentra un alto volumen de tráfico diario y es un contenido de consulta constante para la audiencia de Perfil interesada en economía.",
-      "insight": "La cobertura está masivamente atomizada en portales financieros como Ámbito con 6 notas, lo que evidencia una disputa por captar las primeras posiciones en buscadores mediante actualizaciones permanentes.",
-      "accion_sugerida": "Desarrollar una herramienta interactiva o un gráfico dinámico en vivo que contraste la evolución horaria de los distintos tipos de cambio frente a la apertura semanal.",
+      "por_que_importa": "La fluctuación del dólar genera un alto volumen de búsquedas y define la agenda económica diaria de la audiencia argentina.",
+      "insight": "Mientras la competencia implementa coberturas en directo minuto a minuto, Perfil fragmenta su atención en notas aisladas.",
+      "accion_sugerida": "Centralizar la información cambiaria en una cobertura en vivo unificada que actualice las cotizaciones regionales y del mercado paralelo.",
       "enfoques_sugeridos": [
-        "Analizar el impacto de la brecha cambiaria actual sobre los contratos de alquiler y la fijación de precios en cuotas.",
-        "Evaluar el comportamiento de los ahorristas frente a las nuevas normativas financieras que rigen la operatoria bursátil."
+        "Seguimiento en tiempo real de la brecha cambiaria y su impacto en la economía doméstica.",
+        "Análisis del comportamiento del dólar informal en plazas clave del interior del país."
       ],
       "cobertura": {
-        "Perfil": 1,
+        "Perfil": 3,
         "La Nación": 1,
         "Clarín": 1,
         "Infobae": 1,
-        "TN": 3,
-        "Ámbito": 6,
+        "TN": 2,
+        "Ámbito": 8,
         "Página 12": 1,
-        "El Cronista": 0
+        "El Cronista": 2
       },
-      "total_notas": 14,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
-      "cobertura_perfil": 1,
+      "total_notas": 19,
+      "cantidad_medios": 8,
+      "cantidad_competidores": 7,
+      "cobertura_perfil": 3,
       "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 6,
+      "cobertura_medio_lider": 8,
       "brecha": -5,
       "brecha_formateada": "-5",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "A cuánto cotiza el dólar blue hoy, miércoles 7 de octubre",
-          "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-dolar-blue-hoy-miercoles-7-de-octubre.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/05/trim/540/304/dolares-2341545.jpg"
+          "titulo": "A cuánto cotiza el dólar blue hoy, jueves 8 de octubre",
+          "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-dolar-blue-hoy-jueves-8-de-octubre.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/05/trim/540/304/dolares-2341574.jpg"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "El dólar en Córdoba: a cuánto cotiza este jueves 8 de octubre",
+          "link": "https://www.perfil.com/noticias/cordoba/el-dolar-en-cordoba-a-cuanto-cotiza-este-jueves-8-de-octubre.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/05/trim/540/304/dolares-2341544.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 7 de octubre, minuto a minuto",
-          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/UPH5CKB7BZGFJBCD5PSA77SIYI.jpg?auth=543da0396345059619a39a9e7c688eb75107da3000dafe184e7992edcd336e0a&smart=true&width=5616&height=3744"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 7 de octubre",
-          "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-7-octubre-n6330962",
-          "imagen": "https://media.ambito.com/p/43ca1d37a632f6dec20f5081f89e0ff0/adjuntos/239/imagenes/043/657/0043657207/1200x675/2975x1126:2995x1146/mercados-acciones-bolsas-cedear-inversiones-finanzas-vivo-wall-street-cedears-riesgo-pais-merval-dolar.jpg"
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este jueves 8 de octubre, minuto a minuto",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/EEQ3PX3OVBGDTEQKHNJ2ZGGMQY.jpg?auth=bbb19a4da008640f844e5a7de73d8f0c662df44864704625a9dbbc04ff496e01&smart=true&width=2000&height=1334"
         }
       ]
     },
     {
-      "tema": "Homenajes, despedida y repercusiones por el retiro de Lionel Messi",
+      "tema": "Premio Nobel de Literatura",
       "tipo": "hipercompetencia",
-      "por_que_importa": "El evento de despedida de la máxima figura del fútbol genera picos extraordinarios de lectura transversal que impactan directamente en el tráfico orgánico y en Google Discover.",
-      "insight": "Página 12 lidera con 6 notas abordando aristas culturales e institucionales, mientras Perfil registra una ausencia total en la cobertura de este hito masivo.",
-      "accion_sugerida": "Publicar un análisis de profundidad sobre la transformación del valor de marca de la Selección Argentina tras el final de su etapa como jugador activo.",
+      "por_que_importa": "El anuncio del máximo galardón de las letras moviliza el interés cultural masivo y posiciona a los medios en Google Discover.",
+      "insight": "Los competidores dominaron la conversación con múltiples enfoques biográficos y culturales, relegando la presencia de Perfil.",
+      "accion_sugerida": "Ampliar la cobertura inicial incorporando perfiles detallados de la obra de la autora ganadora y su recepción en el ámbito local.",
       "enfoques_sugeridos": [
-        "Repasar el impacto económico y turístico que generó el partido despedida en la Ciudad de Buenos Aires.",
-        "Explorar el legado táctico y emocional que deja en las divisiones inferiores del fútbol nacional."
+        "El vínculo literario y afectivo entre la obra de la galardonada y la ciudad de Buenos Aires.",
+        "Revisión crítica de las razones del jurado para otorgar el máximo galardón a la literatura canadiense."
       ],
       "cobertura": {
-        "Perfil": 0,
+        "Perfil": 1,
         "La Nación": 2,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 4,
-        "Ámbito": 0,
-        "Página 12": 6,
-        "El Cronista": 0
-      },
-      "total_notas": 13,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 6,
-      "brecha": -6,
-      "brecha_formateada": "-6",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Javier Milei y sus medidas, EN VIVO: el Presidente saludó a Messi por su despedida y dijo que es “el mejor de todos los tiempos”",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-saludo-a-messi-por-su-despedida-y-dijo-que-es-el-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/JCF6VG6COBFPVEOVIIDA7WZBKQ.JPG?auth=21f813d2798bae20adda0527be60b998542298f42abd339aaac9fbfb1c85e835&smart=true&width=4000&height=2667"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Cómo fue el rating de la despedida de Leo Messi: una transmisión que comenzó varias horas antes y dejó números récord",
-          "link": "https://www.infobae.com/teleshow/2026/10/07/como-fue-el-rating-de-la-despedida-de-leo-messi-una-transmision-que-comenzo-varias-horas-antes-y-dejo-numeros-record/",
-          "imagen": ""
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Un Dios con dos manos y una Pulga",
-          "link": "https://www.pagina12.com.ar/2026/10/07/un-dios-con-dos-manos-y-una-pulga/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/EQDGPEFF4VDKFDMPUAABIXLO2I.jpg?auth=b89b6d467f28e314a995fd7818824179a4a3eec97283cf66a2ed41b9a6fcedbd&amp;smart=true&amp;width=5504&amp;height=3670"
-        }
-      ]
-    },
-    {
-      "tema": "Aniversarios y actos por el ataque del 7 de octubre y conflicto en Medio Oriente",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "La dimensión geopolítica del conflicto moviliza coberturas de agencias internacionales que traccionan lecturas sostenidas en portales informativos.",
-      "insight": "Infobae concentra 5 notas enfocadas en cables internacionales y declaraciones diplomáticas, mostrando un despliegue operativo centrado en la inmediatez de la condena global.",
-      "accion_sugerida": "Elaborar un artículo de perspectiva internacional sobre cómo cambiaron los equilibrios de seguridad en Medio Oriente a tres años del inicio de las hostilidades.",
-      "enfoques_sugeridos": [
-        "Relevar el posicionamiento diplomático de los países de América Latina frente a la escalada bélica actual.",
-        "Describir la situación humanitaria actual de la población civil atrapada en las zonas de combate."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 5,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 3,
-        "El Cronista": 0
-      },
-      "total_notas": 11,
-      "cantidad_medios": 5,
-      "cantidad_competidores": 5,
-      "cobertura_perfil": 0,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 5,
-      "brecha": -5,
-      "brecha_formateada": "-5",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Israel ordenó al Ejército elevar la alerta en otro aniversario del ataque más devastador de su historia",
-          "link": "https://www.lanacion.com.ar/el-mundo/israel-ordeno-al-ejercito-elevar-su-alerta-en-otro-aniversario-del-ataque-mas-devastador-de-su-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/GGIK2WJ3QFGK3DCCU3EZLH6E3E.JPG?auth=1bdeae3be990f257d11de297be1d8f7c1ada7d31b899007030ca11ad8c2ddc38&smart=true&width=8281&height=5521"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Actos en todo el país: Israel lloran el ataque del 7 de octubre mientras Gaza vive entre las ruinas de tres años de guerra",
-          "link": "https://www.clarin.com/mundo/actos-pais-israel-lloran-ataque-7-octubre-gaza-vive-ruinas-anos-guerra_0_ZFpnX2DZNL.html",
-          "imagen": "https://www.clarin.com/img/2026/10/07/TU-tONl9V_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Gobiernos europeos y EEUU condenan la \"barbarie\" del 7 de octubre tres años después ",
-          "link": "https://www.infobae.com/america/agencias/2026/10/07/gobiernos-europeos-y-eeuu-condenan-la-barbarie-del-7-de-octubre-tres-anos-despues/",
-          "imagen": ""
-        }
-      ]
-    },
-    {
-      "tema": "Alertas meteorológicas por tormentas severas y lluvias en el AMBA y varias provincias",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Los avisos a corto plazo del Servicio Meteorológico Nacional generan un pico inmediato de búsquedas geolocalizadas con altísimo potencial para Google Discover.",
-      "insight": "El Cronista y Clarín multiplican las actualizaciones sobre la alerta naranja, demostrando que la repetición de avisos por franjas horarias captura tráfico de última hora.",
-      "accion_sugerida": "Publicar un servicio de utilidad con mapas interactivos que detallen el estado de rutas nacionales y alertas viales ante la crecida de arroyos.",
-      "enfoques_sugeridos": [
-        "Revisar el estado de los sumideros y obras pluviales recientes en los municipios del conurbano bonaerense.",
-        "Informar sobre las recomendaciones de Defensa Civil para prevenir daños materiales en viviendas y vehículos."
-      ],
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 1,
-        "TN": 1,
-        "Ámbito": 1,
-        "Página 12": 3,
-        "El Cronista": 0
-      },
-      "total_notas": 10,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
-      "cobertura_perfil": 1,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 3,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Alerta por tormentas severas Ciudad de Buenos Aires y el AMBA: a qué hora llegan las lluvias este 7 de octubre",
-          "link": "https://www.perfil.com/noticias/clima/alerta-por-tormentas-severas-en-el-clima-en-ciudad-de-buenos-aires-a-que-hora-llegan-las-lluvias-este-7-de-octubre-a35.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/31/trim/540/304/cuando-llegan-las-lluvias-2315660.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Súper Niño 2026 en Argentina, EN VIVO: alerta naranja por fuertes tormentas y granizo en Buenos Aires",
-          "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-llegara-pico-maximo-provincias-esperan-fuertes-lluvias_0_2BUsnyrFCW.html",
-          "imagen": "https://www.clarin.com/img/2026/10/07/Zdpr9UO3U_1200x630__1.jpg"
-        },
-        {
-          "medio": "Cronista",
-          "titulo": "Alerta naranja en el AMBA por lluvias: se avecinan tormentas durante el miércoles 7 de octubre y este será el peor momento del día",
-          "link": "https://www.cronista.com/informacion-gral/alerta-naranja-en-el-amba-por-lluvias-se-avecinan-tormentas-durante-el-miercoles-7-de-octubre-y-este-sera-el-peor-momento-del-dia/",
-          "imagen": "https://www.cronista.com/resizer/v2/QFQVTQ5MFJDWNH2CNIDQONDBWY.jpg?auth=cc1fb1a8e05595812b8bf35b6fa9456469ad8214bc803ddc950e7c4d1bf21b31&smart=true&width=1200&height=900"
-        }
-      ]
-    },
-    {
-      "tema": "Premio Nobel de Química para los descubridores de las moléculas espejo y la homoquiralidad",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Los galardones científicos anuales traccionan un segmento de audiencia altamente interesado en divulgación académica y avances tecnológicos.",
-      "insight": "La cobertura está muy fragmentada con 7 medios diferentes publicando 1 nota cada uno, lo que refleja un interés generalizado pero sin un liderazgo abrumador de un solo portal.",
-      "accion_sugerida": "Producir un artículo explicativo con infografías que traduzcan en un lenguaje accesible qué significa la asimetría molecular para la industria medicinal.",
-      "enfoques_sugeridos": [
-        "Entrevistar a investigadores argentinos que trabajen en líneas científicas afines a la quiralidad.",
-        "Detallar los plazos estimados para que estos descubrimientos básicos se traduzcan en nuevos medicamentos."
-      ],
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 1,
+        "Clarín": 5,
         "Infobae": 2,
         "TN": 1,
+        "Ámbito": 4,
+        "Página 12": 2,
+        "El Cronista": 1
+      },
+      "total_notas": 18,
+      "cantidad_medios": 8,
+      "cantidad_competidores": 7,
+      "cobertura_perfil": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 5,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "La canadiense Anne Carson ganó el Premio Nobel de Literatura 2026",
+          "link": "https://www.perfil.com/noticias/cultura/la-canadiense-anne-carson-gano-el-premio-nobel-de-literatura-2026.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/08/trim/540/304/anne-carson-2344104.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Anne Carson, la Nobel que “le cantó” a Buenos Aires",
+          "link": "https://www.lanacion.com.ar/cultura/anne-carson-la-nobel-que-le-canto-a-buenos-aires-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/F4PECPFTGNHBRFEY3KZHD6BPPQ.jpg?auth=b7b634b375b2972d6b9bc7c593f3b8319609936ac8e480ebd682533fd6721ded&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El Premio Nobel de Literatura fue otorgado a la escritora canadiense Anne Carson",
+          "link": "https://tn.com.ar/internacional/2026/10/08/el-premio-nobel-de-literatura-fue-otorgado-a-la-escritora-canadiense-anne-carson/",
+          "imagen": "https://tn.com.ar/resizer/v2/TRD2BMJWL4EOJP67HCCIV6UBMA.Q4sMzg?auth=f8e9bcf017fc6c577dca045614a6d86e4196d88a07955d98303084727c61d1c1"
+        }
+      ]
+    },
+    {
+      "tema": "Privatización y concesión de AySA",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "La venta de empresas estatales estratégicas impacta directamente en las tarifas y en la discusión sobre el rol del Estado.",
+      "insight": "Existe una cobertura equilibrada entre los principales medios, donde Perfil compite con una gacetilla informativa básica.",
+      "accion_sugerida": "Profundizar en los antecedentes del consorcio comprador y el impacto regulatorio que tendrá la concesión en el corto plazo.",
+      "enfoques_sugeridos": [
+        "Radiografía financiera y empresarial del consorcio privado que se queda con la compañía.",
+        "El impacto político de la reactivación de privatizaciones en la gestión económica actual."
+      ],
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 1,
         "Ámbito": 2,
-        "Página 12": 1,
-        "El Cronista": 0
+        "Página 12": 2,
+        "El Cronista": 1
       },
       "total_notas": 9,
       "cantidad_medios": 7,
       "cantidad_competidores": 6,
       "cobertura_perfil": 1,
-      "medio_lider": "Infobae",
+      "medio_lider": "Ámbito",
       "cobertura_medio_lider": 2,
       "brecha": -1,
       "brecha_formateada": "-1",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Nobel de Química para dos científicos que ayudaron a entender cómo se forman las moléculas “espejo” que caracterizan a la vida",
-          "link": "https://www.perfil.com/noticias/sociedad/nobel-para-dos-cientificos-que-ayudaron-a-entender-como-se-forman-las-moleculas-espejo-que-caracterizan-a-la-vida.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/07/trim/540/304/nobel-2026-quimica-2343147.jpg"
+          "titulo": "AySA volvió a manos privadas: el consorcio encabezado por Rowing S.A. será el nuevo dueño tras ofertar u$s340,2 millones",
+          "link": "https://www.perfil.com/noticias/economia/gobierno-avanza-venta-aysa-quien-sera-nuevo-dueno-compania-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/08/trim/540/304/aysa-2344216.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Qué es la homoquiralidad y por qué permitió ganar el Premio Nobel de Química 2026",
-          "link": "https://www.lanacion.com.ar/sociedad/que-es-la-homoquiralidad-y-por-que-permitio-ganar-el-premio-nobel-de-quimica-2026-nid07102026/",
-          "imagen": ""
+          "titulo": "AySA vuelve a manos privadas por US$340 millones",
+          "link": "https://www.lanacion.com.ar/economia/aysa-vuelve-a-manos-privadas-por-us340-millones-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/U5NXWQWNZFFJFA5U6MO3W3PAWA.jpg?auth=c36629a0ffa4f58f0c9ad984537e408a5dc0d6cf98ac5fc2f04db912ac309994&smart=true&width=2000&height=1333"
         },
         {
-          "medio": "Infobae",
-          "titulo": "Qué es la homoquiralidad y cómo el Nobel de Química 2026 puede mejorar la fabricación de fármacos",
-          "link": "https://www.infobae.com/salud/ciencia/2026/10/07/que-es-la-homoquiralidad-y-como-el-nobel-de-quimica-2026-puede-mejorar-la-fabricacion-de-farmacos/",
-          "imagen": "https://www.infobae.com/resizer/v2/6SNFYQPS2ZEL7E6BVQYV3GJOQ4.png?auth=51ded674383d1c55c0c6229b2b4544ef903d5e5d43373dcbbcb011b03976c5b5&smart=true&width=2752&height=1536"
+          "medio": "Clarín",
+          "titulo": "Privatización de AySA: ganó un fondo holandés, con un dueño de Edenor, una empresa brasileña y otro contratista de servicios públicos",
+          "link": "https://www.clarin.com/economia/privatizacion-aysa-gano-fondo-holandes-dueno-edenor-empresa-brasilena-contratista-servicios-publicos_0_YKoVbUl9qM.html",
+          "imagen": "https://www.clarin.com/img/2026/09/15/jGQUJW2_n_1200x630__1.jpg"
+        }
+      ]
+    },
+    {
+      "tema": "Salud mental, bienestar y reflexiones filosóficas",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Los contenidos sobre bienestar y desarrollo personal concentran altos niveles de tráfico sostenido en buscadores y redes.",
+      "insight": "La competencia capta toda la audiencia potencial mediante entrevistas a especialistas, mientras que Perfil registra nula participación.",
+      "accion_sugerida": "Desarrollar una sección permanente basada en columnas de opinión de especialistas en salud y filosofía práctica.",
+      "enfoques_sugeridos": [
+        "Claves médicas para identificar y tratar los síntomas físicos derivados del estrés crónico.",
+        "Reflexiones filosóficas aplicadas a la superación de crisis existenciales en el presente."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 14,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 5,
+        "El Cronista": 0
+      },
+      "total_notas": 20,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 14,
+      "brecha": -14,
+      "brecha_formateada": "-14",
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Gabriel Rolón, psicoanalista, sobre el presente: “La vida deja de tener sentido cuando alguien busca la felicidad en el pasado”",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-el-presente-la-vida-deja-de-tener-sentido-cuando-alguien-busca-la-nid04102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Ni gimnasio ni caminata: así es el ejercicio de fuerza indispensable para frenar la pérdida de masa muscular",
+          "link": "https://www.lanacion.com.ar/sociedad/ni-gimnasio-ni-caminata-asi-es-el-ejercicio-de-fuerza-indispensable-para-frenar-la-perdida-de-masa-nid06102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/SLTNAHUS6JASTKRLSX7XKIZYRE.webp?auth=4b711ae73f4e6c70c75494506e377dd2059aad1cbe2e8fe4c1e8c1f61b501dbb&smart=true&width=600&height=455"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La reflexión de Descartes sobre la duda: “Si no pienso, luego me doy cuenta que tengo que estar existiendo, porque si yo no existo, no pienso”",
+          "link": "https://www.lanacion.com.ar/sociedad/la-reflexion-de-descartes-sobre-la-duda-si-no-pienso-luego-me-doy-cuenta-que-tengo-que-estar-nid07102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4XVM6SGZUFGBFNF7GT4FCTA4I4.JPG?auth=e7325f1f164041e0ebbe747cccca63d8a78371b68b1f1010d4e205e9c6b9a98c&smart=true&width=1943&height=1333"
         }
       ]
     }
   ],
   "perfil_pierde": [
     {
-      "tema": "Evolución de los indicadores de actividad económica, desempleo e inflación",
+      "tema": "Guerra en Ucrania y ataques rusos a civiles",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Los datos sobre el mercado laboral y la recesión interpelan directamente al lector de Perfil preocupado por la macroeconomía cotidiana.",
-      "insight": "Página 12 duplica la presencia de Perfil al publicar 4 notas sobre la contracción de puestos de trabajo, marcando una agenda opositora más activa en la materia.",
-      "accion_sugerida": "Ampliar el alcance de las estadísticas sectoriales mediante un informe propio que desglose qué ramas de la industria sufrieron más despidos.",
+      "por_que_importa": "Los conflictos bélicos internacionales de gran escala exigen una cobertura rigurosa para mantener la autoridad informativa en agenda global.",
+      "insight": "Infobae y Clarín lideran la cobertura con múltiples actualizaciones sobre las víctimas, dejando a Perfil con una única nota.",
+      "accion_sugerida": "Establecer un monitoreo permanente de agencias internacionales para sumar notas de contexto y reacciones diplomáticas.",
       "enfoques_sugeridos": [
-        "Analizar el impacto del freno en la obra privada sobre las economías regionales y el empleo autónomo.",
-        "Contrastar las proyecciones oficiales de rebote económico con las estimaciones de consultoras privadas."
+        "La respuesta militar y política anunciada por el gobierno ucraniano tras los bombardeos masivos.",
+        "El impacto humanitario y el aumento de la tensión geopolítica en Europa del Este."
       ],
       "cobertura": {
-        "Perfil": 2,
+        "Perfil": 1,
         "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
+        "Clarín": 2,
+        "Infobae": 3,
+        "TN": 2,
         "Ámbito": 0,
-        "Página 12": 4,
+        "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 6,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 2,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 4,
+      "total_notas": 8,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
+      "cobertura_perfil": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 3,
       "brecha": -2,
       "brecha_formateada": "-2",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Impacto laboral: calculan que se perdieron 36.000 empleos y cerraron casi 7.000 empresas en cuatro meses",
-          "link": "https://www.perfil.com/noticias/nea/reforma-laboral-calculan-que-se-perdieron-36000-empleos-y-cerraron-casi-7000-empresas-en-cuatro-meses.phtml",
-          "imagen": "https://fotos.perfil.com/2026/07/27/trim/540/304/construccion-2291806.jpg"
+          "titulo": "Rusia bombardeó micros en Ucrania y mató a al menos 33 civiles: \"Responderemos\", dijo Zelenski",
+          "link": "https://www.perfil.com/noticias/internacional/rusia-bombardeo-micros-de-linea-en-ucrania-al-menos-33-muertos-civiles-responderemos-dijo-zelenski.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/08/trim/540/304/ataques-rusos-impactaron-a-buses-civiles-al-menos-33-muertos-y-decenas-de-heridos-2344147.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Caen las perspectivas de crecimiento de la economía y el mercado descuenta una recesión técnica",
-          "link": "https://www.perfil.com/noticias/economia/caen-las-perspectivas-de-crecimiento-de-la-economia-y-el-mercado-descuenta-una-recesion-tecnica.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/luis-caputo-2327674.jpg"
+          "medio": "Clarín",
+          "titulo": "Bombardeo ruso contra dos autobuses en Ucrania deja 30 muertos",
+          "link": "https://www.clarin.com/estados-unidos/bombardeo-ruso-contra-dos-autobuses-en-ucrania-deja-30-muertos_0_fCbwPWCze3.html",
+          "imagen": "https://www.clarin.com/img/2026/09/03/opG8cy99-_1200x630__1.jpg"
         },
         {
-          "medio": "Página 12",
-          "titulo": "Más inflación y desempleo",
-          "link": "https://www.pagina12.com.ar/2026/10/06/mas-inflacion-y-desempleo/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MJFXNT52VND5XC4S25QROTTD4Q.JPG?auth=a454af6f3fb7c5c796eace79e6d24a6805191fec0db9bc42a4949050b65b3a61&amp;smart=true&amp;width=4080&amp;height=2720"
+          "medio": "Infobae",
+          "titulo": "Los ataques aéreos rusos dejan más de 60 muertos en Ucrania en dos días",
+          "link": "https://www.infobae.com/america/agencias/2026/10/08/los-ataques-aereos-rusos-dejan-mas-de-60-muertos-en-ucrania-en-dos-dias/",
+          "imagen": ""
         }
       ]
     },
     {
-      "tema": "Convocatoria y debate judicial sobre la ley de tierras y extranjerización",
+      "tema": "Inflación y costo de vida en la Ciudad de Buenos Aires",
       "tipo": "perfil_pierde",
-      "por_que_importa": "La discusión legal sobre la propiedad de recursos naturales y suelo productivo es un tema institucional clave para la cobertura política del medio.",
-      "insight": "Página 12 lidera con 3 notas interpretando un posible freno judicial a la extranjerización, mientras Perfil y La Nación registran una cobertura aislada.",
-      "accion_sugerida": "Publicar un perfil de los conjueces convocados y un análisis sobre la jurisprudencia histórica en materia de dominio territorial.",
+      "por_que_importa": "Los datos de inflación local son clave para el lector que busca entender la evolución de sus gastos cotidianos.",
+      "insight": "Ámbito y Página 12 abordan el índice con mayor profundidad sectorial, mientras Perfil se limita a un reporte estadístico básico.",
+      "accion_sugerida": "Publicar desgloses por rubros con calculadoras de impacto en el bolsillo y gráficos interactivos para SEO.",
       "enfoques_sugeridos": [
-        "Relevar las posturas de las entidades rurales frente a la posible modificación del marco normativo vigente.",
-        "Explicar los antecedentes legales de los litigios sobre grandes extensiones de tierra cordillerana y patagónica."
+        "Qué sectores lideraron el incremento de precios en la Ciudad durante el último mes.",
+        "La evolución de la inflación interanual frente al poder adquisitivo de los asalariados."
       ],
       "cobertura": {
         "Perfil": 1,
         "La Nación": 1,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 3,
-        "El Cronista": 0
-      },
-      "total_notas": 5,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 1,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 3,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "La Corte Suprema convoca a conjueces para un nuevo debate sobre la ley de tierras",
-          "link": "https://www.perfil.com/noticias/nea/la-corte-suprema-convoco-a-conjueces-para-un-nuevo-debate-sobre-la-ley-de-tierras.phtml",
-          "imagen": "https://fotos.perfil.com/2026/07/08/trim/540/304/08-07-2026-corte-suprema-de-justicia-de-la-nacion-2278689.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Diputados: el Gobierno evalúa incluir un capítulo de Ley de Tierras en el proyecto de Inviolabilidad a la Propiedad Privada  ",
-          "link": "https://www.lanacion.com.ar/politica/diputados-el-gobierno-evalua-incluir-un-capitulo-de-ley-de-tierras-en-el-proyecto-de-inviolabilidad-nid06102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZFE6LWWRX5ETJLWUKI3IKRQNGQ.jpg?auth=c440de8fbc01f29d3b6b665438858d01c51746a1c7501efffdc2daafa7b6bec1&smart=true&width=3000&height=2000"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "La Corte manda señales de una posible marcha atrás con la extranjerización de la tierra",
-          "link": "https://www.pagina12.com.ar/2026/10/06/la-corte-manda-senales-de-una-posible-marcha-atras-con-la-extranjerizacion-de-la-tierra/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VHKK42B3MFCPBKDJMJCMN5P5H4.jpg?auth=cc5dbe26b92d29e1fd320fe03f1a963c61dcba32b6ef5e727ddaf67ee525e2f0&amp;smart=true&amp;width=3636&amp;height=2429"
-        }
-      ]
-    },
-    {
-      "tema": "Asesinato de la doctora británica Hannah Cain y medidas de seguridad a tropas en Okinawa",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Los hechos policiales de resonancia internacional con componentes de seguridad militar tienen un alto rendimiento en audiencias digitales y buscadores.",
-      "insight": "Clarín despliega 3 notas para cubrir los detalles del crimen y las restricciones impuestas por Estados Unidos, superando la cobertura individual de Perfil.",
-      "accion_sugerida": "Profundizar en la tensión geopolítica latente entre el gobierno japonés y las bases militares estadounidenses en islas estratégicas.",
-      "enfoques_sugeridos": [
-        "Investigar los antecedentes de protestas ciudadanas previas contra la presencia de efectivos extranjeros en Okinawa.",
-        "Analizar los protocolos internos que aplican las cortes marciales de Estados Unidos ante delitos cometidos por personal en el exterior."
-      ],
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 3,
-        "Infobae": 0,
         "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
+        "Ámbito": 2,
+        "Página 12": 2,
+        "El Cronista": 1
       },
-      "total_notas": 5,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 2,
+      "total_notas": 8,
+      "cantidad_medios": 6,
+      "cantidad_competidores": 5,
       "cobertura_perfil": 1,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 3,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Estados Unidos impuso toque de queda y prohibió el alcohol a sus tropas en Okinawa tras el crimen de una mujer",
-          "link": "https://www.perfil.com/noticias/policia/estados-unidos-impuso-toque-de-queda-y-prohibio-el-alcohol-a-sus-tropas-en-okinawa-tras-el-crimen-de-una-mujer.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/07/trim/540/304/manifestantes-frente-a-la-oficina-del-primer-ministro-en-tokio-2343088.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Hannah Cain, una doctora de 45 años que atendía a miembros de la corona británica fue asesinada durante una pijamada de sus hijos",
-          "link": "https://www.clarin.com/internacional/hannah-cain-doctora-45-anos-atendia-miembros-corona-britanica-asesinada-pijamada-hijos_0_ffW9FZyIRW.html",
-          "imagen": "https://www.clarin.com/img/2026/10/07/aXG6V2411_1200x630__1.jpg"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Un marino estadounidense fue detenido por el crimen de una mujer en Okinawa y EE.UU. suspendió sus operaciones en la base militar",
-          "link": "https://tn.com.ar/internacional/2026/10/07/un-marino-estadounidense-fue-detenido-por-el-crimen-de-una-mujer-en-okinawa-y-eeuu-suspendio-sus-operaciones-en-la-base-militar/",
-          "imagen": "https://tn.com.ar/resizer/v2/46F2VWOS2ZD4XPCL222Y6EXPMU.jpg?auth=91b73c17e37c8ba13ecdeef65a2a41db1aef1959e7a46b122965175a7383bcb3"
-        }
-      ]
-    },
-    {
-      "tema": "Impacto de fenómenos climáticos extremos de El Niño en infraestructura y obras",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "La preparación urbana frente a catástrofes climáticas es información de estricto servicio público y gran interés para el conurbano.",
-      "insight": "La Nación encabeza el volumen con 2 notas vinculadas a la planificación de obras públicas, dejando a Perfil con una cobertura testimonial.",
-      "accion_sugerida": "Realizar un relevamiento periodístico sobre el estado de finalización de los principales reservorios hidráulicos en zonas vulnerables.",
-      "enfoques_sugeridos": [
-        "Evaluar el costo económico que implican los daños de las inundaciones recurrentes para los municipios bonaerenses.",
-        "Consultar a especialistas en hidrología sobre la efectividad de las defensas costeras frente a tormentas extraordinarias."
-      ],
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 2,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 1,
-      "medio_lider": "La Nación",
+      "medio_lider": "Ámbito",
       "cobertura_medio_lider": 2,
       "brecha": -1,
       "brecha_formateada": "-1",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Alertan sobre un fenómeno de \"El Niño\" excepcional que podría ser uno de los más intensos de las últimas décadas",
-          "link": "https://www.perfil.com/noticias/sociedad/alertan-sobre-un-fenomeno-de-el-nino-excepcional-que-podria-ser-uno-de-los-mas-intensos-de-las-ultimas-decadas.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/05/trim/540/304/ninio-lluvias-fuertes-2341099.jpg"
+          "titulo": "La inflación en la Ciudad de Buenos Aires subió al 1,8% en septiembre, pero volvió a bajar en el interanual",
+          "link": "https://www.perfil.com/noticias/economia/la-inflacion-en-caba-se-acelero-levemente-al-18-en-septiembre-pero-la-suba-interanual-volvio-a-bajar.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/02/trim/540/304/precios-supermercado-2317361.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Chau anegamientos: terminó la megaobra en el norte de la Ciudad que promete enfrentar los efectos climáticos del Súper Niño",
-          "link": "https://www.lanacion.com.ar/sociedad/chau-anegamientos-termino-la-megaobra-en-el-norte-de-la-ciudad-que-promete-enfrentar-los-efectos-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/BLIEY7E3JRDXNKZLKFSYBGZXTA.jpg?auth=a0fb3235773da88024d5b84006ac77567376777dddca8deec38ded4ac3aac1df&smart=true&width=1600&height=1066"
+          "titulo": "La inflación de septiembre en la Ciudad subió al 1,8%",
+          "link": "https://www.lanacion.com.ar/economia/la-inflacion-de-septiembre-en-la-ciudad-subio-al-18-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/J4POOYZRQJBPTASXLL2J7A7UQ4.png?auth=7eb2a7513ad352f1d95e590587e11d58d877278425a7bb237fb20f989c7ce0b1&smart=true&width=647&height=393"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "La inflación en CABA se aceleró al 1,8% en septiembre, impulsada por educación, vivienda y alimentos",
+          "link": "https://www.ambito.com/economia/la-inflacion-caba-se-acelero-al-18-septiembre-impulsada-educacion-vivienda-y-alimentos-n6331545",
+          "imagen": "https://media.ambito.com/p/a3d279df7be949c655548655ba6532c4/adjuntos/239/imagenes/043/614/0043614439/1200x675/486x364:506x384/inflacion-15.jpg"
+        }
+      ]
+    },
+    {
+      "tema": "Polémica en España por desalojo y muerte de jubilada",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "Las historias con alto contenido social y repercusión política internacional traccionan masivamente en redes sociales.",
+      "insight": "Infobae despliega una cobertura exhaustiva con reacciones institucionales y sindicales que superan el enfoque inicial de Perfil.",
+      "accion_sugerida": "Ampliar el seguimiento de las repercusiones políticas en España y las denuncias de organizaciones sociales.",
+      "enfoques_sugeridos": [
+        "Las declaraciones del gobierno español y el debate en torno a la crisis habitacional.",
+        "Las medidas de fuerza y homenajes convocados por los sindicatos de inquilinos."
+      ],
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 3,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 2,
+        "El Cronista": 0
+      },
+      "total_notas": 7,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
+      "cobertura_perfil": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 3,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "El presidente Pedro Sánchez habló de la muerte de Maricarmen, la jubilada desalojada a la fuerza: qué dijo",
+          "link": "https://www.perfil.com/noticias/internacional/el-presidente-pedro-sanchez-hablo-de-la-muerte-de-maricarmen-la-jubilada-desalojada-a-la-fuerza-que-dijo.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/06/trim/540/304/pedro-sanchez-2341963.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "El Niño, la infraestructura y las retenciones, entre los temas que llevaron al campo a debatir en Entre Ríos",
-          "link": "https://www.lanacion.com.ar/economia/campo/el-nino-la-infraestructura-y-las-retenciones-entre-los-temas-que-llevaron-al-campo-a-debatir-en-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/D5SKVFQXCBDD5LRU4OWDPYUKUA.jpeg?auth=b82e0b5ca531b314f0120bde28018251c4b203104cb4cc2cac88c7ab2f0213d8&smart=true&width=1600&height=1066"
+          "titulo": "De qué murió Maricarmen, la mujer de 87 años que había sido desalojada en Madrid",
+          "link": "https://www.lanacion.com.ar/el-mundo/de-que-murio-maricarmen-la-mujer-de-87-anos-que-habia-sido-desalojada-en-madrid-nid07102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/P3LBKZOL3FBJZIVCNMNPTTBKIA.jpg?auth=d7db63e0b0f54527522361a52d88c2d109b819eed49b175c60e5808536de01b7&smart=true&width=4893&height=3262"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "El Sindicato de Inquilinas convoca un minuto de silencio por Maricarmen mañana a mediodía",
+          "link": "https://www.infobae.com/espana/agencias/2026/10/08/el-sindicato-de-inquilinas-convoca-un-minuto-de-silencio-por-maricarmen-manana-a-mediodia/",
+          "imagen": ""
+        }
+      ]
+    },
+    {
+      "tema": "Protestas y movilizaciones de la CGT",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "La conflictividad sindical en el centro porteño afecta la movilidad urbana y marca el termómetro político del país.",
+      "insight": "Ámbito y Clarín detallan las razones de la protesta gremial con mayor volumen de notas que la cobertura de Perfil.",
+      "accion_sugerida": "Cobertura en directo de los cortes de tránsito y entrevistas a los referentes sindicales en la movilización.",
+      "enfoques_sugeridos": [
+        "El posicionamiento de la central obrera frente a la política económica y la industria nacional.",
+        "El debate interno sobre la posible convocatoria a un paro general."
+      ],
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 2,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "total_notas": 5,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
+      "cobertura_perfil": 1,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "La CGT vuelve a marchar por el microcentro porteño “en defensa de la industria nacional”",
+          "link": "https://www.perfil.com/noticias/sociedad/la-cgt-vuelve-a-marchar-por-el-microcentro-porteno-en-defensa-de-la-industria-nacional.phtml",
+          "imagen": "https://fotos.perfil.com/2026/08/20/trim/540/304/marcha-de-endeudados-cgt-2308357.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La CGT sale a la calle “en defensa de la industria nacional” y posterga la definición sobre un paro general",
+          "link": "https://www.lanacion.com.ar/politica/la-cgt-sale-a-la-calle-en-defensa-de-la-industria-nacional-y-posterga-la-definicion-sobre-un-paro-nid08102026/",
+          "imagen": ""
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "La CGT vuelve a protestar contra Milei con una marcha al centro porteño en defensa de la industria nacional",
+          "link": "https://www.clarin.com/politica/cgt-vuelve-protestar-milei-marcha-centro-porteno-defensa-industria-nacional_0_iXTe4Ri0X1.html",
+          "imagen": "https://www.clarin.com/img/2026/08/20/iBDh-pbLd_1200x630__1.jpg"
         }
       ]
     }
   ],
   "sin_cobertura_perfil": [
     {
-      "tema": "Protestas estudiantiles y tensión social en Francia",
+      "tema": "Alertas meteorológicas por tormentas y fenómeno de El Niño",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los conflictos sociales masivos en Europa occidental atraen la atención de lectores interesados en política internacional y movilizaciones populares.",
-      "insight": "Ámbito e Infobae cubren la escalada de la huelga y los disturbios con múltiples notas, sector en el cual Perfil no registra inserción alguna.",
-      "accion_sugerida": "Desarrollar una cobertura propia sobre los reclamos presupuestarios que motivaron la movilización de los secundarios franceses.",
+      "por_que_importa": "La información de servicio sobre clima extremo es altamente prioritaria para el consumo en buscadores y alertas móviles.",
+      "insight": "La Nación y Clarín capitalizan el interés con múltiples notas de prevención, mientras Perfil registra un bache total.",
+      "accion_sugerida": "Crear un canal de alertas meteorológicas permanentes con recomendaciones del Servicio Meteorológico Nacional.",
       "enfoques_sugeridos": [
-        "Analizar el costo político para la administración de Emmanuel Macron en medio de un clima de alta confrontación gremial.",
-        "Comparar las metodologías de protesta juvenil en Europa con los recientes conflictos universitarios en la región."
+        "Las zonas geográficas más vulnerables ante la llegada del fenómeno climático.",
+        "Recomendaciones de seguridad ante el pronóstico de tormentas severas y caída de granizo."
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
+        "La Nación": 4,
+        "Clarín": 4,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "total_notas": 8,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "El Niño: advierten sobre lugares con “fuertes tormentas” y marcados contrastes de temperatura en los próximos días",
+          "link": "https://www.lanacion.com.ar/economia/campo/el-nino-advierten-sobre-lugares-con-fuertes-tormentas-y-marcados-contrastes-de-temperatura-en-los-nid07102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/Z6F5HZB3C5CDXLJONBISWMH3UQ.png?auth=1a66c2dfcf270c7d9cb2b1a6e02d8ae97b01da3c719efd5f3265a1915992829d&smart=true&width=1279&height=897"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Avanza un fenómeno que provocará varios días de inestabilidad, lluvias y tormentas, actividad eléctrica y caída de granizo: las zonas afectadas",
+          "link": "https://www.lanacion.com.ar/sociedad/se-vienen-48-horas-de-un-fenomeno-que-provocara-inestabilidad-lluvias-y-tormentas-actividad-nid07102026/",
+          "imagen": ""
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Súper Niño 2026: qué se sabe del fenómeno que cambiará el pronóstico de la Argentina y llegará pronto a su pico máximo",
+          "link": "https://www.lanacion.com.ar/sociedad/super-nino-2026-que-se-sabe-del-fenomeno-que-cambiara-por-completo-el-clima-en-la-argentina-y-nid05102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/D5MJFEG23VAL5AUXTWQ4NSZRCA.jpg?auth=bb47e1d2903cd2579e70aaba893bb404637afa4f3a6ca62af629e24617eae069&smart=true&width=2000&height=1333"
+        }
+      ]
+    },
+    {
+      "tema": "Fallos judiciales sobre colegios y propiedades",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Las decisiones de la justicia en temas educativos e inmobiliarios generan gran inquietud en la comunidad afectada.",
+      "insight": "La competencia cubre resoluciones judiciales de alto impacto local que Perfil omite por completo en su sección judicial.",
+      "accion_sugerida": "Monitorear diariamente las acordadas y fallos de la Corte Suprema y tribunales inferiores de interés general.",
+      "enfoques_sugeridos": [
+        "El impacto legal y social de las medidas cautelares sobre instituciones educativas.",
+        "La reactivación de expedientes clave sobre regulación de tierras y ciudadanías."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 3,
         "Clarín": 0,
-        "Infobae": 2,
-        "TN": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 2,
+        "Página 12": 2,
+        "El Cronista": 1
+      },
+      "total_notas": 8,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 4,
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Un histórico colegio estuvo a horas de cerrar sus puertas, pero un fallo extendió su vida por un año más",
+          "link": "https://www.lanacion.com.ar/sociedad/un-historico-colegio-estuvo-a-horas-de-cerrar-sus-puertas-pero-un-fallo-extendio-su-vida-por-un-ano-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/VEOZT27CBJCMVL23IB4WZ2SRPU.jpeg?auth=f1e17effaa811eb2a563f4fd2fbe68f813ede4e99f5e3605eef2fb0b3d7e77b5&smart=true&width=1360&height=910"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "El Programa de Ciudadanía por Inversión es contrario a la Constitución",
+          "link": "https://www.lanacion.com.ar/politica/el-programa-de-ciudadania-por-inversion-es-contrario-a-la-constitucion-nid08102026/",
+          "imagen": ""
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "La Corte Suprema apura una nueva definición por la ley de tierras",
+          "link": "https://www.lanacion.com.ar/politica/la-corte-suprema-apura-una-nueva-definicion-por-la-ley-de-tierras-nid07102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NDPDSIW5VFGZZDA2PX5ZOEAKKQ.jpg?auth=d5aa5fa77933cca09317c1a0b3dd24b9005f56b8dadd73ccbdab5130ba884451&smart=true&width=2000&height=1333"
+        }
+      ]
+    },
+    {
+      "tema": "Elecciones presidenciales en Brasil",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "La política del principal socio comercial de Argentina es un tema geopolítico ineludible para nuestra audiencia.",
+      "insight": "Varios competidores siguen de cerca las estrategias de campaña y encuestas del balotaje sin réplica en Perfil.",
+      "accion_sugerida": "Incorporar corresponsalías o análisis de política internacional centrados en el impacto de las elecciones brasileñas para la región.",
+      "enfoques_sugeridos": [
+        "El panorama de alianzas políticas y sondeos de intención de voto de cara al balotaje.",
+        "La estrategia de los candidatos en temas económicos y sociales clave."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 0,
         "Ámbito": 2,
         "Página 12": 2,
         "El Cronista": 0
@@ -470,1064 +519,283 @@
       "cantidad_medios": 4,
       "cantidad_competidores": 4,
       "cobertura_perfil": 0,
-      "medio_lider": "Infobae",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 2,
       "brecha": -2,
       "brecha_formateada": "-2",
       "ejemplos": [
         {
+          "medio": "La Nación",
+          "titulo": "Qué se sabe del balotaje entre Lula y Bolsonaro, encuestas y últimas noticias",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-en-vivo-que-se-sabe-del-balotaje-entre-lula-y-bolsonaro-encuestas-y-ultimas-nid06102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/BY2AMP3ZV5BDRHCGM7A2ODWN6E.JPG?auth=76b909c7557985b19e55b8f3de977a1101bb1234c10fce4ab326312ba5e8b992&smart=true&width=4013&height=2675"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Flavio Bolsonaro suma aliados y tiende un puente con la Corte, mientras Lula apuesta al miedo y al fin de la “jornada 6x1”",
+          "link": "https://www.lanacion.com.ar/el-mundo/flavio-bolsonaro-suma-aliados-y-tiende-un-puente-con-la-corte-mientras-lula-apuesta-al-miedo-y-al-nid06102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/7Y63BNTJK5DHPJZHS6NYBXRK6M.JPG?auth=c8d5a83f06825ff10543e550c9440fc4f427e2dac6baedd7fe61bf55d62190c5&smart=true&width=5616&height=3744"
+        },
+        {
           "medio": "Infobae",
-          "titulo": "La primera gran huelga general desde 2012 y la única con elecciones generales",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/07/la-primera-gran-huelga-general-desde-2012-y-la-unica-con-elecciones-generales/",
+          "titulo": "Bolsonaro promete subir las pensiones por encima de la inflación si gana las elecciones",
+          "link": "https://www.infobae.com/america/agencias/2026/10/08/bolsonaro-promete-subir-las-pensiones-por-encima-de-la-inflacion-si-gana-las-elecciones/",
           "imagen": ""
-        },
-        {
-          "medio": "TN",
-          "titulo": "Tensión en Francia: el Gobierno suspendió las clases en medio de las protestas que dejaron más de 200 heridos",
-          "link": "https://tn.com.ar/internacional/2026/10/07/tension-en-francia-el-gobierno-suspendio-las-clases-en-medio-de-las-protestas-que-dejaron-mas-de-200-heridos/",
-          "imagen": "https://tn.com.ar/resizer/v2/M2XKTUHSI5BBLQ3UBEVDXNS4EU.a2sui?auth=5728e269495e1d0d3dd9f29dad2c65bf6592d40ba547df45f473e17a2db4b87e"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Escala la tensión en Francia: las protestas estudiantiles dejaron más de 1.000 heridos y casi 500 detenidos",
-          "link": "https://www.ambito.com/mundo/escala-la-tension-francia-las-protestas-estudiantiles-dejaron-mas-1000-heridos-y-casi-500-detenidos-n6330976",
-          "imagen": "https://media.ambito.com/p/34f06bed7c56192a28362df1b1f81bf6/adjuntos/239/imagenes/043/688/0043688732/1200x675/smart/infosfrancaises-francia-protestas-5.jpg"
         }
       ]
     },
     {
-      "tema": "Advertencias del FMI sobre ajuste fiscal, deuda pública y precios de la energía",
+      "tema": "Consejos de limpieza, hogar y decoración",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las directivas del organismo multilateral impactan de forma directa en las expectativas económicas de los mercados emergentes y la Argentina.",
-      "insight": "Ámbito lidera con 3 notas el seguimiento de las declaraciones de Kristalina Georgieva, evidenciando un vacío temático en la edición de Perfil.",
-      "accion_sugerida": "Publicar un análisis económico que desglose las implicancias de estas advertencias globales sobre la estrategia de acumulación de reservas locales.",
+      "por_que_importa": "Este tipo de contenidos utilitarios genera un flujo masivo y constante de tráfico orgánico a través de Google Discover.",
+      "insight": "TN explota con éxito notas de utilidad práctica para el hogar, un segmento que Perfil desatiende sistemáticamente.",
+      "accion_sugerida": "Producir notas de servicio basadas en trucos caseros y optimización de espacios con enfoque SEO.",
       "enfoques_sugeridos": [
-        "Evaluar el impacto de la volatilidad energética internacional sobre las cuentas fiscales de los países en desarrollo.",
-        "Revisar el cumplimiento de las metas de superávit exigidas por los organismos internacionales de crédito."
+        "Guía paso a paso para la limpieza profunda de tapizados utilizando productos económicos.",
+        "Soluciones prácticas de diseño interior para prevenir y tratar la humedad en paredes."
       ],
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
-        "Clarín": 1,
+        "Clarín": 0,
         "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 3,
+        "TN": 5,
+        "Ámbito": 1,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 5,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 3,
-      "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "ejemplos": [
-        {
-          "medio": "Clarín",
-          "titulo": "Kristalina Georgieva advirtió por los precios de la energía y pidió reforzar los planes de ajuste fiscal",
-          "link": "https://www.clarin.com/mundo/kristalina-georgieva-advirtio-precios-energia-pidio-reforzar-planes-ajuste-fiscal_0_pt2BKui2ex.html",
-          "imagen": "https://www.clarin.com/img/2026/10/07/cPNT_78FJg_1200x630__1.jpg"
-        },
-        {
-          "medio": "TN",
-          "titulo": "La titular del FMI advirtió por el impacto de los precios de la energía y pidió reforzar los planes de ajuste fiscal",
-          "link": "https://tn.com.ar/economia/2026/10/07/la-titular-del-fmi-advirtio-por-el-impacto-de-los-precios-de-la-energia-y-pidio-reforzar-los-planes-de-ajuste-fiscal/",
-          "imagen": "https://tn.com.ar/resizer/v2/EMMFVNKRBVGI5CJOUIJJXIQOJA.jpg?auth=03063d847f6841ae8fc51f41abf5a1249c958b2151ab86036b7b1ea74935bf74"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "El FMI pidió más ajuste y alertó por los precios de la energía y las deudas públicas récord",
-          "link": "https://www.ambito.com/economia/el-fmi-pidio-mas-ajuste-y-alerto-los-precios-la-energia-y-las-deudas-publicas-record-n6330982",
-          "imagen": "https://media.ambito.com/p/f84b044aa0c6f24b79cbca5f614e9324/adjuntos/239/imagenes/041/423/0041423651/kristalina-georgieva.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Fallo judicial sobre financiamiento a universidades y reclamos de rectores",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "El conflicto por el presupuesto educativo superior moviliza a una comunidad académica masiva que busca constantemente actualizaciones en medios digitales.",
-      "insight": "Ámbito y Página 12 concentran la agenda con notas sobre los fallos y las protestas frente a la sede gubernamental, sin cobertura en Perfil.",
-      "accion_sugerida": "Redactar una nota explicativa sobre el alcance legal exacto del fallo judicial que intima al Ejecutivo a cumplir con la ley de financiamiento.",
-      "enfoques_sugeridos": [
-        "Recoger los testimonios de los decanos sobre el funcionamiento operativo de las facultades bajo restricciones presupuestarias.",
-        "Detallar las posibles consecuencias institucionales de un desacato judicial en materia educativa."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
+      "total_notas": 6,
       "cantidad_medios": 2,
       "cantidad_competidores": 2,
       "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Ámbito",
-          "titulo": "Rectores de universidades reclamarán frente a Casa Rosada por el cumplimiento de la ley de Financiamiento",
-          "link": "https://www.ambito.com/politica/rectores-universidades-reclamaran-frente-casa-rosada-el-cumplimiento-la-ley-financiamiento-n6330869",
-          "imagen": "https://media.ambito.com/p/ff5a9fc4426008de60b3c610482f68b4/adjuntos/239/imagenes/043/688/0043688118/1200x675/smart/rectores-universidades.jpg"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Universidades: las claves del fallo que obliga a Milei a pagar",
-          "link": "https://www.pagina12.com.ar/2026/10/06/universidades-las-claves-del-fallo-que-obliga-a-milei-a-pagar/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VITQXRWAOFE67CSVGSVQ7TKQ5Y.jpg?auth=40e86829986abce2ba9d96d8737cde2aad9ec796dd79723fc91aa07d0d9a1367&amp;smart=true&amp;width=3504&amp;height=2336"
-        }
-      ]
-    },
-    {
-      "tema": "Reclamos y protestas sociales contra la Corte Suprema",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las tensiones institucionales entre los poderes del Estado y las manifestaciones callejeras forman parte del núcleo de la agenda política nacional.",
-      "insight": "Página 12 y Ámbito recogen el descontento social y los reclamos sectoriales contra el máximo tribunal, un tópico ausente en las publicaciones de Perfil.",
-      "accion_sugerida": "Investigar los reclamos de autarquía y cobertura de vacantes en los tribunales provinciales para ofrecer un panorama federal de la crisis judicial.",
-      "enfoques_sugeridos": [
-        "Analizar el impacto político de las movilizaciones opositoras frente al Palacio de Tribunales.",
-        "Revisar el estado de las causas cajoneadas en la Corte Suprema que motivan los reclamos de distintos sectores."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Ámbito",
-          "titulo": "La Corte Suprema bonaerense acelera su reclamo de autarquía y pide cubrir vacantes",
-          "link": "https://www.ambito.com/ambito-nacional/la-corte-suprema-bonaerense-acelera-su-reclamo-autarquia-y-pide-cubrir-vacantes-n6330959",
-          "imagen": "https://media.ambito.com/p/988b08071ccd83c1501b644140bd1514/adjuntos/239/imagenes/043/333/0043333709/1200x675/smart/suprema-corte-justicia-bonaerense.jpeg"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "El repudio de la calle a la Corte Suprema: “Está al servicio de los poderosos”",
-          "link": "https://www.pagina12.com.ar/2026/10/07/el-repudio-de-la-calle-a-la-corte-suprema-esta-al-servicio-de-los-poderosos/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LZKFGR4DAZHCJNNYIA57IEKGSQ.JPG?auth=6def33a8951b83f6d860dd0702eebc7ae597c4325ff6da0c9881603ea44c8e8f&amp;smart=true&amp;width=4288&amp;height=2848"
-        }
-      ]
-    },
-    {
-      "tema": "Desafíos legales, regulatorios y comerciales de la inteligencia artificial",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "La regulación global sobre derechos de autor y protección de la Propiedad Intelectual frente a los algoritmos genera un altísimo interés en la audiencia tecnológica.",
-      "insight": "Ámbito y Página 12 abordan la disputa por el cobro de contenidos y el registro de marcas personales, mientras Perfil omite este eje informativo.",
-      "accion_sugerida": "Publicar un informe sobre cómo planean los medios y creadores de contenido cobrar por el uso de sus datos en los entrenamientos de inteligencias artificiales.",
-      "enfoques_sugeridos": [
-        "Examinar las normativas que impulsa la Unión Europea para limitar el uso inconsulto de la voz y la imagen de figuras públicas.",
-        "Analizar la sustentabilidad económica del periodismo digital frente al avance de los buscadores con respuestas automatizadas."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Ámbito",
-          "titulo": "Giorgia Meloni busca proteger su voz de la IA y registrarla como marca en la UE",
-          "link": "https://www.ambito.com/mundo/giorgia-meloni-busca-proteger-su-voz-la-ia-y-registrarla-como-marca-la-ue-n6331035",
-          "imagen": "https://media.ambito.com/p/1151665ecbfa010991103535308e10c1/adjuntos/239/imagenes/043/688/0043688902/giorgia-meloni.jpg"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "La próxima batalla de la inteligencia artificial es por el derecho a cobrar",
-          "link": "https://www.pagina12.com.ar/2026/10/06/la-proxima-batalla-de-la-inteligencia-artificial-es-por-el-derecho-a-cobrar/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/IPD4NLHPUBHJDHIRPHZNOCLHXM.jpg?auth=7c5f10392bb920980bf22060cbd78b203a8259c26266116790028900cf9f6fb2&amp;smart=true&amp;width=1254&amp;height=836"
-        }
-      ]
-    },
-    {
-      "tema": "Críticas y debate político sobre el proyecto de Soberanía Nacional",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "El debate parlamentario en torno a iniciativas oficiales de alto voltaje político define el clima de alianzas y rupturas en el Congreso.",
-      "insight": "TN y Página 12 reflejan el avance del oficialismo en comisiones y el rechazo opositor que califica la medida como un 'caballo de Troya', sin cobertura de Perfil.",
-      "accion_sugerida": "Elaborar una guía legislativa con los puntos centrales del proyecto oficialista y las objeciones jurídicas planteadas por la oposición.",
-      "enfoques_sugeridos": [
-        "Analizar el mapa de votos en la Cámara de Diputados de cara a la sesión fijada para el recinto.",
-        "Recoger la opinión de especialistas en derecho constitucional sobre los artículos más cuestionados del proyecto."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 3,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 5,
+      "brecha": -5,
+      "brecha_formateada": "-5",
       "ejemplos": [
         {
           "medio": "TN",
-          "titulo": "Defensa de la Soberanía: el oficialismo avanzó en Diputados y prepara el proyecto para llevarlo al recinto el 21 de octubre",
-          "link": "https://tn.com.ar/politica/2026/10/07/defensa-de-la-soberania-el-oficialismo-avanzo-en-diputados-y-prepara-el-proyecto-para-llevarlo-al-recinto-el-21-de-octubre/",
-          "imagen": "https://tn.com.ar/resizer/v2/SIMSXFA7LZDTLJOP2U5SW4WMWM.png?auth=4a1256e9f9626c2252f1b95f4ac158c09538eb3df60cbf9b96280ff745c29429"
+          "titulo": "Dos expertos en limpieza coinciden: “Para limpiar el sillón solo necesitás una taza de agua, vinagre blanco y detergente”",
+          "link": "https://tn.com.ar/sociedad/2026/10/08/dos-expertos-en-limpieza-coinciden-para-limpiar-el-sillon-solo-necesitas-una-taza-de-agua-vinagre-blanco-y-detergente/",
+          "imagen": "https://tn.com.ar/resizer/v2/KN3LBHMVOBAEFCU4WCA4CXXDQY.jpg?auth=66a9a5db01571c057869656c90c67c5317eaac03bf16e40e9ea14315d841bd26"
         },
         {
-          "medio": "Página 12",
-          "titulo": "Fuertes críticas al proyecto de Soberanía Nacional: “Es un caballo de Troya”",
-          "link": "https://www.pagina12.com.ar/2026/10/07/fuertes-criticas-al-proyecto-de-soberania-nacional-es-un-caballo-de-troya/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/CBFZLZGTYZBTHHGWPWZRBDVAOY.jpg?auth=cab6cd1ae6ac0433c9c4bc2452beb9e54a1ccc4697308cf9ca1d7ed568cc9780&amp;smart=true&amp;width=780&amp;height=520"
+          "medio": "TN",
+          "titulo": "El consejo de un interiorista para combatir la humedad de las paredes: “Lo primero es sanearla”",
+          "link": "https://tn.com.ar/sociedad/2026/10/08/el-consejo-de-un-interiorista-para-combatir-la-humedad-de-las-paredes-lo-primero-es-sanearla/",
+          "imagen": "https://tn.com.ar/resizer/v2/ZXDPG3SPPVDPZPQUU5PASM6XPY.jpg?auth=66854a7b971fe55d3a916c79d3a8c5f3e3fa4ee2fad7407adb4a63cd4eedbe99"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Si tenés un ventilador viejo, tenés un tesoro: cómo reutilizar su rejilla para darle un nuevo uso en el jardín",
+          "link": "https://tn.com.ar/sociedad/jardineria/2026/10/08/si-tenes-un-ventilador-viejo-tenes-un-tesoro-como-reutilizar-su-rejilla-para-darle-un-nuevo-uso-en-el-jardin/",
+          "imagen": "https://tn.com.ar/resizer/v2/354LGID63FF2LAOGOP3GJ7WQYM.jpg?auth=cc2c4168c4b5103034a4a4a0c5169df412c897efeaa7ee2d85ce8fa19c270b11"
         }
       ]
     }
   ],
   "oportunidades": [
     {
-      "tema": "Calendario de pagos, aumentos y bonos para jubilados y pensionados de ANSES",
+      "tema": "Asesoramiento legal sobre herencias, testamentos y sucesiones",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Alta demanda de servicio previsional",
-      "motivo_oportunidad": "La Nación monopoliza con 5 notas un tema de consulta masiva y recurrente que genera un tráfico orgánico constante y sostenido en buscadores.",
-      "por_que_importa": "La información sobre haberes previsionales es uno de los motores de audiencia transaccional más potentes para cualquier medio digital masivo.",
-      "insight": "La nula cobertura de Perfil en un tema de alta sensibilidad social deja libre un volumen de búsquedas muy rentable en Google Discover.",
-      "accion_sugerida": "Crear una calculadora previsional interactiva que permita a los jubilados calcular su haber exacto ingresando su categoría y número de beneficio.",
+      "por_que_importa": "Las dudas legales sobre patrimonio y familia generan consultas recurrentes y un alto interés de lectura en servicios.",
+      "insight": "El Cronista monopoliza un nicho de altísimo rendimiento en buscadores con guías legales prácticas sin competencia de Perfil.",
+      "accion_sugerida": "Desarrollar una serie de guías legales explicativas firmadas por especialistas en derecho civil y sucesorio.",
       "enfoques_sugeridos": [
-        "Detallar el impacto real del bono oficial frente a los índices inflacionarios acumulados del trimestre.",
-        "Informar paso a paso cómo realizar los trámites de fe de vida y actualización de datos en la web de ANSES."
+        "Límites legales y testamentos: qué decisiones se pueden tomar sobre el patrimonio familiar.",
+        "Cómo proceder cuando un heredero se niega a iniciar los trámites de sucesión."
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 5,
+        "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
-        "El Cronista": 0
+        "El Cronista": 5
       },
+      "tipo_de_oportunidad": "Contenido de servicio y asesoramiento legal",
+      "motivo_oportunidad": "El Cronista cubre en exclusiva temas sucesorios con gran potencial de búsqueda sostenida sin presencia de Perfil.",
       "total_notas": 5,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
+      "medio_lider": "El Cronista",
       "cobertura_medio_lider": 5,
       "brecha": -5,
       "brecha_formateada": "-5",
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Calendario de jubilaciones de la Anses: cuándo se cobran en octubre 2026 con el bono oficial y el aumento confirmado",
-          "link": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-se-cobran-en-octubre-2026-con-el-bono-oficial-y-el-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/VMSCRRWZLFAK3FRKVRJZMC5S3U.png?auth=819d29022bc89fe689b6ab999009dc8d8191e75de3b92eb9def4d985823cf2ac&smart=true&width=2000&height=1333"
+          "medio": "El Cronista",
+          "titulo": "Herencia: las decisiones que puede tomar una persona en un testamento y los límites que impone la ley",
+          "link": "https://www.cronista.com/economia-politica/herencia-las-decisiones-que-puede-tomar-una-persona-en-un-testamento-y-los-limites-impone-la-ley/",
+          "imagen": "https://www.cronista.com/resizer/v2/TEAHRHNCZJG67DDZVU74EIV7SA.jpg?auth=feaf598c8f9fab65c427db191d9f8be7c8037f82eac3af54d118c79e8258a43c&smart=true&width=1200&height=900"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Cuánto cobran los jubilados en octubre de 2026 con el nuevo bono confirmado",
-          "link": "https://www.lanacion.com.ar/economia/cuanto-cobran-los-jubilados-en-octubre-de-2026-con-el-nuevo-bono-confirmado-nid29092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/22FU6MFD7JECNPTHWO66OEQDVY.jpg?auth=7607d50d1182e14fc9ec3061726669d2f996e3f5ae7913165b5a4faf8d0b03df&smart=true&width=2000&height=1333"
+          "medio": "El Cronista",
+          "titulo": "Herencias: qué pasa si un heredero no quiere iniciar la sucesión y cómo se dividen los bienes si no hay acuerdo",
+          "link": "https://www.cronista.com/informacion-gral/herencias-que-pasa-si-un-heredero-no-quiere-iniciar-la-sucesion-y-como-se-dividen-los-bienes-si-no-hay-acuerdo/",
+          "imagen": "https://www.cronista.com/resizer/v2/TZ4JWDFSRNGYDKDNS42YQN7G44.jpg?auth=3ccb8ccc529f5758f513f8bbe3ab1a6c863676fb749862aac517b2b7aa495253&smart=true&width=1200&height=900"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Cuánto cobran de mínima los jubilados de la Anses en octubre 2026 con el aumento oficial",
-          "link": "https://www.lanacion.com.ar/economia/cuanto-cobran-de-minima-los-jubilados-de-la-anses-en-octubre-2026-con-el-aumento-oficial-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/H4K5TYCEJNAYFOFGTYKNHKWPAE.png?auth=8732ee3b019dc9f50c41ae17a74e1a8904a84e0edcba828a91c3978898fb7e22&smart=true&width=2000&height=1333"
+          "medio": "El Cronista",
+          "titulo": "Herencias: qué pasa si un heredero paga todos los gastos de una propiedad y los demás no aportan",
+          "link": "https://www.cronista.com/informacion-gral/herencias-que-pasa-si-un-heredero-paga-todos-los-gastos-de-una-propiedad-y-los-demas-no-aportan/",
+          "imagen": "https://www.cronista.com/resizer/v2/AD7EAWBQSFAZJBKESLK5BMBFV4.png?auth=c839900094f050820e979a99fd82f4f1e2ccb7548452f87c85c5c91bf187bdb6&smart=true&width=1200&height=900"
         }
       ]
     },
     {
-      "tema": "Feriados nacionales, fines de semana largos y calendario anual",
+      "tema": "Crimen organizado, narcotráfico y operativos de seguridad",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Alto tráfico por planificación turística",
-      "motivo_oportunidad": "La Nación acapara 5 notas sobre el fin de semana largo próximo, evidenciando un filón de tráfico estacional completamente desatendido por Perfil.",
-      "por_que_importa": "Las búsquedas vinculadas a descansos y fechas patrias concentran picos masivos de audiencia interesada en escapadas y turismo interno.",
-      "insight": "La exclusividad de La Nación en este nicho muestra una oportunidad clara para capturar tráfico de Google Discover mediante notas de servicio.",
-      "accion_sugerida": "Publicar un calendario interactivo con la lista completa de destinos recomendados para aprovechar los días de descanso.",
+      "por_que_importa": "Los grandes operativos policiales y desmantelamiento de bandas criminales captan la atención inmediata de los lectores policiales.",
+      "insight": "Infobae acapara la cobertura internacional sobre golpes al narcotráfico, un área donde Perfil puede capturar tráfico regional.",
+      "accion_sugerida": "Ampliar la sección de policiales internacionales con reportes sobre cárteles y redes de ciberdelito en Latinoamérica.",
       "enfoques_sugeridos": [
-        "Relevar las proyecciones de reservas hoteleras informadas por las cámaras del sector turístico.",
-        "Detallar los costos estimados de peajes y combustible para viajar en vehículo propio durante el fin de semana largo."
+        "El modus operandi de las redes de suplantación de identidad y fraude corporativo.",
+        "Radiografía de los operativos policiales contra los capos más buscados de la región."
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 5,
+        "La Nación": 0,
         "Clarín": 0,
-        "Infobae": 0,
+        "Infobae": 6,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
+      "tipo_de_oportunidad": "Cobertura de policiales e investigaciones internacionales",
+      "motivo_oportunidad": "Existe una cobertura exclusiva de Infobae sobre operativos de seguridad que Perfil puede replicar con enfoque propio.",
+      "total_notas": 6,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura_perfil": 0,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 6,
+      "brecha": -6,
+      "brecha_formateada": "-6",
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Suplantaban desde gobernadores y alcaldes hasta ministros de la SCJN: cae red criminal encabezada por exsecretario de finanzas de Michoacán",
+          "link": "https://www.infobae.com/mexico/2026/10/08/suplantaban-desde-gobernadores-y-alcaldes-hasta-ministros-de-la-scjn-cae-red-criminal-encabezada-por-exsecretario-de-finanzas-de-michoacan/",
+          "imagen": "https://www.infobae.com/resizer/v2/IK4NL7FO6JDYZPUQ72KP5X64OE.jpg?auth=d0d0cbe599231969e94b7b64e629adb942a15111a9cbba13b27a7db1d0a700a4&smart=true&width=1920&height=1080"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Cayeron 10 integrantes de un grupo delincuencial que asaltaban camiones con falsos retenes policiales",
+          "link": "https://www.infobae.com/colombia/2026/10/08/cayeron-10-integrantes-de-un-grupo-delincuencial-que-asaltaban-camiones-con-falsos-retenes-policiales/",
+          "imagen": "https://www.infobae.com/resizer/v2/JP56BAKSTRCWPOPLZDWW23QAWI.jpeg?auth=6f6ee224486d90226420b065ecf84f02cf77f8685f65e02f5391883f6ef6f18a&smart=true&width=895&height=493"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Cae “El Chivo”, jefe de sicarios de La Línea, pero siete de los más buscados de Chihuahua y Texas siguen prófugos",
+          "link": "https://www.infobae.com/mexico/2026/10/08/cae-el-chivo-jefe-de-sicarios-de-la-linea-pero-siete-de-los-mas-buscados-de-chihuahua-y-texas-siguen-profugos/",
+          "imagen": "https://www.infobae.com/resizer/v2/CJYK6VMKS5BWFMAX2PQB6ARBW4.png?auth=ae9c8eb3e076581b7fce3d5ad8e5ac837888f459ffca9ed0dec701a2eec0a6de&smart=true&width=2752&height=1536"
+        }
+      ]
+    },
+    {
+      "tema": "Finanzas corporativas, mercado de capitales y empresas",
+      "tipo": "oportunidades",
+      "por_que_importa": "El análisis bursátil y el desempeño de los gigantes tecnológicos interesan a inversores y lectores del segmento económico.",
+      "insight": "Ámbito lidera la cobertura de mercados y ventas de acciones corporativas sin una propuesta equivalente en Perfil Economía.",
+      "accion_sugerida": "Jerarquizar los informes sobre movimientos de grandes inversores internacionales y su impacto en los mercados locales.",
+      "enfoques_sugeridos": [
+        "El balance trimestral de ventas de acciones de los principales líderes tecnológicos globales.",
+        "La evolución de la demanda de crédito corporativo y su correlación con la actividad económica."
+      ],
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 5,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "tipo_de_oportunidad": "Información económica especializada y bursátil",
+      "motivo_oportunidad": "Ámbito concentra la cobertura de mercados y ventas de acciones tecnológicas sin oposición directa de Perfil.",
       "total_notas": 5,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
+      "medio_lider": "Ámbito",
       "cobertura_medio_lider": 5,
       "brecha": -5,
       "brecha_formateada": "-5",
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Hay fin de semana largo confirmado: cuándo es el feriado por el Día de la Raza en la Argentina",
-          "link": "https://www.lanacion.com.ar/feriados/2026/hay-fin-de-semana-largo-confirmado-cuando-es-el-feriado-por-el-dia-de-la-raza-en-la-argentina-nid06102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZPDK3KXOTBDS7PLE4EES2YM44Y.jpg?auth=ab289df64f7a098e8541ec9edac3fa690fa44ea6f29cddfcc682a67b6316e74e&smart=true&width=2000&height=1333"
+          "medio": "Ámbito",
+          "titulo": "Mapa del crédito a empresas: el &quot;rollover&quot; apenas sostiene una demanda en pesos que no logra despegar",
+          "link": "https://www.ambito.com/economia/mapa-del-credito-empresas-el-rollover-apenas-sostiene-una-demanda-pesos-que-no-logra-despegar-n6331211",
+          "imagen": ""
         },
         {
-          "medio": "La Nación",
-          "titulo": "Feriados de octubre 2026: el calendario completo de fines de semana largos",
-          "link": "https://www.lanacion.com.ar/feriados/2026/feriados-de-octubre-2026-el-calendario-completo-de-fines-de-semana-largos-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZPDK3KXOTBDS7PLE4EES2YM44Y.jpg?auth=ab289df64f7a098e8541ec9edac3fa690fa44ea6f29cddfcc682a67b6316e74e&smart=true&width=2000&height=1333"
+          "medio": "Ámbito",
+          "titulo": "Cedears: tasas récord, euforia por la IA y Brasil reordenan el mapa de acciones, ¿qué puede pasar ahora?",
+          "link": "https://www.ambito.com/finanzas/cedears-tasas-record-euforia-la-ia-y-brasil-reordenan-el-mapa-acciones-que-puede-pasar-ahora-n6331354",
+          "imagen": "https://media.ambito.com/p/c336c1b0856e4c09987e093c50eb29f7/adjuntos/239/imagenes/043/690/0043690848/1200x675/smart/collage-global-mercados-y-tecnologia.png"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Cuántos feriados quedan en el año",
-          "link": "https://www.lanacion.com.ar/feriados/2026/cuantos-feriados-quedan-en-el-ano-nid29092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ISSIEW5ZNVHRTNQK3Z3IJ2IEI4.JPG?auth=2cf9412409c9dbec34bc1fa7a1ec805c86129b446b51003be339c34b533be015&smart=true&width=3000&height=2000"
+          "medio": "Ámbito",
+          "titulo": "De Nvidia a Amazon: los líderes de empresas tecnológicas que más acciones vendieron en el tercer trimestre",
+          "link": "https://www.ambito.com/negocios/de-nvidia-amazon-los-lideres-empresas-tecnologicas-que-mas-acciones-vendieron-el-tercer-trimestre-n6331513",
+          "imagen": "https://media.ambito.com/p/e67c06ccd806df2ca5184e6588c48fc4/adjuntos/239/imagenes/041/653/0041653955/wall-street-eeuu-mercados-acciones.jpg"
         }
       ]
     },
     {
-      "tema": "Calendario y cronograma de pagos de ANSES para la AUH",
+      "tema": "Cotización del euro en distintos países de Latinoamérica",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Demanda de servicio de asistencia social",
-      "motivo_oportunidad": "La Nación publica 4 notas exclusivas sobre las fechas de cobro de la AUH, desaprovechando Perfil un caudal de tráfico transaccional diario.",
-      "por_que_importa": "Los beneficiarios de asignaciones universales buscan de forma constante cronogramas precisos ordenados por terminación de DNI.",
-      "insight": "El dominio absoluto de la competencia en este segmento operativo indica un espacio vacante para posicionar notas de utilidad inmediata.",
-      "accion_sugerida": "Desarrollar una guía de bolsillo digital con las fechas exactas de cobro y los montos correspondientes a cada categoría de asignación.",
+      "por_que_importa": "Los reportes de divisas extranjeras atraen tráfico específico de usuarios que buscan referencias económicas regionales.",
+      "insight": "Clarín explota un servicio automatizado de cotizaciones internacionales que Perfil no ofrece a su audiencia.",
+      "accion_sugerida": "Implementar un panel dinámico de cotizaciones de monedas extranjeras en la portada económica.",
       "enfoques_sugeridos": [
-        "Explicar los cambios en la acreditación automática de la libreta y qué hacer en caso de demoras en el pago.",
-        "Detallar los complementos alimentarios y ayudas adicionales que se liquidan junto con la asignación."
+        "Comparativa diaria del precio del euro frente a las monedas de los principales países de la región.",
+        "Análisis del impacto cambiario de la divisa europea en mercados emergentes."
       ],
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 4,
-        "Clarín": 0,
+        "La Nación": 0,
+        "Clarín": 6,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "total_notas": 4,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 4,
-      "brecha": -4,
-      "brecha_formateada": "-4",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Calendario Anses: cuándo cobro la AUH en octubre 2026 si mi DNI termina en 1",
-          "link": "https://www.lanacion.com.ar/economia/calendario-anses-cuando-cobro-la-auh-en-octubre-2026-si-mi-dni-termina-en-1-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/EAJNSWEUJZE63FAU34W2V6LXQY.jpg?auth=6113a6d27a9973dad1d25203215cbef35f21218aa1f1db18732ec59d663d71e2&smart=true&width=3200&height=2153"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Calendario Anses: cuándo se cobra la AUH en octubre 2026",
-          "link": "https://www.lanacion.com.ar/economia/calendario-anses-cuando-se-cobra-la-auh-en-octubre-2026-nid02102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/CMUAMAS2W5GSFOTB4X5IIFPCGI.jpg?auth=51d29825c1c5490dfcde95bbf9e6ba97c90a029ed0c256d694457f120f99755d&smart=true&width=960&height=540"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Cambios en la Libreta AUH: las acreditaciones de la Asignación Universal serán automáticas y ya no habrá que presentar certificados",
-          "link": "https://www.lanacion.com.ar/economia/cambios-en-la-libreta-auh-las-acreditaciones-de-la-asignacion-universal-seran-automaticas-y-ya-no-nid17092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/P4QPAHMPH5HIVP4IKDNZFDSW64.jpg?auth=4481612f5bd4b735244464b1a85aec511256faead87f31574415b2d1dfe61a60&smart=true&width=2000&height=1333"
-        }
-      ]
-    },
-    {
-      "tema": "Cronograma y detalles de las próximas elecciones presidenciales en Argentina",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Anticipación de agenda política de mediano plazo",
-      "motivo_oportunidad": "La Nación registra 4 notas sobre el armado electoral para 2027, un tema de proyección institucional que Perfil no está cubriendo.",
-      "por_que_importa": "La proyección del cronograma electoral despierta interés analítico en lectores que buscan entender la dinámica política a largo plazo.",
-      "insight": "La concentración de la cobertura en un solo medio competidor sugiere la posibilidad de instalar análisis políticos propios sobre el escenario electoral.",
-      "accion_sugerida": "Publicar un informe especial sobre los cargos legislativos y ejecutivos que se pondrán en juego en cada provincia.",
-      "enfoques_sugeridos": [
-        "Analizar las estrategias de alianzas que comienzan a tejer los distintos espacios políticos de cara a los comicios.",
-        "Evaluar las modificaciones en el régimen electoral y el impacto del sistema de votación vigente."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 4,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 4,
-      "brecha": -4,
-      "brecha_formateada": "-4",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Elecciones en la Argentina 2027: fechas, cargos que se renuevan y todo lo que hay que saber",
-          "link": "https://www.lanacion.com.ar/politica/elecciones-en-la-argentina-2027-fechas-cargos-que-se-renuevan-y-todo-lo-que-hay-que-saber-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/3EQXWMFWFFHNNE3HGXLOSVEJT4.jpg?auth=192c87b445ce2012b297d1de8b7d29148d5afa59c7c17f0eabec234e8ff341be&smart=true&width=2500&height=1667"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Elecciones 2027: ¿cuándo son las próximas elecciones presidenciales en la Argentina?",
-          "link": "https://www.lanacion.com.ar/politica/elecciones-2027-cuando-se-vota-en-la-argentina-y-que-se-elige-nid25082026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/GPC4LT2D6JG3PJMWMQF3TPANHI.jpg?auth=37e786cc1896b8d8b3ade819bbd2d01a4c1c662c8e4ca76241eac15778a0751d&smart=true&width=2000&height=1333"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "¿Cuándo se vota presidente en la Argentina? Todo sobre las elecciones 2027",
-          "link": "https://www.lanacion.com.ar/politica/cuando-se-vota-presidente-en-la-argentina-todo-sobre-las-elecciones-2027-nid01092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/4G65L3EMSVC5THVKLADRZTXR5I.JPG?auth=3c14164da80b0b3af95a2b4559540c09ee96d2ef768d86d437d17202b1916830&smart=true&width=2000&height=1333"
-        }
-      ]
-    },
-    {
-      "tema": "Feriados y asuetos oficiales por la visita del Papa a la Argentina",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Interés masivo por eventos religiosos e institucionales",
-      "motivo_oportunidad": "La Nación publica 4 notas sobre los feriados extraordinarios decretados por la visita papal, sin presencia de Perfil en el tema.",
-      "por_que_importa": "La llegada del Sumo Pontífice y los consecuentes asuetos administrativos movilizan una enorme expectativa pública y logística.",
-      "insight": "El monopolio informativo de La Nación en este tópico deja un vacío de cobertura que Perfil puede capitalizar con notas de alcance regional.",
-      "accion_sugerida": "Elaborar un cronograma detallado de las actividades oficiales previstas y los distritos alcanzados por el cese de actividades.",
-      "enfoques_sugeridos": [
-        "Analizar el impacto operativo y comercial que tendrán los asuetos en el microcentro porteño y las capitales provinciales.",
-        "Revisar los operativos de seguridad y transporte diseñados para recibir a los peregrinos."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 4,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 4,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 4,
-      "brecha": -4,
-      "brecha_formateada": "-4",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Son oficiales los feriados del 9, 10 y 11 de noviembre por la visita del papa León XIV a la Argentina: a quiénes les corresponde cada asueto en Córdoba, provincia y ciudad de Buenos Aires",
-          "link": "https://www.lanacion.com.ar/feriados/son-oficiales-los-feriados-del-9-10-y-11-de-noviembre-por-la-visita-del-papa-leon-xiv-a-la-argentina-nid28092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/VUM7E7UFLJEG5MYA3EH35Q4DUQ.jpg?auth=693a7783f439e7b26e5e154bfe53040855d4ff837843b6dbcdd0c2f07de707f0&smart=true&width=3960&height=2640"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Fin de semana largo: a quién le corresponde el feriado del 9 de noviembre por la visita del papa León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/feriados/2026/fin-de-semana-largo-a-quien-le-corresponde-el-feriado-del-9-de-noviembre-por-la-visita-del-papa-leon-nid24092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/VUM7E7UFLJEG5MYA3EH35Q4DUQ.jpg?auth=693a7783f439e7b26e5e154bfe53040855d4ff837843b6dbcdd0c2f07de707f0&smart=true&width=3960&height=2640"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Feriados del 9, 10 y 11 de noviembre por la visita de papa León XIV a la Argentina: a quién le corresponde cada uno de los asuetos",
-          "link": "https://www.lanacion.com.ar/feriados/2026/feriados-del-9-10-y-11-de-noviembre-por-la-visita-de-papa-leon-xiv-a-la-argentina-a-quien-le-nid23092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/VUM7E7UFLJEG5MYA3EH35Q4DUQ.jpg?auth=693a7783f439e7b26e5e154bfe53040855d4ff837843b6dbcdd0c2f07de707f0&smart=true&width=3960&height=2640"
-        }
-      ]
-    },
-    {
-      "tema": "Finalización del calendario escolar y fin de clases por jurisdicción",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Utilidad práctica para audiencias familiares",
-      "motivo_oportunidad": "La Nación cubre en exclusiva con 3 notas el cierre del ciclo lectivo, un contenido de alta consulta para padres y docentes.",
-      "por_que_importa": "Las fechas de finalización de clases impactan en la organización familiar y en la planificación vacacional, traccionando lecturas fieles.",
-      "insight": "La falta de cobertura de Perfil en este servicio básico de calendario escolar representa una pérdida de tráfico estacional directo.",
-      "accion_sugerida": "Armar un cuadro comparativo provincia por provincia con el último día de clases y el inicio de los períodos de exámenes.",
-      "enfoques_sugeridos": [
-        "Consultar a autoridades educativas sobre el cumplimiento de los días mínimos de clases obligatorias previstos.",
-        "Analizar los cronogramas de los actos de colación y el cierre de las actividades pedagógicas."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 3,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 3,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Calendario escolar: cuándo terminan las clases en CABA",
-          "link": "https://www.lanacion.com.ar/sociedad/calendario-escolar-cuando-terminan-las-clases-en-caba-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/73O2Q2GJXZHJBMGYWSXX5664LU.jpeg?auth=3644be8472519f27ca9c4223ee70a9281f06630e7aa21f554aaef4c2db0390bc&smart=true&width=1280&height=875"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Calendario escolar: cuándo terminan las clases en la provincia de Buenos Aires",
-          "link": "https://www.lanacion.com.ar/sociedad/calendario-escolar-cuando-terminan-las-clases-en-la-provincia-de-buenos-aires-nid29092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/UHNLLWRIUFEBLEN3UHVZ3LBGLM.jpg?auth=b054712ed25f0bfa56e3a93710dcc6381036c86f9dd8b33455f09edaebc57abe&smart=true&width=2000&height=1121"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Cuándo terminan las clases en la Argentina 2026, provincia por provincia",
-          "link": "https://www.lanacion.com.ar/sociedad/cuando-terminan-las-clases-en-la-argentina-2026-provincia-por-provincia-nid22092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/R6T4OJHRZ5F2TK5IPPCHTHKTRY.jpg?auth=5aa6fd5a86caaada3b8af01e4c29e00a42f09dffb7ffb065fcce1fb5e6e8539b&smart=true&width=2001&height=1333"
-        }
-      ]
-    },
-    {
-      "tema": "Estrategias y restricciones del Gobierno con el megaDNU en el Congreso",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Análisis de trastienda parlamentaria",
-      "motivo_oportunidad": "Página 12 publica notas exclusivas sobre las maniobras oficiales en el Parlamento, un terreno donde Perfil no registra publicaciones.",
-      "por_que_importa": "La pulseada legislativa en torno a los decretos de necesidad y urgencia define los límites de gobernabilidad de la administración central.",
-      "insight": "La cobertura exclusiva de la competencia en este flanco político deja un espacio propicio para que Perfil aporte una columna de interpretación parlamentaria.",
-      "accion_sugerida": "Desarrollar un informe sobre el conteo de votos y las negociaciones secretas en las comisiones bicamerales.",
-      "enfoques_sugeridos": [
-        "Evaluar las consecuencias institucionales de un eventual rechazo parlamentario del decreto en ambas cámaras.",
-        "Analizar el rol de los gobernadores aliados en la definición de la suerte legislativa del oficialismo."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Página 12",
-          "titulo": "Las desesperadas maniobras del Gobierno para blindar el megaDNU",
-          "link": "https://www.pagina12.com.ar/2026/10/07/las-desesperadas-maniobras-del-gobierno-para-blindar-el-megadnu/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/E7DN4X4RGBGJTF3KPY4RLVBXNA.jpg?auth=2eee734e2bf405f82d9be1e515706206e6ce966615ce2aeb9c0dc25a9a7f7058&amp;smart=true&amp;width=980&amp;height=653"
-        }
-      ]
-    },
-    {
-      "tema": "Impacto y debate en torno a la reforma laboral",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Cobertura de conflictividad socioeconómica",
-      "motivo_oportunidad": "Página 12 aborda en exclusiva las primeras muestras de la reforma laboral, un tema crucial para la audiencia trabajadora.",
-      "por_que_importa": "Los cambios en las condiciones de contratación y sus efectos prácticos movilizan un fuerte debate público en el ámbito sindical y empresario.",
-      "insight": "La ausencia de Perfil en este tópico impide captar el tráfico de lectores interesados en la letra chica de la nueva normativa laboral.",
-      "accion_sugerida": "Publicar un análisis legal que desglose los puntos de fricción entre las nuevas normativas y los convenios colectivos vigentes.",
-      "enfoques_sugeridos": [
-        "Recoger la postura de los referentes sindicales ante la implementación de los nuevos esquemas de contratación.",
-        "Consultar a cámaras empresarias sobre las expectativas de creación de empleo formal a partir de la reforma."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Página 12",
-          "titulo": "Primeras muestras de la reforma anti-laboral",
-          "link": "https://www.pagina12.com.ar/2026/10/06/primeras-muestras-de-la-reforma-anti-laboral/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/SNXWOGEU4ZA6DG4XDXVRYISF7E.jpg?auth=54c522a3e4c8250cd14f85e0e76bc885de354b8d0bf73edf90c63da3f849803f&amp;smart=true&amp;width=1134&amp;height=754"
-        }
-      ]
-    },
-    {
-      "tema": "Formalización del traslado de detenidos de Devoto a Marcos Paz",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Seguimiento de seguridad urbana y judicial",
-      "motivo_oportunidad": "Página 12 cubre de manera exclusiva la formalización del traslado carcelario, un asunto de alto impacto para la seguridad en la Ciudad.",
-      "por_que_importa": "El desalojo y traslado de los penales urbanos es una demanda histórica de los vecinos que genera atención constante en medios locales.",
-      "insight": "La falta de cobertura de Perfil en este acontecimiento penitenciario desaprovecha un contenido de interés metropolitano directo.",
-      "accion_sugerida": "Realizar una crónica sobre el operativo de seguridad desplegado y el destino definitivo de los predios liberados en Villa Devoto.",
-      "enfoques_sugeridos": [
-        "Consultar a vecinos y organizaciones barriales sobre el impacto urbanístico del cierre de la unidad penal.",
-        "Detallar las condiciones de alojamiento y capacidad operativa del complejo penitenciario receptor en Marcos Paz."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Página 12",
-          "titulo": "Formalizan el traslado de los detenidos de Devoto a Marcos Paz",
-          "link": "https://www.pagina12.com.ar/2026/10/06/formalizan-el-traslado-de-los-detenidos-de-devoto-a-marcos-paz/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/OUTMQBBJGVEXDDF2E67TJRRGTQ.jpg?auth=5573663fbc7fefd43e006710755e723948f5222b4c5439f4f029004cf0afd912&amp;smart=true&amp;width=4288&amp;height=2848"
-        }
-      ]
-    },
-    {
-      "tema": "Premio Nobel de Física y estudio de los neutrinos",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Divulgación científica de alto nivel",
-      "motivo_oportunidad": "Página 12 cuenta con notas exclusivas sobre el ganador del Nobel de Física, dejando un espacio libre para que Perfil amplíe la cobertura de ciencia.",
-      "por_que_importa": "Los descubrimientos fundamentales en física cuántica y subatómica atraen a un segmento de lectores leales a los contenidos de divulgación académica.",
-      "insight": "El abordaje en solitario por parte de la competencia directa en este premio Nobel muestra un terreno fértil para notas de perfil cultural y científico.",
-      "accion_sugerida": "Producir un artículo de fondo que explique de forma didáctica qué son los neutrinos y por qué su estudio altera nuestra comprensión del universo.",
-      "enfoques_sugeridos": [
-        "Entrevistar a físicos argentinos que participen en proyectos internacionales de detección de partículas elementales.",
-        "Describir las características tecnológicas de los gigantescos detectores subterráneos utilizados en estas investigaciones."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "ejemplos": [
-        {
-          "medio": "Página 12",
-          "titulo": "Cazador de neutrinos: quién es el ganador del Nobel de Física y qué son las partículas que estudia",
-          "link": "https://www.pagina12.com.ar/2026/10/06/cazador-de-neutrinos-quien-es-el-ganador-del-nobel-de-fisica-y-que-son-las-particulas-que-estudia/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/CKA3XE7CTVDYPLSXATE4XCLHOE.jpg?auth=19a08f83e0c771a13247a57ed68230b9fccaa18c0f20e3c3cb08cd1b4d3a052a&amp;smart=true&amp;width=1200&amp;height=810"
-        }
-      ]
-    },
-    {
-      "tema": "Acuerdo comercial de litio con proveedores argentinos por parte de Rio Tinto",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Inversión minera y desarrollo exportador",
-      "motivo_oportunidad": "Clarín cubre en exclusiva los millonarios contratos con proveedores locales, un hito económico clave para las provincias cordilleranas.",
-      "por_que_importa": "Las inversiones extranjeras en la cadena de valor del litio traccionan el interés de lectores enfocados en negocios, minería y macroeconomía.",
-      "insight": "La cobertura exclusiva de la competencia en este anuncio minero evidencia una oportunidad desaprovechada para reportar sobre cadenas de proveeduría.",
-      "accion_sugerida": "Analizar el impacto de estas contrataciones multimillonarias sobre las PyMEs industriales locales que proveen insumos a la minería.",
-      "enfoques_sugeridos": [
-        "Relevar las proyecciones de exportación de litio para los próximos años a partir de la puesta en marcha de estos proyectos.",
-        "Consultar a funcionarios provinciales sobre los requerimientos ambientales y de empleo exigidos a las multinacionales."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 2,
+      "tipo_de_oportunidad": "Servicios de cotización de divisas extranjeras",
+      "motivo_oportunidad": "Clarín cubre en solitario el mercado de cambios del euro en Latinoamérica, un contenido altamente automatizable.",
+      "total_notas": 6,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura_perfil": 0,
       "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
+      "cobertura_medio_lider": 6,
+      "brecha": -6,
+      "brecha_formateada": "-6",
       "ejemplos": [
         {
           "medio": "Clarín",
-          "titulo": "El negocio detrás del litio: Rio Tinto contrató más de US$ 1.800 millones a proveedores argentinos",
-          "link": "https://www.clarin.com/energia-y-mineria/negocio-detras-litio-rio-tinto-contrato-us-1800-millones-proveedores-argentinos_0_vTPcKwS4mX.html",
-          "imagen": "https://www.clarin.com/img/2026/10/07/G9wmiQmtU_1200x630__1.jpg"
-        }
-      ]
-    },
-    {
-      "tema": "Actualización paritaria y salarios de la Policía Federal Argentina",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Servicio salarial para fuerzas de seguridad",
-      "motivo_oportunidad": "La Nación publica en solitario los detalles de la paritaria policial, un contenido de consulta práctica para los efectivos y sus familias.",
-      "por_que_importa": "Las escalas salariales de las fuerzas federales son información de estricto servicio que genera búsquedas directas y recurrentes.",
-      "insight": "El monopolio de este dato por parte de La Nación deja expuesta la falta de notas de servicio sobre ingresos de personal estatal en Perfil.",
-      "accion_sugerida": "Publicar una tabla salarial completa que detalle los haberes netos por jerarquía dentro de la Policía Federal tras el aumento.",
-      "enfoques_sugeridos": [
-        "Comparar la evolución salarial de las fuerzas de seguridad federales frente a los índices de inflación oficial.",
-        "Detalar los adicionales por presentaje, viáticos y horas extra vigentes para el personal."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
+          "titulo": "Euro hoy en Venezuela: precio y cotización de la divisa este jueves 8 de octubre de 2026",
+          "link": "https://www.clarin.com/economia/euro-hoy-en-venezuela-precio-y-cotizacion-de-la-divisa-este-jueves-8-de-octubre-de-2026_0_1LhYLN8rf9.html",
+          "imagen": "https://www.clarin.com/img/2011/04/11/BklX7NkNe_1200x630.jpg"
+        },
         {
-          "medio": "La Nación",
-          "titulo": "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina en octubre 2026",
-          "link": "https://www.lanacion.com.ar/economia/paritaria-con-aumento-cuanto-gana-el-personal-de-la-policia-federal-argentina-en-octubre-2026-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/WL6DLUL6SFAUBKXDNHTF2UMA34.jpeg?auth=423adb05edcffe80e322e203d4764cbbdbec5cdce5127a19a00384072896ef35&smart=true&width=1280&height=853"
-        }
-      ]
-    },
-    {
-      "tema": "Inversión y apertura de centro de salud en el norte de Buenos Aires",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Gestión sanitaria e infraestructura urbana",
-      "motivo_oportunidad": "La Nación cubre en exclusiva la reconversión de un galpón ferroviario en centro médico, un tema de alto interés vecinal y porteño.",
-      "por_que_importa": "Las obras de infraestructura sanitaria en la ciudad interpelan directamente a los residentes locales que buscan servicios médicos públicos cercanos.",
-      "insight": "La cobertura solitaria de este proyecto por parte de la competencia muestra un espacio vacante para notas de impacto barrial positivo.",
-      "accion_sugerida": "Desarrollar una crónica sobre el equipamiento tecnológico incorporado y las especialidades médicas que atenderán en el nuevo centro.",
-      "enfoques_sugeridos": [
-        "Entregar detalles arquitectónicos sobre cómo se recicló el patrimonio ferroviario histórico para darle un fin sanitario.",
-        "Consultar a vecinos de la zona norte sobre la demanda saturada en los hospitales públicos circundantes."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
+          "medio": "Clarín",
+          "titulo": "Euro hoy en Uruguay: precio y cotización de la divisa este jueves 8 de octubre de 2026",
+          "link": "https://www.clarin.com/economia/euro-hoy-en-uruguay-precio-y-cotizacion-de-la-divisa-este-jueves-8-de-octubre-de-2026_0_cKwqBofoOc.html",
+          "imagen": "https://www.clarin.com/img/2018/06/18/HJOW7NrW7_1200x630.jpg"
+        },
         {
-          "medio": "La Nación",
-          "titulo": " $1300 millones de inversión en el norte de la Ciudad: transformaron un antiguo galpón ferroviario en un centro de salud para atención primaria, pediatría y otras especialidades",
-          "link": "https://www.lanacion.com.ar/sociedad/1300-millones-de-inversion-en-el-norte-de-la-ciudad-transformaron-un-antiguo-galpon-ferroviario-en-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/PB4IAFRNKBELDMRNNVKHJ46HE4.jpeg?auth=629ce6f7c6dd28d14bb31b209a993f4daa9e0a3fdd3faf31350ea60d5c01ac83&smart=true&width=853&height=1280"
-        }
-      ]
-    },
-    {
-      "tema": "Montos y actualizaciones de la Pensión Universal para el Adulto Mayor (PUAM)",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Servicio previsional específico",
-      "motivo_oportunidad": "La Nación publica en exclusiva los montos de la PUAM, desatendiendo Perfil un nicho de consultas previsionales muy específico.",
-      "por_que_importa": "Los beneficiarios de la pensión universal requieren información precisa sobre sus haberes mensuales para organizar su economía doméstica.",
-      "insight": "La exclusividad de la competencia en este tipo de prestaciones remarca la necesidad de incorporar notas de servicio previsional permanente.",
-      "accion_sugerida": "Publicar un instructivo con los requisitos de edad y aportes necesarios para tramitar la PUAM en las oficinas de ANSES.",
-      "enfoques_sugeridos": [
-        "Analizar el poder adquisitivo de la pensión universal frente a la canasta básica de los adultos mayores.",
-        "Informar sobre las compatibilidades de la PUAM con otros ingresos formales o programas de asistencia."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Pagos Anses: a cuánto llega la PUAM en octubre de 2026 con el aumento confirmado",
-          "link": "https://www.lanacion.com.ar/economia/pagos-anses-a-cuanto-llega-la-puam-en-octubre-de-2026-con-el-aumento-confirmado-nid17092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/KMQ2CH7G2JHIBKZTRTE5YV3FJQ.jpg?auth=27269eb9a100a537a9e0485e7532a285ed451849a0e8306b6b0f61f2a5c5e2ac&smart=true&width=2000&height=1333"
-        }
-      ]
-    },
-    {
-      "tema": "Calendario y montos de las Pensiones No Contributivas (PNC) de ANSES",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Asistencia social sectorizada",
-      "motivo_oportunidad": "La Nación cubre en solitario el cronograma y los montos de las PNC, dejando escapar un flujo de búsquedas de alta fidelidad.",
-      "por_que_importa": "Los sectores vulnerables que perciben pensiones no contributivas dependen de la publicación exacta de las fechas de cobro.",
-      "insight": "La falta de este contenido de servicio en Perfil evidencia un terreno de oportunidad en el vertical de economía y sociedad.",
-      "accion_sugerida": "Redactar una nota de servicio detallando el calendario de pago de las PNC ordenado estrictamente por terminación de documento.",
-      "enfoques_sugeridos": [
-        "Desglosar el impacto de los aumentos y bonos complementarios sobre las distintas categorías de pensiones no contributivas.",
-        "Explicar los canales de consulta habilitados para verificar el estado de liquidación de los haberes."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Calendario PNC de la Anses: cuál es el monto de las Pensiones no Contributivas en octubre de 2026",
-          "link": "https://www.lanacion.com.ar/economia/calendario-pnc-de-la-anses-cual-es-el-monto-de-las-pensiones-no-contributivas-en-octubre-de-2026-nid16092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/WQEGSYOV75FCPODKBVGXIXQKJE.jpg?auth=3992188066e0f53e48837dc7a96928993cfd8df0ed0bef00c6dd1f3ce40a5d7a&smart=true&width=4088&height=2725"
-        }
-      ]
-    },
-    {
-      "tema": "Cronograma completo de pagos de ANSES",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Servicio previsional de consulta masiva",
-      "motivo_oportunidad": "La Nación publica la guía global de pagos de ANSES en exclusiva, un contenido de referencia indispensable para millones de beneficiarios.",
-      "por_que_importa": "Las agendas completas de cobro concentran un volumen masivo de tráfico orgánico recurrente durante todo el mes.",
-      "insight": "No registrar contenido sobre el cronograma general de ANSES implica ceder por completo una de las fuentes de tráfico más estables de la web.",
-      "accion_sugerida": "Crear una infografía descargable con el resumen mensual de todas las fechas de cobro de los diferentes organismos de la seguridad social.",
-      "enfoques_sugeridos": [
-        "Detallar las modalidades de extracción de efectivo habilitadas en cajeros automáticos y redes de cobro.",
-        "Informar sobre los cambios temporales en el cronograma motivados por feriados bancarios o administrativos."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Cuándo cobro Anses: el calendario completo de octubre 2026 ",
-          "link": "https://www.lanacion.com.ar/economia/cuando-cobro-anses-el-calendario-completo-de-octubre-2026-nid30092026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333"
-        }
-      ]
-    },
-    {
-      "tema": "Acuerdo paritario y aumentos salariales para empleadas domésticas",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Servicio de escala salarial masiva",
-      "motivo_oportunidad": "La Nación cubre en solitario las escalas actualizadas del personal de casas particulares, un sector con alta demanda de información salarial.",
-      "por_que_importa": "Las tablas de sueldos para empleadas domésticas son de consulta obligatoria tanto para empleadores como para trabajadoras en blanco.",
-      "insight": "La ausencia de Perfil en este tema desaprovecha un contenido con excelente rendimiento en buscadores y redes sociales.",
-      "accion_sugerida": "Publicar una calculadora o tabla de sueldos mínimos por hora y categoría para el personal de casas particulares.",
-      "enfoques_sugeridos": [
-        "Detallar las fórmulas de cálculo para el pago de aportes previsionales, obra social y vacaciones.",
-        "Explicar las obligaciones legales del empleador frente a modificaciones paritarias retroactivas."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Paritaria confirmada: cuánto cobran las empleadas domésticas en octubre de 2026 con el aumento oficial",
-          "link": "https://www.lanacion.com.ar/economia/paritaria-confirmada-cuanto-cobran-las-empleadas-domesticas-en-octubre-de-2026-con-el-aumento-nid06102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/NRYY2DERCZH7FFTWJVUYWMVUUA.JPG?auth=624ea5e569be0f6d768e1b62c95427ffab77b06d28665eecbb378228e1bbd332&smart=true&width=2000&height=1333"
-        }
-      ]
-    },
-    {
-      "tema": "Paritarias y aumentos salariales en la industria de la construcción (UOCRA)",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Negociación salarial de sector clave",
-      "motivo_oportunidad": "La Nación publica en exclusiva los nuevos valores acordados por la UOCRA, un sector fundamental para medir el pulso de la economía real.",
-      "por_que_importa": "Los acuerdos salariales de la construcción sirven de referencia testigo para otras negociaciones paritarias del sector privado.",
-      "insight": "El registro solitario de la competencia en este convenio sectorial deja un espacio vacante para que Perfil desarrolle notas de análisis gremial.",
-      "accion_sugerida": "Publicar el detalle de las categorías profesionales de la construcción y el valor hora correspondiente tras el último incremento.",
-      "enfoques_sugeridos": [
-        "Analizar el impacto del acuerdo paritario sobre los costos de construcción de metros cuadrados en centros urbanos.",
-        "Consultar a referentes de la UOCRA sobre el nivel de empleo registrado y la actividad en las obras."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra",
-          "link": "https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/B2F3IQLJT5GDRIXVM7TOEBAJC4.jpg?auth=4e35e72b1d43c76cd5e4ba34bf29fcf017c4df3e8702e7c5c6a5b11b763c6b1a&smart=true&width=6016&height=4016"
-        }
-      ]
-    },
-    {
-      "tema": "Denuncia legal por el traslado de pingüinos de Magallanes en Mar del Plata",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Interés en bienestar animal y litigios ambientales",
-      "motivo_oportunidad": "La Nación cubre en exclusiva la acción judicial contra el traslado de animales en Mar del Plata, un tema con alta viralidad en redes.",
-      "por_que_importa": "Las notas sobre protección de fauna marina movilizan la sensibilidad de audiencias interesadas en ecología y derechos de los animales.",
-      "insight": "La cobertura en solitario de este conflicto ambiental por parte de la competencia indica una oportunidad para captar tráfico viral en Google Discover.",
-      "accion_sugerida": "Investigar los fundamentos científicos y legales esgrimidos por los conservacionistas para objetar el traslado de los pingüinos.",
-      "enfoques_sugeridos": [
-        "Consultar a biólogos marinos sobre las condiciones de adaptación de la especie en santuarios o reservas naturales.",
-        "Revisar el historial de manejo de animales silvestres en los acuarios de la costa atlántica."
-      ],
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "total_notas": 1,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Denuncia contra el traslado de los 43 pingüinos de Magallanes del ex Aquarium de Mar del Plata",
-          "link": "https://www.lanacion.com.ar/sociedad/denuncia-contra-el-traslado-de-los-43-pinguinos-de-magallanes-del-ex-aquarium-de-mar-del-plata-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/I2YJI2SBDRANLG4FA67CPC72C4.jpeg?auth=de8131d17aecf45468ef531dbde7cf37d43bcf6e1238195ed66d069763226665&smart=true&width=1599&height=1066"
+          "medio": "Clarín",
+          "titulo": "Euro hoy en Perú: precio y cotización de la divisa este jueves 8 de octubre de 2026",
+          "link": "https://www.clarin.com/economia/euro-hoy-en-peru-precio-y-cotizacion-de-la-divisa-este-jueves-8-de-octubre-de-2026_0_r1dHGiZhP5.html",
+          "imagen": "https://www.clarin.com/img/2013/01/23/rJ4kl9llW_1200x630.jpg"
         }
       ]
     }
