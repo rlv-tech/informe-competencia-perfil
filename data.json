@@ -2,15 +2,9 @@
   "fecha_analisis": "2026-10-09",
   "hipercompetencia": [
     {
-      "tema": "Premio Nobel de la Paz 2026 otorgado a Navi Pillay y reacciones internacionales",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "El galardón a Navi Pillay impacta fuertemente en la agenda internacional y en los debates sobre derechos humanos y geopolítica que interesan a la audiencia de Perfil.",
-      "insight": "Perfil cuenta con una cobertura inicial adecuada pero se encuentra rezagado frente a la intensidad y profundidad del despliegue de competidores como Clarín e Infobae.",
-      "accion_sugerida": "Ampliar el perfil biográfico de Pillay y profundizar en las repercusiones diplomáticas en Medio Oriente, con especial foco en las acusaciones previas sobre Israel.",
-      "enfoques_sugeridos": [
-        "El perfil de la jurista y su trayectoria en tribunales internacionales contra el genocidio.",
-        "Las reacciones cruzadas de la comunidad internacional y la ironía dirigida a Donald Trump."
-      ],
+      "total_notas": 17,
+      "cantidad_medios": 7,
+      "cantidad_competidores": 6,
       "cobertura": {
         "Perfil": 2,
         "La Nación": 1,
@@ -21,47 +15,46 @@
         "Página 12": 2,
         "El Cronista": 1
       },
+      "cobertura_perfil": 2,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 4,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Premio Nobel de la Paz 2026 otorgado a Navi Pillay y reacciones internacionales",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "El galardón a Navi Pillay impacta fuertemente en la agenda internacional y en los debates sobre derechos humanos y geopolítica que interesan a la audiencia de Perfil.",
+      "insight": "Perfil cuenta con una cobertura inicial adecuada pero se encuentra rezagado frente a la intensidad y profundidad del despliegue de competidores como Clarín e Infobae.",
+      "accion_sugerida": "Ampliar el perfil biográfico de Pillay y profundizar en las repercusiones diplomáticas en Medio Oriente, con especial foco en las acusaciones previas sobre Israel.",
+      "enfoques_sugeridos": [
+        "El perfil de la jurista y su trayectoria en tribunales internacionales contra el genocidio.",
+        "Las reacciones cruzadas de la comunidad internacional y la ironía dirigida a Donald Trump."
+      ],
       "ejemplos": [
         {
           "medio": "Perfil",
           "titulo": "Quién es Navi Pillay, la jueza contra los genocidios y la pena de muerte que ganó el Nobel de la Paz 2026",
           "link": "https://www.perfil.com/noticias/internacional/quien-es-navi-pillay-la-jueza-que-reformulo-la-nocion-de-genocidio-y-gano-el-nobel-de-la-paz-2026.phtml",
-          "imagen": "https://fotos.perfil.com/2025/09/22/trim/540/304/navanethem-pillay-2103477.jpg",
-          "autor": "Marcela Basch",
-          "fecha": "Fri, 09 Oct 2026 12:51:00 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2025/09/22/trim/540/304/navanethem-pillay-2103477.jpg"
         },
         {
           "medio": "Perfil",
           "titulo": "La sudafricana Navanethem \"Navi\" Pillay ganó el Premio Nobel de la Paz 2026 y dedicó una ironía a Trump",
           "link": "https://www.perfil.com/noticias/internacional/la-sudafricana-navanethem-navi-pillay-gana-el-premio-nobel-de-la-paz-2026.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/navi-pillay-premio-nobel-de-la-paz-2344917.jpg",
-          "autor": "Facundo Falduto",
-          "fecha": "Fri, 09 Oct 2026 10:40:00 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/navi-pillay-premio-nobel-de-la-paz-2344917.jpg"
         },
         {
           "medio": "Ámbito",
           "titulo": "Navi Pillay, Nobel de la Paz 2026: la jurista que acusó a Israel de genocidio en Gaza",
           "link": "https://www.ambito.com/mundo/navi-pillay-nobel-la-paz-2026-la-jurista-que-acuso-israel-genocidio-gaza-n6331944",
-          "imagen": "https://media.ambito.com/p/4881ee12d1eefec58092dcf56076b340/adjuntos/239/imagenes/043/693/0043693883/1200x675/588x518:608x538/navi-pillay1.png",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 10:04:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/4881ee12d1eefec58092dcf56076b340/adjuntos/239/imagenes/043/693/0043693883/1200x675/588x518:608x538/navi-pillay1.png"
         }
       ],
       "imagen": "https://fotos.perfil.com/2025/09/22/trim/540/304/navanethem-pillay-2103477.jpg"
     },
     {
-      "tema": "Cotización del dólar oficial, blue y otras opciones cambiarias",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "El seguimiento diario del mercado cambiario es un pilar informativo clave para la economía cotidiana de los lectores argentinos.",
-      "insight": "Existe un dominio absoluto de los medios financieros y generalistas como Ámbito y TN, mientras que Perfil carece de notas registradas en esta temática.",
-      "accion_sugerida": "Desarrollar un monitoreo propio y actualizado de las distintas cotizaciones con un resumen visual útil para inversores y ahorristas.",
-      "enfoques_sugeridos": [
-        "El comportamiento del dólar mayorista y su impacto en la brecha cambiaria.",
-        "La evolución de las opciones cambiarias alternativas al cierre de la semana."
-      ],
+      "total_notas": 14,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 4,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
@@ -72,47 +65,46 @@
         "Página 12": 1,
         "El Cronista": 3
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 8,
+      "brecha": -8,
+      "brecha_formateada": "-8",
+      "tema": "Cotización del dólar oficial, blue y otras opciones cambiarias",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "El seguimiento diario del mercado cambiario es un pilar informativo clave para la economía cotidiana de los lectores argentinos.",
+      "insight": "Existe un dominio absoluto de los medios financieros y generalistas como Ámbito y TN, mientras que Perfil carece de notas registradas en esta temática.",
+      "accion_sugerida": "Desarrollar un monitoreo propio y actualizado de las distintas cotizaciones con un resumen visual útil para inversores y ahorristas.",
+      "enfoques_sugeridos": [
+        "El comportamiento del dólar mayorista y su impacto en la brecha cambiaria.",
+        "La evolución de las opciones cambiarias alternativas al cierre de la semana."
+      ],
       "ejemplos": [
         {
           "medio": "TN",
           "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este viernes 9 de octubre",
           "link": "https://tn.com.ar/economia/2026/10/09/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-viernes-9-de-octubre/",
-          "imagen": "",
-          "autor": "",
-          "fecha": "2026-10-09T11:26:34-03:00",
-          "id": ""
+          "imagen": ""
         },
         {
           "medio": "Ámbito",
           "titulo": "Dólar hoy: a cuánto cotiza este viernes 9 de octubre",
           "link": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-viernes-9-octubre-n6331869",
-          "imagen": "https://media.ambito.com/p/26f84666c4f7783449df834e8a256cbe/adjuntos/239/imagenes/042/785/0042785994/dolar-blue.jpg",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 11:22:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/26f84666c4f7783449df834e8a256cbe/adjuntos/239/imagenes/042/785/0042785994/dolar-blue.jpg"
         },
         {
           "medio": "El Cronista",
           "titulo": "Dólar hoy y dólar blue hoy: cuál es la cotización del viernes 9 de octubre minuto a minuto",
           "link": "https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-viernes-9-de-octubre-minuto-a-minuto/",
-          "imagen": "https://www.cronista.com/resizer/v2/HNQHJKVG5NEIVNHG4VOMCLMBRQ.jpg?auth=e91d39210e8621e0b6686a0324c2d5db70044c5d965efe3c76eb8d24f834ac67&smart=true&width=1200&height=900",
-          "autor": "Equipo Mesa Web",
-          "fecha": "Fri, 09 Oct 2026 14:39:59 +0000",
-          "id": ""
+          "imagen": "https://www.cronista.com/resizer/v2/HNQHJKVG5NEIVNHG4VOMCLMBRQ.jpg?auth=e91d39210e8621e0b6686a0324c2d5db70044c5d965efe3c76eb8d24f834ac67&smart=true&width=1200&height=900"
         }
       ],
       "imagen": "https://media.ambito.com/p/26f84666c4f7783449df834e8a256cbe/adjuntos/239/imagenes/042/785/0042785994/dolar-blue.jpg"
     },
     {
-      "tema": "Fallo de la Corte Suprema sobre la ley de venta de tierras a extranjeros",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "La decisión del máximo tribunal sobre el DNU y los límites a la propiedad rural modifica el escenario institucional y económico del país.",
-      "insight": "La competencia ha desplegado una cobertura exhaustiva con enfoques técnicos y políticos, dejando a Perfil completamente fuera de la conversación inicial.",
-      "accion_sugerida": "Publicar un análisis jurídico y político que explique el alcance del fallo sobre las inversiones extranjeras y su alivio para el oficialismo.",
-      "enfoques_sugeridos": [
-        "El impacto institucional de la suspensión del artículo del DNU 70 por parte de la Corte.",
-        "Las repercusiones políticas en el Congreso frente a la expectativa del oficialismo."
-      ],
+      "total_notas": 13,
+      "cantidad_medios": 7,
+      "cantidad_competidores": 7,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 2,
@@ -123,33 +115,38 @@
         "Página 12": 4,
         "El Cronista": 1
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "tema": "Fallo de la Corte Suprema sobre la ley de venta de tierras a extranjeros",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "La decisión del máximo tribunal sobre el DNU y los límites a la propiedad rural modifica el escenario institucional y económico del país.",
+      "insight": "La competencia ha desplegado una cobertura exhaustiva con enfoques técnicos y políticos, dejando a Perfil completamente fuera de la conversación inicial.",
+      "accion_sugerida": "Publicar un análisis jurídico y político que explique el alcance del fallo sobre las inversiones extranjeras y su alivio para el oficialismo.",
+      "enfoques_sugeridos": [
+        "El impacto institucional de la suspensión del artículo del DNU 70 por parte de la Corte.",
+        "Las repercusiones políticas en el Congreso frente a la expectativa del oficialismo."
+      ],
       "ejemplos": [
         {
           "medio": "La Nación",
           "titulo": "Un fallo urgente de la Corte repone los límites a la venta de tierras a extranjeros y alivia al Gobierno",
           "link": "https://www.lanacion.com.ar/politica/un-fallo-urgente-de-la-corte-repone-los-limites-a-la-venta-de-tierras-a-extranjeros-y-alivia-al-nid09102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/CBB36UAECBA7RA5IDAMUBIVK7I.jpg?auth=5501d9d73855b3818e1e2a902d9c057c760215e86148838a4ba3bc00ef611fb6&smart=true&width=2496&height=1872",
-          "autor": "Paz Rodríguez Niell",
-          "fecha": "Fri, 09 Oct 2026 13:53:46 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CBB36UAECBA7RA5IDAMUBIVK7I.jpg?auth=5501d9d73855b3818e1e2a902d9c057c760215e86148838a4ba3bc00ef611fb6&smart=true&width=2496&height=1872"
         },
         {
           "medio": "Clarín",
           "titulo": "Con una decisión técnica, ahora la Corte repuso la ley que limita la venta de tierra a extranjeros",
           "link": "https://www.clarin.com/politica/decision-tecnica-ahora-corte-repuso-ley-limita-venta-tierra-extranjeros_0_IfsEYjThwC.html",
-          "imagen": "https://www.clarin.com/img/2026/10/09/c-QeJHfcw_1200x630__1.jpg",
-          "autor": "Clarin.com - Home",
-          "fecha": "Fri, 09 Oct 2026 13:49:22 +0000",
-          "id": ""
+          "imagen": "https://www.clarin.com/img/2026/10/09/c-QeJHfcw_1200x630__1.jpg"
         },
         {
           "medio": "Infobae",
           "titulo": "La Corte suspendió el artículo del DNU 70 que derogaba la Ley de Tierras y repuso los límites sobre la venta a extranjeros",
           "link": "https://www.infobae.com/judiciales/2026/10/09/la-corte-suspendio-el-articulo-del-dnu-70-que-derogaba-la-ley-de-tierras/",
-          "imagen": "https://www.infobae.com/resizer/v2/3ELFJ73UQZGIFEHFZQ7JUCFMCE.jpg?auth=155b1ebb632f8de263224fcbf7e49c9d254075415e0218121079bcd39d1b17a2&smart=true&width=2965&height=1835",
-          "autor": "Silvana Boschi",
-          "fecha": "Fri, 09 Oct 2026 14:26:17 +0000",
-          "id": ""
+          "imagen": "https://www.infobae.com/resizer/v2/3ELFJ73UQZGIFEHFZQ7JUCFMCE.jpg?auth=155b1ebb632f8de263224fcbf7e49c9d254075415e0218121079bcd39d1b17a2&smart=true&width=2965&height=1835"
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/CBB36UAECBA7RA5IDAMUBIVK7I.jpg?auth=5501d9d73855b3818e1e2a902d9c057c760215e86148838a4ba3bc00ef611fb6&smart=true&width=2496&height=1872"
@@ -157,15 +154,9 @@
   ],
   "perfil_pierde": [
     {
-      "tema": "Operativo de traslado de presos de Devoto a Marcos Paz",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "El traslado masivo de internos y las medidas de seguridad penitenciaria son asuntos de alta sensibilidad social y urbana para la región metropolitana.",
-      "insight": "Aunque Perfil cuenta con un artículo sobre el operativo, la competencia lidera con cronogramas detallados, recorridos cronometrados y análisis de antecedentes.",
-      "accion_sugerida": "Actualizar la cobertura sumando detalles logísticos del convoy blindado y comparando los plazos actuales con promesas de gestión anteriores.",
-      "enfoques_sugeridos": [
-        "El despliegue táctico y el sistema de control con pulseras QR para los detenidos.",
-        "El fantasma de los anuncios incumplidos en materia de infraestructura carcelaria."
-      ],
+      "total_notas": 4,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 1,
         "La Nación": 0,
@@ -176,47 +167,46 @@
         "Página 12": 0,
         "El Cronista": 0
       },
+      "cobertura_perfil": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Operativo de traslado de presos de Devoto a Marcos Paz",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "El traslado masivo de internos y las medidas de seguridad penitenciaria son asuntos de alta sensibilidad social y urbana para la región metropolitana.",
+      "insight": "Aunque Perfil cuenta con un artículo sobre el operativo, la competencia lidera con cronogramas detallados, recorridos cronometrados y análisis de antecedentes.",
+      "accion_sugerida": "Actualizar la cobertura sumando detalles logísticos del convoy blindado y comparando los plazos actuales con promesas de gestión anteriores.",
+      "enfoques_sugeridos": [
+        "El despliegue táctico y el sistema de control con pulseras QR para los detenidos.",
+        "El fantasma de los anuncios incumplidos en materia de infraestructura carcelaria."
+      ],
       "ejemplos": [
         {
           "medio": "Perfil",
           "titulo": "El traslado de presos de Devoto a Marcos Paz: 100 internos por día y un convoy antidisturbios",
           "link": "https://www.perfil.com/noticias/sociedad/el-traslado-de-los-presos-de-devoto-a-marcos-paz-100-presos-por-dia-y-un-convoy-antidisturbios.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/01/trim/540/304/alejandra-monteoliva-2317047.jpg",
-          "autor": "Leonardo Torresi",
-          "fecha": "Fri, 09 Oct 2026 12:54:18 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2026/09/01/trim/540/304/alejandra-monteoliva-2317047.jpg"
         },
         {
           "medio": "Clarín",
           "titulo": "Cien presos por día y un convoy \"blindado\": cómo será el operativo para trasladar a los presos desde la cárcel de Devoto a Marcos Paz",
           "link": "https://www.clarin.com/politica/cien-presos-dia-convoy-blindado-operativo-trasladar-presos-carcel-devoto-marcos-paz_0_g8RLfPdbEP.html",
-          "imagen": "https://www.clarin.com/img/2026/10/09/NB9o4bC6U_1200x630__1.jpg",
-          "autor": "Clarin.com - Home",
-          "fecha": "Fri, 09 Oct 2026 12:25:48 +0000",
-          "id": ""
+          "imagen": "https://www.clarin.com/img/2026/10/09/NB9o4bC6U_1200x630__1.jpg"
         },
         {
           "medio": "TN",
           "titulo": "Un recorrido cronometrado y detenidos con pulseras con QR: así será el traslado de los presos de la cárcel de Devoto a Marcos Paz",
           "link": "https://tn.com.ar/politica/2026/10/09/un-recorrido-cronometrado-y-detenidos-con-pulseras-con-qr-asi-sera-el-traslado-de-los-presos-de-la-carcel-de-devoto-a-marcos-paz/",
-          "imagen": "https://tn.com.ar/resizer/v2/XRLX6RBEXJAURJNQMS4MRYS6KE.jpg?auth=cb2059bb0dc380166e675d27f3204aa5d57ed5e7422fd0f72a051174699245db",
-          "autor": "",
-          "fecha": "2026-10-09T10:43:44-03:00",
-          "id": ""
+          "imagen": "https://tn.com.ar/resizer/v2/XRLX6RBEXJAURJNQMS4MRYS6KE.jpg?auth=cb2059bb0dc380166e675d27f3204aa5d57ed5e7422fd0f72a051174699245db"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/09/01/trim/540/304/alejandra-monteoliva-2317047.jpg"
     },
     {
-      "tema": "Condena a prisión perpetua a la madre de Aralí Vivas y sus cómplices",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "El desenlace judicial de este caso conmueve a la opinión pública por la gravedad de la violencia institucional y familiar ejercida contra la menor.",
-      "insight": "Perfil registró la condena básica, pero medios como TN y Clarín capturaron mayor engagement con cobertura audiovisual e incidentes en los tribunales.",
-      "accion_sugerida": "Profundizar en los fundamentos del fallo judicial y el impacto social de la sentencia en la provincia de Córdoba.",
-      "enfoques_sugeridos": [
-        "El desglose de las penas impuestas a la madre, el padrastro y el coimputado.",
-        "La reacción de la comunidad y los incidentes registrados a la salida de los tribunales."
-      ],
+      "total_notas": 4,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 1,
         "La Nación": 0,
@@ -227,40 +217,46 @@
         "Página 12": 0,
         "El Cronista": 0
       },
+      "cobertura_perfil": 1,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Condena a prisión perpetua a la madre de Aralí Vivas y sus cómplices",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "El desenlace judicial de este caso conmueve a la opinión pública por la gravedad de la violencia institucional y familiar ejercida contra la menor.",
+      "insight": "Perfil registró la condena básica, pero medios como TN y Clarín capturaron mayor engagement con cobertura audiovisual e incidentes en los tribunales.",
+      "accion_sugerida": "Profundizar en los fundamentos del fallo judicial y el impacto social de la sentencia en la provincia de Córdoba.",
+      "enfoques_sugeridos": [
+        "El desglose de las penas impuestas a la madre, el padrastro y el coimputado.",
+        "La reacción de la comunidad y los incidentes registrados a la salida de los tribunales."
+      ],
       "ejemplos": [
         {
           "medio": "Perfil",
           "titulo": "Caso Aralí Vivas: condenaron a prisión perpetua a la madre de la niña y sus dos cómplices",
           "link": "https://www.perfil.com/noticias/cordoba/caso-arali-vivas-condenaron-a-prision-perpetua-a-la-madre-de-la-nina-y-sus-dos-complices.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/crimen-de-arali-2344926.jpg",
-          "autor": "Perfil Redacción Córdoba",
-          "fecha": "Fri, 09 Oct 2026 10:34:48 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/crimen-de-arali-2344926.jpg"
         },
         {
           "medio": "Clarín",
           "titulo": "Fin del juicio por el crimen de la nena de 8 años, Aralí Vivas: condenan a perpetua a su madre, al padrastro y a un amigo",
           "link": "https://www.clarin.com/policiales/fin-juicio-crimen-nena-8-anos-arali-vivas-condenan-perpetua-madre-padrastro-amigo_0_SvDnGR42Ry.html",
-          "imagen": "https://www.clarin.com/img/2026/10/08/w3p2VR6VY_1200x630__1.jpg",
-          "autor": "Clarin.com - Home",
-          "fecha": "Fri, 09 Oct 2026 05:39:43 +0000",
-          "id": ""
+          "imagen": "https://www.clarin.com/img/2026/10/08/w3p2VR6VY_1200x630__1.jpg"
         },
         {
           "medio": "TN",
           "titulo": "“Malparida, vos la entregaste a tu hija”: los insultos contra la madre de Aralí Vivas tras ser condenada a prisión perpetua",
           "link": "https://tn.com.ar/policiales/2026/10/09/malparida-vos-la-entregaste-a-tu-hija-los-insultos-contra-la-madre-de-arali-vivas-tras-ser-condenada-a-prision-perpetua/",
-          "imagen": "https://tn.com.ar/resizer/v2/PBHJ76IBORFDTF3KZDKB635DOE.png?auth=014ed2b2358835ffa04b3bf997040820d8866bb4bc0fb9d2183201dfcd01d37f",
-          "autor": "",
-          "fecha": "2026-10-09T08:15:28-03:00",
-          "id": ""
+          "imagen": "https://tn.com.ar/resizer/v2/PBHJ76IBORFDTF3KZDKB635DOE.png?auth=014ed2b2358835ffa04b3bf997040820d8866bb4bc0fb9d2183201dfcd01d37f"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/crimen-de-arali-2344926.jpg"
     },
     {
-      "tema": "Evolución y pico máximo del fenómeno climático El Niño",
-      "tipo": "perfil_pierde",
+      "total_notas": 4,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 1,
         "La Nación": 2,
@@ -276,9 +272,8 @@
       "cobertura_medio_lider": 2,
       "brecha": -1,
       "brecha_formateada": "-1",
-      "total_notas": 4,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 2,
+      "tema": "Evolución y pico máximo del fenómeno climático El Niño",
+      "tipo": "perfil_pierde",
       "por_que_importa": "Las previsiones climáticas extremas afectan directamente al sector agropecuario y a la planificación urbana en amplias regiones del país.",
       "insight": "La Nación y Clarín superan a Perfil en la periodicidad y en el uso de coberturas en vivo sobre el impacto del Súper Niño en el pronóstico nacional.",
       "accion_sugerida": "Ampliar el servicio meteorológico con mapas de riesgo y reportes periódicos sobre las zonas del Litoral más vulnerables a las crecidas.",
@@ -291,28 +286,19 @@
           "medio": "Perfil",
           "titulo": "El Niño: ¿cuándo alcanzaría su punto álgido?",
           "link": "https://www.perfil.com/noticias/nea/el-nino-cuando-alcanzaria-su-punto-algido.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/el-nino-alertan-por-crecidas-historicas-del-rio-parana-y-pone-al-litoral-bajo-mayor-2327121.jpg",
-          "autor": "Perfil Redacción NEA",
-          "fecha": "Fri, 09 Oct 2026 09:54:00 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/el-nino-alertan-por-crecidas-historicas-del-rio-parana-y-pone-al-litoral-bajo-mayor-2327121.jpg"
         },
         {
           "medio": "La Nación",
           "titulo": "Avanza un fenómeno relacionado con el Súper Niño que provocará varios días grises, frescos, inestables y lluvias: las zonas afectadas",
           "link": "https://www.lanacion.com.ar/sociedad/avanza-un-fenomeno-relacionado-con-el-super-nino-que-provocara-varios-dias-grises-frescos-inestables-nid09102026/",
-          "imagen": "",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 14:57:44 +0000",
-          "id": ""
+          "imagen": ""
         },
         {
-          "medio": "Clarín",
-          "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo será el pico de las lluvias y cómo cambiará el clima",
-          "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-pico-lluvias-cambiara-clima_0_AOMUTvhLMU.html",
-          "imagen": "https://www.clarin.com/img/2026/09/29/5rXOtD1SI_1200x630__1.jpg",
-          "autor": "Clarin.com - Home",
-          "fecha": "Fri, 09 Oct 2026 10:40:50 +0000",
-          "id": ""
+          "medio": "La Nación",
+          "titulo": "Súper Niño 2026: qué se sabe del fenómeno que cambiará el pronóstico de la Argentina y llegará pronto a su pico máximo",
+          "link": "https://www.lanacion.com.ar/sociedad/super-nino-2026-que-se-sabe-del-fenomeno-que-cambiara-por-completo-el-clima-en-la-argentina-y-nid05102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/D5MJFEG23VAL5AUXTWQ4NSZRCA.jpg?auth=bb47e1d2903cd2579e70aaba893bb404637afa4f3a6ca62af629e24617eae069&smart=true&width=2000&height=1333"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/09/16/trim/540/304/el-nino-alertan-por-crecidas-historicas-del-rio-parana-y-pone-al-litoral-bajo-mayor-2327121.jpg"
@@ -320,15 +306,9 @@
   ],
   "sin_cobertura_perfil": [
     {
-      "tema": "Calendario de pagos de jubilaciones de Anses",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Es una temática de alto interés para SEO y búsquedas transaccionales de la audiencia de adultos mayores que busca previsibilidad económica.",
-      "insight": "Competidores como El Cronista y La Nación capitalizan el tráfico de servicio con notas específicas sobre cronogramas y feriados, mientras Perfil no registra cobertura.",
-      "accion_sugerida": "Crear una sección permanente de servicios previsionales que detalle diariamente los cobros según terminación de DNI.",
-      "enfoques_sugeridos": [
-        "El impacto del fin de semana largo y los cambios en las fechas de acreditación de haberes.",
-        "Guía práctica para jubilados y pensionados sobre montos y bonos vigentes."
-      ],
+      "total_notas": 5,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 1,
@@ -339,47 +319,46 @@
         "Página 12": 0,
         "El Cronista": 3
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Calendario de pagos de jubilaciones de Anses",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Es una temática de alto interés para SEO y búsquedas transaccionales de la audiencia de adultos mayores que busca previsibilidad económica.",
+      "insight": "Competidores como El Cronista y La Nación capitalizan el tráfico de servicio con notas específicas sobre cronogramas y feriados, mientras Perfil no registra cobertura.",
+      "accion_sugerida": "Crear una sección permanente de servicios previsionales que detalle diariamente los cobros según terminación de DNI.",
+      "enfoques_sugeridos": [
+        "El impacto del fin de semana largo y los cambios en las fechas de acreditación de haberes.",
+        "Guía práctica para jubilados y pensionados sobre montos y bonos vigentes."
+      ],
       "ejemplos": [
         {
           "medio": "La Nación",
           "titulo": "Anses: cuándo cobro la jubilación de octubre si mi DNI termina en 3",
           "link": "https://www.lanacion.com.ar/economia/anses-cuando-cobro-la-jubilacion-de-octubre-si-mi-dni-termina-en-3-nid09102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RYYRDAIZSBBPTJZCC2LTDGDNCA.jpg?auth=cecb004087c2bbc32c4e8545ca29940da8c395a83b6a70b95685ae9f63acd799&smart=true&width=2000&height=1333",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 13:12:00 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RYYRDAIZSBBPTJZCC2LTDGDNCA.jpg?auth=cecb004087c2bbc32c4e8545ca29940da8c395a83b6a70b95685ae9f63acd799&smart=true&width=2000&height=1333"
         },
         {
           "medio": "Ámbito",
           "titulo": "ANSES modificó el calendario de cobro de octubre para jubilados y PNC: ¿cuándo cobran por el feriado?",
           "link": "https://www.ambito.com/informacion-general/anses-modifico-el-calendario-cobro-octubre-jubilados-y-pnc-cuando-cobran-el-feriado-n6331661",
-          "imagen": "https://media.ambito.com/p/f75781829bbda3794488eeee8368d729/adjuntos/239/imagenes/043/540/0043540217/1200x675/528x280:548x300/anses-calendario-1500-x-1000.png",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 09:30:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/f75781829bbda3794488eeee8368d729/adjuntos/239/imagenes/043/540/0043540217/1200x675/528x280:548x300/anses-calendario-1500-x-1000.png"
         },
         {
           "medio": "El Cronista",
           "titulo": "Cobran los jubilados el viernes 9 de octubre: ANSES depositará a beneficiarios con este DNI",
           "link": "https://www.cronista.com/informacion-gral/cobran-los-jubilados-el-viernes-9-de-octubre-anses-depositara-a-beneficiarios-con-este-dni/",
-          "imagen": "https://www.cronista.com/resizer/v2/36F42ZHRJVGS5P3Y2ZK5PUDIRY.jpg?auth=bd6d4963b1dbfefb306c0a268ea1af0272f4d96fbe9a96d6d71573bb620996b0&smart=true&width=1200&height=900",
-          "autor": "María Gracia  López Tóffoli",
-          "fecha": "Fri, 09 Oct 2026 14:30:48 +0000",
-          "id": ""
+          "imagen": "https://www.cronista.com/resizer/v2/36F42ZHRJVGS5P3Y2ZK5PUDIRY.jpg?auth=bd6d4963b1dbfefb306c0a268ea1af0272f4d96fbe9a96d6d71573bb620996b0&smart=true&width=1200&height=900"
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/RYYRDAIZSBBPTJZCC2LTDGDNCA.jpg?auth=cecb004087c2bbc32c4e8545ca29940da8c395a83b6a70b95685ae9f63acd799&smart=true&width=2000&height=1333"
     },
     {
-      "tema": "Reglamentación de la ley de Inocencia Fiscal II por el Gobierno",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las modificaciones impositivas y las facilidades para contribuyentes atraen un alto tráfico de interés económico y fiscal.",
-      "insight": "Ámbito y El Cronista lideran la difusión de las medidas gubernamentales sobre Ganancias y multas, dejando a Perfil sin presencia en un tema clave.",
-      "accion_sugerida": "Publicar un informe explicativo con la palabra de tributaristas sobre quiénes se benefician de la nueva normativa.",
-      "enfoques_sugeridos": [
-        "Los cambios centrales en el régimen simplificado y la reducción de multas fiscales.",
-        "El impacto temporal de la promulgación tras la prórroga en la presentación de impuestos."
-      ],
+      "total_notas": 5,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 1,
@@ -390,47 +369,46 @@
         "Página 12": 0,
         "El Cronista": 2
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Reglamentación de la ley de Inocencia Fiscal II por el Gobierno",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Las modificaciones impositivas y las facilidades para contribuyentes atraen un alto tráfico de interés económico y fiscal.",
+      "insight": "Ámbito y El Cronista lideran la difusión de las medidas gubernamentales sobre Ganancias y multas, dejando a Perfil sin presencia en un tema clave.",
+      "accion_sugerida": "Publicar un informe explicativo con la palabra de tributaristas sobre quiénes se benefician de la nueva normativa.",
+      "enfoques_sugeridos": [
+        "Los cambios centrales en el régimen simplificado y la reducción de multas fiscales.",
+        "El impacto temporal de la promulgación tras la prórroga en la presentación de impuestos."
+      ],
       "ejemplos": [
         {
           "medio": "La Nación",
           "titulo": "El Gobierno reglamentó la ley de Inocencia Fiscal II tras la prórroga al plazo de presentación de Ganancias",
           "link": "https://www.lanacion.com.ar/economia/el-gobierno-reglamento-la-ley-de-inocencia-fiscal-ii-tras-la-prorroga-al-plazo-de-presentacion-de-nid09102026/",
-          "imagen": "",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 13:55:41 +0000",
-          "id": ""
+          "imagen": ""
         },
         {
           "medio": "Ámbito",
           "titulo": "Rige la ley de Inocencia Fiscal II: qué cambia desde hoy",
           "link": "https://www.ambito.com/economia/rige-la-ley-inocencia-fiscal-ii-que-cambia-hoy-n6331905",
-          "imagen": "https://media.ambito.com/p/f83dc45e77f775c382d52787669e7735/adjuntos/239/imagenes/043/284/0043284483/ganancias.png",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 09:16:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/f83dc45e77f775c382d52787669e7735/adjuntos/239/imagenes/043/284/0043284483/ganancias.png"
         },
         {
           "medio": "El Cronista",
           "titulo": "El Gobierno finalmente promulgó Inocencia Fiscal II: las fechas clave, qué falta y quiénes podrán acceder a sus beneficios",
           "link": "https://www.cronista.com/economia-politica/el-gobierno-finalmente-promulgo-inocencia-fiscal-ii-las-fechas-clave-que-falta-y-quienes-podran-acceder-a-sus-beneficios/",
-          "imagen": "https://www.cronista.com/resizer/v2/44MWSSW5CRAR3JDRF7ITK3WEA4.jpg?auth=4a5e8266aab9bc0fa3c72eaa119f8dc63b594c502028fd80898bd804f4d560a7&smart=true&width=1200&height=900",
-          "autor": "Zoe  Braziulis",
-          "fecha": "Fri, 09 Oct 2026 10:32:08 +0000",
-          "id": ""
+          "imagen": "https://www.cronista.com/resizer/v2/44MWSSW5CRAR3JDRF7ITK3WEA4.jpg?auth=4a5e8266aab9bc0fa3c72eaa119f8dc63b594c502028fd80898bd804f4d560a7&smart=true&width=1200&height=900"
         }
       ],
       "imagen": "https://media.ambito.com/p/f83dc45e77f775c382d52787669e7735/adjuntos/239/imagenes/043/284/0043284483/ganancias.png"
     },
     {
-      "tema": "Suba de acciones argentinas y baja del riesgo país con impulso de Wall Street y Brasil",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "El humor de los mercados financieros y la evolución de los bonos soberanos reflejan la confianza externa en la economía nacional.",
-      "insight": "Ámbito e Infobae capturan el pulso financiero del cierre semanal con notas de mercado donde Perfil brilla por su ausencia.",
-      "accion_sugerida": "Desarrollar un reporte financiero de cierre de semana analizando los factores internacionales que traccionan a la baja el riesgo país.",
-      "enfoques_sugeridos": [
-        "El comportamiento de los bonos argentinos en la última rueda bursátil de la semana.",
-        "El influjo positivo de los mercados de Wall Street y Brasil sobre los activos locales."
-      ],
+      "total_notas": 4,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
@@ -441,24 +419,38 @@
         "Página 12": 0,
         "El Cronista": 0
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Suba de acciones argentinas y baja del riesgo país con impulso de Wall Street y Brasil",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "El humor de los mercados financieros y la evolución de los bonos soberanos reflejan la confianza externa en la economía nacional.",
+      "insight": "Ámbito e Infobae capturan el pulso financiero del cierre semanal con notas de mercado donde Perfil brilla por su ausencia.",
+      "accion_sugerida": "Desarrollar un reporte financiero de cierre de semana analizando los factores internacionales que traccionan a la baja el riesgo país.",
+      "enfoques_sugeridos": [
+        "El comportamiento de los bonos argentinos en la última rueda bursátil de la semana.",
+        "El influjo positivo de los mercados de Wall Street y Brasil sobre los activos locales."
+      ],
       "ejemplos": [
         {
           "medio": "Infobae",
           "titulo": "Suben las acciones argentinas y baja el riesgo país, con el empuje de Wall Street y Brasil",
           "link": "https://www.infobae.com/economia/2026/10/09/suben-las-acciones-argentinas-y-baja-el-riesgo-pais-con-el-empuje-de-wall-street-y-brasil/",
-          "imagen": "https://www.infobae.com/resizer/v2/HFC7TXLXAFCHPFKLHTWL5O42KA.JPG?auth=aefd1756a84a0a02a34deb3bea6fb19445a7ebafde01dce740bee3488c99702f&smart=true&width=5477&height=3651",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 14:56:14 +0000",
-          "id": ""
+          "imagen": "https://www.infobae.com/resizer/v2/HFC7TXLXAFCHPFKLHTWL5O42KA.JPG?auth=aefd1756a84a0a02a34deb3bea6fb19445a7ebafde01dce740bee3488c99702f&smart=true&width=5477&height=3651"
         },
         {
           "medio": "Ámbito",
           "titulo": "Los bonos suben en la última rueda semanal y el riesgo país se ubica por debajo de los 580 puntos",
           "link": "https://www.ambito.com/finanzas/las-acciones-y-los-bonos-se-someten-la-ultima-rueda-semanal-un-riesgo-pais-cerca-los-600-puntos-n6331927",
-          "imagen": "https://media.ambito.com/p/2cd57991009ffecfc845a5bfc2dc518f/adjuntos/239/imagenes/043/284/0043284702/1200x675/smart/mercados-merval-bolsa-acciones-cedears-4.jpg",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 11:39:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/2cd57991009ffecfc845a5bfc2dc518f/adjuntos/239/imagenes/043/284/0043284702/1200x675/smart/mercados-merval-bolsa-acciones-cedears-4.jpg"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Los bonos suben en la última rueda semanal y el riesgo país se ubica por debajo de los 580 puntos",
+          "link": "https://www.ambito.com/finanzas/las-acciones-y-los-bonos-se-someten-la-ultima-rueda-semanal-un-riesgo-pais-cerca-los-600-puntos-n6331927",
+          "imagen": "https://media.ambito.com/p/2cd57991009ffecfc845a5bfc2dc518f/adjuntos/239/imagenes/043/284/0043284702/1200x675/smart/mercados-merval-bolsa-acciones-cedears-4.jpg"
         }
       ],
       "imagen": "https://www.infobae.com/resizer/v2/HFC7TXLXAFCHPFKLHTWL5O42KA.JPG?auth=aefd1756a84a0a02a34deb3bea6fb19445a7ebafde01dce740bee3488c99702f&smart=true&width=5477&height=3651"
@@ -466,15 +458,9 @@
   ],
   "oportunidades": [
     {
-      "tema": "Conflicto mediático y cruces legales entre Mauro Icardi, Wanda Nara y entorno",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los escándalos de espectáculos generan picos masivos de tráfico en Google Discover y redes sociales.",
-      "insight": "La Nación monopoliza la cobertura con notas de alto impacto sobre declaraciones en redes, representando una clara oportunidad de tráfico para Perfil.",
-      "accion_sugerida": "Redactar notas de cobertura rápida sobre los descargos en redes sociales para capturar tráfico orgánico masivo.",
-      "enfoques_sugeridos": [
-        "El impacto de las publicaciones cruzadas en X y las repercusiones legales del divorcio.",
-        "La participación de terceros y allegados en la disputa mediática."
-      ],
+      "total_notas": 3,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 3,
@@ -485,6 +471,20 @@
         "Página 12": 0,
         "El Cronista": 0
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Conflicto mediático y cruces legales entre Mauro Icardi, Wanda Nara y entorno",
+      "tipo": "oportunidades",
+      "por_que_importa": "Los escándalos de espectáculos generan picos masivos de tráfico en Google Discover y redes sociales.",
+      "insight": "La Nación monopoliza la cobertura con notas de alto impacto sobre declaraciones en redes, representando una clara oportunidad de tráfico para Perfil.",
+      "accion_sugerida": "Redactar notas de cobertura rápida sobre los descargos en redes sociales para capturar tráfico orgánico masivo.",
+      "enfoques_sugeridos": [
+        "El impacto de las publicaciones cruzadas en X y las repercusiones legales del divorcio.",
+        "La participación de terceros y allegados en la disputa mediática."
+      ],
       "tipo_de_oportunidad": "Tráfico de Espectáculos y Discover",
       "motivo_oportunidad": "La fuerte tracción de audiencia en temas de farándula permite capturar lectores mediante resúmenes rápidos de posteos y polémicas.",
       "ejemplos": [
@@ -492,42 +492,27 @@
           "medio": "La Nación",
           "titulo": "Mauro Icardi se descargó con una catarata de posteos en X contra Wanda Nara, Ana Rosenfeld y los “haters” tras confirmarse su divorcio",
           "link": "https://www.lanacion.com.ar/espectaculos/mauro-icardi-se-descargo-con-una-catarata-de-posteos-en-x-contra-wanda-nara-ana-rosenfeld-y-los-nid08102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/66PFKRII7ZGIBARU5DSNQ6TWX4.png?auth=d654d64c3d359b50267cb8274b658e165fb5fc8142612d55c6f6e523f8f4743f&smart=true&width=472&height=567",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 14:34:07 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/66PFKRII7ZGIBARU5DSNQ6TWX4.png?auth=d654d64c3d359b50267cb8274b658e165fb5fc8142612d55c6f6e523f8f4743f&smart=true&width=472&height=567"
         },
         {
           "medio": "La Nación",
           "titulo": "La madre de la China Suárez se metió en un escándalo de su hija y Mauro Icardi y terminó con su bajo perfil",
           "link": "https://www.lanacion.com.ar/espectaculos/la-madre-de-la-china-suarez-se-metio-en-un-escandalo-de-su-hija-y-mauro-icardi-y-termino-con-su-bajo-nid08102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/N65FLGEBUJHJ7NGWZOYR7O2I7I.jpg?auth=be8de2a41e5fe957e7ea3ee93eafb86ac9ab400bf9668e54be584b99b39fee5c&smart=true&width=1777&height=1000",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 14:19:41 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/N65FLGEBUJHJ7NGWZOYR7O2I7I.jpg?auth=be8de2a41e5fe957e7ea3ee93eafb86ac9ab400bf9668e54be584b99b39fee5c&smart=true&width=1777&height=1000"
         },
         {
           "medio": "La Nación",
           "titulo": "La China Suárez celebró el divorcio de Mauro Icardi y Wanda Nara",
           "link": "https://www.lanacion.com.ar/espectaculos/la-china-suarez-celebro-el-divorcio-de-mauro-icardi-y-wanda-nara-nid08102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/PEQXVTMPW5FGDHYDNAHWAAE25A.jpg?auth=ab57372dcf2e75f07b76b8cab8520d0edd5e16ca7f810fe339eea7cec46e69dc&smart=true&width=2000&height=1333",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 14:13:17 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/PEQXVTMPW5FGDHYDNAHWAAE25A.jpg?auth=ab57372dcf2e75f07b76b8cab8520d0edd5e16ca7f810fe339eea7cec46e69dc&smart=true&width=2000&height=1333"
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/66PFKRII7ZGIBARU5DSNQ6TWX4.png?auth=d654d64c3d359b50267cb8274b658e165fb5fc8142612d55c6f6e523f8f4743f&smart=true&width=472&height=567"
     },
     {
-      "tema": "Aumento de la tasa de uso aeroportuario para vuelos de cabotaje",
-      "tipo": "oportunidades",
-      "por_que_importa": "El incremento en las tarifas de aeropuertos impacta de forma directa en el costo final de los pasajes de cabotaje para los consumidores.",
-      "insight": "Varios medios competidores cubren la suba y su cobro en dólares, mientras Perfil aún no explota el ángulo de impacto en el bolsillo del viajero.",
-      "accion_sugerida": "Publicar una guía de impacto para pasajeros detallando cómo afectará el nuevo cuadro tarifario a los vuelos domésticos.",
-      "enfoques_sugeridos": [
-        "El cambio en la moneda de cobro de la tasa aeroportuaria y su repercusión en los precios.",
-        "La actualización del cuadro tarifario en más de treinta terminales del país."
-      ],
+      "total_notas": 4,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 4,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 1,
@@ -538,6 +523,20 @@
         "Página 12": 0,
         "El Cronista": 1
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Aumento de la tasa de uso aeroportuario para vuelos de cabotaje",
+      "tipo": "oportunidades",
+      "por_que_importa": "El incremento en las tarifas de aeropuertos impacta de forma directa en el costo final de los pasajes de cabotaje para los consumidores.",
+      "insight": "Varios medios competidores cubren la suba y su cobro en dólares, mientras Perfil aún no explota el ángulo de impacto en el bolsillo del viajero.",
+      "accion_sugerida": "Publicar una guía de impacto para pasajeros detallando cómo afectará el nuevo cuadro tarifario a los vuelos domésticos.",
+      "enfoques_sugeridos": [
+        "El cambio en la moneda de cobro de la tasa aeroportuaria y su repercusión en los precios.",
+        "La actualización del cuadro tarifario en más de treinta terminales del país."
+      ],
       "tipo_de_oportunidad": "Economía Cotiza y Consumo",
       "motivo_oportunidad": "El aumento de tarifas en servicios de transporte genera alta consulta de usuarios preocupados por el costo de vacacionar o viajar.",
       "ejemplos": [
@@ -545,42 +544,27 @@
           "medio": "La Nación",
           "titulo": "Aumentan la tasa de uso aeroportuario para los vuelos de cabotaje, que impactará en los precios de los pasajes",
           "link": "https://www.lanacion.com.ar/economia/aumentan-la-tasa-de-uso-aeroportuario-para-los-vuelos-de-cabotaje-que-impactara-en-los-precios-de-nid09102026/",
-          "imagen": "",
-          "autor": "María Julieta Rumi",
-          "fecha": "Fri, 09 Oct 2026 13:53:51 +0000",
-          "id": ""
+          "imagen": ""
         },
         {
           "medio": "Clarín",
           "titulo": "Cambian las tarifas de los aeropuertos: aumenta la tasa para vuelos de cabotaje y pasará a cobrarse en dólares",
           "link": "https://www.clarin.com/economia/cambian-tarifas-aeropuertos-aumenta-tasa-vuelos-cabotaje-pasara-cobrarse-dolares_0_AKmZRl7aES.html",
-          "imagen": "https://www.clarin.com/img/2026/08/20/v94Pnxd0o_1200x630__1.jpg",
-          "autor": "Clarin.com - Home",
-          "fecha": "Fri, 09 Oct 2026 13:30:43 +0000",
-          "id": ""
+          "imagen": "https://www.clarin.com/img/2026/08/20/v94Pnxd0o_1200x630__1.jpg"
         },
         {
           "medio": "Ámbito",
           "titulo": "Aprueban un nuevo cuadro tarifario para más de 30 aeropuertos del país",
           "link": "https://www.ambito.com/economia/aprueban-un-nuevo-cuadro-tarifario-mas-30-aeropuertos-del-pais-n6331888",
-          "imagen": "https://media.ambito.com/p/612e3ce8bbc0dd8dd1cb7b187de83186/adjuntos/239/imagenes/043/641/0043641269/1200x675/smart/ezeiza-embarque.jpg",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 07:32:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/612e3ce8bbc0dd8dd1cb7b187de83186/adjuntos/239/imagenes/043/641/0043641269/1200x675/smart/ezeiza-embarque.jpg"
         }
       ],
       "imagen": "https://www.clarin.com/img/2026/08/20/v94Pnxd0o_1200x630__1.jpg"
     },
     {
-      "tema": "Reclamo de matemáticos a OpenAI para preservar el trabajo humano frente a la inteligencia artificial",
-      "tipo": "oportunidades",
-      "por_que_importa": "El debate ético sobre los límites de la IA y la defensa del empleo calificado moviliza a lectores interesados en tecnología y futuro laboral.",
-      "insight": "La Nación y Página 12 abordan el reclamo de especialistas internacionales, abriendo un espacio propicio para que Perfil aporte una mirada de análisis tecnológico.",
-      "accion_sugerida": "Desarrollar una nota de opinión y análisis sobre el impacto de la automatización en profesiones de alta cualificación matemática.",
-      "enfoques_sugeridos": [
-        "Los argumentos de los más de ochocientos académicos en su carta abierta a la empresa.",
-        "El dilema ético entre la aceleración de modelos generativos y la preservación del intelecto humano."
-      ],
+      "total_notas": 3,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 1,
@@ -591,6 +575,20 @@
         "Página 12": 2,
         "El Cronista": 0
       },
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Reclamo de matemáticos a OpenAI para preservar el trabajo humano frente a la inteligencia artificial",
+      "tipo": "oportunidades",
+      "por_que_importa": "El debate ético sobre los límites de la IA y la defensa del empleo calificado moviliza a lectores interesados en tecnología y futuro laboral.",
+      "insight": "La Nación y Página 12 abordan el reclamo de especialistas internacionales, abriendo un espacio propicio para que Perfil aporte una mirada de análisis tecnológico.",
+      "accion_sugerida": "Desarrollar una nota de opinión y análisis sobre el impacto de la automatización en profesiones de alta cualificación matemática.",
+      "enfoques_sugeridos": [
+        "Los argumentos de los más de ochocientos académicos en su carta abierta a la empresa.",
+        "El dilema ético entre la aceleración de modelos generativos y la preservación del intelecto humano."
+      ],
       "tipo_de_oportunidad": "Ciencia, Tecnología y Futuro",
       "motivo_oportunidad": "Los temas de fricción entre la comunidad científica y las grandes tecnológicas tienen gran tracción en motores de búsqueda.",
       "ejemplos": [
@@ -598,19 +596,19 @@
           "medio": "La Nación",
           "titulo": "Más de 800 matemáticos cuestionan a OpenAI y reclaman preservar el trabajo humano",
           "link": "https://www.lanacion.com.ar/economia/IA/mas-de-800-matematicos-cuestionan-a-openai-y-reclaman-preservar-el-trabajo-humano-nid09102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/JGT3BENIYZCPFNMIXWYB2I4CHI.JPG?auth=cf77e1385405f5802723c9e784e5f13ab9689913c49366587f219c65ae4cbc2f&smart=true&width=5603&height=3735",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 14:49:22 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/JGT3BENIYZCPFNMIXWYB2I4CHI.JPG?auth=cf77e1385405f5802723c9e784e5f13ab9689913c49366587f219c65ae4cbc2f&smart=true&width=5603&height=3735"
         },
         {
           "medio": "Página 12",
           "titulo": "Matemáticos unidos no quieren ser vencidos por la IA",
           "link": "https://www.pagina12.com.ar/2026/10/08/matematicos-unidos-no-quieren-ser-vencidos-por-la-ia/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HFQTEN3DMU4WMNRWMJRTIY3BMM.jpg?auth=41aab258b5c2008cd7318116ff194f5f6e0f27741fcf8d9513f71e22bd7b240b&amp;smart=true&amp;width=696&amp;height=557",
-          "autor": "Por <b>Pablo Esteban</b>",
-          "fecha": "Fri, 09 Oct 2026 03:01:00 +0000",
-          "id": ""
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HFQTEN3DMU4WMNRWMJRTIY3BMM.jpg?auth=41aab258b5c2008cd7318116ff194f5f6e0f27741fcf8d9513f71e22bd7b240b&amp;smart=true&amp;width=696&amp;height=557"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Matemáticos unidos no quieren ser vencidos por la IA",
+          "link": "https://www.pagina12.com.ar/2026/10/08/matematicos-unidos-no-quieren-ser-vencidos-por-la-ia/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HFQTEN3DMU4WMNRWMJRTIY3BMM.jpg?auth=41aab258b5c2008cd7318116ff194f5f6e0f27741fcf8d9513f71e22bd7b240b&amp;smart=true&amp;width=696&amp;height=557"
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/JGT3BENIYZCPFNMIXWYB2I4CHI.JPG?auth=cf77e1385405f5802723c9e784e5f13ab9689913c49366587f219c65ae4cbc2f&smart=true&width=5603&height=3735"
@@ -618,6 +616,24 @@
   ],
   "prioridades_del_dia": [
     {
+      "total_notas": 13,
+      "cantidad_medios": 7,
+      "cantidad_competidores": 7,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 2,
+        "Ámbito": 2,
+        "Página 12": 4,
+        "El Cronista": 1
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
       "tema": "Fallo de la Corte Suprema sobre la ley de venta de tierras a extranjeros",
       "tipo": "hipercompetencia",
       "por_que_importa": "Constituye la noticia institucional y política más relevante de la jornada al restituir límites legales derogados por el DNU del Gobierno.",
@@ -627,33 +643,42 @@
           "medio": "La Nación",
           "titulo": "Un fallo urgente de la Corte repone los límites a la venta de tierras a extranjeros y alivia al Gobierno",
           "link": "https://www.lanacion.com.ar/politica/un-fallo-urgente-de-la-corte-repone-los-limites-a-la-venta-de-tierras-a-extranjeros-y-alivia-al-nid09102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/CBB36UAECBA7RA5IDAMUBIVK7I.jpg?auth=5501d9d73855b3818e1e2a902d9c057c760215e86148838a4ba3bc00ef611fb6&smart=true&width=2496&height=1872",
-          "autor": "Paz Rodríguez Niell",
-          "fecha": "Fri, 09 Oct 2026 13:53:46 +0000",
-          "id": ""
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CBB36UAECBA7RA5IDAMUBIVK7I.jpg?auth=5501d9d73855b3818e1e2a902d9c057c760215e86148838a4ba3bc00ef611fb6&smart=true&width=2496&height=1872"
         },
         {
           "medio": "Clarín",
           "titulo": "Con una decisión técnica, ahora la Corte repuso la ley que limita la venta de tierra a extranjeros",
           "link": "https://www.clarin.com/politica/decision-tecnica-ahora-corte-repuso-ley-limita-venta-tierra-extranjeros_0_IfsEYjThwC.html",
-          "imagen": "https://www.clarin.com/img/2026/10/09/c-QeJHfcw_1200x630__1.jpg",
-          "autor": "Clarin.com - Home",
-          "fecha": "Fri, 09 Oct 2026 13:49:22 +0000",
-          "id": ""
+          "imagen": "https://www.clarin.com/img/2026/10/09/c-QeJHfcw_1200x630__1.jpg"
         },
         {
           "medio": "Infobae",
           "titulo": "La Corte suspendió el artículo del DNU 70 que derogaba la Ley de Tierras y repuso los límites sobre la venta a extranjeros",
           "link": "https://www.infobae.com/judiciales/2026/10/09/la-corte-suspendio-el-articulo-del-dnu-70-que-derogaba-la-ley-de-tierras/",
-          "imagen": "https://www.infobae.com/resizer/v2/3ELFJ73UQZGIFEHFZQ7JUCFMCE.jpg?auth=155b1ebb632f8de263224fcbf7e49c9d254075415e0218121079bcd39d1b17a2&smart=true&width=2965&height=1835",
-          "autor": "Silvana Boschi",
-          "fecha": "Fri, 09 Oct 2026 14:26:17 +0000",
-          "id": ""
+          "imagen": "https://www.infobae.com/resizer/v2/3ELFJ73UQZGIFEHFZQ7JUCFMCE.jpg?auth=155b1ebb632f8de263224fcbf7e49c9d254075415e0218121079bcd39d1b17a2&smart=true&width=2965&height=1835"
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/CBB36UAECBA7RA5IDAMUBIVK7I.jpg?auth=5501d9d73855b3818e1e2a902d9c057c760215e86148838a4ba3bc00ef611fb6&smart=true&width=2496&height=1872"
     },
     {
+      "total_notas": 5,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 2,
+        "Página 12": 0,
+        "El Cronista": 2
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
       "tema": "Reglamentación de la ley de Inocencia Fiscal II por el Gobierno",
       "tipo": "sin_cobertura_perfil",
       "por_que_importa": "Modifica el panorama impositivo y genera gran expectativa en contribuyentes y sectores económicos por los beneficios y la reducción de multas.",
@@ -663,33 +688,42 @@
           "medio": "La Nación",
           "titulo": "El Gobierno reglamentó la ley de Inocencia Fiscal II tras la prórroga al plazo de presentación de Ganancias",
           "link": "https://www.lanacion.com.ar/economia/el-gobierno-reglamento-la-ley-de-inocencia-fiscal-ii-tras-la-prorroga-al-plazo-de-presentacion-de-nid09102026/",
-          "imagen": "",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 13:55:41 +0000",
-          "id": ""
+          "imagen": ""
         },
         {
           "medio": "Ámbito",
           "titulo": "Rige la ley de Inocencia Fiscal II: qué cambia desde hoy",
           "link": "https://www.ambito.com/economia/rige-la-ley-inocencia-fiscal-ii-que-cambia-hoy-n6331905",
-          "imagen": "https://media.ambito.com/p/f83dc45e77f775c382d52787669e7735/adjuntos/239/imagenes/043/284/0043284483/ganancias.png",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 09:16:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/f83dc45e77f775c382d52787669e7735/adjuntos/239/imagenes/043/284/0043284483/ganancias.png"
         },
         {
           "medio": "El Cronista",
           "titulo": "El Gobierno finalmente promulgó Inocencia Fiscal II: las fechas clave, qué falta y quiénes podrán acceder a sus beneficios",
           "link": "https://www.cronista.com/economia-politica/el-gobierno-finalmente-promulgo-inocencia-fiscal-ii-las-fechas-clave-que-falta-y-quienes-podran-acceder-a-sus-beneficios/",
-          "imagen": "https://www.cronista.com/resizer/v2/44MWSSW5CRAR3JDRF7ITK3WEA4.jpg?auth=4a5e8266aab9bc0fa3c72eaa119f8dc63b594c502028fd80898bd804f4d560a7&smart=true&width=1200&height=900",
-          "autor": "Zoe  Braziulis",
-          "fecha": "Fri, 09 Oct 2026 10:32:08 +0000",
-          "id": ""
+          "imagen": "https://www.cronista.com/resizer/v2/44MWSSW5CRAR3JDRF7ITK3WEA4.jpg?auth=4a5e8266aab9bc0fa3c72eaa119f8dc63b594c502028fd80898bd804f4d560a7&smart=true&width=1200&height=900"
         }
       ],
       "imagen": "https://media.ambito.com/p/f83dc45e77f775c382d52787669e7735/adjuntos/239/imagenes/043/284/0043284483/ganancias.png"
     },
     {
+      "total_notas": 17,
+      "cantidad_medios": 7,
+      "cantidad_competidores": 6,
+      "cobertura": {
+        "Perfil": 2,
+        "La Nación": 1,
+        "Clarín": 4,
+        "Infobae": 4,
+        "TN": 0,
+        "Ámbito": 3,
+        "Página 12": 2,
+        "El Cronista": 1
+      },
+      "cobertura_perfil": 2,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 4,
+      "brecha": -2,
+      "brecha_formateada": "-2",
       "tema": "Premio Nobel de la Paz 2026 otorgado a Navi Pillay y reacciones internacionales",
       "tipo": "hipercompetencia",
       "por_que_importa": "Acapara la agenda internacional con un fuerte componente geopolítico y repercusiones sobre derechos humanos que interesan profundamente a la audiencia global.",
@@ -699,28 +733,19 @@
           "medio": "Perfil",
           "titulo": "Quién es Navi Pillay, la jueza contra los genocidios y la pena de muerte que ganó el Nobel de la Paz 2026",
           "link": "https://www.perfil.com/noticias/internacional/quien-es-navi-pillay-la-jueza-que-reformulo-la-nocion-de-genocidio-y-gano-el-nobel-de-la-paz-2026.phtml",
-          "imagen": "https://fotos.perfil.com/2025/09/22/trim/540/304/navanethem-pillay-2103477.jpg",
-          "autor": "Marcela Basch",
-          "fecha": "Fri, 09 Oct 2026 12:51:00 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2025/09/22/trim/540/304/navanethem-pillay-2103477.jpg"
         },
         {
           "medio": "Perfil",
           "titulo": "La sudafricana Navanethem \"Navi\" Pillay ganó el Premio Nobel de la Paz 2026 y dedicó una ironía a Trump",
           "link": "https://www.perfil.com/noticias/internacional/la-sudafricana-navanethem-navi-pillay-gana-el-premio-nobel-de-la-paz-2026.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/navi-pillay-premio-nobel-de-la-paz-2344917.jpg",
-          "autor": "Facundo Falduto",
-          "fecha": "Fri, 09 Oct 2026 10:40:00 GMT",
-          "id": ""
+          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/navi-pillay-premio-nobel-de-la-paz-2344917.jpg"
         },
         {
           "medio": "Ámbito",
           "titulo": "Navi Pillay, Nobel de la Paz 2026: la jurista que acusó a Israel de genocidio en Gaza",
           "link": "https://www.ambito.com/mundo/navi-pillay-nobel-la-paz-2026-la-jurista-que-acuso-israel-genocidio-gaza-n6331944",
-          "imagen": "https://media.ambito.com/p/4881ee12d1eefec58092dcf56076b340/adjuntos/239/imagenes/043/693/0043693883/1200x675/588x518:608x538/navi-pillay1.png",
-          "autor": "",
-          "fecha": "Fri, 09 Oct 2026 10:04:00 -0300",
-          "id": ""
+          "imagen": "https://media.ambito.com/p/4881ee12d1eefec58092dcf56076b340/adjuntos/239/imagenes/043/693/0043693883/1200x675/588x518:608x538/navi-pillay1.png"
         }
       ],
       "imagen": "https://fotos.perfil.com/2025/09/22/trim/540/304/navanethem-pillay-2103477.jpg"
