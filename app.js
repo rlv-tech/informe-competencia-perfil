@@ -283,19 +283,6 @@ function renderPriorities() {
             : ""
         }
 
-        ${
-          item.accion_sugerida
-            ? `
-              <p class="priority-description">
-                <strong>Acción sugerida:</strong>
-                ${escapeHtml(
-                  item.accion_sugerida
-                )}
-              </p>
-            `
-            : ""
-        }
-
       </div>
 
     `;
