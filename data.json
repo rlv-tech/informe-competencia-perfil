@@ -2,109 +2,59 @@
   "fecha_analisis": "2026-10-14",
   "hipercompetencia": [
     {
-      "total_notas": 24,
-      "cantidad_medios": 8,
-      "cantidad_competidores": 7,
+      "total_notas": 13,
+      "cantidad_medios": 7,
+      "cantidad_competidores": 6,
       "cobertura": {
-        "Perfil": 5,
-        "La Nación": 2,
-        "Clarín": 5,
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
         "Infobae": 1,
-        "TN": 3,
+        "TN": 2,
         "Ámbito": 4,
         "Página 12": 3,
         "El Cronista": 1
       },
-      "cobertura_perfil": 5,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 5,
-      "brecha": 0,
-      "brecha_formateada": "0",
-      "tema": "Salud, mensajes públicos y parte médico del papa León XIV tras su operación",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "La evolución médica del Sumo Pontífice y sus mensajes públicos tras la intervención quirúrgica generan alto tráfico y atención global.",
-      "insight": "Perfil compite con una cobertura sólida de 5 notas, igualando al líder Clarín, aunque toda la competencia despliega coberturas masivas.",
-      "accion_sugerida": "Monitorear la evolución clínica y enfocar futuras coberturas en las implicancias institucionales para la Iglesia.",
-      "enfoques_sugeridos": [
-        "Impacto geopolítico y eclesial del postoperatorio del Papa.",
-        "Análisis de los mensajes públicos emitidos desde el centro médico."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "“Sin familias fuertes, el mundo no tiene futuro”: el mensaje de León XIV tras su operación",
-          "link": "https://www.perfil.com/noticias/sociedad/sin-familias-fuertes-el-mundo-no-tiene-futuro-el-mensaje-de-leon-xiv-tras-su-operacion.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/13/trim/540/304/papa-leon-xiv-2347579.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Nuevo parte médico del Papa León XIV: hizo fisioterapia respiratoria, volvió a caminar y retomó la alimentación normal",
-          "link": "https://www.perfil.com/noticias/protagonistas/nuevo-parte-medico-del-papa-leon-xvi-hizo-fisioterapia-respiratoria-volvio-a-caminar-y-retomo-la-alimentacion-normal.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/papa-leon-xiv-2345054.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Un especialista explicó en detalle el diagnóstico del Papa León XIV y si podrá viajar a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/un-especialista-explico-en-detalle-el-diagnostico-del-papa-leon-xiv-y-si-podra-viajar-a-la-argentina-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/UMXIYM6EWJBALA2KYAL5SN62NY.JPG?auth=ca5655730bcba0771b3aadeb36f75b85fc81a4069bde3ee5b064e1528ac7d983&smart=true&width=2000&height=1333"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/13/trim/540/304/papa-leon-xiv-2347579.jpg"
-    },
-    {
-      "total_notas": 15,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 4,
-        "La Nación": 4,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 1,
-        "Página 12": 1,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 4,
-      "medio_lider": "La Nación",
+      "cobertura_perfil": 1,
+      "medio_lider": "Ámbito",
       "cobertura_medio_lider": 4,
-      "brecha": 0,
-      "brecha_formateada": "0",
-      "tema": "Impacto de las inundaciones por el fenómeno de El Niño en el Litoral, crecida de ríos y apertura de Yacyretá",
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Estado de salud, operación y parte médico del papa León XIV",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Las emergencias hídricas y climáticas en el Litoral argentino afectan directamente a miles de familias y requieren un seguimiento constante.",
-      "insight": "Perfil mantiene una cobertura destacada con 4 notas, a la par de La Nación y por encima de otros grandes portales.",
-      "accion_sugerida": "Profundizar en las medidas de mitigación y asistencia estatal en las zonas afectadas de Corrientes y el Paraná.",
+      "por_que_importa": "Constituye uno de los acontecimientos internacionales de mayor impacto en la agenda global y local, convocando la máxima atención de los lectores.",
+      "insight": "La cobertura de Perfil quedó rezagada frente a la de la competencia, que aportó un volumen considerable de notas y actualizaciones en tiempo real.",
+      "accion_sugerida": "Ampliar el seguimiento minuto a minuto con crónicas desde Roma y análisis especializados sobre el impacto institucional en la Iglesia.",
       "enfoques_sugeridos": [
-        "Relevamiento oficial de familias evacuadas y estado de los cauces de agua.",
-        "Acciones de infraestructura y protocolos preventivos en Yacyretá."
+        "Impacto político y espiritual de la intervención quirúrgica en el Vaticano",
+        "Repercusiones médicas sobre el tratamiento y pronóstico del Papa"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Inundaciones por El Niño en el Litoral: crecen los ríos y cada vez hay más familias evacuadas",
-          "link": "https://www.perfil.com/noticias/actualidad/inundaciones-en-el-litoral-argentino.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/rio-parana-en-la-costa-de-ituzaingo-2348003.jpg"
+          "titulo": "“No podemos asegurar que el Papa esté libre de enfermedad”: especialistas explican por qué será clave el resultado de la biopsia",
+          "link": "https://www.perfil.com/noticias/cordoba/no-podemos-asegurar-que-el-papa-este-libre-de-enfermedad-especialistas-explicaron-por-que-sera-clave-el-resultado-de-la-biopsia.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/papa-leon-xiv-2345055.jpg"
         },
         {
-          "medio": "Perfil",
-          "titulo": "Fenómeno de El Niño: advierten que el río Paraná superará el nivel de evacuación en Corrientes",
-          "link": "https://www.perfil.com/noticias/nea/fenomeno-de-el-nino-advierten-que-el-rio-parana-superara-el-nivel-de-evacuacion-en-corrientes.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/costanera-de-itati-corrientes-2348028.jpg"
+          "medio": "Clarín",
+          "titulo": "Tras pasar una noche tranquila, León XIV envía un mensaje por el 10 aniversario de \"Amoris laetitia\" de Francisco: “Sin familias fuertes, el mundo no tiene futuro”",
+          "link": "https://www.clarin.com/mundo/pasar-noche-tranquila-leon-xiv-envia-mensaje-10-aniversario-amoris-laetitia-francisco-familias-fuertes-mundo-futuro_0_skRf3oIRNe.html",
+          "imagen": "https://www.clarin.com/img/2026/10/14/DMra11d_b_1200x630__1.jpg"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Altura de los ríos en la Argentina, según Prefectura: esta es la situación en el Paraná hoy, miércoles 14 de octubre",
-          "link": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/MD5TCRMPQ5AWLINJW4QEUXQ4AI.jpeg?auth=7fee36d7ff6dfaeb616e324a5630efca373c7c021a14eefb9e085c21b740a5c4&smart=true&width=1248&height=768"
+          "medio": "Infobae",
+          "titulo": "El cáncer que afecta al papa León XIV: neumólogo explica por qué el adenocarcinoma también se relaciona con el tabaco",
+          "link": "https://www.infobae.com/peru/2026/10/14/el-cancer-que-afecta-al-papa-leon-xiv-neumologo-explica-por-que-el-adenocarcinoma-tambien-se-relaciona-con-el-tabaco/",
+          "imagen": "https://www.infobae.com/resizer/v2/67LFXJSZSBCMTBWHP24OBZY6JA.jpg?auth=30f4b9bd52123701be8d1d81efd3f8153b8d0526d005f2818948a7b14da2ca95&smart=true&width=1920&height=1080"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/rio-parana-en-la-costa-de-ituzaingo-2348003.jpg"
+      "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/papa-leon-xiv-2345055.jpg"
     },
     {
-      "total_notas": 10,
-      "cantidad_medios": 5,
-      "cantidad_competidores": 4,
+      "total_notas": 11,
+      "cantidad_medios": 6,
+      "cantidad_competidores": 5,
       "cobertura": {
         "Perfil": 1,
         "La Nación": 1,
@@ -112,7 +62,7 @@
         "Infobae": 0,
         "TN": 1,
         "Ámbito": 4,
-        "Página 12": 0,
+        "Página 12": 1,
         "El Cronista": 3
       },
       "cobertura_perfil": 1,
@@ -120,140 +70,291 @@
       "cobertura_medio_lider": 4,
       "brecha": -3,
       "brecha_formateada": "-3",
-      "tema": "Cotización del dólar en Córdoba, tipos de cambio oficial, blue, MEP y CCL",
+      "tema": "Cotización del dólar blue y oficial en Argentina",
       "tipo": "hipercompetencia",
-      "por_que_importa": "La evolución de los tipos de cambio y su expresión en el interior del país son consultas esenciales para la audiencia económica.",
-      "insight": "Perfil registra una cobertura mínima de 1 nota frente al despliegue de Ámbito y El Cronista.",
-      "accion_sugerida": "Ampliar el monitoreo diario de las cotizaciones regionales para satisfacer la demanda de utilidad de los lectores.",
+      "por_que_importa": "Es un indicador financiero de consulta diaria obligatoria para la audiencia local interesada en la economía cotidiana.",
+      "insight": "La cobertura del medio se limitó a una única nota frente al despliegue de los portales líderes, resignando tráfico directo en Search.",
+      "accion_sugerida": "Automatizar y optimizar la actualización de la cotización cambiaria con gráficos interactivos y análisis de las variables del mercado.",
       "enfoques_sugeridos": [
-        "Comparativa de las brechas cambiarias y su impacto en el consumo local.",
-        "Evolución del dólar blue y los financieros en las principales plazas del país."
+        "Evolución de las brechas cambiarias y su impacto en los precios",
+        "Comportamiento de los operadores financieros frente a la cotización actual"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El dólar en Córdoba: a cuánto cotiza este miércoles 14 de octubre",
-          "link": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-14-de-octubre-141026.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/pesos-argentinos-y-dolares-2345658.jpg"
+          "titulo": "Dólar blue hoy: se estabilizó en los $1.550 este miércoles 14 de octubre, luego de una suba de $10",
+          "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-dolar-blue-hoy-miercoles-14-de-octubre.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/11/trim/540/304/111026dolarcedocg-2346219.jpg"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 14 de octubre",
-          "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-14-octubre-n6333466",
-          "imagen": "https://media.ambito.com/p/4f4e7ba1304f50a02d05d8dc7dfba2b2/adjuntos/239/imagenes/043/657/0043657204/1200x675/3064x1146:3084x1166/mercados-acciones-bolsas-cedear-inversiones-finanzas-vivo-wall-street-cedears-riesgo-pais-merval-dolar.jpg"
+          "medio": "La Nación",
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 14 de octubre, minuto a minuto",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/XTPDINBRXJD5JO2XDX22DPXDEY.jpg?auth=e3f81c2632e441f4850c767245e3bac06e23389587453cd5e4c8e73ca069ae8f&smart=true&width=2000&height=1333"
         },
         {
-          "medio": "El Cronista",
-          "titulo": "El dólar oficial cotiza sin cambios: a cuánto se ofrece en los bancos de la City este miércoles",
-          "link": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-14-de-octubre/",
-          "imagen": "https://www.cronista.com/resizer/v2/V2FFGAQEFFFDFESO6FLKPMUFKI.jpeg?auth=56620ddced96e53e64badcf5eca0e9fcf8012d2ed8bd4b2121e30c1e718068f8&smart=true&width=1200&height=900"
+          "medio": "TN",
+          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este miércoles 14 de octubre",
+          "link": "https://tn.com.ar/economia/2026/10/14/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-14-de-octubre/",
+          "imagen": ""
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/pesos-argentinos-y-dolares-2345658.jpg"
-    }
-  ],
-  "perfil_pierde": [
+      "imagen": "https://fotos.perfil.com/2026/10/11/trim/540/304/111026dolarcedocg-2346219.jpg"
+    },
     {
-      "total_notas": 6,
+      "total_notas": 9,
       "cantidad_medios": 3,
       "cantidad_competidores": 2,
       "cobertura": {
-        "Perfil": 2,
+        "Perfil": 1,
         "La Nación": 3,
-        "Clarín": 0,
+        "Clarín": 5,
         "Infobae": 0,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
-      "cobertura_perfil": 2,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Preparativos y expectativa institucional ante la posible visita del papa León XIV a la Argentina",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "La visita papal genera alta expectativa en la feligresía argentina y requiere un seguimiento riguroso de la agenda oficial.",
-      "insight": "La Nación lidera con 3 notas mientras Perfil queda por debajo con 2, cediendo terreno en una temática de fuerte arraigo local.",
-      "accion_sugerida": "Reforzar el seguimiento de las fuentes eclesiásticas y gubernamentales para anticipar definiciones sobre la gira.",
+      "cobertura_perfil": 1,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 5,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "tema": "Expectativa en Perú y Sudamérica sobre la visita del papa León XIV",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Mide el pulso regional y la incertidumbre de los fieles sudamericanos ante la agenda internacional del Sumo Pontífice.",
+      "insight": "La competencia dominó la conversación con múltiples enfoques regionales, mientras Perfil mantuvo una presencia testimonial.",
+      "accion_sugerida": "Establecer corresponsalías o coberturas conjuntas con medios de los países involucrados para captar tráfico internacional.",
       "enfoques_sugeridos": [
-        "Evaluación de la agenda pastoral y los feriados previstos por la visita.",
-        "Postura del Gobierno frente a las demoras en la confirmación oficial."
+        "Repercusión y operativo de recepción en los países de la gira sudamericana",
+        "Impacto diplomático y pastoral de la posible postergación del viaje"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "\"Seguimos trabajando como si la visita del Papa se mantuviera\"",
-          "link": "https://www.perfil.com/noticias/modo-fontevecchia/seguimos-trabajando-como-si-la-visita-del-papa-se-mantuviera-modof.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/12/trim/540/304/monsenor-jorge-lozano-2346628.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "El Gobierno asume la posibilidad de que el Papa no venga",
-          "link": "https://www.perfil.com/noticias/columnistas/el-gobierno-asume-la-posibilidad-de-que-el-papa-no-venga.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/13/trim/540/304/el-papa-leon-xiv-llega-al-hospital-universitario-gemelli-en-roma-2347386.jpg"
+          "titulo": "En Perú mantienen la esperanza de que el Papa mantenga su visita",
+          "link": "https://www.perfil.com/noticias/modo-fontevecchia/en-peru-mantienen-la-esperanza-de-que-el-papa-mantenga-su-visita-modof.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/visita-del-papa-leon-xiv-2332960.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Salud del papa León XIV: qué va a pasar con los feriados por la visita a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/salud-del-papa-leon-xiv-que-va-a-pasar-con-los-feriados-por-la-visita-a-la-argentina-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/C5NNSIGAJFFE7JXQBKYVMQGWP4.jpeg?auth=ef39c222b4b3512c5ed84273690d8c0e6d0c7094544917cce43f687e4928b6ab&smart=true&width=1600&height=1066"
+          "titulo": "¿Viene el papa León XIV a la Argentina? Esto es lo que se sabe de su visita de noviembre",
+          "link": "https://www.lanacion.com.ar/el-mundo/viene-el-papa-leon-xiv-a-la-argentina-esto-es-lo-que-se-sabe-de-su-visita-de-noviembre-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ZKFCIIMIQBFHXCRQBGCYJ52GPU.JPG?auth=cdeec40ad4deb237ee32e1d1bdc6e93e1ef41f4f6d2528205f0974fe9a719837&smart=true&width=8256&height=5504"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Perú y Uruguay también dudan de que el papa León XIV pueda hacer su viaje a Sudamérica",
+          "link": "https://www.clarin.com/politica/peru-uruguay-dudan-papa-leon-xiv-pueda-hacer-viaje-sudamerica_0_Trz6PHVgI3.html",
+          "imagen": "https://www.clarin.com/img/2026/07/21/MKsNUK2GV_1200x630__1.jpg"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/10/12/trim/540/304/monsenor-jorge-lozano-2346628.jpg"
+      "imagen": "https://fotos.perfil.com/2026/09/24/trim/540/304/visita-del-papa-leon-xiv-2332960.jpg"
+    },
+    {
+      "total_notas": 9,
+      "cantidad_medios": 8,
+      "cantidad_competidores": 7,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 1,
+        "Ámbito": 2,
+        "Página 12": 1,
+        "El Cronista": 1
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Multas de la Justicia a la Jefatura de Gabinete por incumplir el financiamiento universitario",
+      "tipo5": "",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Involucra un conflicto institucional de máxima gravedad entre el Poder Judicial y el Ejecutivo en la previa de movilizaciones clave.",
+      "insight": "Perfil cubrió el hecho pero quedó en paridad con una competencia muy activa que profundizó en las consecuencias legales para los funcionarios.",
+      "accion_sugerida": "Profundizar en el trasfondo judicial de las cautelares incumplidas y sumar la voz de los actores universitarios.",
+      "enfoques_sugeridos": [
+        "El alcance legal y económico de las multas impuestas a la Jefatura de Gabinete",
+        "Reacción del arco político y universitario ante el fallo de la Justicia Federal"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Por incumplir con el financiamiento universitario, la Justicia Federal impuso una multa diaria a la Jefatura de Gabinete",
+          "link": "https://www.perfil.com/noticias/judiciales/por-incumplir-con-el-financiamiento-universitario-la-justicia-federal-impuso-una-multa-diaria-a-la-jefatura-de-gabinete.phtml",
+          "imagen": "https://fotos.perfil.com/2025/08/06/trim/540/304/congreso-protesta-ley-de-financiamiento-universitario-20250806-2075723.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "A un día de la marcha universitaria, la Justicia multó al Gobierno y Santilli deberá pagar $100.000 por día",
+          "link": "https://www.lanacion.com.ar/sociedad/a-un-dia-de-la-marcha-universitaria-la-justicia-multo-al-gobierno-y-santilli-debera-pagar-100000-por-nid14102026/",
+          "imagen": ""
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Universidades: la Justicia impuso multas diarias al jefe de Gabinete por incumplir la cautelar de la Ley de Fondos",
+          "link": "https://www.clarin.com/politica/universidades-justicia-impuso-multas-diarias-jefe-gabinete-incumplir-cautelar-ley-fondos_0_n4Jz0TdtBu.html",
+          "imagen": "https://www.clarin.com/img/2026/05/12/YE3IB2n9W_1200x630__1.jpg"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2025/08/06/trim/540/304/congreso-protesta-ley-de-financiamiento-universitario-20250806-2075723.jpg"
+    }
+  ],
+  "perfil_pierde": [
+    {
+      "total_notas": 7,
+      "cantidad_medios": 6,
+      "cantidad_competidores": 5,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 1,
+        "Página 12": 1,
+        "El Cronista": 2
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Caída de activos argentinos y aumento del riesgo país",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "Refleja el humor de los mercados financieros y la vulnerabilidad de la macroeconomía local ante factores externos.",
+      "insight": "El Cronista y otros competidores lideraron la cobertura económica con mayor profundidad analítica, relegando el enfoque de Perfil.",
+      "accion_sugerida": "Reforzar la sección de economía con análisis en tiempo real de los bonos, acciones y el impacto del escenario internacional.",
+      "enfoques_sugeridos": [
+        "Análisis técnico del comportamiento de los bonos soberanos y el Merval",
+        "Correlación entre el dato de inflación en EE.UU. y el salto del riesgo país"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Los activos argentinos vuelven a caer y el riesgo país supera los 600 puntos",
+          "link": "https://www.perfil.com/noticias/economia/los-activos-argentinos-vuelven-a-caer-y-el-riesgo-pais-supera-los-600-puntos-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/02/trim/540/304/los-bonos-cotizaron-en-alza-en-wall-street-2317217.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "El riesgo país supera la barrera de los 600 puntos a partir del dato negativo de inflación en Estados Unidos",
+          "link": "https://www.lanacion.com.ar/economia/el-riesgo-pais-supera-la-barrera-de-los-600-puntos-a-partir-del-dato-negativo-de-inflacion-en-nid14102026/",
+          "imagen": ""
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "El riesgo país vuelve a superar los 600 puntos en medio de turbulencias globales",
+          "link": "https://www.clarin.com/economia/riesgo-pais-vuelve-superar-600-puntos-medio-turbulencias-globales_0_QoQoxCdf12.html",
+          "imagen": "https://www.clarin.com/img/2025/07/11/KYW_oHH55_1200x630__1.jpg"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/09/02/trim/540/304/los-bonos-cotizaron-en-alza-en-wall-street-2317217.jpg"
+    },
+    {
+      "total_notas": 5,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 1,
+        "TN": 2,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 1
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Juicio por la muerte de Maradona y declaraciones de abogados y allegados",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "Genera altos niveles de audiencia e interés sostenido en la opinión pública debido al componente mediático y judicial.",
+      "insight": "TN e Infobae superaron ampliamente la cobertura con transmisiones en vivo y el seguimiento minuto a minuto de los alegatos.",
+      "accion_sugerida": "Implementar formatos de cobertura en directo (liveblogging) para este tipo de juicios de alto impacto popular.",
+      "enfoques_sugeridos": [
+        "Resumen y claves de los alegatos finales de las querellas y defensas",
+        "El impacto emocional en los familiares presentes en la sala de audiencias"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Maradona, ante los alegatos finales: el abogado de sus hermanas apuntó contra Cosachov y Dalma volvió a la carga por Carlos Díaz",
+          "link": "https://www.perfil.com/noticias/judiciales/maradona-ante-los-alegatos-finales-el-abogado-de-sus-hermanas-apunto-contra-cosachov-y-dalma-volvio-a-la-carga-por-carlos-diaz.phtml",
+          "imagen": "https://fotos.perfil.com/2025/04/03/trim/540/304/ana-maria-hermana-de-diego-maradona-20250403-1996969.jpg"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Juicio por la muerte de Maradona, en vivo: otro abogado pidió la absolución del psicólogo y Gianinna se puso a llorar",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/10/14/juicio-por-la-muerte-de-maradona-en-vivo-fernando-burlando-cierra-los-alegatos-y-adelanto-que-pedira-penas-altas/",
+          "imagen": "https://www.infobae.com/resizer/v2/M34LVJT2TBEMDGFKSGQQK7ZDRY.jpg?auth=6b240cdfd238fd6760ab3b172fd55c2e45be04d87c16a2032e2012fe5a4e44bf&smart=true&width=2048&height=1152"
+        },
+        {
+          "medio": "TN",
+          "titulo": "“Manipularon a la familia de Diego”: el alegato de los abogados de Dalma y Gianinna en el juicio por la muerte de Maradona",
+          "link": "https://tn.com.ar/policiales/2026/10/14/juicio-por-la-muerte-de-maradona-comenzo-el-alegato-de-los-abogados-de-dalma-y-gianinna/",
+          "imagen": "https://tn.com.ar/resizer/v2/YPZB7FYQO5HVPBS5FPDOQOLYVM.png?auth=1cdaddc8462700783fec3b1c74b969e7b69fe11790f6fd177f5dbe25d01f96e7"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2025/04/03/trim/540/304/ana-maria-hermana-de-diego-maradona-20250403-1996969.jpg"
     }
   ],
   "sin_cobertura_perfil": [
     {
-      "total_notas": 7,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
+      "total_notas": 8,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 3,
+        "La Nación": 4,
+        "Clarín": 0,
         "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 1,
-        "Página 12": 1,
+        "TN": 4,
+        "Ámbito": 0,
+        "Página 12": 0,
         "El Cronista": 0
       },
       "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Viajes, actividades oficiales y discursos internacionales de Javier Milei en Estados Unidos",
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "tema": "Motivos de la separación entre Julieta Prandi y Emanuel Ortega y declaraciones de terceros",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "La agenda exterior del Presidente y su alineamiento geopolítico son ejes centrales de la política nacional.",
-      "insight": "Perfil registra nula cobertura frente a Clarín y TN, que lideran con múltiples notas sobre el viaje a Washington.",
-      "accion_sugerida": "Incorporar coberturas en tiempo real sobre las reuniones bilaterales y los discursos presidenciales en el exterior.",
+      "por_que_importa": "Moviliza un gran volumen de tráfico orgánico en la sección de espectáculos y tendencias digitales.",
+      "insight": "La Nación y TN capturaron la totalidad de la audiencia en este segmento de entretenimiento sin ninguna respuesta editorial de Perfil.",
+      "accion_sugerida": "Monitorear las tendencias de espectáculos para cubrir primicias de farándula que traccionan tráfico masivo en Google Discover.",
       "enfoques_sugeridos": [
-        "Impacto político de los gestos de apoyo a líderes internacionales.",
-        "Repercusiones diplomáticas de la gira en Estados Unidos."
+        "Repercusiones familiares y declaraciones cruzadas sobre la ruptura",
+        "El impacto mediático de las revelaciones en torno a la separación"
       ],
       "ejemplos": [
         {
-          "medio": "Clarín",
-          "titulo": "Javier Milei llegó a Washington: una gala, premios, discursos y un nuevo gesto de apoyo a Trump",
-          "link": "https://www.clarin.com/politica/javier-milei-llego-washington-gala-premios-discursos-nuevo-gesto-apoyo-trump_0_BmplxELfjM.html",
-          "imagen": "https://www.clarin.com/img/2026/03/08/JpghJPSI__1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "Se conoció el presunto motivo de la separación de Julieta Prandi y Emanuel Ortega: “Ella lo descubrió”",
+          "link": "https://www.lanacion.com.ar/espectaculos/se-conocio-el-presunto-motivo-de-la-separacion-de-julieta-prandi-y-emanuel-ortega-ella-lo-descubrio-nid13102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/LLD3C7GTOBGSTMFAPJWDTPLP34.jpg?auth=54030af4916ba165c5c0a0170243b4b03a0e5b33053ade418d63c077e19bc86a&smart=true&width=2000&height=1333"
         },
         {
-          "medio": "TN",
-          "titulo": "Milei llegó a Washington para reforzar su alineamiento con Trump y ratificar su apoyo a los Bolsonaro en Brasil",
-          "link": "https://tn.com.ar/politica/2026/10/14/milei-llego-a-washington-para-reforzar-su-alineamiento-con-trump-y-ratificar-su-apoyo-a-los-bolsonaro-en-brasil/",
-          "imagen": ""
+          "medio": "La Nación",
+          "titulo": "Mariana Marx, señalada como la tercera en discordia entre Emanuel Ortega y Julieta Prandi, rompió el silencio",
+          "link": "https://www.lanacion.com.ar/espectaculos/mariana-marx-la-mujer-senalada-como-la-tercera-en-discordia-entre-emanuel-ortega-y-julieta-prandi-nid13102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ABATASUE5BCYZLLRLDPLNG7WDU.jpg?auth=143180939057e961ccc7cd7a7e09ce382d43b5327e7334b8fef95bf8ca8cb903&smart=true&width=6000&height=4000"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "Javier Milei llega a EEUU: reuniones, premios y una agenda de dos días",
-          "link": "https://www.ambito.com/politica/javier-milei-llega-eeuu-reuniones-premios-y-una-agenda-dos-dias-n6333514",
-          "imagen": "https://media.ambito.com/p/80e48ac7b301f82b9042ef6239fa3469/adjuntos/239/imagenes/042/928/0042928284/javier-milei-estados-unidos.jpg"
+          "medio": "La Nación",
+          "titulo": "Dante Ortega se pronunció sobre la separación de Emanuel y Julieta Prandi: “Lamento que no sucediera lo que ellos esperaban”",
+          "link": "https://www.lanacion.com.ar/espectaculos/dante-ortega-se-pronuncio-sobre-la-separacion-de-emanuel-y-julieta-prandi-lamento-que-no-sucediera-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CA6QGXYRZNH7ZEXB3M2I7IUKGE.png?auth=415eaa104d53ddd6fa345a3e7e533a981a6b1d1b274f5fd2b41d8698b27460ba&smart=true&width=432&height=724"
         }
       ],
-      "imagen": "https://www.clarin.com/img/2026/03/08/JpghJPSI__1200x630__1.jpg"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/LLD3C7GTOBGSTMFAPJWDTPLP34.jpg?auth=54030af4916ba165c5c0a0170243b4b03a0e5b33053ade418d63c077e19bc86a&smart=true&width=2000&height=1333"
     },
     {
       "total_notas": 5,
@@ -261,8 +362,8 @@
       "cantidad_competidores": 3,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
+        "La Nación": 0,
+        "Clarín": 1,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 2,
@@ -274,27 +375,27 @@
       "cobertura_medio_lider": 2,
       "brecha": -2,
       "brecha_formateada": "-2",
-      "tema": "Modificaciones en el cálculo de sueldos del servicio doméstico por el sistema de ARCA",
+      "tema": "Modificación de ARCA en la liquidación de sueldos de empleadas domésticas",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los cambios en las normativas de liquidación salarial impactan de forma directa en empleadores y trabajadores de casas particulares.",
-      "insight": "Competidores como Ámbito y El Cronista cubren activamente la novedad de ARCA mientras Perfil no registra notas.",
-      "accion_sugerida": "Publicar guías prácticas y explicativas sobre las nuevas herramientas digitales de liquidación.",
+      "por_que_importa": "Afecta de manera directa a un sector masivo de trabajadores y empleadores que buscan guías de utilidad práctica.",
+      "insight": "El Cronista, Ámbito y Clarín cubrieron la normativa impositiva, dejando a Perfil completamente fuera de una temática de alta utilidad.",
+      "accion_sugerida": "Publicar notas de servicio y guías explicativas sobre cambios en trámites de ARCA para captar búsquedas de utilidad.",
       "enfoques_sugeridos": [
-        "Paso a paso para utilizar el nuevo sistema de recibos digitales.",
-        "Obligaciones y plazos para los empleadores del sector."
+        "Paso a paso sobre cómo utilizar la nueva herramienta digital de ARCA",
+        "Obligaciones de los empleadores ante el nuevo formato de recibo de sueldo"
       ],
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Cómo se calculará el sueldo del servicio doméstico según el nuevo sistema de ARCA",
-          "link": "https://www.lanacion.com.ar/economia/como-se-calculara-el-sueldo-del-servicio-domestico-segun-el-nuevo-sistema-de-arca-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/MLQGEEBTRJDDFKDLQYSMRXWZYI.jpg?auth=b0da81c46d7769397c105f5744d349478e53c3e7b978a69624f15918e6d673ca&smart=true&width=2000&height=1333"
+          "medio": "Clarín",
+          "titulo": "ARCA cambió la liquidación de sueldos de empleadas domésticas: qué deben hacer los empleadores",
+          "link": "https://www.clarin.com/economia/arca-cambio-liquidacion-sueldos-empleadas-domesticas-deben-hacer-empleadores_0_plqeXupzED.html",
+          "imagen": "https://www.clarin.com/img/2022/08/01/QtA8SK5fb_1200x630__1.jpg"
         },
         {
           "medio": "Ámbito",
           "titulo": "Empleadas domésticas: cómo funciona la nueva herramienta de ARCA para liquidar los sueldos",
           "link": "https://www.ambito.com/economia/empleadas-domesticas-como-funciona-la-nueva-herramienta-arca-liquidar-los-sueldos-n6333475",
-          "imagen": ""
+          "imagen": "https://media.ambito.com/p/7c149a2257db930016ccaf5351b56f90/adjuntos/239/imagenes/040/422/0040422086/empleadas-domesticas.jpg"
         },
         {
           "medio": "El Cronista",
@@ -303,10 +404,110 @@
           "imagen": "https://www.cronista.com/resizer/v2/GVPIFXGD6FGKTO57DZ7HHJNPBI.jpg?auth=11cd375aeefa8b7ef2f0f7fa197c61d1b2cbb5045f3bde3b9eb626a12238b480&smart=true&width=1200&height=900"
         }
       ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/MLQGEEBTRJDDFKDLQYSMRXWZYI.jpg?auth=b0da81c46d7769397c105f5744d349478e53c3e7b978a69624f15918e6d673ca&smart=true&width=2000&height=1333"
+      "imagen": "https://www.clarin.com/img/2022/08/01/QtA8SK5fb_1200x630__1.jpg"
     },
     {
       "total_notas": 4,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 2
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Reunión de Luis Caputo con el Banco Mundial por financiamiento de inversiones",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Involucra la estrategia financiera del Gobierno nacional y la negociación de créditos internacionales de gran envergadura.",
+      "insight": "La competencia económica de Perfil abordó en detalle la agenda del ministro de Economía, evidenciando una omisión en la cobertura propia.",
+      "accion_sugerida": "Incorporar un seguimiento estricto de la agenda internacional del gabinete económico y sus negociaciones de deuda.",
+      "enfoques_sugeridos": [
+        "Detalles de la negociación con el Banco Mundial para respaldar inversiones privadas",
+        "El impacto de los nuevos créditos internacionales en el programa fiscal"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Caputo se reunió con el Banco Mundial: negocia US$ 10.000 millones para financiar inversiones privadas",
+          "link": "https://www.clarin.com/economia/caputo-reunio-banco-mundial-negocia-us-10000-millones-financiar-inversiones-privadas_0_Wz7mfNlRrw.html",
+          "imagen": "https://www.clarin.com/img/2026/10/14/OfCMycodu_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Luis Caputo se reunió con el Banco Mundial para ampliar el financiamiento al país y promover inversiones por US$10.000 millones",
+          "link": "https://tn.com.ar/economia/2026/10/14/luis-caputo-se-reunio-con-el-titular-del-banco-mundial-para-negociar-una-ampliacion-de-los-fondos-para-la-argentina/",
+          "imagen": "https://tn.com.ar/resizer/v2/5VA7RKSOYNCDXHXI3FTJ3GAAJ4.jpg?auth=146ba9283d1b3cd4e386b70659381e5c2dd0e086b004f729a1d399daee56c92c"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "Caputo negocia más financiamiento y suma el respaldo del Banco Mundial al RIGI: cómo sigue su agenda",
+          "link": "https://www.cronista.com/economia-politica/caputo-negocia-mas-financiamiento-con-el-banco-mundial-y-busca-destrabar-inversiones-privadas-por-us-10000-millones/",
+          "imagen": "https://www.cronista.com/resizer/v2/XZ4V5XJCVBDKDD3IK55QTIFI2U.jpg?auth=b06be925d4aa78e934bb1a59172d4f4afdb249f8aefe1d40effc4c26aa35b637&smart=true&width=1200&height=900"
+        }
+      ],
+      "imagen": "https://www.clarin.com/img/2026/10/14/OfCMycodu_1200x630__1.jpg"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Acusaciones y reaparición de Valentín Yankelevich respecto a Darío Giordano",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Atrae un alto nivel de lectores en redes sociales y buscadores debido al perfil público de los involucrados.",
+      "insight": "La Nación y TN captaron el interés de la audiencia con notas de seguimiento y perfiles, área en la que Perfil no incursionó.",
+      "accion_sugerida": "Desarrollar coberturas equilibradas sobre temas de alto impacto en redes sociales sin descuidar el rigor periodístico.",
+      "enfoques_sugeridos": [
+        "El impacto público de las declaraciones familiares y su repercusión judicial",
+        "Perfil de los protagonistas en medio de la controversia mediática"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Quién es Darío Giordano, el viudo de Romina Yan que fue acusado por su hijo Valentín Yankelevich",
+          "link": "https://www.lanacion.com.ar/espectaculos/quien-es-dario-giordano-el-viudo-de-romina-yan-que-fue-acusado-por-su-hijo-valentin-yankelevich-nid12102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/VYXIXA2UFVC4VK4AXJ3A74XWSY.jpg?auth=59319f3414f68b6ec461c9ed779f0981e6f5402de844900d74f6fb5b0afb94cd&smart=true&width=814&height=790"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Valentín Yankelevich reapareció con un mensaje y una foto tras su desgarrador testimonio: “Siempre juntos”",
+          "link": "https://www.lanacion.com.ar/espectaculos/valentin-yankelevich-reaparecio-con-un-mensaje-y-una-foto-tras-su-desgarrador-testimonio-siempre-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/5BOQVETRXBBM5HUPN3Y6GWJ3OI.png?auth=c008909501a7c0dbbf5e824172f2c3211012c2d9350bae54831f718209d61ad6&smart=true&width=1536&height=2048"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Salió a la luz el informe psiquiátrico de Darío Giordano luego de las denuncias de maltrato que le hicieron sus hijos",
+          "link": "https://tn.com.ar/show/famosos/2026/10/14/salio-a-la-luz-el-informe-psiquiatrico-de-dario-giordano-luego-de-las-denuncias-de-maltrato-que-le-hicieron-sus-hijos/",
+          "imagen": "https://tn.com.ar/resizer/v2/HW5GVAF6U5EEVHKYIRUTMNYNAU.jpg?auth=318976efb1f588332b753c47a43864728b4c89cc0ace837bd437cc112f14abdc"
+        }
+      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/VYXIXA2UFVC4VK4AXJ3A74XWSY.jpg?auth=59319f3414f68b6ec461c9ed779f0981e6f5402de844900d74f6fb5b0afb94cd&smart=true&width=814&height=790"
+    },
+    {
+      "total_notas": 3,
       "cantidad_medios": 2,
       "cantidad_competidores": 2,
       "cobertura": {
@@ -314,37 +515,87 @@
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 3,
+        "TN": 2,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Crecida de los ríos y apertura de compuertas en la central de Yacyretá por El Niño",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Tiene relevancia directa para las regiones del Litoral y la infraestructura energética del país ante fenómenos climáticos.",
+      "insight": "TN y Ámbito cubrieron el impacto de la crecida y la operación de Yacyretá, mientras Perfil omitió esta alerta regional.",
+      "accion_sugerida": "Vigilar de cerca los reportes climáticos y de recursos hídricos para informar sobre emergencias regionales a tiempo.",
+      "enfoques_sugeridos": [
+        "Monitoreo de la crecida del Paraná y su impacto en la generación de energía",
+        "Medidas preventivas en las zonas ribereñas ante el fenómeno de El Niño"
+      ],
+      "ejemplos": [
+        {
+          "medio": "TN",
+          "titulo": "El Niño golpea el Litoral: la central de Yacyretá abrió sus compuertas después de tres años por la crecida de los ríos",
+          "link": "https://tn.com.ar/sociedad/2026/10/14/el-nino-golpea-al-litoral-tras-abrir-las-compuertas-yacyreta-monitorea-la-crecida-de-los-rios-y-evalua-ampliar-la-descarga/",
+          "imagen": "https://tn.com.ar/resizer/v2/XGB3CSL5TZAMLBRDN7JKBNCATI.png?auth=017e76d88c013999f6e06fbbb04c92722a4d4442820fd06be299fa1e14b6047a"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El Niño golpea al Litoral: tras abrir las compuertas, Yacyretá monitorea la crecida de los ríos y evalúa ampliar la descarga",
+          "link": "https://tn.com.ar/videos/sociedad/2026/10/14/el-nino-golpea-al-litoral-tras-abrir-las-compuertas-yacyreta-monitorea-la-crecida-de-los-rios-y-evalua-ampliar-la-descarga/",
+          "imagen": ""
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "La crecida del Paraná pone a Yacyretá al máximo y baja el costo de la energía",
+          "link": "https://www.ambito.com/energia/la-crecida-del-parana-pone-yacyreta-al-maximo-y-baja-el-costo-la-n6333598",
+          "imagen": "https://media.ambito.com/p/040904f2d41424690d3c4f4686c14dd2/adjuntos/239/imagenes/043/703/0043703670/1200x675/633x262:653x282/yacyreta-fenomeno-de-el-nino-2346629.jpg"
+        }
+      ],
+      "imagen": "https://tn.com.ar/resizer/v2/XGB3CSL5TZAMLBRDN7JKBNCATI.png?auth=017e76d88c013999f6e06fbbb04c92722a4d4442820fd06be299fa1e14b6047a"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 2,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 1
       },
       "cobertura_perfil": 0,
       "medio_lider": "TN",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Expectativas de inflación y proyecciones de analistas para lo que queda del año",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Expectativas e indicadores de inflación proyectados para lo que resta del año",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Las proyecciones inflacionarias condicionan las paritarias, el consumo y las decisiones financieras de los hogares.",
-      "insight": "TN y El Cronista abordan las estimaciones privadas sobre el Índice de Precios al Consumidor sin participación de Perfil.",
-      "accion_sugerida": "Desarrollar informes basados en las proyecciones de consultoras económicas para orientar a la audiencia.",
+      "por_que_importa": "Constituye una de las principales preocupaciones económicas de los hogares y los analistas financieros.",
+      "insight": "TN y El Cronista analizaron las proyecciones privadas tras el último IPC, dejando a Perfil sin cobertura propia en un tema central.",
+      "accion_sugerida": "Generar notas de análisis económico con proyecciones de consultoras para posicionar al medio en consultas de Search.",
       "enfoques_sugeridos": [
-        "Presión de alimentos y combustibles en el índice proyectado hasta diciembre.",
-        "Evaluación del cumplimiento de las metas inflacionarias oficiales."
+        "Evaluación de las estimaciones privadas para el cierre de la inflación anual",
+        "Impacto del último registro del IPC en la estrategia monetaria del Gobierno"
       ],
       "ejemplos": [
         {
           "medio": "TN",
           "titulo": "La inflación que se espera para lo que queda del año",
-          "link": "https://tn.com.ar/economia/2026/10/14/la-inflacion-que-se-espera-para-lo-que-queda-del-ano/",
+          "link": "https://tn.com.ar/videos/economia/2026/10/14/la-inflacion-que-se-espera-para-lo-que-queda-del-ano/",
           "imagen": ""
         },
         {
           "medio": "TN",
-          "titulo": "Por las alzas en alimentos y combustibles, los analistas esperan que una inflación en torno al 2% mensual hasta diciembre",
-          "link": "https://tn.com.ar/economia/2026/10/14/los-economistas-esperan-una-inflacion-en-torno-al-2-mensual-para-lo-que-queda-del-ano-presionada-por-alimentos-y-combustibles/",
-          "imagen": "https://tn.com.ar/resizer/v2/UWUN3DKGTZDLPFUGTFSFRZNMME.jpg?auth=6b2556c0bc31c77d569025c56a1b5177ad6c21aaaebf08d5615b3628fe8aa610"
+          "titulo": "La inflación que se espera para lo que queda del año",
+          "link": "https://tn.com.ar/economia/2026/10/14/la-inflacion-que-se-espera-para-lo-que-queda-del-ano/",
+          "imagen": ""
         },
         {
           "medio": "El Cronista",
@@ -353,57 +604,107 @@
           "imagen": "https://www.cronista.com/resizer/v2/UMIFGTGR4RBVZCWJXB4FIA4WOY.jpg?auth=2f0e9c8dd29bbf3a6bedf9a773c55600cd8d9966a43740c32d8aaf5f4ec8fdaf&smart=true&width=1200&height=900"
         }
       ],
-      "imagen": "https://tn.com.ar/resizer/v2/UWUN3DKGTZDLPFUGTFSFRZNMME.jpg?auth=6b2556c0bc31c77d569025c56a1b5177ad6c21aaaebf08d5615b3628fe8aa610"
+      "imagen": "https://www.cronista.com/resizer/v2/UMIFGTGR4RBVZCWJXB4FIA4WOY.jpg?auth=2f0e9c8dd29bbf3a6bedf9a773c55600cd8d9966a43740c32d8aaf5f4ec8fdaf&smart=true&width=1200&height=900"
     },
     {
-      "total_notas": 4,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 1,
+        "La Nación": 1,
+        "Clarín": 0,
+        "Infobae": 0,
         "TN": 0,
         "Ámbito": 1,
         "Página 12": 0,
         "El Cronista": 1
       },
       "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 1,
       "brecha": -1,
       "brecha_formateada": "-1",
-      "tema": "Indicadores económicos y de inflación en Estados Unidos en la previa electoral",
+      "tema": "Defensa de la reforma laboral y del monotributo por Julio Cordero",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Los datos macroeconómicos estadounidenses repercuten de forma directa en los mercados globales y en la deuda local.",
-      "insight": "Varios competidores siguen de cerca el dato de inflación en EE.UU., área en la que Perfil no aportó cobertura.",
-      "accion_sugerida": "Analizar la lectura de los mercados internacionales ante las cifras de la economía norteamericana.",
+      "por_que_importa": "Involucra declaraciones oficiales sobre las modificaciones en las relaciones laborales y el régimen fiscal de los trabajadores independientes.",
+      "insight": "La Nación, Ámbito y El Cronista cubrieron las declaraciones del funcionario, generando un vacío en la agenda política de Perfil.",
+      "accion_sugerida": "Hacer un seguimiento de las declaraciones de funcionarios de área laboral y sus implicancias para el empleo registrado.",
       "enfoques_sugeridos": [
-        "Repercusión del dato inflacionario sobre los activos argentinos en Wall Street.",
-        "Implicancias políticas para la administración estadounidense en la previa electoral."
+        "Los argumentos oficiales para defender la vigencia del monotributo y la reforma",
+        "Reacciones del sector sindical y de los trabajadores independientes ante las declaraciones"
       ],
       "ejemplos": [
         {
-          "medio": "Clarín",
-          "titulo": "Mal dato para Trump en la previa de las elecciones: la inflación en EE.UU. subió a 3,7% anual empujada por los combustibles",
-          "link": "https://www.clarin.com/mundo/mal-dato-trump-previa-elecciones-inflacion-eeuu-subio-37-anual-empujada-combustibles_0_WBmWKKlTX8.html",
-          "imagen": "https://www.clarin.com/img/2026/10/14/4NxF9cuXH_1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "Julio Cordero defendió la reforma laboral a pesar de las estadísticas negativas y reivindicó el régimen de monotributo",
+          "link": "https://www.lanacion.com.ar/politica/julio-cordero-defendio-la-reforma-laboral-a-pesar-de-las-estadisticas-negativas-y-reivindico-el-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/BDCMCGQ4XREV5MRMA4FQXXZFOU.jpg?auth=082a7dc3ab96211f4b71632ff66573c0dfe2ea25b285e4562e9911b8b7067f63&smart=true&width=2000&height=1335"
         },
         {
           "medio": "Ámbito",
-          "titulo": "La inflación en EEUU se aceleró al 3,7% interanual y subió por encima de lo previsto",
-          "link": "https://www.ambito.com/economia/la-inflacion-eeuu-se-acelero-al-37-y-subio-encima-lo-previsto-n6333531",
-          "imagen": "https://media.ambito.com/p/fa351f80b013e0188d4940b7ac3f4247/adjuntos/239/imagenes/041/661/0041661927/1200x675/smart/inflacion-estados-unidos-eeuu.png"
+          "titulo": "Julio Cordero: &quot;Hay personas que no quieren trabajar en relación de dependencia&quot;",
+          "link": "https://www.ambito.com/politica/julio-cordero-hay-personas-que-no-quieren-trabajar-relacion-dependencia-n6333717",
+          "imagen": "https://media.ambito.com/p/da1e10d2963ac4b248922b1062f07452/adjuntos/239/imagenes/043/703/0043703937/1200x675/smart/julio-cordero.jpg"
         },
         {
           "medio": "El Cronista",
-          "titulo": "La inflación en EE. UU. se acelera y mete presión a las bolsas globales y a la deuda local: qué mira el mercado",
-          "link": "https://www.cronista.com/finanzas-mercados/la-inflacion-en-ee-uu-se-acelera-y-mete-presion-a-las-bolsas-globales-y-a-la-deuda-local-que-mira-el-mercado/",
-          "imagen": "https://www.cronista.com/resizer/v2/FH4JW3RJ2NHVTK7HMMKL6JBRZ4.png?auth=4af7a2d6fc13e434861a6e3194d9bcf061774c07b028fa07de7f635620fdce60&smart=true&width=1200&height=900"
+          "titulo": "Cordero defendió el monotributo y advirtió que “el sistema cruje”",
+          "link": "https://www.cronista.com/economia-politica/cordero-defendio-el-monotributo-muchas-generaciones-no-quieren-trabajar-en-relacion-de-dependencia/",
+          "imagen": "https://www.cronista.com/resizer/v2/VE7J2L64JBAJXJYCVIOO3X4ABM.jpg?auth=76aa5d4d4e562609f96d4f7b9265ea13a4add4405c1b409350f1af9b981035d7&smart=true&width=1200&height=900"
         }
       ],
-      "imagen": "https://www.clarin.com/img/2026/10/14/4NxF9cuXH_1200x630__1.jpg"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/BDCMCGQ4XREV5MRMA4FQXXZFOU.jpg?auth=082a7dc3ab96211f4b71632ff66573c0dfe2ea25b285e4562e9911b8b7067f63&smart=true&width=2000&height=1335"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Ataque con arma de fuego entre alumnos en una escuela de La Matanza",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Apunta a una problemática de seguridad y convivencia escolar que genera profunda conmoción social.",
+      "insight": "Medios competidores cubrieron el hecho policial en escuelas del conurbano sin que Perfil aportara notas sobre el suceso.",
+      "accion_sugerida": "Establecer alertas en hechos de inseguridad escolar de alto impacto para asegurar una cobertura inmediata en policiales.",
+      "enfoques_sugeridos": [
+        "Medidas de seguridad y protocolos de control en los establecimientos educativos",
+        "El rol de las autoridades provinciales y escolares tras el episodio con armas"
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Un alumno de 17 años baleó a un compañero en el baño de una escuela de La Matanza",
+          "link": "https://www.lanacion.com.ar/seguridad/un-alumno-fue-baleado-por-un-companero-en-el-bano-de-una-escuela-de-la-matanza-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/DEUABHWGJZGTJIHQ6KRLMWKL2E.jpeg?auth=bbeaa8584c3358db98a4dc8d56f774231c30ec01dd8bca6d9dde28300c1b7e01&smart=true&width=1600&height=900"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "La Matanza: un alumno baleó a un compañero en el baño de una escuela",
+          "link": "https://www.clarin.com/sociedad/matanza-alumno-baleo-companero-bano-escuela_0_oeKeU38qiA.html",
+          "imagen": "https://www.clarin.com/img/2026/10/14/0QTFGFDMM_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Un alumno de 15 años le disparó a un compañero en el baño de un colegio en González Catán",
+          "link": "https://tn.com.ar/policiales/2026/10/14/un-alumno-de-17-anos-le-disparo-a-un-companero-en-el-bano-de-un-colegio-en-gonzalez-catan-quedo-demorado/",
+          "imagen": "https://tn.com.ar/resizer/v2/WXHWTQGKLRHU3ABXRXK7FJFU5Y.jpeg?auth=c359341194fb58252d053bd0ac89d601511cd58d00fb79925a4f134121d0c783"
+        }
+      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/DEUABHWGJZGTJIHQ6KRLMWKL2E.jpeg?auth=bbeaa8584c3358db98a4dc8d56f774231c30ec01dd8bca6d9dde28300c1b7e01&smart=true&width=1600&height=900"
     }
   ],
   "oportunidades": [
@@ -426,41 +727,41 @@
       "cobertura_medio_lider": 4,
       "brecha": -4,
       "brecha_formateada": "-4",
-      "tema": "Adquisiciones y transacciones inmobiliarias de mansiones por parte de celebridades internacionales",
+      "tema": "Reflexiones del psicoanalista Gabriel Rolón sobre recuerdos, bienestar y emociones",
       "tipo": "oportunidades",
-      "por_que_importa": "Las notas sobre propiedades de figuras públicas tienen alto rendimiento en tráfico orgánico y consumo en redes.",
-      "insight": "La Nación monopoliza la cobertura con 4 notas sobre transacciones de celebridades, un segmento de alto interés lifestyle.",
-      "accion_sugerida": "Incorporar contenidos internacionales de propiedades exclusivas para captar audiencia interesada en tendencias globales de lifestyle.",
+      "tipo_de_oportunidad": "Cobertura ausente de Perfil con alto potencial en estilo de vida y bienestar emocional",
+      "motivo_oportunidad": "La Nación publicó múltiples notas con declaraciones de Gabriel Rolón que generan gran caudal de lectura y engagement, un segmento afín al perfil de lectores del medio.",
+      "por_que_importa": "Permite captar tráfico recurrente en secciones de bienestar, psicología y cultura general con un enfoque reflexivo.",
+      "insight": "La competencia monopolizó este contenido de entrevistas de desarrollo personal, desaprovechando Perfil un nicho de audiencia muy fiel.",
+      "accion_sugerida": "Desarrollar entrevistas propias y notas de análisis sobre bienestar emocional con figuras referentes de la psicología.",
       "enfoques_sugeridos": [
-        "Detalles arquitectónicos y valores de mercado de las propiedades adquiridas por famosos.",
-        "Perfil de las nuevas inversiones inmobiliarias de celebridades en el exterior."
+        "Claves psicológicas sobre la gestión del bienestar y los recuerdos familiares",
+        "La mirada de los especialistas sobre las expectativas de felicidad en la actualidad"
       ],
-      "tipo_de_oportunidad": "Cobertura ausente de Perfil en contenidos de lifestyle internacional",
-      "motivo_oportunidad": "La competencia registra un interés sostenido en propiedades de celebridades que Perfil no aborda en su edición actual.",
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Dwayne “La Roca” Johnson, 54 años, compró una mansión con establos y ocho dormitorios con la que perdió más de US$3 millones",
-          "link": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/dwayne-la-roca-johnson-54-anos-actor-compro-una-mansion-con-establos-y-ocho-dormitorios-con-la-que-nid12102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RPZNYD3TGVBH5PLROFJIOEEG6Y.jpg?auth=258c7fb920a664969ae7bf64ab3fb7c6751ec564636e6bee90358f4b536e9a96&smart=true&width=2000&height=1333"
+          "titulo": "Gabriel Rolón, psicoanalista, sobre los recuerdos: “Nuestros padres que ya no están se transforman en personas por ahí más nobles de lo que fueron”",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-los-recuerdos-nuestros-padres-que-ya-no-estan-se-transforman-en-nid13102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ZWRQ6O7A4FCWBOTRXHIMGTA3SM.jpg?auth=484aa61dcfc0d412f6c8979e2ee3345790cd2e67a21188c1a34fc688864a3afd&smart=true&width=3590&height=2388"
         },
         {
           "medio": "La Nación",
-          "titulo": "Julio Iglesias, de 83 años: así es la mansión que compró en un pueblo conocido por tener fábrica de ataúdes",
-          "link": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/julio-iglesias-de-83-anos-asi-es-la-mansion-que-compro-en-un-pueblo-conocido-por-tener-fabrica-de-nid13102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/4FDJ3ULYNVDJROAQGSKNJY2MVU.jpg?auth=420ab763a67598342be5f4c6db75ccaa4c8cf64c701226781aa980da70766c6a&smart=true&width=5124&height=3416"
+          "titulo": "Gabriel Rolón, psicoanalista, sobre la búsqueda de bienestar: “A veces uno desea más haber sido feliz que ser feliz”",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-la-busqueda-de-bienestar-a-veces-uno-desea-mas-haber-sido-feliz-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/FDCPJZUEABFFFH755RNQI7AVAE.jpg?auth=f586f8b8809f6f80cdb133083caa1389956943d8918b455fddef3a725ad4cd40&smart=true&width=6240&height=4160"
         },
         {
           "medio": "La Nación",
-          "titulo": "Tom Ford, diseñador de 65 años, compró una casa de estilo moderno por US$51 que terminó vendiendo a US$78,5 millones",
-          "link": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/tom-ford-65-anos-disenador-compro-unacasa-de-diseno-moderno-por-us51-que-termino-vendiendo-en-us785-nid13102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/JIADHMGD25CXBCW5NTI2O4LCRQ.JPG?auth=29e139c73906952bdc6000172b36599152d930bad82721a948261ba37fddbfc5&smart=true&width=2000&height=1334"
+          "titulo": "Gabriel Rolón: “La esperanza puede dejarnos incapacitados a la espera de que ocurran cosas”",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-la-esperanza-puede-dejarnos-incapacitados-a-la-espera-de-que-ocurran-cosas-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333"
         }
       ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RPZNYD3TGVBH5PLROFJIOEEG6Y.jpg?auth=258c7fb920a664969ae7bf64ab3fb7c6751ec564636e6bee90358f4b536e9a96&smart=true&width=2000&height=1333"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ZWRQ6O7A4FCWBOTRXHIMGTA3SM.jpg?auth=484aa61dcfc0d412f6c8979e2ee3345790cd2e67a21188c1a34fc688864a3afd&smart=true&width=3590&height=2388"
     },
     {
-      "total_notas": 4,
+      "total_notas": 3,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura": {
@@ -468,97 +769,51 @@
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 4
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "El Cronista",
-      "cobertura_medio_lider": 4,
-      "brecha": -4,
-      "brecha_formateada": "-4",
-      "tema": "Pronóstico del SMN sobre lluvias y tormentas en Córdoba, San Luis y Buenos Aires",
-      "tipo": "oportunidades",
-      "por_que_importa": "Los alertas meteorológicos generan picos de búsqueda inmediata en Google Search y Discover por parte de usuarios locales.",
-      "insight": "El Cronista cubre con 4 notas los avisos del Servicio Meteorológico Nacional, evidenciando una oportunidad de servicio.",
-      "accion_sugerida": "Ampliar la cobertura de alertas climáticas y pronósticos detallados para las principales regiones del país.",
-      "enfoques_sugeridos": [
-        "Zonas afectadas por tormentas intensas y ráfagas según el SMN.",
-        "Recomendaciones de seguridad ante alertas meteorológicas vigentes."
-      ],
-      "tipo_de_oportunidad": "Demanda de servicio y utilidad meteorológica no cubierta por Perfil",
-      "motivo_oportunidad": "Los reportes del SMN atraen tráfico de alta inmediatez que la competencia capitaliza con múltiples publicaciones.",
-      "ejemplos": [
-        {
-          "medio": "El Cronista",
-          "titulo": "Clima: el SMN anuncia probabilidad de lluvias y tormentas en Córdoba y San Luis este jueves 15 de octubre",
-          "link": "https://www.cronista.com/informacion-gral/clima-el-smn-anuncia-probabilidad-de-lluvias-y-tormentas-en-cordoba-y-san-luis-este-jueves-15-de-octubre/",
-          "imagen": "https://www.cronista.com/resizer/v2/VCUWDQGAPJAVBOENPIWFIC5WIQ.png?auth=9bccef04c3b173f47ba456290b35e55393d10cfd35101486506c515c6d5be9f7&smart=true&width=1200&height=900"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "Se aproximan tormentas por 48 horas a Buenos Aires el jueves 15 de octubre: todas las localidades afectadas por las lluvias",
-          "link": "https://www.cronista.com/informacion-gral/se-aproximan-tormentas-por-48-horas-a-buenos-aires-el-jueves-15-de-octubre-todas-las-localidades-afectadas-por-las-lluvias/",
-          "imagen": "https://www.cronista.com/resizer/v2/XUHXUP4J7BENHB5XE24X7JRUNM.jpg?auth=6311876d96d8aca4ea3ed0a94bb4aa80794ca64f8cda33bdc271614c028ce4e8&smart=true&width=1200&height=900"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "El SMN emitió una amarilla por tormentas en tres provincias: advierten granizo, ráfagas de viento de hasta 60km/h, lluvias de hasta 50mm y actividad eléctrica",
-          "link": "https://www.cronista.com/informacion-gral/el-smn-emitio-una-amarilla-por-tormentas-en-tres-provincias-advierten-granizo-rafagas-de-viento-de-hasta-60kmh-lluvias-de-hasta-50mm-y-actividad-electrica/",
-          "imagen": "https://www.cronista.com/resizer/v2/7C3UQEZDXZAZNDJIYUBRNL6HPQ.jpg?auth=2885f51f670abcdf0e515a5453df3bb84f4c40f3df4c356e4f25737a6bbb4e83&smart=true&width=1200&height=900"
-        }
-      ],
-      "imagen": "https://www.cronista.com/resizer/v2/VCUWDQGAPJAVBOENPIWFIC5WIQ.png?auth=9bccef04c3b173f47ba456290b35e55393d10cfd35101486506c515c6d5be9f7&smart=true&width=1200&height=900"
-    },
-    {
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 2,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
+        "TN": 3,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
       "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Fechas, marcas y organización del evento de comercio electrónico Cyber Monday 2026",
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Desprendimiento de rocas y corte en ruta de Mendoza",
       "tipo": "oportunidades",
-      "por_que_importa": "Los eventos de descuentos masivos movilizan el interés de los consumidores y generan oportunidades de monetización.",
-      "insight": "La Nación desarrolla la previa y el listado de marcas participantes del Cyber Monday sin cobertura en Perfil.",
-      "accion_sugerida": "Publicar guías de compra anticipadas y listados de marcas adheridas para captar la intención de búsqueda comercial.",
+      "tipo_de_oportunidad": "Asunto de alto impacto federal cubierto exclusivamente por la competencia",
+      "motivo_oportunidad": "TN cubrió con varios artículos el derrumbe en la Ruta 7 y los camiones varados, un tema de urgencia federal no registrado por Perfil.",
+      "por_que_importa": "Atrae lectores interesados en el estado de rutas nacionales, transporte de cargas y emergencias viales.",
+      "insight": "La cobertura se concentró en la competencia directa, dejando vacante el espacio para replicar la noticia en el portal web.",
+      "accion_sugerida": "Establecer una sección de alertas federales para cubrir cortes de rutas y accidentes en corredores bioceánicos.",
       "enfoques_sugeridos": [
-        "Calendario oficial y categorías con mayores descuentos esperados.",
-        "Consejos de ciberseguridad y comparación de precios previos al evento."
+        "Estado del tránsito y demoras para el transporte de cargas en alta montaña",
+        "Evaluación de riesgos geológicos en los principales pasos cordilleranos"
       ],
-      "tipo_de_oportunidad": "Oportunidad de contenido comercial y de consumo masivo",
-      "motivo_oportunidad": "La proximidad de eventos de e-commerce genera un volumen elevado de búsquedas que La Nación ya comenzó a cubrir.",
       "ejemplos": [
         {
-          "medio": "La Nación",
-          "titulo": "Cuándo es el Cyber Monday 2026 en la Argentina",
-          "link": "https://www.lanacion.com.ar/economia/cuando-es-el-cyber-monday-2026-en-la-argentina-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/DFNTIFKUQJH6XDGZAEHWAMIBLI.jpg?auth=411048780e029240ac8d92a85224e440af6ac7eb1ec673a752f2156185ce3e88&smart=true&width=2000&height=1333"
+          "medio": "TN",
+          "titulo": "Un desprendimiento de rocas aplastó una camioneta y dejó una larga fila de camiones varados en una ruta de Mendoza",
+          "link": "https://tn.com.ar/sociedad/2026/10/14/mendoza-cortaron-la-ruta-7-por-un-derrumbe-de-rocas-que-aplasto-una-camioneta-y-dejo-camiones-varados/",
+          "imagen": ""
         },
         {
-          "medio": "La Nación",
-          "titulo": "Cyber Monday 2026 en la Argentina: fechas y marcas que participan en esta edición",
-          "link": "https://www.lanacion.com.ar/economia/cyber-monday-2026-en-la-argentina-fechas-y-marcas-que-participan-en-esta-edicion-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/DFNTIFKUQJH6XDGZAEHWAMIBLI.jpg?auth=411048780e029240ac8d92a85224e440af6ac7eb1ec673a752f2156185ce3e88&smart=true&width=2000&height=1333"
+          "medio": "TN",
+          "titulo": "Mendoza: cortaron la Ruta 7 por un derrumbe de rocas que aplastó una camioneta y dejó camiones varados - Video 2",
+          "link": "https://tn.com.ar/videos/sociedad/2026/10/14/mendoza-cortaron-la-ruta-7-por-un-derrumbe-de-rocas-que-aplasto-una-camioneta-y-dejo-camiones-varados-video-2/",
+          "imagen": ""
+        },
+        {
+          "medio": "TN",
+          "titulo": "Mendoza: cortaron la Ruta 7 por un derrumbe de rocas que aplastó una camioneta y dejó camiones varados",
+          "link": "https://tn.com.ar/videos/sociedad/2026/10/14/mendoza-cortaron-la-ruta-7-por-un-derrumbe-de-rocas-que-aplasto-una-camioneta-y-dejo-camiones-varados/",
+          "imagen": ""
         }
       ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/DFNTIFKUQJH6XDGZAEHWAMIBLI.jpg?auth=411048780e029240ac8d92a85224e440af6ac7eb1ec673a752f2156185ce3e88&smart=true&width=2000&height=1333"
+      "imagen": ""
     },
     {
-      "total_notas": 4,
+      "total_notas": 3,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura": {
@@ -567,184 +822,236 @@
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
-        "Ámbito": 4,
+        "Ámbito": 3,
         "Página 12": 0,
         "El Cronista": 0
       },
       "cobertura_perfil": 0,
       "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 4,
-      "brecha": -4,
-      "brecha_formateada": "-4",
-      "tema": "Cooperación pesquera internacional y cuestiones de soberanía en Malvinas",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Aceleración de la inflación interanual en Estados Unidos",
       "tipo": "oportunidades",
-      "por_que_importa": "Las tensiones geopolíticas y los movimientos diplomáticos en torno a las Islas Malvinas interesan a la agenda nacional.",
-      "insight": "Ámbito dedica 4 notas a la cooperación pesquera y los movimientos diplomáticos británicos en la región.",
-      "accion_sugerida": "Profundizar en el análisis de las disputas pesqueras y las respuestas de la diplomacia argentina.",
+      "tipo_de_oportunidad": "Información económica internacional con repercusión directa en los mercados locales",
+      "motivo_oportunidad": "Ámbito dedicó un bloque completo al dato de inflación norteamericana y su impacto en Wall Street y las criptomonedas, área en la que Perfil no incursionó.",
+      "por_que_importa": "Interesa a inversores y lectores que siguen de cerca la economía internacional y su correlato local.",
+      "insight": "La competencia económica captó el interés de la audiencia especializada con coberturas detalladas sobre el IPC de EE.UU.",
+      "accion_sugerida": "Publicar notas de análisis sobre el impacto de la política monetaria de la Fed en los mercados emergentes y Argentina.",
       "enfoques_sugeridos": [
-        "Implicancias legales de los movimientos británicos en el Atlántico Sur.",
-        "Reclamos soberanos de Argentina ante organismos internacionales."
+        "Repercusión del dato de inflación en los índices bursátiles de Wall Street",
+        "Implicancias de la suba de precios en EE.UU. para la tasa de interés global"
       ],
-      "tipo_de_oportunidad": "Cobertura ausente en política exterior y soberanía",
-      "motivo_oportunidad": "La competencia desarrolla temas de soberanía y pesca que complementan la agenda internacional de Perfil.",
       "ejemplos": [
         {
           "medio": "Ámbito",
-          "titulo": "Malvinas: la cooperación pesquera internacional abre un nuevo frente para la Argentina",
-          "link": "https://www.ambito.com/politica/malvinas-la-cooperacion-pesquera-internacional-abre-un-nuevo-frente-la-argentina-n6333641",
-          "imagen": "https://media.ambito.com/p/f01deb0f6470be269833914c257665af/adjuntos/239/imagenes/043/703/0043703804/pesca-malvinas.jpeg"
+          "titulo": "La inflación en EEUU se aceleró al 3,7% interanual y subió por encima de lo previsto",
+          "link": "https://www.ambito.com/economia/la-inflacion-eeuu-se-acelero-al-37-y-subio-encima-lo-previsto-n6333531",
+          "imagen": "https://media.ambito.com/p/fa351f80b013e0188d4940b7ac3f4247/adjuntos/239/imagenes/041/661/0041661927/1200x675/smart/inflacion-estados-unidos-eeuu.png"
         },
         {
           "medio": "Ámbito",
-          "titulo": "Reino Unido: el líder del Brexit ofreció Chagos a Donald Trump a cambio de su silencio sobre Malvinas",
-          "link": "https://www.ambito.com/mundo/reino-unido-el-lider-del-brexit-ofrecio-chagos-donald-trump-cambio-su-silencio-malvinas-n6333523",
-          "imagen": "https://media.ambito.com/p/1d3cb1c768219ebaaae51c2e8616efe3/adjuntos/239/imagenes/041/945/0041945250/1200x675/973x230:993x250/nigel-farage-donald-trumpjpg.jpg"
+          "titulo": "Bitcoin retrocede con fuerza, luego de que la inflación norteamericana tomara por sorpresa al mercado",
+          "link": "https://www.ambito.com/finanzas/bitcoin-lucha-sostener-los-us83000-la-espera-del-ipc-eeuu-clave-el-proximo-movimiento-la-fed-n6333511",
+          "imagen": "https://media.ambito.com/p/64be8f5ddce02ba1d796047be0222c8f/adjuntos/239/imagenes/043/151/0043151274/1200x675/828x386:848x406/bitcoin-derrumbe-caida.png"
         },
         {
           "medio": "Ámbito",
-          "titulo": "El Reino Unido evocó la &quot;liberación&quot; de Malvinas y confirmó actos por el 45° aniversario de la guerra",
-          "link": "https://www.ambito.com/mundo/el-reino-unido-evoco-la-liberacion-malvinas-y-confirmo-actos-el-45-aniversario-la-guerra-n6333614",
-          "imagen": "https://media.ambito.com/p/826844933fd92c4651c3fce9d866e268/adjuntos/239/imagenes/043/620/0043620790/1200x675/808x256:828x276/malvinas-ejercito-britanico-reino-unido.jpg"
+          "titulo": "Los índices de Wall Street se desploman casi 2% tras el mal dato de inflación de EEUU",
+          "link": "https://www.ambito.com/finanzas/los-futuros-wall-street-avanzan-la-espera-la-inflacion-eeuu-y-el-petroleo-retoma-las-subas-n6333488",
+          "imagen": "https://media.ambito.com/p/8c5fdcc647e3a9b8ad346ab25f3684d3/adjuntos/239/imagenes/042/962/0042962091/eeuu-wall-street.jpg"
         }
       ],
-      "imagen": "https://media.ambito.com/p/f01deb0f6470be269833914c257665af/adjuntos/239/imagenes/043/703/0043703804/pesca-malvinas.jpeg"
+      "imagen": "https://media.ambito.com/p/fa351f80b013e0188d4940b7ac3f4247/adjuntos/239/imagenes/041/661/0041661927/1200x675/smart/inflacion-estados-unidos-eeuu.png"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 3,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Toma de facultades y protesta estudiantil en La Siberia",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Conflicto universitario con fuerte cobertura de medios especializados en agenda social",
+      "motivo_oportunidad": "Página 12 cubrió en profundidad las protestas estudiantiles y tomas en facultades, evidenciando un flanco no cubierto por Perfil.",
+      "por_que_importa": "Apunta al conflicto por el financiamiento educativo que moviliza a la comunidad universitaria en todo el país.",
+      "insight": "La cobertura de este sector quedó en manos de medios con enfoque sindical y universitario, dejando espacio para una mirada plural.",
+      "accion_sugerida": "Ampliar la cobertura sobre las medidas de fuerza en las universidades nacionales con crónicas desde el interior.",
+      "enfoques_sugeridos": [
+        "El alcance de las asambleas y tomas temporales en las distintas casas de altos estudios",
+        "Reclamos presupuestarios de los estudiantes en la antesala de nuevas marchas"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Página 12",
+          "titulo": "“Presidente cumpla la ley”: intervención de estudiantes en La Siberia, mientras avanza la toma de facultades",
+          "link": "https://www.pagina12.com.ar/2026/10/14/presidente-cumpla-la-ley-intervencion-de-estudiantes-en-la-siberia-mientras-avanza-la-toma-de-facultades/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TGRKJEBRH5EUFN7B4WLDKI2ELE.jpg?auth=cfa9ce04591e73f14f2a333ce085cbc7b6ae24d66487413a7472c62e037a2480&amp;smart=true&amp;width=1280&amp;height=720"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Humanidades y Ciencia Política, tomadas por 24 horas",
+          "link": "https://www.pagina12.com.ar/2026/10/14/humanidades-y-ciencia-politica-tomadas-por-24-horas/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/DVY2TFLWVNEKZCVKFSV6CEA3UM.JPG?auth=afc3725cf9553cdd77cbeca86f0b3fde58347802bb853733d38b1667fbf0c247&amp;smart=true&amp;width=4000&amp;height=2667"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "La marcha federal universitaria es la antesala del paro regional",
+          "link": "https://www.pagina12.com.ar/2026/10/13/la-marcha-federal-universitaria-es-la-antesala-del-paro-regional/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/G5OHMNEKWJGFPF2ORMAF4DOPLQ.jfif?auth=9e384c21af3e119690b3ab26146ab333d633b8d695e9d4120b250d2a053eb73a&amp;smart=true&amp;width=1920&amp;height=1280"
+        }
+      ],
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TGRKJEBRH5EUFN7B4WLDKI2ELE.jpg?auth=cfa9ce04591e73f14f2a333ce085cbc7b6ae24d66487413a7472c62e037a2480&amp;smart=true&amp;width=1280&amp;height=720"
     }
   ],
   "prioridades_del_dia": [
     {
-      "total_notas": 24,
-      "cantidad_medios": 8,
-      "cantidad_competidores": 7,
+      "total_notas": 13,
+      "cantidad_medios": 7,
+      "cantidad_competidores": 6,
       "cobertura": {
-        "Perfil": 5,
-        "La Nación": 2,
-        "Clarín": 5,
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
         "Infobae": 1,
-        "TN": 3,
+        "TN": 2,
         "Ámbito": 4,
         "Página 12": 3,
         "El Cronista": 1
       },
-      "cobertura_perfil": 5,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 5,
-      "brecha": 0,
-      "brecha_formateada": "0",
-      "tema": "Salud, mensajes públicos y parte médico del papa León XIV tras su operación",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Es el tema de mayor atención internacional y de alto impacto emocional y religioso para la audiencia local.",
-      "accion_sugerida": "Mantener actualización constante de los partes médicos y las repercusiones de sus mensajes institucionales.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "“Sin familias fuertes, el mundo no tiene futuro”: el mensaje de León XIV tras su operación",
-          "link": "https://www.perfil.com/noticias/sociedad/sin-familias-fuertes-el-mundo-no-tiene-futuro-el-mensaje-de-leon-xiv-tras-su-operacion.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/13/trim/540/304/papa-leon-xiv-2347579.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Nuevo parte médico del Papa León XIV: hizo fisioterapia respiratoria, volvió a caminar y retomó la alimentación normal",
-          "link": "https://www.perfil.com/noticias/protagonistas/nuevo-parte-medico-del-papa-leon-xvi-hizo-fisioterapia-respiratoria-volvio-a-caminar-y-retomo-la-alimentacion-normal.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/papa-leon-xiv-2345054.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Los diarios del mundo frente a la operación del papa León XIV: \"Pone a prueba la asunción de un papado largo\"",
-          "link": "https://www.perfil.com/noticias/internacional/los-diarios-del-mundo-frente-a-la-operacion-del-papa-pone-a-prueba-la-asuncion-de-un-largo-papado.phtml",
-          "imagen": "https://fotos.perfil.com/2026/09/25/trim/540/304/papa-leon-xiv-en-francia-25092026-2333758.jpg"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/13/trim/540/304/papa-leon-xiv-2347579.jpg"
-    },
-    {
-      "total_notas": 7,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 3,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 1,
-        "Página 12": 1,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 3,
+      "cobertura_perfil": 1,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 4,
       "brecha": -3,
       "brecha_formateada": "-3",
-      "tema": "Viajes, actividades oficiales y discursos internacionales de Javier Milei en Estados Unidos",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "La actividad presidencial en el exterior define el pulso político y económico de la gestión actual.",
-      "accion_sugerida": "Cubrir las reuniones bilaterales y los discursos del mandatario para corregir la brecha frente a la competencia.",
+      "tema": "Estado de salud, operación y parte médico del papa León XIV",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Es la noticia central de la agenda internacional y religiosa con alto impacto en la sensibilidad de los lectores argentinos.",
+      "accion_sugerida": "Destacar la cobertura en la portada principal con actualizaciones constantes sobre el parte médico y la evolución postoperatoria.",
       "ejemplos": [
         {
-          "medio": "Clarín",
-          "titulo": "Javier Milei llegó a Washington: una gala, premios, discursos y un nuevo gesto de apoyo a Trump",
-          "link": "https://www.clarin.com/politica/javier-milei-llego-washington-gala-premios-discursos-nuevo-gesto-apoyo-trump_0_BmplxELfjM.html",
-          "imagen": "https://www.clarin.com/img/2026/03/08/JpghJPSI__1200x630__1.jpg"
+          "medio": "Perfil",
+          "titulo": "“No podemos asegurar que el Papa esté libre de enfermedad”: especialistas explican por qué será clave el resultado de la biopsia",
+          "link": "https://www.perfil.com/noticias/cordoba/no-podemos-asegurar-que-el-papa-este-libre-de-enfermedad-especialistas-explicaron-por-que-sera-clave-el-resultado-de-la-biopsia.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/papa-leon-xiv-2345055.jpg"
         },
         {
           "medio": "TN",
-          "titulo": "Milei llegó a Washington para reforzar su alineamiento con Trump y ratificar su apoyo a los Bolsonaro en Brasil",
-          "link": "https://tn.com.ar/politica/2026/10/14/milei-llego-a-washington-para-reforzar-su-alineamiento-con-trump-y-ratificar-su-apoyo-a-los-bolsonaro-en-brasil/",
+          "titulo": "Un día después de la operación, el papa León XIV ofició una misa en su habitación del Policlínico Gemelli",
+          "link": "https://tn.com.ar/internacional/2026/10/14/un-dia-despues-de-la-operacion-el-papa-leon-xiv-oficio-una-misa-en-su-habitacion-del-policlinico-gemelli/",
+          "imagen": "https://tn.com.ar/resizer/v2/2HJNSXHNEKK7F5UEA4JI64V4OY.jpg?auth=cd3630cb31a80fd77c31272210a35c83023fef77626b87739a15737f92ee4b59"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El Vaticano difundió un nuevo parte médico del papa León XIV tras haber sido operado de un cáncer de pulmón",
+          "link": "https://tn.com.ar/internacional/2026/10/14/el-vaticano-difundio-un-nuevo-parte-medico-del-papa-leon-xiv-tras-haber-sido-operado-de-un-cancer-de-pulmon/",
+          "imagen": "https://tn.com.ar/resizer/v2/QBVFD6YBVRGWJC6FS7DN4EH3CM.jpg?auth=1c2d7ad0538b99ae3cc64b0a2480e0764c678cb5c40d30974e68cf1a73dfa81f"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/papa-leon-xiv-2345055.jpg"
+    },
+    {
+      "total_notas": 9,
+      "cantidad_medios": 8,
+      "cantidad_competidores": 7,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 1,
+        "Ámbito": 2,
+        "Página 12": 1,
+        "El Cronista": 1
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Multas de la Justicia a la Jefatura de Gabinete por incumplir el financiamiento universitario",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Cruza la tensión institucional entre el Poder Judicial y el Ejecutivo en un momento de máxima sensibilidad por el presupuesto educativo.",
+      "accion_sugerida": "Jerarquizar el análisis legal de las sanciones a funcionarios y su impacto político en la previa de la marcha universitaria.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Por incumplir con el financiamiento universitario, la Justicia Federal impuso una multa diaria a la Jefatura de Gabinete",
+          "link": "https://www.perfil.com/noticias/judiciales/por-incumplir-con-el-financiamiento-universitario-la-justicia-federal-impuso-una-multa-diaria-a-la-jefatura-de-gabinete.phtml",
+          "imagen": "https://fotos.perfil.com/2025/08/06/trim/540/304/congreso-protesta-ley-de-financiamiento-universitario-20250806-2075723.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "A un día de la marcha universitaria, la Justicia multó al Gobierno y Santilli deberá pagar $100.000 por día",
+          "link": "https://www.lanacion.com.ar/sociedad/a-un-dia-de-la-marcha-universitaria-la-justicia-multo-al-gobierno-y-santilli-debera-pagar-100000-por-nid14102026/",
+          "imagen": ""
+        },
+        {
+          "medio": "TN",
+          "titulo": "Financiamiento universitario: la Justicia le impuso al Gobierno una multa diaria de $100.000 por incumplir la cautelar",
+          "link": "https://tn.com.ar/politica/2026/10/14/financiamiento-universitario-la-justicia-impuso-una-multa-diaria-de-100000-a-diego-santilli-por-incumplir-la-cautelar/",
+          "imagen": ""
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2025/08/06/trim/540/304/congreso-protesta-ley-de-financiamiento-universitario-20250806-2075723.jpg"
+    },
+    {
+      "total_notas": 7,
+      "cantidad_medios": 6,
+      "cantidad_competidores": 5,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 1,
+        "Página 12": 1,
+        "El Cronista": 2
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Caída de activos argentinos y aumento del riesgo país",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "Condiciona la marcha de la economía local, los mercados financieros y la confianza de los inversores.",
+      "accion_sugerida": "Publicar un informe detallado con el análisis de operadores bursátiles sobre el salto del riesgo país y su relación con factores externos.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Los activos argentinos vuelven a caer y el riesgo país supera los 600 puntos",
+          "link": "https://www.perfil.com/noticias/economia/los-activos-argentinos-vuelven-a-caer-y-el-riesgo-pais-supera-los-600-puntos-a40.phtml",
+          "imagen": "https://fotos.perfil.com/2026/09/02/trim/540/304/los-bonos-cotizaron-en-alza-en-wall-street-2317217.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "El riesgo país supera la barrera de los 600 puntos a partir del dato negativo de inflación en Estados Unidos",
+          "link": "https://www.lanacion.com.ar/economia/el-riesgo-pais-supera-la-barrera-de-los-600-puntos-a-partir-del-dato-negativo-de-inflacion-en-nid14102026/",
           "imagen": ""
         },
         {
           "medio": "Ámbito",
-          "titulo": "Javier Milei llega a EEUU: reuniones, premios y una agenda de dos días",
-          "link": "https://www.ambito.com/politica/javier-milei-llega-eeuu-reuniones-premios-y-una-agenda-dos-dias-n6333514",
-          "imagen": "https://media.ambito.com/p/80e48ac7b301f82b9042ef6239fa3469/adjuntos/239/imagenes/042/928/0042928284/javier-milei-estados-unidos.jpg"
+          "titulo": "El riesgo país volvió a perforar los 600 puntos ante un nuevo retroceso de los bonos en dólares",
+          "link": "https://www.ambito.com/finanzas/bonos-dolares-caen-06-y-el-riesgo-pais-roza-los-600-puntos-medio-tensiones-wall-street-n6333557",
+          "imagen": "https://media.ambito.com/p/8ed2cd373777a162ca385a0ebe2eb776/adjuntos/239/imagenes/043/381/0043381314/1200x675/627x333:647x353/bolsa-bonos-merval-acciones-cedears.jpg"
         }
       ],
-      "imagen": "https://www.clarin.com/img/2026/03/08/JpghJPSI__1200x630__1.jpg"
-    },
-    {
-      "total_notas": 15,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 4,
-        "La Nación": 4,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 1,
-        "Página 12": 1,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 4,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 4,
-      "brecha": 0,
-      "brecha_formateada": "0",
-      "tema": "Impacto de las inundaciones por el fenómeno de El Niño en el Litoral, crecida de ríos y apertura de Yacyretá",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "La emergencia climática afecta a numerosas comunidades y demanda un riguroso servicio informativo de alcance federal.",
-      "accion_sugerida": "Seguir la evolución de las evacuaciones y las proyecciones hidTrológicas oficiales en la región del Litoral.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Inundaciones por El Niño en el Litoral: crecen los ríos y cada vez hay más familias evacuadas",
-          "link": "https://www.perfil.com/noticias/actualidad/inundaciones-en-el-litoral-argentino.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/rio-parana-en-la-costa-de-ituzaingo-2348003.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Fenómeno de El Niño: advierten que el río Paraná superará el nivel de evacuación en Corrientes",
-          "link": "https://www.perfil.com/noticias/nea/fenomeno-de-el-nino-advierten-que-el-rio-parana-superara-el-nivel-de-evacuacion-en-corrientes.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/costanera-de-itati-corrientes-2348028.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "Juan Pablo Valdés anunció la construcción de un albergue en la Isla Apipé para las emergencias hídricas",
-          "link": "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-la-construccion-de-un-albergue-en-la-isla-apipe-para-las-emergencias-hidricas.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/inundaciones-isla-apipe-2347865.jpg"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/rio-parana-en-la-costa-de-ituzaingo-2348003.jpg"
+      "imagen": "https://fotos.perfil.com/2026/09/02/trim/540/304/los-bonos-cotizaron-en-alza-en-wall-street-2317217.jpg"
     }
   ]
 }
