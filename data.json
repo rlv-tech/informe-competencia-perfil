@@ -1,155 +1,155 @@
 {
-  "fecha_analisis": "2026-10-16",
+  "fecha_analisis": "2026-10-21",
   "hipercompetencia": [
     {
-      "total_notas": 25,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 5,
-      "cobertura": {
-        "Perfil": 2,
-        "La Nación": 4,
-        "Clarín": 1,
-        "Infobae": 1,
-        "TN": 16,
-        "Ámbito": 0,
-        "Página 12": 1,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 2,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 16,
-      "brecha": -14,
-      "brecha_formateada": "-14",
-      "tema": "Fallecimiento, homenajes y despedida del meteorólogo Fernando Confessore",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Constituye un hecho de alto impacto emocional y masivo en la agenda de medios que monopoliza la atención en redes y portales.",
-      "insight": "Perfil cuenta con una cobertura mínima frente al despliegue masivo de competidores como TN y La Nación, perdiendo tracción en Discover.",
-      "accion_sugerida": "Ampliar la cobertura con notas de color sobre su trayectoria, reacciones del público y compilados de homenajes.",
-      "enfoques_sugeridos": [
-        "El legado profesional de Confessore en los medios de comunicación.",
-        "Repercusiones y mensajes de despedida de colegas y figuras públicas."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Quién era Fernando Confessore: la carrera y la familia del meteorólogo de TN que murió a los 58 años",
-          "link": "https://www.perfil.com/noticias/protagonistas/a04-quien-era-fernando-confessore-la-carrera-y-la-familia-del-meteorologo-de-tn-a50-que-murio-a-los-58-anos.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/fernando-confessore-en-tn-2349873.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "El momento en que Mario Massaccesi anunció en vivo la muerte de Fernando Confessore",
-          "link": "https://www.perfil.com/noticias/actualidad/mario-massaccesi-despidio-a-fernando-confessore-en-vivo-lo-vamos-a-recordar-siempre.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/fernando-confessore-2349684.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Murió Fernando Confessore: reacciones y mensajes de despedida al meteorólogo que trabajaba en el canal TN",
-          "link": "https://www.lanacion.com.ar/sociedad/murio-fernando-confessore-reacciones-y-mensajes-de-despedida-al-meteorologo-que-trabajaba-en-el-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/HJVT5ZMKQNEWVCYD6534LEIRFI.png?auth=e35931cf8db0a50f1a79a92a154fbfb6f98a79fe27b3bf8b57a34ab7b1ad1c24&smart=true&width=449&height=650"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/fernando-confessore-en-tn-2349873.jpg"
-    },
-    {
-      "total_notas": 24,
+      "total_notas": 19,
       "cantidad_medios": 8,
       "cantidad_competidores": 7,
       "cobertura": {
-        "Perfil": 3,
-        "La Nación": 5,
-        "Clarín": 5,
-        "Infobae": 1,
+        "Perfil": 2,
+        "La Nación": 3,
+        "Clarín": 1,
+        "Infobae": 4,
         "TN": 3,
-        "Ámbito": 2,
+        "Ámbito": 3,
         "Página 12": 2,
-        "El Cronista": 3
+        "El Cronista": 1
       },
-      "cobertura_perfil": 3,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 5,
+      "cobertura_perfil": 2,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 4,
       "brecha": -2,
       "brecha_formateada": "-2",
-      "tema": "Estado de salud, recuperación, reaparición y agenda del papa León XIV",
+      "tema": "Cruce político entre Javier Milei y Pedro Sánchez en España",
       "tipo": "hipercompetencia",
-      "por_que_importa": "La salud del Sumo Pontífice y su inminente agenda internacional interesan de forma directa a la audiencia local e internacional de Perfil.",
-      "insight": "La competencia lidera con notas de seguimiento estricto, mientras Perfil se mantiene con una presencia moderada.",
-      "accion_sugerida": "Monitorear los partes oficiales del Vaticano y sumar análisis sobre la viabilidad de sus próximos viajes.",
+      "por_que_importa": "Concentra la máxima atención de la agenda internacional y política debido al alto voltaje diplomático y los cruces discursivos entre ambos mandatarios.",
+      "insight": "Perfil mantiene una cobertura moderada con 2 notas frente a la fuerte tracción de competidores como Infobae y La Nación, quedando por debajo del nivel de despliegue general.",
+      "accion_sugerida": "Ampliar el seguimiento en tiempo real de las repercusiones en Europa y sumar análisis sobre el impacto en la relación bilateral.",
       "enfoques_sugeridos": [
-        "Detalles del parte médico y evolución clínica en el Policlínico Gemelli.",
-        "Expectativa e incertidumbre en torno a la visita pastoral a la Argentina."
+        "El impacto institucional de la escalada verbal en la cumbre empresaria española.",
+        "La estrategia comunicacional del Gobierno en su gira internacional frente a los líderes europeos."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El secretario de Estado del Vaticano puso dudas sobre la visita del papa León XIV: \"Dependerá de su salud\"",
-          "link": "https://www.perfil.com/noticias/internacional/el-secretario-de-estado-del-vaticano-puso-dudas-a-la-gira-del-papa-dependera-de-su-salud.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/papa-leon-xiv-2348333.jpg"
+          "titulo": "La respuesta de Pedro Sánchez a Milei: \"Me encanta este temazo argentino\", dijo sobre \"Fanático\", de Lali",
+          "link": "https://www.perfil.com/noticias/politica/la-respuesta-de-pedro-sanchez-a-milei-me-encanta-este-temazo-argentino-por-fanatico-de-lali.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/pedro-sanchez-2353104.jpg"
         },
         {
           "medio": "Perfil",
-          "titulo": "El Vaticano difundió las primeras fotos del papa León XIV tras la operación por cáncer y confirmó una “mejora constante” en su salud",
-          "link": "https://www.perfil.com/noticias/protagonistas/el-papa-leon-xiv-celebro-misa-en-el-policlinico-gemelli-y-el-nuevo-parte-medico-habla-de-mejora-constante.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/papa-leon-xiv-oficiando-una-misa-en-el-hospital-universitario-gemelli-de-roma-2349737.jpg"
+          "titulo": "Milei llamó \"impresentable dictador\" a Pedro Sánchez y dijo \"si me reeligen los próximos años serán inolvidables\"",
+          "link": "https://www.perfil.com/noticias/actualidad/milei-habla-en-el-nueva-economia-forum-2026-en-madrid.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/el-presidente-en-madrid-2353030.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Salud del Papa León XIV: cómo sigue su recuperación y qué se sabe de la visita a la Argentina",
-          "link": "https://www.lanacion.com.ar/el-mundo/salud-del-papa-leon-xiv-como-sigue-su-recuperacion-y-que-se-sabe-de-la-visita-a-la-argentina-nid15102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RJHC5R5JRVDTXKXZOC55ZLCBIA.jpg?auth=c83cd765b19c0c6c0213839b2145d7ccb1c0430dfdf0a477f95f52517ae24cf1&smart=true&width=2000&height=1333"
+          "titulo": "Revuelo en los medios de España por los insultos de Milei a periodistas locales",
+          "link": "https://www.lanacion.com.ar/politica/revuelo-en-los-medios-de-espana-por-los-insultos-de-milei-a-periodistas-locales-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/QNIT7FGNIJFTLHDCOEK7P7LL7U.jpg?auth=2b5fd53b8882d9a72c036c827b2041daf283d655e8cc1c1f9f4e1cf5cfca8865&smart=true&width=2000&height=1333"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/papa-leon-xiv-2348333.jpg"
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/pedro-sanchez-2353104.jpg"
     },
     {
-      "total_notas": 12,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
+      "total_notas": 13,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 4,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 9,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 2,
+        "Página 12": 1,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 9,
+      "brecha": -9,
+      "brecha_formateada": "-9",
+      "tema": "Elecciones en Brasil 2026 y balotaje presidencial",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Define el escenario político del principal socio comercial de la Argentina con un balotaje de máxima tensión regional.",
+      "insight": "Perfil registra nula cobertura propia en este asunto clave, cediendo todo el tráfico potencial de interés internacional frente al despliegue masivo de La Nación.",
+      "accion_sugerida": "Movilizar cobertura internacional urgente para reportar el cierre de campañas y los sondeos definitivos.",
+      "enfoques_sugeridos": [
+        "Cómo impacta el resultado del balotaje brasileño en la política exterior y comercial de la administración Milei.",
+        "El minuto a minuto de las últimas encuestas y el voto de los ciudadanos residentes en Argentina."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balotaje y el minuto a minuto",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-encuestas-final-de-las-campanas-para-el-balotaje-y-el-minuto-a-minuto-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/VGVAZGIQ7BB6DEIYAGXIAKZVRU.jpg?auth=52d8a387bd034a2a82997217f53525141b5268276b57c348f67a62099b09ced3&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Calendario de elecciones Brasil 2026: cuándo se vota el balotaje entre Lula y Flávio Bolsonaro",
+          "link": "https://www.lanacion.com.ar/el-mundo/calendario-de-elecciones-brasil-2026-cuando-se-vota-el-balotaje-entre-lula-y-flavio-bolsonaro-nid13102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/ZSR3BH5RZFC7BGQCUNO7VPX5JU.jpg?auth=4038b208d79a163c035133d8aa7a696da0f0e8a228f5b971b1b94c3c3d703c45&smart=true&width=2000&height=1270"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Últimas encuestas de las elecciones en Brasil 2026: quién va ganando hoy para la segunda vuelta",
+          "link": "https://www.lanacion.com.ar/el-mundo/ultimas-encuestas-de-las-elecciones-en-brasil-2026-quien-va-ganando-hoy-para-la-segunda-vuelta-nid20102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CJRYDUSEIJCNZM2EDP2X2OQETU.jpeg?auth=653e055e5eb84a315e58eb27296215e25e473a43a9f038dd6d2e25d11e1cfbf7&smart=true&width=1280&height=852"
+        }
+      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/VGVAZGIQ7BB6DEIYAGXIAKZVRU.jpg?auth=52d8a387bd034a2a82997217f53525141b5268276b57c348f67a62099b09ced3&smart=true&width=2000&height=1333"
+    },
+    {
+      "total_notas": 10,
+      "cantidad_medios": 8,
+      "cantidad_competidores": 7,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 3,
-        "Clarín": 2,
-        "Infobae": 2,
-        "TN": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 1,
+        "TN": 2,
         "Ámbito": 2,
-        "Página 12": 0,
+        "Página 12": 1,
         "El Cronista": 1
       },
       "cobertura_perfil": 1,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Superávit financiero y fiscal registrado por el Gobierno en septiembre",
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Estado de salud y actividades del papa León XIV",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Es un dato económico troncal para evaluar el rumbo de la gestión de Javier Milei y el cumplimiento de las metas con el FMI.",
-      "insight": "El tema está ampliamente disputado por los principales diarios económicos y generalistas, donde Perfil aporta una cobertura acotada.",
-      "accion_sugerida": "Profundizar el análisis técnico sobre el impacto en las cuentas públicas y la reacción de los mercados.",
+      "por_que_importa": "Despierta alto interés general y especulaciones sobre una futura visita pastoral a la Argentina tras su reaparición pública.",
+      "insight": "Perfil acompaña con cobertura básica pero la competencia directa lidera con enfoques más amplios sobre las señales hacia el país.",
+      "accion_sugerida": "Profundizar en los gestos diplomáticos del Vaticano hacia la agenda local y las expectativas de su viaje.",
       "enfoques_sugeridos": [
-        "Desglose de las cuentas públicas y cumplimiento de las metas fiscales.",
-        "Lectura de los organismos internacionales frente al superávit sostenido."
+        "El análisis de los mensajes del Sumo Pontífice en la audiencia general y su impacto en los fieles argentinos.",
+        "El parte médico oficial tras su intervención y la confirmación de la agenda de viajes."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El Gobierno volvió a registrar superávit financiero en septiembre",
-          "link": "https://www.perfil.com/noticias/economia/el-gobierno-volvio-a-registrar-superavit-financiero-en-septiembre-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/07/28/trim/540/304/ministerio-de-economia-2292519.jpg"
+          "titulo": "El Papa León XIV se vio en Plaza de San Pedro y encabezó la audiencia general de los miércoles",
+          "link": "https://www.perfil.com/noticias/internacional/el-papa-leon-xiv-se-vio-en-plaza-de-san-pedro-y-encabeza-la-audiencia-general-vaticana.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/el-papa-leon-xiv-recorrio-la-plaza-san-pedro-con-el-papamovil-y-encabeza-la-audiencia-general-2353085.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "El Gobierno mostró superávit en septiembre y dijo que “cumplió” con la ley de financiamiento universitario",
-          "link": "https://www.lanacion.com.ar/economia/el-gobierno-mostro-superavit-en-septiembre-y-dijo-que-cumplio-con-los-acuerdos-alcanzados-con-las-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/YGEYDEUZOZBONBAK7V6FADPXXM.jpeg?auth=bc218e4d026b40209729d5f78a34550dc19cd006632b55e8bd4477b4261ea0af&smart=true&width=549&height=366"
+          "titulo": "Qué se sabe del estado de salud del papa León XIV y de su visita a la Argentina",
+          "link": "https://www.lanacion.com.ar/el-mundo/que-se-sabe-del-estado-de-salud-del-papa-leon-xiv-y-de-su-visita-a-la-argentina-nid19102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/X5XQ3GGQQ5HAXDM5Y7T3FBKJUA.JPG?auth=879d6d2a603e4fdccc22c4f099ce01bf0abda39c66d5b62531ef519bc0766ce0&smart=true&width=8256&height=5504"
         },
         {
-          "medio": "Clarín",
-          "titulo": "El Gobierno tuvo otro mes de superávit y quedó más cerca de la meta fiscal con el FMI",
-          "link": "https://www.clarin.com/economia/gobierno-mes-superavit-quedo-cerca-meta-fiscal-fmi_0_GrBd7cAk88.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/V6h6-0KEw_1200x630__1.jpg"
+          "medio": "Infobae",
+          "titulo": "El papa León XIV pasó frente a una bandera argentina y levantó el pulgar: la imagen que reavivó las expectativas por su visita a la Argentina",
+          "link": "https://www.infobae.com/sociedad/2026/10/21/el-papa-leon-xiv-paso-frente-a-una-bandera-argentina-y-levanto-el-pulgar-la-imagen-que-reavivo-las-expectativas-por-su-visita-a-la-argentina/",
+          "imagen": "https://www.infobae.com/resizer/v2/CAABWNYBG5GMBFXPRRKLBH74CQ.png?auth=d9088b3cdc09903265a076f1027d99aeaca47044bf425da20750a2b9188cb70d&smart=true&width=504&height=322"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/07/28/trim/540/304/ministerio-de-economia-2292519.jpg"
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/el-papa-leon-xiv-recorrio-la-plaza-san-pedro-con-el-papamovil-y-encabeza-la-audiencia-general-2353085.jpg"
     },
     {
       "total_notas": 9,
@@ -157,251 +157,151 @@
       "cantidad_competidores": 3,
       "cobertura": {
         "Perfil": 2,
-        "La Nación": 2,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 4,
+        "La Nación": 4,
+        "Clarín": 2,
+        "Infobae": 1,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
         "El Cronista": 0
       },
       "cobertura_perfil": 2,
-      "medio_lider": "TN",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 4,
       "brecha": -2,
       "brecha_formateada": "-2",
-      "tema": "Impacto del fenómeno El Niño, crecida de ríos y alertas climáticas en el Litoral",
+      "tema": "Impacto y evolución del fenómeno climático El Niño en la región",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Afecta de manera directa la producción agropecuaria, la infraestructura regional y la seguridad de miles de habitantes en el norte del país.",
-      "insight": "TN y La Nación dominan la cobertura con actualizaciones constantes, exigiendo mayor despliegue de corresponsalías.",
-      "accion_sugerida": "Reforzar el seguimiento regional con reportes desde las zonas afectadas y proyecciones del Servicio Meteorológico.",
+      "por_que_importa": "Afecta directamente a la producción agropecuaria, las economías regionales y el régimen de precipitaciones en el territorio nacional.",
+      "insight": "Perfil cuenta con una presencia sostenida, aunque La Nación capitaliza mayor volumen de entrevistas con especialistas ambientales.",
+      "accion_sugerida": "Incorporar proyecciones climáticas específicas para las zonas productivas clave del país.",
       "enfoques_sugeridos": [
-        "Situación de los evacuados y asistencia oficial en las provincias litoraleñas.",
-        "Impacto económico y productivo en el sector agropecuario por el avance del agua."
+        "El pico del fenómeno previsto para fin de año y su repercusión en las reservas hídricas.",
+        "Las medidas preventivas adoptadas en las provincias con mayor riesgo de anegamientos."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El Niño: Misiones reforzó la asistencia ante la crecida del Paraná, Iguazú y Uruguay",
-          "link": "https://www.perfil.com/noticias/nea/el-nino-misiones-reforzo-la-asistencia-ante-la-crecida-del-parana-iguazu-y-uruguay.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/16-10-2026-el-nino-misiones-2349916.jpg"
+          "titulo": "El Pacífico se vuelve más azul por El Niño: qué significa para la vida marina",
+          "link": "https://www.perfil.com/noticias/clima/el-pacifico-se-vuelve-a50-mas-azul-por-el-nino-que-significa-para-la-vida-marina.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/0910super-nino-2345291.jpg"
         },
         {
           "medio": "Perfil",
-          "titulo": "Crecida del río Paraná: superó los 6 metros en la Capital y ya hay 222 evacuados en Corrientes",
-          "link": "https://www.perfil.com/noticias/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/crecida-del-rio-parana-corrientes-2349687.jpg"
+          "titulo": "El Niño en Córdoba: prevén una máxima de 33° este miércoles y lluvias desde el jueves",
+          "link": "https://www.perfil.com/noticias/cordoba/el-nino-en-cordoba-preven-una-maxima-de-33-este-miercoles-y-lluvias-desde-el-jueves.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/cordoba-2349289.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Súper Niño 2026: qué se sabe del fenómeno que cambiará el pronóstico de la Argentina y llegará pronto a su pico máximo",
-          "link": "https://www.lanacion.com.ar/sociedad/super-nino-2026-que-se-sabe-del-fenomeno-que-cambiara-por-completo-el-clima-en-la-argentina-y-nid05102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/D5MJFEG23VAL5AUXTWQ4NSZRCA.jpg?auth=bb47e1d2903cd2579e70aaba893bb404637afa4f3a6ca62af629e24617eae069&smart=true&width=2000&height=1333"
+          "titulo": "Inti Bonomo, especialista en Ciencias Ambientales, sobre la evolución del Súper Niño: “Va a seguir creciendo y el pico va a ser en diciembre”",
+          "link": "https://www.lanacion.com.ar/sociedad/inti-bonomo-especialista-en-ciencias-ambientales-sobre-la-evolucion-del-super-nino-va-a-seguir-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/16-10-2026-el-nino-misiones-2349916.jpg"
-    },
-    {
-      "total_notas": 9,
-      "cantidad_medios": 5,
-      "cantidad_competidores": 4,
-      "cobertura": {
-        "Perfil": 2,
-        "La Nación": 0,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 2,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": 0,
-      "brecha_formateada": "0",
-      "tema": "Denuncias del Gobierno e incidentes judiciales tras la Marcha Universitaria",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Concatena el conflicto político de las universidades con las repercusiones judiciales y las acusaciones cruzadas entre oficialismo y oposición.",
-      "insight": "Clarín y Página 12 marcan la agenda con notas de seguimiento judicial, mientras Perfil mantiene cobertura propia pero sin liderazgo.",
-      "accion_sugerida": "Hacer foco en las imputaciones concretas de la justicia y las respuestas de los sectores estudiantiles y gremiales.",
-      "enfoques_sugeridos": [
-        "El tenor de las denuncias gubernamentales y las calificaciones legales de los detenidos.",
-        "El trasfondo político del conflicto y su repercusión institucional."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Marcha Universitaria: el Gobierno denunció “atentado al orden constitucional”, pero solo hubo detenidos por resistencia a la autoridad",
-          "link": "https://www.perfil.com/noticias/politica/marcha-universitaria-el-gobierno-denuncio-atentado-al-orden-constitucional-pero-solo-hubo-detenidos-por-resistencia-a-la-autoridad.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/marcha-federal-universitaria-2349393.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "El Gobierno culpó a \"grupos de tareas\" por los incidentes en la Marcha Universitaria: \"Son ataques a la democracia\"",
-          "link": "https://www.perfil.com/noticias/politica/carlos-torrendell-culpo-a-grupos-de-tareas-por-los-incidentes-en-la-marcha-universitaria-son-ataques-a-la-democracia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/01/04/trim/540/304/040126carlostorrendelleducacioncedocg-2164185.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "El Gobierno denunció a 25 detenidos por los incidentes en la marcha universitaria por lesiones, daños y resistencia a la autoridad",
-          "link": "https://www.clarin.com/politica/gobierno-denuncio-25-detenidos-incidentes-marcha-universitaria-lesiones-danos-resistencia-autoridad_0_k60VokeiRq.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/HJrHSIevF_1200x630__1.jpg"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/marcha-federal-universitaria-2349393.jpg"
+      "imagen": "https://fotos.perfil.com/2026/10/09/trim/540/304/0910super-nino-2345291.jpg"
     }
   ],
   "perfil_pierde": [
     {
-      "total_notas": 8,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 5,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 1,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 1,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Advertencias y declaraciones políticas de Diego Santilli sobre el kirchnerismo y los gobernadores",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Anticipa el reacomodamiento del mapa político de cara a las elecciones y expone las tensiones por la obra pública y el Presupuesto.",
-      "insight": "Clarín y TN capitalizan mejor las declaraciones de Santilli, relegando la pieza de Perfil en volumen de tráfico.",
-      "accion_sugerida": "Acelerar la producción de notas de análisis político con declaraciones exclusivas y cruces directos.",
-      "enfoques_sugeridos": [
-        "La estrategia electoral de Juntos por el Cambio frente a los mandatarios provinciales.",
-        "El debate por el Presupuesto y la disputa por los fondos de infraestructura."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Santilli advirtió a los gobernadores por Kicillof y agitó el fantasma de “la vuelta del kirchnerismo”",
-          "link": "https://www.perfil.com/noticias/politica/santilli-lanzo-una-advertencia-a-los-gobernadores-por-kicillof-y-agito-el-fantasma-de-la-vuelta-del-kirchnerismo.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/19/trim/540/304/diego-santilli-2307543.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Los gobernadores piden más obras y Santilli lanzó una advertencia: “Deberían estar preocupados si vuelve el kirchnerismo”",
-          "link": "https://www.lanacion.com.ar/politica/los-gobernadores-piden-mas-obras-y-santilli-lanzo-una-advertencia-deberian-estar-preocupados-si-nid16102026/",
-          "imagen": ""
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Santilli, Kicillof y otros gobernadores se cruzan en un foro de obras en medio de la negociación por las PASO y el Presupuesto",
-          "link": "https://www.clarin.com/politica/santilli-kicillof-gobernadores-cruzan-foro-obras-medio-negociacion-paso-presupuesto_0_d9LFBsXrnu.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/MhUKYEU28_1200x630__1.jpg"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/08/19/trim/540/304/diego-santilli-2307543.jpg"
-    },
-    {
-      "total_notas": 6,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 3,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 1,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 1,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 2,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Caso de fotos falsas creadas con inteligencia artificial en colegios",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Plantea una problemática social y legal urgente vinculada al ciberacoso escolar y los vacíos en la legislación sobre IA.",
-      "insight": "TN lidera con fuerte cobertura en policiales y multimedia, dejando a Perfil rezagado a pesar de tener una aproximación institucional.",
-      "accion_sugerida": "Ampliar el enfoque hacia el rol de las instituciones educativas y las demandas de regulación legal.",
-      "enfoques_sugeridos": [
-        "El protocolo de actuación de los colegios frente al uso malicioso de la tecnología.",
-        "La necesidad de actualizar marcos legales contra la violencia digital en adolescentes."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "El Colegio Modelo de Lomas de Zamora habló del caso de fotos creadas con IA por alumnos",
-          "link": "https://www.perfil.com/noticias/educacion/el-colegio-modelo-de-lomas-de-zamora-rompio-el-silencio-tras-el-caso-de-fotos-creadas-con-ia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/07/trim/540/304/protesta-en-la-puerta-del-colegio-modelo-de-lomas-de-zamora-2343577.jpg"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Denuncian que alumnos de una escuela crearon imágenes falsas de sus compañeras desnudas con IA y las amenazaron con publicarlas",
-          "link": "https://tn.com.ar/videos/policiales/2026/10/16/denuncian-que-alumnos-de-una-escuela-crearon-imagenes-falsas-de-sus-companeras-desnudas-con-ia-y-las-amenazaron-con-publicarlas/",
-          "imagen": ""
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Alarma en los colegios por fotos íntimas modificadas con inteligencia artificial: cómo se acompaña a una víctima adolescente y las deudas para un abordaje integral",
-          "link": "https://www.ambito.com/informacion-general/alarma-los-colegios-fotos-intimas-modificadas-inteligencia-artificial-como-se-acompana-una-victima-adolescente-y-las-deudas-un-abordaje-integral-n6332065",
-          "imagen": "https://media.ambito.com/p/d1defbdee88a32a76c044ea3371dceae/adjuntos/239/imagenes/043/706/0043706354/deepfake-adolescente.jpeg"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/07/trim/540/304/protesta-en-la-puerta-del-colegio-modelo-de-lomas-de-zamora-2343577.jpg"
-    },
-    {
-      "total_notas": 4,
+      "total_notas": 7,
       "cantidad_medios": 2,
       "cantidad_competidores": 1,
       "cobertura": {
         "Perfil": 1,
-        "La Nación": 0,
+        "La Nación": 6,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
-        "Página 12": 3,
+        "Página 12": 0,
         "El Cronista": 0
       },
       "cobertura_perfil": 1,
-      "medio_lider": "Página 12",
-      "cobertura_medio_lider": 3,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Análisis político de la gestión de Javier Milei",
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 6,
+      "brecha": -5,
+      "brecha_formateada": "-5",
+      "tema": "Cronograma de pagos y montos de ANSES para jubilaciones, AUH y asignaciones",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Ofrece una lectura crítica y estructural sobre el modelo económico y el pulso político del Gobierno nacional.",
-      "insight": "Página 12 concentra mayor cantidad de análisis de opinión sobre este eje, restando visibilidad a la columna de Perfil.",
-      "accion_sugerida": "Potenciar el análisis económico-político con firmas editoriales de peso para captar a lectores de la competencia.",
+      "por_que_importa": "Es un contenido de alta demanda de servicio y utilidad diaria para millones de lectores que buscan información precisa sobre haberes.",
+      "insight": "La Nación monopoliza el tráfico con múltiples notas de servicio sobre montos actualizados, mientras Perfil apenas aporta una mención diaria.",
+      "accion_sugerida": "Desarrollar un flujo diario de notas utilitarias con tablas y calendarios completos para capturar tráfico de búsqueda.",
       "enfoques_sugeridos": [
-        "La tensión entre el equilibrio fiscal y la realidad social de los sectores medios.",
-        "El alineamiento internacional y su impacto en la gobernabilidad interna."
+        "El detalle completo del calendario de cobro con los incrementos correspondientes para cada categoría.",
+        "Comparativa de poder adquisitivo de las jubilaciones y asignaciones frente a la inflación."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Día 1041: El palacio, la calle, y la suerte de Milei",
-          "link": "https://www.perfil.com/noticias/modo-fontevecchia/dia-1041-el-palacio-la-calle-y-la-suerte-de-milei-modof.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dia-1041-editorial-de-jorge-fontevecchia-2349733.jpg"
+          "titulo": "Jubilaciones, AUH y asignaciones: a quiénes corresponde el cobro de ANSES del miércoles 21 de octubre",
+          "link": "https://www.perfil.com/noticias/economia/jubilaciones-auh-asignaciones-quienes-corresponde-cobro-anses-miercoles-21-octubre-a35.phtml",
+          "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/anses-2309318.jpg"
         },
         {
-          "medio": "Página 12",
-          "titulo": "Milei volvió a mostrarse servil a Trump y los libertarios festejaron la represión en las redes",
-          "link": "https://www.pagina12.com.ar/2026/10/15/milei-volvio-a-mostrarse-servil-a-trump-y-los-libertarios-festejaron-la-represion-en-las-redes/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/FAF3BXSSY5AFFEDFI4F34CHIJA.jpg?auth=cdf64dbe1f00a1984138913a58a6df620517afe7866ca7d758a27568433b2fb0&amp;smart=true&amp;width=3333&amp;height=2222"
+          "medio": "La Nación",
+          "titulo": "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026",
+          "link": "https://www.lanacion.com.ar/economia/suaf-de-anses-el-monto-de-las-asignaciones-familiares-en-noviembre-de-2026-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NOYL5FFAFNEQHG2KFAWF5OQOJA.jpg?auth=4f563a4494aa1cca76ef884346e0357c843dc4d5d2bd2781d275706aa0c508b1&smart=true&width=4000&height=2666"
         },
         {
-          "medio": "Página 12",
-          "titulo": "El milagro económico que sólo ven Milei y Caputo",
-          "link": "https://www.pagina12.com.ar/2026/10/16/el-milagro-economico-que-solo-ven-milei-y-caputo/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/KTCBURSR3VF7PKHEPFNPHYUP2M.jpg?auth=ef6cdf4c1456ed854011353769f210063b641a1cb60731c35396c62e915e17e3&amp;smart=true&amp;width=5000&amp;height=3333"
+          "medio": "La Nación",
+          "titulo": "A cuánto llega la PUAM en noviembre de 2026 con el aumento confirmado",
+          "link": "https://www.lanacion.com.ar/economia/a-cuanto-llega-la-puam-en-noviembre-de-2026-con-el-aumento-confirmado-nid20102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/HIOFVKXR65HE7IFWGMISROHMNE.png?auth=bf0414b59dc34ecd87eebb3d54d57d3cd378ddb531dc46298c9f8a9c2c054445&smart=true&width=2000&height=1333"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dia-1041-editorial-de-jorge-fontevecchia-2349733.jpg"
+      "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/anses-2309318.jpg"
+    },
+    {
+      "total_notas": 6,
+      "cantidad_medios": 5,
+      "cantidad_competidores": 4,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 2
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Tratamiento de proyectos en la Cámara de Diputados",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "La actividad legislativa en el recinto define leyes sensibles para la economía y la propiedad privada, marcando la agenda política del día.",
+      "insight": "La competencia despliega coberturas en vivo y análisis detallados de la sesión, superando la única nota de cobertura general de Perfil.",
+      "accion_sugerida": "Implementar un seguimiento minuto a minuto de los debates parlamentarios más álgidos.",
+      "enfoques_sugeridos": [
+        "El detalle de las negociaciones de última hora entre bloques para aprobar los proyectos clave.",
+        "El impacto político de la estrategia oficialista en la Cámara baja."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Diputados: tras blindar su DNU 70, LLA lleva al recinto la Ley de Tierras K, Discapacidad y Endeudamiento",
+          "link": "https://www.perfil.com/noticias/politica/diputados-tras-blindar-su-dnu-70-lla-lleva-al-recinto-la-ley-de-tierras-k-discapacidad-y-endeudamiento-a60.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/diputados-2349156.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Diputados hoy, EN VIVO: debaten discapacidad, morosidad familiar y la inviolabilidad de la propiedad privada",
+          "link": "https://www.clarin.com/politica/diputados-hoy-vivo-debaten-discapacidad-endeudamiento-familiar-inviolabilidad-propiedad-privada_0_Yf27T2arHZ.html",
+          "imagen": "https://www.clarin.com/img/2026/10/21/yTBF-xNMo_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "En una megasesión, Diputados debatirá hoy Ley de Tierras, Discapacidad y endeudamiento familiar",
+          "link": "https://tn.com.ar/politica/2026/10/21/diputados-debate-hoy-la-ley-de-propiedad-privada-y-la-restitucion-de-los-limites-a-la-compra-de-tierras-por-extranjeros/",
+          "imagen": "https://tn.com.ar/resizer/v2/E5MRWOPZPSRBANTTYIMWBDZTUE.jpg?auth=0af8ce4edf3bcef1bfefeede98f2919402f26b185b7b48f91e80837b49889fb9"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/diputados-2349156.jpg"
     },
     {
       "total_notas": 3,
@@ -422,351 +322,147 @@
       "cobertura_medio_lider": 2,
       "brecha": -1,
       "brecha_formateada": "-1",
-      "tema": "Cruce entre Federico Sturzenegger y Axel Kicillof por el aumento de la VTV en la Provincia de Buenos Aires",
+      "tema": "Crecimiento del río Paraná e inundaciones en Corrientes",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Involucra un choque directo de modelos de gestión entre Nación y Provincia en un servicio de alto impacto cotidiano.",
-      "insight": "La Nación monopoliza la cobertura con múltiples piezas informativas, mientras Perfil aporta un único enfoque.",
-      "accion_sugerida": "Desarrollar una cobertura comparativa de costos y normativas entre jurisdicciones.",
+      "por_que_importa": "Involucra emergencias sociales y ambientales de gran impacto en las comunidades del Litoral argentino.",
+      "insight": "La Nación lidera la cobertura con informes en profundidad sobre la ruptura de defensas y la situación en ciudades turísticas.",
+      "accion_sugerida": "Ampliar el despliegue con corresponsalías en la zona afectada para reportar el avance de las aguas.",
       "enfoques_sugeridos": [
-        "La confrontación ideológica sobre desregulación versus control estatal de tarifas.",
-        "El impacto real del incremento en el bolsillo de los automovilistas bonaerenses."
+        "El relevamiento oficial de la Prefectura sobre las alturas críticas del caudal.",
+        "El testimonio de los vecinos evacuados y las pérdidas económicas en los barrios inundados."
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Sturzenegger apuntó contra Kicillof por el aumento de la VTV en provincia de Buenos Aires",
-          "link": "https://www.perfil.com/noticias/economia/sturzenegger-apunto-contra-kicillof-aumento-vtv-en-provincia-buenos-aires-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/08/20/trim/540/304/la-ciudad-desregulo-la-vtv-y-ya-se-pueden-inscribir-los-talleres-mecanicos-que-quieran-dar-el-servicio-2308183.jpg"
+          "titulo": "Crece la preocupación por la suba del río Paraná: cuándo se espera el pico y qué medidas activaron en Corrientes",
+          "link": "https://www.perfil.com/noticias/sociedad/crece-la-preocupacion-por-la-suba-del-rio-parana-cuando-se-espera-el-pico-y-que-medidas-activaron-en-corrientes.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/el-nino-en-corrientes-2352199.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Sturzenegger cruzó a la provincia de Buenos Aires por el aumento de la VTV",
-          "link": "https://www.lanacion.com.ar/autos/sturzenegger-cruzo-a-la-provincia-de-buenos-aires-por-el-aumento-de-la-vtv-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/AZRQQQOWBZF7XJCSL4RKLWYX6I.jpg?auth=24b10451a5c02887f4d9d4b42042627ed4180392fc65aff4e8e131ca313864ab&smart=true&width=2000&height=1333"
+          "titulo": "Altura de los ríos en la Argentina, según Prefectura: esta es la situación en el Paraná hoy, miércoles 21 de octubre",
+          "link": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/MD5TCRMPQ5AWLINJW4QEUXQ4AI.jpeg?auth=7fee36d7ff6dfaeb616e324a5630efca373c7c021a14eefb9e085c21b740a5c4&smart=true&width=1248&height=768"
         },
         {
           "medio": "La Nación",
-          "titulo": "VTV: el trámite aumentó en la provincia de Buenos Aires: cuánto cuesta ahora hacer la revisión",
-          "link": "https://www.lanacion.com.ar/autos/vtv-el-tramite-aumento-en-la-provincia-de-buenos-aires-cuanto-cuesta-ahora-hacer-la-revision-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/7N5PE46LNVEO5CJKUHZTPU27UE.jpeg?auth=6b25eb30143a126bf01377af4dff949c6843087c3019891c7f1b2caef3935a33&smart=true&width=700&height=466"
+          "titulo": "El río Paraná rompió las defensas de una importante ciudad turística e inundó tres barrios",
+          "link": "https://www.lanacion.com.ar/sociedad/el-rio-parana-rompio-las-defensas-de-una-importante-ciudad-turistica-e-inundo-tres-barrios-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/56H236S5TBBIHJHZVN7XGHEOFA.jpeg?auth=ab1717e4461b3ac062bfbc19306b9ecb61c1e813b175404c43afd46e13fd7287&smart=true&width=2000&height=1333"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/08/20/trim/540/304/la-ciudad-desregulo-la-vtv-y-ya-se-pueden-inscribir-los-talleres-mecanicos-que-quieran-dar-el-servicio-2308183.jpg"
+      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/el-nino-en-corrientes-2352199.jpg"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 2,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Reunión de asesores de Estados Unidos con Vladimir Putin sobre Ucrania",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "Constituye un movimiento diplomático de máxima relevancia internacional para el futuro de las negociaciones de paz.",
+      "insight": "Infobae cubre con mayor agilidad de agencia las negociaciones en San Petersburgo, dejando a Perfil con una cobertura aislada.",
+      "accion_sugerida": "Establecer alertas permanentes de agencias internacionales para no perder terreno en primicias geopolíticas.",
+      "enfoques_sugeridos": [
+        "Los puntos centrales planteados por la delegación estadounidense en su encuentro con el Kremlin.",
+        "La reacción del gobierno ucraniano ante el avance de las tratativas diplomáticas al margen de Kiev."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Estados Unidos envió dos asesores para reunirse con Vladimir Putin y presentar los puntos hablados sobre Ucrania",
+          "link": "https://www.perfil.com/noticias/internacional/estados-unidos-envio-a-dos-asesores-para-reunirse-con-vladimir-putin-y-presentar-los-puntos-hablados-sobre-ucrania.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/putin-2338828.jpg"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Concluye reunión entre Putin y Witkoff en San Petersburgo tras tres horas de negociación",
+          "link": "https://www.infobae.com/america/agencias/2026/10/21/concluye-reunion-entre-putin-y-witkoff-en-san-petersburgo-tras-tres-horas-de-negociacion/",
+          "imagen": ""
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Zelenski afirma que no esperará el regreso de Witkoff a Oslo: \"Tenemos que seguir adelante\"",
+          "link": "https://www.infobae.com/america/agencias/2026/10/21/zelenski-afirma-que-no-esperara-el-regreso-de-witkoff-a-oslo-tenemos-que-seguir-adelante/",
+          "imagen": "https://www.infobae.com/resizer/v2/ZFUC7DTJIBDG3JLSNOJSKPWGVE.jpg?auth=7272abace41a1ed9acfcb6405cc83c5d17a7c6a544fee7448444428ddc1f4aec&smart=true&width=1920&height=1280"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/01/trim/540/304/putin-2338828.jpg"
     }
   ],
   "sin_cobertura_perfil": [
     {
-      "total_notas": 8,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 1,
-        "TN": 3,
-        "Ámbito": 1,
-        "Página 12": 1,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Presentación y demostración de auto volador de Tesla por Elon Musk",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Representa una novedad tecnológica global de alto interés para audiencias de tecnología y motor en buscadores.",
-      "insight": "Perfil registra ausencia total mientras competidores como TN, Clarín e Infobae capturan el tráfico de innovación.",
-      "accion_sugerida": "Desarrollar un artículo de cobertura internacional sobre las especificaciones técnicas y la viabilidad comercial del prototipo.",
-      "enfoques_sugeridos": [
-        "Las características técnicas y el impacto de la presentación de Elon Musk en Wall Street.",
-        "El futuro de la movilidad urbana y los plazos reales para su comercialización masiva."
-      ],
-      "ejemplos": [
-        {
-          "medio": "Clarín",
-          "titulo": "Tesla presentó su auto volador con una impresionante demostración encabezada por Elon Musk",
-          "link": "https://www.clarin.com/tecnologia/tesla-presento-auto-volador-impresionante-demostracion-encabezada-elon-musk_0_coC2xmQzG4.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/wvXJQ2VX8_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Tesla deslumbra con su nuevo auto volador, pero Wall Street se mantiene expectante",
-          "link": "https://www.infobae.com/economia/2026/10/16/tesla-deslumbra-con-su-nuevo-auto-volador-pero-wall-street-se-mantiene-expectante/",
-          "imagen": "https://www.infobae.com/resizer/v2/X6ZXT57MRNCHHMBD4HZDBE7FNU.png?auth=661b142eaa6705a1051062d47662cd909d1f16f5f2c55f259b8a0ed0d24fba1f&smart=true&width=1371&height=867"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Elon Musk presentó el auto volador de Tesla con un impactante show: cuándo estará disponible y qué características tiene",
-          "link": "https://tn.com.ar/tecno/novedades/2026/10/16/elon-musk-presento-el-auto-volador-de-tesla-con-un-impactante-show-cuando-estara-disponible-y-que-caracteristicas-tiene/",
-          "imagen": "https://tn.com.ar/resizer/v2/7FRDKCMC75F7LHG432JY7PMESM.jpg?auth=427e8ab3b4ab785b1a6b77b1da3e5f6761f53f0d2689581959211e222482af10"
-        }
-      ],
-      "imagen": "https://www.clarin.com/img/2026/10/16/wvXJQ2VX8_1200x630__1.jpg"
-    },
-    {
-      "total_notas": 7,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 2,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 1,
-        "Página 12": 2,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Cultura pop, televisión retro y anuncios de conciertos de U2",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Conecta de manera directa con el consumo cultural masivo, la venta de entradas y el interés de audiencias jóvenes y adultas en Search.",
-      "insight": "La Nación, TN y Ámbito capitalizan el anuncio de shows internacionales y contenidos nostálgicos sin respuesta de Perfil.",
-      "accion_sugerida": "Publicar guías de precios, ubicaciones y detalles de preventa para posicionarse en búsquedas de utilidad.",
-      "enfoques_sugeridos": [
-        "Guía práctica de compra de entradas, precios y mapa de ubicaciones para el show en River.",
-        "El análisis del nuevo material discográfico y su propuesta artística en el desierto."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "U2 toca en River 2027: entradas desde $120.000, mapa de ubicaciones y todas las fechas de venta",
-          "link": "https://www.lanacion.com.ar/que-sale/u2-toca-en-river-2027-entradas-desde-120000-mapa-de-ubicaciones-y-todas-las-fechas-de-venta-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/6CE4RGEY5RC5XOBO53X7ISEWNM.jpg?auth=93d094800326df2ab8e84996bcfec7c7f3064510ad72eb1b84b1268bbeed25a9&smart=true&width=640&height=640"
-        },
-        {
-          "medio": "TN",
-          "titulo": "U2 en River: cuánto cuestan las entradas y cuándo salen a la venta",
-          "link": "https://tn.com.ar/musica/2026/10/16/u2-en-river-cuanto-cuestan-las-entradas-y-cuando-salen-a-la-venta/",
-          "imagen": "https://tn.com.ar/resizer/v2/44HIFQJTTJFZRITPAVFSUCNU44.png?auth=7d648a587ada30dd3274f2f2219caa1895851b8d09c44cbcec9bf7e7f757ab3b"
-        },
-        {
-          "medio": "TN",
-          "titulo": "U2 estrenó “The Greatest Show on Earth”,  un videoclip que mezcla rock, religión y sátira en el desierto",
-          "link": "https://tn.com.ar/musica/noticias/2026/10/16/u2-estreno-the-greatest-show-on-earth-un-videoclip-que-mezcla-rock-religion-y-satira-en-el-desierto/",
-          "imagen": "https://tn.com.ar/resizer/v2/CHKO6GGLY5HCZE5RNMBTSLVYNA.jpg?auth=d8ebef4d0f3ac944269af192957743c3308b62bfb475ced5b092edc0463d21bc"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/6CE4RGEY5RC5XOBO53X7ISEWNM.jpg?auth=93d094800326df2ab8e84996bcfec7c7f3064510ad72eb1b84b1268bbeed25a9&smart=true&width=640&height=640"
-    },
-    {
-      "total_notas": 3,
+      "total_notas": 6,
       "cantidad_medios": 2,
       "cantidad_competidores": 2,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 2,
+        "La Nación": 5,
+        "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
-        "El Cronista": 0
+        "El Cronista": 1
       },
       "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Detención del ginecólogo Gustavo Kumiega en Chaco por abuso sexual y mala praxis",
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 5,
+      "brecha": -5,
+      "brecha_formateada": "-5",
+      "tema": "Calendario escolar y fin de clases por provincia en Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Se trata de un caso policial de alto impacto público y gravedad institucional en el ámbito de la salud.",
-      "insight": "Clarín y La Nación cubren los detalles de la causa y los testimonios, dejando a Perfil sin presencia en la nota policial del día.",
-      "accion_sugerida": "Incorporar notas de seguimiento de casos policiales resonantes en el interior del país.",
+      "por_que_importa": "Genera altísimo volumen de búsquedas orgánicas en Google Search por parte de familias que planifican el cierre del año lectivo.",
+      "insight": "La Nación capitaliza por completo este nicho de tráfico estacional con guías detalladas por jurisdicción, mientras Perfil registra ausencia total.",
+      "accion_sugerida": "Producir un servicio integral interactivo o por notas separadas con las fechas de finalización de clases en todas las provincias.",
       "enfoques_sugeridos": [
-        "Los detalles de la investigación judicial y los testimonios de las víctimas.",
-        "Los mecanismos de control en centros de salud frente a denuncias de mala praxis."
+        "El cronograma detallado de culminación del ciclo lectivo distrito por distrito.",
+        "Los días efectivos de clase cumplidos durante el año en curso frente a lo planificado."
       ],
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Detuvieron al ginecólogo chaqueño Gustavo Kumiega denunciado por abuso sexual y mala praxis",
-          "link": "https://www.lanacion.com.ar/seguridad/detuvieron-al-ginecologo-chaqueno-gustavo-kumiega-denunciado-por-abuso-sexual-y-mala-praxis-nid16102026/",
-          "imagen": ""
+          "titulo": "Calendario escolar: cuándo terminan las clases en Santa Fe 2026",
+          "link": "https://www.lanacion.com.ar/sociedad/calendario-escolar-cuando-terminan-las-clases-en-santa-fe-2026-nid15102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/E57IMEWNHFFK7C5DZI5PJEKTDU.JPG?auth=b2aa96fcc563e417417f166554bba5ef975384fa93c25fd167d1d6318222e8b7&smart=true&width=2000&height=1500"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Detuvieron al \"Doctor Kumiega\", el ginecólogo acusado de abusar de sus pacientes en Chaco",
-          "link": "https://www.clarin.com/policiales/duermo-desnudo-haaland-desubicados-dialogos-doctor-kumiega-pacientes_0_8UoRzhOxwY.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/MhHhoX-B6_1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "Calendario escolar: cuándo terminan las clases en Córdoba",
+          "link": "https://www.lanacion.com.ar/sociedad/calendario-escolar-cuando-terminan-las-clases-en-cordoba-nid07102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/7AXEXJFIKRD5NLCF7E4GWCDL5A.jpg?auth=b1135d9b2e28a3002ef233632195ab6ed5c59099841e22dc705b49f253098a60&smart=true&width=7008&height=4672"
         },
         {
-          "medio": "Clarín",
-          "titulo": "Cae una banda de falsos médicos: dictaban instrucciones para suturar por Whatsapp y operaban con ambulancias truchas",
-          "link": "https://www.clarin.com/policiales/cae-banda-falsos-medicos-dictaban-instrucciones-suturar-whatsapp-operaban-ambulancias-truchas_0_Xo2MKk07M6.html",
-          "imagen": "https://www.clarin.com/img/2026/05/22/wz5r86jYN_1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "Calendario escolar: cuándo terminan las clases en CABA",
+          "link": "https://www.lanacion.com.ar/sociedad/calendario-escolar-cuando-terminan-las-clases-en-caba-nid30092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/73O2Q2GJXZHJBMGYWSXX5664LU.jpeg?auth=3644be8472519f27ca9c4223ee70a9281f06630e7aa21f554aaef4c2db0390bc&smart=true&width=1280&height=875"
         }
       ],
-      "imagen": "https://www.clarin.com/img/2026/10/16/MhHhoX-B6_1200x630__1.jpg"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/E57IMEWNHFFK7C5DZI5PJEKTDU.JPG?auth=b2aa96fcc563e417417f166554bba5ef975384fa93c25fd167d1d6318222e8b7&smart=true&width=2000&height=1500"
     },
     {
-      "total_notas": 3,
+      "total_notas": 5,
       "cantidad_medios": 3,
       "cantidad_competidores": 3,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Investigación judicial a Claudio 'Chiqui' Tapia por transferencias de la FIFA",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Cruza el poder del fútbol argentino con la justicia federal y exhortos internacionales de alto voltaje político.",
-      "insight": "La Nación, Clarín y TN cubren en exclusiva las medidas dispuestas por el juez Lijo sin cobertura espejo en Perfil.",
-      "accion_sugerida": "Redactar un informe explicativo sobre el origen de la causa y las implicancias institucionales para la AFA.",
-      "enfoques_sugeridos": [
-        "El alcance del exhorto a Suiza y el levantamiento del secreto bancario.",
-        "La relación entre las finanzas de la AFA y los organismos internacionales de control."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "El juez Lijo ordenó un exhorto a Suiza por transferencias de US$190.000 de la FIFA a Claudio “Chiqui” Tapia",
-          "link": "https://www.lanacion.com.ar/politica/el-juez-lijo-ordeno-un-exhorto-a-suiza-por-transferencias-de-us190000-de-la-fifa-a-claudio-chiqui-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/OE3KOLVS2NAU5OEQKIOO7SWHTQ.JPG?auth=fd73e9e6c5f29af12adbd064dfb42c064c04c83a29b1200ec49f97fa010d0896&smart=true&width=6000&height=4000"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "La justicia envió un exhorto a Suiza para investigar las transferencias de la FIFA a \"Chiqui\" Tapia",
-          "link": "https://www.clarin.com/politica/justicia-envio-exhorto-suiza-investigar-transferencias-fifa-chiqui-tapia_0_WIOeZjjyLx.html",
-          "imagen": "https://www.clarin.com/img/2026/10/15/mwK_2kKXX_1200x630__1.jpg"
-        },
-        {
-          "medio": "TN",
-          "titulo": "La Justicia ordenó investigar transferencias de la FIFA y Camioneros a Chiqui Tapia y levantó el secreto bancario de su exesposa",
-          "link": "https://tn.com.ar/politica/2026/10/16/la-justicia-ordeno-investigar-transferencias-de-la-fifa-y-camioneros-a-chiqui-tapia-y-levanto-el-secreto-bancario-de-su-exesposa/",
-          "imagen": "https://tn.com.ar/resizer/v2/7RRG6MNTHYXGM5DWLQKTUE7KHA.jpg?auth=0b676baa9448425701670a379747a298d808225d8c98f4348e40c5f6622affc0"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/OE3KOLVS2NAU5OEQKIOO7SWHTQ.JPG?auth=fd73e9e6c5f29af12adbd064dfb42c064c04c83a29b1200ec49f97fa010d0896&smart=true&width=6000&height=4000"
-    },
-    {
-      "total_notas": 3,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura": {
-        "Perfil": 0,
         "La Nación": 2,
-        "Clarín": 0,
-        "Infobae": 1,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Disputa familiar y cruces entre Jana y Dalma Maradona sobre el juicio de Diego Maradona",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Mantiene vigencia en el interés del público por derivaciones judiciales y mediáticas en torno al legado de Diego Maradona.",
-      "insight": "La Nación e Infobae lideran la cobertura de declaraciones cruzadas, un segmento donde Perfil suele captar tráfico de espectáculos.",
-      "accion_sugerida": "Monitorear las declaraciones de los familiares en el marco de las audiencias del juicio.",
-      "enfoques_sugeridos": [
-        "Las diferencias en las estrategias legales y posicionamientos de los herederos.",
-        "El estado actual del juicio oral por la muerte del exfutbolista."
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Jana Maradona le respondió a Dalma tras sus críticas por el juicio por la muerte de Diego Maradona: “Todo se basa en una mentira”",
-          "link": "https://www.lanacion.com.ar/espectaculos/personajes/jana-maradona-le-respondio-a-dalma-tras-sus-criticas-por-el-juicio-por-la-muerte-de-diego-maradona-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/BSP42JWM6JFPJL23O356MYTGOQ.JPG?auth=cac7695088f456acf8d00ff8f48da9a1897e7a27542a39051ac2df42949a6c3b&smart=true&width=1998&height=1333"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Dalma Maradona apuntó contra su hermana Jana por pedir la absolución del psicólogo Díaz: “Me da vergüenza”",
-          "link": "https://www.lanacion.com.ar/espectaculos/personajes/dalma-maradona-apunto-contra-su-hermana-jana-por-pedir-la-absolucion-del-psicologo-diaz-me-da-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/LOYVIPV5UJB7BKBOBF2ER5C4II.JPG?auth=62d4c48cf05522916200d419c9b8dca4e4df2a6662431a81c65af7305cdfa9c9&smart=true&width=1998&height=1333"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "“Todo se basa en una mentira”: el duro descargo de Jana Maradona tras la polémica crítica de su hermana Dalma",
-          "link": "https://www.infobae.com/teleshow/2026/10/16/todo-se-basa-en-una-mentira-el-duro-descargo-de-jana-maradona-tras-la-polemica-critica-de-su-hermana-dalma/",
-          "imagen": "https://www.infobae.com/resizer/v2/VRBQCXERG5EYTO7ZLHJ6TAIOXU.jpg?auth=f7e64efb87046e4926518917aa1bd0b8c092384186022675e67175a618088230&smart=true&width=5275&height=3517"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/BSP42JWM6JFPJL23O356MYTGOQ.JPG?auth=cac7695088f456acf8d00ff8f48da9a1897e7a27542a39051ac2df42949a6c3b&smart=true&width=1998&height=1333"
-    }
-  ],
-  "oportunidades": [
-    {
-      "total_notas": 7,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 7,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 7,
-      "brecha": -7,
-      "brecha_formateada": "-7",
-      "tema": "Pronósticos del clima en ciudades de Estados Unidos",
-      "tipo": "oportunidades",
-      "por_que_importa": "Atrae tráfico internacional por volumen de búsqueda estacional en portales de servicios.",
-      "insight": "TN explota este nicho con múltiples piezas automatizadas de utilidad, área desatendida por Perfil.",
-      "accion_sugerida": "Evaluar la integración de widgets o coberturas breves de pronósticos internacionales para captar tráfico secundario.",
-      "enfoques_sugeridos": [
-        "Temperaturas y condiciones meteorológicas en las principales ciudades de la costa oeste.",
-        "Alertas climáticas locales en regiones clave de Estados Unidos."
-      ],
-      "tipo_de_oportunidad": "Tráfico de servicios y clima internacional",
-      "motivo_oportunidad": "La competencia cubre de forma sistemática el pronóstico utilitario en el exterior, captando búsquedas de alta repetición.",
-      "ejemplos": [
-        {
-          "medio": "TN",
-          "titulo": "¿Cómo estará el clima en San Diego este viernes 16 de octubre?",
-          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/16/como-estara-el-clima-en-san-diego-este-viernes-16-de-octubre/",
-          "imagen": ""
-        },
-        {
-          "medio": "TN",
-          "titulo": "¿Cómo estará el clima en Los Angeles este viernes 16 de octubre?",
-          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/16/como-estara-el-clima-en-los-angeles-este-viernes-16-de-octubre/",
-          "imagen": ""
-        },
-        {
-          "medio": "TN",
-          "titulo": "Clima en Phoenix: cielo claro y calor seco para este viernes 16 de octubre",
-          "link": "https://tn.com.ar/estados-unidos/clima/2026/10/16/como-estara-el-clima-en-phoenix-este-viernes-16-de-octubre/",
-          "imagen": ""
-        }
-      ],
-      "imagen": ""
-    },
-    {
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
+        "Clarín": 1,
         "Infobae": 0,
         "TN": 2,
         "Ámbito": 0,
@@ -774,44 +470,138 @@
         "El Cronista": 0
       },
       "cobertura_perfil": 0,
-      "medio_lider": "TN",
+      "medio_lider": "La Nación",
       "cobertura_medio_lider": 2,
       "brecha": -2,
       "brecha_formateada": "-2",
-      "tema": "Investigación por robo de documentos secretos e intento de espionaje en OpenAI",
-      "tipo": "oportunidades",
-      "por_que_importa": "Combina tecnología de punta, ciberseguridad y disputas corporativas globales entre gigantes como Apple y OpenAI.",
-      "insight": "TN cubre en exclusiva el arresto por el FBI, constituyendo una oportunidad para ampliar la sección de tecnología.",
-      "accion_sugerida": "Publicar un informe de impacto sobre la seguridad de los datos en desarrollos de inteligencia artificial.",
+      "tema": "Búsqueda e investigación sobre la desaparición de una docente en Corrientes",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Los casos policiales de alto impacto con derivaciones judiciales y detenciones concentran el interés de la audiencia masiva.",
+      "insight": "La competencia cubre activamente las detenciones y contradicciones en la causa, mientras Perfil no aporta cobertura en la jornada.",
+      "accion_sugerida": "Asignar cobertura policial al seguimiento diario de las declaraciones y pruebas aportadas a la Justicia.",
       "enfoques_sugeridos": [
-        "Los detalles de la filtración de documentos y la intervención del FBI.",
-        "La rivalidad corporativa en el ecosistema de inteligencia artificial."
+        "Las contradicciones en las declaraciones de los detenidos que encendieron las sospechas de los investigadores.",
+        "El reclamo de la familia y los nuevos elementos incorporados al expediente."
       ],
-      "tipo_de_oportunidad": "Cobertura de tecnología global de alto impacto",
-      "motivo_oportunidad": "Es un asunto de fuerte interés en buscadores sobre ciberseguridad corporativa que solo cubrió un competidor.",
       "ejemplos": [
         {
-          "medio": "TN",
-          "titulo": "OpenAI denunció que un empleado robó documentos secretos para entregárselos a Apple",
-          "link": "https://tn.com.ar/tecno/novedades/2026/10/16/openai-denuncio-que-un-empleado-robo-documentos-secretos-para-entregaselos-a-apple/",
-          "imagen": "https://tn.com.ar/resizer/v2/FASOHIZ5EFVHJDDIXQZ4GMUTFA.jpg?auth=f637f632db82d334c1f639affc8592f74bda2b8f08e8a963b14b3b624419f613"
+          "medio": "La Nación",
+          "titulo": "Qué se sabe de la docente de 52 años desaparecida en Corrientes: hay un detenido y su familia cree que la engañaron",
+          "link": "https://www.lanacion.com.ar/seguridad/que-se-sabe-de-la-docente-de-52-anos-desaparecida-en-corrientes-hay-dos-detenidos-y-su-familia-cree-nid19102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/DXTERBHUVJEOBAWVGYTI54W42I.jpeg?auth=852b5c4060def3bf4ff70bc59f0f4191cf6a806b41acd7abb4b1e8cdb1ac41ae&smart=true&width=1360&height=910"
         },
         {
-          "medio": "TN",
-          "titulo": "El acusado de espionaje en OpenAI habría planificado una fuga a Arabia Saudita antes de ser arrestado por el FBI",
-          "link": "https://tn.com.ar/tecno/novedades/2026/10/16/el-acusado-de-espionaje-en-openai-habria-planificado-una-fuga-a-arabia-saudita-antes-de-ser-arrestado-por-el-fbi/",
-          "imagen": "https://tn.com.ar/resizer/v2/YIBKHEGCGNONGOA4E5UKQFWLDU.jpg?auth=e10d3d6fb07d4148d1968f3a4621a65b6592fff405d96c2e34be1e61ad1915b9"
+          "medio": "La Nación",
+          "titulo": "Corrientes: detuvieron a dos puesteros por su presunto encubrimiento agravado en la desaparición de la docente Nanci Godoy",
+          "link": "https://www.lanacion.com.ar/seguridad/corrientes-detuvieron-a-dos-puesteros-por-su-presunto-encubrimiento-agravado-en-la-desaparicion-de-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/X7R26VXHKNH53I4VKBNE7KM6IE.jpeg?auth=7d62bd8d8e8bad68d20bf6fb1492683ba459750b289cf921e5d30cf1c25204d7&smart=true&width=1360&height=910"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Detienen a una pareja de puesteros por la desaparición de la maestra correntina: ¿Hubo una puesta en escena?",
+          "link": "https://www.clarin.com/policiales/detienen-pareja-puesteros-desaparicion-maestra-correntina-puesta-escena_0_WxKxDJzDd9.html",
+          "imagen": "https://www.clarin.com/img/2026/10/18/PeR4Yp4f__1200x630__1.jpg"
         }
       ],
-      "imagen": "https://tn.com.ar/resizer/v2/FASOHIZ5EFVHJDDIXQZ4GMUTFA.jpg?auth=f637f632db82d334c1f639affc8592f74bda2b8f08e8a963b14b3b624419f613"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/DXTERBHUVJEOBAWVGYTI54W42I.jpeg?auth=852b5c4060def3bf4ff70bc59f0f4191cf6a806b41acd7abb4b1e8cdb1ac41ae&smart=true&width=1360&height=910"
     },
     {
       "total_notas": 2,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Evolución de precios y costo de la canasta básica en provincias argentinas",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Mide el impacto inflacionario regional en el consumo cotidiano y la pérdida de poder adquisitivo de los hogares.",
+      "insight": "TN y Ámbito lideran la cobertura sobre el costo de llenar el changuito en el interior, sector donde Perfil no participa.",
+      "accion_sugerida": "Desarrollar informes económicos federales basados en indicadores provinciales de consumo.",
+      "enfoques_sugeridos": [
+        "El ranking de las provincias donde resulta más costoso adquirir productos de la canasta básica.",
+        "La disparidad inflacionaria entre el Gran Buenos Aires y los centros urbanos del interior."
+      ],
+      "ejemplos": [
+        {
+          "medio": "TN",
+          "titulo": "Llenar el changuito ya cuesta más de $1 millón en cinco provincias: cómo quedó el ranking en septiembre",
+          "link": "https://tn.com.ar/economia/2026/10/21/llenar-el-changuito-ya-cuesta-mas-de-1-millon-en-cinco-provincias-como-quedo-el-ranking-en-septiembre/",
+          "imagen": "https://tn.com.ar/resizer/v2/2MSRJ25IGJDIPC7VBKTTOOEISA.png?auth=9dc7a68d84c2402ffdade6ec7987950d4a23828ada640c61393b70923cf064d8"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Inflación: en qué provincias cuesta más llenar el changuito y en cuáles hubo mayores aumentos mensuales",
+          "link": "https://www.ambito.com/economia/inflacion-que-provincias-cuesta-mas-llenar-el-changuito-y-cuales-hubo-mayores-aumentos-mensuales-n6336188",
+          "imagen": "https://media.ambito.com/p/9f134e33c092b66082617b9280b2ce92/adjuntos/239/imagenes/029/784/0029784144/1200x675/smart/como-hacer-que-su-changuito-sea-lo-mas-saludable-posible.jpg"
+        }
+      ],
+      "imagen": "https://tn.com.ar/resizer/v2/2MSRJ25IGJDIPC7VBKTTOOEISA.png?auth=9dc7a68d84c2402ffdade6ec7987950d4a23828ada640c61393b70923cf064d8"
+    },
+    {
+      "total_notas": 2,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "TN",
+      "cobertura_medio_lider": 1,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "U2 en el descanso de la NFL y preventa de entradas en Argentina",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Une un acontecimiento de entretenimiento internacional masivo con el negocio local de venta de tickets y preventas.",
+      "insight": "TN y Ámbito capturan el tráfico de espectáculos con los detalles de precios y ubicaciones, sin cobertura de Perfil.",
+      "accion_sugerida": "Cobertura inmediata de grandes anuncios de recitales internacionales para posicionar notas de servicio de venta de entradas.",
+      "enfoques_sugeridos": [
+        "Guía completa de precios, etapas de preventa y canales oficiales habilitados para adquirir los tickets.",
+        "El regreso de la banda y su participación en el show del descanso de la NFL."
+      ],
+      "ejemplos": [
+        {
+          "medio": "TN",
+          "titulo": "U2 actuará en el descanso del partido de la NFL en la víspera de acción de gracias",
+          "link": "https://tn.com.ar/musica/noticias/2026/10/21/u2-actuara-en-el-descanso-del-partido-de-la-nfl-en-la-vispera-de-accion-de-gracias/",
+          "imagen": ""
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Preventa de entradas para U2 en Argentina: precios, ubicaciones y cómo y dónde comprar",
+          "link": "https://www.ambito.com/espectaculos/preventa-entradas-u2-argentina-precios-ubicaciones-y-como-y-donde-comprar-n6336174",
+          "imagen": "https://media.ambito.com/p/7326ee26e99788010d3f2d3b65850e42/adjuntos/239/imagenes/043/717/0043717849/u2-banda.jpg"
+        }
+      ],
+      "imagen": "https://media.ambito.com/p/7326ee26e99788010d3f2d3b65850e42/adjuntos/239/imagenes/043/717/0043717849/u2-banda.jpg"
+    }
+  ],
+  "oportunidades": [
+    {
+      "total_notas": 8,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 2,
+        "La Nación": 8,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -821,38 +611,96 @@
       },
       "cobertura_perfil": 0,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Tiroteo y masacre en escuela de Estados Unidos",
+      "cobertura_medio_lider": 8,
+      "brecha": -8,
+      "brecha_formateada": "-8",
+      "tema": "Salarios y paritarias de fuerzas de seguridad, personal doméstico, gremios y oficios",
       "tipo": "oportunidades",
-      "por_que_importa": "Los hechos de violencia armada en instituciones educativas generan alto interés internacional y lecturas masivas.",
-      "insight": "La Nación cubre el episodio con enfoque de última hora, mientras Perfil carece de inserción en la noticia.",
-      "accion_sugerida": "Desarrollar una crónica detallada sobre el operativo de seguridad y el debate por portación de armas.",
+      "tipo_de_oportunidad": "Cobertura ausente de alta demanda utilitaria",
+      "motivo_oportunidad": "La Nación acapara en soledad 8 notas sobre escalas salariales específicas y paritarias, un contenido de servicio muy buscado que Perfil puede replicar y optimizar con calculadoras o tablas claras.",
+      "por_que_importa": "Interpela de forma directa a amplios sectores de trabajadores que buscan conocer sus remuneraciones actualizadas mes a mes.",
+      "insight": "Existe un vacío total en la redacción de Perfil frente al despliegue masivo de La Nación en materia de tablas salariales de oficios y fuerzas.",
+      "accion_sugerida": "Crear un servicio de escalas salariales actualizadas para personal doméstico y fuerzas de seguridad.",
       "enfoques_sugeridos": [
-        "La cronología de los hechos y la intervención de civiles en el lugar.",
-        "El debate social y político en torno a la seguridad escolar en Estados Unidos."
+        "El detalle de las escalas vigentes con los aumentos acordados en las últimas rondas paritarias.",
+        "Cómo quedaron los ingresos mínimos de los trabajadores de seguridad y asistencia domiciliaria."
       ],
-      "tipo_de_oportunidad": "Noticia internacional de última hora",
-      "motivo_oportunidad": "La masacre escolar genera picos de audiencia global que pueden ser aprovechados con un enfoque analítico.",
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Cómo fue la masacre en una escuela de EE.UU. y qué se sabe del civil que abatió al tirador",
-          "link": "https://www.lanacion.com.ar/estados-unidos/como-fue-la-masacre-en-una-escuela-de-eeuu-y-que-se-sabe-del-civil-que-abatio-al-tirador-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/5PHUL2EDBVH3NPLMA7APPQDY2M.JPG?auth=9f590edaeb58d546c58128dfdb17e2ab53b7c093740d1aab973eebeaacb776c8&smart=true&width=6856&height=4573"
+          "titulo": "Cuánto gana el personal de Gendarmería Nacional Argentina en octubre de 2026",
+          "link": "https://www.lanacion.com.ar/economia/cuanto-gana-el-personal-de-gendarmeria-nacional-argentina-en-octubre-de-2026-nid19102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CDPBLV7DFND4HCSXQCVSHKZF3A.JPG?auth=fc4981ce54d47dfe992416a1318baf3a6fb9bb6f46668a4ecd5aae1f95150c89&smart=true&width=3500&height=2625"
         },
         {
           "medio": "La Nación",
-          "titulo": "Tiroteo en una escuela de Estados Unidos: murieron cinco personas",
-          "link": "https://www.lanacion.com.ar/el-mundo/multiples-victimas-en-un-tiroteo-en-una-escuela-de-oregon-nid15102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/TBAVWIKH5ZCZ7HVYMWCQZ4MHBY.jpg?auth=0bcc3c8fa450376d8ed5cee5c1ff0d20a99e7624752debc0c993e57207a21461&smart=true&width=640&height=480"
+          "titulo": "Paritaria con aumento: cuánto cobran las niñeras y cuidadores de adultos en octubre de 2026",
+          "link": "https://www.lanacion.com.ar/economia/paritaria-con-aumento-cuanto-cobran-las-nineras-y-cuidadores-de-adultos-en-octubre-de-2026-nid14102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/26AY3I6RGVELVIMVKNUV7LE74I.png?auth=e3d4b4b28e313266e8b389b52cc8c784be6b9f03b71c9e00354c33993266e5c1&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Paritaria para vigiladores: cuánto ganan los trabajadores de seguridad privada en octubre 2026 con el aumento confirmado",
+          "link": "https://www.lanacion.com.ar/economia/paritaria-para-vigiladores-cuanto-ganan-los-trabajadores-de-seguridad-privada-en-octubre-2026-con-el-nid13102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/5WZ6TVJSHBHJRCXHINFLEEZUKU.jpg?auth=17d225add6d97d5495e922995bdd66cccf2d9e65123a04c158b8f6b357d34e0d&smart=true&width=804&height=519"
         }
       ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5PHUL2EDBVH3NPLMA7APPQDY2M.JPG?auth=9f590edaeb58d546c58128dfdb17e2ab53b7c093740d1aab973eebeaacb776c8&smart=true&width=6856&height=4573"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CDPBLV7DFND4HCSXQCVSHKZF3A.JPG?auth=fc4981ce54d47dfe992416a1318baf3a6fb9bb6f46668a4ecd5aae1f95150c89&smart=true&width=3500&height=2625"
     },
     {
-      "total_notas": 2,
+      "total_notas": 4,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 4,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "tema": "Calendario y fechas clave de las elecciones presidenciales en Argentina 2027",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Anticipación a la agenda política de mediano plazo",
+      "motivo_oportunidad": "La Nación posiciona contenidos de consulta permanente sobre el cronograma electoral futuro, un tema de interés institucional que genera tráfico sostenido en Google Search.",
+      "por_que_importa": "Permite estructurar contenido de referencia anticipada sobre los hitos institucionales que marcarán el pulso político del país.",
+      "insight": "La cobertura está concentrada exclusivamente en un competidor, desaprovechando el valor de archivo y posicionamiento SEO que otorga este tipo de guías.",
+      "accion_sugerida": "Publicar un explicativo de referencia sobre el cronograma institucional y los cargos a renovar.",
+      "enfoques_sugeridos": [
+        "El detalle de las fechas constitucionales y los plazos legales para alianzas y postulaciones.",
+        "Qué cargos legislativos y ejecutivos se disputarán en los próximos comicios nacionales."
+      ],
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
+          "link": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/EVN3S3WQPRBHBIPBQLOYZYLCCE.JPG?auth=de1cc088b2d5d86aa149c49a4d8de91d99eb278772cb91d4bd23c94c7858869b&smart=true&width=2000&height=1333"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Elecciones en la Argentina 2027: fechas, cargos que se renuevan y todo lo que hay que saber",
+          "link": "https://www.lanacion.com.ar/politica/elecciones-en-la-argentina-2027-fechas-cargos-que-se-renuevan-y-todo-lo-que-hay-que-saber-nid23092026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/3EQXWMFWFFHNNE3HGXLOSVEJT4.jpg?auth=192c87b445ce2012b297d1de8b7d29148d5afa59c7c17f0eabec234e8ff341be&smart=true&width=2500&height=1667"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Elecciones 2027: ¿cuándo son las próximas elecciones presidenciales en la Argentina?",
+          "link": "https://www.lanacion.com.ar/politica/elecciones-2027-cuando-se-vota-en-la-argentina-y-que-se-elige-nid25082026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/GPC4LT2D6JG3PJMWMQF3TPANHI.jpg?auth=37e786cc1896b8d8b3ade819bbd2d01a4c1c662c8e4ca76241eac15778a0751d&smart=true&width=2000&height=1333"
+        }
+      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/EVN3S3WQPRBHBIPBQLOYZYLCCE.JPG?auth=de1cc088b2d5d86aa149c49a4d8de91d99eb278772cb91d4bd23c94c7858869b&smart=true&width=2000&height=1333"
+    },
+    {
+      "total_notas": 4,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura": {
@@ -861,41 +709,47 @@
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
-        "Ámbito": 2,
+        "Ámbito": 4,
         "Página 12": 0,
         "El Cronista": 0
       },
       "cobertura_perfil": 0,
       "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Estrategia cambiaria del Banco Central y acumulación de reservas",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "tema": "Mercado tecnológico de inteligencia artificial y Wall Street",
       "tipo": "oportunidades",
-      "por_que_importa": "Aporta claridad sobre el comportamiento del dólar mayorista y la capacidad de intervención oficial en el mercado.",
-      "insight": "Ámbito lidera la cobertura especializada en la City porteña, un terreno donde Perfil debe ganar profundidad analítica.",
-      "accion_sugerida": "Publicar un informe financiero diario con voces de operadores sobre la cotización y las compras del BCRA.",
+      "tipo_de_oportunidad": "Enfoque diferencial en economía internacional y tecnología",
+      "motivo_oportunidad": "Ámbito cubre con un bloque de 4 notas el impacto financiero de las tecnológicas y las fuertes proyecciones de gasto en IA, un área con gran potencial analítico para el lector especializado de Perfil.",
+      "por_que_importa": "Conecta las tendencias globales de innovación con la volatilidad de los mercados financieros internacionales.",
+      "insight": "El tema está concentrado en un único medio competidor, lo que representa una ventana clara para ofrecer un análisis económico propio.",
+      "accion_sugerida": "Desarrollar un análisis sobre la sustentabilidad financiera de las inversiones masivas en inteligencia artificial.",
       "enfoques_sugeridos": [
-        "El ritmo de acumulación de reservas y su impacto en las expectativas cambiarias.",
-        "La evolución de la brecha y el comportamiento de los contratos a término."
+        "El impacto bursátil de los balances de las grandes corporaciones tecnológicas en Wall Street.",
+        "La reconversión industrial de los fabricantes de chips frente a la demanda del sector."
       ],
-      "tipo_de_oportunidad": "Análisis económico especializado",
-      "motivo_oportunidad": "Existe una demanda sostenida de información financiera fina que Ámbito cubre con exclusividad.",
       "ejemplos": [
         {
           "medio": "Ámbito",
-          "titulo": "Lo que se dice en las mesas: el BCRA prende la aspiradora de dólares y la city le cuenta las balas a la bazuca de Javier Milei",
-          "link": "https://www.ambito.com/finanzas/lo-que-se-dice-las-mesas-el-bcra-prende-la-aspiradora-dolares-y-la-city-le-cuenta-las-balas-la-bazuca-javier-milei-n6334416",
-          "imagen": "https://media.ambito.com/p/ae6c982818b03e5f9b314c653477a25a/adjuntos/239/imagenes/043/707/0043707245/1200x675/smart/1200x675_161026_web-01.jpg"
+          "titulo": "Diálogos de Wall Street: el mercado mantiene el optimismo por la IA, pese a su semana negra",
+          "link": "https://www.ambito.com/economia/dialogos-wall-street-el-mercado-mantiene-el-optimismo-la-ia-pese-su-semana-negra-n6336057",
+          "imagen": "https://media.ambito.com/p/31b4aa8b2e41671768fe6b2df21b265a/adjuntos/239/imagenes/040/762/0040762151/1200x675/smart/gordon-gekko-dialogos.jpg"
         },
         {
           "medio": "Ámbito",
-          "titulo": "El dólar mayorista se enfila a cerrar su tercera semana a la baja y extiende la distancia con el techo de la banda",
-          "link": "https://www.ambito.com/finanzas/el-dolar-mayorista-se-encamina-su-tercera-baja-semanal-al-hilo-y-la-city-vigila-el-ritmo-compras-del-bcra-n6334491",
-          "imagen": "https://media.ambito.com/p/f57a60a6375a011effe7a8ddf1f9e783/adjuntos/351/imagenes/041/294/0041294203/1200x675/smart/dolar-tipo-cambio-divisa.jpg"
+          "titulo": "Samsung y SK Hynix modernizan sus fábricas en China para competir en el mercado de chips de inteligencia artificial",
+          "link": "https://www.ambito.com/tecnologia/samsung-y-sk-hynix-modernizan-sus-fabricas-china-competir-el-mercado-chips-inteligencia-artificial-n6336181",
+          "imagen": "https://media.ambito.com/p/0278e3f4e7e8aaaaa86ad76704443334/adjuntos/239/imagenes/043/717/0043717840/1200x675/487x363:507x383/gemini_generated_image_kx5sahkx5sahkx5s.jpg"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Anthropic encendió las alarmas en Wall Street: perdió u$s80.700 millones y proyecta gastos por u$s750.000 millones",
+          "link": "https://www.ambito.com/finanzas/anthropic-encendio-las-alarmas-wall-street-perdio-us80700-millones-y-proyecta-gastos-us750000-millones-n6336166",
+          "imagen": "https://media.ambito.com/p/a09bc040f8e5de992f21f008bf68574e/adjuntos/239/imagenes/043/600/0043600221/1200x675/815x400:835x420/anthropic-1500-x-1000.png"
         }
       ],
-      "imagen": "https://media.ambito.com/p/ae6c982818b03e5f9b314c653477a25a/adjuntos/239/imagenes/043/707/0043707245/1200x675/smart/1200x675_161026_web-01.jpg"
+      "imagen": "https://media.ambito.com/p/31b4aa8b2e41671768fe6b2df21b265a/adjuntos/239/imagenes/040/762/0040762151/1200x675/smart/gordon-gekko-dialogos.jpg"
     },
     {
       "total_notas": 2,
@@ -903,7 +757,145 @@
       "cantidad_competidores": 1,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 2,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 2,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Juicio por la muerte de Diego Maradona y alegatos de defensas",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Cobertura judicial de alto impacto emocional y mediático",
+      "motivo_oportunidad": "Infobae mantiene un seguimiento en vivo del juicio oral con los alegatos de los profesionales imputados, un hito judicial de alto interés público donde Perfil no registra notas en la jornada.",
+      "por_que_importa": "Mantiene en vilo a la opinión pública por las responsabilidades penales en el fallecimiento de una figura emblemática.",
+      "insight": "La competencia acapara la audiencia judicial en directo sin una contraparte informativa desde la redacción de Perfil.",
+      "accion_sugerida": "Implementar resúmenes diarios con los testimonios y planteos más relevantes de los defensores en el juicio.",
+      "enfoques_sugeridos": [
+        "Los argumentos centrales expuestos por la defensa técnica en busca de la absolución.",
+        "El cronograma de las próximas audiencias y la fecha estimada para el veredicto."
+      ],
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "‘Maradona: sus últimos 14 días’ todo lo sucedido en torno a la muerte del astro argentino",
+          "link": "https://www.infobae.com/america/agencias/2026/10/21/maradona-sus-ultimos-14-dias-todo-lo-sucedido-en-torno-a-la-muerte-del-astro-argentino/",
+          "imagen": "https://www.infobae.com/resizer/v2/VUWMW4PKHVHRHAE67VEEIT4Q6U.jpg?auth=754e8878c52e38e59d183a94ef33af1355b59b300aff8402ad93b3e41daf7971&smart=true&width=1920&height=3421"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Juicio por la muerte de Maradona, en vivo: alega la defensa de Leopoldo Luque y Nancy Forlini",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/10/21/juicio-por-la-muerte-de-maradona-en-vivo-las-ultimas-noticias-de-hoy-21-de-octubre-minuto-a-minuto/",
+          "imagen": "https://www.infobae.com/resizer/v2/YD6NEM2SCVFE7I6YUHV7CMBJ3A.jpg?auth=8117b5361716b7a54b08ed56a56b885630033df5a594e9cf77aad5b3205f64cd&smart=true&width=1920&height=1079"
+        }
+      ],
+      "imagen": "https://www.infobae.com/resizer/v2/VUWMW4PKHVHRHAE67VEEIT4Q6U.jpg?auth=754e8878c52e38e59d183a94ef33af1355b59b300aff8402ad93b3e41daf7971&smart=true&width=1920&height=3421"
+    }
+  ],
+  "prioridades_del_dia": [
+    {
+      "total_notas": 19,
+      "cantidad_medios": 8,
+      "cantidad_competidores": 7,
+      "cobertura": {
+        "Perfil": 2,
+        "La Nación": 3,
+        "Clarín": 1,
+        "Infobae": 4,
+        "TN": 3,
+        "Ámbito": 3,
+        "Página 12": 2,
+        "El Cronista": 1
+      },
+      "cobertura_perfil": 2,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 4,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Cruce político entre Javier Milei y Pedro Sánchez en España",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Es el acontecimiento político internacional de mayor repercusión para la agenda argentina debido a la confrontación directa del Presidente en territorio europeo.",
+      "accion_sugerida": "Desplegar cobertura continua con el análisis de las repercusiones diplomáticas y el impacto en los vínculos bilaterales.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "La respuesta de Pedro Sánchez a Milei: \"Me encanta este temazo argentino\", dijo sobre \"Fanático\", de Lali",
+          "link": "https://www.perfil.com/noticias/politica/la-respuesta-de-pedro-sanchez-a-milei-me-encanta-este-temazo-argentino-por-fanatico-de-lali.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/pedro-sanchez-2353104.jpg"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "Milei llamó \"impresentable dictador\" a Pedro Sánchez y dijo \"si me reeligen los próximos años serán inolvidables\"",
+          "link": "https://www.perfil.com/noticias/actualidad/milei-habla-en-el-nueva-economia-forum-2026-en-madrid.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/el-presidente-en-madrid-2353030.jpg"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Milei trató de “impresentable dictador” y “delincuente ladrón” a Pedro Sánchez en su nueva visita a España",
+          "link": "https://www.lanacion.com.ar/politica/milei-volvio-a-atacar-a-pedro-sanchez-en-su-visita-a-espana-es-un-impresentable-dictador-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CQISCDJ5VJG6RLTNFHS46BYGWU.jpg?auth=cdb0cb576f68d2f3b53c0758d0d67ce8dd9dfd2e8a7e35decc31e4c359b3a452&smart=true&width=2000&height=1333"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/pedro-sanchez-2353104.jpg"
+    },
+    {
+      "total_notas": 6,
+      "cantidad_medios": 5,
+      "cantidad_competidores": 4,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 1,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 2
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 2,
+      "brecha": -1,
+      "brecha_formateada": "-1",
+      "tema": "Tratamiento de proyectos en la Cámara de Diputados",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "Define la sanción de normativas clave impulsadas por el oficialismo en una megasesión de alto voltaje político.",
+      "accion_sugerida": "Realizar un seguimiento en directo de las votaciones nominales y los acuerdos parlamentarios.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Diputados: tras blindar su DNU 70, LLA lleva al recinto la Ley de Tierras K, Discapacidad y Endeudamiento",
+          "link": "https://www.perfil.com/noticias/politica/diputados-tras-blindar-su-dnu-70-lla-lleva-al-recinto-la-ley-de-tierras-k-discapacidad-y-endeudamiento-a60.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/diputados-2349156.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Diputados hoy, EN VIVO: debaten discapacidad, morosidad familiar y la inviolabilidad de la propiedad privada",
+          "link": "https://www.clarin.com/politica/diputados-hoy-vivo-debaten-discapacidad-endeudamiento-familiar-inviolabilidad-propiedad-privada_0_Yf27T2arHZ.html",
+          "imagen": "https://www.clarin.com/img/2026/10/21/yTBF-xNMo_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "En una megasesión, Diputados debatirá hoy Ley de Tierras, Discapacidad y endeudamiento familiar",
+          "link": "https://tn.com.ar/politica/2026/10/21/diputados-debate-hoy-la-ley-de-propiedad-privada-y-la-restitucion-de-los-limites-a-la-compra-de-tierras-por-extranjeros/",
+          "imagen": "https://tn.com.ar/resizer/v2/E5MRWOPZPSRBANTTYIMWBDZTUE.jpg?auth=0af8ce4edf3bcef1bfefeede98f2919402f26b185b7b48f91e80837b49889fb9"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/diputados-2349156.jpg"
+    },
+    {
+      "total_notas": 7,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 6,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -911,174 +903,36 @@
         "Página 12": 0,
         "El Cronista": 0
       },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Prevención cardiovascular y hábitos saludables",
-      "tipo": "oportunidades",
-      "por_que_importa": "Ofrece contenido de bienestar validado científicamente con alto rendimiento sostenido en Google Discover.",
-      "insight": "La Nación acapara este tipo de entrevistas a especialistas médicos, un formato muy rentable para Perfil.",
-      "accion_sugerida": "Entrevistar a especialistas locales sobre pautas de prevención y hábitos nutricionales.",
-      "enfoques_sugeridos": [
-        "Los factores de riesgo modificables para evitar enfermedades coronarias.",
-        "La incorporación de alimentos específicos recomendados por cardiólogos."
-      ],
-      "tipo_de_oportunidad": "Contenido de salud y bienestar validado para Discover",
-      "motivo_oportunidad": "Las notas de salud con rigor científico tienen un excelente rendimiento histórico en canales de recomendación.",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "La revolución de los pacientes: médicos, nutricionistas y especialistas salen del consultorio para enseñar prevención cardiovascular",
-          "link": "https://www.lanacion.com.ar/sociedad/la-revolucion-de-los-pacientes-medicos-nutricionistas-y-especialistas-salen-del-consultorio-para-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/YCUS6VVCUFEWZIWUJE7MCD2TIQ.jpg?auth=deea41ea7cc1ac088dc1c82980b59ebed63e6e1f36e5ae86189f5ffee0e9d680&smart=true&width=720&height=1280"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Aurelio Rojas, cardiólogo: “Comer medio aguacate por día reduce un 21% el riesgo de enfermedad coronaria”",
-          "link": "https://www.lanacion.com.ar/lifestyle/aurelio-rojas-cardiologo-comer-medio-aguacate-por-dia-reduce-un-21-el-riesgo-de-enfermedad-coronaria-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/B5X5GUYQUFCLFDPH56XZHWABPQ.jpg?auth=49efd9166c6465c069bb22fb8af5e06f3a7ba457432e011bed09fc4d66a88921&smart=true&width=4160&height=2768"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/YCUS6VVCUFEWZIWUJE7MCD2TIQ.jpg?auth=deea41ea7cc1ac088dc1c82980b59ebed63e6e1f36e5ae86189f5ffee0e9d680&smart=true&width=720&height=1280"
-    }
-  ],
-  "prioridades_del_dia": [
-    {
-      "total_notas": 12,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 3,
-        "Clarín": 2,
-        "Infobae": 2,
-        "TN": 1,
-        "Ámbito": 2,
-        "Página 12": 0,
-        "El Cronista": 1
-      },
       "cobertura_perfil": 1,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Superávit financiero y fiscal registrado por el Gobierno en septiembre",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Es el indicador macroeconómico central que sostiene el relato oficial y condiciona las negociaciones con los organismos de crédito internacional.",
-      "accion_sugerida": "Desplegar un informe completo con repercusiones de analistas económicos y gráficos explicativos para la portada.",
+      "cobertura_medio_lider": 6,
+      "brecha": -5,
+      "brecha_formateada": "-5",
+      "tema": "Cronograma de pagos y montos de ANSES para jubilaciones, AUH y asignaciones",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Representa una demanda masiva de información útil e inmediata para una porción crítica de la audiencia en materia de ingresos.",
+      "accion_sugerida": "Publicar guías detalladas con los calendarios de cobro y los montos actualizados por categoría.",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "El Gobierno volvió a registrar superávit financiero en septiembre",
-          "link": "https://www.perfil.com/noticias/economia/el-gobierno-volvio-a-registrar-superavit-financiero-en-septiembre-a40.phtml",
-          "imagen": "https://fotos.perfil.com/2026/07/28/trim/540/304/ministerio-de-economia-2292519.jpg"
+          "titulo": "Jubilaciones, AUH y asignaciones: a quiénes corresponde el cobro de ANSES del miércoles 21 de octubre",
+          "link": "https://www.perfil.com/noticias/economia/jubilaciones-auh-asignaciones-quienes-corresponde-cobro-anses-miercoles-21-octubre-a35.phtml",
+          "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/anses-2309318.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "El Gobierno mostró superávit en septiembre y dijo que “cumplió” con la ley de financiamiento universitario",
-          "link": "https://www.lanacion.com.ar/economia/el-gobierno-mostro-superavit-en-septiembre-y-dijo-que-cumplio-con-los-acuerdos-alcanzados-con-las-nid16102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/YGEYDEUZOZBONBAK7V6FADPXXM.jpeg?auth=bc218e4d026b40209729d5f78a34550dc19cd006632b55e8bd4477b4261ea0af&smart=true&width=549&height=366"
+          "titulo": "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026",
+          "link": "https://www.lanacion.com.ar/economia/suaf-de-anses-el-monto-de-las-asignaciones-familiares-en-noviembre-de-2026-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/NOYL5FFAFNEQHG2KFAWF5OQOJA.jpg?auth=4f563a4494aa1cca76ef884346e0357c843dc4d5d2bd2781d275706aa0c508b1&smart=true&width=4000&height=2666"
         },
         {
-          "medio": "Clarín",
-          "titulo": "El Gobierno tuvo otro mes de superávit y quedó más cerca de la meta fiscal con el FMI",
-          "link": "https://www.clarin.com/economia/gobierno-mes-superavit-quedo-cerca-meta-fiscal-fmi_0_GrBd7cAk88.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/V6h6-0KEw_1200x630__1.jpg"
+          "medio": "La Nación",
+          "titulo": "A cuánto llega la PUAM en noviembre de 2026 con el aumento confirmado",
+          "link": "https://www.lanacion.com.ar/economia/a-cuanto-llega-la-puam-en-noviembre-de-2026-con-el-aumento-confirmado-nid20102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/HIOFVKXR65HE7IFWGMISROHMNE.png?auth=bf0414b59dc34ecd87eebb3d54d57d3cd378ddb531dc46298c9f8a9c2c054445&smart=true&width=2000&height=1333"
         }
       ],
-      "imagen": "https://fotos.perfil.com/2026/07/28/trim/540/304/ministerio-de-economia-2292519.jpg"
-    },
-    {
-      "total_notas": 9,
-      "cantidad_medios": 5,
-      "cantidad_competidores": 4,
-      "cobertura": {
-        "Perfil": 2,
-        "La Nación": 0,
-        "Clarín": 2,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 2,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 2,
-      "brecha": 0,
-      "brecha_formateada": "0",
-      "tema": "Denuncias del Gobierno e incidentes judiciales tras la Marcha Universitaria",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Define el pulso del conflicto social y la respuesta penal del Estado frente a las protestas callejeras frente al Congreso.",
-      "accion_sugerida": "Jerarquizar el seguimiento judicial de los detenidos y las declaraciones de los funcionarios involucrados.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Marcha Universitaria: el Gobierno denunció “atentado al orden constitucional”, pero solo hubo detenidos por resistencia a la autoridad",
-          "link": "https://www.perfil.com/noticias/politica/marcha-universitaria-el-gobierno-denuncio-atentado-al-orden-constitucional-pero-solo-hubo-detenidos-por-resistencia-a-la-autoridad.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/marcha-federal-universitaria-2349393.jpg"
-        },
-        {
-          "medio": "Perfil",
-          "titulo": "El Gobierno culpó a \"grupos de tareas\" por los incidentes en la Marcha Universitaria: \"Son ataques a la democracia\"",
-          "link": "https://www.perfil.com/noticias/politica/carlos-torrendell-culpo-a-grupos-de-tareas-por-los-incidentes-en-la-marcha-universitaria-son-ataques-a-la-democracia.phtml",
-          "imagen": "https://fotos.perfil.com/2026/01/04/trim/540/304/040126carlostorrendelleducacioncedocg-2164185.jpg"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "El Gobierno denunció a 25 detenidos por los incidentes en la marcha universitaria por lesiones, daños y resistencia a la autoridad",
-          "link": "https://www.clarin.com/politica/gobierno-denuncio-25-detenidos-incidentes-marcha-universitaria-lesiones-danos-resistencia-autoridad_0_k60VokeiRq.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/HJrHSIevF_1200x630__1.jpg"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/15/trim/540/304/marcha-federal-universitaria-2349393.jpg"
-    },
-    {
-      "total_notas": 8,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 1,
-        "Infobae": 1,
-        "TN": 3,
-        "Ámbito": 1,
-        "Página 12": 1,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Presentación y demostración de auto volador de Tesla por Elon Musk",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Atrae un masivo interés global en tecnología y genera alto tráfico orgánico en buscadores y redes sociales.",
-      "accion_sugerida": "Redactar un artículo de cobertura urgente con material audiovisual y análisis técnico de la presentación.",
-      "ejemplos": [
-        {
-          "medio": "Clarín",
-          "titulo": "Tesla presentó su auto volador con una impresionante demostración encabezada por Elon Musk",
-          "link": "https://www.clarin.com/tecnologia/tesla-presento-auto-volador-impresionante-demostracion-encabezada-elon-musk_0_coC2xmQzG4.html",
-          "imagen": "https://www.clarin.com/img/2026/10/16/wvXJQ2VX8_1200x630__1.jpg"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Tesla deslumbra con su nuevo auto volador, pero Wall Street se mantiene expectante",
-          "link": "https://www.infobae.com/economia/2026/10/16/tesla-deslumbra-con-su-nuevo-auto-volador-pero-wall-street-se-mantiene-expectante/",
-          "imagen": "https://www.infobae.com/resizer/v2/X6ZXT57MRNCHHMBD4HZDBE7FNU.png?auth=661b142eaa6705a1051062d47662cd909d1f16f5f2c55f259b8a0ed0d24fba1f&smart=true&width=1371&height=867"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Elon Musk presentó el auto volador de Tesla con un impactante show: cuándo estará disponible y qué características tiene",
-          "link": "https://tn.com.ar/tecno/novedades/2026/10/16/elon-musk-presento-el-auto-volador-de-tesla-con-un-impactante-show-cuando-estara-disponible-y-que-caracteristicas-tiene/",
-          "imagen": "https://tn.com.ar/resizer/v2/7FRDKCMC75F7LHG432JY7PMESM.jpg?auth=427e8ab3b4ab785b1a6b77b1da3e5f6761f53f0d2689581959211e222482af10"
-        }
-      ],
-      "imagen": "https://www.clarin.com/img/2026/10/16/wvXJQ2VX8_1200x630__1.jpg"
+      "imagen": "https://fotos.perfil.com/2026/08/21/trim/540/304/anses-2309318.jpg"
     }
   ]
 }
