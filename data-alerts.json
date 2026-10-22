@@ -1,12 +1,12 @@
 {
-  "actualizado": "2026-10-22T17:38:04.850Z",
+  "actualizado": "2026-10-22T17:44:41.402Z",
   "total_keywords": 14,
   "total_noticias": 280,
-  "resumen_general": "El panorama informativo de la jornada abarca una amplia variedad de temas políticos, económicos, internacionales y científicos. Destacan los anuncios de la ANSES sobre cronogramas de pagos y actualizaciones, las repercusiones de la gira internacional del presidente argentino Javier Milei —que incluyó críticas en España y declaraciones sobre las Islas Malvinas—, y la actualización sobre la salud del papa León XIV con señales alentadoras sobre una posible visita a la Argentina. A nivel internacional, se reportó un terremoto de magnitud 7 en la región autónoma del Tíbet (China), avanza el debate en torno a regulaciones e impactos de la inteligencia artificial, se discuten megacusiones y fusiones corporativas entre magnates tecnológicos como Elon Musk y Mark Zuckerberg, y se registran diversos avisos meteorológicos y climáticos globales, incluyendo alertas por tormentas y la evolución del fenómeno de El Niño.",
+  "resumen_general": "El panorama informativo global y local destaca por acontecimientos políticos, económicos, climáticos y de seguridad de gran relevancia. En el plano internacional, sobresale un fuerte terremoto de magnitud 7.0 en la región del Tíbet, China, así como la evolución de fenómenos climáticos extremos y advertencias sobre el impacto del super El Niño. Asimismo, se reportan las declaraciones y la gira internacional del presidente argentino Javier Milei —con foco en la postura sobre las Islas Malvinas y cruces políticos—, las novedades en torno a la salud del papa León XIV y su posible visita a la Argentina, y anuncios de ventas y adjudicaciones estatales publicados en el Boletín Oficial, como el caso de AySA. En el ámbito previsional y local, la ANSES avanza con los calendarios de pago y actualizaciones de haberes, mientras que la agenda tecnológica global sigue dominada por los avances en inteligencia artificial, fusiones corporativas entre magnates y misiones espaciales de la NASA.",
   "temas": [
     {
-      "tema": "Cronogramas de pagos, aumentos y trámites de ANSES",
-      "resumen": "Información oficial sobre el calendario de cobros de octubre y noviembre para jubilados, pensionados, AUH y otras asignaciones, así como actualizaciones en moratorias, topes de ingresos y canales de gestión.",
+      "tema": "Cronograma de pagos y medidas de la ANSES",
+      "resumen": "Información sobre los calendarios de cobro, aumentos de jubilaciones y pensiones, bonos extraordinarios, moratorias y trámites de la Administración Nacional de la Seguridad Social.",
       "keyword": [
         "ANSES"
       ],
@@ -59,6 +59,13 @@
           "link": "https://www.reporteinmobiliario.com/article5889-en-septiembre-bajaron-las-compraventas",
           "fecha": "2026-10-22T14:05:05.000Z",
           "descripcion": "Las nuevas líneas hipotecarias que se están poniendo en marcha —con fondeo del FGS de ANSES y participación del sistema bancario— representan ..."
+        },
+        {
+          "titulo": "A un click de distancia: los trámites de Anses que pueden hacerse desde el celular",
+          "medio": "La Gaceta",
+          "link": "https://www.lagaceta.com.ar/nota/1159100/sociedad/a-click-distancia-tramites-anses-pueden-hacerse-desde-celular.html",
+          "fecha": "2026-10-22T13:55:09.000Z",
+          "descripcion": "Los celulares con sistema operativo Android y iOS pueden descargar la aplicación Mi Anses desde sus tiendas oficiales. Hay una serie de trámites ..."
         },
         {
           "titulo": "Pensión por discapacidad de ANSES : cuál es el tope de ingresos para no perder la prestación",
@@ -126,8 +133,8 @@
       ]
     },
     {
-      "tema": "Medidas gubernamentales, normativas y publicaciones oficiales",
-      "resumen": "Novedades legislativas y administrativas publicadas en boletines oficiales, incluyendo la designación de bandas criminales como organizaciones terroristas, privatizaciones y normativas fiscales o de transporte.",
+      "tema": "Normativas, adjudicaciones y decretos publicados en el Boletín Oficial",
+      "resumen": "Resoluciones gubernamentales, privatizaciones de empresas públicas como AySA, declaraciones de organizaciones terroristas y nuevos feriados oficiales.",
       "keyword": [
         "Boletín Oficial"
       ],
@@ -166,6 +173,13 @@
           "link": "https://www.cronica.com.ar/sociedad/uno-por-uno-el-listado-de-los-dias-feriados-en-noviembre-por-la-visita-del-papa-leon-xiv/",
           "fecha": "2026-10-22T15:33:27.000Z",
           "descripcion": "La medida se atribuye al Decreto 1103/2026, publicado en el Boletín Oficial el 28 de septiembre. La normativa mencionada contempla un feriado para ..."
+        },
+        {
+          "titulo": "Nueva aerolínea argentina ya recibió los permisos para operar sus primeras dos rutas",
+          "medio": "Energiaytransporte",
+          "link": "https://energiaytransporte.com.ar/Noticias/Noticias-202610/nueva-aerolinea-argentina-ya-recibio-los-permisos-para-operar-sus-prim.html",
+          "fecha": "2026-10-22T15:25:03.000Z",
+          "descripcion": "A través de la Disposición 28/2026 publicada en el Boletín Oficial, la Secretaría de Transporte del Ministerio de Economía autorizó oficialmente a ..."
         },
         {
           "titulo": "365 días del incumplimiento de la ley de Financiamiento Universitario - Jujuy Dice",
@@ -268,8 +282,8 @@
       ]
     },
     {
-      "tema": "Impactos globales, investigaciones y políticas sobre cambio climático",
-      "resumen": "Estudios científicos, reportes internacionales y debates sobre la alteración del clima en el planeta, afectaciones en ecosistemas como los arrecifes de coral, seguridad y recursos hídricos.",
+      "tema": "Impacto y estudios sobre el cambio climático global",
+      "resumen": "Investigaciones científicas, informes de organismos internacionales y consecuencias del cambio climático en los océanos, arrecifes de coral, rutas árticas y ecosistemas.",
       "keyword": [
         "Cambio climático"
       ],
@@ -417,8 +431,8 @@
       ]
     },
     {
-      "tema": "Pronósticos meteorológicos locales y alertas por tormentas",
-      "resumen": "Reportes del clima, pronósticos del tiempo por región y advertencias de servicios meteorológicos sobre tormentas y lluvias intensas en distintas localidades.",
+      "tema": "Pronósticos meteorológicos y alertas por tormentas",
+      "resumen": "Reportes del clima, alertas meteorológicas por lluvias intensas, vientos y ocasional caída de granizo en distintas regiones y provincias.",
       "keyword": [
         "Clima"
       ],
@@ -566,8 +580,8 @@
       ]
     },
     {
-      "tema": "Monitoreo y proyecciones del fenómeno climático El Niño",
-      "resumen": "Advertencias de organismos internacionales y meteorólogos sobre la intensidad y el impacto del fenómeno de El Niño en la agricultura, tormentas severas y preparativos institucionales.",
+      "tema": "Advertencias y preparativos internacionales ante el fenómeno El Niño",
+      "resumen": "Pronósticos sobre la intensidad del fenómeno climático El Niño, sus efectos en la agricultura, preparación de infraestructura y medidas económicas de mitigación en distintas regiones del mundo.",
       "keyword": [
         "El Niño"
       ],
@@ -692,13 +706,6 @@
           "descripcion": "Meteorologists are preparing for the arrival of an especially strong “El Niño” this winter. The climate phenomenon forms from irregular changes in ..."
         },
         {
-          "titulo": "Landslides, fires, El Niño : Big Sur's spiritual centers 'living with precariousness'",
-          "medio": "Religionnews",
-          "link": "https://religionnews.com/2026/10/21/amid-landslides-fires-and-el-nino-big-surs-spiritual-centers-living-with-precariousness/",
-          "fecha": "2026-10-22T05:48:11.000Z",
-          "descripcion": "Landslides, fires, El Niño: Big Sur's spiritual centers 'living with precariousness'. BIG SUR, Calif. (RNS) — For those who visit, work and live at ..."
-        },
-        {
           "titulo": "Current El Nino event could be unprecedented in strength: WMO - The Hindu",
           "medio": "Thehindu",
           "link": "https://www.thehindu.com/news/international/wmo-warns-the-current-el-nino-could-be-unprecedented-in-strength/article71609858.ece",
@@ -708,8 +715,8 @@
       ]
     },
     {
-      "tema": "Sondeos de opinión, intención de voto y encuestas electorales",
-      "resumen": "Publicación de diversas encuestas sobre escenarios electorales futuros, balotajes internacionales (como en Brasil), mediciones de imagen de dirigentes y análisis de preferencias políticas.",
+      "tema": "Sondeos de opinión y encuestas electorales",
+      "resumen": "Estudios de consultoras sobre intención de voto, imagen de dirigentes políticos y escenarios electorales tanto en Argentina como en el ámbito internacional.",
       "keyword": [
         "Encuestas"
       ],
@@ -820,13 +827,6 @@
           "descripcion": "La consultora Proyección publicó una encuesta nacional que realizó entre el 1 y el 13 de octubre y entre sus múltiples consultas pidió a los ..."
         },
         {
-          "titulo": "El ajustado escenario que anticipa una encuesta para las elecciones 2027: “Empate técnico”",
-          "medio": "El Cronista",
-          "link": "https://www.cronista.com/economia-politica/el-ajustado-escenario-que-anticipa-una-encuesta-para-las-presidenciales-empate-tecnico/",
-          "fecha": "2026-10-22T13:38:38.000Z",
-          "descripcion": "La última Encuesta de Satisfacción Política y Opinión Pública (ESPOP) de la Universidad de San Andrés, hizo un relevamiento sobre qué pasaría si las ..."
-        },
-        {
           "titulo": "Flávio Bolsonaro arrasa en las apuestas y se impone sobre Lula da Silva con el 80%",
           "medio": "iProfesional",
           "link": "https://www.iprofesional.com/politica/467172-quien-ganara-las-elecciones-en-brasil-segun-las-casas-de-apuestas",
@@ -857,8 +857,8 @@
       ]
     },
     {
-      "tema": "Avances, regulaciones y ciberseguridad en Inteligencia Artificial",
-      "resumen": "Desarrollos de herramientas de IA, adopción corporativa, desafíos de ciberseguridad, costos operativos y regulaciones en procesos electorales y tecnológicos.",
+      "tema": "Avances y repercusiones de la inteligencia artificial",
+      "resumen": "Nuevas aplicaciones, impactos en la ciberseguridad, costos operativos, regulaciones electorales y adopción empresarial de la inteligencia artificial.",
       "keyword": [
         "IA"
       ],
@@ -976,13 +976,6 @@
           "descripcion": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient ..."
         },
         {
-          "titulo": "Meta's AI bill | Reuters",
-          "medio": "Reuters",
-          "link": "https://www.reuters.com/podcasts/reuters-morning-bid/metas-ai-bill-2026-10-22/",
-          "fecha": "2026-10-22T13:52:38.000Z",
-          "descripcion": "Artificial Intelligence · Cybersecurity · Space · Disrupted · Investigations ... Meta's AI bill. By Reuters. October 22, 20262:09 AM PDTUpdated 33 mins ..."
-        },
-        {
           "titulo": "Barclays to slash 5,000 jobs in AI efficiency push - CNBC",
           "medio": "CNBC",
           "link": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
@@ -1007,7 +1000,7 @@
     },
     {
       "tema": "Reclamo de soberanía y declaraciones sobre las Islas Malvinas",
-      "resumen": "Reafirmación de la vía pacífica y diplomática por parte del gobierno argentino respecto a la soberanía de las Islas Malvinas, con rechazo explícito a acciones bélicas y críticas a la postura británica.",
+      "resumen": "Postura del gobierno argentino y de referentes políticos respecto a la vía pacífica y diplomática en el reclamo por las Islas Malvinas, descartando acciones bélicas.",
       "keyword": [
         "Islas Malvinas"
       ],
@@ -1125,13 +1118,6 @@
           "descripcion": "Entre las 17 y las 19 se realizará una nueva edición de “Te Cuento Malvinas” con la presencia de Rubén Sassone, piloto de avión Pucará durante la ..."
         },
         {
-          "titulo": "Trotta: “ Malvinas también debe ser una causa latinoamericana” y advirtió sobre medidas ...",
-          "medio": "Infoban",
-          "link": "https://www.infoban.com.ar/21/10/2026/trotta-malvinas-tambien-debe-ser-una-causa-latinoamericana-y-advirtio-sobre-medidas-comerciales-y-energeticas-contra-chile/",
-          "fecha": "2026-10-22T13:53:51.000Z",
-          "descripcion": "... Malvinas. Durante la sesión de este miércoles 21 de octubre en la ... Islas Malvinas · Nicolás Trotta. Compartir. Facebook · X · WhatsApp · Email."
-        },
-        {
           "titulo": "Milei descarta ação militar pelas Malvinas após fala de Trump - UOL Notícias",
           "medio": "UOL",
           "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/22/milei-descarta-acao-militar-pelas-malvinas-apos-fala-de-trump.ghtm",
@@ -1148,8 +1134,8 @@
       ]
     },
     {
-      "tema": "Gira internacional, agenda y declaraciones del presidente Javier Milei",
-      "resumen": "Actividades del presidente Javier Milei durante su viaje por España, reuniones con líderes políticos europeos, cuestionamientos a mandatarios extranjeros y balances sobre la marcha de la economía local.",
+      "tema": "Actividad política, gira internacional y declaraciones de Javier Milei",
+      "resumen": "Reuniones, críticas políticas, balance económico y actividades institucionales del presidente argentino Javier Milei durante su gira en Europa.",
       "keyword": [
         "Javier Milei"
       ],
@@ -1260,6 +1246,13 @@
           "descripcion": "La gira de Javier Milei por España generó más noticias por las curiosidades del presidente que por la relevancia de su actividad diplomática."
         },
         {
+          "titulo": "Por qué Milei necesita enemigos más allá de la Argentina - EL PAÍS",
+          "medio": "El País",
+          "link": "https://elpais.com/argentina/2026-10-22/por-que-milei-necesita-enemigos-mas-alla-de-la-argentina.html",
+          "fecha": "2026-10-22T13:27:54.000Z",
+          "descripcion": "El presidente Javier Milei expulsó de la Argentina a un periodista brasileño por sus críticas al Gobierno libertario y su simpatía declarada por Luiz ..."
+        },
+        {
           "titulo": "Milei agita la campaña con insultos a Sánchez y abrazos a Ayuso | España - EL PAÍS",
           "medio": "El País",
           "link": "https://elpais.com/espana/2026-10-22/milei-agita-la-campana-con-insultos-a-sanchez-y-abrazos-a-ayuso.html",
@@ -1276,8 +1269,8 @@
       ]
     },
     {
-      "tema": "Estado de salud del papa León XIV y expectativas sobre su visita a la Argentina",
-      "resumen": "Informes médicos del Vaticano que confirman que el papa León XIV no requerirá tratamientos adicionales tras su cirugía y expresiones del pontífice que alimentan las expectativas de su viaje al país.",
+      "tema": "Estado de salud del papa León XIV y expectativas sobre su visita",
+      "resumen": "Reportes médicos sobre la recuperación del papa León XIV tras su intervención quirúrgica, confirmación de que no requerirá tratamientos adicionales y declaraciones sobre su futuro viaje a la Argentina.",
       "keyword": [
         "León XIV"
       ],
@@ -1425,8 +1418,8 @@
       ]
     },
     {
-      "tema": "Movimientos corporativos, impuestos y decisiones de magnates tecnológicos",
-      "resumen": "Novedades sobre líderes empresariales y millonarios como Elon Musk, Mark Zuckerberg y Sam Altman, incluyendo propuestas de fusión entre Tesla y SpaceX, disputas fiscales y donaciones políticas.",
+      "tema": "Acciones y movimientos corporativos de magnates tecnológicos",
+      "resumen": "Novedades empresariales, proyectos de fusión y declaraciones públicas de grandes magnates como Elon Musk, Mark Zuckerberg y Sam Altman.",
       "keyword": [
         "Magnates"
       ],
@@ -1567,8 +1560,8 @@
       ]
     },
     {
-      "tema": "Misiones espaciales, rovers y desarrollo tecnológico de la NASA",
-      "resumen": "Avances en programas de exploración lunar (Artemis), misiones hacia asteroides como Psyche, pruebas de motores y contratos con empresas tecnológicas y de robótica espacial.",
+      "tema": "Misiones espaciales, rovers y proyectos de la NASA",
+      "resumen": "Actualizaciones sobre misiones espaciales, pruebas de motores para programas lunares, desarrollo de rovers y contratos tecnológicos otorgados por la NASA.",
       "keyword": [
         "NASA"
       ],
@@ -1686,13 +1679,6 @@
           "descripcion": "NASA Awards Task Order Contract to Momentus for Mission Formulation Phase of Fly Foundational Robots Resupply Mission. NASA intends to choose one ..."
         },
         {
-          "titulo": "Teaching Robots to “Feel Pain”: AstraQua Secures $1.3 Million NASA Contract - sUAS News",
-          "medio": "Suasnews",
-          "link": "https://www.suasnews.com/2026/10/teaching-robots-to-feel-pain-astraqua-secures-1-3-million-nasa-contract/",
-          "fecha": "2026-10-22T11:29:18.000Z",
-          "descripcion": "NASA has awarded AstraQua Inc., a physical AI company, a $1274990 Phase II contract to advance its AstraSense technology for electric and ..."
-        },
-        {
           "titulo": "The surprising reason NASA sends Snoopy into space - Aleteia",
           "medio": "Aleteia",
           "link": "https://aleteia.org/2026/10/22/the-surprising-reason-nasa-sends-snoopy-into-space/",
@@ -1716,8 +1702,8 @@
       ]
     },
     {
-      "tema": "Novedades sobre plataformas de streaming y producciones audiovisuales",
-      "resumen": "Anuncios de estrenos, colaboraciones entre plataformas como Netflix y Hoichoi, reestructuraciones corporativas y polémicas en torno a la transmisión de eventos deportivos en servicios de streaming.",
+      "tema": "Novedades y estrenos en plataformas de streaming",
+      "resumen": "Anuncios de series, documentales, colaboraciones empresariales y reestructuraciones corporativas en el sector de las plataformas de entretenimiento digital.",
       "keyword": [
         "Streaming"
       ],
@@ -1865,8 +1851,8 @@
       ]
     },
     {
-      "tema": "Terremotos y actividad sísmica en diferentes regiones del mundo",
-      "resumen": "Reportes de sismos recientes, destacando un fuerte terremoto de magnitud 7.0 que sacudió la región del Tíbet en China, además de registros sísmicos menores en otras zonas geográficas.",
+      "tema": "Terremotos y actividad sísmica internacional",
+      "resumen": "Informes sobre movimientos telúricos de gran magnitud, como el terremoto de 7.0 registrado en el Tíbet, China, y sismos menores en otras regiones.",
       "keyword": [
         "Terremoto"
       ],
@@ -2012,13 +1998,6 @@
       "keywords": [],
       "noticias": [
         {
-          "titulo": "A un click de distancia: los trámites de Anses que pueden hacerse desde el celular",
-          "medio": "La Gaceta",
-          "link": "https://www.lagaceta.com.ar/nota/1159100/sociedad/a-click-distancia-tramites-anses-pueden-hacerse-desde-celular.html",
-          "fecha": "2026-10-22T13:55:09.000Z",
-          "descripcion": "Los celulares con sistema operativo Android y iOS pueden descargar la aplicación Mi Anses desde sus tiendas oficiales. Hay una serie de trámites ..."
-        },
-        {
           "titulo": "Los montos por hijo y cuánto cobrará en total una familia, en noviembre, por Tarjeta Alimentar y AUH",
           "medio": "El Liberal",
           "link": "https://www.elliberal.com.ar/nota/95643/2026/10/los-montos-por-hijo-y-cuanto-cobrara-en-total-una-familia-en-noviembre-por-tarjeta-alimentar-y-auh",
@@ -2040,18 +2019,32 @@
           "descripcion": "Aumento de Anses: ¿Cuánto cobran la AUH y las pensiones con el nuevo tope? Esta política de valores fijos convivirá con una suba del 1,93% que ..."
         },
         {
-          "titulo": "Nueva aerolínea argentina ya recibió los permisos para operar sus primeras dos rutas",
-          "medio": "Energiaytransporte",
-          "link": "https://energiaytransporte.com.ar/Noticias/Noticias-202610/nueva-aerolinea-argentina-ya-recibio-los-permisos-para-operar-sus-prim.html",
-          "fecha": "2026-10-22T15:25:03.000Z",
-          "descripcion": "A través de la Disposición 28/2026 publicada en el Boletín Oficial, la Secretaría de Transporte del Ministerio de Economía autorizó oficialmente a ..."
-        },
-        {
           "titulo": "Is a 'Behemoth El Niño ' coming to NJ? What it is, what to expect",
           "medio": "App",
           "link": "https://www.app.com/story/news/2026/10/22/is-a-behemoth-el-nio-coming-to-nj-what-it-is-what-to-expect/92376699007/",
           "fecha": "2026-10-22T12:06:39.000Z",
           "descripcion": "Most are familiar with an El Niño weather pattern, but the Behemoth El Niño will pack a much different punch for New Jersey this winter."
+        },
+        {
+          "titulo": "Landslides, fires, El Niño : Big Sur's spiritual centers 'living with precariousness'",
+          "medio": "Religionnews",
+          "link": "https://religionnews.com/2026/10/21/amid-landslides-fires-and-el-nino-big-surs-spiritual-centers-living-with-precariousness/",
+          "fecha": "2026-10-22T05:48:11.000Z",
+          "descripcion": "Landslides, fires, El Niño: Big Sur's spiritual centers 'living with precariousness'. BIG SUR, Calif. (RNS) — For those who visit, work and live at ..."
+        },
+        {
+          "titulo": "El ajustado escenario que anticipa una encuesta para las elecciones 2027: “Empate técnico”",
+          "medio": "El Cronista",
+          "link": "https://www.cronista.com/economia-politica/el-ajustado-escenario-que-anticipa-una-encuesta-para-las-presidenciales-empate-tecnico/",
+          "fecha": "2026-10-22T13:38:38.000Z",
+          "descripcion": "La última Encuesta de Satisfacción Política y Opinión Pública (ESPOP) de la Universidad de San Andrés, hizo un relevamiento sobre qué pasaría si las ..."
+        },
+        {
+          "titulo": "Meta's AI bill | Reuters",
+          "medio": "Reuters",
+          "link": "https://www.reuters.com/podcasts/reuters-morning-bid/metas-ai-bill-2026-10-22/",
+          "fecha": "2026-10-22T13:52:38.000Z",
+          "descripcion": "Artificial Intelligence · Cybersecurity · Space · Disrupted · Investigations ... Meta's AI bill. By Reuters. October 22, 20262:09 AM PDTUpdated 33 mins ..."
         },
         {
           "titulo": "#Ahora Los Veteranos de Guerra de Moreno difunden la iniciativa de la construcción ... - Facebook",
@@ -2061,11 +2054,11 @@
           "descripcion": "Last viewed on: Oct 22, 2026. More videos you may like. ATE General Rodríguez. 00:36. ATE General Rodríguez. 8 hours ago · 2K views."
         },
         {
-          "titulo": "Por qué Milei necesita enemigos más allá de la Argentina - EL PAÍS",
-          "medio": "El País",
-          "link": "https://elpais.com/argentina/2026-10-22/por-que-milei-necesita-enemigos-mas-alla-de-la-argentina.html",
-          "fecha": "2026-10-22T13:27:54.000Z",
-          "descripcion": "El presidente Javier Milei expulsó de la Argentina a un periodista brasileño por sus críticas al Gobierno libertario y su simpatía declarada por Luiz ..."
+          "titulo": "Trotta: “ Malvinas también debe ser una causa latinoamericana” y advirtió sobre medidas ...",
+          "medio": "Infoban",
+          "link": "https://www.infoban.com.ar/21/10/2026/trotta-malvinas-tambien-debe-ser-una-causa-latinoamericana-y-advirtio-sobre-medidas-comerciales-y-energeticas-contra-chile/",
+          "fecha": "2026-10-22T13:53:51.000Z",
+          "descripcion": "... Malvinas. Durante la sesión de este miércoles 21 de octubre en la ... Islas Malvinas · Nicolás Trotta. Compartir. Facebook · X · WhatsApp · Email."
         },
         {
           "titulo": "Behind Elon Musk's plans for a mega-merger of SpaceX and Tesla - Los Angeles Times",
@@ -2073,6 +2066,13 @@
           "link": "https://www.latimes.com/business/story/2026-10-22/behind-elon-musks-plans-for-mega-merger-of-spacex-tesla",
           "fecha": "2026-10-22T16:02:05.000Z",
           "descripcion": "Elon Musk says SpaceX and Tesla are considering a tie-up that could become the largest corporate merger ever, bringing rockets, electric vehicles ..."
+        },
+        {
+          "titulo": "Teaching Robots to “Feel Pain”: AstraQua Secures $1.3 Million NASA Contract - sUAS News",
+          "medio": "Suasnews",
+          "link": "https://www.suasnews.com/2026/10/teaching-robots-to-feel-pain-astraqua-secures-1-3-million-nasa-contract/",
+          "fecha": "2026-10-22T11:29:18.000Z",
+          "descripcion": "NASA has awarded AstraQua Inc., a physical AI company, a $1274990 Phase II contract to advance its AstraSense technology for electric and ..."
         },
         {
           "titulo": "Strong 7-magnitude earthquake strikes China's Tibet region | National & World News",
