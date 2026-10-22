@@ -1,1 +1,2087 @@
-
+{
+  "actualizado": "2026-10-22T17:38:04.850Z",
+  "total_keywords": 14,
+  "total_noticias": 280,
+  "resumen_general": "El panorama informativo de la jornada abarca una amplia variedad de temas políticos, económicos, internacionales y científicos. Destacan los anuncios de la ANSES sobre cronogramas de pagos y actualizaciones, las repercusiones de la gira internacional del presidente argentino Javier Milei —que incluyó críticas en España y declaraciones sobre las Islas Malvinas—, y la actualización sobre la salud del papa León XIV con señales alentadoras sobre una posible visita a la Argentina. A nivel internacional, se reportó un terremoto de magnitud 7 en la región autónoma del Tíbet (China), avanza el debate en torno a regulaciones e impactos de la inteligencia artificial, se discuten megacusiones y fusiones corporativas entre magnates tecnológicos como Elon Musk y Mark Zuckerberg, y se registran diversos avisos meteorológicos y climáticos globales, incluyendo alertas por tormentas y la evolución del fenómeno de El Niño.",
+  "temas": [
+    {
+      "tema": "Cronogramas de pagos, aumentos y trámites de ANSES",
+      "resumen": "Información oficial sobre el calendario de cobros de octubre y noviembre para jubilados, pensionados, AUH y otras asignaciones, así como actualizaciones en moratorias, topes de ingresos y canales de gestión.",
+      "keyword": [
+        "ANSES"
+      ],
+      "noticias": [
+        {
+          "titulo": "ANSES : quiénes cobran este jueves 22 de octubre según la terminación de DNI",
+          "medio": "Cholilaonline",
+          "link": "https://cholilaonline.ar/2026/10/anses-cronograma-de-pagos-jueves-22-de-octubre.html",
+          "fecha": "2026-10-22T16:43:43.000Z",
+          "descripcion": "Cronograma oficial de cobro de ANSES para este jueves 22 de octubre: jubilaciones mínimas, AUH, AUE y Prestación por Desempleo por terminación de ..."
+        },
+        {
+          "titulo": "Fecha de cobro de Anses : el cronograma de pagos para este jueves 22 de octubre",
+          "medio": "La Nación",
+          "link": "https://www.lanacion.com.ar/economia/fecha-de-cobro-de-anses-el-cronograma-de-pagos-para-este-jueves-22-de-octubre-nid22102026/",
+          "fecha": "2026-10-22T16:09:45.000Z",
+          "descripcion": "El organismo previsional sigue con el calendario de pagos de jubilaciones mínimas, la AUH y la AUE, entre otras asignaciones sociales - LA NACION."
+        },
+        {
+          "titulo": "ANSES : quiénes cobran hoy, jueves 22 de octubre de 2026 - Reconquista Radios",
+          "medio": "Reconquistaradios",
+          "link": "https://reconquistaradios.com.ar/a-nota/229661/anses-quienes-cobran-hoy-jueves-22-de-octubre-de-2026",
+          "fecha": "2026-10-22T15:31:24.000Z",
+          "descripcion": "En octubre, las jubilaciones, pensiones y asignaciones de la ANSES aumentan 1,66%, de acuerdo con la variación del índice de inflación. La ..."
+        },
+        {
+          "titulo": "ANSES : Calendario de pagos de mañana viernes 23 de octubre - las 24 horas de jujuy",
+          "medio": "Las24horasdejujuy",
+          "link": "https://las24horasdejujuy.com.ar/anses-calendario-de-pagos-de-manana-viernes-23-de-octubre/",
+          "fecha": "2026-10-22T15:04:20.000Z",
+          "descripcion": "ANSES, organismo dependiente del Ministerio de Capital Humano, informa que mañana inician los pagos de las jubilaciones y pensiones que superan el ..."
+        },
+        {
+          "titulo": "Aumentan las jubilaciones en noviembre: cuánto pagará ANSES y cuándo se cobra",
+          "medio": "El Liberal",
+          "link": "https://www.elliberal.com.ar/nota/95652/2026/10/aumentan-las-jubilaciones-en-noviembre--cuanto-pagara-anses-y-cuando-se-cobra",
+          "fecha": "2026-10-22T14:56:07.000Z",
+          "descripcion": "La Administración Nacional de la Seguridad Social (ANSES) aplicará durante el mes de noviembre un incremento del 1,9% para jubilados y pensionados ..."
+        },
+        {
+          "titulo": "Bono de $70.000 para jubilados de ANSES : qué va a pasar con el refuerzo en 2027",
+          "medio": "Crónica",
+          "link": "https://www.cronica.com.ar/sociedad/bono-de-70-000-para-jubilados-de-anses-que-va-a-pasar-con-el-refuerzo-en-2027/",
+          "fecha": "2026-10-22T14:22:57.000Z",
+          "descripcion": "El calendario de pagos de 2026 para jubilados y pensionados entra en su recta final y la Administración Nacional de la Seguridad Social (ANSES) ya ..."
+        },
+        {
+          "titulo": "En septiembre bajaron las compraventas - Reporte Inmobiliario",
+          "medio": "Reporteinmobiliario",
+          "link": "https://www.reporteinmobiliario.com/article5889-en-septiembre-bajaron-las-compraventas",
+          "fecha": "2026-10-22T14:05:05.000Z",
+          "descripcion": "Las nuevas líneas hipotecarias que se están poniendo en marcha —con fondeo del FGS de ANSES y participación del sistema bancario— representan ..."
+        },
+        {
+          "titulo": "Pensión por discapacidad de ANSES : cuál es el tope de ingresos para no perder la prestación",
+          "medio": "Clarín",
+          "link": "https://www.clarin.com/informacion-general/pension-discapacidad-anses-tope-ingresos-perder-prestacion_0_N1KPImypvK.html",
+          "fecha": "2026-10-22T13:42:25.000Z",
+          "descripcion": "Según el límite establecido por ANSES, el monto máximo que se puede ganar en octubre del 2026 sin perder el beneficio es $782.400 (el salario mínimo ..."
+        },
+        {
+          "titulo": "Jubilarse cuesta más caro: Anses aumentó un 1,66% la cuota de la moratoria",
+          "medio": "BAE Negocios",
+          "link": "https://www.baenegocios.com/economia/jubilarse-cuesta-mas-caro-anses-aumento-un-1-66-la-cuota-de-la-moratoria/",
+          "fecha": "2026-10-22T13:08:07.000Z",
+          "descripcion": "Anses mantiene el Plan de Pago de Deuda Previsional. Si bien finalizó la moratoria destinada a quienes ya cumplieron la edad jubilatoria, continúa ..."
+        },
+        {
+          "titulo": "Encendió el auto para ir a trabajar y se le prendió fuego - La Arena",
+          "medio": "Laarena",
+          "link": "https://www.laarena.com.ar/la-pampa/encendio-el-auto-para-ir-a-trabajar-y-se-le-prendio-fuego-202610228430",
+          "fecha": "2026-10-22T13:00:20.000Z",
+          "descripcion": "ANSES: quiénes cobran este jueves 22 de octubre · imagen home relacionadas · TECNOLOGIA · Transformación digital: una charla en General Pico mostrará ..."
+        },
+        {
+          "titulo": "Incompatibilidad de ANSES : por qué NO SE PUEDE COBRAR la PENSIÓN para Madre de ...",
+          "medio": "Ámbito",
+          "link": "https://www.ambito.com/informacion-general/incompatibilidad-anses-que-no-se-puede-cobrar-la-pension-madre-7-hijos-y-la-auh-al-mismo-tiempo-n6336392",
+          "fecha": "2026-10-22T12:53:17.000Z",
+          "descripcion": "Las madres que tienen o tuvieron siete hijos o más pueden solicitar una Pensión No Contributiva (PNC) mensual y vitalicia de ANSES, sin importar ..."
+        },
+        {
+          "titulo": "Quiénes cobran por ANSES este jueves 22 de octubre - Perfil",
+          "medio": "Perfil",
+          "link": "https://www.perfil.com/noticias/economia/calendario-pagos-anses-terminaciones-dni-percibieron-haberes-jueves-22-octubre-a40.phtml",
+          "fecha": "2026-10-22T12:24:45.000Z",
+          "descripcion": "ANSES detalló el esquema de acreditaciones estipulado para la jornada del jueves 22 de octubre que incluyó a jubilados, asignaciones sociales y ..."
+        },
+        {
+          "titulo": "ANSES : quiénes cobran este jueves 22 de octubre - La Arena",
+          "medio": "Laarena",
+          "link": "https://www.laarena.com.ar/la-region/anses-quienes-cobran-este-jueves-22-de-octubre-202610228500",
+          "fecha": "2026-10-22T12:07:37.000Z",
+          "descripcion": "Por parte de la Administración Nacional de la Seguridad Social (ANSES) lo ... ANSES, mientras que las asignaciones familiares se actualizaron ..."
+        },
+        {
+          "titulo": "Quiénes cobran prestaciones de Anses hoy, 22 de octubre de 2026 - La Gaceta",
+          "medio": "La Gaceta",
+          "link": "https://www.lagaceta.com.ar/nota/1159079/economia/quienes-cobran-prestaciones-anses-hoy-22-octubre-2026.html",
+          "fecha": "2026-10-22T11:43:51.000Z",
+          "descripcion": "La Administración Nacional de la Seguridad Social (Anses) terminará el pago de algunos de sus beneficios este jueves 22 de octubre."
+        },
+        {
+          "titulo": "Fechas de cobro ANSES : quiénes cobran hoy jubilaciones, pensiones y AUH este jueves ...",
+          "medio": "El Destape",
+          "link": "https://www.eldestapeweb.com/sociedad/fechas-de-cobro-anses-quienes-cobran-hoy-jubilaciones-pensiones-y-auh-este-jueves-22-de-octubre-20261022701",
+          "fecha": "2026-10-22T11:32:48.000Z",
+          "descripcion": "ANSES paga hoy jueves 22 de octubre jubilaciones mínimas y PUAM con DNI terminado en 9, AUH y SUAF en 9, AUE en 8 y desempleo en 0 y 1."
+        },
+        {
+          "titulo": "ANSES confirmó los montos del Pago Único en noviembre: cómo cobrar hasta $556.000",
+          "medio": "A24",
+          "link": "https://www.a24.com/previsional/anses-confirmo-los-montos-del-pago-unico-noviembre-como-cobrar-556000-n1608669",
+          "fecha": "2026-10-22T11:27:35.000Z",
+          "descripcion": "¿Cuánto paga ANSES por Adopción, Nacimiento y Matrimonio en noviembre? Las Asignaciones de Pago Único son sumas fijas de dinero de acreditación única ..."
+        }
+      ]
+    },
+    {
+      "tema": "Medidas gubernamentales, normativas y publicaciones oficiales",
+      "resumen": "Novedades legislativas y administrativas publicadas en boletines oficiales, incluyendo la designación de bandas criminales como organizaciones terroristas, privatizaciones y normativas fiscales o de transporte.",
+      "keyword": [
+        "Boletín Oficial"
+      ],
+      "noticias": [
+        {
+          "titulo": "Cortes y desvíos en Palermo - Gobierno de la Ciudad de Buenos Aires",
+          "medio": "Buenosaires",
+          "link": "https://buenosaires.gob.ar/visita-apostolica-del-santo-padre-leon-xiv/cortes-y-desvios-en-palermo",
+          "fecha": "2026-10-22T16:41:23.000Z",
+          "descripcion": "Footer Legales. Boletín oficial; Oficios judiciales; Política de privacidad; Transparencia; Términos y condiciones. Los contenidos de buenosaires.gob."
+        },
+        {
+          "titulo": "Inscripción al RePET del Cártel de Sinaloa, Ejército de Liberación Nacional, la Nueva ...",
+          "medio": "Argentina",
+          "link": "https://www.argentina.gob.ar/noticias/inscripcion-al-repet-del-cartel-de-sinaloa-ejercito-de-liberacion-nacional-la-nueva-familia",
+          "fecha": "2026-10-22T16:39:39.000Z",
+          "descripcion": "Por medio de la Resolución Conjunta 5-2026, publicada en el Boletín Oficial, el Ministerio de Seguridad Nacional y el Ministerio de Relaciones ..."
+        },
+        {
+          "titulo": "Desalojo exprés: ocho claves del proyecto que busca cambiar las reglas para inquilinos y ...",
+          "medio": "La Voz",
+          "link": "https://www.lavoz.com.ar/ciudadanos/desalojo-expres-claves-proyecto-busca-cambiar-reglas-inquilinos-propietarios_0_OqaSQdzAUh.html",
+          "fecha": "2026-10-22T15:50:25.000Z",
+          "descripcion": "Solo después de esa aprobación definitiva y de su publicación en el Boletín Oficial entrarán en vigor las nuevas reglas para desalojos y alquileres."
+        },
+        {
+          "titulo": "El Cártel de Sinaloa y otras cuatro bandas fueron declaradas organizaciones terroristas",
+          "medio": "Frenteacano",
+          "link": "https://frenteacano.com.ar/el-cartel-de-sinaloa-y-otras-cuatro-bandas-fueron-declaradas-organizaciones-terroristas/",
+          "fecha": "2026-10-22T15:49:44.000Z",
+          "descripcion": "... Boletín Oficial. A través de un comunicado, el Ejecutivo argumentó que el Cártel de Sinaloa “es una organización criminal transnacional dedicada ..."
+        },
+        {
+          "titulo": "Uno por uno, el listado de los días feriados en noviembre por la visita del papa León XIV",
+          "medio": "Crónica",
+          "link": "https://www.cronica.com.ar/sociedad/uno-por-uno-el-listado-de-los-dias-feriados-en-noviembre-por-la-visita-del-papa-leon-xiv/",
+          "fecha": "2026-10-22T15:33:27.000Z",
+          "descripcion": "La medida se atribuye al Decreto 1103/2026, publicado en el Boletín Oficial el 28 de septiembre. La normativa mencionada contempla un feriado para ..."
+        },
+        {
+          "titulo": "365 días del incumplimiento de la ley de Financiamiento Universitario - Jujuy Dice",
+          "medio": "Jujuydice",
+          "link": "https://www.jujuydice.com.ar/noticias/jujuy-3/365-dias-del-incumplimiento-de-la-ley-de-financiamiento-universitario-57442",
+          "fecha": "2026-10-22T15:14:45.000Z",
+          "descripcion": "El 21 de octubre de 2025 se publicaba en el Boletín Oficial de la Nación la 27.795 de Financiamiento de la Educación Universitaria y Recomposición ..."
+        },
+        {
+          "titulo": "Por unanimidad, derogaron la adhesión de Concordia a la Ley de Grandes Superficies",
+          "medio": "Elentrerios",
+          "link": "https://www.elentrerios.com/actualidad/por-unanimidad-derogaron-la-adhesion-de-concordia-a-la-ley-de-grandes-superficies.htm",
+          "fecha": "2026-10-22T15:04:25.000Z",
+          "descripcion": "... Boletín Oficial, mientras que el tercero es de forma. A continuación, el texto aprobado: Artículo 1° - Deróguese la Ordenanza N°34.338, mediante ..."
+        },
+        {
+          "titulo": "El gobierno adjudicó la venta de AYSA y el traspaso se firma antes del 13 de noviembre",
+          "medio": "Dataclave",
+          "link": "https://www.dataclave.com.ar/economia/el-gobierno-adjudico-la-venta-de-aysa-y-el-traspaso-se-firma-antes-del-13-de-noviembre_a6ad9fda3f4328af168f0dc93",
+          "fecha": "2026-10-22T14:58:02.000Z",
+          "descripcion": "En el Boletín Oficial se publicó la resolución por la cual se venden el 90% de las acciones que estaban en poder del Estado por 340 millones de ..."
+        },
+        {
+          "titulo": "El Gobierno de Milei vendió el 90% de AySA por solo US$340,2 millones - Agencia El Vigía",
+          "medio": "Agenciaelvigia",
+          "link": "https://agenciaelvigia.com.ar/nota/6903/el-gobierno-de-milei-vendio-el-90-de-aysa-por-solo-us-340-2-millones/",
+          "fecha": "2026-10-22T14:47:23.000Z",
+          "descripcion": "La adjudicación fue formalizada mediante la Resolución 1818/2026 del Ministerio de Economía, publicada este jueves 22 de octubre en el Boletín Oficial ..."
+        },
+        {
+          "titulo": "Cambió de módem y una licitación de más de US$ 1 millón por una renovación del WiFi",
+          "medio": "Lateclamardelplata",
+          "link": "https://www.lateclamardelplata.com.ar/66953-katopodis-cambia-el-modem-y-sale-a-licitar-por-mas-de-us-1-millon-una-renovacion-del-wifi",
+          "fecha": "2026-10-22T14:42:22.000Z",
+          "descripcion": "... oficial de USD 1.030.330. El proyecto será financiado por el BID y ... Boletín Oficial bonaerense. El procedimiento contempla la provisión ..."
+        },
+        {
+          "titulo": "Quiénes son las cinco peligrosas bandas criminales que Argentina declaró como terroristas",
+          "medio": "LM Neuquén",
+          "link": "https://www.lmneuquen.com/pais/quienes-son-las-cinco-peligrosas-bandas-criminales-que-argentina-declaro-como-terroristas-n1258290",
+          "fecha": "2026-10-22T14:02:11.000Z",
+          "descripcion": "... Boletín Oficial. Según el Ejecutivo, la decisión se enmarca en una estrategia de lucha contra el crimen organizado transnacional, busca reforzar ..."
+        },
+        {
+          "titulo": "Fecha de pago y aumentos de octubre para Jubilados y Pensionados - Tiempo Sur",
+          "medio": "Tiempo Sur",
+          "link": "https://www.tiemposur.com.ar/info-general/fecha-de-pago-y-aumentos-de-octubre-para-jubilados-y-pensionados",
+          "fecha": "2026-10-22T14:01:49.000Z",
+          "descripcion": "La norma, reglamentada en octubre de 2023 a través del Boletín Oficial de Santa Cruz, establece que la acreditación de ese haber “deberá ser abonado ..."
+        },
+        {
+          "titulo": "Legislatura Histórica: líderes religiosos de Córdoba dialogaron sobre la visita de León XIV",
+          "medio": "Legislaturacba",
+          "link": "https://legislaturacba.gob.ar/legislatura-historica-lideres-religiosos-de-cordoba-dialogaron-sobre-la-visita-de-leon-xiv/",
+          "fecha": "2026-10-22T14:01:35.000Z",
+          "descripcion": "La sesión fue transmitida en vivo por el canal oficial de la Legislatura en Youtube. ... Boletín Oficial de la Provincia de Córdoba · Ciudadano Digital ..."
+        },
+        {
+          "titulo": "El Gobierno confirmó un nuevo feriado nacional por la visita del papa León XIV: cuándo será",
+          "medio": "Contextotucuman",
+          "link": "https://www.contextotucuman.com/nota/426244/el-gobierno-confirmo-un-nuevo-feriado-nacional-por-la-visita-del-papa-leon-xiv-cuando-sera.html",
+          "fecha": "2026-10-22T13:55:31.000Z",
+          "descripcion": "De acuerdo con el decreto publicado en el Boletín Oficial, el calendario quedó establecido de la siguiente manera: Lunes 9 de noviembre: feriado ..."
+        },
+        {
+          "titulo": "Multas fiscales: comparación entre Inocencia Fiscal I e Inocencia Fiscal II y beneficios para MiPyMES",
+          "medio": "Documento",
+          "link": "https://documento.errepar.com/actualidad/multas-fiscales-comparacion-entre-inocencia-fiscal-i-e-inocencia-fiscal-ii-y-beneficios-para-20261021153945814",
+          "fecha": "2026-10-22T13:45:41.000Z",
+          "descripcion": "... Boletín Oficial), que no se encuentren firmes o que, encontrándose firmes, no hayan sido canceladas, correspondientes a obligaciones vencidas a ..."
+        },
+        {
+          "titulo": "El Gobierno declaró terroristas al Cártel de Sinaloa, las FARC-EP y otros tres grupos de la región",
+          "medio": "El Cronista",
+          "link": "https://www.cronista.com/economia-politica/el-gobierno-declaro-terroristas-al-cartel-de-sinaloa-las-farc-ep-y-otros-tres-grupos-de-la-region/%3FoutputType%3Damp-type",
+          "fecha": "2026-10-22T13:43:52.000Z",
+          "descripcion": "... Boletín Oficial. Ad. A través de un comunicado, el Ejecutivo fundamentó ... La resolución publicada en el Boletín Oficial, en tanto, formalizó esta ..."
+        },
+        {
+          "titulo": "El Gobierno declaró terroristas al Cártel de Sinaloa, las FARC-EP y otros tres grupos de la región",
+          "medio": "El Cronista",
+          "link": "https://www.cronista.com/economia-politica/el-gobierno-declaro-terroristas-al-cartel-de-sinaloa-las-farc-ep-y-otros-tres-grupos-de-la-region/",
+          "fecha": "2026-10-22T13:43:51.000Z",
+          "descripcion": "... Boletín Oficial. A través de un comunicado, el Ejecutivo fundamentó la ... La resolución publicada en el Boletín Oficial, en tanto, formalizó esta ..."
+        },
+        {
+          "titulo": "Mendoza probará una primaria con alumnos de distintos grados en clase",
+          "medio": "Mendozapost",
+          "link": "https://www.mendozapost.com/sociedad/mendoza-prueba-nuevo-tipo-educacion-primaria-desde-cuando-donde/",
+          "fecha": "2026-10-22T13:29:16.000Z",
+          "descripcion": "... Boletín Oficial de Mendoza. Su aplicación estará limitada inicialmente al servicio externo de la Escuela 8-448 Eva Perón, que funciona en paralelo ..."
+        },
+        {
+          "titulo": "Desalojo “exprés”: qué cambiará para inquilinos y dueños con el proyecto que tuvo media ...",
+          "medio": "Diarioneuquino",
+          "link": "https://diarioneuquino.com.ar/desalojo-expres-que-cambiara-para-inquilinos-y-duenos-con-el-proyecto-que-tuvo-media-sancion-en-diputados/",
+          "fecha": "2026-10-22T13:25:39.000Z",
+          "descripcion": "Si el Senado lo sanciona, la ley entrará en vigencia el día siguiente al de su publicación en el Boletín Oficial, salvo el capítulo sobre el ..."
+        }
+      ]
+    },
+    {
+      "tema": "Impactos globales, investigaciones y políticas sobre cambio climático",
+      "resumen": "Estudios científicos, reportes internacionales y debates sobre la alteración del clima en el planeta, afectaciones en ecosistemas como los arrecifes de coral, seguridad y recursos hídricos.",
+      "keyword": [
+        "Cambio climático"
+      ],
+      "noticias": [
+        {
+          "titulo": "'Arctic Passages' explores climate change's role in race to control Arctic trade routes - ASCE",
+          "medio": "Asce",
+          "link": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/10/22/arctic-passages-explores-climate-changes-role-in-race-to-control-arctic-trade-routes",
+          "fecha": "2026-10-22T16:58:38.000Z",
+          "descripcion": "Author Kieran Mulvaney explores how climate change is opening Arctic trade routes and intensifying geopolitical competition there."
+        },
+        {
+          "titulo": "Experts: How are climate scientists using artificial intelligence? - Carbon Brief",
+          "medio": "Carbonbrief",
+          "link": "https://www.carbonbrief.org/experts-how-are-climate-scientists-using-artificial-intelligence",
+          "fecha": "2026-10-22T16:51:05.000Z",
+          "descripcion": "Artificial intelligence (AI) is developing at a rapid pace and is increasingly being used by scientists to better understand climate change."
+        },
+        {
+          "titulo": "Rising military spending could worsen climate change and undermine security, experts warn",
+          "medio": "Phys",
+          "link": "https://phys.org/news/2026-10-military-worsen-climate-undermine-experts.html",
+          "fecha": "2026-10-22T16:30:48.000Z",
+          "descripcion": "Investing more in the military is not a solution to climate change and may cost us our security, warn experts in The BMJ's climate issue."
+        },
+        {
+          "titulo": "Across the country, hail causes billions of dollars in damage every year, and scientists ... - Facebook",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/washingtonpost/posts/across-the-country-hail-causes-billions-of-dollars-in-damage-every-year-and-scie/1487367916588412/",
+          "fecha": "2026-10-22T16:05:07.000Z",
+          "descripcion": "Insurance companies know that climate change is real... 1h · 5 likes."
+        },
+        {
+          "titulo": "Climate change abroad",
+          "medio": "Bafu",
+          "link": "https://www.bafu.admin.ch/en/climate-change-abroad",
+          "fecha": "2026-10-22T15:24:59.000Z",
+          "descripcion": "Published on 22 October 2026. Climate change abroad. Due to its close international interconnections, Switzerland is indirectly affected by ..."
+        },
+        {
+          "titulo": "Ministry of Environment, Climate Change & Forestry on X",
+          "medio": "X",
+          "link": "https://x.com/Environment_Ke/status/2113283423028539532",
+          "fecha": "2026-10-22T15:03:12.000Z",
+          "descripcion": "State Department for Environment and Climate Change, KIRDI, and the CTCN conducted an awareness workshop focused on leveraging technology to scale ..."
+        },
+        {
+          "titulo": "Climate change isn't a future problem for aviation. It's already changing how planes fly ... - LinkedIn",
+          "medio": "Linkedin",
+          "link": "https://www.linkedin.com/posts/catherine-thompson-sustainable-aviation_climate-change-isnt-a-future-problem-for-activity-7518911096070668288-fppT",
+          "fecha": "2026-10-22T14:58:50.000Z",
+          "descripcion": "Climate change isn't a future problem for aviation. It's already changing how planes fly. In this clip from my conversation with Gareth Kanee on ..."
+        },
+        {
+          "titulo": "Opinion: We must respond to climate change eroding North County's coastline",
+          "medio": "Sandiegouniontribune",
+          "link": "https://www.sandiegouniontribune.com/2026/10/22/opinion-we-must-respond-to-climate-change-eroding-north-countys-coastline/",
+          "fecha": "2026-10-22T14:43:47.000Z",
+          "descripcion": "According to the Yale Program on Climate Change Communications, 70% of adults in the San Diego metro area are worried about global warming and 66% ..."
+        },
+        {
+          "titulo": "Climate change is literally altering the shape of our planet | Live Science",
+          "medio": "Livescience",
+          "link": "https://www.livescience.com/planet-earth/climate-change-is-literally-altering-the-shape-of-our-planet",
+          "fecha": "2026-10-22T14:36:38.000Z",
+          "descripcion": "Climate change is making Earth progressively rounder, new research finds. The findings are a signal of human-caused climate change, however, ..."
+        },
+        {
+          "titulo": "Groundwater and food production under climate change | WUR",
+          "medio": "Wur",
+          "link": "https://www.wur.nl/en/news/groundwater-and-food-production-under-climate-change",
+          "fecha": "2026-10-22T14:35:46.000Z",
+          "descripcion": "WUR researcher Inge de Graaf receives an NWO Vidi grant to study how climate change affects groundwater, food production and the environment."
+        },
+        {
+          "titulo": "Climate Change Causing New Types of Disasters in the Country: Relief Minister - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/shorts/F7RGgCfphvk",
+          "fecha": "2026-10-22T14:35:02.000Z",
+          "descripcion": "Climate Change Causing New Types of Disasters in the Country: Relief Minister | Asian Television. 1. 0. Share. Video unavailable."
+        },
+        {
+          "titulo": "Dickson Mbi's Tellus reworks a Cameroonian fairytale into a climate change fable",
+          "medio": "Financial Times",
+          "link": "https://www.ft.com/content/e0ad49d4-0855-4abc-bb37-d7546321d8bd",
+          "fecha": "2026-10-22T14:31:32.000Z",
+          "descripcion": "Instead, Mbi reworks a traditional Cameroonian tale of a fire-ravaged village and an affronted river goddess into a modern fable about climate change."
+        },
+        {
+          "titulo": "La infancia y adolescencia frente al cambio climático en México | UNICEF",
+          "medio": "Unicef",
+          "link": "https://www.unicef.org/mexico/informes/infancia-y-adolescencia-cambio-climatico-mexico",
+          "fecha": "2026-10-22T14:29:14.000Z",
+          "descripcion": "El cambio climático es uno de los principales desafíos para el bienestar y el desarrollo de niñas, niños y adolescentes en México."
+        },
+        {
+          "titulo": "UN Climate Change - cop31 - LinkedIn",
+          "medio": "Linkedin",
+          "link": "https://www.linkedin.com/posts/unclimatechange_cop31-activity-7518753799776403460-Qcvm",
+          "fecha": "2026-10-22T14:11:28.000Z",
+          "descripcion": "UN Climate Change's Post ... The focus on limiting the duration and scale of 1.5°C overshoot is important. Faster emissions cuts and stronger adaptation ..."
+        },
+        {
+          "titulo": "El océano ha estado absorbiendo gran parte del calor y del carbono que generamos, y eso ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/Dex0rIaNICd/",
+          "fecha": "2026-10-22T13:54:46.000Z",
+          "descripcion": "344 likes, 4 comments - beclaworld on October 21, 2026: \"Que no se nos escape esto cuando hablamos de cambio climático: El océano ha estado ..."
+        },
+        {
+          "titulo": "Court Slaps Down NYC's Latest Attempt to Punish Energy Companies for Climate Change",
+          "medio": "Nationalreview",
+          "link": "https://www.nationalreview.com/news/court-slaps-down-nycs-latest-attempt-to-punish-energy-companies-for-climate-change/",
+          "fecha": "2026-10-22T13:51:50.000Z",
+          "descripcion": "An appellate court rejected the city's claim that the firms mislead consumers into thinking their products do not contribute to climate change."
+        },
+        {
+          "titulo": "Min. of Climate Change , Environment and Energy, MV on X",
+          "medio": "X",
+          "link": "https://x.com/MoEnvmv/status/2113263922484813900",
+          "fecha": "2026-10-22T13:44:26.000Z",
+          "descripcion": "of Climate Change, Environment and Energy, MV · @MoEnvmv. Land clearance and CCTV security camera installation work underway to start construction of ..."
+        },
+        {
+          "titulo": "Harvard Voices on Climate Change : Extreme Heat & Health - The Salata Institute",
+          "medio": "Salatainstitute",
+          "link": "https://salatainstitute.harvard.edu/user_events/harvard-voices-on-climate-change-extreme-heat-health/",
+          "fecha": "2026-10-22T13:35:56.000Z",
+          "descripcion": "The Salata Institute and the Harvard Alumni Association invite you to the latest installment of Harvard Voices on Climate Change, a virtual series ..."
+        },
+        {
+          "titulo": "I.U.C.N. Red List Classifies Most Shallow Coral Reefs as Critically Endangered",
+          "medio": "The New York Times",
+          "link": "https://www.nytimes.com/2026/10/22/climate/nearly-all-of-the-worlds-shallow-coral-reefs-are-now-critically-endangered.html",
+          "fecha": "2026-10-22T13:31:10.000Z",
+          "descripcion": "If climate change continues apace, 96 percent of shallow coral reef ecosystems may collapse within 50 years, including in Australia's Great ..."
+        },
+        {
+          "titulo": "Nearly all coral reefs risk collapse in 50 years: IUCN - The Japan Times",
+          "medio": "The Japan Times",
+          "link": "https://www.japantimes.co.jp/environment/2026/10/22/climate-change/coral-reefs-collapse-50-years/",
+          "fecha": "2026-10-22T13:14:46.000Z",
+          "descripcion": "Corals are heat sensitive and particularly vulnerable to human-driven climate change, which is warming the world's oceans and increasing the frequency ..."
+        }
+      ]
+    },
+    {
+      "tema": "Pronósticos meteorológicos locales y alertas por tormentas",
+      "resumen": "Reportes del clima, pronósticos del tiempo por región y advertencias de servicios meteorológicos sobre tormentas y lluvias intensas en distintas localidades.",
+      "keyword": [
+        "Clima"
+      ],
+      "noticias": [
+        {
+          "titulo": "Lluvia, frío y playas desiertas: el inusual clima que vive Río antes de Flamengo - Infocielo",
+          "medio": "Infocielo",
+          "link": "https://www.infocielo.com/deportes/lluvia-frio-y-playas-desiertas-el-inusual-clima-que-vive-rio-antes-de-flamengo-estudiantes",
+          "fecha": "2026-10-22T16:04:02.000Z",
+          "descripcion": "El césped del Maracaná fue sometido a intensos trabajos para disimular el desgaste que provoca la seguidilla de partidos y el pronóstico no es ..."
+        },
+        {
+          "titulo": "¡Atención con el clima !: hay alerta por lluvias intensas y ocasional caída de granizo a corto plazo",
+          "medio": "Bellville",
+          "link": "https://bellville.gob.ar/2026/10/22/atencion-con-el-clima-hay-alerta-por-lluvias-intensas-y-ocasional-caida-de-granizo-a-corto-plazo/",
+          "fecha": "2026-10-22T15:29:12.000Z",
+          "descripcion": "¡Atención con el clima!: hay alerta por lluvias intensas y ocasional caída de granizo a corto plazo. El área de Defensa Civil de la Municipalidad ..."
+        },
+        {
+          "titulo": "Lluvias en Mendoza: a qué hora llegarán las precipitaciones este jueves - Estación Zafiro",
+          "medio": "Estacionzafiro",
+          "link": "https://www.estacionzafiro.com.ar/sociedad/lluvias-mendoza-hora-llegaran-precipitaciones-jueves-n182640",
+          "fecha": "2026-10-22T15:20:41.000Z",
+          "descripcion": "ALERTA METEOROLÓGICA ... En el Gran Mendoza, el cielo permanecerá mayormente cubierto, aunque el pronóstico no anticipa precipitaciones generalizadas en ..."
+        },
+        {
+          "titulo": "Clima hoy en Buenos Aires: el pronóstico del tiempo para el jueves 22 de octubre",
+          "medio": "Minuto Uno",
+          "link": "https://www.minutouno.com/sociedad/clima-hoy-buenos-aires-el-pronostico-del-tiempo-el-jueves-22-octubre-n6336595",
+          "fecha": "2026-10-22T15:09:41.000Z",
+          "descripcion": "Clima hoy en Buenos Aires: el pronóstico del tiempo para el jueves 22 de octubre. Sociedad 22 octubre 2026 - 06:00. El Servicio Meteorológico Nacional ..."
+        },
+        {
+          "titulo": "Clima en La Rioja: el pronóstico del tiempo para este jueves 22 de octubre",
+          "medio": "Multimediounlar",
+          "link": "https://multimediounlar.ar/clima-en-la-rioja-el-pronostico-del-tiempo-para-este-jueves-22-de-octubre/",
+          "fecha": "2026-10-22T15:06:13.000Z",
+          "descripcion": "Clima en La Rioja: el pronóstico del tiempo para este jueves 22 de octubre ... Se espera las mismas condiciones del tiempo que ayer. Este jueves en la ..."
+        },
+        {
+          "titulo": "Vuelven las lluvias con todo al AMBA: a qué hora se larga y cuándo sale el sol otra vez ...",
+          "medio": "Radio Mitre",
+          "link": "https://radiomitre.cienradios.com/clima/vuelven-las-lluvias-con-todo-al-amba-a-que-hora-se-larga-y-cuando-sale-el-sol-otra-vez-segun-el-smn/",
+          "fecha": "2026-10-22T15:00:52.000Z",
+          "descripcion": "El pronóstico del SMN prevé un aumento de la inestabilidad en CABA y el ... ClimaSMN · Escuchar Mirar · Escuchar Mirar ..."
+        },
+        {
+          "titulo": "Por el clima , postergan la apertura de la segunda etapa del Parque Lineal - El Diario",
+          "medio": "El Diario de La Pampa",
+          "link": "https://www.eldiariodelapampa.com.ar/pais/82062/por-el-clima-postergan-la-apertura-de-la-segunda-etapa-del-parque-lineal",
+          "fecha": "2026-10-22T15:00:05.000Z",
+          "descripcion": "La Municipalidad de Santa Rosa informó que la apertura del Parque Lineal, correspondiente a la segunda etapa, se pospuso ante el pronóstico de ..."
+        },
+        {
+          "titulo": "El clima sopla a favor del maíz: las lluvias y la amplitud térmica arrasaron a las chicharritas",
+          "medio": "Saladillocampo",
+          "link": "https://saladillocampo.com.ar/blog/2026/10/22/el-clima-sopla-a-favor-del-maiz-las-lluvias-y-la-amplitud-termica-arrasaron-a-las-chicharritas/",
+          "fecha": "2026-10-22T14:51:52.000Z",
+          "descripcion": "A LAS CHICHARRITAS NO LES GUSTA EL CLIMA. En el documento, la Red amplió que la ombinación de lluvias abundantes y grandes amplitudes térmicas de las ..."
+        },
+        {
+          "titulo": "Clima hoy en Caleta Olivia, Santa Cruz: el pronóstico del tiempo para este jueves 22 ...",
+          "medio": "Filtrocero",
+          "link": "https://filtrocero.com.ar/clima-hoy-en-caleta-olivia-santa-cruz-el-pronostico-del-tiempo-para-este-jueves-22-octubre-de-2026/",
+          "fecha": "2026-10-22T14:49:59.000Z",
+          "descripcion": "Clima hoy en Caleta Olivia, Santa Cruz: el pronóstico del tiempo para este jueves 22 octubre de 2026 · El SMN anticipa para este jueves temperaturas ..."
+        },
+        {
+          "titulo": "Cambió el pronóstico del tiempo y tras el tormentón se supo cuándo subirá 17 grados la temperatura",
+          "medio": "Minuto Uno",
+          "link": "https://www.minutouno.com/sociedad/cambio-el-pronostico-del-tiempo-y-el-tormenton-se-supo-cuando-subira-17-grados-la-temperatura-n6336681",
+          "fecha": "2026-10-22T14:19:11.000Z",
+          "descripcion": "La progresión del clima hacia principios de noviembre será la siguiente: Sábado 31 de octubre: el primer fin de semana sin lluvias presentará un ..."
+        },
+        {
+          "titulo": "Cómo estará el clima este jueves en Mar del Plata - La Capital MDP",
+          "medio": "La Capital de Mar del Plata",
+          "link": "https://www.lacapitalmdp.com/como-estara-el-clima-este-jueves-en-mar-del-plata-164/",
+          "fecha": "2026-10-22T14:17:34.000Z",
+          "descripcion": "Alerta por viento · chaparrones · clima en Mar del Plata · Mar del Plata · pronóstico del tiempo · Servicio Meteorológico Nacional · SMN · Tiempo en Mar del ..."
+        },
+        {
+          "titulo": "El pronóstico del tiempo para hoy en Santa Rosa - La Arena",
+          "medio": "Laarena",
+          "link": "https://www.laarena.com.ar/la-region/el-pronostico-del-tiempo-para-hoy-en-santa-rosa-202610227260",
+          "fecha": "2026-10-22T14:14:23.000Z",
+          "descripcion": "Para este jueves 22 de octubre en la ciudad de Santa Rosa, desde el Servicio Meteorológico Nacional (SMN) lo que establecieron en el pronóstico que se ..."
+        },
+        {
+          "titulo": "Alerta meteorológica : fuertes tormentas y posibilidad de granizo en AMBA | El Destape",
+          "medio": "El Destape",
+          "link": "https://www.eldestapeweb.com/sociedad/alerta-meteorologica-fuertes-tormentas-posibilidad-granizo-amba-202610221134",
+          "fecha": "2026-10-22T14:05:51.000Z",
+          "descripcion": "Alerta meteorológica hoy. Tormentas fuertes y posibilid de granizo. Qué provincias están bajo alerta naranja. Pronóstico AMBA de los próximos ..."
+        },
+        {
+          "titulo": "¿Cómo sigue el clima el jueves en Viedma tras la alerta del día anterior? - NoticiasNet",
+          "medio": "Noticiasnet",
+          "link": "https://www.noticiasnet.com.ar/noticias/2026/10/21/230398-como-sigue-el-clima-el-jueves-en-viedma-tras-la-alerta-del-dia-anterior",
+          "fecha": "2026-10-22T14:01:02.000Z",
+          "descripcion": "El pronóstico de la AIC anticipa para el sábado una mínima de 0°C y una máxima de 15°C, cielo parcialmente nublado durante el día y despejado ..."
+        },
+        {
+          "titulo": "Clima en Olavarría para este jueves 22 de octubre: máxima de 19° y mínima de 10 - 2284",
+          "medio": "2284",
+          "link": "https://2284.com.ar/clima-en-olavarria-para-este-jueves-22-de-octubre-maxima-de-19-y-minima-de-10/",
+          "fecha": "2026-10-22T13:40:39.000Z",
+          "descripcion": "Clima en Olavarría para este jueves 22 de octubre: máxima de 19° y ... Pronóstico para los próximos días. Viernes 23 de octubre: llovizna ..."
+        },
+        {
+          "titulo": "Pronóstico de lluvia y las recomendaciones de Matías Bertolotti ante la posibilidad de ...",
+          "medio": "Eltrecetv",
+          "link": "https://www.eltrecetv.com.ar/arriba-argentinos/2026/10/22/pronostico-de-lluvia-y-las-recomendaciones-de-matias-bertolotti-ante-la-posibilidad-de-tormenta-electrica/",
+          "fecha": "2026-10-22T13:37:48.000Z",
+          "descripcion": "Pronóstico de lluvia y las recomendaciones de Matías Bertolotti ante la posibilidad de tormenta eléctrica · Después de una jornada en la que la Ciudad ..."
+        },
+        {
+          "titulo": "Cambió el pronóstico del tiempo y tras el tormentón se supo cuándo subirá 17 grados la temperatura",
+          "medio": "Sotoinfolibertad",
+          "link": "https://sotoinfolibertad.com.ar/articulo/2026/10/cambio-el-pronostico-del-tiempo-y-tras-el-tormenton-se-supo-cuando-subira-17-grados-la-temperatura.php",
+          "fecha": "2026-10-22T13:22:12.000Z",
+          "descripcion": "El período de inestabilidad y lluvias en Buenos Aires llegará a su fin según el pronóstico del tiempo. Qué día llegará el ansiado calor."
+        },
+        {
+          "titulo": "Vuelven las chances de lluvias y tormentas: así estará el clima en Catamarca",
+          "medio": "Primeraslineas",
+          "link": "https://primeraslineas.com.ar/contenido/18887/vuelven-las-chances-de-lluvias-y-tormentas-asi-estara-el-clima-en-catamarca",
+          "fecha": "2026-10-22T13:17:57.000Z",
+          "descripcion": "Vuelven las chances de lluvias y tormentas: así estará el clima en Catamarca ... El pronóstico del tiempo anticipa condiciones variables, dado que el ..."
+        },
+        {
+          "titulo": "Fuerte alerta meteorológica : tormentas severas amenazan a diez provincias - Mar Del Plata",
+          "medio": "Mardelplatateve",
+          "link": "https://mardelplatateve.com.ar/fuerte-alerta-meteorologica-tormentas-severas-amenazan-a-diez-provincias/%3Famp%3D1",
+          "fecha": "2026-10-22T13:17:34.000Z",
+          "descripcion": "El Servicio Meteorológico Nacional (SMN) ha emitido una serie de alertas que abarcan diez provincias debido a la llegada de intensos temporales ..."
+        },
+        {
+          "titulo": "Fuerte alerta meteorológica : tormentas severas amenazan a diez provincias - VisionNews",
+          "medio": "Visionnews",
+          "link": "https://visionnews.com.ar/fuerte-alerta-meteorologica-tormentas-severas-amenazan-a-diez-provincias/",
+          "fecha": "2026-10-22T13:13:25.000Z",
+          "descripcion": "Fuerte alerta meteorológica: tormentas severas amenazan a diez provincias ... El pronóstico para los próximos días en esta región indica que el ..."
+        }
+      ]
+    },
+    {
+      "tema": "Monitoreo y proyecciones del fenómeno climático El Niño",
+      "resumen": "Advertencias de organismos internacionales y meteorólogos sobre la intensidad y el impacto del fenómeno de El Niño en la agricultura, tormentas severas y preparativos institucionales.",
+      "keyword": [
+        "El Niño"
+      ],
+      "noticias": [
+        {
+          "titulo": "'Behemoth' El Niño could be 'off the charts,' forecasters warn | ABC27",
+          "medio": "Abc27",
+          "link": "https://www.abc27.com/national/behemoth-el-nino-could-be-off-the-charts-forecasters-warn/",
+          "fecha": "2026-10-22T17:26:17.000Z",
+          "descripcion": "A main focus of forecasting El Niño comes down to sea surface temperatures. In the Pacific, an “anomaly of 0.5 [degrees Celsius] above normal” can ..."
+        },
+        {
+          "titulo": "This Year's Powerful El Niño May Preview California's Climate Future | KQED",
+          "medio": "Kqed",
+          "link": "https://www.kqed.org/news/12105518/this-years-powerful-el-nino-may-preview-californias-climate-future",
+          "fecha": "2026-10-22T17:04:08.000Z",
+          "descripcion": "Researchers warn that this winter's El Niño impacts could be a window into the future, with higher seas and more intense storms."
+        },
+        {
+          "titulo": "DepEd to issue school guidelines to prepare for impacts of El Niño",
+          "medio": "Pia",
+          "link": "https://pia.gov.ph/news/luzon/ncr/deped-to-issue-school-guidelines-to-prepare-for-impacts-of-el-nino/",
+          "fecha": "2026-10-22T16:23:44.000Z",
+          "descripcion": "... El Niño during the 2026–2027 School Year. The guidelines will outline measures to protect students from extreme heat and water shortages, while ..."
+        },
+        {
+          "titulo": "Newsom criticizes Trump administration as California prepares for El Niño storms - KRCR",
+          "medio": "Krcrtv",
+          "link": "https://krcrtv.com/news/local/newsom-criticizes-trump-administration-as-california-prepares-for-el-nino-storms",
+          "fecha": "2026-10-22T15:57:15.000Z",
+          "descripcion": "California officials are ramping up preparations for potentially severe El Niño storms this winter, with emergency supplies positioned across the ..."
+        },
+        {
+          "titulo": "California preps for El Niño chaos as Trump admin signals it won't offer disaster relief",
+          "medio": "Salon",
+          "link": "https://www.salon.com/2026/10/22/california-preps-for-el-nino-chaos-as-trump-admin-signals-it-wont-offer-disaster-relief/",
+          "fecha": "2026-10-22T15:32:16.000Z",
+          "descripcion": "But this year's record-shattering El Niño climate pattern threatens to make Kelvin waves a little more intense throughout the winter, potentially ..."
+        },
+        {
+          "titulo": "Money Managers Say There's Nowhere to Hide as Super El Niño Forms - Claims Journal",
+          "medio": "Claimsjournal",
+          "link": "https://www.claimsjournal.com/news/national/2026/10/22/340874.htm",
+          "fecha": "2026-10-22T15:31:45.000Z",
+          "descripcion": "The climate phenomenon associated with warming across the equatorial Pacific Ocean is fanning crop-damaging droughts and floods. Food commodity prices ..."
+        },
+        {
+          "titulo": "Peru rolls out economic measures to counter El Niño impact | Reuters",
+          "medio": "Reuters",
+          "link": "https://www.reuters.com/business/environment/peru-rolls-out-economic-measures-counter-el-nio-impact-2026-10-22/",
+          "fecha": "2026-10-22T15:28:33.000Z",
+          "descripcion": "Peru on Thursday unveiled a package of economic measures aimed ​at cushioning a potential slowdown from the El ‌Niño weather phenomenon."
+        },
+        {
+          "titulo": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates - NPR",
+          "medio": "NPR",
+          "link": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino",
+          "fecha": "2026-10-22T15:23:44.000Z",
+          "descripcion": "The Iguazú Falls span more than a mile across both countries. A rain-soaked October, which scientists link to the Super El Niño, ..."
+        },
+        {
+          "titulo": "WATCH: Weather expert Dave Phillips talks El Nino , the next 10 days and the longterm forecast",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DRFK0Ug3Yxa0",
+          "fecha": "2026-10-22T15:11:23.000Z",
+          "descripcion": "Meteorologist Dave Phillips joins CTV News's Rob Cooper for an exclusive interview about El Nino, early fall, the next 10 days and long term ..."
+        },
+        {
+          "titulo": "El Niño is threatening California's fragile coast again—the 1982–83 El Niño opened eyes to ...",
+          "medio": "Phys",
+          "link": "https://phys.org/news/2026-10-el-nio-threatening-california-fragile.html",
+          "fecha": "2026-10-22T15:00:38.000Z",
+          "descripcion": "Storm waves eroded the dunes from beneath homes in Pajaro Dunes, Calif., on Monterey Bay, during the powerful 1982–83 El Niño. Credit: Gary Griggs."
+        },
+        {
+          "titulo": "How the super El Niño is affecting fall fertilizing for farmers - KGAN",
+          "medio": "Cbs2iowa",
+          "link": "https://cbs2iowa.com/news/local/how-the-super-el-nino-is-affecting-fall-fertilizing-for-farmers",
+          "fecha": "2026-10-22T14:59:53.000Z",
+          "descripcion": "A super el niño is underway — bringing the potential for a warmer, wetter fall in iowa. But for farmers — those conditions could make it harder to ..."
+        },
+        {
+          "titulo": "El Niño's impacts on November temperatures and precipitation - The Weather Channel",
+          "medio": "Weather",
+          "link": "https://weather.com/2026/10/22/forecast/national/november-outlook-el-nino-warmer-cooler-wetter-drier-average",
+          "fecha": "2026-10-22T14:50:28.000Z",
+          "descripcion": "November outlook: Whose winter will be delayed; whose may come early? · As El Niño continues to ramp up, its weather impacts are really beginning to ..."
+        },
+        {
+          "titulo": "Today's top news: El Niño , Yemen, Occupied Palestinian Territory, Ukraine, Democratic ... - OCHA",
+          "medio": "Unocha",
+          "link": "https://www.unocha.org/news/todays-top-news-el-nino-yemen-occupied-palestinian-territory-ukraine-democratic-republic-congo",
+          "fecha": "2026-10-22T10:36:08.000Z",
+          "descripcion": "UN relief chief warns El Niño is a 'wrecking ball,' calls for urgent global action. Tom Fletcher, the Under-Secretary-General for Humanitarian ..."
+        },
+        {
+          "titulo": "Canterbury farmers brace for potentially brutal El Niño summer as drought memories linger",
+          "medio": "Nzherald",
+          "link": "https://www.nzherald.co.nz/nz/canterbury-farmers-brace-for-potentially-brutal-el-nino-summer-as-drought-memories-linger/S4WIM7A72BFSLMGBNZN5Q6YBLU/",
+          "fecha": "2026-10-22T09:05:43.000Z",
+          "descripcion": "A Canterbury farmer who watched grass turn crispy within hours during a devastating drought nearly 40 years ago is preparing for another ..."
+        },
+        {
+          "titulo": "How El Niño could impact Ohio snowfall this winter | Lexington Herald Leader",
+          "medio": "Kentucky",
+          "link": "https://www.kentucky.com/news/nation-world/national/article317727394.html",
+          "fecha": "2026-10-22T08:09:11.000Z",
+          "descripcion": "What's Ohio's snowiest month? Will El Niño affect snow and temperatures this winter? Here's what we know. El Niño influences weather patterns. El Niño ..."
+        },
+        {
+          "titulo": "LIVE: UN briefing to urge early action on El Niño - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3D4UNfXwT_KOE",
+          "fecha": "2026-10-22T07:30:40.000Z",
+          "descripcion": "... El Niño is set to hit fragile communities hard. #UN #climate #elnino #emergency #weather #live #Reuters #News Keep up with the latest news from ..."
+        },
+        {
+          "titulo": "NWS: Strong El Niño Incoming This Winter - Taylorville Daily News",
+          "medio": "Taylorvilledailynews",
+          "link": "https://www.taylorvilledailynews.com/nws-strong-el-nino-incoming-this-winter/",
+          "fecha": "2026-10-22T06:45:13.000Z",
+          "descripcion": "Meteorologists are preparing for the arrival of an especially strong “El Niño” this winter. The climate phenomenon forms from irregular changes in ..."
+        },
+        {
+          "titulo": "Landslides, fires, El Niño : Big Sur's spiritual centers 'living with precariousness'",
+          "medio": "Religionnews",
+          "link": "https://religionnews.com/2026/10/21/amid-landslides-fires-and-el-nino-big-surs-spiritual-centers-living-with-precariousness/",
+          "fecha": "2026-10-22T05:48:11.000Z",
+          "descripcion": "Landslides, fires, El Niño: Big Sur's spiritual centers 'living with precariousness'. BIG SUR, Calif. (RNS) — For those who visit, work and live at ..."
+        },
+        {
+          "titulo": "Current El Nino event could be unprecedented in strength: WMO - The Hindu",
+          "medio": "Thehindu",
+          "link": "https://www.thehindu.com/news/international/wmo-warns-the-current-el-nino-could-be-unprecedented-in-strength/article71609858.ece",
+          "fecha": "2026-10-22T04:56:23.000Z",
+          "descripcion": "The WMO declares an El Nino when the sea surface temperature anomaly in this region is 0.5 degrees Celsius. In a statement, WMO Secretary-General ..."
+        }
+      ]
+    },
+    {
+      "tema": "Sondeos de opinión, intención de voto y encuestas electorales",
+      "resumen": "Publicación de diversas encuestas sobre escenarios electorales futuros, balotajes internacionales (como en Brasil), mediciones de imagen de dirigentes y análisis de preferencias políticas.",
+      "keyword": [
+        "Encuestas"
+      ],
+      "noticias": [
+        {
+          "titulo": "Encuesta Olé: quién debe acompañar a Otamendi en la zaga de River ante Racing",
+          "medio": "Olé",
+          "link": "https://www.ole.com.ar/river-plate/river-plate-encuesta-defensa-zaga-otamendi-rivero-facundo-gonzalez-tobias-ramirez_0_hR5QIcjkHQ.html",
+          "fecha": "2026-10-22T16:39:48.000Z",
+          "descripcion": "Con Lucas Martínez Quarta suspendido por cinco amarillas, Leonardo Ponzio deberá meter mano en el fondo. Encuesta Olé: quién debe acompañar a Otamendi ..."
+        },
+        {
+          "titulo": "¿Gana Bolsonaro o Lula? Esto dicen las últimas encuestas del balotaje en Brasil",
+          "medio": "Los Andes",
+          "link": "https://www.losandes.com.ar/mundo/gana-bolsonaro-o-lula-esto-dicen-las-ultimas-encuestas-del-balotaje-brasil-n6011302",
+          "fecha": "2026-10-22T16:22:16.000Z",
+          "descripcion": "Esto dicen las últimas encuestas del balotaje en Brasil. El próximo domingo, el país vecino definirá a su nuevo mandatario. Los sondeos anticipan una ..."
+        },
+        {
+          "titulo": "Votantes de EEUU quieren que el próximo Congreso se centre en precios e Irán, no en Trump",
+          "medio": "Clarín",
+          "link": "https://www.clarin.com/estados-unidos/votantes-de-eeuu-quieren-que-el-proximo-congreso-se-centre-en-precios-e-iran-no-en-trump-encuesta_0_r8syLfv46T.html",
+          "fecha": "2026-10-22T15:41:13.000Z",
+          "descripcion": "WASHINGTON (AP) — Independientemente del resultado en las próximas elecciones, una nueva encuesta de AP-NORC muestra que los votantes de los dos ..."
+        },
+        {
+          "titulo": "Empate técnico entre Lula da Silva y Flávio Bolsonaro, a cuatro días del balotaje",
+          "medio": "Radiodos",
+          "link": "https://www.radiodos.com.ar/215797-empate-tecnico-entre-lula-da-silva-y-flavio-bolsonaro-a-cuatro-dias-del-balotaje-las-ultimas-encuestas",
+          "fecha": "2026-10-22T15:34:37.000Z",
+          "descripcion": "La encuesta también midió la percepción sobre la administración de Lula. Según los datos, 47% desaprueba el gobierno y 46% lo aprueba, cifras que ..."
+        },
+        {
+          "titulo": "Jaldo lidera la intención de voto, Catalán se ubica a menos de cuatro puntos y Manzur ...",
+          "medio": "Tendenciadenoticias",
+          "link": "https://tendenciadenoticias.com.ar/politica/jaldo-lidera-la-intencion-de-voto-catalan-se-ubica-a-menos-de-cuatro-puntos-y-manzur-aparece-tercero",
+          "fecha": "2026-10-22T15:29:49.000Z",
+          "descripcion": "A poco más de seis meses de las elecciones provinciales previstas para el 9 de mayo de 2027, una nueva encuesta de CB Global Data comenzó a ..."
+        },
+        {
+          "titulo": "Nueva encuesta en Provincia: Kicillof mejor que Milei y sorpresa con un candidato libertario",
+          "medio": "Fm977",
+          "link": "https://fm977.com.ar/articulo/2026/10/nueva-encuesta-en-provincia-kicillof-mejor-que-milei-y-sorpresa-con-un-candidato-libertario.php",
+          "fecha": "2026-10-22T15:26:40.000Z",
+          "descripcion": "Nueva encuesta en Provincia: Kicillof mejor que Milei y sorpresa con un candidato libertario. Es el último estudio bonaerense de Zuban Córdoba, la ..."
+        },
+        {
+          "titulo": "Curso para procesamiento de fuentes estadísticas - Diario El Sureño",
+          "medio": "Surenio",
+          "link": "https://www.surenio.com.ar/curso-para-procesamiento-de-fuentes-estadisticas/",
+          "fecha": "2026-10-22T15:08:32.000Z",
+          "descripcion": "La Encuesta Permanente de Hogares y los Censos Nacionales de Población, Hogares y Viviendas constituyen la columna vertebral del Sistema Estadístico ..."
+        },
+        {
+          "titulo": "Encuesta 2027: \"antiperonismo\" o \"anti Milei\" ¿Cuál pesará más a la hora de votar?",
+          "medio": "Radiodelsolpehuajo",
+          "link": "https://radiodelsolpehuajo.com.ar/articulo/2026/10/encuesta-2027-antiperonismo-o-anti-milei-cual-pesara-mas-a-la-hora-de-votar.php",
+          "fecha": "2026-10-22T15:03:31.000Z",
+          "descripcion": "Encuesta 2027: \"antiperonismo\" o \"anti Milei\" ¿Cuál pesará más a la hora de votar? Una consultora buscó la forma de medir el rechazo para medir el ..."
+        },
+        {
+          "titulo": "Nueva encuesta en Provincia: Kicillof mejor que Milei y sorpresa con un candidato libertario",
+          "medio": "Fmdelcondado",
+          "link": "https://fmdelcondado.com.ar/nueva-encuesta-en-provincia-kicillof-mejor-que-milei-y-sorpresa-con-un-candidato-libertario",
+          "fecha": "2026-10-22T14:59:10.000Z",
+          "descripcion": "Es el último estudio bonaerense de Zuban Córdoba, la consultora más crítica del Gobierno. Evaluó las gestiones del gobernador y el Presidente, ..."
+        },
+        {
+          "titulo": "Encuesta del CELAG marca “empate técnico” entre Javier Milei y Axel Kicillof - ANDigital",
+          "medio": "Andigital",
+          "link": "https://andigital.com.ar/nota/144436/encuesta-del-celag-marca-empate-tecnico-entre-javier-milei-y-axel-kicillof/",
+          "fecha": "2026-10-22T14:47:15.000Z",
+          "descripcion": "De acuerdo con la encuesta, solamente el 35 % considera que el Presidente no forma parte de ella, mientras que aproximadamente dos tercios de la ..."
+        },
+        {
+          "titulo": "Se derrumbó la imagen de Milei tras burlarse de la gente que no llega a fin de mes",
+          "medio": "Página/12",
+          "link": "https://www.pagina12.com.ar/2026/10/22/se-derrumbo-la-imagen-de-milei-tras-burlarse-de-la-gente-que-no-llega-a-fin-de-mes/",
+          "fecha": "2026-10-22T14:43:52.000Z",
+          "descripcion": "... encuesta elaborada por la consultora Ad Hoc. Kevin Grunbaum, uno de los ... encuestas que difundió este medio, y hasta se animó a mofarse de ..."
+        },
+        {
+          "titulo": "Nueva encuesta en Provincia: Kicillof mejor que Milei y sorpresa con un candidato libertario",
+          "medio": "Clarín",
+          "link": "https://www.clarin.com/politica/nueva-encuesta-provincia-kicillof-mejor-milei-sorpresa-candidato-libertario_0_KdVx599ZZC.html",
+          "fecha": "2026-10-22T14:03:28.000Z",
+          "descripcion": "Evaluó las gestiones del gobernador y el Presidente, hizo un ranking de imágenes, y midió pisos y techos electorales. Nueva encuesta en Provincia: ..."
+        },
+        {
+          "titulo": "Empate técnico entre Lula da Silva y Flávio Bolsonaro, a cuatro días del balotaje",
+          "medio": "Minuto Uno",
+          "link": "https://www.minutouno.com/mundo/empate-tecnico-lula-da-silva-y-flavio-bolsonaro-cuatro-dias-del-balotaje-las-ultimas-encuestas-n6336586",
+          "fecha": "2026-10-22T14:01:07.000Z",
+          "descripcion": "Flávio Bolsonaro y Lula da Silva van al balotaje con escenario empatado. A pocos días del balotaje en Brasil, la última encuesta ..."
+        },
+        {
+          "titulo": "La mitad más uno: Boca, el elegido por la gente para ser Campeón de Liga :: Olé",
+          "medio": "Olé",
+          "link": "https://www.ole.com.ar/futbol-primera/encuesta-ole-boca-favorito-campeon-liga_0_PcSKXVK5Tj.html",
+          "fecha": "2026-10-22T13:54:09.000Z",
+          "descripcion": "La mayoría de las más de 40.000 personas que votaron en la encuesta de Olé eligieron al Xeneize. Se viene una definición atrapante."
+        },
+        {
+          "titulo": "Encuesta 2027: \"antiperonismo\" o \"anti Milei\" ¿Cuál pesará más a la hora de votar? | Perfil",
+          "medio": "Perfil",
+          "link": "https://www.perfil.com/noticias/politica/encuesta-2027-antiperonismo-o-anti-milei-cual-pesara-mas-a-la-hora-de-votar.phtml",
+          "fecha": "2026-10-22T13:51:06.000Z",
+          "descripcion": "La consultora Proyección publicó una encuesta nacional que realizó entre el 1 y el 13 de octubre y entre sus múltiples consultas pidió a los ..."
+        },
+        {
+          "titulo": "El ajustado escenario que anticipa una encuesta para las elecciones 2027: “Empate técnico”",
+          "medio": "El Cronista",
+          "link": "https://www.cronista.com/economia-politica/el-ajustado-escenario-que-anticipa-una-encuesta-para-las-presidenciales-empate-tecnico/",
+          "fecha": "2026-10-22T13:38:38.000Z",
+          "descripcion": "La última Encuesta de Satisfacción Política y Opinión Pública (ESPOP) de la Universidad de San Andrés, hizo un relevamiento sobre qué pasaría si las ..."
+        },
+        {
+          "titulo": "Flávio Bolsonaro arrasa en las apuestas y se impone sobre Lula da Silva con el 80%",
+          "medio": "iProfesional",
+          "link": "https://www.iprofesional.com/politica/467172-quien-ganara-las-elecciones-en-brasil-segun-las-casas-de-apuestas",
+          "fecha": "2026-10-22T13:36:24.000Z",
+          "descripcion": "Mientras las encuestas muestran una paridad absoluta, en el mercado de las predicciones por dinero el senador de derecha saca ventaja."
+        },
+        {
+          "titulo": "Taxis en caída libre: menos viajes y cada vez es más baja la recaudación - Diario El Día de La Plata",
+          "medio": "El Día",
+          "link": "https://www.eldia.com/la-ciudad/taxis-en-caida-libre-menos-viajes-y-cada-vez-es-mas-baja-la-recaudacion-la-ciudad_1792647990",
+          "fecha": "2026-10-22T13:09:37.000Z",
+          "descripcion": "... .Según la más reciente Encuesta de Taxis de La Plata (octubre 2026), elaborada por el Laboratorio de Desarrollo Sectorial y Territorial..."
+        },
+        {
+          "titulo": "Encuesta : la imagen negativa de Javier Milei trepó al 56% tras sus polémicos dichos sobre ...",
+          "medio": "Neuquenpost",
+          "link": "https://neuquenpost.com/encuesta-la-imagen-negativa-de-javier-milei-trepo-al-56-tras-sus-polemicos-dichos-sobre-quienes-no-llegan-a-fin-de-mes/",
+          "fecha": "2026-10-22T12:55:19.000Z",
+          "descripcion": "Un informe de la consultora Ad Hoc registró un aumento de cinco puntos por encima del promedio mensual y señaló que las declaraciones del ..."
+        },
+        {
+          "titulo": "Una encuesta reduce la diferencia entre Flávio Bolsonaro y Lula - El Chorrillero",
+          "medio": "Elchorrillero",
+          "link": "https://elchorrillero.com/nota/2026/10/22/670906-una-encuesta-reduce-la-diferencia-entre-flavio-bolsonaro-y-lula/amp/",
+          "fecha": "2026-10-22T12:52:05.000Z",
+          "descripcion": "Tres encuestas publicadas hoy confirman la ventaja del candidato de derecha, aunque por un margen estrecho, y un empate técnico sustancial."
+        }
+      ]
+    },
+    {
+      "tema": "Avances, regulaciones y ciberseguridad en Inteligencia Artificial",
+      "resumen": "Desarrollos de herramientas de IA, adopción corporativa, desafíos de ciberseguridad, costos operativos y regulaciones en procesos electorales y tecnológicos.",
+      "keyword": [
+        "IA"
+      ],
+      "noticias": [
+        {
+          "titulo": "Applied AI Engineer - Jobs at Nucor",
+          "medio": "Jobs",
+          "link": "https://jobs.nucor.com/job/Dallas-Applied-AI-Engineer-TX-75251/1442483600/",
+          "fecha": "2026-10-22T16:38:56.000Z",
+          "descripcion": "The successful candidate will engineer, deploy, and support full-stack AI-driven web applications on enterprise AI platforms such as C3.ai, Palantir ..."
+        },
+        {
+          "titulo": "Managing AI Token Consumption for Operational Resilience - CISA",
+          "medio": "Cisa",
+          "link": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+          "fecha": "2026-10-22T16:30:30.000Z",
+          "descripcion": "CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, Managing AI Token Consumption for ..."
+        },
+        {
+          "titulo": "AI Engineer at IQVIA",
+          "medio": "Jobs",
+          "link": "https://jobs.iqvia.com/en/jobs/R1555457-0",
+          "fecha": "2026-10-22T16:25:27.000Z",
+          "descripcion": "... AI project technical delivery. Qualifications • Master's Degree ... AI to finance to HR, there are so many opportunities to have an impact ..."
+        },
+        {
+          "titulo": "The Evident AI Symposium 2026 in New York City",
+          "medio": "Evidentinsights",
+          "link": "https://evidentinsights.com/events/evident-ai-symposium-new-york-2026%3Ftab%3Dagenda",
+          "fecha": "2026-10-22T16:15:37.000Z",
+          "descripcion": "Head of Group IT Architecture, Innovation, Data & AI, Allianz. Photo of Rohan Ramanath. Rohan Ramanath. General Manager, Artificial Intelligence, ..."
+        },
+        {
+          "titulo": "A.I. and Its Dangers Are Embedded In the Midterm Elections - The New York Times",
+          "medio": "The New York Times",
+          "link": "https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html",
+          "fecha": "2026-10-22T16:12:17.000Z",
+          "descripcion": "A.I. Is Embedded in Your Election Experience. So Are Its Dangers. The midterms are the first elections in which artificial intelligence is integrated ..."
+        },
+        {
+          "titulo": "On Main Street, Goldman Sachs makes a big bet on AI - NBC News",
+          "medio": "NBC News",
+          "link": "https://www.nbcnews.com/business/ceo-interviews/goldman-sachs-small-business-ai-institute-rcna604621",
+          "fecha": "2026-10-22T15:32:19.000Z",
+          "descripcion": "Goldman Sachs partners with OpenAI, Google, Meta and Anthropic to boost AI adoption among small businesses ... Artificial intelligence is already a huge ..."
+        },
+        {
+          "titulo": "From AI to ROI 2026 | Satori Analytics Summit",
+          "medio": "Satorianalytics",
+          "link": "https://satorianalytics.com/ai-to-roi.html",
+          "fecha": "2026-10-22T15:06:36.000Z",
+          "descripcion": "IPTO: AI Garage - Building an AI Culture across the organisation ... Head of Artificial Intelligence. Motor Oil Group."
+        },
+        {
+          "titulo": "This teacherless school says AI can teach students in 2 hours a day - CBS News",
+          "medio": "CBS News",
+          "link": "https://www.cbsnews.com/news/alpha-school-ai-teaching-2-hour-a-day/",
+          "fecha": "2026-10-22T15:06:02.000Z",
+          "descripcion": "For all the hype around artificial intelligence, education experts aren't sold on Alpha's unconventional teaching methods and AI-delivered curriculum."
+        },
+        {
+          "titulo": "Soaring AI Bills Are Vexing Wall Street Executives - Bloomberg.com",
+          "medio": "Bloomberg",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-22/how-wall-street-banks-are-grappling-with-soaring-ai-bills",
+          "fecha": "2026-10-22T15:01:08.000Z",
+          "descripcion": "The trajectory of computing costs is alarming finance chiefs already struggling to put a price tag on AI."
+        },
+        {
+          "titulo": "AI is increasingly moving across the cloud and the devices we use every day, with each ... - LinkedIn",
+          "medio": "Linkedin",
+          "link": "https://www.linkedin.com/posts/atilla-tinic-1913a7126_ai-is-increasingly-moving-across-the-cloud-activity-7518752826244816896-UcaU",
+          "fecha": "2026-10-22T14:56:34.000Z",
+          "descripcion": "AI is increasingly moving across the cloud and the devices we use every day ... Artificial Intelligence · Employee Experience · Workplace Trends ..."
+        },
+        {
+          "titulo": "The questions we ALL have about AI (and no one answers) - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DGGIfQv5eTfE",
+          "fecha": "2026-10-22T14:55:50.000Z",
+          "descripcion": "... IA en tu día a día laboral? #chatgpt #ai #ia #artificialintelligence #claude."
+        },
+        {
+          "titulo": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+          "medio": "Thehackernews",
+          "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+          "fecha": "2026-10-22T14:38:00.000Z",
+          "descripcion": "artificial intelligence, Cloud security, Cyber Attack, cyber espionage ... Shadow AI to Governed AI. How to Find and Control AI Agents Before ..."
+        },
+        {
+          "titulo": "People are taking an unapproved weight-loss drug. AI found something surprising",
+          "medio": "Sciencedaily",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
+          "fecha": "2026-10-22T14:28:50.000Z",
+          "descripcion": "Now, scientists are using artificial intelligence to investigate their experiences, uncovering unexpected symptom reports that differ from those ..."
+        },
+        {
+          "titulo": "AI discovered a software vulnerability that could impact 70% of websites worldwide. The ... - PBS",
+          "medio": "PBS",
+          "link": "https://www.pbs.org/newshour/nation/ai-discovered-a-software-vulnerability-that-could-impact-70-of-websites-worldwide-the-rush-is-on-to-patch-it",
+          "fecha": "2026-10-22T14:23:56.000Z",
+          "descripcion": "AI discovered a software vulnerability that could impact 70% of ... Artificial intelligence agents helped uncover the vulnerabilities. In a ..."
+        },
+        {
+          "titulo": "Websites went down around the world. Did AI stop it getting worse? | BBC News - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DomSYrjCtfD8",
+          "fecha": "2026-10-22T14:16:11.000Z",
+          "descripcion": "It took artificial intelligence (AI) to bring them to light and caused a global cyber-security alert. The BBC's Cyber Correspondent Joe Tidy ..."
+        },
+        {
+          "titulo": "Democratic governance of frontier AI , part II: Empowering cyber defenders | OpenAI",
+          "medio": "Openai",
+          "link": "https://openai.com/index/empowering-cyber-defenders/",
+          "fecha": "2026-10-22T14:09:00.000Z",
+          "descripcion": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient ..."
+        },
+        {
+          "titulo": "Meta's AI bill | Reuters",
+          "medio": "Reuters",
+          "link": "https://www.reuters.com/podcasts/reuters-morning-bid/metas-ai-bill-2026-10-22/",
+          "fecha": "2026-10-22T13:52:38.000Z",
+          "descripcion": "Artificial Intelligence · Cybersecurity · Space · Disrupted · Investigations ... Meta's AI bill. By Reuters. October 22, 20262:09 AM PDTUpdated 33 mins ..."
+        },
+        {
+          "titulo": "Barclays to slash 5,000 jobs in AI efficiency push - CNBC",
+          "medio": "CNBC",
+          "link": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
+          "fecha": "2026-10-22T13:52:14.000Z",
+          "descripcion": "... AI ... British lender Barclays has revealed plans to cut 5,000 jobs — about 5% of its total workforce — as part of an artificial intelligence-linked ..."
+        },
+        {
+          "titulo": "US banks detect unauthorized AI agents in customer accounts, Axios reports - Reuters",
+          "medio": "Reuters",
+          "link": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
+          "fecha": "2026-10-22T13:49:30.000Z",
+          "descripcion": "Artificial Intelligence · Cybersecurity · Space · Disrupted · Investigations ... Oct 22 (Reuters) - Major US banks are detecting ​unauthorized third- ..."
+        },
+        {
+          "titulo": "Did a Multnomah County opposition campaign violate state AI disclosure law? - OPB",
+          "medio": "Opb",
+          "link": "https://www.opb.org/article/2026/10/21/multnomah-county-opposition-campaign-state-ai-disclosure-law/",
+          "fecha": "2026-10-22T13:34:30.000Z",
+          "descripcion": "PORTLAND, Ore. Oct. 21, 2026 3:33 p.m.. Artificial intelligence is once again being cited as being misused in a high profile election race. Follow ..."
+        }
+      ]
+    },
+    {
+      "tema": "Reclamo de soberanía y declaraciones sobre las Islas Malvinas",
+      "resumen": "Reafirmación de la vía pacífica y diplomática por parte del gobierno argentino respecto a la soberanía de las Islas Malvinas, con rechazo explícito a acciones bélicas y críticas a la postura británica.",
+      "keyword": [
+        "Islas Malvinas"
+      ],
+      "noticias": [
+        {
+          "titulo": "El presidente de Argentina descarta una acción militar sobre las Islas Malvinas",
+          "medio": "Independentespanol",
+          "link": "https://www.independentespanol.com/noticias/mundo/reino-unido/islas-malvinas-javier-milei-argentina-b3071603.html",
+          "fecha": "2026-10-22T16:22:00.000Z",
+          "descripcion": "El presidente argentino, Javier Milei, descartó emprender acciones militares para arrebatar las Islas Malvinas a Gran Bretaña, a pesar de haber ..."
+        },
+        {
+          "titulo": "Argentina reiterates diplomatic means to regain sovereignty over Malvinas - Xinhua",
+          "medio": "English",
+          "link": "https://english.news.cn/20261022/1cd3002eff554957886317bcb2faebc5/c.html",
+          "fecha": "2026-10-22T16:17:20.000Z",
+          "descripcion": "... Malvinas Islands, known in Britain as the Falkland Islands, through diplomatic means. Speaking at an event in Madrid, Milei said he did not ..."
+        },
+        {
+          "titulo": "Diplomáticos argentinos llaman al diálogo entre cancillerías para evitar conflictos en ruta ...",
+          "medio": "Portalportuario",
+          "link": "https://portalportuario.cl/diplomaticos-argentinos-llaman-al-dialogo-entre-cancillerias-para-evitar-conflictos-en-ruta-punta-arenas-islas-falkland/",
+          "fecha": "2026-10-22T16:05:02.000Z",
+          "descripcion": "... Falkland/Malvinas. Cabe recordar que solo faltan semanas para el zarpe ... “Todos sabemos que existe la cuestión de soberanía y que las Islas Malvinas ..."
+        },
+        {
+          "titulo": "Luis Aguilera, el chaqueño que murió defendiendo Malvinas | Diario Época Corrientes",
+          "medio": "Diarioepoca",
+          "link": "https://www.diarioepoca.com/1393237-luis-aguilera-el-chaqueno-que-murio-defendiendo-malvinas",
+          "fecha": "2026-10-22T15:43:10.000Z",
+          "descripcion": "... Islas Malvinas como integrante de la Compañía de Infantería \"C\". En el archipiélago participó de las posiciones defensivas argentinas en las ..."
+        },
+        {
+          "titulo": "Malvinas : lejos de sumar más banderas, debemos defender la propia con patriotismo.",
+          "medio": "Clarín",
+          "link": "https://www.clarin.com/opinion/malvinas-lejos-sumar-banderas-debemos-defender-propia-patriotismo_0_YVJlrClS2P.html",
+          "fecha": "2026-10-22T15:22:02.000Z",
+          "descripcion": "Un excombatiente de Malvinas observa el Cementerio argentino de Darwin este viernes, en Islas Malvinas. Foto: EFE/ Juan Ignacio Roncoroni ..."
+        },
+        {
+          "titulo": "En medio de las tensiones abiertas con Argentina por los vínculos comerciales y logísticos ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/p/DezNbDVlF5e/",
+          "fecha": "2026-10-22T15:17:45.000Z",
+          "descripcion": "Según Agenda Malvinas, el Reino Unido estaría impulsando una mayor cooperación logística entre Chile y las Islas Malvinas, a partir de una futura ruta ..."
+        },
+        {
+          "titulo": "Javier Milei seguirá \"incomodando\" a los ingleses hasta que devuelvan las Malvinas y tildó ...",
+          "medio": "MDZ",
+          "link": "https://www.mdzol.com/politica/2026/10/22/javier-milei-seguira-molestando-a-los-ingleses-hasta-que-devuelvan-las-malvinas-y-tildo-a-pedro-sanc-1989934.html",
+          "fecha": "2026-10-22T15:08:01.000Z",
+          "descripcion": "... Islas Malvinas. En declaraciones brindadas a El Observador de España, el mandatario libertario descartó de forma categórica un conflicto bélico ..."
+        },
+        {
+          "titulo": "Fuerte mensaje de Milei por Malvinas : “Los ingleses están inquietos y los vamos a seguir ... - TN",
+          "medio": "TN",
+          "link": "https://tn.com.ar/politica/2026/10/22/fuerte-mensaje-de-milei-por-malvinas-los-ingleses-estan-inquietos-y-los-vamos-a-seguir-incomodando/",
+          "fecha": "2026-10-22T15:06:08.000Z",
+          "descripcion": "Javier Milei volvió a descartar acciones bélicas en las Islas Malvinas: “No creemos en las soluciones violentas”. El libertario volvió a descartar ..."
+        },
+        {
+          "titulo": "Malvinas , Causa Central EN VIVO | Radio Gráfica - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3D2sz4ZMPxykM",
+          "fecha": "2026-10-22T14:55:03.000Z",
+          "descripcion": "Malvinas, Causa Central EN VIVO | Radio Gráfica. @radiografica893 5 ... Voces de Malvinas - Carlos Eduardo Del Valle Carrizo Salvadores. Voces ..."
+        },
+        {
+          "titulo": "Milei advirtió sobre las Malvinas : \"Los vamos a seguir incomodando hasta que ... - Radio del Plata",
+          "medio": "Amdelplata",
+          "link": "https://amdelplata.com/milei-malvinas-incomodando-devuelvan-las-islas/",
+          "fecha": "2026-10-22T14:48:32.000Z",
+          "descripcion": "... Islas Malvinas. El jefe de Estado aseguró que mantendrán firme la presión diplomática e internacional en todos los foros internacionales hasta ..."
+        },
+        {
+          "titulo": "piden que el Congreso autorice acciones militares | Eduardo Falcone - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DlhYepT9fjJM",
+          "fecha": "2026-10-22T14:27:44.000Z",
+          "descripcion": "El diputado nacional Eduardo Falcone (MID) analizó el proyecto de la Ley Malvinas y explicó por qué solicita que el Congreso mantenga el control ..."
+        },
+        {
+          "titulo": "How Argentina will try to secure the Falklands – without using force | The Independent",
+          "medio": "The Independent",
+          "link": "https://www.independent.co.uk/bulletin/news/argentina-milei-falkland-islands-military-action-b3071342.html",
+          "fecha": "2026-10-22T14:23:22.000Z",
+          "descripcion": "Argentine president Javier Milei has ruled out military action over the Falkland Islands, insisting his government will pursue its sovereignty ..."
+        },
+        {
+          "titulo": "# Malvinas #Milei El Presidente remarcó que el reclamo continuará por vías pacíficas e ... - Facebook",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/diariochaco/posts/malvinas-milei-el-presidente-remarc%25C3%25B3-que-el-reclamo-continuar%25C3%25A1-por-v%25C3%25ADas-pac%25C3%25ADfica/1593099872843022/",
+          "fecha": "2026-10-22T14:11:13.000Z",
+          "descripcion": "\"Los vamos a seguir incomodando\": la advertencia de Milei a Reino Unido por las Islas Malvinas. El Presidente remarcó que el reclamo continuará ..."
+        },
+        {
+          "titulo": "Milei prometió \"seguir incomodando\" a Inglaterra hasta que devuelvan Malvinas - Crónica",
+          "medio": "Crónica",
+          "link": "https://www.cronica.com.ar/politica/milei-prometio-seguir-incomodando-a-inglaterra-hasta-que-devuelvan-malvinas/",
+          "fecha": "2026-10-22T14:10:35.000Z",
+          "descripcion": "Milei destacó lo realizado por su Gobierno en el reclamo por la soberanía de las Islas Malvinas. Enfatizó, asimismo, que el reclamo argentino no ..."
+        },
+        {
+          "titulo": "Javier Milei volvió a referirse a las Islas Malvinas y destacó la presión diplomática en el reclamo de ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/p/DezJML5DiAi/",
+          "fecha": "2026-10-22T13:59:36.000Z",
+          "descripcion": "| MALVINAS ARGENTINAS: Javier Milei ratificó el reclamo de soberanía sobre las Islas Malvinas y reafirmó que los derechos históricos de ..."
+        },
+        {
+          "titulo": "Un héroe de Malvinas estará este sábado en el Centro Cultural - Infoeme",
+          "medio": "Infoeme",
+          "link": "https://www.infoeme.com/informacion-general/2026-10-22-10-44-14-un-heroe-de-malvinas-estara-este-sabado-en-el-centro-cultural",
+          "fecha": "2026-10-22T13:54:33.000Z",
+          "descripcion": "Entre las 17 y las 19 se realizará una nueva edición de “Te Cuento Malvinas” con la presencia de Rubén Sassone, piloto de avión Pucará durante la ..."
+        },
+        {
+          "titulo": "Trotta: “ Malvinas también debe ser una causa latinoamericana” y advirtió sobre medidas ...",
+          "medio": "Infoban",
+          "link": "https://www.infoban.com.ar/21/10/2026/trotta-malvinas-tambien-debe-ser-una-causa-latinoamericana-y-advirtio-sobre-medidas-comerciales-y-energeticas-contra-chile/",
+          "fecha": "2026-10-22T13:53:51.000Z",
+          "descripcion": "... Malvinas. Durante la sesión de este miércoles 21 de octubre en la ... Islas Malvinas · Nicolás Trotta. Compartir. Facebook · X · WhatsApp · Email."
+        },
+        {
+          "titulo": "Milei descarta ação militar pelas Malvinas após fala de Trump - UOL Notícias",
+          "medio": "UOL",
+          "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/22/milei-descarta-acao-militar-pelas-malvinas-apos-fala-de-trump.ghtm",
+          "fecha": "2026-10-22T13:37:02.000Z",
+          "descripcion": "O presidente da Argentina, Javier Milei, descartou uma ação militar para retomar as Ilhas Malvinas e afirmou que buscará o território pela via ..."
+        },
+        {
+          "titulo": "Las palabras no bastan para recuperar las Malvinas | 22 de octubre de 2026 - Hoy Día Córdoba",
+          "medio": "Hoydia",
+          "link": "https://hoydia.com.ar/hoycomunidad/las-palabras-no-bastan-para-recuperar-las-malvinas/",
+          "fecha": "2026-10-22T13:14:37.000Z",
+          "descripcion": "Un lector de Hoy Comunidad envió una reflexión sobre la cuestión de las Islas Malvinas y cuestionó la respuesta del Gobierno de Javier Milei."
+        }
+      ]
+    },
+    {
+      "tema": "Gira internacional, agenda y declaraciones del presidente Javier Milei",
+      "resumen": "Actividades del presidente Javier Milei durante su viaje por España, reuniones con líderes políticos europeos, cuestionamientos a mandatarios extranjeros y balances sobre la marcha de la economía local.",
+      "keyword": [
+        "Javier Milei"
+      ],
+      "noticias": [
+        {
+          "titulo": "TARICO FAKE NEWS: \" JAVIER MILEI \" on \"Sólo una vuelta más\" - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DF70mrVj-kRs",
+          "fecha": "2026-10-22T17:14:51.000Z",
+          "descripcion": "TARICO FAKE NEWS: “JAVIER MILEI\" en “Sólo una vuelta más\" ☆ Suscribite a nuestro canal → https://bit.ly/365OTiS ☆ Informate sobre las noticias ..."
+        },
+        {
+          "titulo": "Avanzan las privatizaciones: el gobierno de Javier Milei adjudicó la venta de AySA por u ...",
+          "medio": "Ámbito",
+          "link": "https://www.ambito.com/economia/avanzan-las-privatizaciones-el-gobierno-javier-milei-adjudico-la-venta-aysa-us340-millones-n6336599",
+          "fecha": "2026-10-22T16:55:04.000Z",
+          "descripcion": "El Ministerio de Economía aprobó la venta del 90% de las acciones estatales de la empresa de agua al consorcio integrado por Rowing, ..."
+        },
+        {
+          "titulo": "Miguel Broda criticó el plan económico de Javier Milei , pidió un dólar más alto y advirtió ...",
+          "medio": "Ámbito",
+          "link": "https://www.ambito.com/economia/miguel-broda-critico-el-plan-economico-javier-milei-pidio-un-dolar-mas-alto-y-advirtio-el-cierre-empresas-n6336746",
+          "fecha": "2026-10-22T16:50:36.000Z",
+          "descripcion": "El vínculo entre ambos le da un peso importante a las críticas: Javier Milei trabajó en el estudio de Miguel Ángel Broda antes de pasar a las empresas ..."
+        },
+        {
+          "titulo": "JAVIER MILEI SE REUNIÓ CON AYUSO Y ABASCAL EN ESPAÑA - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DFEyDp5sEpzs",
+          "fecha": "2026-10-22T16:30:51.000Z",
+          "descripcion": "El presidente argentino, Javier Milei, se reunió en España con Santiago Abascal, titular de Vox, e Isabel Díaz Ayuso, dirigente del Partido ..."
+        },
+        {
+          "titulo": "Javier Milei volvió a criticar a Pedro Sánchez: “Es una mancha más, como nosotros tuvimos ...",
+          "medio": "TN",
+          "link": "https://tn.com.ar/politica/2026/10/22/milei-comparo-a-pedro-sanchez-con-los-kirchner-y-volvio-a-reclamar-por-malvinas-seguiremos-incomodando-a-los-ingleses/",
+          "fecha": "2026-10-22T16:19:56.000Z",
+          "descripcion": "El Presidente redobló los cuestionamientos contra su par español, al que acusó de hacer “las mismas aberraciones” que el kirchnerismo en la ..."
+        },
+        {
+          "titulo": "La peculiar crítica en la Asamblea de Madrid: Javier Milei es el sueño húmedo de la derecha",
+          "medio": "Ámbito",
+          "link": "https://www.ambito.com/politica/fuerte-critica-la-asamblea-madrid-javier-milei-es-el-sueno-humedo-la-derecha-n6336642",
+          "fecha": "2026-10-22T15:44:41.000Z",
+          "descripcion": "La portavoz de Más Madrid cuestionó a Isabel Díaz Ayuso por recibir al mandatario argentino y la acusó de priorizar sus encuentros con dirigentes ..."
+        },
+        {
+          "titulo": "Javier Milei reconoció que la economía se desacelera y vinculó la suba del riesgo país con ... - TN",
+          "medio": "TN",
+          "link": "https://tn.com.ar/economia/2026/10/22/milei-admitio-que-la-economia-se-desacelera-y-vinculo-la-suba-del-riesgo-pais-con-la-incertidumbre-electoral-y-el-contexto-global/",
+          "fecha": "2026-10-22T15:36:26.000Z",
+          "descripcion": "El Presidente defendió su programa económico. Reconoció una desaceleración de la actividad y apuntó contra la oposición por las dificultades que ..."
+        },
+        {
+          "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al ...",
+          "medio": "La Nación",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
+          "fecha": "2026-10-22T15:17:22.000Z",
+          "descripcion": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios - LA NACION."
+        },
+        {
+          "titulo": "Javier Milei cumple 56 años: cómo celebrará la fecha - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/shorts/7tgpdrgmHdI",
+          "fecha": "2026-10-22T15:10:56.000Z",
+          "descripcion": "... Javier Milei se desarrolla a la par de su agenda política en el país, tras el viaje internacional. #FiloNews #JavierMilei #Cumpleaños #Politica ..."
+        },
+        {
+          "titulo": "Javier Milei habló en España y hubo un detalle que sorprendió: qué pasó con los sponsors",
+          "medio": "Minuto Uno",
+          "link": "https://www.minutouno.com/politica/javier-milei-hablo-espana-y-hubo-un-detalle-que-sorprendio-que-paso-los-sponsors-n6336619",
+          "fecha": "2026-10-22T15:07:49.000Z",
+          "descripcion": "La participación de Javier Milei en el Nueva Economía Fórum de Madrid dejó una particularidad que no pasó inadvertida. Mientras el Presidente ..."
+        },
+        {
+          "titulo": "Costos y misterios de los siete viajes que hizo Javier Milei a España - La Nación",
+          "medio": "La Nación",
+          "link": "https://www.lanacion.com.ar/politica/costos-y-misterios-de-los-siete-viajes-que-hizo-javier-milei-a-espana-nid22102026/",
+          "fecha": "2026-10-22T14:06:40.000Z",
+          "descripcion": "MADRID.- El presidente Javier Milei pasó 15 días en España, pero no conoce La Moncloa, el Congreso ni el Palacio Real. Siempre visitó esta capital ..."
+        },
+        {
+          "titulo": "Un empresario cumple años el mismo día que Javier Milei y le dedicó una emotiva carta",
+          "medio": "LM Neuquén",
+          "link": "https://www.lmneuquen.com/pais/un-empresario-cumple-anos-el-mismo-dia-que-javier-milei-y-le-dedico-una-emotiva-carta-la-reaccion-del-presidente-n1258276",
+          "fecha": "2026-10-22T14:01:02.000Z",
+          "descripcion": "El Presidente Javier Milei cumple 56 años este jueves 22 de octubre, y a través de sus redes sociales dio a conocer una llamativa carta."
+        },
+        {
+          "titulo": "Milei irrumpió en la campaña española con insultos, y Pedro Sánchez lo presentó como ... - La Diaria",
+          "medio": "la diaria",
+          "link": "https://ladiaria.com.uy/mundo/articulo/2026/10/milei-irrumpio-en-la-campana-espanola-con-insultos-y-pedro-sanchez-lo-presento-como-ejemplo-de-los-riesgos-de-votar-a-la-derecha/",
+          "fecha": "2026-10-22T13:48:26.000Z",
+          "descripcion": "El viaje a Madrid del presidente argentino, Javier Milei, en el que quiso impulsar las candidaturas de sus aliados de la extrema derecha española en ..."
+        },
+        {
+          "titulo": "Javier Milei explicó por qué apareció con una venda en el cuello - AHORA Entre Ríos",
+          "medio": "Ahora",
+          "link": "https://ahora.com.ar/politica/javier-milei-explico-por-que-aparecio-con-una-venda-en-el-cuello",
+          "fecha": "2026-10-22T13:36:41.000Z",
+          "descripcion": "El presidente Javier Milei llamó la atención durante su visita en España al aparecer este miércoles con una venda a la altura del cuello, ..."
+        },
+        {
+          "titulo": "Milei quiso elogiar a un economista y lo comparó con el placer que le generaba leer Playboy | Perfil",
+          "medio": "Perfil",
+          "link": "https://www.perfil.com/noticias/politica/milei-quiso-elogiar-a-un-economista-y-lo-comparo-con-el-placer-que-le-generaba-leer-playboy.phtml",
+          "fecha": "2026-10-22T13:34:47.000Z",
+          "descripcion": "La gira de Javier Milei por España generó más noticias por las curiosidades del presidente que por la relevancia de su actividad diplomática."
+        },
+        {
+          "titulo": "Milei agita la campaña con insultos a Sánchez y abrazos a Ayuso | España - EL PAÍS",
+          "medio": "El País",
+          "link": "https://elpais.com/espana/2026-10-22/milei-agita-la-campana-con-insultos-a-sanchez-y-abrazos-a-ayuso.html",
+          "fecha": "2026-10-22T13:21:21.000Z",
+          "descripcion": "Javier Milei, presidente de Argentina, en el Foro Nueva Economía en Madrid este miércoles. · El líder del PP, Alberto Núñez Feijóo (i) y el presidente ..."
+        },
+        {
+          "titulo": "El presidente Javier Milei fue visto con una venda en su cuello durante su paso por Madrid ...",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/lanacion/posts/el-presidente-javier-milei-fue-visto-con-una-venda-en-su-cuello-durante-su-paso-/1708284714294485/",
+          "fecha": "2026-10-22T13:16:04.000Z",
+          "descripcion": "ULTIMA HORA. TIRARON PIEDRA AL PRESIDENTE Le arrojaron una piedra al Presidente Javier Milei hoy, 27 de agosto de 2025. El incidente ocurrió durante ..."
+        }
+      ]
+    },
+    {
+      "tema": "Estado de salud del papa León XIV y expectativas sobre su visita a la Argentina",
+      "resumen": "Informes médicos del Vaticano que confirman que el papa León XIV no requerirá tratamientos adicionales tras su cirugía y expresiones del pontífice que alimentan las expectativas de su viaje al país.",
+      "keyword": [
+        "León XIV"
+      ],
+      "noticias": [
+        {
+          "titulo": "Delivery Driver at Papa Haydn in Portland, OR - Poached Jobs",
+          "medio": "Poachedjobs",
+          "link": "https://poachedjobs.com/jobs/portland-or-distributor-jobs-papa-haydn-delivery-driver-3",
+          "fecha": "2026-10-22T17:16:03.000Z",
+          "descripcion": "Safely transporting cakes and pastries. Frequent lifting and stair climbing. Stocking and organizing product in the bakery. Representing Papa Haydn ..."
+        },
+        {
+          "titulo": "Pope Leo XIV won't need further lung cancer treatment, Vatican says - Washington Times",
+          "medio": "Washingtontimes",
+          "link": "https://www.washingtontimes.com/news/2026/oct/22/pope-leo-xiv-wont-need-lung-cancer-treatment-vatican-says/",
+          "fecha": "2026-10-22T15:58:01.000Z",
+          "descripcion": "Pope Leo XIV won't need any additional treatment for his lung cancer after last week's surgery, the Vatican announced on Wednesday."
+        },
+        {
+          "titulo": "La Semana del Papa León XIV - Vatican News",
+          "medio": "Vaticannews",
+          "link": "https://www.vaticannews.va/es/papa/news/2026-10/resumen-actividades-papa-leon-xiv-hospital-catequesis-angelus.html",
+          "fecha": "2026-10-22T15:39:29.000Z",
+          "descripcion": "El Papa León XIV continúa su recuperación tras recibir el alta hospitalaria, luego de que, anoche, los exámenes confirmaran un adenocarcinoma pulmonar ..."
+        },
+        {
+          "titulo": "\"\"ALLÁ VAMOS\": EL PAPA LEÓN XIV CONFIRMÓ SU VISITA A LA ARGENTINA Luego de ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezDz_zNlV_/",
+          "fecha": "2026-10-22T15:39:12.000Z",
+          "descripcion": "165 likes, 0 comments - eltucumanook on October 22, 2026: \"\"ALLÁ VAMOS\": EL PAPA LEÓN XIV CONFIRMÓ SU VISITA A LA ARGENTINA Luego de que su salud ..."
+        },
+        {
+          "titulo": "la frase del papa León XIV a una pareja argentina. Durante una audiencia en el Vaticano ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezHVH4iQw7/",
+          "fecha": "2026-10-22T15:36:59.000Z",
+          "descripcion": "161 likes, 1 comments - diarioinforama on October 22, 2026: \" “Argentina, allá vamos”: la frase del papa León XIV a una pareja argentina."
+        },
+        {
+          "titulo": "Pope will not need further treatment: Oncological surgeon explains Leo XIV's recovery",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DiEIjmEMGmZs",
+          "fecha": "2026-10-22T15:28:09.000Z",
+          "descripcion": "... papa León XIV luego de que el Vaticano confirmase que ya no necesitará tratamiento ... Pope Leo XIV will not need treatment after lung cancer ..."
+        },
+        {
+          "titulo": "El papa León XIV dejó una señal alentadora sobre su posible visita a la Argentina. Durante ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezLSftCGG0/",
+          "fecha": "2026-10-22T15:23:40.000Z",
+          "descripcion": "19 likes, 2 comments - cumbreneuquen on October 22, 2026: \" El papa León XIV dejó una señal alentadora sobre su posible visita a la Argentina."
+        },
+        {
+          "titulo": "FIN DE LA INCERTIDUMBRE El papa León XIV confirmó que viajará a la Argentina y lo hizo ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/p/DezBzVPD5ja/",
+          "fecha": "2026-10-22T15:20:49.000Z",
+          "descripcion": "8662 likes, 120 comments - eldocetv on October 22, 2026: \"FIN DE LA INCERTIDUMBRE El papa León XIV confirmó que viajará a la Argentina y lo hizo ..."
+        },
+        {
+          "titulo": "El papa León XIV volvió a alimentar las expectativas por su llegada a la Argentina. Durante ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezNp5hBe_E/",
+          "fecha": "2026-10-22T15:17:56.000Z",
+          "descripcion": "18 likes, 1 comments - elsolonlinemza on October 22, 2026: \"El papa León XIV volvió a alimentar las expectativas por su llegada a la Argentina."
+        },
+        {
+          "titulo": "Update on Pope Leo's health after his cancer surgery - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DBI8osjkcajc",
+          "fecha": "2026-10-22T15:07:17.000Z",
+          "descripcion": "The Vatican announced final test results from Pope Leo's ... The Story Nobody Tells About Pope Leo XIV's Family (Full Story in 27 Minutes)."
+        },
+        {
+          "titulo": "El Papa : Nuestra fraternidad aportará a construir un mundo más pacífico - Vatican News",
+          "medio": "Vaticannews",
+          "link": "https://www.vaticannews.va/es/papa/news/2026-10/papa-leon-xiv-discurso-comite-judio-estados-unidos-audiencia-22.html",
+          "fecha": "2026-10-22T15:03:42.000Z",
+          "descripcion": "La mañana de este jueves, 22 de octubre, el Papa León XIV recibió en audiencia en la Sala del Consistorio del Vaticano, a los miembros del Comité ..."
+        },
+        {
+          "titulo": "¡\"ARGENTINA ALLÁ VAMOS\"! El Papa León XIV confirmó que viene a la Argentina y a ... - Facebook",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/CascallaresMariano/posts/papa-le%25C3%25B3n-xiv-argentina-all%25C3%25A1-vamosel-papa-le%25C3%25B3n-xiv-confirm%25C3%25B3-que-viene-a-la-argen/1676122390543392/",
+          "fecha": "2026-10-22T15:03:35.000Z",
+          "descripcion": "PAPA LEÓN XIV: ¡\"ARGENTINA ALLÁ VAMOS\"! El Papa León XIV confirmó que viene a la Argentina y a Almirante Brown. Lo esperamos con nuestros ..."
+        },
+        {
+          "titulo": "El papa León XIV renovó las expectativas por una posible visita a la Argentina con una ... - Instagram",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezHgzNAfuE/",
+          "fecha": "2026-10-22T15:02:28.000Z",
+          "descripcion": "La noticia fue publicada por la arquidiócesis de Córdoba, que renovó la esperanza por la visita papal. “Allí estaré”, les dijo el Papa León XIV a dos ..."
+        },
+        {
+          "titulo": "Pope Leo Does Not Need 'Further Treatment' After Lung Cancer Surgery, His Doctors Say",
+          "medio": "People",
+          "link": "https://people.com/pope-leos-doctors-say-no-further-treatment-is-necessary-after-lung-cancer-diagnosis-12187078",
+          "fecha": "2026-10-22T14:50:22.000Z",
+          "descripcion": "Pope Leo XIV's lung cancer was successfully removed during a surgery last week, the Vatican confirmed on Wednesday, Oct. 21."
+        },
+        {
+          "titulo": "Pope Leo Names New Theologians to Vatican Advisory Body | National Catholic Register",
+          "medio": "Ncregister",
+          "link": "https://www.ncregister.com/news/pope-leo-names-new-theologians-to-vatican-advisory-body",
+          "fecha": "2026-10-22T14:44:32.000Z",
+          "descripcion": "Pope Leo XIV has appointed 24 new members to the International Theological Commission (ITC), each of them scholars in various fields, ..."
+        },
+        {
+          "titulo": "Pope Leo XIV will not need any further treatment after having lung cancer surgery, his ... - Facebook",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/CBSMornings/videos/pope-leo-wont-need-further-treatment-after-lung-cancer-surgery-doctors-say/1650445236677700/",
+          "fecha": "2026-10-22T14:44:30.000Z",
+          "descripcion": "Pope Leo XIV will not need any further treatment after having lung cancer surgery, his doctors said in a statement on Wednesday."
+        },
+        {
+          "titulo": "Pope Leo XIV Remembers John Paul II, Meets with the American Jewish Committee | EWTN News",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DjwPHAoakgJU",
+          "fecha": "2026-10-22T14:35:35.000Z",
+          "descripcion": "Pope Leo XIV Remembers John Paul II, Meets with the American Jewish Committee | EWTN News. @ewtnnews89 likes1.4K views3 hours ago more. Subscribe ..."
+        },
+        {
+          "titulo": "El Papa León XIV confirmó su visita El pontífice respondió con una frase esperanzadora ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/p/DezCjffFbhG/",
+          "fecha": "2026-10-22T14:18:08.000Z",
+          "descripcion": "1105 likes, 23 comments - canal10cba on October 22, 2026: \" “ARGENTINA, ALLÁ VAMOS”: El Papa León XIV confirmó su visita El pontífice ..."
+        },
+        {
+          "titulo": "Pope Leo XIV needs no further treatment after lung cancer surgery Vatican says",
+          "medio": "Archsa",
+          "link": "https://archsa.org/pope-leo-xiv-needs-no-further-treatment-after-lung-cancer-surgery-vatican-says/",
+          "fecha": "2026-10-22T14:12:46.000Z",
+          "descripcion": "Pope Leo XIV was discharged from Romeʼs Gemelli Hospital on Oct. 17 and returned to the Vatican, according to an EWTN News report. On October 21, he ..."
+        },
+        {
+          "titulo": "“Allí estaré”, la respuesta del Papa León XIV cuando le dijeron que lo esperan en Argentina ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/p/Dey7PblkTW9/",
+          "fecha": "2026-10-22T14:01:01.000Z",
+          "descripcion": "Durante la audiencia general de este miércoles en el Vaticano, dos religiosos argentinos saludaron al Papa León XIV y le expresaron: “Padre, te ..."
+        }
+      ]
+    },
+    {
+      "tema": "Movimientos corporativos, impuestos y decisiones de magnates tecnológicos",
+      "resumen": "Novedades sobre líderes empresariales y millonarios como Elon Musk, Mark Zuckerberg y Sam Altman, incluyendo propuestas de fusión entre Tesla y SpaceX, disputas fiscales y donaciones políticas.",
+      "keyword": [
+        "Magnates"
+      ],
+      "noticias": [
+        {
+          "titulo": "Jenny Stojkovic's Post - LinkedIn",
+          "medio": "Linkedin",
+          "link": "https://www.linkedin.com/posts/jenniferstojkovic_today-everybody-knows-sam-altman-as-the-activity-7519059996119048192-CdT1",
+          "fecha": "2026-10-22T16:40:51.000Z",
+          "descripcion": "... Elon Musk. But Sam couldn't shake the fact that politics were dividing ... Sam Altman almost ran for Governor of California. Back then, I was ..."
+        },
+        {
+          "titulo": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax - BBC",
+          "medio": "BBC",
+          "link": "https://www.bbc.com/news/articles/cky83vwnyglno",
+          "fecha": "2026-10-22T16:35:03.000Z",
+          "descripcion": "... Mark Zuckerberg wears a black t-shirt which reads: Getty Images. Meta chief executive Mark Zuckerberg. Meta has agreed a deal with Mark Zuckerberg ..."
+        },
+        {
+          "titulo": "Meta strikes deal with Mark Zuckerberg to help him foot billionaire tax bill - The Guardian",
+          "medio": "The Guardian",
+          "link": "https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax",
+          "fecha": "2026-10-22T16:31:50.000Z",
+          "descripcion": "... Mark Zuckerberg with ... Sam Altman's sister · UK watchdogs urged to tackle suicide social media ..."
+        },
+        {
+          "titulo": "Why Elon Musk wants to merge Tesla and SpaceX before Trump leaves office | Euronews",
+          "medio": "Euronews",
+          "link": "https://www.euronews.com/2026/10/22/why-elon-musk-wants-to-merge-tesla-and-spacex-before-trump-leaves-office",
+          "fecha": "2026-10-22T16:29:53.000Z",
+          "descripcion": "Elon Musk has opened the door to merging Tesla and ... File - President Donald Trump talks with Meta CEO Mark Zuckerberg outside the West Wing of."
+        },
+        {
+          "titulo": "Rubio, Hegseth point finger at Musk in Starlink slowdown - The Hill",
+          "medio": "The Hill",
+          "link": "https://thehill.com/homenews/administration/6164055-starlink-slowdown-ukraine/",
+          "fecha": "2026-10-22T16:21:56.000Z",
+          "descripcion": "Officials in Donald Trump's administration point to Elon Musk for slowing Starlink and Starshield services in Ukraine, shifting focus from ..."
+        },
+        {
+          "titulo": "Elon #Musk threatens #Democrats ahead of midterm #elections - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/shorts/Q13v44dCWPU",
+          "fecha": "2026-10-22T16:07:02.000Z",
+          "descripcion": "Elon Musk has warned Democratic lawmakers against investigating his businesses if they regain control of Congress in November."
+        },
+        {
+          "titulo": "Mark Zuckerberg threatened to leave California over proposed billionaire tax, Meta says",
+          "medio": "CBS News",
+          "link": "https://www.cbsnews.com/news/mark-zuckerberg-california-billionaire-wealth-tax/",
+          "fecha": "2026-10-22T15:59:59.000Z",
+          "descripcion": "Meta CEO Mark Zuckerberg threatened to move out of California if residents of the state approve a first-of-its-kind billionaire wealth tax when ..."
+        },
+        {
+          "titulo": "Sam Altman , Co-Founder and CEO of OpenAI: Staying Human While Scaling Superintelligence",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/live/anAmTGcewX8%3Fpp%3D0gcJCTYMAYcqIYzv",
+          "fecha": "2026-10-22T15:55:30.000Z",
+          "descripcion": "In this View From The Top interview, Claudia Chen, MBA '27 speaks with Sam Altman, Co-Founder and CEO of OpenAI. Sam shares how he nearly became ..."
+        },
+        {
+          "titulo": "Elon Musk on X: \"People are buying FSD with a car attached, not the other way around\" / X",
+          "medio": "X",
+          "link": "https://x.com/elonmusk/status/2113011056847278486",
+          "fecha": "2026-10-22T15:35:29.000Z",
+          "descripcion": "Elon Musk · X · @elonmusk. People are buying FSD with a car attached, not the other way around. @SawyerMerritt · Sawyer Merritt · @SawyerMerritt · 19h."
+        },
+        {
+          "titulo": "I Added Elon Musk to My AI Board of Advisors I've been building a Roast Room in ... - LinkedIn",
+          "medio": "Linkedin",
+          "link": "https://www.linkedin.com/posts/nateherkelman_i-added-elon-musk-to-my-ai-board-of-advisors-activity-7519040394941136896-Gy-l",
+          "fecha": "2026-10-22T15:10:44.000Z",
+          "descripcion": "... Elon Musk while another council debated where we should host an event ... Jeff Bezos, Alex Hormozi, and Warren Buffett debate business decisions."
+        },
+        {
+          "titulo": "AI Price Prediction: We Asked Elon Musk's Grok if XRP Can Get Back to $2 by the End of 2027",
+          "medio": "247wallst",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/10/21/ai-price-prediction-we-asked-elon-musks-grok-if-xrp-can-get-back-to-2-by-the-end-of-2027/",
+          "fecha": "2026-10-22T15:07:48.000Z",
+          "descripcion": "Elon Musk's AI chatbot Grok has crunched the numbers on XRP's path back to $2, and the verdict lands uncomfortably close to a coin flip."
+        },
+        {
+          "titulo": "Elon Musk nailed the actual failure mode of modern education: \"Everyone teaches tools ... - LinkedIn",
+          "medio": "Linkedin",
+          "link": "https://www.linkedin.com/posts/guillermoflor_elon-musk-nailed-the-actual-failure-mode-activity-7519039750532444160-6xGc",
+          "fecha": "2026-10-22T15:02:25.000Z",
+          "descripcion": "Elon Musk nailed the actual failure mode of modern education: \"Everyone teaches tools. Nobody teaches you what the problem is.\" CS programs teach ..."
+        },
+        {
+          "titulo": "Elon Musk drops $500K on NY Rep. Mike Lawler's re-election bid - Gothamist",
+          "medio": "Gothamist",
+          "link": "https://gothamist.com/news/elon-musk-drops-500k-on-ny-rep-mike-lawlers-reelection-bid",
+          "fecha": "2026-10-22T14:58:02.000Z",
+          "descripcion": "Elon Musk has spent more than $500,000 so far on efforts to re-elect Rep. Mike Lawler, the Hudson Valley Republican locked in a competitive race ..."
+        },
+        {
+          "titulo": "It's Time to Take Starlink Away from Elon Musk - Paul Krugman",
+          "medio": "Paulkrugman",
+          "link": "https://paulkrugman.substack.com/p/its-time-to-take-starlink-away-from/comments",
+          "fecha": "2026-10-22T14:11:31.000Z",
+          "descripcion": "I'd add Elon Musk has a U.S. security clearance he is bound by for life. There's an FBI background check, then you have a 'file' containing ..."
+        },
+        {
+          "titulo": "Musk's public endorsement of SpaceX-Tesla deal may throw a wrench in talks | Reuters",
+          "medio": "Reuters",
+          "link": "https://www.reuters.com/legal/government/musks-public-endorsement-spacex-tesla-deal-may-throw-wrench-talks-2026-10-22/",
+          "fecha": "2026-10-22T14:03:55.000Z",
+          "descripcion": "Elon Musk's public endorsement of a potential $3.5 trillion merger has rattled some insiders involved in the discussions, ​who worry his comments ..."
+        },
+        {
+          "titulo": "Bill Gates thinks AI could make us live like the Amish - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DA0kTUP7fWtk",
+          "fecha": "2026-10-22T13:57:48.000Z",
+          "descripcion": "Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and ... Elon Musk Is Trying to Buy the Midterms, and He Doesn't Care Who ..."
+        },
+        {
+          "titulo": "Elon Musk says Space X and Tesla are considering a merger - NPR",
+          "medio": "NPR",
+          "link": "https://www.npr.org/2026/10/22/nx-s1-6010634/elon-musk-says-space-x-and-tesla-are-considering-a-merger",
+          "fecha": "2026-10-22T13:35:41.000Z",
+          "descripcion": "CEO Elon Musk says both Space X and Tesla have formed special committees to discuss the idea of a merger, but a merger would require approval of ..."
+        },
+        {
+          "titulo": "Elon Musk and AI rivals pledge to give away nearly $300 billion - The Washington Post",
+          "medio": "The Washington Post",
+          "link": "https://www.washingtonpost.com/technology/2026/10/22/elon-musk-ai-rivals-pledge-give-away-more-than-300-billion/",
+          "fecha": "2026-10-22T13:33:35.000Z",
+          "descripcion": "OpenAI, Anthropic and Elon Musk have pledged an ... OpenAI chief executive Sam Altman speaks at a conference last month in San Francisco."
+        },
+        {
+          "titulo": "Tesla surprises Wall Street with lower-than-expected AI spending as SpaceX merger talks heat up",
+          "medio": "New York Post",
+          "link": "https://nypost.com/2026/10/21/business/elon-musks-tesla-revenue-beats-estimates-as-deliveries-rebound/",
+          "fecha": "2026-10-22T13:17:36.000Z",
+          "descripcion": "... Wednesday after spending far less on AI and robotics than Wall Street expected, as the EV maker weighs a possible merger with CEO Elon Musk's SpaceX."
+        }
+      ]
+    },
+    {
+      "tema": "Misiones espaciales, rovers y desarrollo tecnológico de la NASA",
+      "resumen": "Avances en programas de exploración lunar (Artemis), misiones hacia asteroides como Psyche, pruebas de motores y contratos con empresas tecnológicas y de robótica espacial.",
+      "keyword": [
+        "NASA"
+      ],
+      "noticias": [
+        {
+          "titulo": "Pedal to the Metal: NASA's Psyche Heads Toward Asteroid Belt - NASA Science",
+          "medio": "Science",
+          "link": "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
+          "fecha": "2026-10-22T16:20:07.000Z",
+          "descripcion": "With a successful Mars gravity assist in its rearview mirror, NASA's Psyche spacecraft has fired up its thrusters and is accelerating to the ..."
+        },
+        {
+          "titulo": "Moon rocket engine gets hot-fire test as NASA advances toward lunar mission - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DD9AEB2vF_As",
+          "fecha": "2026-10-22T16:08:15.000Z",
+          "descripcion": "NASA reached a milestone in its journey to return astronauts to the moon with the successful hot-fire test of an RS-25 engine."
+        },
+        {
+          "titulo": "NASA's Artemis program to rely on these 3 lunar rovers at outset - Sarasota Herald-Tribune",
+          "medio": "Heraldtribune",
+          "link": "https://www.heraldtribune.com/videos/tech/space/2026/10/22/nasa-lunar-rovers-artemis-moon-base/92379021007/",
+          "fecha": "2026-10-22T16:03:59.000Z",
+          "descripcion": "These 3 lunar rovers could help lay the groundwork for NASA to send astronauts back to the moon and build a moon base under its Artemis program."
+        },
+        {
+          "titulo": "DDC 4C Expands Partnership with NASA to Advance Environmental Stewardship",
+          "medio": "Newswire",
+          "link": "https://www.newswire.com/news/ddc-4c-expands-partnership-with-nasa-to-advance-environmental-stewardship",
+          "fecha": "2026-10-22T16:01:57.000Z",
+          "descripcion": "... NASA Goddard Space Flight Center (GSFC) and Wallops Flight Facility (WFF). The award reinforces DDC's long-standing commitment to environmental ..."
+        },
+        {
+          "titulo": "Meet 3 lunar rovers that will set the stage for NASA's moon base - USA Today",
+          "medio": "USA Today",
+          "link": "https://www.usatoday.com/story/tech/space/2026/10/22/lunar-rovers-nasa-artemis-moon-base/92358666007/",
+          "fecha": "2026-10-22T15:41:36.000Z",
+          "descripcion": "NASA's Artemis program is developing rovers to support longterm human habitation on the moon. The VIPER rover will search for water ice and other ..."
+        },
+        {
+          "titulo": "NASA's AI tools could be used by Aussie businesses, says space agency's Jeevan Perera",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3Di2fJld7EVyM",
+          "fecha": "2026-10-22T15:31:07.000Z",
+          "descripcion": "Jeevan Perera is the risk manager for the NASA program that could take mankind to Mars. With more than 36 years of service supporting spaceflight ..."
+        },
+        {
+          "titulo": "What to Know: NASA could pay you to sleep - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3D7DSWzWgKAFc",
+          "fecha": "2026-10-22T15:00:20.000Z",
+          "descripcion": "NASA could pay you to sleep Subscribe to Queen City News YouTube: https://www.youtube.com/QueenCityNews."
+        },
+        {
+          "titulo": "Meet 3 lunar rovers that will set the stage for NASA's moon base | Idaho Statesman",
+          "medio": "Idahostatesman",
+          "link": "https://www.idahostatesman.com/news/nation-world/national/article317732010.html",
+          "fecha": "2026-10-22T14:55:25.000Z",
+          "descripcion": "... NASA's Kennedy Space Center in Florida to launch to the moon, NASA said. Astrolab rover to transport astronauts on surface. Astrolab, an aerospace ..."
+        },
+        {
+          "titulo": "University of Cincinnati Engineers Use Sound to Detect Drone Damage for NASA - Dronelife",
+          "medio": "Dronelife",
+          "link": "https://dronelife.com/2026/10/22/university-of-cincinnati-engineers-use-sound-to-detect-drone-damage-for-nasa/",
+          "fecha": "2026-10-22T14:46:30.000Z",
+          "descripcion": "Engineers at the University of Cincinnati are using sound to help NASA detect damaged drone motors and propellers before a crash occurs. Prissha ..."
+        },
+        {
+          "titulo": "NASA's Curiosity rover reveals a spectacular new view of Mars with a mystery on the horizon",
+          "medio": "Sciencedaily",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
+          "fecha": "2026-10-22T14:28:47.000Z",
+          "descripcion": "NASA's Curiosity rover has revealed a spectacular new view of mysterious, wind-carved cliffs on Mars that may hold evidence of ancient volcanic ..."
+        },
+        {
+          "titulo": "NASA Awards Task Order Contract to Momentus for Mission Formulation Phase of Fly ...",
+          "medio": "Sg",
+          "link": "https://sg.finance.yahoo.com/news/nasa-awards-task-order-contract-120000214.html",
+          "fecha": "2026-10-22T13:21:20.000Z",
+          "descripcion": "... NASA for the formulation phase of the agency's Fly Foundational Robots (FFR) Resupply mission, a mission designed to advance the technologies ..."
+        },
+        {
+          "titulo": "Former NASA astronaut, 'Top Gun' stunt double speaks in Tucson | Local News - KVOA",
+          "medio": "Kvoa",
+          "link": "https://www.kvoa.com/news/local/former-nasa-astronaut-top-gun-stunt-double-speaks-in-tucson/article_87e1ef68-adab-4ad9-9800-bcc4dae6483c.html",
+          "fecha": "2026-10-22T12:38:19.000Z",
+          "descripcion": "TUCSON, Ariz. — A former NASA astronaut and U.S. Navy fighter pilot shared his experiences in aviation, space exploration and leadership with the ..."
+        },
+        {
+          "titulo": "National Academies Rank Nonpolar Moon Sites - Payload Space",
+          "medio": "Payloadspace",
+          "link": "https://payloadspace.com/national-academies-rank-ideal-nonpolar-moon-sites/",
+          "fecha": "2026-10-22T12:34:46.000Z",
+          "descripcion": "Sites were weighed on three criteria: whether science aligned with the decadal surveys and NASA's Moon to Mars objectives, if the missions would ..."
+        },
+        {
+          "titulo": "NASA contractor Aetos Systems warns 126 employees may be laid off at KSC - Florida Today",
+          "medio": "Floridatoday",
+          "link": "https://www.floridatoday.com/story/tech/science/space/2026/10/22/up-to-126-florida-space-coast-aetos-systems-workers-face-layoffs-as-nasa-brings-jobs-in-house/92368980007/",
+          "fecha": "2026-10-22T12:29:19.000Z",
+          "descripcion": "NASA continues insourcing thousands of contract employees nationwide to become less reliant on external vendors for core functions."
+        },
+        {
+          "titulo": "NASA Awards Task Order Contract to Momentus for Mission Formulation Phase of Fly ...",
+          "medio": "Businesswire",
+          "link": "https://www.businesswire.com/news/home/20261022077557/en/NASA-Awards-Task-Order-Contract-to-Momentus-for-Mission-Formulation-Phase-of-Fly-Foundational-Robots-Resupply-Mission",
+          "fecha": "2026-10-22T12:14:05.000Z",
+          "descripcion": "NASA's FFR technology demonstration missions focus on accelerating the development of space robotics through frequent, lower-cost flight ..."
+        },
+        {
+          "titulo": "Momentus wins NASA task order for robot resupply design | MNTS Stock News",
+          "medio": "Stocktitan",
+          "link": "https://www.stocktitan.net/news/MNTS/nasa-awards-task-order-contract-to-momentus-for-mission-formulation-wfm1kbbvof26.html",
+          "fecha": "2026-10-22T12:06:30.000Z",
+          "descripcion": "NASA Awards Task Order Contract to Momentus for Mission Formulation Phase of Fly Foundational Robots Resupply Mission. NASA intends to choose one ..."
+        },
+        {
+          "titulo": "Teaching Robots to “Feel Pain”: AstraQua Secures $1.3 Million NASA Contract - sUAS News",
+          "medio": "Suasnews",
+          "link": "https://www.suasnews.com/2026/10/teaching-robots-to-feel-pain-astraqua-secures-1-3-million-nasa-contract/",
+          "fecha": "2026-10-22T11:29:18.000Z",
+          "descripcion": "NASA has awarded AstraQua Inc., a physical AI company, a $1274990 Phase II contract to advance its AstraSense technology for electric and ..."
+        },
+        {
+          "titulo": "The surprising reason NASA sends Snoopy into space - Aleteia",
+          "medio": "Aleteia",
+          "link": "https://aleteia.org/2026/10/22/the-surprising-reason-nasa-sends-snoopy-into-space/",
+          "fecha": "2026-10-22T11:19:54.000Z",
+          "descripcion": "For nearly 60 years, Snoopy has had a rather unexpected job with NASA, which involves donning a spacesuit."
+        },
+        {
+          "titulo": "Webb Captures Stars in the Early Stages of Life in a Nearby Stellar Nursery",
+          "medio": "Universetoday",
+          "link": "https://www.universetoday.com/articles/webb-captures-stars-in-the-early-stages-of-life-in-a-nearby-stellar-nursery",
+          "fecha": "2026-10-22T10:46:37.000Z",
+          "descripcion": "As the name suggests, stars at this stage have largely finished gathering mass and begin fusing hydrogen in their interiors shortly thereafter. Images ..."
+        },
+        {
+          "titulo": "NASA giving update about Artemis moon plans on Oct. 23: Watch it live | Space",
+          "medio": "Space",
+          "link": "https://www.space.com/space-exploration/artemis/nasa-giving-update-about-artemis-moon-plans-on-oct-23-watch-it-live",
+          "fecha": "2026-10-22T10:01:23.000Z",
+          "descripcion": "NASA will provide an update about its Artemis III mission and its plans to land astronauts on the moon during a press conference on Friday (Oct."
+        }
+      ]
+    },
+    {
+      "tema": "Novedades sobre plataformas de streaming y producciones audiovisuales",
+      "resumen": "Anuncios de estrenos, colaboraciones entre plataformas como Netflix y Hoichoi, reestructuraciones corporativas y polémicas en torno a la transmisión de eventos deportivos en servicios de streaming.",
+      "keyword": [
+        "Streaming"
+      ],
+      "noticias": [
+        {
+          "titulo": "+1-858-261-5871How to Cancel Amazon Prime Subscription: A Complete Step-by-Step Guide",
+          "medio": "Informalscience",
+          "link": "https://informalscience.org/wp-content/uploads/2026/10/1-858-261-5871-How-to-Cancel-Amazon-Prime-Subscription.pdf",
+          "fecha": "2026-10-22T17:26:59.000Z",
+          "descripcion": "Amazon Prime offers benefits such as eligible fast shipping, Prime Video, and other membership perks. However, if you do not use these services ..."
+        },
+        {
+          "titulo": "Disney's multiplatform Super Bowl plan frustrates ABC affiliates - CNBC",
+          "medio": "CNBC",
+          "link": "https://www.cnbc.com/2026/10/22/disneys-multiplatform-super-bowl-plan-frustrates-abc-affiliates.html",
+          "fecha": "2026-10-22T17:02:29.000Z",
+          "descripcion": "Disney is airing the Super Bowl on ABC, ESPN, Disney+, ESPN2, ESPNU, and NFL Network, to the chagrin of local station affiliates."
+        },
+        {
+          "titulo": "SWAT raids drug dealer during netflix interview - Reddit",
+          "medio": "Reddit",
+          "link": "https://www.reddit.com/r/nextfuckinglevel/comments/1xbulmh/swat_raids_drug_dealer_during_netflix_interview/",
+          "fecha": "2026-10-22T16:29:24.000Z",
+          "descripcion": "This was an interview done for Season 3 of Netflix \"Dope\" series. DSI had been wiretapping one of the suspected drug dealers featured in the episode."
+        },
+        {
+          "titulo": "Netflix Co-CEOs In Town Hall Address Executive Shakeup & Layoffs - Deadline",
+          "medio": "Deadline",
+          "link": "https://deadline.com/2026/10/netflix-town-hall-executives-layoffs-peter-rice-1237170147/",
+          "fecha": "2026-10-22T16:15:40.000Z",
+          "descripcion": "... Disney+'s Percy Jackson, while also using his Searchlight connections ... Rice had to be Netflix's 3rd choice after they couldn't get Casey Bloys (from ..."
+        },
+        {
+          "titulo": "Disney Princess Rapunzel Clay Figure with Golden Braid Craft | DEEPFLAME - Facebook",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/deepflame09/videos/best-day-ever-with-disney-princess-rapunzel-%25EF%25B8%258Fclay-figure-with-iconic-golden-brai/1981380915866151/",
+          "fecha": "2026-10-22T16:05:14.000Z",
+          "descripcion": "Best Day Ever with Disney Princess Rapunzel ‍♀️Clay Figure with Iconic Golden Braid ✨ #disney #princess."
+        },
+        {
+          "titulo": "Featured School | Disney Musicals in Schools",
+          "medio": "Disneymusicalsinschools",
+          "link": "https://disneymusicalsinschools.com/featured-school/",
+          "fecha": "2026-10-22T16:02:29.000Z",
+          "descripcion": "For the first time in the program's history, a school for the Deaf participated in Disney Musicals in Schools to produce Finding Nemo KIDS."
+        },
+        {
+          "titulo": "Amazon Prime customers could get $200 refunds in FTC settlement - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DzcVarHXN1FE",
+          "fecha": "2026-10-22T15:53:14.000Z",
+          "descripcion": "... contact: licensing@veritone.com. Amazon Prime customers could get $200 refunds in FTC settlement. @CBSNewYork31 likes4.5K views12 hours ago more."
+        },
+        {
+          "titulo": "Netflix and Hoichoi Join Forces to Bring Acclaimed Stories, New Premieres and Adaptations ...",
+          "medio": "About",
+          "link": "https://about.netflix.com/en/news/netflix-and-hoichoi-join-forces-to-bring-acclaimed-stories-new-premieres-and-adaptations-to-audiences-worldwide",
+          "fecha": "2026-10-22T15:34:31.000Z",
+          "descripcion": "The partnership brings hoichoi shows to Netflix in Hindi, Tamil and Telugu, alongside new adaptations of select originals."
+        },
+        {
+          "titulo": "Sam Morril has a new special out INCORRECT now available on Netflix . check out the latest ...",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/billburrofficial/posts/sam-morril-has-a-new-special-out-incorrect-now-available-on-netflix-check-out-th/1683889953093473/",
+          "fecha": "2026-10-22T15:09:14.000Z",
+          "descripcion": "Sam Morril has a new special out INCORRECT now available on Netflix. check out the latest episode of the MMP ... Amazon Prime! If you don't know him by ..."
+        },
+        {
+          "titulo": "Netflix removing “A Year in the Life”? : r/GilmoreGirls - Reddit",
+          "medio": "Reddit",
+          "link": "https://www.reddit.com/r/GilmoreGirls/comments/1xcieuf/netflix_removing_a_year_in_the_life/",
+          "fecha": "2026-10-22T15:09:11.000Z",
+          "descripcion": "The original series is streaming either on HBO ... I was saying I have it the original show on Prime or HBO, but it might be Disney I hope they get ..."
+        },
+        {
+          "titulo": "I built a Netflix -style streaming request app with Claude. 6 months, one app replacing my ... - Reddit",
+          "medio": "Reddit",
+          "link": "https://www.reddit.com/r/ClaudeAI/comments/1xcaoox/i_built_a_netflixstyle_streaming_request_app_with/",
+          "fecha": "2026-10-22T15:05:12.000Z",
+          "descripcion": "... Netflix-style page for browsing and requesting. Why you might want to use HolyArrs: movies, tv shows and music in one app. a Netflix and Apple TV ..."
+        },
+        {
+          "titulo": "¡Los Buu Baldes de los villanos de Disney llegaron a Cajita Feliz! La colaboración más ... - Instagram",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezGH6mAoE6/",
+          "fecha": "2026-10-22T15:00:46.000Z",
+          "descripcion": "2668 likes, 79 comments - mcdonalds_ve on October 22, 2026: \"¡Los Buu Baldes de los villanos de Disney llegaron a Cajita Feliz!"
+        },
+        {
+          "titulo": "Poison Ivy DC Series in the Works at HBO With 'The Penguin' Exec Lauren LeFranc",
+          "medio": "Variety",
+          "link": "https://variety.com/2026/tv/news/poison-ivy-tv-show-hbo-dc-penguin-1236919156/",
+          "fecha": "2026-10-22T14:56:22.000Z",
+          "descripcion": "A Poison Ivy TV series is in the works at DC and HBO with 'The Penguin' showrunner Lauren LeFranc."
+        },
+        {
+          "titulo": "Designer at DISNEY - Disney Careers",
+          "medio": "Disneycareers",
+          "link": "https://www.disneycareers.com/en/job/richmond/designer/391/102271898512",
+          "fecha": "2026-10-22T14:37:30.000Z",
+          "descripcion": "Designer. Job ID 10163543 Location Richmond, Australia Business The Walt Disney Company (APAC) Date posted Oct. 22, ..."
+        },
+        {
+          "titulo": "Jon Gosselin Sets Netflix Doc About 'Jon & Kate Plus 8' - Variety",
+          "medio": "Variety",
+          "link": "https://variety.com/2026/tv/news/jon-gosselin-netflix-doc-jon-kate-plus-8-1236918880/",
+          "fecha": "2026-10-22T14:29:23.000Z",
+          "descripcion": "Three of the Gosselin family members — Jon, Collin and Hannah — are filming a tell-all Netflix special about making 'Jon & Kate Plus 8.'"
+        },
+        {
+          "titulo": "From tonight 12 am , #Dorothy will be streaming globally in Netflix ... Also it is still ... - Instagram",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/reel/DezIx3qRJU6/",
+          "fecha": "2026-10-22T14:20:07.000Z",
+          "descripcion": "Please do watch and/or rewatch the film in both Theatres and/or in Netflix... ❤️❤️ Kindly request to avoid posting any clips from the film that ..."
+        },
+        {
+          "titulo": "Akka | Official Trailer | Keerthy Suresh, Radhika Apte | Netflix India - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3Df6ga0g_-OVk",
+          "fecha": "2026-10-22T14:06:04.000Z",
+          "descripcion": "Ek karegi raaj, ek karegi naash. Pernuru ka itihaas badalne waala hai ❤️‍ ⚔️ Watch Akka, out 30 October, only on Netflix. Watch on Netflix: ..."
+        },
+        {
+          "titulo": "[EVENT] ILLIT “ Disney Run 2026 Incheon” Performance Participation - Weverse",
+          "medio": "Weverse",
+          "link": "https://weverse.io/illit/notice/40308",
+          "fecha": "2026-10-22T14:03:40.000Z",
+          "descripcion": "Hello. This is ILLIT Weverse. We would like to provide information on participating in the ILLIT fan club section at “Disney Run 2026 Incheon,” ..."
+        },
+        {
+          "titulo": "SpaceX, Tesla, Meta, Nvidia, Intel, Netflix , AT&T, and More Stocks That Explain Today's Market",
+          "medio": "Barrons",
+          "link": "https://www.barrons.com/articles/stock-movers-59e2ce07",
+          "fecha": "2026-10-22T13:56:05.000Z",
+          "descripcion": "SpaceX surges after the company beat third-quarter earnings expectations and Elon Musk said committees are exploring a Tesla merger. Netflix falls ..."
+        },
+        {
+          "titulo": "Amazon Prime Added an Content Advisory to the Sens-Panthers Game : r/hockey - Reddit",
+          "medio": "Reddit",
+          "link": "https://www.reddit.com/r/hockey/comments/1xc6kym/amazon_prime_added_an_content_advisory_to_the/",
+          "fecha": "2026-10-22T13:47:13.000Z",
+          "descripcion": "... , the Florida Panthers lead a game. 84. 17. NHL x Disney · r/hockey. • 24d ago. NHL x Disney. 0. 39. ESPN's hockey coverage is the worst in the biz."
+        }
+      ]
+    },
+    {
+      "tema": "Terremotos y actividad sísmica en diferentes regiones del mundo",
+      "resumen": "Reportes de sismos recientes, destacando un fuerte terremoto de magnitud 7.0 que sacudió la región del Tíbet en China, además de registros sísmicos menores en otras zonas geográficas.",
+      "keyword": [
+        "Terremoto"
+      ],
+      "noticias": [
+        {
+          "titulo": "#ÚLTIMAHORA | Reportan fuerte terremoto en China durante este jueves. https://www.repretel ...",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/noticiasrepretelcostarica/posts/%25C3%25BAltimahora-reportan-fuerte-terremoto-en-china-durante-este-jueves/1582347797269765/",
+          "fecha": "2026-10-22T17:14:04.000Z",
+          "descripcion": "TERREMOTO EN CHINA Hace unos minutos se registro un fuerte terremoto ... Earthquake Hazards Program, vía Rt press · No photo description available ..."
+        },
+        {
+          "titulo": "Reportan terremoto magnitud 7.0 en China: SHOA descarta riesgo de tsunami - T13",
+          "medio": "T13",
+          "link": "https://www.t13.cl/noticia/mundo/reportan-terremoto-magnitud-70-china-shoa-descarta-riesgo-tsunami-22-10-2026",
+          "fecha": "2026-10-22T16:58:18.000Z",
+          "descripcion": "Durante la jornada de este jueves, se registró un terremoto en Tíbet, China, de magnitud 7.0. De acuerdo al Servicio Geológico de Estados Unidos ..."
+        },
+        {
+          "titulo": "Magnitude 3.0 earthquake shakes parts of WA-OR border near Longview – KIRO 7 News Seattle",
+          "medio": "Kiro7",
+          "link": "https://www.kiro7.com/news/local/magnitude-30-earthquake-shakes-parts-wa-or-border-near-longview/NNOXOTVDPZHPHJXEQTKMTL5AGY/",
+          "fecha": "2026-10-22T16:57:37.000Z",
+          "descripcion": "A 3.0 magnitude earthquake hit near Longview Thursday morning. Shaking was reported along several parts of the Washington-Oregon border, ..."
+        },
+        {
+          "titulo": "A powerful 6.7 magnitude earthquake shakes Tibet - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3D7Dp0m-3coBw",
+          "fecha": "2026-10-22T16:49:36.000Z",
+          "descripcion": "... terremoto preliminar de magnitud aproximada 6,7 cerca del condado de ... BREAKING NEWS | Earthquake alert in China: A powerful 6.7 magnitude earthquake ..."
+        },
+        {
+          "titulo": "Earthquake of magnitude 7 strikes China's Tibet - RNZ",
+          "medio": "Rnz",
+          "link": "https://www.rnz.co.nz/news/world/2090898/earthquake-of-magnitude-7-strikes-china-s-tibet",
+          "fecha": "2026-10-22T16:47:39.000Z",
+          "descripcion": "An earthquake of magnitude 7 struck China's Tibet at around 10:33 pm local time on Thursday (2.30am Friday NZT), the China Earthquake Networks ..."
+        },
+        {
+          "titulo": "7-magnitude earthquake strikes China's Tibet - The Straits Times",
+          "medio": "The Straits Times",
+          "link": "https://www.straitstimes.com/asia/east-asia/7-magnitude-earthquake-strikes-chinas-tibet",
+          "fecha": "2026-10-22T16:46:37.000Z",
+          "descripcion": "7-magnitude earthquake strikes China's Tibet, with the epicentre in Nagqu county, according to the China Earthquake Networks Centre."
+        },
+        {
+          "titulo": "Did You Feel It? USGS reports 3.0 magnitude earthquake near St. Helens, Oregon - KATU",
+          "medio": "Katu",
+          "link": "https://katu.com/news/local/did-you-feel-it-usgs-reports-30-magnitude-earthquake-near-st-helens-oregon",
+          "fecha": "2026-10-22T16:42:33.000Z",
+          "descripcion": "The U.S. Geological Survey recorded a small 3.0 magnitude earthquake Thursday morning near St. Helens along the Columbia River."
+        },
+        {
+          "titulo": "A magnitude 7 earthquake shakes China's Tibet - ABC News",
+          "medio": "Abcnews",
+          "link": "https://abcnews.com/International/wireStory/magnitude-7-earthquake-shakes-chinas-tibet-137480700",
+          "fecha": "2026-10-22T16:42:18.000Z",
+          "descripcion": "A magnitude 7 earthquake has struck China's Tibet on Thursday evening, with no immediate reports of damage or casualties."
+        },
+        {
+          "titulo": "A magnitude 7 earthquake shakes China's Tibet - SFGATE",
+          "medio": "Sfgate",
+          "link": "https://www.sfgate.com/news/world/article/a-magnitude-7-earthquake-shakes-china-s-tibet-22489279.php",
+          "fecha": "2026-10-22T16:41:50.000Z",
+          "descripcion": "China's official Xinhua News Agency cited the China Earthquake Networks Center as putting the depth at 10 kilometers (6.2 miles). Advertisement."
+        },
+        {
+          "titulo": "Strong 7-magnitude earthquake strikes China's Tibet region - KRDO",
+          "medio": "Krdo",
+          "link": "https://krdo.com/news/national-world/cnn-world/2026/10/22/strong-7-magnitude-earthquake-strikes-chinas-tibet-region/",
+          "fecha": "2026-10-22T16:39:17.000Z",
+          "descripcion": "By Sophie Tanno, CNN (CNN) — A strong magnitude 7 earthquake struck China's Tibet at 10.30 p.m. local time on Thursday, according to the United."
+        },
+        {
+          "titulo": "Un terremoto de magnitud 7,0 preliminar sacudió este jueves la región del Tíbet, en el oeste ...",
+          "medio": "Instagram",
+          "link": "https://www.instagram.com/p/DezT-eLCKTY/",
+          "fecha": "2026-10-22T16:36:15.000Z",
+          "descripcion": "Un terremoto de magnitud 7,0 preliminar sacudió este jueves la región del Tíbet, en el oeste de China, cerca de la cordillera del Himalaya. El ..."
+        },
+        {
+          "titulo": "Earthquake of magnitude 7 strikes China's Tibet | The Daily Star",
+          "medio": "Thedailystar",
+          "link": "https://www.thedailystar.net/news/world/news/earthquake-magnitude-7-strikes-chinas-tibet-4305136",
+          "fecha": "2026-10-22T16:34:39.000Z",
+          "descripcion": "An earthquake of magnitude 7 struck China's Tibet at around 10:33 p.m. local time (1433 GMT) on Thursday, the China Earthquake Networks Center ..."
+        },
+        {
+          "titulo": "Fuerte terremoto de magnitud 7,0 sacude zona de alta montaña en el Tíbet, en China, este ...",
+          "medio": "El Tiempo",
+          "link": "https://www.eltiempo.com/mundo/asia/fuerte-terremoto-de-magnitud-7-0-sacude-zona-de-alta-montana-en-el-tibet-en-china-este-jueves-22-de-octubre-3595464",
+          "fecha": "2026-10-22T16:24:19.000Z",
+          "descripcion": "De acuerdo con el CENC, este terremoto es el más fuerte registrado en China desde enero de 2024. El temblor se sintió en el país y su epicentro se ..."
+        },
+        {
+          "titulo": "Small earthquake reported in Morris County, New Jersey - YouTube",
+          "medio": "YouTube",
+          "link": "https://www.youtube.com/watch%3Fv%3DvEuR5MordJg",
+          "fecha": "2026-10-22T16:23:25.000Z",
+          "descripcion": "A 1.6-magnitude earthquake happened just after 5:30 a.m. Thursday near Randolph, according to the United States Geological Survey."
+        },
+        {
+          "titulo": "2026 Tibet earthquake - Wikipedia",
+          "medio": "En",
+          "link": "https://en.wikipedia.org/wiki/2026_Tibet_earthquake",
+          "fecha": "2026-10-22T16:22:31.000Z",
+          "descripcion": "On 22 October 2026, at 22:33:39 CST, a Mw 7.0 earthquake struck the northern part of Nagqu, part of the Tibet Autonomous Region in Southwestern ..."
+        },
+        {
+          "titulo": "A magnitude 7 earthquake shakes China's Tibet - The Washington Post",
+          "medio": "The Washington Post",
+          "link": "https://www.washingtonpost.com/world/2026/10/22/china-earthquake-tibet/c64d6a7e-ce32-11f1-ac04-9f58578a68b4_story.html",
+          "fecha": "2026-10-22T16:20:05.000Z",
+          "descripcion": "China's official Xinhua News Agency cited the China Earthquake Networks Center as putting the depth at 10 kilometers (6.2 miles). Nagqu is more than ..."
+        },
+        {
+          "titulo": "Strong 7-magnitude earthquake strikes China's Tibet region - ABC17NEWS",
+          "medio": "Abc17news",
+          "link": "https://abc17news.com/news/national-world/cnn-world/2026/10/22/strong-7-magnitude-earthquake-strikes-chinas-tibet-region/",
+          "fecha": "2026-10-22T16:12:06.000Z",
+          "descripcion": "(CNN) — A strong magnitude 7 earthquake struck China's Tibet at 10.30 p.m. local time on Thursday, according to the United States Geological Survey ( ..."
+        },
+        {
+          "titulo": "Terremoto en Old Trafford - AS.com - Diario AS",
+          "medio": "AS",
+          "link": "https://as.com/futbol/internacional/terremoto-en-old-trafford-f202610-n/",
+          "fecha": "2026-10-22T16:08:50.000Z",
+          "descripcion": "El puesto de Carrick peligra. Terremoto en Old Trafford Phil Noble. Xavi ..."
+        },
+        {
+          "titulo": "Magnitude 1.6 earthquake reported in Morris County, New Jersey - 6abc Philadelphia",
+          "medio": "6abc",
+          "link": "https://6abc.com/post/magnitude-16-earthquake-reported-morris-county-new-jersey/19969060/",
+          "fecha": "2026-10-22T16:04:43.000Z",
+          "descripcion": "MORRIS COUNTY, N.J. (WPVI) -- A minor earthquake was reported early Thursday morning in northern New Jersey."
+        }
+      ]
+    },
+    {
+      "tema": "Noticias sin clasificar",
+      "resumen": "Noticias recibidas que la IA no asignó a ninguno de los temas identificados.",
+      "keywords": [],
+      "noticias": [
+        {
+          "titulo": "A un click de distancia: los trámites de Anses que pueden hacerse desde el celular",
+          "medio": "La Gaceta",
+          "link": "https://www.lagaceta.com.ar/nota/1159100/sociedad/a-click-distancia-tramites-anses-pueden-hacerse-desde-celular.html",
+          "fecha": "2026-10-22T13:55:09.000Z",
+          "descripcion": "Los celulares con sistema operativo Android y iOS pueden descargar la aplicación Mi Anses desde sus tiendas oficiales. Hay una serie de trámites ..."
+        },
+        {
+          "titulo": "Los montos por hijo y cuánto cobrará en total una familia, en noviembre, por Tarjeta Alimentar y AUH",
+          "medio": "El Liberal",
+          "link": "https://www.elliberal.com.ar/nota/95643/2026/10/los-montos-por-hijo-y-cuanto-cobrara-en-total-una-familia-en-noviembre-por-tarjeta-alimentar-y-auh",
+          "fecha": "2026-10-22T13:14:29.000Z",
+          "descripcion": "Esta política de valores fijos convivirá con una suba del 1,93% que aplicará la Administración Nacional de la Seguridad Social (ANSES) sobre la ..."
+        },
+        {
+          "titulo": "ANSES : quiénes cobran este jueves 22 de octubre y cuáles son los montos - Radio Rafaela",
+          "medio": "Radiorafaela",
+          "link": "https://radiorafaela.com.ar/nacionales/anses-quienes-cobran-este-jueves-22-de-octubre-y-cuales-son-los-montos",
+          "fecha": "2026-10-22T11:57:27.000Z",
+          "descripcion": "La Administración Nacional de la Seguridad Social (ANSES) informó el calendario de pagos para este 22 de octubre de 2026."
+        },
+        {
+          "titulo": "Tarjeta Alimentar: cuáles son los montos por hijo y cuánto se cobra en total - El Chorrillero",
+          "medio": "Elchorrillero",
+          "link": "https://elchorrillero.com/nota/2026/10/21/670669-tarjeta-alimentar-cuales-son-los-montos-por-hijo-y-cuanto-se-cobra-en-total/amp/",
+          "fecha": "2026-10-22T11:14:28.000Z",
+          "descripcion": "Aumento de Anses: ¿Cuánto cobran la AUH y las pensiones con el nuevo tope? Esta política de valores fijos convivirá con una suba del 1,93% que ..."
+        },
+        {
+          "titulo": "Nueva aerolínea argentina ya recibió los permisos para operar sus primeras dos rutas",
+          "medio": "Energiaytransporte",
+          "link": "https://energiaytransporte.com.ar/Noticias/Noticias-202610/nueva-aerolinea-argentina-ya-recibio-los-permisos-para-operar-sus-prim.html",
+          "fecha": "2026-10-22T15:25:03.000Z",
+          "descripcion": "A través de la Disposición 28/2026 publicada en el Boletín Oficial, la Secretaría de Transporte del Ministerio de Economía autorizó oficialmente a ..."
+        },
+        {
+          "titulo": "Is a 'Behemoth El Niño ' coming to NJ? What it is, what to expect",
+          "medio": "App",
+          "link": "https://www.app.com/story/news/2026/10/22/is-a-behemoth-el-nio-coming-to-nj-what-it-is-what-to-expect/92376699007/",
+          "fecha": "2026-10-22T12:06:39.000Z",
+          "descripcion": "Most are familiar with an El Niño weather pattern, but the Behemoth El Niño will pack a much different punch for New Jersey this winter."
+        },
+        {
+          "titulo": "#Ahora Los Veteranos de Guerra de Moreno difunden la iniciativa de la construcción ... - Facebook",
+          "medio": "Facebook",
+          "link": "https://www.facebook.com/MorenoNoticiasprimeraedicion/videos/ahora-los-veteranos-de-guerra-de-moreno-difunden-la-iniciativa-de-la-construcci%25C3%25B3/2058261918189812/",
+          "fecha": "2026-10-22T16:05:58.000Z",
+          "descripcion": "Last viewed on: Oct 22, 2026. More videos you may like. ATE General Rodríguez. 00:36. ATE General Rodríguez. 8 hours ago · 2K views."
+        },
+        {
+          "titulo": "Por qué Milei necesita enemigos más allá de la Argentina - EL PAÍS",
+          "medio": "El País",
+          "link": "https://elpais.com/argentina/2026-10-22/por-que-milei-necesita-enemigos-mas-alla-de-la-argentina.html",
+          "fecha": "2026-10-22T13:27:54.000Z",
+          "descripcion": "El presidente Javier Milei expulsó de la Argentina a un periodista brasileño por sus críticas al Gobierno libertario y su simpatía declarada por Luiz ..."
+        },
+        {
+          "titulo": "Behind Elon Musk's plans for a mega-merger of SpaceX and Tesla - Los Angeles Times",
+          "medio": "Los Angeles Times",
+          "link": "https://www.latimes.com/business/story/2026-10-22/behind-elon-musks-plans-for-mega-merger-of-spacex-tesla",
+          "fecha": "2026-10-22T16:02:05.000Z",
+          "descripcion": "Elon Musk says SpaceX and Tesla are considering a tie-up that could become the largest corporate merger ever, bringing rockets, electric vehicles ..."
+        },
+        {
+          "titulo": "Strong 7-magnitude earthquake strikes China's Tibet region | National & World News",
+          "medio": "News8000",
+          "link": "https://www.news8000.com/news/national-world/strong-7-magnitude-earthquake-strikes-china-s-tibet-region/article_cca25d09-de44-5bfa-a8cb-fc671befffc9.html",
+          "fecha": "2026-10-22T16:13:01.000Z",
+          "descripcion": "(CNN) — A strong magnitude 7 earthquake struck China's Tibet at 10.30 p.m. local time on Thursday, according to the United States Geological ..."
+        }
+      ]
+    }
+  ]
+}
