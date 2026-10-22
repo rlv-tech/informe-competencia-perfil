@@ -22,12 +22,12 @@
       "brecha_formateada": "-8",
       "tema": "Elecciones presidenciales y debate político en Brasil",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Define el rumbo político y económico del principal socio comercial de la Argentina de cara al balotaje.",
-      "insight": "Ámbito lidera la cobertura con un volumen muy superior, mientras Perfil mantiene una presencia acotada pero constante que requiere mayor profundidad regional.",
-      "accion_sugerida": "Ampliar el despliegue de corresponsalía y sumar análisis sobre el impacto bursátil y comercial de la contienda brasileña.",
+      "por_que_importa": "El proceso electoral brasileño y su impacto geopolítico en la región son clave para la audiencia argentina interesada en las relaciones bilaterales y el equilibrio regional.",
+      "insight": "Los datos de cobertura muestran que Perfil publica 3 notas frente a las 11 de Ámbito y 4 de La Nación, evidenciando una diferencia desfavorable de ocho notas respecto al líder.",
+      "accion_sugerida": "Ampliar la cobertura propia con análisis geopolíticos diarios sobre los equipos económicos de ambos candidatos y su relación comercial con Argentina para captar tráfico en Google Search.",
       "enfoques_sugeridos": [
-        "El peso de los apoyos corporativos en la recta final hacia el balotaje.",
-        "Repercusiones económicas para el Mercosur según el candidato electo."
+        "Elecciones en Brasil: qué proponen Lula y Bolsonaro en materia comercial para la región",
+        "Balotaje en Brasil: los ejes económicos que definirán la pulseada entre Lula y la familia Bolsonaro"
       ],
       "ejemplos": [
         {
@@ -37,16 +37,16 @@
           "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/leandro-gabiati-2354323.jpg"
         },
         {
+          "medio": "Perfil",
+          "titulo": "RDI: denuncian presuntas interferencias de Meta en la campaña electoral de Lula da Silva en Brasil",
+          "link": "https://www.perfil.com/noticias/masperfil/rdi-denuncian-presuntas-interferencias-de-meta-en-la-campana-electoral-de-lula-da-silva-en-brasil.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/lula-2354314.jpg"
+        },
+        {
           "medio": "La Nación",
           "titulo": "Elecciones Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro camino al balotaje, hoy jueves 22 de octubre",
           "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-lula-vs-flavio-bolsonaro-camino-al-balotaje-hoy-jueves-22-de-octubre-nid22102026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/OHS7DR4JXREN5B4XM4L6I44TY4.jpg?auth=3fe5beb2399ae2be9fe37b26e53be5e1468f191a4c91c9be3b6c9aea7749528b&smart=true&width=5568&height=3712"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Dónde ver el segundo debate entre Lula y Bolsonaro antes del balotaje en las elecciones de Brasil",
-          "link": "https://www.lanacion.com.ar/el-mundo/donde-ver-el-segundo-debate-entre-lula-y-bolsonaro-antes-del-balotaje-en-las-elecciones-de-brasil-nid22102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/DZ74ITMNQZDJ3M4RSSVTLQ3QUU.JPG?auth=45aa76fa9fcb01e3aed2ff0113abd9ece6c5558b228dc40c74ae38335aad037d&smart=true&width=6060&height=4056"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/leandro-gabiati-2354323.jpg"
@@ -72,12 +72,12 @@
       "brecha_formateada": "-1",
       "tema": "Gira internacional de Javier Milei en España y tensiones políticas",
       "tipo": "hipercompetencia",
-      "por_que_importa": "La agenda exterior del Presidente genera fricciones diplomáticas directas y repercute en la estrategia política interna del oficialismo.",
-      "insight": "Página 12 encabeza las menciones, evidenciando una cobertura crítica donde Perfil participa de forma moderada pero sostenida.",
-      "accion_sugerida": "Contrastar las declaraciones presidenciales en Madrid con las reacciones de los bloques opositores y aliados en el Congreso local.",
+      "por_que_importa": "La agenda exterior del Presidente y sus cruces con mandatarios europeos impactan directamente en la gobernabilidad y la política nacional.",
+      "insight": "Perfil registra 2 notas, igualando a La Nación y Clarín pero quedando por debajo de Página 12, que lidera con 3 publicaciones.",
+      "accion_sugerida": "Desarrollar piezas de seguimiento sobre las repercusiones locales y el impacto en los acuerdos comerciales bilaterales.",
       "enfoques_sugeridos": [
-        "El costo diplomático de la gira y su impacto en las negociaciones comerciales europeas.",
-        "Reacomodamientos dentro de La Libertad Avanza tras el regreso del mandatario."
+        "Javier Milei regresó de España con su cumpleaños cruzado por la interna libertaria y los roces diplomáticos",
+        "La gira oficial de Milei en Madrid reaviva el debate político y la diferenciación de aliados opositores"
       ],
       "ejemplos": [
         {
@@ -87,16 +87,16 @@
           "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/javier-milei-2353467.jpg"
         },
         {
+          "medio": "Perfil",
+          "titulo": "La visita de Milei agitó la campaña española y expuso las diferencias entre sus aliados de derecha",
+          "link": "https://www.perfil.com/noticias/internacional/la-visita-de-milei-agito-la-campana-espanola-y-le-dio-una-oportunidad-a-pedro-sanchez.phtml",
+          "imagen": "https://fotos.perfil.com/2026/07/29/trim/540/304/pedro-sanchez-y-javier-milei-2293381.jpg"
+        },
+        {
           "medio": "La Nación",
           "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
           "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
           "imagen": "https://resizer.glanacion.com/resizer/v2/7AYAHOHMKNCTXFNSI4IRBWGAPI.jpeg?auth=d816da43ac1529c0d593e7fa43f345a94daf096ebe5a6e10972b473e6638b718&smart=true&width=1280&height=855"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "El expresidente español Felipe González repudió los insultos de Milei y bromeó: “Si visita España 15 veces más, es posible que gane Sánchez”",
-          "link": "https://www.clarin.com/politica/expresidente-espanol-felipe-gonzalez-repudio-insultos-milei-bromeo-visita-espana-15-veces-posible-gane-sanchez_0_H17TqJHcPW.html",
-          "imagen": "https://www.clarin.com/img/2026/10/22/m30id6ihc_1200x630__1.jpg"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/javier-milei-2353467.jpg"
@@ -121,13 +121,13 @@
       "brecha": -1,
       "brecha_formateada": "-1",
       "tema": "Toma de rehenes y motín en la Alcaidía 1 de la Ciudad de Buenos Aires",
-      "prioridad_del_dia": false,
-      "por_que_importa": "Exhibe la crisis estructural del sistema penitenciario y la superpoblación de detenidos en comisarías porteñas.",
-      "insight": "La cobertura se encuentra atomizada entre los principales portales, con La Nación y TN liderando el seguimiento de inmediatez.",
-      "accion_sugerida": "Profundizar en un informe de coyuntura sobre el traspaso demorado de presos federales y locales al Servicio Penitenciario.",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "El conflicto carcelario y la seguridad en dependencias policiales del microcentro porteño generan alta preocupación ciudadana y consumo masivo en Google News y Discover.",
+      "insight": "La cobertura de Perfil es de 1 nota, mientras que La Nación lidera con 2 y la mayoría de los portales de noticias cubren activamente el hecho en desarrollo.",
+      "accion_sugerida": "Actualizar de manera permanente la última hora con las negociaciones del Grupo GEOF y la situación del oficial herido para posicionar las alertas de Google Discover.",
       "enfoques_sugeridos": [
-        "El colapso operativo de las alcaidías en el microcentro de la Ciudad.",
-        "Protocolos de actuación policial ante situaciones de extrema vulnerabilidad institucional."
+        "Motín y toma de rehenes en la Alcaidía 1: un policía retenido y tensión en el microcentro porteño",
+        "Alarma en el centro de la Ciudad por un violento enfrentamiento de detenidos en una dependencia policial"
       ],
       "ejemplos": [
         {
@@ -171,12 +171,13 @@
       "brecha": -1,
       "brecha_formateada": "-1",
       "tema": "Protestas y declaraciones de Emmanuel Macron en Francia",
-      "por_que_importa": "La crisis social europea y la respuesta gubernamental marcan el pulso de la inestabilidad política en las potencias occidentales.",
-      "insight": "Infobae lidera levemente con coberturas continuas, mientras Perfil mantiene una participación equilibrada frente al resto de los competidores.",
-      "accion_sugerida": "Monitorear el impacto de la movilización sindical y su lectura comparada con los conflictos gremiales en la región.",
+      "tipo": "hipercompetencia",
+      "por_que_importa": "Las movilizaciones sociales y la respuesta gubernamental en Francia marcan el pulso de la conflictividad sociopolítica en Europa con resonancia global.",
+      "insight": "Infobae lidera con 2 notas, en tanto Perfil aporta 1 cobertura en sintonía con el promedio del resto de los medios nacionales.",
+      "accion_sugerida": "Incorporar análisis sobre el impacto económico de las protestas europeas y su repercusión en los mercados financieros internacionales.",
       "enfoques_sugeridos": [
-        "El rol del movimiento estudiantil y sindical en la pulseada contra el Ejecutivo francés.",
-        "Seguridad interior y movilización militar ante la escalada de protestas."
+        "Emmanuel Macron acusa a la ultraizquierda de buscar el colapso institucional tras nuevas protestas",
+        "Francia blinda sus calles: Macron moviliza recursos ante la escalada de tensiones sociales y huelgas"
       ],
       "ejemplos": [
         {
@@ -192,10 +193,10 @@
           "imagen": "https://www.clarin.com/img/2026/10/22/g1T_dQrEu_1200x630__1.jpg"
         },
         {
-          "medio": "TN",
-          "titulo": "Protestas en Francia: Macron llamó a la calma y volvió a acusar de golpistas a grupos de extrema izquierda",
-          "link": "https://tn.com.ar/internacional/2026/10/22/protestas-en-francia-macron-llamo-a-la-calma-y-volvio-a-acusar-de-golpistas-a-grupos-de-extrema-izquierda/",
-          "imagen": "https://tn.com.ar/resizer/v2/EGJAZKJ4FMQLC3NXKLPXUMDXOA.jpg?auth=ea6961b9bb08ea731d54f955739811050fce27c4f4a8f304c1a41c3bf00251ce"
+          "medio": "Infobae",
+          "titulo": "Macron recibirá este viernes por la tarde a representantes de organizaciones de estudiantes",
+          "link": "https://www.infobae.com/america/agencias/2026/10/22/macron-recibira-este-viernes-por-la-tarde-a-representantes-de-organizaciones-de-estudiantes/",
+          "imagen": "https://www.infobae.com/resizer/v2/23ESZBCVGJDQBDQNUWVH2DFOIM.jpg?auth=cd050d29599e1e5ef3c4842710a832df26590d7698704fa42161f380a25478a1&smart=true&width=1920&height=1277"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/emmanuel-macron-22102026-2354106.jpg"
@@ -223,12 +224,12 @@
       "brecha_formateada": "-1",
       "tema": "Visita del papa León XIV a la Ciudad de Buenos Aires",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Constituye uno de los eventos religiosos e institucionales de mayor convocatoria y repercusión pública proyectada para el año.",
-      "insight": "Página 12 y la competencia directa amplifican los preparativos y logística, mientras Perfil queda relegado a una cobertura testimonial.",
-      "accion_sugerida": "Jerarquizar los detalles organizativos, operativos y de inscripción para las misas con un formato de servicio para la audiencia.",
+      "por_que_importa": "El anuncio de la visita pontificia y los preparativos logísticos en la Ciudad movilizan a un vasto sector de la sociedad y generan enorme interés en buscadores.",
+      "insight": "Página 12 encabeza la cobertura con 2 notas, mientras Perfil se mantiene con una única mención a pesar de la relevancia local del acontecimiento.",
+      "accion_sugerida": "Publicar un servicio detallado sobre los cortes de tránsito, la agenda oficial y el procedimiento de inscripción para las misas en territorio argentino.",
       "enfoques_sugeridos": [
-        "Guía útil sobre cortes de tránsito y esquemas de seguridad en CABA.",
-        "El impacto político y pastoral del inminente viaje papal a la Argentina."
+        "Visita del papa León XIV: cronograma oficial, cortes de tránsito y desvíos previstos en la Ciudad",
+        "Cómo anotarse para las misas del papa León XIV en Argentina: requisitos y plazos de inscripción"
       ],
       "ejemplos": [
         {
@@ -238,16 +239,16 @@
           "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/cortes-y-desvios-por-la-visita-del-papa-leon-xiv-2354150.jpg"
         },
         {
-          "medio": "La Nación",
-          "titulo": "Salud del Papa León XIV: qué se sabe de su visita a la Argentina",
-          "link": "https://www.lanacion.com.ar/el-mundo/salud-del-papa-leon-xiv-que-se-sabe-de-su-visita-a-la-argentina-nid22102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/IGJOZSDJIZEKRLXR5LJ3OAZVWU.jpg?auth=34b1a88cf085d604dbc0a66e5ce3b2b08cd4d2555c761333c1f4bbddf7f8318b&smart=true&width=848&height=477"
-        },
-        {
           "medio": "Clarín",
           "titulo": "Este sábado arrancan los cortes en la Ciudad por la visita del papa León XIV, mientras aún se espera la confirmación oficial de su viaje a la Argentina",
           "link": "https://www.clarin.com/ciudades/sabado-arrancan-cortes-ciudad-visita-papa-leon-xiv-espera-confirmacion-oficial-viaje-argentina_0_sVoUCaYCEO.html",
           "imagen": "https://www.clarin.com/img/2026/04/22/owe6rPqSUa_1200x630__1.jpg"
+        },
+        {
+          "medio": "TN",
+          "titulo": "Cómo inscribirse para las misas del papa León XIV en la Argentina: requisitos y hasta cuándo hay tiempo",
+          "link": "https://tn.com.ar/sociedad/2026/10/22/como-inscribirse-para-las-misas-del-papa-leon-xiv-en-la-argentina-requisitos-y-hasta-cuando-hay-tiempo/",
+          "imagen": "https://tn.com.ar/resizer/v2/RLZOGRHEHFDSFM3KV5R6MPM2BY.jpg?auth=4e68b717792b2c6d4f80ee87cacaf26a6196810d885febe4e8045ebc101ae26f"
         }
       ],
       "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/cortes-y-desvios-por-la-visita-del-papa-leon-xiv-2354150.jpg"
@@ -273,12 +274,12 @@
       "brecha_formateada": "-1",
       "tema": "Media sanción y debate de la Ley de Discapacidad",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Involucra un asunto sensible de política pública, reasignación de partidas presupuestarias y una derrota legislativa evitada por el oficialismo.",
-      "insight": "Ámbito y Página 12 lideran el análisis político y económico de la norma, dejando a Perfil con menor tracción en la cobertura legislativa.",
-      "accion_sugerida": "Profundizar en el detrás de escena de la negociación parlamentaria y el impacto financiero real sobre las pensiones.",
+      "por_que_importa": "La aprobación de partidas y cambios regulatorios en materia de discapacidad afecta presupuestariamente al Estado y a miles de familias beneficiarias.",
+      "insight": "Ámbito y Página 12 lideran con 2 notas cada uno, superando la cobertura individual de Perfil en un tema de alta sensibilidad social y legislativa.",
+      "accion_sugerida": "Profundizar en las modificaciones presupuestarias introducidas en el Congreso y el impacto fiscal de la reasignación de fondos exigida al Ejecutivo.",
       "enfoques_sugeridos": [
-        "Cómo se estructuró la reasignación de fondos tras la presión de los bloques opositores.",
-        "La palabra de las organizaciones sociales y sectores afectados por la ley."
+        "Ley de Discapacidad en Diputados: los cambios clave que obligaron al Gobierno a reasignar partidas",
+        "Media sanción con amplia mayoría: qué se aprobó en el Congreso sobre el financiamiento para discapacidad"
       ],
       "ejemplos": [
         {
@@ -325,12 +326,12 @@
       "brecha_formateada": "-3",
       "tema": "Evolución y pronósticos científicos sobre el fenómeno climático El Niño en Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Impacta directamente sobre la producción agropecuaria, las economías regionales y la infraestructura hídrica del país.",
-      "insight": "La Nación y Clarín centralizan las advertencias técnicas y pronósticos especializados sin inserción de Perfil en la agenda.",
-      "accion_sugerida": "Incorporar entrevistas a expertos en climatología para anticipar las zonas de mayor riesgo y las medidas preventivas oficiales.",
+      "por_que_importa": "Las proyecciones sobre el impacto agrícola, las lluvias y las obras de infraestructura frente al Súper Niño interesan de forma directa a sectores productivos y urbanos.",
+      "insight": "La Nación lidera la cobertura con 3 notas y Clarín con 1, mientras que Perfil registra un vacío absoluto de publicaciones sobre este pronóstico ambiental crítico.",
+      "accion_sugerida": "Desarrollar una nota propia con entrevistas a especialistas ambientales y del Servicio Meteorológico para evaluar el estado de las obras de mitigación en las provincias.",
       "enfoques_sugeridos": [
-        "El pico del fenómeno climático previsto para fin de año y su correlato en el Litoral.",
-        "Estado de las obras hídricas frente al impacto de las recurrentes alertas meteorológicas."
+        "Súper Niño en Argentina: advierten que el pico de lluvias severas llegará en diciembre",
+        "Fenómeno climático y obras preventivas: qué zonas del país sufrirán el mayor impacto en los próximos meses"
       ],
       "ejemplos": [
         {
@@ -341,9 +342,9 @@
         },
         {
           "medio": "La Nación",
-          "titulo": "Súper Niño: qué se sabe sobre los efectos que tendrá el fenómeno en la Argentina y cuándo impactará con más fuerza",
-          "link": "https://www.lanacion.com.ar/sociedad/super-nino-que-se-sabe-sobre-los-efectos-que-tendra-el-fenomeno-en-la-argentina-y-cuando-impactara-nid19102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/D5MJFEG23VAL5AUXTWQ4NSZRCA.jpg?auth=bb47e1d2903cd2579e70aaba893bb404637afa4f3a6ca62af629e24617eae069&smart=true&width=2000&height=1333"
+          "titulo": "Inti Bonomo, experto en Ciencias Ambientales, sobre por qué la nubosidad ayuda a comprender los efectos del Súper Niño: “Tenemos una gran capa de nubes y esto influye sobre la temperatura”",
+          "link": "https://www.lanacion.com.ar/sociedad/inti-bonomo-experto-en-ciencias-ambientales-sobre-por-que-la-nubosidad-ayuda-a-comprender-los-nid22102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024"
         },
         {
           "medio": "Clarín",
@@ -375,12 +376,12 @@
       "brecha_formateada": "-2",
       "tema": "Caída en las ventas de supermercados y consumo masivo",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Mide el pulso de la recuperación económica y el poder adquisitivo real de los hogares frente a la inflación y el ajuste.",
-      "insight": "Competidores directos como La Nación, TN y Ámbito registran la caída interanual mientras Perfil carece de producción propia en este eje.",
-      "accion_sugerida": "Desarrollar un informe económico basado en los últimos datos sectoriales para entender el comportamiento del consumo masivo.",
+      "por_que_importa": "Los datos oficiales y privados sobre la retracción del consumo masivo miden el pulso real de la economía doméstica y el poder adquisitivo de los hogares.",
+      "insight": "La Nación encabeza con 2 notas y Ámbito con 2, registrándose una ausencia total de cobertura de Perfil sobre los índices sectoriales publicados.",
+      "accion_sugerida": "Analizar los rubros más golpeados por la caída interanual y su correlación con la evolución de los salarios y tarifas de servicios públicos.",
       "enfoques_sugeridos": [
-        "Rubros más golpeados por la retracción de compras en hipermercados.",
-        "Estrategias de supervivencia comercial y marcas propias en góndola."
+        "Consumo masivo en baja: los supermercados encadenan caídas consecutivas y el ticket promedio se achica",
+        "La retracción de las ventas minoristas: cuáles fueron los rubros más afectados durante septiembre"
       ],
       "ejemplos": [
         {
@@ -396,10 +397,10 @@
           "imagen": "https://resizer.glanacion.com/resizer/v2/D5JJZSIRKNCNVLANK4URIZLJB4.JPG?auth=8dfdac16962014b9de25b4e2cbc87835b138c667d6f315d99526ae5542272fc0&smart=true&width=2000&height=1333"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "El consumo en supermercados cayó por tercer mes consecutivo en agosto",
-          "link": "https://www.ambito.com/economia/el-consumo-supermercados-cayo-tercer-mes-consecutivo-n6336887",
-          "imagen": ""
+          "medio": "TN",
+          "titulo": "El consumo masivo no repunta: cuáles fueron los rubros más afectados en septiembre",
+          "link": "https://tn.com.ar/economia/2026/10/22/el-consumo-masivo-no-repunta-cuales-fueron-los-rubros-mas-afectados-en-septiembre/",
+          "imagen": "https://tn.com.ar/resizer/v2/NRSUZNV44ZDEPKPZGQLC5AW5RM.jpg?auth=d9046c6ae27dae81bdef76172122433c3b2a874edfad5b7388c4857df5812a81"
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/D5JJZSIRKNCNVLANK4URIZLJB4.JPG?auth=8dfdac16962014b9de25b4e2cbc87835b138c667d6f315d99526ae5542272fc0&smart=true&width=2000&height=1333"
@@ -425,12 +426,12 @@
       "brecha_formateada": "-2",
       "tema": "Entrega de los premios Martín Fierro de Radio",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Representa uno de los acontecimientos de mayor interés para la industria de medios de comunicación y el espectáculo nacional.",
-      "insight": "Infobae, Ámbito y Página 12 acaparan el tráfico de la gala con galerías de fotos y ganadores, área inexplorada hoy por Perfil.",
-      "accion_sugerida": "Cubrir las principales premiaciones y los discursos destacados con foco en las repercusiones políticas de la noche.",
+      "por_que_importa": "La ceremonia de premiación de la radiodifusión argentina moviliza a la industria del entretenimiento, figuras públicas y audiencias masivas en redes.",
+      "insight": "Ámbito y Página 12 lideran con 2 notas cada uno, al tiempo que Perfil no registra cobertura sobre los ganadores ni los discursos políticos de la gala.",
+      "accion_sugerida": "Publicar un resumen completo con la lista de ganadores de las principales ternas y los momentos más destacados de la alfombra roja.",
       "enfoques_sugeridos": [
-        "Los discursos con fuerte carga política y su repercusión en el ecosistema mediático.",
-        "Homenajes y perlitas de la alfombra roja en la gran noche de la radiofonía."
+        "Premios Martín Fierro de Radio: María O’Donnell se llevó el Oro en una gala atravesada por cruces políticos",
+        "Todos los ganadores de los Martín Fierro de Radio 2026: homenajes y discursos destacados"
       ],
       "ejemplos": [
         {
@@ -441,15 +442,15 @@
         },
         {
           "medio": "Ámbito",
+          "titulo": "Martin Fierro de la Radio 2026: cómo fueron los homenajes a Oscar González Oro, Chiche Gelblung y Ernestina Pais",
+          "link": "https://www.ambito.com/espectaculos/martin-fierro-la-radio-2026-como-fueron-los-homenajes-oscar-gonzalez-oro-chiche-gelblung-y-ernestina-pais-n6336671",
+          "imagen": "https://media.ambito.com/p/fa7ca03d03eb68298fd7ca21ca5c5263/adjuntos/239/imagenes/043/720/0043720362/homenajes-martin-fierro.png"
+        },
+        {
+          "medio": "Ámbito",
           "titulo": "Martín Fierro de Radio 2026: todos los ganadores de la gala",
           "link": "https://www.ambito.com/espectaculos/martin-fierro-radio-2026-todos-los-ganadores-la-gala-n6336582",
           "imagen": "https://media.ambito.com/p/4d25a1fb6bf2f0e00ff0ad779bdad613/adjuntos/239/imagenes/043/376/0043376434/premios-martin-fierro.jpg"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Martín Fierro de Radio 2026: María O’Donnell se llevó el Oro y todos los ganadores de una gala marcada por las críticas a Milei",
-          "link": "https://www.pagina12.com.ar/2026/10/21/martin-fierro-de-radio-2026-todos-los-ganadores-de-una-gala-especial/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/YGQ45IVAPFAUNFT6NU23XWCGFQ.jpg?auth=fb3791c5a16234b79e37207a94070bb5c840e883e0f1d726f7d273b28fbd9587&amp;smart=true&amp;width=3060&amp;height=1908"
         }
       ],
       "imagen": "https://www.infobae.com/resizer/v2/TC3EK25XKBDLFMZPBBOIWNVPRQ.png?auth=5f523117a19ad2eab39c83a652fe11fbf1a7ce36a5b8f39f67d9034bf49a5947&smart=true&width=1920&height=1080"
@@ -475,12 +476,12 @@
       "brecha_formateada": "-2",
       "tema": "Debate sobre endeudamiento familiar en Diputados",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Refleja la fragilidad financiera de los hogares y la morosidad ante condiciones de crédito abusivas en contexto recesivo.",
-      "insight": "Ámbito, Página 12 y El Cronista cubren el frenazo al proyecto en comisión, evidenciando una vacancia total en la cobertura de Perfil.",
-      "accion_sugerida": "Analizar las alternativas parlamentarias y el impacto del endeudamiento con tarjetas y préstamos personales.",
+      "por_que_importa": "Las iniciativas legislativas para frenar condiciones de crédito abusivas y regular la mora familiar impactan de lleno en la economía cotidiana de sectores vulnerables.",
+      "insight": "Página 12 y El Cronista registran 2 notas cada uno, mientras Perfil carece de cobertura sobre la decisión parlamentaria de devolver el proyecto a comisión.",
+      "accion_sugerida": "Redactar un informe sobre las dificultades de los hogares endeudados para acceder a refinanciaciones en el contexto actual de tasas.",
       "enfoques_sugeridos": [
-        "El perfil de los hogares morosos y el peso de las tasas en la rueda financiera familiar.",
-        "Estrategias legislativas cruzadas entre oficialismo y oposición para frenar la morosidad."
+        "Diputados frenó el debate sobre endeudamiento familiar y devolvió el proyecto a comisión",
+        "Créditos abusivos y familias en mora: por qué se cajoneó la ley de alivio financiero"
       ],
       "ejemplos": [
         {
@@ -496,66 +497,68 @@
           "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MM4DAMTFGFSDEMZTME2WEYJYG4.jpg?auth=756c81b256a0c5577090a8eaffcc0cf1e8757b0af5cb3808164975022abf3527&amp;smart=true&amp;width=1920&amp;height=1280"
         },
         {
-          "medio": "El Cronista",
-          "titulo": "Cajonean la ley de morosidad para bloquear que proliferen proyectos opositores",
-          "link": "https://www.cronista.com/finanzas-mercados/cajonean-la-ley-de-morosidad-para-bloquear-que-proliferen-proyectos-opositores/",
-          "imagen": "https://www.cronista.com/resizer/v2/N77ZRJ3H2BF3BOZTXIHA7B5QB4.jpg?auth=9542267368a085a4bcb8a808099035192fe17c9e85d32349d43734be5c797ade&smart=true&width=1200&height=900"
+          "medio": "Página 12",
+          "titulo": "Sin respuesta para las familias endeudadas: el oficialismo devolvió el proyecto a comisión",
+          "link": "https://www.pagina12.com.ar/2026/10/22/sin-respuesta-para-las-familias-endeudadas-el-oficialismo-devolvio-el-proyecto-a-comision/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LVCPIEIFURHKXKABISCEHJ6J3I.JPG?auth=dba154e6db0d8cd829bff683b26666bb1566fea9c334b035d0749cd267b9f220&amp;smart=true&amp;width=2000&amp;height=1333"
         }
       ],
       "imagen": "https://media.ambito.com/p/ae8c3b676397fcabf7f3667ccefb6924/adjuntos/239/imagenes/039/350/0039350973/1200x675/smart/deudas-alivio-fiscal-4jpg.jpg"
-    },
+    }
+  ],
+  "oportunidades": [
     {
-      "total_notas": 3,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
+      "total_notas": 6,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
       "cobertura": {
         "Perfil": 0,
         "La Nación": 0,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
-        "Ámbito": 1,
+        "Ámbito": 0,
         "Página 12": 0,
-        "El Cronista": 2
+        "El Cronista": 6
       },
       "cobertura_perfil": 0,
       "medio_lider": "El Cronista",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Ingreso de Toyota al RIGI para fabricar vehículos y pick up híbrida",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Marca un hito en la radicación de inversiones industriales de gran escala bajo el régimen de incentivos fiscales y reconversión tecnológica.",
-      "insight": "El Cronista y Ámbito detallan el proyecto automotriz en Zárate, un hito económico clave ausente en la cobertura diaria de Perfil.",
-      "accion_sugerida": "Publicar un análisis económico sobre el impacto del RIGI en la cadena de valor automotriz y la transición hacia híbridos.",
+      "cobertura_medio_lider": 6,
+      "brecha": -6,
+      "brecha_formateada": "-6",
+      "tema": "Significado de señales de tránsito viales",
+      "tipo": "oportunidades",
+      "tipo_de_oportunidad": "Cobertura ausente de servicio y evergreen con alto potencial en buscadores",
+      "motivo_oportunidad": "El Cronista concentra 6 notas sobre cartelería vial que generan tráfico constante por consultas de conductores, un nicho que Perfil no explota en su sección de servicios.",
+      "por_que_importa": "Las dudas sobre normativa de tránsito responden a una demanda de búsqueda sostenida en Google Search de lectores que necesitan rendir exámenes o actualizar conocimientos.",
+      "insight": "El competidor El Cronista capta el 100% de la cobertura en este segmento mediante notas optimizadas de consulta general.",
+      "accion_sugerida": "Crear un manual interactivo o serie de notas de servicio sobre nomenclaturas viales para captar tráfico orgánico recurrente.",
       "enfoques_sugeridos": [
-        "Los detalles técnicos y productivos de la nueva plataforma de vehículos híbridos en el país.",
-        "Competitividad exportadora y eslabonamiento con proveedores locales de autopartes."
+        "Qué significa cada señal de tránsito en Argentina: guía completa para conductores y normativas vigentes",
+        "Cómo interpretar las señales viales de prohibición y advertencia para evitar multas en ruta"
       ],
       "ejemplos": [
         {
-          "medio": "Ámbito",
-          "titulo": "El Gobierno aprobó el ingreso de Toyota al RIGI para fabricar una pick up híbrida en Zárate",
-          "link": "https://www.ambito.com/economia/el-gobierno-aprobo-el-ingreso-toyota-al-rigi-fabricar-una-pick-up-hibrida-zarate-n6336597",
-          "imagen": "https://media.ambito.com/p/5489d1544cc7725bfddad0e0dd3e32dc/adjuntos/239/imagenes/037/247/0037247840/1200x675/smart/toyota-sw4.jpg"
+          "medio": "El Cronista",
+          "titulo": "Qué significa la señal de tránsito R.18: la indicación de fondo azul con borde rojo que muestra un adulto y un niño",
+          "link": "https://www.cronista.com/informacion-gral/que-significa-la-senal-de-transito-r18-la-indicacion-de-fondo-azul-con-borde-rojo-que-muestra-un-adulto-y-un-nino/",
+          "imagen": "https://www.cronista.com/resizer/v2/TNEKOUAX4RBRFDOPW62DD2YLIU.png?auth=185bc775e2419adc7504669ef6222e8514c80b247e53ced77f818356eac24ddf&smart=true&width=1200&height=900"
         },
         {
           "medio": "El Cronista",
-          "titulo": "El RIGI se anota otro récord: la mayor inversión en la industria automotriz será en los vehículos del futuro",
-          "link": "https://www.cronista.com/negocios/el-rigi-se-anota-otro-record-la-mayor-inversion-en-la-industria-automotriz-y-en-los-vehiculos-del-futuro/",
-          "imagen": "https://www.cronista.com/resizer/v2/EIHCNPEBANFGNFWA4IRVYNG6GA.jpg?auth=0ff4d6a4e7e64b7d54ff8a5e241c08c1c245cbe9a940487139532eaf1e17baeb&smart=true&width=1200&height=900"
+          "titulo": "Qué significa la señal de tránsito de dos flechas blancas sobre un fondo azul y por qué es importante para los conductores",
+          "link": "https://www.cronista.com/informacion-gral/que-significa-la-senal-de-transito-de-dos-flechas-blancas-sobre-un-fondo-azul-y-por-que-es-importante-para-los-conductores/",
+          "imagen": "https://www.cronista.com/resizer/v2/NIMXDMMCUJEP3BGH27M7W5UWSU.jpg?auth=76c898fc738f691593ddb9a6ea8c7ec5bb935077144a735d661b5676b06688c2&smart=true&width=1200&height=900"
         },
         {
           "medio": "El Cronista",
-          "titulo": "El RIGI de Toyota es para una producir pick-up 100% híbrida y la japonesa también planea un SUV con esa tecnología",
-          "link": "https://www.cronista.com/negocios/el-rigi-de-toyota-es-para-una-producir-pick-up-100-hibrida-y-la-japonesa-tambien-planea-un-suv-con-esa-tecnologia/",
-          "imagen": "https://www.cronista.com/resizer/v2/5GXXKM4UZREPDJPMUTFLV3QSBA.jpg?auth=b2cadb4b30a0046beb33934e8d479a122c1163acf5f22f33ee82c4fcd562bdcc&smart=true&width=1200&height=900"
+          "titulo": "Qué significa la señal de tránsito con borde rojo y una flecha que apunta abajo a la derecha",
+          "link": "https://www.cronista.com/informacion-gral/que-significa-la-senal-de-transito-con-borde-rojo-y-una-flecha-que-apunta-abajo-a-la-derecha/",
+          "imagen": "https://www.cronista.com/resizer/v2/2S76VJDGWZDGNFZRYJUWJSSXPI.jpg?auth=0a8b74ae2d32267ccf47f423c789ca1886aa293e5264e633617404f74ebf62bb&smart=true&width=1200&height=900"
         }
       ],
-      "imagen": "https://media.ambito.com/p/5489d1544cc7725bfddad0e0dd3e32dc/adjuntos/239/imagenes/037/247/0037247840/1200x675/smart/toyota-sw4.jpg"
-    }
-  ],
-  "oportunidades": [
+      "imagen": "https://www.cronista.com/resizer/v2/TNEKOUAX4RBRFDOPW62DD2YLIU.png?auth=185bc775e2419adc7504669ef6222e8514c80b247e53ced77f818356eac24ddf&smart=true&width=1200&height=900"
+    },
     {
       "total_notas": 5,
       "cantidad_medios": 1,
@@ -577,12 +580,14 @@
       "brecha_formateada": "-5",
       "tema": "Declaraciones y análisis económicos sobre el programa del Gobierno, tipo de cambio y mercado",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Cobertura ausente de Perfil con alto potencial en Search y Discover sobre proyecciones macroeconómicas.",
-      "motivo_oportunidad": "El Cronista concentra 5 notas exclusivas con voces de peso técnico como Furiase y Broda que Perfil no replicó.",
-      "accion_sugerida": "Desarrollar una nota de síntesis cruzando las visiones de los principales economistas consultados por la industria sobre el crawling peg y las reservas.",
+      "tipo_de_oportunidad": "Contenido especializado cubierto en exclusiva por la competencia",
+      "motivo_oportunidad": "El Cronista publica 5 notas exclusivas con análisis de consultores y economistas principales sobre la recalibración del programa económico oficial.",
+      "por_que_importa": "La opinión de referentes económicos sobre el tipo de cambio y las tasas de interés es consultada por inversores y analistas del mercado local.",
+      "insight": "El Cronista lidera con 5 publicaciones temáticas enfocadas en la sustentabilidad del esquema cambiario sin réplica en Perfil.",
+      "accion_sugerida": "Entrevistar a analistas independientes para contraponer visiones sobre la viabilidad del programa económico de cara al año electoral.",
       "enfoques_sugeridos": [
-        "La pulseada técnica en torno a la competitividad del tipo de cambio para 2027.",
-        "Advertencias del mercado sobre la sustentabilidad del programa fiscal."
+        "Programa económico bajo la lupa: economistas advierten la urgencia de recalibrar variables clave",
+        "Tipo de cambio y tasas de interés: el debate entre analistas sobre la estrategia financiera para 2027"
       ],
       "ejemplos": [
         {
@@ -593,15 +598,15 @@
         },
         {
           "medio": "El Cronista",
-          "titulo": "Un economista cercano a Milei cruzó a los que piden un dólar más alto y lanzó una advertencia",
-          "link": "https://www.cronista.com/finanzas-mercados/un-economista-cercano-a-milei-cruzo-a-los-que-piden-un-dolar-mas-alto-y-lanzo-una-advertencia/",
-          "imagen": "https://www.cronista.com/resizer/v2/4EF7FGICAZDKJFCMGISP25ZYYQ.png?auth=559a4c957f7349dbc587ceaaa51c8a3a83fb6a1acb30feba342ea6e824817165&smart=true&width=1200&height=900"
+          "titulo": "Furiase desafió al mercado: por qué dice que no habrá volatilidad con el dólar ni las tasas en 2027",
+          "link": "https://www.cronista.com/finanzas-mercados/furiase-desafio-al-mercado-por-que-dice-que-no-habra-volatilidad-con-el-dolar-ni-las-tasas-en-2027/",
+          "imagen": "https://www.cronista.com/resizer/v2/LRM7MVIKNFA2BMVGVALQKW24XA.jpeg?auth=7cf6aa6eb05d50e3706e51cdf1df66835fb05f427c80527df29fcf91f14be5df&smart=true&width=1200&height=900"
         },
         {
           "medio": "El Cronista",
-          "titulo": "Broda apuntó contra el “dólar barato”: el tipo de cambio que propone para la Argentina",
-          "link": "https://www.cronista.com/finanzas-mercados/broda-apunto-contra-el-dolar-barato-el-tipo-de-cambio-que-propone-para-la-argentina/",
-          "imagen": "https://www.cronista.com/resizer/v2/5LKPY2VZXFDHVIH3EPVHA7LUFA.jpg?auth=ca54b722351753189f42979fe6afdc6f30fd2c2dcb2cd35836da1b50ac8d4738&smart=true&width=1200&height=900"
+          "titulo": "Un economista cercano a Milei cruzó a los que piden un dólar más alto y lanzó una advertencia",
+          "link": "https://www.cronista.com/finanzas-mercados/un-economista-cercano-a-milei-cruzo-a-los-que-piden-un-dolar-mas-alto-y-lanzo-una-advertencia/",
+          "imagen": "https://www.cronista.com/resizer/v2/4EF7FGICAZDKJFCMGISP25ZYYQ.png?auth=559a4c957f7349dbc587ceaaa51c8a3a83fb6a1acb30feba342ea6e824817165&smart=true&width=1200&height=900"
         }
       ],
       "imagen": "https://www.cronista.com/resizer/v2/7N364ITZJJBILLHRB2BY7NLRTI.jpeg?auth=fbddb0decd8105a9b4c1032bd84d2977a76b1fde46bc661b2fe53628ee8d4e48&smart=true&width=1200&height=900"
@@ -627,12 +632,14 @@
       "brecha_formateada": "-4",
       "tema": "Operatividad inmobiliaria con dólares del blanqueo y precios de propiedades",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Vacancia temática en Perfil con fuerte tracción de audiencia en servicios e inversiones inmobiliarias.",
-      "motivo_oportunidad": "El Cronista aborda el uso de fondos declarados para la compra de inmuebles y la brecha de precios reales.",
-      "accion_sugerida": "Publicar un informe práctico orientado a inversores y compradores sobre el impacto del blanqueo en el mercado de escrituras.",
+      "tipo_de_oportunidad": "Guía de servicios económicos orientada al mercado inmobiliario",
+      "motivo_oportunidad": "El Cronista registra 4 notas orientadas a resolver inquietudes sobre la utilización de fondos declarados en transacciones de compraventa de inmuebles.",
+      "por_que_importa": "El impacto del blanqueo de capitales en el mercado de la construcción y la compraventa de viviendas moviliza a pequeños y medianos inversores.",
+      "insight": "La cobertura está dominada en exclusividad por El Cronista, dejando un espacio vacante en la agenda económica de Perfil.",
+      "accion_sugerida": "Elaborar una guía práctica para lectores sobre los recaudos impositivos y notariales al invertir ahorros en ladrillos.",
       "enfoques_sugeridos": [
-        "Cómo impacta el uso de los dólares regularizados en la reactivación del mercado de usados.",
-        "Índices de rentabilidad actual para la compra destinada al alquiler."
+        "Comprar una propiedad con dólares del blanqueo: requisitos, restricciones y pasos legales",
+        "Mercado inmobiliario en cifras: cómo calcular el precio real de cierre frente a los valores publicados"
       ],
       "ejemplos": [
         {
@@ -643,249 +650,101 @@
         },
         {
           "medio": "El Cronista",
+          "titulo": "Dólares del colchón: ¿te pueden cobrar Ingresos Brutos si los depositás por la Ley de Inocencia Fiscal?",
+          "link": "https://www.cronista.com/finanzas-mercados/dolares-del-colchon-te-pueden-cobrar-ingresos-brutos-si-los-depositas-por-la-ley-de-inocencia-fiscal/",
+          "imagen": "https://www.cronista.com/resizer/v2/2GS4G7NXWZATHFZCCJTHUXCK4M.jpg?auth=726da4439af180aa6154679480cf0ab9a7b78fc64736f21d3daec2fd5d1a2a05&smart=true&width=1200&height=900"
+        },
+        {
+          "medio": "El Cronista",
           "titulo": "Precio real de las propiedades: cómo funciona el índice que revela la brecha entre valores publicados y los de cierre",
           "link": "https://www.cronista.com/negocios/precio-real-de-las-propiedades-como-funciona-el-indice-que-revela-la-brecha-entre-valores-publicados-y-los-de-cierre/",
           "imagen": "https://www.cronista.com/resizer/v2/2KZBS5JRURBLBNALAIHZHM4A3M.jpg?auth=3c30b0dcf0d1a4a42eae834c64767b0b4ad8d14335f85e390dd2b74b9deebb07&smart=true&width=1200&height=900"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "Comprar para alquilar: cuánto hay que invertir y qué rentabilidad deja hoy",
-          "link": "https://www.cronista.com/negocios/comprar-para-alquilar-cuanto-hay-que-invertir-y-que-rentabilidad-deja-hoy/",
-          "imagen": "https://www.cronista.com/resizer/v2/62444SSBPVHIHGY6ZCURJZMZNQ.jpg?auth=dface136489269551dff6815b9e32b6ee83ae113a95b212a7ae51bd1bebbe4c9&smart=true&width=1200&height=900"
         }
       ],
       "imagen": "https://www.cronista.com/resizer/v2/OV4DDIRW5BFFRBUEURPWZRV3EQ.jpg?auth=f0d9fd4e6d6adbe90190254883a02c58ff6b13920610a9135d500eb16a70579e&smart=true&width=1200&height=900"
-    },
-    {
-      "total_notas": 2,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 2
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "El Cronista",
-      "cobertura_medio_lider": 2,
-      "brecha": -2,
-      "brecha_formateada": "-2",
-      "tema": "Opciones de inversión en pesos y cobertura en la Bolsa",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Oportunidad de posicionamiento en contenidos de finanzas personales frente a la incertidumbre electoral.",
-      "motivo_oportunidad": "El Cronista y otros medios especializados cubren la migración hacia instrumentos atados a cobertura preelectoral.",
-      "accion_sugerida": "Armar una guía dinámica de instrumentos financieros con menor exposición al riesgo político para pequeños ahorristas.",
-      "enfoques_sugeridos": [
-        "Opciones en pesos que ganan terreno frente al tradicional plazo fijo.",
-        "El boom de demanda en Cedears como cobertura ante la volatilidad cambiaria."
-      ],
-      "ejemplos": [
-        {
-          "medio": "El Cronista",
-          "titulo": "La inversión en pesos que que gana terreno frente al plazo fijo",
-          "link": "https://www.cronista.com/finanzas-mercados/la-inversion-en-pesos-que-que-gana-terreno-frente-al-plazo-fijo/",
-          "imagen": "https://www.cronista.com/resizer/v2/MWZNIKHYIZC5DCTDDE3QX54Q5U.jpg?auth=e42ebd7c4e7da2fd2c26d7dc0377296f66c1ba74810b8ae814c712cb27bb6ca7&smart=true&width=1200&height=900"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "La cobertura preelectoral se disparó en la Bolsa: la demanda de Cedear crece al 109%",
-          "link": "https://www.cronista.com/finanzas-mercados/la-cobertura-preelectoral-se-disparo-en-la-bolsa-la-demanda-de-cedear-crece-al-109/",
-          "imagen": "https://www.cronista.com/resizer/v2/37ZZUDDMCFH33N2NJQMJP4IYII.png?auth=6920a0d486c80a2c8a6a2b82a0d7c7346316d5d958b4c65769c5516caa1543d7&smart=true&width=1200&height=900"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Obligaciones Negociables: cómo invertir para cobrar renta mensual en dólares con rendimientos de hasta 10% anual",
-          "link": "https://www.ambito.com/finanzas/obligaciones-negociables-como-invertir-cobrar-renta-mensual-dolares-rendimientos-10-anual-n6336441",
-          "imagen": "https://media.ambito.com/p/47c45ef6767aaf4b3fbe50210f48690e/adjuntos/239/imagenes/043/719/0043719129/1200x675/smart/planta-dinero-y-mercados-alza.png"
-        }
-      ],
-      "imagen": "https://www.cronista.com/resizer/v2/MWZNIKHYIZC5DCTDDE3QX54Q5U.jpg?auth=e42ebd7c4e7da2fd2c26d7dc0377296f66c1ba74810b8ae814c712cb27bb6ca7&smart=true&width=1200&height=900"
-    },
-    {
-      "total_notas": 2,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Garantía obtenida por el Gobierno del BID para el sistema eléctrico",
-      "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Noticia económica de alto impacto regional e infraestructura sin cobertura en los soportes de Perfil.",
-      "motivo_oportunidad": "TN y El Cronista destacan la aprobación de fondos clave para evitar crisis energéticas de cara al verano.",
-      "accion_sugerida": "Profundizar en el destino de las inversiones y el estado de las redes de distribución eléctrica metropolitanas.",
-      "enfoques_sugeridos": [
-        "Cómo destraba el BID los fondos para obras prioritarias de alta tensión.",
-        "El plan oficial para mitigar cortes de suministro durante los picos de demanda estacional."
-      ],
-      "ejemplos": [
-        {
-          "medio": "TN",
-          "titulo": "El Gobierno obtuvo una garantía del BID por US$200 millones para mejorar el sistema eléctrico y evitar cortes de luz",
-          "link": "https://tn.com.ar/economia/2026/10/22/el-gobierno-obtuvo-una-garantia-del-bid-por-us200-millones-para-mejorar-el-sistema-electrico-y-evitar-cortes-de-luz/",
-          "imagen": "https://tn.com.ar/resizer/v2/6MDSQRKXE5CR3I56PE2X4644SE.JPG?auth=78fdb10ca72f44f9c463723c9715f099172743a0d5d114b53fcde887b2777b0f"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "El BID aprobó una garantía que destraba una obra eléctrica de u$s 800 millones",
-          "link": "https://www.cronista.com/economia-politica/el-bid-aprobo-la-garantia-que-destraba-una-obra-electrica-de-us-800-millones/",
-          "imagen": "https://www.cronista.com/resizer/v2/E27QPQ3VU5HZTIJGRIPCIVXT7Y.jpeg?auth=cfeaa0fc28afecfec0dc2cdb23de29efa1edf712cb157a6fe63e177843c01565&smart=true&width=1200&height=900"
-        }
-      ],
-      "imagen": "https://tn.com.ar/resizer/v2/6MDSQRKXE5CR3I56PE2X4644SE.JPG?auth=78fdb10ca72f44f9c463723c9715f099172743a0d5d114b53fcde887b2777b0f"
     }
   ],
   "prioridades_del_dia": [
     {
-      "total_notas": 28,
-      "cantidad_medios": 7,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 3,
-        "La Nación": 4,
-        "Clarín": 3,
-        "Infobae": 0,
-        "TN": 2,
-        "Ámbito": 11,
-        "Página 12": 3,
-        "El Cronista": 2
-      },
-      "cobertura_perfil": 3,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 11,
-      "brecha": -8,
-      "brecha_formateada": "-8",
-      "tema": "Elecciones presidenciales y debate político en Brasil",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Concentra la atención geopolítica regional con impacto directo en los mercados financieros y la agenda exterior argentina.",
-      "accion_sugerida": "Reforzar el seguimiento minuto a minuto del clima electoral y las repercusiones comerciales en el cono sur.",
+      "tema": "Procesamiento judicial de José Luis Espert por lavado de dinero",
+      "tipo": "sin_clasificar",
+      "por_que_importa": "Involucra a un dirigente oficialista de primera línea en una causa penal compleja con prohibición de salida del país, alterando la agenda política nacional.",
+      "accion_sugerida": "Seguir el expediente judicial minuto a minuto y analizar el impacto político de la medida en las listas electorales.",
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Qué impacto podría tener el último debate antes de las elecciones brasileñas",
-          "link": "https://www.perfil.com/noticias/modo-fontevecchia/que-impacto-podria-tener-el-ultimo-debate-antes-de-las-elecciones-brasilenas-modof.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/leandro-gabiati-2354323.jpg"
+          "titulo": "Espert quedó procesado por lavado de dinero y no podrá salir del país",
+          "link": "https://www.perfil.com/noticias/judiciales/espert-quedo-procesado-por-lavado-de-dinero-y-no-podra-salir-del-pais.phtml",
+          "imagen": "https://fotos.perfil.com/2026/07/07/trim/540/304/espert-en-tribunales-07072026-2277345.jpg"
         },
         {
           "medio": "La Nación",
-          "titulo": "Elecciones Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro camino al balotaje, hoy jueves 22 de octubre",
-          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-lula-vs-flavio-bolsonaro-camino-al-balotaje-hoy-jueves-22-de-octubre-nid22102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/OHS7DR4JXREN5B4XM4L6I44TY4.jpg?auth=3fe5beb2399ae2be9fe37b26e53be5e1468f191a4c91c9be3b6c9aea7749528b&smart=true&width=5568&height=3712"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Dónde ver el segundo debate entre Lula y Bolsonaro antes del balotaje en las elecciones de Brasil",
-          "link": "https://www.lanacion.com.ar/el-mundo/donde-ver-el-segundo-debate-entre-lula-y-bolsonaro-antes-del-balotaje-en-las-elecciones-de-brasil-nid22102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/DZ74ITMNQZDJ3M4RSSVTLQ3QUU.JPG?auth=45aa76fa9fcb01e3aed2ff0113abd9ece6c5558b228dc40c74ae38335aad037d&smart=true&width=6060&height=4056"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/leandro-gabiati-2354323.jpg"
-    },
-    {
-      "total_notas": 8,
-      "cantidad_medios": 5,
-      "cantidad_competidores": 4,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 1,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 2,
-        "Página 12": 2,
-        "El Cronista": 2
-      },
-      "cobertura_perfil": 1,
-      "medio_lider": "Ámbito",
-      "cobertura_medio_lider": 2,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Media sanción y debate de la Ley de Discapacidad",
-      "tipo": "perfil_pierde",
-      "por_que_importa": "Constituye un eje clave de debate legislativo y tensión fiscal que exigió un giro táctico del oficialismo en Diputados.",
-      "accion_sugerida": "Profundizar en los cambios introducidos al proyecto original y el impacto en las partidas presupuestarias.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Valentina Bassi se refirió en RDI a la media sanción que obtuvo la Ley de Discapacidad: “Estamos cautelosamente satisfechos”",
-          "link": "https://www.perfil.com/noticias/masperfil/valentina-bassi-se-refirio-en-rdi-a-la-media-sancion-que-obtuvo-la-ley-de-discapacidad-estamos-cautelosamente-satisfechos.phtml",
-          "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/bassi-2354259.jpg"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Milei cedió ante la mesa política y está dispuesto a reasignar partidas para la nueva ley de discapacidad",
-          "link": "https://www.lanacion.com.ar/politica/milei-cedio-ante-la-mesa-politica-y-esta-dispuesto-a-reasignar-partidas-para-la-nueva-ley-de-nid22102026/",
-          "imagen": ""
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Diputados aprobó fondos para discapacidad: cuáles son los cambios al proyecto del Gobierno",
-          "link": "https://www.ambito.com/politica/diputados-aprobo-fondos-discapacidad-cuales-son-los-cambios-al-proyecto-del-gobierno-n6336604",
-          "imagen": "https://media.ambito.com/p/de33621f83582805c8881e685a0fd2f9/adjuntos/239/imagenes/043/706/0043706480/1200x675/smart/sesion-diputados.JPG"
-        }
-      ],
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/bassi-2354259.jpg"
-    },
-    {
-      "total_notas": 7,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 4,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 3,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 2,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Evolución y pronósticos científicos sobre el fenómeno climático El Niño en Argentina",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Anticipa escenarios críticos para la producción agropecuaria y la seguridad hídrica en distintas provincias.",
-      "accion_sugerida": "Publicar un informe integral con voces de expertos ambientales sobre el pico previsto para diciembre.",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Inti Bonomo, especialista en Ciencias Ambientales, sobre la evolución del Súper Niño: “Va a seguir creciendo y el pico va a ser en diciembre”",
-          "link": "https://www.lanacion.com.ar/sociedad/inti-bonomo-especialista-en-ciencias-ambientales-sobre-la-evolucion-del-super-nino-va-a-seguir-nid21102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Súper Niño: qué se sabe sobre los efectos que tendrá el fenómeno en la Argentina y cuándo impactará con más fuerza",
-          "link": "https://www.lanacion.com.ar/sociedad/super-nino-que-se-sabe-sobre-los-efectos-que-tendra-el-fenomeno-en-la-argentina-y-cuando-impactara-nid19102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/D5MJFEG23VAL5AUXTWQ4NSZRCA.jpg?auth=bb47e1d2903cd2579e70aaba893bb404637afa4f3a6ca62af629e24617eae069&smart=true&width=2000&height=1333"
+          "titulo": "Procesaron a José Luis Espert por lavado de dinero y le prohibieron salir del país",
+          "link": "https://www.lanacion.com.ar/politica/procesaron-a-jose-luis-espert-por-lavado-de-dinero-y-le-prohibieron-salir-del-pais-nid22102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/SBKR53JDVFFGZALWJGTFXGHCZU.jpg?auth=6c375e705eb7aacd24d9040f3173bb6dd5cdb65099d00655dca6ed09ed300dd0&smart=true&width=1200&height=1200"
         },
         {
           "medio": "Clarín",
-          "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo será el pico de las lluvias y qué provincias serán las más afectadas",
-          "link": "https://www.clarin.com/sociedad/super-nino-2026-argentina-vivo-pico-fuertes-lluvias-provincias-afectadas_0_O8voSAqVpS.html",
-          "imagen": "https://www.clarin.com/img/2026/10/22/zKWMaLEZE_1200x630__1.jpg"
+          "titulo": "Procesaron a José Luis Espert por lavado de dinero y le prohibieron la salida del país",
+          "link": "https://www.clarin.com/politica/procesaron-jose-luis-espert-lavado-dinero-prohibieron-salida-pais_0_kkGCjHXqNK.html",
+          "imagen": "https://www.clarin.com/img/2025/10/06/mQjF0dYv__1200x630__1.jpg"
         }
       ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024"
+      "imagen": "https://fotos.perfil.com/2026/07/07/trim/540/304/espert-en-tribunales-07072026-2277345.jpg"
+    },
+    {
+      "tema": "Evolución del riesgo país de Argentina",
+      "tipo": "sin_clasificar",
+      "por_que_importa": "El indicador superó los 700 puntos básicos, reflejando la tensión financiera y la incertidumbre en los mercados internacionales.",
+      "accion_sugerida": "Publicar un análisis económico con gráficos de la evolución anual y las declaraciones de funcionarios sobre los factores determinantes.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Para un economista, “los americanos están más preocupados que nosotros por el riesgo país de Argentina”",
+          "link": "https://www.perfil.com/noticias/canal-e/jorge-ingaramo-los-americanos-estan-mas-preocupados-que-nosotros-por-el-riesgo-pais-de-argentina.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/ingaramo-2354193.jpg"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "El riesgo país volvió a superar los 700 puntos y sigue en valores máximos de un año",
+          "link": "https://www.perfil.com/noticias/economia/el-riesgo-pais-volvio-a-superar-los-700-puntos-y-sigue-en-valores-maximos-de-un-ano.phtml",
+          "imagen": "https://fotos.perfil.com/2026/03/16/trim/540/304/BC-bank-of-america-advierte-que-el-mercado-subestima-el-impacto-de-la-guerra-con-iran-S1.jpg"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Para un hombre de Caputo, el riesgo país está equivocado: \"El mercado va a descontar que Milei gana caminando las elecciones\"",
+          "link": "https://www.clarin.com/economia/hombre-caputo-riesgo-pais-equivocado-mercado-va-descontar-milei-gana-caminando-elecciones_0_csHKKiQSS5.html",
+          "imagen": "https://www.clarin.com/img/2026/10/22/hHGgakDyP_1200x630__1.jpg"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/ingaramo-2354193.jpg"
+    },
+    {
+      "tema": "Juicio por la muerte de Diego Maradona",
+      "tipo": "sin_clasificar",
+      "por_que_importa": "La etapa final de los alegatos y los pedidos de absolución acaparan la atención mediática y emocional de la opinión pública.",
+      "accion_sugerida": "Cobertura en directo de los tramos finales de los alegatos de las defensas y cronograma estimado para el veredicto.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Juicio por la muerte de Maradona: este jueves terminan los alegatos y crece la expectativa por el veredicto",
+          "link": "https://www.perfil.com/noticias/policia/a41-juicio-por-la-muerte-de-maradona-este-jueves-terminan-los-alegatos-y-crece-la-expectativa-por-el-veredicto.phtml",
+          "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/gianinna-y-dalma-maradona-2353895.jpg"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "“Todavía me pregunto qué hizo”: pidieron la absolución de otro imputado en el juicio por la muerte de Maradona",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/10/22/todavia-me-pregunto-que-hizo-pidieron-la-absolucion-de-otro-imputado-en-el-juicio-por-la-muerte-de-maradona/",
+          "imagen": "https://www.infobae.com/resizer/v2/LY3M75KBCFGKLAVNOK6FNDDEGY.JPG?auth=6a8402de5c9e7939e4049dea380d24995f6dfe9d90f12769df6f2ee5d1880fce&smart=true&width=5167&height=3438"
+        },
+        {
+          "medio": "TN",
+          "titulo": "El abogado de uno de los enfermeros de Maradona cuestionó a la fiscalía: “Ante todo tiene que determinar por qué murió Diego”",
+          "link": "https://tn.com.ar/policiales/2026/10/22/juicio-por-la-muerte-de-maradona-tras-una-audiencia-maratonica-la-defensa-de-los-dos-enfermeros-cierra-hoy-la-etapa-de-alegatos/",
+          "imagen": "https://tn.com.ar/resizer/v2/MM6ZJ7ALRZHTJOUWAGYZQ5UZUE.jpeg?auth=a17492951689b6a595969979e77cec58e3931dd1bf91fca8dabcf62189e49ed9"
+        }
+      ],
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/gianinna-y-dalma-maradona-2353895.jpg"
     }
   ]
 }
