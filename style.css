@@ -622,6 +622,13 @@ img {
   margin-bottom: 10px;
 }
 
+.examples-title {
+  margin: 16px 0 10px;
+  color: #263746;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .examples-list {
   display: grid;
   gap: 9px;
@@ -674,6 +681,7 @@ img {
   line-height: 1.45;
   font-weight: 700;
   color: #334454;
+  overflow-wrap: anywhere;
 }
 
 .example-title a {
@@ -685,26 +693,31 @@ img {
   color: #6286b1;
 }
 
-/* BOTÓN PARA VER TODAS LAS NOTAS */
+/* ENLACE A TODAS LAS NOTAS, SIN CAJA */
 .show-all-news {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-  padding: 9px 12px;
-  border: 1px solid #d8e2eb;
-  border-radius: 8px;
-  background: #f7f9fb;
+  display: inline-block;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 0;
+  border: none;
+  background: transparent;
   color: #6286b1;
-  font-size: 11px;
-  font-weight: 700;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
   cursor: pointer;
-  transition: background 0.18s ease, border-color 0.18s ease;
 }
 
 .show-all-news:hover {
-  background: #edf3f8;
-  border-color: #b9c9d9;
+  color: #456990;
+  text-decoration: underline;
+}
+
+.show-all-news:focus-visible {
+  outline: 2px solid #6286b1;
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* PANEL LATERAL DE NOTICIAS */
