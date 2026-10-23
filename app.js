@@ -1,653 +1,516 @@
+"use strict";
 
 const DATA_URL = "./data.json";
 
 let dashboardData = null;
 let currentCategory = "hipercompetencia";
 let currentSort = "notas";
-let lastFocusedElement = null;
+let previousFocus = null;
 
-/* =========================
-   ELEMENTOS
-========================= */
+const $ = (selector) => document.querySelector(selector);
 
-const loading = document.getElementById("loading");
-const error = document.getElementById("error");
-const content = document.getElementById("content");
-const analysisDate = document.getElementById("analysisDate");
-const priorities = document.getElementById("priorities");
-const themeGrid = document.getElementById("themeGrid");
-const emptyState = document.getElementById("emptyState");
-const categoryTitle = document.getElementById("categoryTitle");
-const categoryDescription = document.getElementById("categoryDescription");
-const sortSelect = document.getElementById("sortSelect");
-const categoryTabs = document.querySelectorAll(".category-tab");
-
-const drawer = document.getElementById("themeDrawer");
-const drawerOverlay = document.getElementById("drawerOverlay");
-const drawerClose = document.getElementById("drawerClose");
-const drawerTitle = document.getElementById("drawerTitle");
-const drawerCategory = document.getElementById("drawerCategory");
-const drawerContent = document.getElementById("drawerContent");
-
-/* =========================
-   CONFIGURACIÓN
-========================= */
+const dom = {
+  loading: $("#loading"),
+  error: $("#error"),
+  errorMessage: $("#errorMessage"),
+  retryButton: $("#retryButton"),
+  content: $("#content"),
+  analysisDate: $("#analysisDate"),
+  priorities: $("#priorities"),
+  themeGrid: $("#themeGrid"),
+  emptyState: $("#emptyState"),
+  categoryTitle: $("#categoryTitle"),
+  categoryDescription: $("#categoryDescription"),
+  sortSelect: $("#sortSelect"),
+  categoryTabs: [...document.querySelectorAll(".category-tab")],
+  monitoringSection: $("#monitoringSection"),
+  drawerOverlay: $("#drawerOverlay"),
+  drawer: $("#themeDrawer"),
+  drawerTitle: $("#drawerTitle"),
+  drawerCategory: $("#drawerCategory"),
+  drawerClose: $("#drawerClose"),
+  drawerContent: $("#drawerContent")
+};
 
 const categoryConfig = {
   hipercompetencia: {
-    label: "Hipercompetencia",
-    description: "Temas donde la competencia tiene mayor cobertura."
+    title: "Hipercompetencia",
+    description: "Temáticas con una presencia competitiva relevante."
   },
-
   perfil_pierde: {
-    label: "Perfil pierde",
-    description: "Temas donde otros medios publicaron y Perfil no tuvo cobertura."
+    title: "Perfil pierde",
+    description: "Temáticas donde otros medios registran mayor cobertura."
   },
-
   sin_cobertura_perfil: {
-    label: "Sin cobertura",
-    description: "Temas relevantes cubiertos por la competencia sin presencia de Perfil."
+    title: "Sin cobertura Perfil",
+    description: "Temas cubiertos por la competencia que no registran cobertura de Perfil."
   },
-
   oportunidades: {
-    label: "Oportunidades",
-    description: "Temas con posibilidades de desarrollo editorial."
+    title: "Oportunidades",
+    description: "Temas con potencial para ampliar o diversificar la cobertura editorial."
   },
-
   mas_temas: {
-    label: "Más temas",
-    description: "Otras temáticas detectadas que también pueden tener interés editorial."
+    title: "Más temas",
+    description: "Otras temáticas detectadas en el monitoreo de competencia."
   }
 };
 
-/* =========================
-   INICIO
-========================= */
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
 
-document.addEventListener("DOMContentLoaded", loadData);
+function escapeAttribute(value) {
+  return escapeHtml(value);
+}
 
-/* =========================
-   CARGA DE DATOS
-========================= */
+function cleanMarkdownUrl(value) {
+  let url = String(value ?? "").trim();
+  url = url.replace(/^\[|\]$/g, "");
+  url = url.replace(/^<|>$/g, "");
 
-async function loadData() {
+  if (!url) return "";
+
   try {
-    const separator = DATA_URL.includes("?") ? "&" : "?";
-
-    const response = await fetch(
-      `${DATA_URL}${separator}t=${Date.now()}`,
-      { cache: "no-store" }
-    );
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    dashboardData = await response.json();
-
-    renderDashboard();
-
-    loading.classList.add("hidden");
-    error.classList.add("hidden");
-    content.classList.remove("hidden");
-
-  } catch (err) {
-    console.error("Error cargando data.json:", err);
-
-    loading.classList.add("hidden");
-    content.classList.add("hidden");
-    error.classList.remove("hidden");
+    const parsed = new URL(url, window.location.href);
+    if (!["http:", "https:"].includes(parsed.protocol)) return "";
+    return parsed.href;
+  } catch {
+    return "";
   }
 }
 
-/* =========================
-   DASHBOARD
-========================= */
-
-function renderDashboard() {
-  renderDate();
-  renderPriorities();
-  renderCategory();
+function safeLink(value) {
+  return cleanMarkdownUrl(value);
 }
 
-/* =========================
-   FECHA
-========================= */
+function firstValue(object, keys, fallback = "") {
+  if (!object || typeof object !== "object") return fallback;
+
+  for (const key of keys) {
+    const value = object[key];
+
+    if (value !== undefined && value !== null && value !== "") {
+      return value;
+    }
+  }
+
+  return fallback;
+}
+
+function getThemeName(item) {
+  return firstValue(item, [
+    "tema",
+    "tema_provisorio",
+    "tematica",
+    "nombre",
+    "titulo",
+    "title"
+  ], "Temática sin título");
+}
+
+function getCategoryLabel(type) {
+  return categoryConfig[type]?.title || type || "Temática";
+}
+
+function getItemCategory(item, fallback = currentCategory) {
+  return firstValue(item, ["tipo", "categoria", "category"], fallback);
+}
+
+function getImage(item) {
+  const directImage = firstValue(item, [
+    "imagen",
+    "Imagen",
+    "image",
+    "image_url",
+    "imagen_url",
+    "foto"
+  ]);
+
+  const directUrl = cleanMarkdownUrl(directImage);
+  if (directUrl) return directUrl;
+
+  const examples = Array.isArray(item?.ejemplos) ? item.ejemplos : [];
+
+  for (const example of examples) {
+    const url = cleanMarkdownUrl(firstValue(example, [
+      "imagen",
+      "Imagen",
+      "image",
+      "image_url",
+      "imagen_url",
+      "foto"
+    ]));
+
+    if (url) return url;
+  }
+
+  return "";
+}
+
+function getExamples(item) {
+  return Array.isArray(item?.ejemplos) ? item.ejemplos : [];
+}
+
+function getTotalNotes(item) {
+  const value = Number(firstValue(item, [
+    "total_notas",
+    "cantidad_notas",
+    "notas",
+    "total"
+  ], 0));
+
+  return Number.isFinite(value) ? value : 0;
+}
+
+function getMediaCount(item) {
+  const value = Number(firstValue(item, [
+    "cantidad_medios",
+    "total_medios",
+    "medios_count"
+  ], 0));
+
+  if (Number.isFinite(value) && value > 0) return value;
+
+  const coverage = item?.cobertura;
+  if (Array.isArray(coverage)) return coverage.length;
+
+  if (coverage && typeof coverage === "object") {
+    return Object.keys(coverage).length;
+  }
+
+  return 0;
+}
+
+function getGap(item) {
+  const value = Number(firstValue(item, [
+    "brecha",
+    "brecha_formateada"
+  ], 0));
+
+  return Number.isFinite(value) ? value : 0;
+}
+
+function formatNumber(value) {
+  return new Intl.NumberFormat("es-AR").format(Number(value) || 0);
+}
+
+function parseLocalDate(value) {
+  if (!value) return null;
+
+  const raw = String(value).trim();
+  const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})/);
+
+  if (match) {
+    return new Date(
+      Number(match[1]),
+      Number(match[2]) - 1,
+      Number(match[3])
+    );
+  }
+
+  const date = new Date(raw);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
 
 function renderDate() {
-  if (!dashboardData?.fecha_analisis) {
-    analysisDate.textContent = "Análisis editorial";
-    return;
-  }
+  const rawDate = firstValue(dashboardData, [
+    "fecha_analisis",
+    "fecha",
+    "updated_at"
+  ]);
 
-  const date = parseLocalDate(dashboardData.fecha_analisis);
+  const date = parseLocalDate(rawDate);
 
-  if (!date) {
-    analysisDate.textContent = `Análisis: ${dashboardData.fecha_analisis}`;
-    return;
-  }
-
-  const formatted = new Intl.DateTimeFormat("es-AR", {
-    day: "numeric",
-    month: "long",
-    year: "numeric"
-  }).format(date);
-
-  analysisDate.textContent = `Análisis: ${formatted}`;
+  dom.analysisDate.textContent = date
+    ? new Intl.DateTimeFormat("es-AR", {
+        day: "2-digit",
+        month: "long",
+        year: "numeric"
+      }).format(date)
+    : "Sin fecha disponible";
 }
 
-/* =========================
-   PRIORIDADES DEL DÍA
-========================= */
+function getAllItems() {
+  if (!dashboardData) return [];
+
+  const categories = Object.keys(categoryConfig);
+  const result = [];
+  const seen = new Set();
+
+  for (const category of categories) {
+    const items = dashboardData[category];
+
+    if (!Array.isArray(items)) continue;
+
+    for (const item of items) {
+      if (!item || typeof item !== "object") continue;
+
+      const key = `${category}|${getThemeName(item)}`;
+
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      result.push({
+        ...item,
+        tipo: item.tipo || category
+      });
+    }
+  }
+
+  return result;
+}
+
+function getPriorities() {
+  const priorities = dashboardData?.prioridades_del_dia;
+
+  if (!Array.isArray(priorities)) return [];
+
+  return priorities;
+}
+
+function getPriorityCategory(item) {
+  const type = getItemCategory(item, "");
+
+  if (categoryConfig[type]) return type;
+
+  const name = getThemeName(item).toLowerCase();
+
+  if (name.includes("oportunidad")) return "oportunidades";
+  if (name.includes("sin cobertura")) return "sin_cobertura_perfil";
+  if (name.includes("pierde")) return "perfil_pierde";
+
+  return "hipercompetencia";
+}
 
 function renderPriorities() {
-  priorities.innerHTML = "";
+  dom.priorities.innerHTML = "";
 
-  const items = Array.isArray(dashboardData?.prioridades_del_dia)
-    ? dashboardData.prioridades_del_dia.slice(0, 3)
-    : [];
+  const priorities = getPriorities();
 
-  if (!items.length) {
-    priorities.innerHTML = `
-      <div class="empty-state">
-        No hay prioridades disponibles.
+  if (!priorities.length) {
+    dom.priorities.innerHTML = `
+      <div class="priority-empty">
+        No hay prioridades editoriales disponibles para este análisis.
       </div>
     `;
     return;
   }
 
-  items.forEach((item, index) => {
+  priorities.slice(0, 3).forEach((item, index) => {
+    const category = getPriorityCategory(item);
+    const image = getImage(item);
+    const title = getThemeName(item);
+    const description = firstValue(item, [
+      "por_que_importa",
+      "insight",
+      "descripcion",
+      "resumen"
+    ], "Abrí la temática para consultar su análisis editorial.");
+
     const card = document.createElement("article");
     card.className = "priority-card";
-    card.tabIndex = 0;
-    card.setAttribute("role", "button");
-    card.setAttribute("aria-label", `Ver categoría de ${item.tema || "la prioridad"}`);
-
-    const image = getImage(item);
 
     card.innerHTML = `
-      ${
-        image
-          ? `<img class="priority-image" src="${escapeAttribute(image)}" alt="" loading="lazy">`
-          : `<div class="priority-image"></div>`
-      }
-
-      <div class="priority-content">
-        <div class="priority-number">${String(index + 1).padStart(2, "0")}</div>
-
-        <div class="priority-category">
-          ${escapeHtml(getCategoryLabel(item.tipo))}
+      <button class="priority-card-button" type="button"
+        aria-label="Ver detalle de ${escapeAttribute(title)}">
+        ${image ? `
+          <div class="priority-image">
+            <img src="${escapeAttribute(image)}" alt="" loading="lazy">
+          </div>
+        ` : ""}
+        <div class="priority-content">
+          <span class="priority-number">${String(index + 1).padStart(2, "0")}</span>
+          <span class="priority-category">${escapeHtml(getCategoryLabel(category))}</span>
+          <h3>${escapeHtml(title)}</h3>
+          <p>${escapeHtml(description)}</p>
+          <span class="priority-link">Ver análisis <span aria-hidden="true">→</span></span>
         </div>
-
-        <h3>${escapeHtml(item.tema || "Tema sin título")}</h3>
-
-        ${
-          item.por_que_importa
-            ? `<p class="priority-description">${escapeHtml(item.por_que_importa)}</p>`
-            : ""
-        }
-      </div>
+      </button>
     `;
 
-    const openCategory = () => {
-      if (item.tipo && categoryConfig[item.tipo]) {
-        setCategory(item.tipo);
-      }
-
-      document.getElementById("monitoringSection")?.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
-    };
-
-    card.addEventListener("click", openCategory);
-
-    card.addEventListener("keydown", event => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        openCategory();
-      }
+    card.querySelector("button").addEventListener("click", () => {
+      openDrawer(item, category);
     });
 
-    priorities.appendChild(card);
+    dom.priorities.appendChild(card);
   });
 }
-
-/* =========================
-   CAMBIO DE CATEGORÍA
-========================= */
-
-function setCategory(category) {
-  if (!categoryConfig[category]) return;
-
-  currentCategory = category;
-
-  categoryTabs.forEach(tab => {
-    const active = tab.dataset.category === category;
-
-    tab.classList.toggle("active", active);
-    tab.setAttribute("aria-pressed", String(active));
-  });
-
-  renderCategory();
-}
-
-/* =========================
-   CATEGORÍA
-========================= */
-
-function renderCategory() {
-  const config = categoryConfig[currentCategory] || categoryConfig.hipercompetencia;
-
-  categoryTitle.textContent = config.label;
-  categoryDescription.textContent = config.description;
-
-  let items = Array.isArray(dashboardData?.[currentCategory])
-    ? [...dashboardData[currentCategory]]
-    : [];
-
-  items = sortItems(items);
-
-  themeGrid.innerHTML = "";
-
-  if (!items.length) {
-    emptyState.textContent = currentCategory === "mas_temas"
-      ? "No hay más temas disponibles."
-      : "No hay temas para esta categoría.";
-
-    emptyState.classList.remove("hidden");
-    return;
-  }
-
-  emptyState.classList.add("hidden");
-
-  items.forEach(item => {
-    themeGrid.appendChild(createThemeCard(item));
-  });
-}
-
-/* =========================
-   ORDENAMIENTO
-========================= */
 
 function sortItems(items) {
-  return items.sort((a, b) => {
-    if (currentSort === "brecha") {
-      return Number(b.brecha || 0) - Number(a.brecha || 0);
-    }
+  const sorted = [...items];
 
-    if (currentSort === "notas") {
-      return getTotalNotes(b) - getTotalNotes(a);
+  sorted.sort((a, b) => {
+    if (currentSort === "brecha") {
+      return getGap(b) - getGap(a);
     }
 
     if (currentSort === "medios") {
       return getMediaCount(b) - getMediaCount(a);
     }
 
-    if (currentSort === "az") {
-      return String(a.tema || "").localeCompare(
-        String(b.tema || ""),
-        "es",
-        { sensitivity: "base" }
-      );
+    if (currentSort === "alfabetico") {
+      return getThemeName(a).localeCompare(getThemeName(b), "es");
     }
 
-    return 0;
+    return getTotalNotes(b) - getTotalNotes(a);
+  });
+
+  return sorted;
+}
+
+function renderCategory() {
+  const config = categoryConfig[currentCategory];
+
+  dom.categoryTitle.textContent = config?.title || "Temáticas";
+  dom.categoryDescription.textContent = config?.description || "";
+
+  dom.categoryTabs.forEach((tab) => {
+    const active = tab.dataset.category === currentCategory;
+    tab.classList.toggle("active", active);
+    tab.setAttribute("aria-pressed", String(active));
+  });
+
+  const items = Array.isArray(dashboardData?.[currentCategory])
+    ? dashboardData[currentCategory]
+    : [];
+
+  const sortedItems = sortItems(items);
+
+  dom.themeGrid.innerHTML = "";
+  dom.emptyState.classList.toggle("hidden", sortedItems.length > 0);
+
+  sortedItems.forEach((item) => {
+    dom.themeGrid.appendChild(createThemeCard(item));
   });
 }
-
-function getTotalNotes(item) {
-  const explicit = Number(item?.total_notas);
-
-  if (Number.isFinite(explicit) && explicit > 0) {
-    return explicit;
-  }
-
-  return Array.isArray(item?.noticias) ? item.noticias.length : 0;
-}
-
-function getMediaCount(item) {
-  const value = item?.cantidad_medios ?? item?.cantidad_medios_competencia;
-
-  if (value !== undefined && value !== null && value !== "") {
-    return Number(value) || 0;
-  }
-
-  if (item?.cobertura && typeof item.cobertura === "object") {
-    return Object.keys(item.cobertura).length;
-  }
-
-  return 0;
-}
-
-/* =========================
-   TARJETA DE TEMA
-========================= */
 
 function createThemeCard(item) {
   const card = document.createElement("article");
   card.className = "theme-card";
 
   const image = getImage(item);
-  const totalNotas = getTotalNotes(item);
-  const cantidadMedios = getMediaCount(item);
-  const rawGap = Number(item.brecha || 0);
+  const title = getThemeName(item);
+  const totalNotes = getTotalNotes(item);
+  const mediaCount = getMediaCount(item);
+  const leader = firstValue(item, [
+    "medio_lider",
+    "medio",
+    "competidor_lider"
+  ], "—");
 
-  const displayGap = rawGap > 0 ? `-${rawGap}` : `${rawGap}`;
-  const gapClass = rawGap !== 0 ? "theme-stat theme-stat-gap" : "theme-stat";
+  const category = getItemCategory(item);
+  const imageMarkup = image
+    ? `<img class="theme-image" src="${escapeAttribute(image)}" alt="" loading="lazy">`
+    : `<div class="theme-image theme-image-placeholder"><span>PERFIL</span></div>`;
 
   card.innerHTML = `
-    <div class="theme-hero">
-      ${
-        image
-          ? `<img class="theme-image" src="${escapeAttribute(image)}" alt="" loading="lazy">`
-          : `<div class="theme-image"></div>`
-      }
-    </div>
+    <div class="theme-hero">${imageMarkup}</div>
 
     <div class="theme-body">
-      <div class="theme-category">
-        ${escapeHtml(getCategoryLabel(item.tipo || currentCategory))}
-      </div>
+      <span class="theme-category">${escapeHtml(getCategoryLabel(category))}</span>
 
-      <h3 class="theme-title">
-        ${escapeHtml(item.tema || "Tema sin título")}
-      </h3>
+      <h3 class="theme-title">${escapeHtml(title)}</h3>
 
       <div class="theme-stats">
         <div class="theme-stat">
-          <span>Notas</span>
-          <strong>${totalNotas}</strong>
+          <span class="theme-stat-value">${formatNumber(totalNotes)}</span>
+          <span class="theme-stat-label">Notas</span>
         </div>
-
         <div class="theme-stat">
-          <span>Medios</span>
-          <strong>${cantidadMedios}</strong>
+          <span class="theme-stat-value">${formatNumber(mediaCount)}</span>
+          <span class="theme-stat-label">Medios</span>
         </div>
-
-        <div class="${gapClass}">
-          <span>Brecha Perfil</span>
-          <strong>${displayGap}</strong>
+        <div class="theme-stat">
+          <span class="theme-stat-value theme-stat-text">${escapeHtml(leader)}</span>
+          <span class="theme-stat-label">Medio líder</span>
         </div>
       </div>
 
       ${renderCoverage(item.cobertura)}
 
       <button class="theme-open-button" type="button">
-        <span>Ver análisis y noticias</span>
-        <span aria-hidden="true">›</span>
+        Ver análisis y noticias <span aria-hidden="true">→</span>
       </button>
     </div>
   `;
 
   card.querySelector(".theme-open-button").addEventListener("click", () => {
-    openThemeDrawer(item);
+    openDrawer(item, category);
   });
 
   return card;
 }
 
-/* =========================
-   PANEL LATERAL
-========================= */
+function renderCoverage(coverage) {
+  if (!coverage) return "";
 
-function openThemeDrawer(item) {
-  lastFocusedElement = document.activeElement;
+  let entries = [];
 
-  drawerTitle.textContent = item.tema || "Tema sin título";
-  drawerCategory.textContent = getCategoryLabel(item.tipo || currentCategory);
+  if (Array.isArray(coverage)) {
+    entries = coverage.map((item) => ({
+      medio: firstValue(item, ["medio", "nombre", "name", "competidor"], "Medio"),
+      notas: Number(firstValue(item, ["total_notas", "notas", "cantidad"], 0))
+    }));
+  } else if (typeof coverage === "object") {
+    if (
+      coverage.medios &&
+      Array.isArray(coverage.medios)
+    ) {
+      entries = coverage.medios.map((item) => ({
+        medio: firstValue(item, ["medio", "nombre", "name"], "Medio"),
+        notas: Number(firstValue(item, ["total_notas", "notas", "cantidad"], 0))
+      }));
+    } else {
+      const reservedKeys = new Set([
+        "total_notas",
+        "cantidad_medios",
+        "cantidad_competidores",
+        "cobertura_perfil",
+        "medio_lider",
+        "cobertura_medio_lider",
+        "brecha",
+        "brecha_formateada"
+      ]);
 
-  drawerContent.innerHTML = renderDrawerDetails(item);
-
-  drawer.classList.add("is-open");
-  drawerOverlay.classList.remove("hidden");
-
-  drawer.setAttribute("aria-hidden", "false");
-  drawer.inert = false;
-  drawerOverlay.setAttribute("aria-hidden", "false");
-
-  document.body.classList.add("drawer-open");
-
-  drawerContent.scrollTop = 0;
-  drawerClose.focus();
-}
-
-function closeThemeDrawer() {
-  if (!drawer.classList.contains("is-open")) return;
-
-  drawer.classList.remove("is-open");
-  drawerOverlay.classList.add("hidden");
-
-  drawer.setAttribute("aria-hidden", "true");
-  drawer.inert = true;
-  drawerOverlay.setAttribute("aria-hidden", "true");
-
-  document.body.classList.remove("drawer-open");
-
-  if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
-    lastFocusedElement.focus();
-  }
-}
-
-function renderDrawerDetails(item) {
-  const sections = [];
-
-  if (item.por_que_importa) {
-    sections.push(`
-      <div class="detail-card detail-importance">
-        <div class="detail-card-label">Por qué importa</div>
-        <p>${escapeHtml(item.por_que_importa)}</p>
-      </div>
-    `);
-  }
-
-  if (item.insight) {
-    sections.push(`
-      <div class="detail-card detail-insight">
-        <div class="detail-card-label">Insight</div>
-        <p>${escapeHtml(item.insight)}</p>
-      </div>
-    `);
-  }
-
-  if (item.accion_sugerida) {
-    sections.push(`
-      <div class="detail-card detail-action">
-        <div class="detail-card-label">Acción sugerida</div>
-        <p>${escapeHtml(item.accion_sugerida)}</p>
-      </div>
-    `);
-  }
-
-  if (Array.isArray(item.enfoques_sugeridos) && item.enfoques_sugeridos.length) {
-    sections.push(`
-      <div class="detail-card detail-approaches">
-        <div class="detail-card-label">Enfoques sugeridos</div>
-        <div class="approach-list">
-          ${item.enfoques_sugeridos.map(enfoque => `
-            <span class="approach-chip">${escapeHtml(enfoque)}</span>
-          `).join("")}
-        </div>
-      </div>
-    `);
-  }
-
-  const news = getAllThemeNews(item);
-
-  sections.push(`
-    <div class="drawer-news-heading">
-      <h3 class="drawer-section-title">Noticias asociadas</h3>
-      <span class="drawer-news-count">${news.length} ${news.length === 1 ? "nota" : "notas"}</span>
-    </div>
-
-    ${
-      news.length
-        ? `<div class="drawer-news-list">${news.map(renderDrawerNews).join("")}</div>`
-        : `<div class="drawer-empty">No hay noticias asociadas disponibles para este tema en los datos recibidos.</div>`
+      entries = Object.entries(coverage)
+        .filter(([key, value]) => !reservedKeys.has(key) && Number.isFinite(Number(value)))
+        .map(([medio, notas]) => ({ medio, notas: Number(notas) }));
     }
-  `);
-
-  return sections.join("");
-}
-
-/* =========================
-   NOTICIAS DEL TEMA
-========================= */
-
-function getAllThemeNews(item) {
-  const news = [];
-  const seen = new Set();
-
-  const sources = [
-    ...(Array.isArray(item?.noticias) ? item.noticias : []),
-    ...(Array.isArray(item?.ejemplos) ? item.ejemplos : [])
-  ];
-
-  sources.forEach(note => {
-    if (!note || typeof note !== "object") return;
-
-    const title = getNewsTitle(note);
-    const link = getNewsLink(note);
-    const key = link
-      ? `url:${normalizeUrl(link)}`
-      : `title:${title.trim().toLowerCase()}`;
-
-    if (seen.has(key)) return;
-
-    seen.add(key);
-    news.push(note);
-  });
-
-  return news;
-}
-
-function renderDrawerNews(note) {
-  const title = getNewsTitle(note);
-  const link = getNewsLink(note);
-  const medium = getNewsMedium(note);
-  const date = getNewsDate(note);
-
-  const metadata = [medium, date].filter(Boolean).join(" · ");
-
-  return `
-    <article class="drawer-news-item">
-      <div class="drawer-news-main">
-        ${metadata ? `<div class="drawer-news-meta">${escapeHtml(metadata)}</div>` : ""}
-        <h4 class="drawer-news-title">
-          ${
-            link
-              ? `<a href="${escapeAttribute(link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`
-              : escapeHtml(title)
-          }
-        </h4>
-      </div>
-
-      ${
-        link
-          ? `<a class="drawer-news-link" href="${escapeAttribute(link)}" target="_blank" rel="noopener noreferrer">Abrir nota ↗</a>`
-          : ""
-      }
-    </article>
-  `;
-}
-
-function getNewsTitle(note) {
-  return String(
-    note?.titulo ??
-    note?.title ??
-    note?.titular ??
-    note?.tema ??
-    "Nota sin título"
-  );
-}
-
-function getNewsLink(note) {
-  const value =
-    note?.link ??
-    note?.url ??
-    note?.enlace ??
-    note?.url_nota ??
-    "";
-
-  return cleanHttpUrl(value);
-}
-
-function getNewsMedium(note) {
-  return String(
-    note?.medio ??
-    note?.fuente ??
-    note?.medio_nombre ??
-    note?.publisher ??
-    note?.site_name ??
-    ""
-  ).trim();
-}
-
-function getNewsDate(note) {
-  const value =
-    note?.fecha ??
-    note?.fecha_publicacion ??
-    note?.published_at ??
-    note?.publishedAt ??
-    note?.date ??
-    "";
-
-  if (!value) return "";
-
-  const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return String(value);
   }
-
-  return new Intl.DateTimeFormat("es-AR", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric"
-  }).format(date);
-}
-
-function normalizeUrl(url) {
-  return String(url || "")
-    .trim()
-    .replace(/\/+$/, "")
-    .toLowerCase();
-}
-
-/* =========================
-   COBERTURA
-========================= */
-
-function renderCoverage(cobertura) {
-  if (!cobertura || typeof cobertura !== "object" || Array.isArray(cobertura)) {
-    return "";
-  }
-
-  const entries = Object.entries(cobertura);
 
   if (!entries.length) return "";
 
-  const maxValue = Math.max(
-    ...entries.map(([, value]) => Number(value) || 0),
-    1
-  );
+  entries = entries
+    .filter((item) => item.medio)
+    .sort((a, b) => b.notas - a.notas)
+    .slice(0, 4);
+
+  if (!entries.length) return "";
+
+  const max = Math.max(1, ...entries.map((item) => item.notas));
 
   return `
     <div class="coverage-block">
-      <div class="coverage-title">Cobertura</div>
-
+      <p class="coverage-title">Distribución de cobertura</p>
       <div class="coverage-list">
-        ${entries.map(([medio, value]) => {
-          const numericValue = Number(value) || 0;
-          const width = Math.max(0, Math.min(100, (numericValue / maxValue) * 100));
+        ${entries.map((item) => {
+          const width = Math.max(0, Math.min(100, item.notas / max * 100));
 
           return `
             <div class="coverage-item">
-              <span class="coverage-item-name">${escapeHtml(medio)}</span>
-              <div class="coverage-bar">
-                <div class="coverage-fill" style="width:${width}%"></div>
+              <div class="coverage-item-heading">
+                <span>${escapeHtml(item.medio)}</span>
+                <span>${formatNumber(item.notas)}</span>
               </div>
-              <strong>${numericValue}</strong>
+              <div class="coverage-bar">
+                <span class="coverage-fill" style="width:${width}%"></span>
+              </div>
             </div>
           `;
         }).join("")}
@@ -656,176 +519,264 @@ function renderCoverage(cobertura) {
   `;
 }
 
-/* =========================
-   IMAGEN
-========================= */
+function renderExample(example) {
+  const title = firstValue(example, [
+    "titulo",
+    "Titulo",
+    "title",
+    "headline"
+  ], "Noticia sin título");
 
-function getImage(item) {
-  const possibleFields = [
+  const medium = firstValue(example, [
+    "medio",
+    "Medio",
+    "media",
+    "fuente"
+  ], "Medio no identificado");
+
+  const link = safeLink(firstValue(example, [
+    "link",
+    "Link",
+    "url",
+    "URL"
+  ]));
+
+  const image = cleanMarkdownUrl(firstValue(example, [
     "imagen",
+    "Imagen",
     "image",
-    "foto",
     "image_url",
-    "imagen_url"
-  ];
+    "foto"
+  ]));
 
-  for (const field of possibleFields) {
-    if (item?.[field]) {
-      const url = cleanHttpUrl(item[field]);
-      if (url) return url;
-    }
-  }
-
-  if (Array.isArray(item?.ejemplos)) {
-    for (const example of item.ejemplos) {
-      if (example?.imagen) {
-        const url = cleanHttpUrl(example.imagen);
-        if (url) return url;
-      }
-    }
-  }
-
-  return "";
+  return `
+    <article class="drawer-news-item">
+      ${image ? `
+        <div class="drawer-news-image">
+          <img src="${escapeAttribute(image)}" alt="" loading="lazy">
+        </div>
+      ` : ""}
+      <div class="drawer-news-copy">
+        <p class="drawer-news-medium">${escapeHtml(medium)}</p>
+        <h4 class="drawer-news-title">
+          ${link
+            ? `<a href="${escapeAttribute(link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`
+            : escapeHtml(title)}
+        </h4>
+        ${link ? `
+          <a class="drawer-news-link" href="${escapeAttribute(link)}"
+            target="_blank" rel="noopener noreferrer">Leer noticia →</a>
+        ` : ""}
+      </div>
+    </article>
+  `;
 }
 
-/* =========================
-   CATEGORÍAS
-========================= */
+function renderDetailSection(label, value, className = "") {
+  if (value === undefined || value === null) return "";
 
-function getCategoryLabel(tipo) {
-  const labels = {
-    hipercompetencia: "Hipercompetencia",
-    perfil_pierde: "Perfil pierde",
-    sin_cobertura_perfil: "Sin cobertura",
-    oportunidades: "Oportunidades",
-    mas_temas: "Más temas"
+  let content = "";
+
+  if (Array.isArray(value)) {
+    const filtered = value.filter((item) => item !== undefined && item !== null && String(item).trim());
+
+    if (!filtered.length) return "";
+
+    content = `
+      <ul class="approach-list">
+        ${filtered.map((item) => `<li>${escapeHtml(typeof item === "object" ? JSON.stringify(item) : item)}</li>`).join("")}
+      </ul>
+    `;
+  } else if (typeof value === "object") {
+    const entries = Object.entries(value);
+
+    if (!entries.length) return "";
+
+    content = `
+      <ul class="approach-list">
+        ${entries.map(([key, item]) => `
+          <li><strong>${escapeHtml(key)}:</strong> ${escapeHtml(item)}</li>
+        `).join("")}
+      </ul>
+    `;
+  } else {
+    const text = String(value).trim();
+    if (!text) return "";
+
+    content = `<p>${escapeHtml(text)}</p>`;
+  }
+
+  return `
+    <section class="drawer-section ${escapeAttribute(className)}">
+      <p class="drawer-section-label">${escapeHtml(label)}</p>
+      <div class="drawer-section-content">${content}</div>
+    </section>
+  `;
+}
+
+function getEditorialDetails(item) {
+  return {
+    importance: firstValue(item, [
+      "por_que_importa",
+      "por_que_es_importante",
+      "importancia"
+    ]),
+    insight: firstValue(item, [
+      "insight",
+      "hallazgo",
+      "lectura_editorial"
+    ]),
+    action: firstValue(item, [
+      "accion_sugerida",
+      "acción_sugerida",
+      "accion",
+      "recomendacion"
+    ]),
+    approaches: firstValue(item, [
+      "enfoques_sugeridos",
+      "enfoques",
+      "ideas_editoriales"
+    ]),
+    description: firstValue(item, [
+      "descripcion",
+      "descripción",
+      "resumen"
+    ])
   };
-
-  return labels[tipo] || tipo || "";
 }
 
-/* =========================
-   URLS
-========================= */
+function openDrawer(item, category = currentCategory) {
+  if (!item) return;
 
-function cleanMarkdownUrl(value) {
-  if (!value) return "";
+  previousFocus = document.activeElement;
 
-  let result = String(value).trim();
+  const title = getThemeName(item);
+  const details = getEditorialDetails(item);
+  const examples = getExamples(item);
 
-  const markdownMatch = result.match(/^\[.*?\]\((.*?)\)$/);
+  dom.drawerTitle.textContent = title;
+  dom.drawerCategory.textContent = getCategoryLabel(category);
 
-  if (markdownMatch) {
-    result = markdownMatch[1];
+  const sections = [
+    renderDetailSection("POR QUÉ IMPORTA", details.importance, "detail-importance"),
+    renderDetailSection("INSIGHT EDITORIAL", details.insight, "detail-insight"),
+    renderDetailSection("ACCIÓN SUGERIDA", details.action, "detail-action"),
+    renderDetailSection("ENFOQUES SUGERIDOS", details.approaches, "detail-approaches"),
+    renderDetailSection("CONTEXTO", details.description, "detail-context")
+  ].filter(Boolean).join("");
+
+  const newsMarkup = examples.length
+    ? examples.map(renderExample).join("")
+    : `<p class="drawer-empty-news">No hay noticias asociadas a esta temática en los datos recibidos.</p>`;
+
+  dom.drawerContent.innerHTML = `
+    <div class="drawer-intro">
+      <p class="drawer-intro-label">ANÁLISIS EDITORIAL</p>
+      <div class="drawer-metrics">
+        <div class="drawer-metric">
+          <span class="drawer-metric-value">${formatNumber(getTotalNotes(item))}</span>
+          <span class="drawer-metric-label">Notas</span>
+        </div>
+        <div class="drawer-metric">
+          <span class="drawer-metric-value">${formatNumber(getMediaCount(item))}</span>
+          <span class="drawer-metric-label">Medios</span>
+        </div>
+      </div>
+    </div>
+
+    ${sections || `<p class="drawer-no-analysis">No hay información editorial adicional para esta temática.</p>`}
+
+    <section class="drawer-section drawer-news-section">
+      <p class="drawer-section-label">NOTICIAS RELACIONADAS</p>
+      <div class="drawer-news-list">${newsMarkup}</div>
+    </section>
+  `;
+
+  dom.drawer.classList.add("is-open");
+  dom.drawerOverlay.classList.add("is-open");
+  dom.drawer.setAttribute("aria-hidden", "false");
+  dom.drawerOverlay.setAttribute("aria-hidden", "false");
+  dom.drawer.inert = false;
+  document.body.classList.add("drawer-is-open");
+
+  dom.drawerClose.focus();
+}
+
+function closeDrawer() {
+  dom.drawer.classList.remove("is-open");
+  dom.drawerOverlay.classList.remove("is-open");
+  dom.drawer.setAttribute("aria-hidden", "true");
+  dom.drawerOverlay.setAttribute("aria-hidden", "true");
+  dom.drawer.inert = true;
+  document.body.classList.remove("drawer-is-open");
+
+  if (previousFocus && typeof previousFocus.focus === "function") {
+    previousFocus.focus();
   }
-
-  return result
-    .replace(/\\&/g, "&")
-    .replace(/&amp;/g, "&")
-    .trim();
 }
 
-function cleanHttpUrl(value) {
-  const cleaned = cleanMarkdownUrl(value);
+function renderDashboard() {
+  renderDate();
+  renderPriorities();
+  renderCategory();
 
-  if (!cleaned) return "";
+  dom.loading.classList.add("hidden");
+  dom.error.classList.add("hidden");
+  dom.content.classList.remove("hidden");
+}
+
+async function loadData() {
+  dom.loading.classList.remove("hidden");
+  dom.error.classList.add("hidden");
+  dom.content.classList.add("hidden");
 
   try {
-    const url = new URL(cleaned);
+    const response = await fetch(`${DATA_URL}?t=${Date.now()}`, {
+      cache: "no-store"
+    });
 
-    if (url.protocol === "http:" || url.protocol === "https:") {
-      return url.href;
+    if (!response.ok) {
+      throw new Error(`No se pudo cargar data.json (HTTP ${response.status}).`);
     }
-  } catch {
-    return "";
+
+    const data = await response.json();
+
+    if (!data || typeof data !== "object" || Array.isArray(data)) {
+      throw new Error("data.json no contiene un objeto JSON válido.");
+    }
+
+    dashboardData = data;
+    renderDashboard();
+  } catch (error) {
+    console.error("Error al cargar el dashboard:", error);
+    dom.loading.classList.add("hidden");
+    dom.content.classList.add("hidden");
+    dom.error.classList.remove("hidden");
+    dom.errorMessage.textContent = error.message || "Ocurrió un error al cargar los datos.";
   }
-
-  return "";
 }
 
-/* =========================
-   FECHA LOCAL
-========================= */
-
-function parseLocalDate(value) {
-  if (!value) return null;
-
-  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
-
-  if (!match) return null;
-
-  return new Date(
-    Number(match[1]),
-    Number(match[2]) - 1,
-    Number(match[3])
-  );
-}
-
-/* =========================
-   SEGURIDAD HTML
-========================= */
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
-
-function escapeAttribute(value) {
-  return escapeHtml(value);
-}
-
-/* =========================
-   TABS
-========================= */
-
-categoryTabs.forEach(tab => {
+dom.categoryTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    setCategory(tab.dataset.category);
+    currentCategory = tab.dataset.category;
+    renderCategory();
   });
 });
 
-/* =========================
-   ORDENAMIENTO
-========================= */
-
-sortSelect.addEventListener("change", event => {
-  currentSort = event.target.value;
+dom.sortSelect.addEventListener("change", () => {
+  currentSort = dom.sortSelect.value;
   renderCategory();
 });
 
-/* =========================
-   CIERRE DEL PANEL
-========================= */
+dom.drawerClose.addEventListener("click", closeDrawer);
+dom.drawerOverlay.addEventListener("click", closeDrawer);
+dom.retryButton.addEventListener("click", loadData);
 
-drawerClose.addEventListener("click", closeThemeDrawer);
-
-drawerOverlay.addEventListener("click", closeThemeDrawer);
-
-document.addEventListener("keydown", event => {
-  if (event.key === "Escape") {
-    closeThemeDrawer();
-  }
-
-  if (event.key === "Tab" && drawer.classList.contains("is-open")) {
-    const focusable = drawer.querySelectorAll(
-      'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
-    );
-
-    if (!focusable.length) return;
-
-    const first = focusable[0];
-    const last = focusable[focusable.length - 1];
-
-    if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault();
-      last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first.focus();
-    }
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && dom.drawer.classList.contains("is-open")) {
+    closeDrawer();
   }
 });
+
+loadData();
+
