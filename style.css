@@ -25,12 +25,12 @@ img {
 }
 
 .hidden {
+/* =========================
+   CONTENEDOR
   display: none !important;
 }
 
 
-/* =========================
-   CONTENEDOR
 ========================= */
 
 .radar {
