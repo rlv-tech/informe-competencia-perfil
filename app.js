@@ -51,6 +51,26 @@ document.addEventListener("DOMContentLoaded", loadData);
 
 async function loadData() {
   try {
+    if (
+      !loading ||
+      !error ||
+      !content ||
+      !analysisDate ||
+      !priorities ||
+      !themeGrid ||
+      !emptyState ||
+      !categoryTitle ||
+      !categoryDescription
+    ) {
+      throw new Error(
+        "Faltan elementos necesarios en index.html. Revisá los identificadores del dashboard."
+      );
+    }
+
+    loading.classList.remove("hidden");
+    error.classList.add("hidden");
+    content.classList.add("hidden");
+
     const separator = DATA_URL.includes("?") ? "&" : "?";
 
     const response = await fetch(
@@ -59,22 +79,45 @@ async function loadData() {
     );
 
     if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+      throw new Error(
+        `No se pudo cargar data.json. HTTP ${response.status}`
+      );
     }
 
     dashboardData = await response.json();
+
+    if (
+      !dashboardData ||
+      typeof dashboardData !== "object" ||
+      Array.isArray(dashboardData)
+    ) {
+      throw new Error("data.json no contiene un objeto JSON válido.");
+    }
 
     renderDashboard();
 
     loading.classList.add("hidden");
     error.classList.add("hidden");
     content.classList.remove("hidden");
-  } catch (err) {
-    console.error("Error cargando data.json:", err);
 
-    loading.classList.add("hidden");
-    content.classList.add("hidden");
-    error.classList.remove("hidden");
+  } catch (err) {
+    console.error("Error cargando el dashboard:", err);
+
+    loading?.classList.add("hidden");
+    content?.classList.add("hidden");
+    error?.classList.remove("hidden");
+
+    if (error) {
+      const message = document.createElement("p");
+      message.className = "error-detail";
+      message.textContent =
+        err.message || "No se pudieron cargar los datos.";
+
+      const previousMessage = error.querySelector(".error-detail");
+      previousMessage?.remove();
+
+      error.appendChild(message);
+    }
   }
 }
 
@@ -85,6 +128,8 @@ function renderDashboard() {
 }
 
 function renderDate() {
+  if (!analysisDate) return;
+
   if (!dashboardData?.fecha_analisis) {
     analysisDate.textContent = "Análisis editorial";
     return;
@@ -93,7 +138,8 @@ function renderDate() {
   const date = parseLocalDate(dashboardData.fecha_analisis);
 
   if (!date) {
-    analysisDate.textContent = `Análisis: ${dashboardData.fecha_analisis}`;
+    analysisDate.textContent =
+      `Análisis: ${dashboardData.fecha_analisis}`;
     return;
   }
 
@@ -107,9 +153,10 @@ function renderDate() {
 }
 
 function renderPriorities() {
+  if (!priorities) return;
+
   priorities.innerHTML = "";
 
-  // Se conservan las prioridades seleccionadas por la IA.
   const items = Array.isArray(dashboardData?.prioridades_del_dia)
     ? dashboardData.prioridades_del_dia.slice(0, 3)
     : [];
@@ -192,6 +239,10 @@ function renderPriorities() {
 }
 
 function renderCategory() {
+  if (!themeGrid || !categoryTitle || !categoryDescription || !emptyState) {
+    return;
+  }
+
   const config =
     categoryConfig[currentCategory] || categoryConfig.hipercompetencia;
 
@@ -315,8 +366,6 @@ function createThemeCard(item) {
 
       ${renderCoverage(item.cobertura)}
 
-      ${
-
       <details class="theme-details">
         <summary>
           <span>Ver detalles</span>
@@ -378,14 +427,23 @@ function createThemeCard(item) {
           }
 
           ${
-            ejemplos.length
+            ejemplos.length || noticias.length > 3
               ? `
                 <div class="card-examples">
-                  <div class="examples-title">Ejemplos</div>
-                  <div class="examples-list">
-                    ${ejemplos.map(example => renderExample(example)).join("")}
-                  </div>
-          
+                  ${
+                    ejemplos.length
+                      ? `
+                        <div class="examples-title">Ejemplos</div>
+
+                        <div class="examples-list">
+                          ${ejemplos
+                            .map(example => renderExample(example))
+                            .join("")}
+                        </div>
+                      `
+                      : ""
+                  }
+
                   ${
                     noticias.length > 3
                       ? `
@@ -430,11 +488,15 @@ function openNewsDrawer(item) {
     !newsDrawerCount ||
     !newsDrawerContent
   ) {
+    console.error(
+      "No se puede abrir el panel: faltan elementos del desplegable en index.html."
+    );
     return;
   }
 
   newsDrawerTitle.textContent = item.tema || "Todas las notas";
-  newsDrawerCount.textContent = `${noticias.length} notas de esta temática`;
+  newsDrawerCount.textContent =
+    `${noticias.length} notas de esta temática`;
 
   newsDrawerContent.innerHTML = noticias
     .map(noticia => renderExample(noticia))
@@ -663,7 +725,7 @@ function cleanMarkdownUrl(value) {
   }
 
   return stringValue
-    .replace(/\\\\\&/g, "&")
+    .replace(/\\&/g, "&")
     .replace(/&amp;/g, "&");
 }
 
@@ -684,7 +746,17 @@ function parseLocalDate(value) {
   const month = Number(match[2]) - 1;
   const day = Number(match[3]);
 
-  return new Date(year, month, day);
+  const date = new Date(year, month, day);
+
+  if (
+    date.getFullYear() !== year ||
+    date.getMonth() !== month ||
+    date.getDate() !== day
+  ) {
+    return null;
+  }
+
+  return date;
 }
 
 function escapeHtml(value) {
@@ -712,7 +784,7 @@ categoryTabs.forEach(tab => {
   });
 });
 
-sortSelect.addEventListener("change", event => {
+sortSelect?.addEventListener("change", event => {
   currentSort = event.target.value;
   renderCategory();
 });
