@@ -1,4 +1,6 @@
+
 const DATA_URL = "./data.json";
+
 let dashboardData = null;
 let currentCategory = "hipercompetencia";
 let currentSort = "notas";
@@ -50,6 +52,7 @@ document.addEventListener("DOMContentLoaded", loadData);
 async function loadData() {
   try {
     const separator = DATA_URL.includes("?") ? "&" : "?";
+
     const response = await fetch(
       `${DATA_URL}${separator}t=${Date.now()}`,
       { cache: "no-store" }
@@ -60,6 +63,7 @@ async function loadData() {
     }
 
     dashboardData = await response.json();
+
     renderDashboard();
 
     loading.classList.add("hidden");
@@ -67,6 +71,7 @@ async function loadData() {
     content.classList.remove("hidden");
   } catch (err) {
     console.error("Error cargando data.json:", err);
+
     loading.classList.add("hidden");
     content.classList.add("hidden");
     error.classList.remove("hidden");
@@ -104,6 +109,7 @@ function renderDate() {
 function renderPriorities() {
   priorities.innerHTML = "";
 
+  // Se conservan las prioridades seleccionadas por la IA.
   const items = Array.isArray(dashboardData?.prioridades_del_dia)
     ? dashboardData.prioridades_del_dia.slice(0, 3)
     : [];
@@ -246,6 +252,7 @@ function createThemeCard(item) {
 
   const image = getImage(item);
   const totalNotas = Number(item.total_notas || 0);
+
   const cantidadMedios = Number(
     item.cantidad_medios ?? item.cantidad_medios_competencia ?? 0
   );
@@ -255,6 +262,14 @@ function createThemeCard(item) {
   const gapClass = rawGap !== 0
     ? "theme-stat theme-stat-gap"
     : "theme-stat";
+
+  const ejemplos = Array.isArray(item.ejemplos)
+    ? item.ejemplos.slice(0, 3)
+    : [];
+
+  const noticias = Array.isArray(item.noticias)
+    ? item.noticias
+    : [];
 
   card.innerHTML = `
     <div class="theme-hero">
@@ -301,21 +316,37 @@ function createThemeCard(item) {
       ${renderCoverage(item.cobertura)}
 
       ${
-        Array.isArray(item.noticias) && item.noticias.length > 3
+        ejemplos.length
+          ? `
+            <div class="card-examples">
+              <div class="examples-title">Ejemplos</div>
+
+              <div class="examples-list">
+                ${ejemplos.map(example => renderExample(example)).join("")}
+              </div>
+            </div>
+          `
+          : ""
+      }
+
+      ${
+        noticias.length > 3
           ? `
             <button
               class="show-all-news"
               type="button"
               data-show-all-news
             >
-              Ver todas las notas (${item.noticias.length})
+              Ver todas las notas (${noticias.length})
             </button>
           `
           : ""
       }
 
       <details class="theme-details">
-        <summary><span>Ver detalles</span></summary>
+        <summary>
+          <span>Ver detalles</span>
+        </summary>
 
         <div class="details-content">
           ${
@@ -357,6 +388,7 @@ function createThemeCard(item) {
               ? `
                 <div class="detail-card detail-approaches">
                   <div class="detail-card-label">Enfoques sugeridos</div>
+
                   <div class="approach-list">
                     ${item.enfoques_sugeridos
                       .map(enfoque => `
@@ -364,22 +396,6 @@ function createThemeCard(item) {
                           ${escapeHtml(enfoque)}
                         </span>
                       `)
-                      .join("")}
-                  </div>
-                </div>
-              `
-              : ""
-          }
-
-          ${
-            Array.isArray(item.ejemplos) && item.ejemplos.length
-              ? `
-                <div class="detail-card notes-card">
-                  <div class="detail-card-label">Notas usadas</div>
-                  <div class="examples-list">
-                    ${item.ejemplos
-                      .slice(0, 3)
-                      .map(example => renderExample(example))
                       .join("")}
                   </div>
                 </div>
@@ -394,7 +410,9 @@ function createThemeCard(item) {
   const showAllNewsButton = card.querySelector("[data-show-all-news]");
 
   if (showAllNewsButton) {
-    showAllNewsButton.addEventListener("click", () => openNewsDrawer(item));
+    showAllNewsButton.addEventListener("click", () => {
+      openNewsDrawer(item);
+    });
   }
 
   return card;
@@ -403,18 +421,29 @@ function createThemeCard(item) {
 function openNewsDrawer(item) {
   const noticias = Array.isArray(item?.noticias) ? item.noticias : [];
 
-  if (noticias.length <= 3 || !newsDrawer || !newsDrawerOverlay) {
+  if (
+    noticias.length <= 3 ||
+    !newsDrawer ||
+    !newsDrawerOverlay ||
+    !newsDrawerTitle ||
+    !newsDrawerCount ||
+    !newsDrawerContent
+  ) {
     return;
   }
 
   newsDrawerTitle.textContent = item.tema || "Todas las notas";
   newsDrawerCount.textContent = `${noticias.length} notas de esta temática`;
-  newsDrawerContent.innerHTML = noticias.map(renderExample).join("");
+
+  newsDrawerContent.innerHTML = noticias
+    .map(noticia => renderExample(noticia))
+    .join("");
 
   newsDrawerOverlay.classList.remove("hidden");
   newsDrawer.classList.add("open");
   newsDrawer.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
+
   newsDrawerClose?.focus();
 }
 
@@ -464,30 +493,32 @@ function renderCoverage(cobertura) {
 
       <div class="coverage-list">
         ${
-          entries.map(([medio, value]) => {
-            const numericValue = Number(value) || 0;
-            const width = Math.max(
-              0,
-              Math.min(100, (numericValue / maxValue) * 100)
-            );
+          entries
+            .map(([medio, value]) => {
+              const numericValue = Number(value) || 0;
+              const width = Math.max(
+                0,
+                Math.min(100, (numericValue / maxValue) * 100)
+              );
 
-            return `
-              <div class="coverage-item">
-                <span class="coverage-item-name">
-                  ${escapeHtml(medio)}
-                </span>
+              return `
+                <div class="coverage-item">
+                  <span class="coverage-item-name">
+                    ${escapeHtml(medio)}
+                  </span>
 
-                <div class="coverage-bar">
-                  <div
-                    class="coverage-fill"
-                    style="width:${width}%"
-                  ></div>
+                  <div class="coverage-bar">
+                    <div
+                      class="coverage-fill"
+                      style="width:${width}%"
+                    ></div>
+                  </div>
+
+                  <strong>${numericValue}</strong>
                 </div>
-
-                <strong>${numericValue}</strong>
-              </div>
-            `;
-          }).join("")
+              `;
+            })
+            .join("")
         }
       </div>
     </div>
@@ -684,4 +715,5 @@ sortSelect.addEventListener("change", event => {
   currentSort = event.target.value;
   renderCategory();
 });
+
 
