@@ -316,32 +316,6 @@ function createThemeCard(item) {
       ${renderCoverage(item.cobertura)}
 
       ${
-        ejemplos.length
-          ? `
-            <div class="card-examples">
-              <div class="examples-title">Ejemplos</div>
-
-              <div class="examples-list">
-                ${ejemplos.map(example => renderExample(example)).join("")}
-              </div>
-            </div>
-          `
-          : ""
-      }
-
-      ${
-        noticias.length > 3
-          ? `
-            <button
-              class="show-all-news"
-              type="button"
-              data-show-all-news
-            >
-              Ver todas las notas (${noticias.length})
-            </button>
-          `
-          : ""
-      }
 
       <details class="theme-details">
         <summary>
@@ -398,6 +372,33 @@ function createThemeCard(item) {
                       `)
                       .join("")}
                   </div>
+                </div>
+              `
+              : ""
+          }
+
+          ${
+            ejemplos.length
+              ? `
+                <div class="card-examples">
+                  <div class="examples-title">Ejemplos</div>
+                  <div class="examples-list">
+                    ${ejemplos.map(example => renderExample(example)).join("")}
+                  </div>
+          
+                  ${
+                    noticias.length > 3
+                      ? `
+                        <button
+                          class="show-all-news"
+                          type="button"
+                          data-show-all-news
+                        >
+                          Ver todas las notas (${noticias.length})
+                        </button>
+                      `
+                      : ""
+                  }
                 </div>
               `
               : ""
