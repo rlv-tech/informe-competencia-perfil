@@ -20,14 +20,14 @@
       "cobertura_medio_lider": 23,
       "brecha": -22,
       "brecha_formateada": "-22",
-      "tema": "Accidente de trenes de alta velocidad en Toledo, España",
+      "tema": "Trágico accidente de trenes de alta velocidad en Toledo, España",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Constituye una tragedia internacional de gran magnitud con decenas de víctimas fatales, lo que genera alto interés en la audiencia global y local.",
-      "insight": "Los datos muestran una masiva cobertura de los competidores (Infobae con 23 notas), mientras que Perfil registra una participación mínima de 1 nota, evidenciando una brecha de -22.",
-      "accion_sugerida": "Ampliar la cobertura internacional con seguimientos de corresponsales y actualización minuto a minuto para captar tráfico en Google Discover.",
+      "por_que_importa": "Constituye un hecho de alto impacto internacional con repercusión global y cobertura masiva en todos los portales informativos.",
+      "insight": "Infobae lidera amplios despliegues de cobertura con más de 20 notas, mientras Perfil registra una presencia mínima con un solo artículo, quedando relegado en la cobertura de breaking news internacional.",
+      "accion_sugerida": "Ampliar la cobertura en tiempo real con crónicas de corresponsales europeos y testimonios exclusivos de sobrevivientes para captar tráfico directo.",
       "enfoques_sugeridos": [
-        "Tragedia en España: al menos 64 muertos tras el violento choque de dos trenes de alta velocidad en Toledo",
-        "Testimonios desgarradores del accidente ferroviario en España: 'Volamos despedidos y todo estaba lleno de sangre'"
+        "Tragedia en Toledo: el testimonio de un periodista que sobrevivió al choque de alta velocidad",
+        "Choque de trenes en España: asciende a más de 60 el número de muertos tras el impacto frontal"
       ],
       "ejemplos": [
         {
@@ -430,14 +430,14 @@
       "cobertura_medio_lider": 9,
       "brecha": -7,
       "brecha_formateada": "-7",
-      "tema": "Denuncia penal, salida y fuga de Flávio Bolsonaro de Argentina por Puerto Iguazú hacia Estados Unidos",
+      "tema": "Salida y fuga de Flávio Bolsonaro de Brasil a través de Argentina y repercusiones políticas",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Involucra directamente al territorio argentino en un conflicto político internacional y genera controversia sobre los controles fronterizos y la postura oficial.",
-      "insight": "Ámbito lidera la cobertura con 9 notas y la competencia en general supera ampliamente a Perfil, que cuenta con solo 2 menciones.",
-      "accion_sugerida": "Profundizar en las repercusiones políticas locales y el impacto institucional de la denuncia presentada por legisladores.",
+      "por_que_importa": "Involucra directamente al territorio argentino y genera un fuerte revuelo político y diplomático con denuncias penales en el Congreso.",
+      "insight": "Ámbito y TN encabezan la agenda con amplia cobertura y seguimientos en vivo, mientras Perfil mantiene una participación acotada a pesar de contar con notas de análisis político propias.",
+      "accion_sugerida": "Profundizar el seguimiento sobre las repercusiones institucionales y las presentaciones judiciales de legisladores opositores en las fronteras.",
       "enfoques_sugeridos": [
-        "Presentaron una denuncia penal contra el Gobierno por permitir la salida de Flávio Bolsonaro hacia Estados Unidos por Puerto Iguazú",
-        "Fuga internacional: cómo fue el paso exprés de Flávio Bolsonaro por la Argentina antes de instalarse en Miami"
+        "Denuncia penal en la frontera: apuntan al Gobierno por el paso de Flávio Bolsonaro hacia Estados Unidos",
+        "De Brasil a Miami: los detalles políticos de la fuga que involucra un paso clave por Misiones"
       ],
       "ejemplos": [
         {
@@ -726,7 +726,7 @@
       "imagen": "https://media.perfil.com/prod/images/gm_preview/9b85ca8e66d7-marcela-pagano-2335521.webp"
     },
     {
-      "total_notas": 16,
+      "total_notas": 15,
       "cantidad_medios": 5,
       "cantidad_competidores": 4,
       "cobertura": {
@@ -734,7 +734,7 @@
         "La Nación": 8,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 3,
+        "TN": 2,
         "Ámbito": 1,
         "Página 12": 0,
         "El Cronista": 2
@@ -744,14 +744,14 @@
       "cobertura_medio_lider": 8,
       "brecha": -6,
       "brecha_formateada": "-6",
-      "tema": "Aumentos y calendarios de pagos de ANSES para jubilaciones, pensiones y AUH en noviembre de 2026",
+      "tema": "Aumentos, calendarios de pagos y escalas de ANSES para jubilaciones, pensiones y asignaciones",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Es un servicio esencial de alto impacto socioeconómico que moviliza búsquedas masivas de los sectores pasivos y beneficiarios en Argentina.",
-      "insight": "La Nación lidera con 8 notas, mientras que Perfil mantiene una presencia limitada de 2 notas frente a una fuerte demanda de información previsional.",
-      "accion_sugerida": "Desarrollar guías de servicio utilitarias detalladas con los calendarios de pago completos y tablas de montos por categoría.",
+      "por_que_importa": "Es una temática de altísimo interés para el buscador y las audiencias masivas que necesitan verificar montos y fechas de cobro.",
+      "insight": "La Nación domina el segmento con múltiples notas de servicio, superando ampliamente a Perfil que cuenta con una cobertura básica y rezagada frente al buscador.",
+      "accion_sugerida": "Optimizar la estructura de las notas de servicio previsional con tablas claras y calculadoras de aumento para posicionar en Google Discover.",
       "enfoques_sugeridos": [
-        "ANSES oficializó los aumentos de noviembre de 2026: cuánto cobrarán jubilados, pensionados y AUH",
-        "Calendario de pagos de ANSES en noviembre con cambios por los feriados y la visita del Papa"
+        "Calendario ANSES de noviembre: fechas confirmadas de cobro con cambios por feriados papales",
+        "Aumento oficial de ANSES: cuánto cobrarán jubilados y pensionados el próximo mes"
       ],
       "ejemplos": [
         {
@@ -772,11 +772,11 @@
         },
         {
           "medio": "TN",
-          "titulo": "La ANSES definió el cronograma completo de pagos de noviembre para jubilaciones, AUH y otras asignaciones",
-          "link": "https://tn.com.ar/economia/2026/10/28/la-anses-definio-el-cronograma-completo-de-pagos-de-noviembre-para-jubilaciones-auh-y-otras-asignaciones/",
-          "imagen": "https://tn.com.ar/resizer/v2/VML7VP6TQRCJPLSKQB4NSMPYF4.jpg?auth=0e4a61c30a2e219f65139486400ad51e978f12b3cc6a9769295842a90ed901eb",
-          "fecha": "2026-10-28T08:25:46-03:00",
-          "id": "n310"
+          "titulo": "El Gobierno confirmó el nuevo aumento para jubilados y pensionados: cuánto cobrarán en noviembre",
+          "link": "https://tn.com.ar/economia/2026/10/28/el-gobierno-confirmo-el-nuevo-aumento-para-jubilados-y-pensionados-cuanto-cobraran-en-noviembre/",
+          "imagen": "https://tn.com.ar/resizer/v2/YCL5GVASDBB4HB6GRR2WLF74IA.jpg?auth=4e7f1cb16b28a500e2d539556039bb6ce96b7748a087e032d9d0998295dabeb1",
+          "fecha": "2026-10-28T06:58:38-03:00",
+          "id": "n330"
         }
       ],
       "noticias": [
@@ -862,14 +862,6 @@
         },
         {
           "medio": "TN",
-          "titulo": "La ANSES definió el cronograma completo de pagos de noviembre para jubilaciones, AUH y otras asignaciones",
-          "link": "https://tn.com.ar/economia/2026/10/28/la-anses-definio-el-cronograma-completo-de-pagos-de-noviembre-para-jubilaciones-auh-y-otras-asignaciones/",
-          "imagen": "https://tn.com.ar/resizer/v2/VML7VP6TQRCJPLSKQB4NSMPYF4.jpg?auth=0e4a61c30a2e219f65139486400ad51e978f12b3cc6a9769295842a90ed901eb",
-          "fecha": "2026-10-28T08:25:46-03:00",
-          "id": "n310"
-        },
-        {
-          "medio": "TN",
           "titulo": "El Gobierno confirmó el nuevo aumento para jubilados y pensionados: cuánto cobrarán en noviembre",
           "link": "https://tn.com.ar/economia/2026/10/28/el-gobierno-confirmo-el-nuevo-aumento-para-jubilados-y-pensionados-cuanto-cobraran-en-noviembre/",
           "imagen": "https://tn.com.ar/resizer/v2/YCL5GVASDBB4HB6GRR2WLF74IA.jpg?auth=4e7f1cb16b28a500e2d539556039bb6ce96b7748a087e032d9d0998295dabeb1",
@@ -930,14 +922,14 @@
       "cobertura_medio_lider": 4,
       "brecha": -3,
       "brecha_formateada": "-3",
-      "tema": "Elecciones en Israel y rol de los partidos árabes",
+      "tema": "Elecciones legislativas en Israel y definición de gobierno con participación de partidos árabes",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Define la estabilidad geopolítica de Medio Oriente y la gobernabilidad de Benjamin Netanyahu ante un escenario de extrema paridad.",
-      "insight": "La competencia distribuye coberturas estables (Infobae con 4 notas), mientras que Perfil aporta una única mención en su sección internacional.",
-      "accion_sugerida": "Publicar análisis de contexto sobre el peso electoral de las minorías y las complejas alianzas para la formación de gobierno.",
+      "por_que_importa": "Define el equilibrio geopolítico de Medio Oriente y condiciona la estabilidad del mandato de Benjamin Netanyahu tras unos comicios reñidos.",
+      "insight": "Infobae lidera la cobertura internacional, mientras Perfil aporta un único enfoque analítico sobre el rol de los partidos árabes en la conformación del próximo gabinete.",
+      "accion_sugerida": "Desarrollar perfiles explicativos sobre las alianzas parlamentarias necesarias y el impacto regional de los resultados electorales.",
       "enfoques_sugeridos": [
-        "Netanyahu quedó lejos de la mayoría en Israel y los partidos árabes definirán el próximo Gobierno",
-        "Elecciones en Israel: paridad técnica y negociaciones clave tras una votación contra el oficialismo"
+        "Netanyahu sin mayoría: los partidos árabes claves que definirán el futuro gobierno en Israel",
+        "Elecciones en Israel: números finales muy parejos y negociaciones contrarreloj en el parlamento"
       ],
       "ejemplos": [
         {
@@ -1066,7 +1058,122 @@
       "imagen": "https://media.perfil.com/prod/images/gm_preview/342a4173d5fb-proyecto-nuevo-2026-10-14t142153976.webp"
     }
   ],
-  "perfil_pierde": [],
+  "perfil_pierde": [
+    {
+      "total_notas": 7,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 4,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 4,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Vínculo bilateral entre Argentina y Brasil tras el triunfo electoral de Lula",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "La tensión diplomática entre la administración de Javier Milei y el gobierno electo de Brasil es un eje central de la política exterior y regional.",
+      "insight": "Página 12 monopoliza la agenda con un volumen alto de análisis y editoriales, mientras Perfil apenas acompaña con una mención y queda por detrás de la competencia en profundidad política.",
+      "accion_sugerida": "Publicar un análisis de profundidad económica y diplomática sobre el impacto comercial de la distancia política entre Buenos Aires y Brasilia.",
+      "enfoques_sugeridos": [
+        "Silencio oficial en la Rosada: las dudas crecientes sobre el futuro del vínculo bilateral con Brasil",
+        "El triunfo de Lula y la relación con Milei: impacto político de un cortocircuito regional ineludible"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Milei guarda silencio ante el triunfo de Lula y crecen las dudas sobre el vínculo bilateral con Brasil",
+          "link": "https://perfil.com/internacional/milei-guarda-silencio-tras-el-triunfo-de-lula-agfJU6i9GgSp",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp",
+          "fecha": "Wed, 28 Oct 2026 03:24:12 GMT",
+          "id": "n36"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Un analista internacional explicó en detalle la remontada histórica de Lula y las dudas que generó el voto electrónico: “Llama la atención”",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-la-remontada-historica-de-lula-y-las-dudas-que-genero-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/WIINYGBRKNFPDKFW5546VQ5VMQ.jpg?auth=7b94ff2415a08333621560326159d53d11a4323c19fe1d3d1c627581c0b162a0&smart=true&width=2000&height=1253",
+          "fecha": "Wed, 28 Oct 2026 12:56:57 +0000",
+          "id": "n76"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "En medio de las divisiones, el peronismo se entusiasma tras el triunfo de Lula y apuesta a copiarle la campaña",
+          "link": "https://www.clarin.com/politica/medio-divisiones-peronismo-entusiasma-triunfo-lula-apuesta-copiarle-campana_0_AdHUNB1xuJ.html",
+          "imagen": "https://www.clarin.com/img/2025/07/03/cBTsWzrpP_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:37 +0000",
+          "id": "n129"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Perfil",
+          "titulo": "Milei guarda silencio ante el triunfo de Lula y crecen las dudas sobre el vínculo bilateral con Brasil",
+          "link": "https://perfil.com/internacional/milei-guarda-silencio-tras-el-triunfo-de-lula-agfJU6i9GgSp",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp",
+          "fecha": "Wed, 28 Oct 2026 03:24:12 GMT",
+          "id": "n36"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Un analista internacional explicó en detalle la remontada histórica de Lula y las dudas que generó el voto electrónico: “Llama la atención”",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-la-remontada-historica-de-lula-y-las-dudas-que-genero-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/WIINYGBRKNFPDKFW5546VQ5VMQ.jpg?auth=7b94ff2415a08333621560326159d53d11a4323c19fe1d3d1c627581c0b162a0&smart=true&width=2000&height=1253",
+          "fecha": "Wed, 28 Oct 2026 12:56:57 +0000",
+          "id": "n76"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "En medio de las divisiones, el peronismo se entusiasma tras el triunfo de Lula y apuesta a copiarle la campaña",
+          "link": "https://www.clarin.com/politica/medio-divisiones-peronismo-entusiasma-triunfo-lula-apuesta-copiarle-campana_0_AdHUNB1xuJ.html",
+          "imagen": "https://www.clarin.com/img/2025/07/03/cBTsWzrpP_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:37 +0000",
+          "id": "n129"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Regalo para el cumple de Lula",
+          "link": "https://www.pagina12.com.ar/2026/10/28/regalo-para-el-cumple-de-lula/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/RHV72EVNNZEK7MPNTXHJ6FU7YY.jpg?auth=98f9092a0924e085485f9632b61bb38803c7d9a134d440b2f334acc0f3f3e3ce&amp;smart=true&amp;width=4776&amp;height=3232",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n407"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula, vientos de esperanza",
+          "link": "https://www.pagina12.com.ar/2026/10/28/lula-vientos-de-esperanza/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ONZL7STVTBDHRDGCLSDUFTR6RU.jpg?auth=f7c6051489e350a3db3f0aa961bbd28070085aac870636a515750aed6730c8d9&amp;smart=true&amp;width=3984&amp;height=2656",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n419"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula le agradeció a Cristina Kirchner el mensaje por el triunfo electoral",
+          "link": "https://www.pagina12.com.ar/2026/10/27/lula-le-agradecio-a-cristina-kirchner-el-mensaje-por-el-triunfo-electoral/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEYTCYZTGY2TOYTFME4DAY3EMU.jpg?auth=f6d6e5d41ac1f0b7df7606453b2d232cfd9c1693099e9005199caaebcb1af42c&amp;smart=true&amp;width=3000&amp;height=2001",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n426"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Argentina se alinea con EE.UU. y Brasil con China",
+          "link": "https://www.pagina12.com.ar/2026/10/27/argentina-se-alinea-con-eeuu-y-brasil-con-china/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ADC54CWFEVG7FH5EJJSFUFLCLY.jpeg?auth=0c703211695184ed9ec1d80556d7ffc4569ca7a8946900b213c380bec2c7e65e&amp;smart=true&amp;width=1398&amp;height=932",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n425"
+        }
+      ],
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp"
+    }
+  ],
   "sin_cobertura_perfil": [
     {
       "total_notas": 5,
@@ -1087,14 +1194,14 @@
       "cobertura_medio_lider": 3,
       "brecha": -3,
       "brecha_formateada": "-3",
-      "tema": "Visita del papa León XIV a la Argentina y feriados o asuetos afectados",
+      "tema": "Visita del papa León XIV a la Argentina, inscripciones e impacto en feriados y asuetos",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Afecta la agenda laboral, institucional y turística del país con modificaciones de feriados y asuetos de alto impacto nacional.",
-      "insight": "La Nación y Clarín registran cobertura activa sobre los asuetos, mientras que Perfil presenta ausencia total de notas en este tópico.",
-      "accion_sugerida": "Cubrir de inmediato el impacto normativo de los asuetos y la organización logística de la visita papal en el país.",
+      "por_que_importa": "Genera una gran expectativa social en el país, modifica el calendario laboral y moviliza logísticas turísticas y religiosas masivas.",
+      "insight": "La Nación, Clarín y Ámbito cubren activamente los feriados y las inscripciones juveniles, mientras que Perfil registra una ausencia total de cobertura en este evento.",
+      "accion_sugerida": "Lanzar una guía de servicio detallando los alcances de los asuetos, los cambios administrativos y los canales de inscripción vigentes.",
       "enfoques_sugeridos": [
-        "Feriados y asuetos de noviembre 2026: qué días se verán afectados por la visita del papa León XIV",
-        "Operativo y cronograma oficial: todo lo que hay que saber sobre la llegada del Papa a la Argentina"
+        "Llegada del papa León XIV: cronograma oficial de feriados y asuetos previstos para noviembre",
+        "Último día de inscripción para participar en la masiva vigilia de jóvenes junto al Papa"
       ],
       "ejemplos": [
         {
@@ -1106,20 +1213,20 @@
           "id": "n105"
         },
         {
-          "medio": "Ámbito",
-          "titulo": "Efecto León XIV: el millonario negocio que se mueve detrás de la visita del Papa",
-          "link": "https://www.ambito.com/negocios/efecto-leon-xiv-el-millonario-negocio-que-se-mueve-detras-la-visita-del-papa-n6338467",
-          "imagen": "https://media.ambito.com/p/a71371ee3d76ce90f1d5e251bed9ccbf/adjuntos/239/imagenes/043/700/0043700884/1200x675/204x335:224x355/papa-leon-xiv-gemelli-1-vatican-news-2.jpg",
-          "fecha": "Wed, 28 Oct 2026 00:00:00 -0300",
-          "id": "n389"
-        },
-        {
           "medio": "Clarín",
           "titulo": "Cierra hoy la inscripción para estar cerca del Papa León XIV en la vigilia de los jóvenes: cómo anotarse",
           "link": "https://www.clarin.com/sociedad/cierra-hoy-inscripcion-cerca-papa-leon-xiv-vigilia-jovenes-anotarse_0_ALyhaDscdX.html",
           "imagen": "https://www.clarin.com/img/2026/10/19/xUYbOu1_3_1200x630__1.jpg",
           "fecha": "Wed, 28 Oct 2026 09:00:35 +0000",
           "id": "n144"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Efecto León XIV: el millonario negocio que se mueve detrás de la visita del Papa",
+          "link": "https://www.ambito.com/negocios/efecto-leon-xiv-el-millonario-negocio-que-se-mueve-detras-la-visita-del-papa-n6338467",
+          "imagen": "https://media.ambito.com/p/a71371ee3d76ce90f1d5e251bed9ccbf/adjuntos/239/imagenes/043/700/0043700884/1200x675/204x335:224x355/papa-leon-xiv-gemelli-1-vatican-news-2.jpg",
+          "fecha": "Wed, 28 Oct 2026 00:00:00 -0300",
+          "id": "n389"
         }
       ],
       "noticias": [
@@ -1185,14 +1292,14 @@
       "cobertura_medio_lider": 3,
       "brecha": -3,
       "brecha_formateada": "-3",
-      "tema": "Pronóstico de tormentas, alertas meteorológicas y avance de frente frío",
+      "tema": "Pronóstico de tormentas, alertas meteorológicas y avance de frente frío en el país",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Informa de manera directa sobre emergencias climáticas y alertas del Servicio Meteorológico Nacional que afectan a distintas provincias.",
-      "insight": "El Cronista y La Nación despliegan alertas amarillas con 5 notas en total, frente a la falta de cobertura en la redacción de Perfil.",
-      "accion_sugerida": "Implementar un servicio periódico de alertas meteorológicas para atender el interés masivo en Discover y Google Search.",
+      "por_que_importa": "Las alertas del Servicio Meteorológico Nacional por fenómenos severos concentran altísimo tráfico inmediato en Google Search.",
+      "insight": "La Nación y El Cronista capitalizan el interés con reportes sobre alertas amarillas, dejando a Perfil completamente fuera de las tendencias de clima y servicios.",
+      "accion_sugerida": "Incorporar alertas meteorológicas dinámicas en la sección de sociedad para captar búsquedas de última hora sobre zonas afectadas.",
       "enfoques_sugeridos": [
-        "Alerta amarilla por tormentas fuertes, ráfagas y granizo: cuáles son las provincias afectadas",
-        "Avanza un frente frío con lluvias intensas y temperaturas cercanas a los 30°C: el pronóstico del SMN"
+        "Alerta amarilla por tormentas fuertes: el Servicio Meteorológico advierte por ráfagas y granizo",
+        "Avanza un frente frío en el país: cuáles son las provincias bajo advertencia por lluvias intensas"
       ],
       "ejemplos": [
         {
@@ -1283,14 +1390,14 @@
       "cobertura_medio_lider": 3,
       "brecha": -3,
       "brecha_formateada": "-3",
-      "tema": "Decisión de la Reserva Federal de EE.UU. sobre tasas de interés y su impacto",
+      "tema": "Decisiones de la Reserva Federal de EE.UU. sobre tasas de interés y su repercusión en mercados globales y locales",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Condiciona los mercados financieros globales, la cotización de los bonos y la macroeconomía emergente de la Argentina.",
-      "insight": "Ámbito y TN cubren las expectativas y repercusiones de la medida, mientras que Perfil no registra publicaciones al respecto.",
-      "accion_sugerida": "Redactar informes económicos explicando el correlato directo de las tasas de la Fed sobre el riesgo país y los activos locales.",
+      "por_que_importa": "Las decisiones de la Fed marcan el pulso financiero internacional, impactando directamente sobre activos argentinos, bonos y riesgo país.",
+      "insight": "Ámbito y TN cubren las expectativas globales del mercado, mientras Perfil omite la cobertura económica internacional en esta rueda clave.",
+      "accion_sugerida": "Publicar un informe de mercados analizando cómo repercutirá la decisión de la Reserva Federal sobre la cotización de los bonos locales.",
       "enfoques_sugeridos": [
-        "La Reserva Federal define el rumbo de las tasas de interés: expectativas y su impacto en la economía argentina",
-        "Mercados en vilo: cómo operan las bolsas y el dólar a la espera de la decisión monetaria de la Fed"
+        "Expectativa global en los mercados: la Reserva Federal define el rumbo de las tasas de interés",
+        "Rueda clave en Wall Street: cómo impactará en la economía argentina el anuncio de la Fed"
       ],
       "ejemplos": [
         {
@@ -1373,14 +1480,14 @@
       "cobertura_medio_lider": 2,
       "brecha": -2,
       "brecha_formateada": "-2",
-      "tema": "Disolución del Instituto de Obra Social de las Fuerzas Armadas",
+      "tema": "Disolución y modificaciones en la obra social del Instituto de Obra Social de las Fuerzas Armadas (IOSFA)",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Representa una medida oficial de fuerte calado político y administrativo sobre una obra social estatal y sus trabajadores.",
-      "insight": "La Nación, Ámbito y El Cronista informan la oficialización del DNU, evidenciando una omisión en la cobertura de Perfil.",
-      "accion_sugerida": "Analizar los alcances legales del decreto y la situación laboral de los afiliados de las Fuerzas Armadas.",
+      "por_que_importa": "La reestructuración y disolución de organismos estatales por DNU afecta de manera directa a miles de trabajadores y afiliados de las fuerzas.",
+      "insight": "La Nación, Ámbito y El Cronista informan sobre la oficialización de la medida del Ejecutivo, mientras Perfil no registra coberturas al respecto.",
+      "accion_sugerida": "Redactar un artículo explicativo sobre los alcances del decreto y qué sucederá con la cobertura médica del personal afectado.",
       "enfoques_sugeridos": [
-        "El Gobierno oficializó por DNU la disolución del Instituto de Obra Social de las Fuerzas Armadas",
-        "Qué pasará con los trabajadores y la cobertura médica tras la eliminación de la obra social militar"
+        "El Gobierno oficializó por DNU la disolución de la obra social de las Fuerzas Armadas (IOSFA)",
+        "Reestructuración estatal: qué pasará con los trabajadores y la atención tras el cierre de IOSFA"
       ],
       "ejemplos": [
         {
@@ -1463,14 +1570,14 @@
       "cobertura_medio_lider": 2,
       "brecha": -2,
       "brecha_formateada": "-2",
-      "tema": "Impacto y brotes de enfermedades por el fenómeno del Súper Niño",
+      "tema": "Impacto, brotes de enfermedades y avance del fenómeno climático del Súper Niño",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Advierte sobre riesgos sanitarios y ambientales graves vinculados al cambio climático y la intensificación de precipitaciones en la región.",
-      "insight": "Medios como La Nación y Clarín abordan el fenómeno con informes especializados, sector en el que Perfil no participa.",
-      "accion_sugerida": "Publicar entrevistas a especialistas ambientales y médicos para alertar sobre la prevención de brotes epidemiológicos.",
+      "por_que_importa": "Las advertencias sanitarias y ambientales sobre eventos climáticos extremos generan fuerte preocupación y alto tráfico en portales informativos.",
+      "insight": "La Nación, Clarín e Infobae abordan las advertencias de especialistas sobre el fenómeno climático, mientras Perfil carece de notas sobre esta temática.",
+      "accion_sugerida": "Desarrollar una nota con especialistas en salud pública y climatología para alertar sobre los riesgos sanitarios del Súper Niño.",
       "enfoques_sugeridos": [
-        "Alerta sanitaria: advierten sobre un posible brote de enfermedades en la Argentina por el avance del Súper Niño",
-        "El fenómeno del Súper Niño alcanzará su pico en diciembre: las zonas más afectadas y el informe de The Lancet"
+        "Alerta sanitaria por el Súper Niño: advierten sobre una tormenta perfecta de enfermedades en el país",
+        "El fenómeno climático sigue creciendo: estiman que el pico de lluvias se registrará en diciembre"
       ],
       "ejemplos": [
         {
@@ -1555,17 +1662,17 @@
       "cobertura_medio_lider": 5,
       "brecha": -5,
       "brecha_formateada": "-5",
-      "tema": "Celebración de Halloween 2026 en la Argentina: disfraces, calabazas y origen",
+      "tema": "Celebración de Halloween 2026 en la Argentina: disfraces, origen y tradiciones",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Cobertura de consumo estacional y tendencias culturales",
-      "motivo_oportunidad": "La Nación concentra 5 notas sobre la festividad sin que Perfil haya captado el tráfico de búsqueda estacional orientado a familias y consumo.",
-      "por_que_importa": "Atrae un volumen masivo de consultas en Google Search y Discover vinculadas a compras, disfraces y costumbres populares vigentes.",
-      "insight": "La Nación acapara el nicho informativo sobre Halloween con guías comerciales y culturales, dejando una vacante clara para Perfil.",
-      "accion_sugerida": "Publicar guías de compras y notas de color sobre el impacto económico y cultural de la celebración en el mercado local.",
+      "por_que_importa": "Representa una temática de consumo masivo con un pico estacional de búsquedas en Google Search sobre tendencias de compras y festejos.",
+      "insight": "La Nación monopoliza el nicho con cinco artículos de lifestyle y consumo, mientras Perfil no participa de la conversación comercial y cultural de la fecha.",
+      "accion_sugerida": "Publicar notas de servicio sobre costos de disfraces, propuestas gastronómicas temáticas y opciones de celebración en Buenos Aires.",
       "enfoques_sugeridos": [
-        "Halloween 2026 en la Argentina: dónde conseguir disfraces, calabazas y cuáles son los precios",
-        "De origen celta a Noche de Brujas: cuál es el verdadero significado de la festividad"
+        "Halloween 2026 en la Argentina: dónde conseguir disfraces y cuáles son los precios de las calabazas",
+        "Noche de Brujas: el origen histórico de una celebración que cada año gana más espacio en el país"
       ],
+      "tipo_de_oportunidad": "Cobertura ausente de Perfil en temáticas de consumo estacional",
+      "motivo_oportunidad": "Permite capturar un importante volumen de tráfico de Google Search orientado a tendencias de consumo y entretenimiento familiar.",
       "ejemplos": [
         {
           "medio": "La Nación",
@@ -1657,15 +1764,15 @@
       "brecha_formateada": "-4",
       "tema": "Prevención cardiológica y salud del corazón",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Vacante en contenidos de salud y bienestar médico riguroso",
-      "motivo_oportunidad": "La Nación desarrolla notas preventivas con médicos especialistas que generan alto engagement, un segmento aprovechable para Perfil.",
-      "por_que_importa": "Los contenidos médicos preventivos basados en testimonios profesionales tienen un rendimiento sostenido de lectura en la audiencia digital.",
-      "insight": "La competencia cubre en exclusiva temas de salud cardíaca con 4 notas, un área de alta afinidad con el lector de Perfil.",
-      "accion_sugerida": "Desarrollar piezas de prevención basadas en consultas a cardiólogos sobre factores de riesgo en adultos jóvenes.",
+      "por_que_importa": "Los contenidos sobre bienestar y prevención médica de lectura rápida registran un rendimiento excelente y constante en Google Discover.",
+      "insight": "La Nación cubre el segmento de salud con entrevistas a especialistas, dejando un espacio libre que Perfil puede aprovechar para fidelizar audiencia.",
+      "accion_sugerida": "Desarrollar notas breves con recomendaciones de cardiólogos sobre señales silenciosas de alerta y prevención en adultos jóvenes.",
       "enfoques_sugeridos": [
-        "Señales silenciosas del corazón que no se deben ignorar, según los cardiólogos",
-        "Por qué aumentan los infartos en personas jóvenes y qué estudios médicos son clave para prevenirlos"
+        "Señales silenciosas del corazón: cuáles son los síntomas que nunca se deben ignorar, según los médicos",
+        "Infartos en jóvenes: las razones detrás del incremento de casos según especialistas cardiólogos"
       ],
+      "tipo_de_oportunidad": "Oportunidad de posicionamiento en Google Discover mediante salud preventiva",
+      "motivo_oportunidad": "Los artículos sobre bienestar generan un alto engagement y lectura sostenida en dispositivos móviles.",
       "ejemplos": [
         {
           "medio": "La Nación",
@@ -1749,15 +1856,15 @@
       "brecha_formateada": "-3",
       "tema": "Feriados, fines de semana largos y calendario de noviembre 2026 en la Argentina",
       "tipo": "oportunidades",
-      "tipo_de_oportunidad": "Oportunidad de tráfico por consultas de servicio y planificación",
-      "motivo_oportunidad": "La Nación publica contenidos sobre el calendario de noviembre, un tema de alta demanda en buscadores que Perfil no aborda.",
-      "por_que_importa": "El calendario de feriados es una de las consultas de servicio con mayor pico estacional de tráfico web en la Argentina.",
-      "insight": "Existe una demanda insatisfecha en la oferta de Perfil respecto a la planificación de fines de semana largos y asuetos.",
-      "accion_sugerida": "Confeccionar un calendario descargable y notas explicativas detallando los días no laborables del mes.",
+      "por_que_importa": "Las búsquedas sobre el calendario de feriados son masivas y recurrentes cada vez que se inicia un nuevo mes en el país.",
+      "insight": "La Nación concentra en solitario las publicaciones referidas a la planificación de los descansos y asuetos de noviembre.",
+      "accion_sugerida": "Crear guías de servicio optimizadas para SEO que detallen el cronograma de feriados y fines de semana largos.",
       "enfoques_sugeridos": [
-        "Feriados de noviembre 2026: el calendario completo con todos los fines de semana largos",
-        "Cuándo es el próximo feriado y cómo se diagrama el descanso en el anteúltimo mes del año"
+        "Feriados de noviembre 2026: el calendario completo con todos los días de descanso y fines de semana largos",
+        "Cuándo es el próximo feriado en la Argentina y qué días no laborables quedan en el año"
       ],
+      "tipo_de_oportunidad": "Asunto de alta demanda utilitaria no cubierto por Perfil",
+      "motivo_oportunidad": "Garantiza un flujo constante de tráfico orgánico desde Google Search gracias al interés recurrente de los usuarios.",
       "ejemplos": [
         {
           "medio": "La Nación",
@@ -1815,502 +1922,6 @@
   ],
   "prioridades_del_dia": [
     {
-      "total_notas": 44,
-      "cantidad_medios": 8,
-      "cantidad_competidores": 7,
-      "cobertura": {
-        "Perfil": 1,
-        "La Nación": 4,
-        "Clarín": 3,
-        "Infobae": 23,
-        "TN": 4,
-        "Ámbito": 6,
-        "Página 12": 2,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 1,
-      "medio_lider": "Infobae",
-      "cobertura_medio_lider": 23,
-      "brecha": -22,
-      "brecha_formateada": "-22",
-      "tema": "Accidente de trenes de alta velocidad en Toledo, España",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Es la noticia internacional de mayor impacto y trágica repercusión global de la jornada, obligando a una cobertura firme para competir en tráfico digital.",
-      "ejemplos": [
-        {
-          "medio": "Perfil",
-          "titulo": "Un periodista de El País iba en uno de los trenes: \"Volamos despedidos y todo estaba lleno de sangre\"",
-          "link": "https://perfil.com/internacional/un-periodista-de-el-pais-iba-en-uno-de-los-trenes-volamos-despedidos-y-todo-estaba-lleno-de-sangre-a5ydX9F8M9oa",
-          "imagen": "https://media.perfil.com/prod/images/gm_preview/e225d390ec91-tren11.webp",
-          "fecha": "Wed, 28 Oct 2026 13:07:31 GMT",
-          "id": "n2"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Accidente en España, EN VIVO: qué se sabe del accidente de trenes de alta velocidad en Toledo",
-          "link": "https://www.lanacion.com.ar/el-mundo/que-se-sabe-del-accidente-de-trenes-de-alta-velocidad-en-espana-hoy-choque-descarrilamiento-y-las-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/FPYCEGZTXVC3TEVBEMVO4ANFUQ.jpg?auth=a7d8f6a72566f5cc447b88953f4ecfd7d0c470110e8428846bfd20c51c39f56b&smart=true&width=528&height=319",
-          "fecha": "Wed, 28 Oct 2026 13:40:41 +0000",
-          "id": "n37"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "\"Salí volando y vi pasajeros muertos en mi vagón\": el dramático relato de los sobrevivientes del choque de trenes en España",
-          "link": "https://www.clarin.com/mundo/sali-volando-vi-muertos-vagon-dramatico-relato-sobrevivientes-choque-trenes-espana_0_RRxC2rz0hQ.html",
-          "imagen": "https://www.clarin.com/img/2026/10/28/YXITk92XE_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 12:09:37 +0000",
-          "id": "n133"
-        }
-      ],
-      "noticias": [
-        {
-          "medio": "Perfil",
-          "titulo": "Un periodista de El País iba en uno de los trenes: \"Volamos despedidos y todo estaba lleno de sangre\"",
-          "link": "https://perfil.com/internacional/un-periodista-de-el-pais-iba-en-uno-de-los-trenes-volamos-despedidos-y-todo-estaba-lleno-de-sangre-a5ydX9F8M9oa",
-          "imagen": "https://media.perfil.com/prod/images/gm_preview/e225d390ec91-tren11.webp",
-          "fecha": "Wed, 28 Oct 2026 13:07:31 GMT",
-          "id": "n2"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Accidente en España, EN VIVO: qué se sabe del accidente de trenes de alta velocidad en Toledo",
-          "link": "https://www.lanacion.com.ar/el-mundo/que-se-sabe-del-accidente-de-trenes-de-alta-velocidad-en-espana-hoy-choque-descarrilamiento-y-las-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/FPYCEGZTXVC3TEVBEMVO4ANFUQ.jpg?auth=a7d8f6a72566f5cc447b88953f4ecfd7d0c470110e8428846bfd20c51c39f56b&smart=true&width=528&height=319",
-          "fecha": "Wed, 28 Oct 2026 13:40:41 +0000",
-          "id": "n37"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Dos trenes de alta velocidad chocaron en Toledo: al menos 64 muertos",
-          "link": "https://www.lanacion.com.ar/el-mundo/dos-trenes-de-alta-velocidad-chocaron-en-toledo-al-menos-10-muertos-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/CXPR7FPSAZBELEAX7ZLXMZ5PEA.jpg?auth=33c65c33953e6e9e5221f276f591b8de9fefcabb4d741b299fb4c1f2c07ae7d2&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 13:37:00 +0000",
-          "id": "n41"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Choque de trenes en Toledo: las fotos y videos más impactantes de la tragedia en España",
-          "link": "https://www.lanacion.com.ar/el-mundo/choque-de-trenes-en-toledo-las-fotos-y-videos-mas-impactantes-de-la-tragedia-en-espana-nid28102026/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:10:53 +0000",
-          "id": "n51"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Choque en España: dónde fue el accidente de los dos trenes de alta velocidad que dejó una decena de muertos",
-          "link": "https://www.lanacion.com.ar/el-mundo/choque-en-espana-donde-fue-el-accidente-de-los-dos-trenes-de-alta-velocidad-que-dejo-una-decena-de-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ODFG6UZP4FF5HGAXVSDC7FJXSQ.png?auth=43a78a12724660ebda8c14708070207cbbe979b18e14993ff6bbe7dbce07b2ae&smart=true&width=770&height=536",
-          "fecha": "Wed, 28 Oct 2026 13:02:00 +0000",
-          "id": "n53"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "\"Salí volando y vi pasajeros muertos en mi vagón\": el dramático relato de los sobrevivientes del choque de trenes en España",
-          "link": "https://www.clarin.com/mundo/sali-volando-vi-muertos-vagon-dramatico-relato-sobrevivientes-choque-trenes-espana_0_RRxC2rz0hQ.html",
-          "imagen": "https://www.clarin.com/img/2026/10/28/YXITk92XE_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 12:09:37 +0000",
-          "id": "n133"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Choque de trenes en España EN VIVO: al menos 30 muertos en Toledo, rescates y últimas noticias",
-          "link": "https://www.clarin.com/mundo/choque-trenes-espana-vivo-sabe-accidente-dejo-30-muertos-toledo-ultimas-noticias_0_kAebO35c6Q.html",
-          "imagen": "https://www.clarin.com/img/2026/10/28/8RrOIvsYb_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 11:26:54 +0000",
-          "id": "n136"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Trágico choque de trenes en España: al menos 30 muertos y decenas de heridos en Toledo",
-          "link": "https://www.clarin.com/mundo/choque-trenes-espana-muertos-decenas-heridos_0_RgIWWxZVLJ.html",
-          "imagen": "https://www.clarin.com/img/2026/10/28/P75SYqmCR_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 09:50:25 +0000",
-          "id": "n139"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Accidente de trenes en Toledo, en directo: al menos 64 muertos tras el choque entre un Iryo y un AVE en la línea de Madrid-Andalucía",
-          "link": "https://www.infobae.com/espana/2026/10/28/en-directo-accidente-ferroviario-en-toledo-numerosos-heridos-tras-el-choque-de-dos-trenes-en-la-linea-madrid-andalucia/",
-          "imagen": "https://www.infobae.com/resizer/v2/W55EWTO7MJD2ZKRU74NIIFLYK4.png?auth=eb5ec716ce421a0189aa0ab91f26a8e81515629b57e23ad960e401af05b6ba92&smart=true&width=1024&height=1536",
-          "fecha": "Wed, 28 Oct 2026 13:39:35 +0000",
-          "id": "n179"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "El accidente ferroviario de Toledo cambia la programación de las cadenas: cancelaciones en todas las cadenas y especiales informativos",
-          "link": "https://www.infobae.com/espana/2026/10/28/el-accidente-ferroviario-de-toledo-cambia-la-programacion-de-las-cadenas-cancelaciones-en-todas-las-cadenas-y-especiales-informativos/",
-          "imagen": "https://www.infobae.com/resizer/v2/5EJGUGVV5JA2HILBEHBKYCA4MY.JPG?auth=0f07c02d4a0ffafdf03b80f209003d9e556ed23268d352596d77b86bd7198dee&smart=true&width=6000&height=3375",
-          "fecha": "Wed, 28 Oct 2026 13:39:05 +0000",
-          "id": "n181"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "El Gobierno apunta a un fallo en el centro de control en el accidente de tren de Toledo: autorizaron la marcha “contra la normativa”",
-          "link": "https://www.infobae.com/espana/2026/10/28/el-gobierno-apunta-a-un-fallo-en-el-centro-de-control-en-el-accidente-de-tren-de-toledo-autorizaron-la-marcha-contra-la-normativa/",
-          "imagen": "https://www.infobae.com/resizer/v2/BRP2NQQH3VFR7MD2ZOLQQG2RHM.JPG?auth=7ccb5bde5c8cfb79d3ba310975d094baaad2c45ee518b6ddc4b241f1932266e1&smart=true&width=6000&height=4000",
-          "fecha": "Wed, 28 Oct 2026 13:35:07 +0000",
-          "id": "n187"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Activada la atención psicólogica a familiares en las estaciones de Sevilla y Córdoba",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/activada-la-atencion-psicologica-a-familiares-en-las-estaciones-de-sevilla-y-cordoba/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:34:19 +0000",
-          "id": "n192"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Iryo cifra el impacto trasero a las 8:48 y no tiene previsión de restablecer el servicio",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/iryo-cifra-el-impacto-trasero-a-las-848-y-no-tiene-prevision-de-restablecer-el-servicio/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:33:45 +0000",
-          "id": "n195"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Iberia fija un precio máximo de 99 euros en todos los vuelos a Andalucía tras el choque de trenes en Urda",
-          "link": "https://www.infobae.com/espana/2026/10/28/iberia-fija-un-precio-maximo-de-99-euros-en-todos-los-vuelos-a-andalucia-tras-el-choque-de-trenes-en-urda/",
-          "imagen": "https://www.infobae.com/resizer/v2/JV7UCOBJ2BHWHCBLNIWSYTXFA4.JPG?auth=3148f7d8f6658778ddcdd9621d72a26d982135cb9b4c23f18c7cfdd884a0ec1b&smart=true&width=6000&height=4000",
-          "fecha": "Wed, 28 Oct 2026 13:33:32 +0000",
-          "id": "n197"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Renfe ofrece plan alternativo de trenes de cercanías de Madrid a Ciudad Real y Puertollano",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/renfe-ofrece-plan-alternativo-de-trenes-de-cercanias-de-madrid-a-ciudad-real-y-puertollano/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:33:12 +0000",
-          "id": "n199"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Francisco Cárdenas, responsable de Renfe UGT en Cataluña: \"El error humano es difícil\"",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/francisco-cardenas-responsable-de-renfe-ugt-en-cataluna-el-error-humano-es-dificil/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:32:56 +0000",
-          "id": "n201"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "El TSJCM activa el Protocolo nacional para gestionar aspectos legales e investigación del siniestro",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/el-tsjcm-activa-el-protocolo-nacional-para-gestionar-aspectos-legales-e-investigacion-del-siniestro/",
-          "imagen": "https://www.infobae.com/resizer/v2/DCGWKJWYHJHNZLFQKOBC36JQVE.jpg?auth=d23006e6337493f27b92fbd30978db1dd93f266f53cfac8dc7acba8a9dbc5a30&smart=true&width=1600&height=1067",
-          "fecha": "Wed, 28 Oct 2026 13:32:47 +0000",
-          "id": "n202"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Madrid despliega un centenar de profesionales en Urda y no va a \"escatimar en recursos\"",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/madrid-despliega-un-centenar-de-profesionales-en-urda-y-no-va-a-escatimar-en-recursos/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:32:39 +0000",
-          "id": "n204"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "La colisión de dos trenes en Urda (Toledo), el accidente ferroviario más grave desde el de Angrois",
-          "link": "https://www.infobae.com/america/agencias/2026/10/28/la-colision-de-dos-trenes-en-urda-toledo-el-accidente-ferroviario-mas-grave-desde-el-de-angrois/",
-          "imagen": "https://www.infobae.com/resizer/v2/GDC62237NFGWDN2I6RAUDH27NU.jpg?auth=6ca63f09c99769fdac0215888f3311efb0083152f4f1a8779d7920a8114ece88&smart=true&width=1920&height=1191",
-          "fecha": "Wed, 28 Oct 2026 13:32:11 +0000",
-          "id": "n207"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Vicepresidentes de Aragón y CyL lamentan la tragedia: \"Cualquier dimisión que se pida se queda corta\"",
-          "link": "https://www.infobae.com/america/agencias/2026/10/28/vicepresidentes-de-aragon-y-cyl-lamentan-la-tragedia-cualquier-dimision-que-se-pida-se-queda-corta/",
-          "imagen": "https://www.infobae.com/resizer/v2/GZS3IE4DTJEMVHEV5I5MZ34GQA.jpg?auth=3a8b1d2e2cc141c543444feb33467fd4fbca49e589d1b8a4057496a216754cf4&smart=true&width=1920&height=1191",
-          "fecha": "Wed, 28 Oct 2026 13:31:53 +0000",
-          "id": "n209"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Los colectivos sanitarios trasladan sus condolencias por el accidente de trenes",
-          "link": "https://www.infobae.com/america/agencias/2026/10/28/los-colectivos-sanitarios-trasladan-sus-condolencias-por-el-accidente-de-trenes/",
-          "imagen": "https://www.infobae.com/resizer/v2/V4KFNLACXZCZ5GOHPOOYSP2NDM.jpg?auth=3b2e07671132e2a33a3cf5b537bc2ef687fedc105fdd9b4af7a0e6924a6578e0&smart=true&width=1920&height=1280",
-          "fecha": "Wed, 28 Oct 2026 13:31:35 +0000",
-          "id": "n211"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "La alta velocidad ferroviaria española sufre dos accidentes mortales en nueve meses",
-          "link": "https://www.infobae.com/america/agencias/2026/10/28/la-alta-velocidad-ferroviaria-espanola-sufre-dos-accidentes-mortales-en-nueve-meses/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:30:41 +0000",
-          "id": "n220"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Las redes sociales se inundan de personas buscando a sus familiares desaparecidos en el accidente de trenes de Toledo: “Iba en el AVE, vagón 7”",
-          "link": "https://www.infobae.com/espana/2026/10/28/las-redes-sociales-se-inundan-de-personas-buscando-a-sus-familiares-desaparecidos-en-el-accidente-de-trenes-de-toledo-iba-en-el-ave-vagon-7/",
-          "imagen": "https://www.infobae.com/resizer/v2/UHB7IM4S6FC7NLCAYFY3EHRDRI.png?auth=3b2b27e222e54c1f1fbddd34ec76dec9f9601773750a04934a5eb43b01261828&smart=true&width=888&height=301",
-          "fecha": "Wed, 28 Oct 2026 13:30:13 +0000",
-          "id": "n222"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Así funciona el LZB, el sistema de frenado automático que se encarga de evitar choques de trenes como el de Toledo",
-          "link": "https://www.infobae.com/espana/2026/10/28/asi-funciona-el-lzb-el-sistema-que-debia-haber-evitado-la-colision-entre-el-ave-y-el-iryo-en-toledo/",
-          "imagen": "https://www.infobae.com/resizer/v2/NESOBYYO25E5XB7D64H2SIZELM.png?auth=8362dae0eda0d12a8d8c46d739e0625047c13cde98b0f81a3e969f90bfa56028&smart=true&width=2752&height=1536",
-          "fecha": "Wed, 28 Oct 2026 13:27:53 +0000",
-          "id": "n227"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Elecciones generales España 29-N, en directo | El choque de trenes en Toledo paraliza la precampaña electoral de todos los partidos excepto Vox",
-          "link": "https://www.infobae.com/espana/2026/10/28/elecciones-generales-espana-29-n-en-directo-ultima-hora-de-los-sondeos-la-ley-de-nietos-y-la-precampana/",
-          "imagen": "https://www.infobae.com/resizer/v2/W2FUGTW6QZERDEBUFTXFAS2KOE.jpg?auth=79660bc8152f87bd154a44f0277f39fcafbc4578dc7645180b4bd636d298b328&smart=true&width=1200&height=675",
-          "fecha": "Wed, 28 Oct 2026 13:27:26 +0000",
-          "id": "n229"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Toledo revive la tragedia de Adamuz y ya supera el número de fallecidos: dos graves accidentes mortales sacuden la alta velocidad española en nueve meses",
-          "link": "https://www.infobae.com/espana/2026/10/28/toledo-revive-la-tragedia-de-adamuz-dos-graves-accidentes-mortales-sacuden-la-alta-velocidad-espanola-en-nueve-meses/",
-          "imagen": "https://www.infobae.com/resizer/v2/JV7UCOBJ2BHWHCBLNIWSYTXFA4.JPG?auth=3148f7d8f6658778ddcdd9621d72a26d982135cb9b4c23f18c7cfdd884a0ec1b&smart=true&width=6000&height=4000",
-          "fecha": "Wed, 28 Oct 2026 13:21:59 +0000",
-          "id": "n239"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Despliegue sanitario y policial en el Hospital de Toledo para atender a heridos en Urda",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/despliegue-sanitario-y-policial-en-el-hospital-de-toledo-para-atender-a-heridos-en-urda/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:21:53 +0000",
-          "id": "n240"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Colegio de Ingenieros de Caminos ve inaplazable garantizar la seguridad en alta velocidad",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/colegio-de-ingenieros-de-caminos-ve-inaplazable-garantizar-la-seguridad-en-alta-velocidad/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:21:36 +0000",
-          "id": "n241"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Los inspectores de Hacienda mantienen su congreso tras mostrar su \"pesar\" por el accidente",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/los-inspectores-de-hacienda-mantienen-su-congreso-tras-mostrar-su-pesar-por-el-accidente/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:21:19 +0000",
-          "id": "n242"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Familiares de afectados por el accidente acuden \"poco a poco\" al punto atención en Atocha",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/familiares-de-afectados-por-el-accidente-acuden-poco-a-poco-al-punto-atencion-en-atocha/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:21:02 +0000",
-          "id": "n243"
-        },
-        {
-          "medio": "Infobae",
-          "titulo": "Sánchez se desplaza al lugar del accidente de tren para conocer detalles sobre el terreno",
-          "link": "https://www.infobae.com/espana/agencias/2026/10/28/sanchez-se-desplaza-al-lugar-del-accidente-de-tren-para-conocer-detalles-sobre-el-terreno/",
-          "imagen": "",
-          "fecha": "Wed, 28 Oct 2026 13:20:29 +0000",
-          "id": "n245"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Trágico accidente de trenes en España: ya son 64 los muertos y hay al menos 50 heridos graves",
-          "link": "https://tn.com.ar/internacional/2026/10/28/dos-trenes-de-pasajeros-chocaron-en-toledo-y-por-el-impacto-dos-vagones-cayeron-por-un-terraplen/",
-          "imagen": "https://tn.com.ar/resizer/v2/WW6JCL4TJBCFPEBWU3F2MAGTBE.PNG?auth=d96d042ea90b8d59ece878d32a272294bc0f08acd1ca319570c3e8f6a2824b83",
-          "fecha": "2026-10-28T10:29:52-03:00",
-          "id": "n272"
-        },
-        {
-          "medio": "TN",
-          "titulo": "“Es como si hubieran puesto una bomba”: el relato de los pasajeros de los trenes que chocaron en España",
-          "link": "https://tn.com.ar/internacional/2026/10/28/no-paraban-de-salir-cadaveres-el-relato-de-los-pasajeros-de-los-trenes-que-chocaron-en-espana/",
-          "imagen": "https://tn.com.ar/resizer/v2/FNMDZUPR6JHYRLCV6OA4ESBNYE.jpg?auth=f5380c9815e8fb09c6fdcffc62ef6fe0dec53c0af1e119ac56eb07eae10ddeb9",
-          "fecha": "2026-10-28T08:51:00-03:00",
-          "id": "n278"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Las impactantes imágenes del choque de trenes en España que dejó al menos 64 muertos",
-          "link": "https://tn.com.ar/internacional/2026/10/28/las-impactantes-imagenes-del-choque-de-trenes-en-espana-que-dejo-al-menos-10-muertos/",
-          "imagen": "https://tn.com.ar/resizer/v2/6HQBJ63GFRESNJIW3YXAUHBPEU.jpg?auth=4460ad9d09530c0db223f63b95d18d93c30a060e554d0fb6576cfbebf8c773d3",
-          "fecha": "2026-10-28T07:17:56-03:00",
-          "id": "n283"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Dos trenes chocaron en España y hay al menos 10 muertos",
-          "link": "https://tn.com.ar/videos/internacional/2026/10/28/dos-trenes-chocaron-en-espana-y-hay-al-menos-10-muertos/",
-          "imagen": "",
-          "fecha": "2026-10-28T07:05:31-03:00",
-          "id": "n329"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Falla humana o error de seguridad: qué se sabe hasta ahora de la tragedia ferroviaria en España y cuáles son las hipótesis",
-          "link": "https://www.ambito.com/mundo/falla-humana-o-error-seguridad-que-se-sabe-ahora-la-tragedia-ferroviaria-espana-y-cuales-son-las-hipotesis-n6338732",
-          "imagen": "https://media.ambito.com/p/6ce3ef89c571ef8458d0b04291e41fba/adjuntos/239/imagenes/043/733/0043733957/1200x675/812x1132:832x1152/tren-accidente-espana.jpg",
-          "fecha": "Wed, 28 Oct 2026 09:34:00 -0300",
-          "id": "n359"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Tragedia ferroviaria en España: al menos 60 muertos tras el choque de dos trenes de alta velocidad en Toledo",
-          "link": "https://www.ambito.com/mundo/espana-al-menos-10-muertos-el-choque-dos-trenes-alta-velocidad-toledo-n6338680",
-          "imagen": "https://media.ambito.com/p/b0943e4ac19c2849593a2263a594d3e1/adjuntos/239/imagenes/043/733/0043733867/1200x675/smart/espana-choque-trenes-2026.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:17:00 -0300",
-          "id": "n364"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Tragedia ferroviaria en España: las impactantes fotos y videos del choque de trenes que dejó más de 60 muertos",
-          "link": "https://www.ambito.com/mundo/tragedia-ferroviaria-espana-las-impactantes-fotos-y-videos-del-choque-trenes-que-dejo-mas-60-muertos-n6338768",
-          "imagen": "https://media.ambito.com/p/750e3ebbbce5ef3a3cfd35a3549a7c9c/adjuntos/239/imagenes/043/733/0043733962/1200x675/758x386:778x406/tren-accidente-espana-3.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:11:00 -0300",
-          "id": "n369"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Accidente ferroviario en España: dónde fue el choque de los dos trenes de alta velocidad que dejó al menos 60 muertos",
-          "link": "https://www.ambito.com/mundo/accidente-ferroviario-espana-donde-fue-el-choque-los-dos-trenes-alta-velocidad-que-dejo-al-menos-60-muertos-n6338738",
-          "imagen": "https://media.ambito.com/p/0079ecc27c4450d96aeff6f1dce0e40c/adjuntos/239/imagenes/043/733/0043733910/1200x675/smart/espana-choque-trenes-2026-4.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:15:00 -0300",
-          "id": "n371"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "De Angrois a Adamuz: los antecedentes de tragedias ferroviarias de España",
-          "link": "https://www.ambito.com/mundo/de-angrois-adamuz-los-antecedentes-tragedias-ferroviarias-espana-n6338765",
-          "imagen": "https://media.ambito.com/p/1e0f69c73d340de395d24e82f80183fa/adjuntos/239/imagenes/043/734/0043734193/antecedentes-ferroviarios-espana.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:15:00 -0300",
-          "id": "n377"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "&quot;Consternado&quot;: el mensaje de Pedro Sánchez luego de la tragedia ferroviaria en Toledo que dejó 30 muertos",
-          "link": "https://www.ambito.com/mundo/consternado-el-mensaje-pedro-sanchez-luego-la-tragedia-ferroviaria-toledo-que-dejo-30-muertos-n6338687",
-          "imagen": "https://media.ambito.com/p/c32a4d7346c22cee6949febebfd8d255/adjuntos/239/imagenes/041/526/0041526093/1200x675/1590x692:1610x712/pedro-sanchezjpg.jpg",
-          "fecha": "Wed, 28 Oct 2026 08:46:00 -0300",
-          "id": "n393"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Choque de trenes en España: hay al menos 64 muertos y decenas de heridos",
-          "link": "https://www.pagina12.com.ar/2026/10/28/choque-de-trenes-en-espana-hay-al-menos-10-muertos-y-decenas-de-heridos/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/QFS3FVSFW5CHZEURQNK4TFHPYI.jpg?auth=40d1eb3f102006492163d008671d813a9541b6101a964d40dd30f45c9247010e&amp;smart=true&amp;width=549&amp;height=305",
-          "fecha": "Wed, 28 Oct 2026 10:40:21 +0000",
-          "id": "n405"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "Choque de trenes en España: más de 64 muertos en un nuevo accidente en menos de un año",
-          "link": "https://www.cronista.com/internacionales/otro-accidente-de-tren-en-espana-casi-40-fallecidos-en-un-nuevo-choque-entre-dos-formaciones/",
-          "imagen": "https://www.cronista.com/resizer/v2/Y5EAL5GHKVHLLBJL4LVMYTEHH4.jpg?auth=317c8504cde8c1eeab9e71ab9af140a31cc92b759ddbb5e54d55bb3cb985794a&smart=true&width=1200&height=900",
-          "fecha": "Wed, 28 Oct 2026 09:42:37 +0000",
-          "id": "n479"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "“Emergencia absoluta” y “gente volando por los pasillos”: los crudos relatos de los sobrevivientes del choque de trenes",
-          "link": "https://www.pagina12.com.ar/2026/10/28/emergencia-absoluta-y-gente-volando-por-los-pasillos-los-crudos-relatos-de-los-sobrevivientes-del-choque-de-trenes/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/STI7DERLTBGSVGH7RQQD66FFBU.jpg?auth=0ba0e3a816d66e72c34278ca7ba13d14c208813afcdb11ac2b4846e4d1c5911d&amp;smart=true&amp;width=4631&amp;height=3087",
-          "fecha": "Wed, 28 Oct 2026 13:28:07 +0000",
-          "id": "n451"
-        }
-      ],
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/e225d390ec91-tren11.webp"
-    },
-    {
-      "total_notas": 5,
-      "cantidad_medios": 3,
-      "cantidad_competidores": 3,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 3,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 1,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Visita del papa León XIV a la Argentina y feriados o asuetos afectados",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Representa el acontecimiento institucional y social de mayor trascendencia local, alterando agendas y feriados que interesan de forma directa al lector.",
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Feriados de noviembre 2026: cuándo son los asuetos por la llegada del papa León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/feriados/feriados-de-noviembre-2026-cuando-son-los-asuetos-por-la-llegada-del-papa-leon-xiv-a-la-argentina-nid26102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/4TTEDBM4RFHZZCHXGWS2V5DAJ4.jpg?auth=b65589ff2597794719a1fd3007363a0739552bbe19ea6f2a9a71bf48e3c06575&smart=true&width=1280&height=853",
-          "fecha": "Wed, 28 Oct 2026 12:01:33 +0000",
-          "id": "n105"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Cierra hoy la inscripción para estar cerca del Papa León XIV en la vigilia de los jóvenes: cómo anotarse",
-          "link": "https://www.clarin.com/sociedad/cierra-hoy-inscripcion-cerca-papa-leon-xiv-vigilia-jovenes-anotarse_0_ALyhaDscdX.html",
-          "imagen": "https://www.clarin.com/img/2026/10/19/xUYbOu1_3_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 09:00:35 +0000",
-          "id": "n144"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Efecto León XIV: el millonario negocio que se mueve detrás de la visita del Papa",
-          "link": "https://www.ambito.com/negocios/efecto-leon-xiv-el-millonario-negocio-que-se-mueve-detras-la-visita-del-papa-n6338467",
-          "imagen": "https://media.ambito.com/p/a71371ee3d76ce90f1d5e251bed9ccbf/adjuntos/239/imagenes/043/700/0043700884/1200x675/204x335:224x355/papa-leon-xiv-gemelli-1-vatican-news-2.jpg",
-          "fecha": "Wed, 28 Oct 2026 00:00:00 -0300",
-          "id": "n389"
-        }
-      ],
-      "noticias": [
-        {
-          "medio": "La Nación",
-          "titulo": "Feriados de noviembre 2026: cuándo son los asuetos por la llegada del papa León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/feriados/feriados-de-noviembre-2026-cuando-son-los-asuetos-por-la-llegada-del-papa-leon-xiv-a-la-argentina-nid26102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/4TTEDBM4RFHZZCHXGWS2V5DAJ4.jpg?auth=b65589ff2597794719a1fd3007363a0739552bbe19ea6f2a9a71bf48e3c06575&smart=true&width=1280&height=853",
-          "fecha": "Wed, 28 Oct 2026 12:01:33 +0000",
-          "id": "n105"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Feriados de la visita del papa León XIV: uno por uno, estos son los días de noviembre afectados",
-          "link": "https://www.lanacion.com.ar/feriados/feriados-de-la-visita-del-papa-leon-xiv-uno-por-uno-estos-son-los-dias-de-noviembre-afectados-nid21102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/2ED5FSDVHJEMLMIYXPVKIOB7C4.JPG?auth=bac4973bceea863e977028a43db6d13d1f6403c52d7f12573587510f2d4dcf3f&smart=true&width=2048&height=1413",
-          "fecha": "Wed, 28 Oct 2026 12:01:31 +0000",
-          "id": "n106"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Quiénes son los artistas que acompañarán al Papa en su visita a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/quienes-son-los-artistas-que-acompanaran-al-papa-en-su-visita-a-la-argentina-nid26102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/CHKMPBCNBJG5PF7KOSN3LIKV4E.JPG?auth=6817ad25238ef8d36fd1924b8f007da9e704500acfcde593000ad54c3954c143&smart=true&width=8256&height=5504",
-          "fecha": "Wed, 28 Oct 2026 12:01:21 +0000",
-          "id": "n110"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Cierra hoy la inscripción para estar cerca del Papa León XIV en la vigilia de los jóvenes: cómo anotarse",
-          "link": "https://www.clarin.com/sociedad/cierra-hoy-inscripcion-cerca-papa-leon-xiv-vigilia-jovenes-anotarse_0_ALyhaDscdX.html",
-          "imagen": "https://www.clarin.com/img/2026/10/19/xUYbOu1_3_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 09:00:35 +0000",
-          "id": "n144"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Efecto León XIV: el millonario negocio que se mueve detrás de la visita del Papa",
-          "link": "https://www.ambito.com/negocios/efecto-leon-xiv-el-millonario-negocio-que-se-mueve-detras-la-visita-del-papa-n6338467",
-          "imagen": "https://media.ambito.com/p/a71371ee3d76ce90f1d5e251bed9ccbf/adjuntos/239/imagenes/043/700/0043700884/1200x675/204x335:224x355/papa-leon-xiv-gemelli-1-vatican-news-2.jpg",
-          "fecha": "Wed, 28 Oct 2026 00:00:00 -0300",
-          "id": "n389"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/4TTEDBM4RFHZZCHXGWS2V5DAJ4.jpg?auth=b65589ff2597794719a1fd3007363a0739552bbe19ea6f2a9a71bf48e3c06575&smart=true&width=1280&height=853"
-    },
-    {
       "total_notas": 32,
       "cantidad_medios": 8,
       "cantidad_competidores": 7,
@@ -2329,9 +1940,10 @@
       "cobertura_medio_lider": 9,
       "brecha": -7,
       "brecha_formateada": "-7",
-      "tema": "Denuncia penal, salida y fuga de Flávio Bolsonaro de Argentina por Puerto Iguazú hacia Estados Unidos",
+      "tema": "Salida y fuga de Flávio Bolsonaro de Brasil a través de Argentina y repercusiones políticas",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Cruza la política internacional con la seguridad fronteriza argentina, generando una controversia judicial de alto voltaje que exige presencia editorial.",
+      "por_que_importa": "Cruza la política internacional de la región con la seguridad nacional y genera un fuerte debate legislativo en el Congreso argentino.",
+      "accion_sugerida": "Actualizar el minuto a minuto con las repercusiones institucionales en Puerto Iguazú y las respuestas del oficialismo.",
       "ejemplos": [
         {
           "medio": "Perfil",
@@ -2617,6 +2229,208 @@
         }
       ],
       "imagen": "https://media.perfil.com/prod/images/gm_preview/9b85ca8e66d7-marcela-pagano-2335521.webp"
+    },
+    {
+      "total_notas": 7,
+      "cantidad_medios": 4,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 1,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 4,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 4,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Vínculo bilateral entre Argentina y Brasil tras el triunfo electoral de Lula",
+      "tipo": "perfil_pierde",
+      "por_que_importa": "El silencio del Gobierno ante la victoria de Lula marca el rumbo de la política exterior y expone a Perfil a intensificar su análisis político.",
+      "accion_sugerida": "Publicar un editorial de análisis sobre las consecuencias comerciales y diplomáticas del cortocircuito con Brasil.",
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Milei guarda silencio ante el triunfo de Lula y crecen las dudas sobre el vínculo bilateral con Brasil",
+          "link": "https://perfil.com/internacional/milei-guarda-silencio-tras-el-triunfo-de-lula-agfJU6i9GgSp",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp",
+          "fecha": "Wed, 28 Oct 2026 03:24:12 GMT",
+          "id": "n36"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Un analista internacional explicó en detalle la remontada histórica de Lula y las dudas que generó el voto electrónico: “Llama la atención”",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-la-remontada-historica-de-lula-y-las-dudas-que-genero-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/WIINYGBRKNFPDKFW5546VQ5VMQ.jpg?auth=7b94ff2415a08333621560326159d53d11a4323c19fe1d3d1c627581c0b162a0&smart=true&width=2000&height=1253",
+          "fecha": "Wed, 28 Oct 2026 12:56:57 +0000",
+          "id": "n76"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "En medio de las divisiones, el peronismo se entusiasma tras el triunfo de Lula y apuesta a copiarle la campaña",
+          "link": "https://www.clarin.com/politica/medio-divisiones-peronismo-entusiasma-triunfo-lula-apuesta-copiarle-campana_0_AdHUNB1xuJ.html",
+          "imagen": "https://www.clarin.com/img/2025/07/03/cBTsWzrpP_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:37 +0000",
+          "id": "n129"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Perfil",
+          "titulo": "Milei guarda silencio ante el triunfo de Lula y crecen las dudas sobre el vínculo bilateral con Brasil",
+          "link": "https://perfil.com/internacional/milei-guarda-silencio-tras-el-triunfo-de-lula-agfJU6i9GgSp",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp",
+          "fecha": "Wed, 28 Oct 2026 03:24:12 GMT",
+          "id": "n36"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Un analista internacional explicó en detalle la remontada histórica de Lula y las dudas que generó el voto electrónico: “Llama la atención”",
+          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-la-remontada-historica-de-lula-y-las-dudas-que-genero-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/WIINYGBRKNFPDKFW5546VQ5VMQ.jpg?auth=7b94ff2415a08333621560326159d53d11a4323c19fe1d3d1c627581c0b162a0&smart=true&width=2000&height=1253",
+          "fecha": "Wed, 28 Oct 2026 12:56:57 +0000",
+          "id": "n76"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "En medio de las divisiones, el peronismo se entusiasma tras el triunfo de Lula y apuesta a copiarle la campaña",
+          "link": "https://www.clarin.com/politica/medio-divisiones-peronismo-entusiasma-triunfo-lula-apuesta-copiarle-campana_0_AdHUNB1xuJ.html",
+          "imagen": "https://www.clarin.com/img/2025/07/03/cBTsWzrpP_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:37 +0000",
+          "id": "n129"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Regalo para el cumple de Lula",
+          "link": "https://www.pagina12.com.ar/2026/10/28/regalo-para-el-cumple-de-lula/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/RHV72EVNNZEK7MPNTXHJ6FU7YY.jpg?auth=98f9092a0924e085485f9632b61bb38803c7d9a134d440b2f334acc0f3f3e3ce&amp;smart=true&amp;width=4776&amp;height=3232",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n407"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula, vientos de esperanza",
+          "link": "https://www.pagina12.com.ar/2026/10/28/lula-vientos-de-esperanza/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ONZL7STVTBDHRDGCLSDUFTR6RU.jpg?auth=f7c6051489e350a3db3f0aa961bbd28070085aac870636a515750aed6730c8d9&amp;smart=true&amp;width=3984&amp;height=2656",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n419"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula le agradeció a Cristina Kirchner el mensaje por el triunfo electoral",
+          "link": "https://www.pagina12.com.ar/2026/10/27/lula-le-agradecio-a-cristina-kirchner-el-mensaje-por-el-triunfo-electoral/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEYTCYZTGY2TOYTFME4DAY3EMU.jpg?auth=f6d6e5d41ac1f0b7df7606453b2d232cfd9c1693099e9005199caaebcb1af42c&amp;smart=true&amp;width=3000&amp;height=2001",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n426"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Argentina se alinea con EE.UU. y Brasil con China",
+          "link": "https://www.pagina12.com.ar/2026/10/27/argentina-se-alinea-con-eeuu-y-brasil-con-china/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ADC54CWFEVG7FH5EJJSFUFLCLY.jpeg?auth=0c703211695184ed9ec1d80556d7ffc4569ca7a8946900b213c380bec2c7e65e&amp;smart=true&amp;width=1398&amp;height=932",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n425"
+        }
+      ],
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp"
+    },
+    {
+      "total_notas": 5,
+      "cantidad_medios": 3,
+      "cantidad_competidores": 3,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 3,
+        "Clarín": 1,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 1,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Visita del papa León XIV a la Argentina, inscripciones e impacto en feriados y asuetos",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Es un acontecimiento institucional y religioso masivo que impactará en la vida cotidiana, el turismo y el funcionamiento de la administración pública.",
+      "accion_sugerida": "Desarrollar una cobertura integral de servicio con los detalles de los asuetos decretados y las pautas de participación ciudadana.",
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Feriados de noviembre 2026: cuándo son los asuetos por la llegada del papa León XIV a la Argentina",
+          "link": "https://www.lanacion.com.ar/feriados/feriados-de-noviembre-2026-cuando-son-los-asuetos-por-la-llegada-del-papa-leon-xiv-a-la-argentina-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4TTEDBM4RFHZZCHXGWS2V5DAJ4.jpg?auth=b65589ff2597794719a1fd3007363a0739552bbe19ea6f2a9a71bf48e3c06575&smart=true&width=1280&height=853",
+          "fecha": "Wed, 28 Oct 2026 12:01:33 +0000",
+          "id": "n105"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Cierra hoy la inscripción para estar cerca del Papa León XIV en la vigilia de los jóvenes: cómo anotarse",
+          "link": "https://www.clarin.com/sociedad/cierra-hoy-inscripcion-cerca-papa-leon-xiv-vigilia-jovenes-anotarse_0_ALyhaDscdX.html",
+          "imagen": "https://www.clarin.com/img/2026/10/19/xUYbOu1_3_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:35 +0000",
+          "id": "n144"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Efecto León XIV: el millonario negocio que se mueve detrás de la visita del Papa",
+          "link": "https://www.ambito.com/negocios/efecto-leon-xiv-el-millonario-negocio-que-se-mueve-detras-la-visita-del-papa-n6338467",
+          "imagen": "https://media.ambito.com/p/a71371ee3d76ce90f1d5e251bed9ccbf/adjuntos/239/imagenes/043/700/0043700884/1200x675/204x335:224x355/papa-leon-xiv-gemelli-1-vatican-news-2.jpg",
+          "fecha": "Wed, 28 Oct 2026 00:00:00 -0300",
+          "id": "n389"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "La Nación",
+          "titulo": "Feriados de noviembre 2026: cuándo son los asuetos por la llegada del papa León XIV a la Argentina",
+          "link": "https://www.lanacion.com.ar/feriados/feriados-de-noviembre-2026-cuando-son-los-asuetos-por-la-llegada-del-papa-leon-xiv-a-la-argentina-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/4TTEDBM4RFHZZCHXGWS2V5DAJ4.jpg?auth=b65589ff2597794719a1fd3007363a0739552bbe19ea6f2a9a71bf48e3c06575&smart=true&width=1280&height=853",
+          "fecha": "Wed, 28 Oct 2026 12:01:33 +0000",
+          "id": "n105"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Feriados de la visita del papa León XIV: uno por uno, estos son los días de noviembre afectados",
+          "link": "https://www.lanacion.com.ar/feriados/feriados-de-la-visita-del-papa-leon-xiv-uno-por-uno-estos-son-los-dias-de-noviembre-afectados-nid21102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/2ED5FSDVHJEMLMIYXPVKIOB7C4.JPG?auth=bac4973bceea863e977028a43db6d13d1f6403c52d7f12573587510f2d4dcf3f&smart=true&width=2048&height=1413",
+          "fecha": "Wed, 28 Oct 2026 12:01:31 +0000",
+          "id": "n106"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Quiénes son los artistas que acompañarán al Papa en su visita a la Argentina",
+          "link": "https://www.lanacion.com.ar/sociedad/quienes-son-los-artistas-que-acompanaran-al-papa-en-su-visita-a-la-argentina-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/CHKMPBCNBJG5PF7KOSN3LIKV4E.JPG?auth=6817ad25238ef8d36fd1924b8f007da9e704500acfcde593000ad54c3954c143&smart=true&width=8256&height=5504",
+          "fecha": "Wed, 28 Oct 2026 12:01:21 +0000",
+          "id": "n110"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "Cierra hoy la inscripción para estar cerca del Papa León XIV en la vigilia de los jóvenes: cómo anotarse",
+          "link": "https://www.clarin.com/sociedad/cierra-hoy-inscripcion-cerca-papa-leon-xiv-vigilia-jovenes-anotarse_0_ALyhaDscdX.html",
+          "imagen": "https://www.clarin.com/img/2026/10/19/xUYbOu1_3_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:35 +0000",
+          "id": "n144"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Efecto León XIV: el millonario negocio que se mueve detrás de la visita del Papa",
+          "link": "https://www.ambito.com/negocios/efecto-leon-xiv-el-millonario-negocio-que-se-mueve-detras-la-visita-del-papa-n6338467",
+          "imagen": "https://media.ambito.com/p/a71371ee3d76ce90f1d5e251bed9ccbf/adjuntos/239/imagenes/043/700/0043700884/1200x675/204x335:224x355/papa-leon-xiv-gemelli-1-vatican-news-2.jpg",
+          "fecha": "Wed, 28 Oct 2026 00:00:00 -0300",
+          "id": "n389"
+        }
+      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/4TTEDBM4RFHZZCHXGWS2V5DAJ4.jpg?auth=b65589ff2597794719a1fd3007363a0739552bbe19ea6f2a9a71bf48e3c06575&smart=true&width=1280&height=853"
     }
   ],
   "mas_temas": [
@@ -2639,14 +2453,14 @@
       "cobertura_medio_lider": 1,
       "brecha": 0,
       "brecha_formateada": "0",
-      "tema": "Prohibición de celulares en colegios y conflictos escolares",
-      "tipo": "sin_clasificar",
-      "por_que_importa": "Atraviesa el debate educativo actual sobre la convivencia escolar, la disciplina y el uso de tecnologías en instituciones emblemáticas.",
-      "insight": "Perfil y La Nación abordan el fenómeno con enfoques complementarios sobre medidas restrictivas y episodios de violencia.",
-      "accion_sugerida": "Ampliar el debate con especialistas en educación para evaluar los efectos de prohibir dispositivos móviles en las aulas.",
+      "tema": "Prohibición de celulares en colegios y conflictos escolares en Argentina",
+      "tipo": "mas_temas",
+      "por_que_importa": "Instala un debate profundo sobre la convivencia digital en las aulas y las medidas disciplinarias en instituciones educativas emblemáticas.",
+      "insight": "Perfil e Instituciones competidoras abordan la problemática desde enfoques normativos y de conflicto gremial o estudiantil con fuerte repercusión social.",
+      "accion_sugerida": "Profundizar el debate pedagógico sobre el impacto de la restricción de pantallas en el rendimiento escolar.",
       "enfoques_sugeridos": [
-        "El Colegio Nacional de Buenos Aires prohibió el uso de celulares en horas de clase",
-        "Violencia escolar y pantallas: el debate por la prohibición de dispositivos en las escuelas argentinas"
+        "Restricción en las aulas: el Colegio Nacional de Buenos Aires prohibió el uso de celulares durante las clases",
+        "Violencia escolar y tecnología: el delicado límite del uso de dispositivos móviles en las escuelas"
       ],
       "ejemplos": [
         {
@@ -2705,52 +2519,218 @@
       "cobertura_medio_lider": 1,
       "brecha": 0,
       "brecha_formateada": "0",
-      "tema": "Vínculo bilateral entre Argentina y Brasil tras el triunfo de Lula",
-      "tipo": "sin_clasificar",
-      "por_que_importa": "Define la relación geopolítica regional más sensible para la diplomacia y el comercio exterior argentino tras los comicios en el vecino país.",
-      "insight": "Perfil y La Nación reflejan las tensiones diplomáticas y el silencio oficial frente al nuevo escenario regional.",
-      "accion_sugerida": "Analizar las implicancias comerciales y las perspectivas de entendimiento entre las administraciones de ambos países.",
+      "tema": "Remuneraciones mínimas y aumentos para el servicio doméstico",
+      "tipo": "mas_temas",
+      "por_que_importa": "Informa de manera directa sobre las escalas salariales y las actualizaciones obligatorias para un sector masivo de trabajadores.",
+      "insight": "Perfil compite directamente con La Nación en la publicación de grillas y tarifas de actualización para empleadas de casas particulares.",
+      "accion_sugerida": "Mantener actualizadas las tablas de referencia salarial en formato accesible para los lectores en Google Search.",
       "enfoques_sugeridos": [
-        "Silencio oficial y dudas diplomáticas: cómo impacta el triunfo de Lula en el vínculo bilateral con la Argentina",
-        "La relación entre Argentina y Brasil tras las elecciones: análisis de un escenario político en tensión"
+        "Servicio doméstico: cómo queda la grilla de remuneraciones mínimas por hora y mes",
+        "Aumentos y bonos confirmados para empleadas domésticas en el inicio de noviembre"
       ],
       "ejemplos": [
         {
           "medio": "Perfil",
-          "titulo": "Milei guarda silencio ante el triunfo de Lula y crecen las dudas sobre el vínculo bilateral con Brasil",
-          "link": "https://perfil.com/internacional/milei-guarda-silencio-tras-el-triunfo-de-lula-agfJU6i9GgSp",
-          "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp",
-          "fecha": "Wed, 28 Oct 2026 03:24:12 GMT",
-          "id": "n36"
+          "titulo": "Empleadas domésticas: la grilla completa de remuneraciones mínimas por hora y mes a partir de octubre",
+          "link": "https://perfil.com/economia/de-cuanto-es-el-salario-de-las-empleadas-del-servicio-domestico-en-octubre-aKJUk6i8ApwW",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/a0d5ac8c0c8b-empleada-domestica-2231551.webp",
+          "fecha": "Wed, 28 Oct 2026 10:00:00 GMT",
+          "id": "n24"
         },
         {
           "medio": "La Nación",
-          "titulo": "Un analista internacional explicó en detalle la remontada histórica de Lula y las dudas que generó el voto electrónico: “Llama la atención”",
-          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-la-remontada-historica-de-lula-y-las-dudas-que-genero-nid26102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/WIINYGBRKNFPDKFW5546VQ5VMQ.jpg?auth=7b94ff2415a08333621560326159d53d11a4323c19fe1d3d1c627581c0b162a0&smart=true&width=2000&height=1253",
-          "fecha": "Wed, 28 Oct 2026 12:56:57 +0000",
-          "id": "n76"
+          "titulo": "Servicio doméstico en noviembre 2026: cuánto cobran, quiénes reciben el aumento y cómo se incorpora el bono",
+          "link": "https://www.lanacion.com.ar/economia/servicio-domestico-en-noviembre-de-2026-cuanto-cobran-las-empleadas-quienes-reciben-el-aumento-y-nid22102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/GZ4NF5OI6NEDBDSBS2M7WDHJTY.JPG?auth=5b295f83f0a1d0c4f013cb9a258a17d781303c55e4a3e514f0f664e52a1f05d1&smart=true&width=2000&height=1371",
+          "fecha": "Wed, 28 Oct 2026 12:01:47 +0000",
+          "id": "n100"
         }
       ],
       "noticias": [
         {
           "medio": "Perfil",
-          "titulo": "Milei guarda silencio ante el triunfo de Lula y crecen las dudas sobre el vínculo bilateral con Brasil",
-          "link": "https://perfil.com/internacional/milei-guarda-silencio-tras-el-triunfo-de-lula-agfJU6i9GgSp",
-          "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp",
-          "fecha": "Wed, 28 Oct 2026 03:24:12 GMT",
-          "id": "n36"
+          "titulo": "Empleadas domésticas: la grilla completa de remuneraciones mínimas por hora y mes a partir de octubre",
+          "link": "https://perfil.com/economia/de-cuanto-es-el-salario-de-las-empleadas-del-servicio-domestico-en-octubre-aKJUk6i8ApwW",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/a0d5ac8c0c8b-empleada-domestica-2231551.webp",
+          "fecha": "Wed, 28 Oct 2026 10:00:00 GMT",
+          "id": "n24"
         },
         {
           "medio": "La Nación",
-          "titulo": "Un analista internacional explicó en detalle la remontada histórica de Lula y las dudas que generó el voto electrónico: “Llama la atención”",
-          "link": "https://www.lanacion.com.ar/el-mundo/un-analista-internacional-explico-en-detalle-la-remontada-historica-de-lula-y-las-dudas-que-genero-nid26102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/WIINYGBRKNFPDKFW5546VQ5VMQ.jpg?auth=7b94ff2415a08333621560326159d53d11a4323c19fe1d3d1c627581c0b162a0&smart=true&width=2000&height=1253",
-          "fecha": "Wed, 28 Oct 2026 12:56:57 +0000",
-          "id": "n76"
+          "titulo": "Servicio doméstico en noviembre 2026: cuánto cobran, quiénes reciben el aumento y cómo se incorpora el bono",
+          "link": "https://www.lanacion.com.ar/economia/servicio-domestico-en-noviembre-de-2026-cuanto-cobran-las-empleadas-quienes-reciben-el-aumento-y-nid22102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/GZ4NF5OI6NEDBDSBS2M7WDHJTY.JPG?auth=5b295f83f0a1d0c4f013cb9a258a17d781303c55e4a3e514f0f664e52a1f05d1&smart=true&width=2000&height=1371",
+          "fecha": "Wed, 28 Oct 2026 12:01:47 +0000",
+          "id": "n100"
         }
       ],
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/d20b58b25f51-milei-y-lula-2292030.webp"
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/a0d5ac8c0c8b-empleada-domestica-2231551.webp"
+    },
+    {
+      "total_notas": 2,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 0,
+      "cobertura": {
+        "Perfil": 2,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 2,
+      "medio_lider": "",
+      "cobertura_medio_lider": 0,
+      "brecha": 2,
+      "brecha_formateada": "+2",
+      "tema": "Inundaciones, asistencia a damnificados y cronograma bancario en Corrientes",
+      "tipo": "mas_temas",
+      "por_que_importa": "Afecta de forma directa las condiciones de vida locales, la asistencia estatal y la operatividad de los servicios financieros en la región NEA.",
+      "insight": "Perfil lidera con exclusividad la cobertura regional sobre la emergencia climática y el impacto bancario en la provincia de Corrientes.",
+      "accion_sugerida": "Realizar un seguimiento continuo sobre la entrega de subsidios y la normalización de la atención en entidades bancarias.",
+      "enfoques_sugeridos": [
+        "Emergencia en Corrientes: anuncian líneas de créditos y subsidios de tasas para los damnificados",
+        "Complicaciones operativas: la provincia tendrá cinco días consecutivos sin atención bancaria"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Alerta por el cronograma: Corrientes tendrá cinco días consecutivos sin atención bancaria en noviembre",
+          "link": "https://perfil.com/nea/alerta-por-el-cronograma-corrientes-tendra-cinco-dias-consecutivos-sin-atencion-bancaria-en-noviembre-am4sM2o80otn",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/775b735663a0-cajeros.webp",
+          "fecha": "Wed, 28 Oct 2026 12:56:50 GMT",
+          "id": "n4"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "Inundaciones en Corrientes: Valdés anunció créditos, subsidio de tasas y asistencia para damnificados",
+          "link": "https://perfil.com/nea/inundaciones-en-corrientes-valdes-anuncio-creditos-subsidio-de-tasas-y-asistencia-para-damnificados-aNd569m91gsk",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/a7f448069a52-imagen-112868.webp",
+          "fecha": "Wed, 28 Oct 2026 12:12:55 GMT",
+          "id": "n11"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Perfil",
+          "titulo": "Alerta por el cronograma: Corrientes tendrá cinco días consecutivos sin atención bancaria en noviembre",
+          "link": "https://perfil.com/nea/alerta-por-el-cronograma-corrientes-tendra-cinco-dias-consecutivos-sin-atencion-bancaria-en-noviembre-am4sM2o80otn",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/775b735663a0-cajeros.webp",
+          "fecha": "Wed, 28 Oct 2026 12:56:50 GMT",
+          "id": "n4"
+        },
+        {
+          "medio": "Perfil",
+          "titulo": "Inundaciones en Corrientes: Valdés anunció créditos, subsidio de tasas y asistencia para damnificados",
+          "link": "https://perfil.com/nea/inundaciones-en-corrientes-valdes-anuncio-creditos-subsidio-de-tasas-y-asistencia-para-damnificados-aNd569m91gsk",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/a7f448069a52-imagen-112868.webp",
+          "fecha": "Wed, 28 Oct 2026 12:12:55 GMT",
+          "id": "n11"
+        }
+      ],
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/775b735663a0-cajeros.webp"
+    },
+    {
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "",
+      "cobertura_medio_lider": 0,
+      "brecha": 1,
+      "brecha_formateada": "+1",
+      "tema": "Bolsas globales, impacto de la inteligencia artificial, petróleo y expectativas por la Fed",
+      "tipo": "mas_temas",
+      "por_que_importa": "Conecta la macroeconomía internacional con los vaivenes de la tecnología y los precios de la energía a escala global.",
+      "insight": "Perfil aporta una visión analítica propia sobre el comportamiento cruzado de los mercados financieros y el sector tecnológico.",
+      "accion_sugerida": "Publicar un informe de síntesis sobre los riesgos inflacionarios globales derivados del encarecimiento del petróleo.",
+      "enfoques_sugeridos": [
+        "Mercados en tensión: el impacto combinado del boom de la inteligencia artificial y el petróleo alto",
+        "Inversores en vilo: cómo operan las bolsas globales a la espera de definiciones en la Reserva Federal"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Las bolsas globales se sacuden entre el boom de la inteligencia artificial, el petróleo a US$115 y la expectativa por la Fed",
+          "link": "https://perfil.com/economia/las-bolsas-mundiales-entre-la-euforia-por-la-inteligencia-artificial-y-el-temor-al-petroleo-a-us115-aituz1x4Bf6M",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/edf97fa0dee6-mercados-financieros-13042026-2219364.webp",
+          "fecha": "Wed, 28 Oct 2026 12:27:52 GMT",
+          "id": "n8"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Perfil",
+          "titulo": "Las bolsas globales se sacuden entre el boom de la inteligencia artificial, el petróleo a US$115 y la expectativa por la Fed",
+          "link": "https://perfil.com/economia/las-bolsas-mundiales-entre-la-euforia-por-la-inteligencia-artificial-y-el-temor-al-petroleo-a-us115-aituz1x4Bf6M",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/edf97fa0dee6-mercados-financieros-13042026-2219364.webp",
+          "fecha": "Wed, 28 Oct 2026 12:27:52 GMT",
+          "id": "n8"
+        }
+      ],
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/edf97fa0dee6-mercados-financieros-13042026-2219364.webp"
+    },
+    {
+      "total_notas": 1,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 0,
+      "cobertura": {
+        "Perfil": 1,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 1,
+      "medio_lider": "",
+      "cobertura_medio_lider": 0,
+      "brecha": 1,
+      "brecha_formateada": "+1",
+      "tema": "Encuestas de inflación y su impacto en la confianza del gobierno de Javier Milei",
+      "tipo": "mas_temas",
+      "por_que_importa": "Evalúa el humor social y la relación directa entre la evolución de los precios al consumidor y el capital político oficialista.",
+      "insight": "Perfil profundiza en lecturas sociopolíticas basadas en sondeos de opinión pública sobre la gestión económica de la administración libertaria.",
+      "accion_sugerida": "Analizar los indicadores de expectativa inflacionaria en contraste con los datos oficiales de la macroeconomía.",
+      "enfoques_sugeridos": [
+        "Humor social y economía: una nueva encuesta mide el impacto de la inflación en la confianza del Gobierno",
+        "Expectativas en baja: el pulso de la opinión pública sobre la desaceleración de los precios"
+      ],
+      "ejemplos": [
+        {
+          "medio": "Perfil",
+          "titulo": "Una encuesta consultó si la inflación continuará bajando y el dato afecta mucho a la confianza del gobierno de Milei",
+          "link": "https://perfil.com/cordoba/una-encuesta-consulto-si-la-inflacion-continuara-bajando-y-el-dato-afecta-mucho-a-la-confianza-del-gobierno-de-milei-avskG2S8puIt",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/f71e466b2075-0.webp",
+          "fecha": "Wed, 28 Oct 2026 12:16:40 GMT",
+          "id": "n10"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Perfil",
+          "titulo": "Una encuesta consultó si la inflación continuará bajando y el dato afecta mucho a la confianza del gobierno de Milei",
+          "link": "https://perfil.com/cordoba/una-encuesta-consulto-si-la-inflacion-continuara-bajando-y-el-dato-afecta-mucho-a-la-confianza-del-gobierno-de-milei-avskG2S8puIt",
+          "imagen": "https://media.perfil.com/prod/images/gm_preview/f71e466b2075-0.webp",
+          "fecha": "Wed, 28 Oct 2026 12:16:40 GMT",
+          "id": "n10"
+        }
+      ],
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/f71e466b2075-0.webp"
     }
   ]
 }
