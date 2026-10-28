@@ -22,12 +22,12 @@
       "brecha_formateada": "-21",
       "tema": "Trágico choque de trenes de alta velocidad en Toledo, España",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Constituye un hecho de alto impacto internacional con repercusiones en la seguridad ferroviaria global que interesa a toda la audiencia.",
-      "insight": "La cobertura está dominada por Infobae con un volumen muy superior al resto, mientras que Perfil mantiene una presencia mínima con sólo dos notas.",
-      "accion_sugerida": "Ampliar la cobertura con un informe de actualización sobre el peritaje de las vías y el testimonio de sobrevivientes para equiparar el volumen de los competidores.",
+      "por_que_importa": "Es una catástrofe internacional de máxima cobertura en todos los medios digitales que capta el interés global de la audiencia.",
+      "insight": "La competencia multiplica las actualizaciones minuto a minuto, superando ampliamente la presencia de Perfil en volumen de notas.",
+      "accion_sugerida": "Ampliar el seguimiento con crónicas de testimonios directos, balances de víctimas y peritajes sobre las causas del siniestro ferroviario.",
       "enfoques_sugeridos": [
-        "Tragedia en Toledo: los peritos analizan fallas técnicas tras el choque de trenes",
-        "Testimonios y rescate: el minuto a minuto del accidente ferroviario en España"
+        "Relatos en primera persona de sobrevivientes y periodistas afectados.",
+        "Análisis técnico sobre la seguridad en las redes de alta velocidad ferroviaria."
       ],
       "ejemplos": [
         {
@@ -440,12 +440,12 @@
       "brecha_formateada": "-7",
       "tema": "Denuncia penal y salida de Flávio Bolsonaro de Argentina hacia Estados Unidos",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Involucra directamente al plano político nacional por el supuesto rol del Gobierno en el paso fronterizo de una figura internacional investigada.",
-      "insight": "Ámbito lidera la cobertura con 9 notas, mientras que Perfil cuenta con una cobertura escasa frente a la magnitud del conflicto diplomático.",
-      "accion_sugerida": "Redactar una nota de análisis político que detalle el impacto de la denuncia judicial presentada por la oposición y la respuesta oficial.",
+      "por_que_importa": "Involucra directamente al territorio nacional y a la gestión del Gobierno en un escándalo con repercusión judicial y diplomática regional.",
+      "insight": "Existe una alta densidad informativa centrada en los pasos fronterizos y la denuncia penal impulsada en el ámbito político local.",
+      "accion_sugerida": "Profundizar en las responsabilidades de los organismos de control fronterizo y el impacto político de la maniobra en la relación con Brasil.",
       "enfoques_sugeridos": [
-        "Escándalo en Puerto Iguazú: la oposición endurece las críticas contra el Gobierno por la salida de Flávio Bolsonaro",
-        "Denuncia penal y vuelo a Miami: los interrogantes políticos que dejó el paso de los Bolsonaro por la Argentina"
+        "El detalle institucional de la denuncia penal presentada en los tribunales argentinos.",
+        "Las repercusiones diplomáticas del paso del dirigente brasileño por Puerto Iguazú."
       ],
       "ejemplos": [
         {
@@ -762,12 +762,12 @@
       "brecha_formateada": "-3",
       "tema": "Elecciones legislativas y formación de gobierno en Israel",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Define el equilibrio geopolítico en Medio Oriente y la estabilidad de la administración de Benjamin Netanyahu ante un escenario parlamentario fragmentado.",
-      "insight": "Infobae encabeza el seguimiento del tema con cuatro notas, al tiempo que la mayoría de los medios registra una cobertura testimonial.",
-      "accion_sugerida": "Publicar un artículo de análisis sobre el rol clave que tendrán los partidos árabes en la conformación de alianzas para formar el próximo gobierno.",
+      "por_que_importa": "Define el escenario geopolítico de Medio Oriente y la estabilidad de una administración clave en la política internacional.",
+      "insight": "Los resultados fragmentados exigen coberturas analíticas sobre las complejas alianzas parlamentarias y el rol de las minorías.",
+      "accion_sugerida": "Seguir de cerca las negociaciones para la formación de coaliciones y el impacto institucional sobre la figura de Netanyahu.",
       "enfoques_sugeridos": [
-        "Sin mayoría clara en Israel: quiénes son los actores clave que definirán la gobernabilidad",
-        "El mapa político tras los comicios: el bloque opositor presiona para desplazar a Netanyahu"
+        "El peso de los partidos árabes en la conformación de la futura mayoría parlamentaria.",
+        "Las consecuencias del resultado electoral sobre la gobernabilidad y la política exterior."
       ],
       "ejemplos": [
         {
@@ -897,250 +897,6 @@
     },
     {
       "total_notas": 8,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 8,
-        "Clarín": 0,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 8,
-      "brecha": -8,
-      "brecha_formateada": "-8",
-      "tema": "Reflexiones sobre la vida, la felicidad y la salud mental con expertos",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Atrae un alto tráfico de lectores interesados en contenidos de bienestar personal, psicología y desarrollo humano.",
-      "insight": "La Nación concentra el 100% de la cobertura sobre esta temática mediante entrevistas y columnas de especialistas, sin participación de Perfil.",
-      "accion_sugerida": "Desarrollar notas propias de entrevistas a referentes locales o internacionales sobre gestión emocional y calidad de vida para captar tráfico de interés general.",
-      "enfoques_sugeridos": [
-        "Claves para la segunda mitad de la vida: por qué los expertos recomiendan cambiar las prioridades",
-        "Salud mental y finitud: qué revelan los especialistas sobre la búsqueda constante de la felicidad"
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "El consejo de Arthur Brooks, experto en felicidad de Harvard, para la segunda mitad de la vida: “Pasar de sumar a restar”",
-          "link": "https://www.lanacion.com.ar/sociedad/el-consejo-de-arthur-brooks-experto-en-felicidad-de-harvard-para-la-segunda-mitad-de-la-vida-pasar-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/P2HUHRJX3BEGVH5JUVU5AM33YE.png?auth=993d7dee8bebc96a951aee1ea2b5d1c5e70062ba05cc39907aed5bd0bc9a6d5b&smart=true&width=915&height=647",
-          "fecha": "Wed, 28 Oct 2026 12:58:31 +0000",
-          "id": "n59"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Gabriel Rolón, sobre la finitud: “Ser humano es vivir con el sentimiento trágico de la vida”",
-          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-sobre-la-finitud-ser-humano-es-vivir-con-el-sentimiento-tragico-de-la-vida-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/3KX7L6HGQFAXVCTTD2MDMLKBDI.png?auth=bb62a007fd84bc8d94bcd98804bd94b7d4adb7fc6113c0abe207d38cadd5384d&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:58:26 +0000",
-          "id": "n60"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "La frase de Mario Alonso Puig sobre el amor: “Cuanto mayor sea tu capacidad de amar, más feliz vas a ser”",
-          "link": "https://www.lanacion.com.ar/sociedad/la-frase-de-mario-alonso-puig-sobre-el-amor-cuanto-mayor-sea-tu-capacidad-de-amar-mas-feliz-vas-a-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/MKD3G3WJUBFNPM3GX4PYXWKUGQ.JPG?auth=9726e3d6d885035d10a9ea3c0585bed9b3b7780aeb60a3a35b39b89128a8f83d&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:58:10 +0000",
-          "id": "n63"
-        }
-      ],
-      "noticias": [
-        {
-          "medio": "La Nación",
-          "titulo": "El consejo de Arthur Brooks, experto en felicidad de Harvard, para la segunda mitad de la vida: “Pasar de sumar a restar”",
-          "link": "https://www.lanacion.com.ar/sociedad/el-consejo-de-arthur-brooks-experto-en-felicidad-de-harvard-para-la-segunda-mitad-de-la-vida-pasar-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/P2HUHRJX3BEGVH5JUVU5AM33YE.png?auth=993d7dee8bebc96a951aee1ea2b5d1c5e70062ba05cc39907aed5bd0bc9a6d5b&smart=true&width=915&height=647",
-          "fecha": "Wed, 28 Oct 2026 12:58:31 +0000",
-          "id": "n59"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Gabriel Rolón, sobre la finitud: “Ser humano es vivir con el sentimiento trágico de la vida”",
-          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-sobre-la-finitud-ser-humano-es-vivir-con-el-sentimiento-tragico-de-la-vida-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/3KX7L6HGQFAXVCTTD2MDMLKBDI.png?auth=bb62a007fd84bc8d94bcd98804bd94b7d4adb7fc6113c0abe207d38cadd5384d&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:58:26 +0000",
-          "id": "n60"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "La frase de Mario Alonso Puig sobre el amor: “Cuanto mayor sea tu capacidad de amar, más feliz vas a ser”",
-          "link": "https://www.lanacion.com.ar/sociedad/la-frase-de-mario-alonso-puig-sobre-el-amor-cuanto-mayor-sea-tu-capacidad-de-amar-mas-feliz-vas-a-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/MKD3G3WJUBFNPM3GX4PYXWKUGQ.JPG?auth=9726e3d6d885035d10a9ea3c0585bed9b3b7780aeb60a3a35b39b89128a8f83d&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:58:10 +0000",
-          "id": "n63"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "La reflexión de Gabriel Rolón sobre la felicidad: “A veces uno desea más haber sido feliz que ser feliz”",
-          "link": "https://www.lanacion.com.ar/sociedad/la-reflexion-de-gabriel-rolon-sobre-la-felicidad-a-veces-uno-desea-mas-haber-sido-feliz-que-ser-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/FDCPJZUEABFFFH755RNQI7AVAE.jpg?auth=f586f8b8809f6f80cdb133083caa1389956943d8918b455fddef3a725ad4cd40&smart=true&width=6240&height=4160",
-          "fecha": "Wed, 28 Oct 2026 12:58:04 +0000",
-          "id": "n64"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Tony Robbins, especialista en crecimiento personal: “La razón por la que sufrís: estás enfocado en vos”",
-          "link": "https://www.lanacion.com.ar/sociedad/tony-robbins-especialista-en-crecimiento-personal-la-razon-por-la-que-sufris-estas-enfocado-en-vos-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/OZLBN6BHMFFMXP3XAEK5BASKIA.jpeg?auth=ce0c147ecda3061caa539510e0eb1b72db2125b9c0a5a22814db1fdb9a1f7c49&smart=true&width=6720&height=4480",
-          "fecha": "Wed, 28 Oct 2026 12:57:48 +0000",
-          "id": "n66"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Gabriel Rolón, psicoanalista, sobre la memoria: “Las personas guardan allí aquello que perdieron para que no se lo lleve la muerte para siempre”",
-          "link": "https://www.lanacion.com.ar/lnmas/gabriel-rolon-psicoanalista-y-la-memoria-las-personas-guardan-alli-aquello-que-perdieron-para-que-no-nid24102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZWRQ6O7A4FCWBOTRXHIMGTA3SM.jpg?auth=484aa61dcfc0d412f6c8979e2ee3345790cd2e67a21188c1a34fc688864a3afd&smart=true&width=3590&height=2388",
-          "fecha": "Wed, 28 Oct 2026 12:57:33 +0000",
-          "id": "n68"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Gabriel Rolón, psicoanalista: “La gracia del amor es abrazar también la imperfección del otro”",
-          "link": "https://www.lanacion.com.ar/lnmas/gabriel-rolon-psicoanalista-la-gracia-del-amor-es-abrazar-tambien-la-imperfeccion-del-otro-nid25102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/JYIIPBGOPJEOLBZ42CF7LVDGNM.jpg?auth=65b9f8445c87af93f8b9cae22546a87bbc1bcb7e62578060e71c5a645e80970b&smart=true&width=950&height=534",
-          "fecha": "Wed, 28 Oct 2026 12:57:24 +0000",
-          "id": "n71"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Gabriel Rolón, sobre la esperanza: “Puede dejarnos incapacitados de jugar un deseo a la espera de que ocurran cosas que son más mágicas que personales”",
-          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-sobre-la-esperanza-puede-dejarnos-incapacitados-de-jugar-un-deseo-a-la-espera-de-que-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/4T7HONW4PJHM7LSTDFRJNVEQ2M.jpg?auth=bb2df7ea14e063c5fab86f4bac74fd86da11dc40f7f36f92645eabfaa4677434&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:57:00 +0000",
-          "id": "n75"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/P2HUHRJX3BEGVH5JUVU5AM33YE.png?auth=993d7dee8bebc96a951aee1ea2b5d1c5e70062ba05cc39907aed5bd0bc9a6d5b&smart=true&width=915&height=647"
-    },
-    {
-      "total_notas": 8,
-      "cantidad_medios": 1,
-      "cantidad_competidores": 1,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 0,
-        "Clarín": 8,
-        "Infobae": 0,
-        "TN": 0,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "Clarín",
-      "cobertura_medio_lider": 8,
-      "brecha": -8,
-      "brecha_formateada": "-8",
-      "tema": "Cotización del euro en distintos países de Latinoamérica",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Ofrece información de servicio internacional útil para lectores que realizan operaciones o planean viajes al exterior.",
-      "insight": "Clarín opera como el único medio con cobertura activa en esta temática a través de notas de seguimiento regional.",
-      "accion_sugerida": "Evaluar la incorporación de un módulo de cotizaciones internacionales de divisas secundarias para complementar la sección económica.",
-      "enfoques_sugeridos": [
-        "Divisas en la región: a cuánto opera el euro en los principales mercados latinoamericanos",
-        "Seguimiento cambiario: el comportamiento del euro frente a las monedas locales"
-      ],
-      "ejemplos": [
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Perú: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-peru-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_P2s9NZpOFK.html",
-          "imagen": "https://www.clarin.com/img/2022/01/19/P2ZVV0DA5_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:12 +0000",
-          "id": "n158"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Uruguay: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-uruguay-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_3envMUwbzO.html",
-          "imagen": "https://www.clarin.com/img/2018/08/29/B1sEYYBv7_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:12 +0000",
-          "id": "n159"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Honduras: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-honduras-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_oN9j6eTj27.html",
-          "imagen": "https://www.clarin.com/img/2016/12/30/Sy03el4Sg_1200x630.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:11 +0000",
-          "id": "n160"
-        }
-      ],
-      "noticias": [
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Perú: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-peru-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_P2s9NZpOFK.html",
-          "imagen": "https://www.clarin.com/img/2022/01/19/P2ZVV0DA5_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:12 +0000",
-          "id": "n158"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Uruguay: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-uruguay-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_3envMUwbzO.html",
-          "imagen": "https://www.clarin.com/img/2018/08/29/B1sEYYBv7_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:12 +0000",
-          "id": "n159"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Honduras: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-honduras-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_oN9j6eTj27.html",
-          "imagen": "https://www.clarin.com/img/2016/12/30/Sy03el4Sg_1200x630.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:11 +0000",
-          "id": "n160"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Venezuela: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-venezuela-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_1UywHq5NoA.html",
-          "imagen": "https://www.clarin.com/img/2020/10/07/V8Hxgsjgi_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:10 +0000",
-          "id": "n161"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en República Dominicana: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-republica-dominicana-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_fPV3V3pTWH.html",
-          "imagen": "https://www.clarin.com/img/2021/11/23/DMEZ4i0la_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:10 +0000",
-          "id": "n162"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Paraguay: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-paraguay-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_9jpKDUgDkg.html",
-          "imagen": "https://www.clarin.com/img/2016/12/30/SyLMzgESe_1200x630.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:09 +0000",
-          "id": "n163"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Nicaragua: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-nicaragua-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_zgGJ5WZiUv.html",
-          "imagen": "https://www.clarin.com/img/2018/08/29/B1sEYYBv7_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:08 +0000",
-          "id": "n164"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Euro hoy en Panamá: precio y cotización de la divisa este miércoles 28 de octubre de 2026",
-          "link": "https://www.clarin.com/economia/euro-hoy-en-panama-precio-y-cotizacion-de-la-divisa-este-miercoles-28-de-octubre-de-2026_0_ssbPWJOlks.html",
-          "imagen": "https://www.clarin.com/img/2020/07/21/2DpySNlFG_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:45:08 +0000",
-          "id": "n165"
-        }
-      ],
-      "imagen": "https://www.clarin.com/img/2022/01/19/P2ZVV0DA5_1200x630__1.jpg"
-    },
-    {
-      "total_notas": 8,
       "cantidad_medios": 4,
       "cantidad_competidores": 3,
       "cobertura": {
@@ -1160,12 +916,12 @@
       "brecha_formateada": "-4",
       "tema": "Aumentos oficiales de ANSES para jubilaciones, pensiones y asignaciones en noviembre de 2026",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Impacta de forma directa sobre el poder adquisitivo de millones de jubilados y sectores vulnerables que buscan precisiones sobre sus haberes.",
-      "insight": "La Nación lidera con cinco notas explicativas, mientras que Perfil cuenta con una cobertura mínima que requiere mayor despliegue de servicio.",
-      "accion_sugerida": "Ampliar la información con una guía interactiva o un cuadro de montos netos por categoría para facilitar la lectura de los beneficiarios.",
+      "por_que_importa": "Es un tema de altísimo impacto social y de servicio directo para millones de jubilados y sectores vulnerables en Argentina.",
+      "insight": "La demanda de información sobre montos precisos y escalas de asignaciones impulsa un consumo sostenido en buscadores.",
+      "accion_sugerida": "Elaborar notas de servicio desglosadas por categoría (jubilaciones, AUH, SUAF y pensiones) facilitando la lectura de los nuevos valores.",
       "enfoques_sugeridos": [
-        "Jubilaciones y asignaciones de ANSES: cuánto cobrará cada categoría con el incremento de noviembre",
-        "Escala oficial de aumentos: los montos confirmados para la mínima y las pensiones"
+        "Guía práctica con los montos netos que cobrará cada beneficiario según su haber.",
+        "El impacto de la fórmula de movilidad frente a la evolución inflacionaria."
       ],
       "ejemplos": [
         {
@@ -1282,12 +1038,12 @@
       "brecha_formateada": "-4",
       "tema": "Elecciones legislativas de medio término en Estados Unidos",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Define la relación de fuerzas en el Congreso estadounidense y condiciona la agenda internacional del gobierno de Donald Trump.",
-      "insight": "Clarín y La Nación lideran con coberturas en vivo y análisis distritales, mientras Perfil registra una ausencia total.",
-      "accion_sugerida": "Publicar un panorama internacional que desglose el impacto de las midterms sobre la política exterior y económica hacia América Latina.",
+      "por_que_importa": "Los comicios legislativos en Estados Unidos marcan el pulso político global y repercuten en los mercados internacionales y la administración de la Casa Blanca.",
+      "insight": "La cobertura de la competencia se concentra en el minuto a minuto de los distritos clave y la puja entre republicanos y demócratas.",
+      "accion_sugerida": "Incorporar coberturas de análisis sobre el balance de poder en el Congreso estadounidense y su incidencia en la política exterior.",
       "enfoques_sugeridos": [
-        "Elecciones de medio término en EE.UU.: los distritos clave donde se define el control del Congreso",
-        "El voto femenino y la economía: los ejes que polarizan las legislativas estadounidenses"
+        "El impacto de las midterms en la agenda legislativa de la administración norteamericana.",
+        "Claves ge electoral de los distritos pendulares que definen el control parlamentario."
       ],
       "ejemplos": [
         {
@@ -1382,128 +1138,6 @@
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/7WMZNNF7OFFPHG3QWV5HE2UYJQ.jpg?auth=795ce4cf45b8c5db13d3ba3ad87f69e9cbefb5a51adf72654cc2b5b6275781c3&smart=true&width=2000&height=1333"
-    },
-    {
-      "total_notas": 8,
-      "cantidad_medios": 6,
-      "cantidad_competidores": 6,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 1,
-        "Infobae": 0,
-        "TN": 3,
-        "Ámbito": 1,
-        "Página 12": 1,
-        "El Cronista": 1
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "TN",
-      "cobertura_medio_lider": 3,
-      "brecha": -3,
-      "brecha_formateada": "-3",
-      "tema": "Cotización del dólar oficial y blue",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Representa el indicador económico de referencia ineludible para la toma de decisiones financieras y comerciales en la Argentina.",
-      "insight": "TN encabeza el volumen de notas con un seguimiento minuto a minuto, acompañado por Clarín, Ámbito, La Nación y Página 12, sin notas de Perfil en el corte.",
-      "accion_sugerida": "Mantener una cobertura continua y dinámica de las puntas cambiarias con gráficos actualizados de la brecha.",
-      "enfoques_sugeridos": [
-        "Dólar hoy en vivo: a cuánto operan el oficial y el paralelo en la ronda financiera",
-        "Mercado cambiario: el pulso de las cotizaciones y su impacto en las reservas"
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 28 de octubre, minuto a minuto",
-          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/UEKESIHOUZHU7JO5IMEYVQHZEE.JPG?auth=95c098f695367823e7ec4d8ebd88c4f8f7b48a664e441896972f83edd502932a&smart=true&width=5092&height=3304",
-          "fecha": "Wed, 28 Oct 2026 13:24:16 +0000",
-          "id": "n46"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo, minuto a minuto, este 28 de octubre",
-          "link": "https://www.clarin.com/economia/dolar-hoy-dolar-blue-vivo-cotiza-oficial-precio-paralelo-minuto-minuto-28-octubre_0_7CveiJ1pof.html",
-          "imagen": "https://www.clarin.com/img/2025/08/30/LkgbRuJyX_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 12:32:45 +0000",
-          "id": "n157"
-        },
-        {
-          "medio": "TN",
-          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este miércoles 28 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/28/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-28-de-octubre/",
-          "imagen": "",
-          "fecha": "2026-10-28T10:26:33-03:00",
-          "id": "n279"
-        }
-      ],
-      "noticias": [
-        {
-          "medio": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 28 de octubre, minuto a minuto",
-          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/UEKESIHOUZHU7JO5IMEYVQHZEE.JPG?auth=95c098f695367823e7ec4d8ebd88c4f8f7b48a664e441896972f83edd502932a&smart=true&width=5092&height=3304",
-          "fecha": "Wed, 28 Oct 2026 13:24:16 +0000",
-          "id": "n46"
-        },
-        {
-          "medio": "Clarín",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo, minuto a minuto, este 28 de octubre",
-          "link": "https://www.clarin.com/economia/dolar-hoy-dolar-blue-vivo-cotiza-oficial-precio-paralelo-minuto-minuto-28-octubre_0_7CveiJ1pof.html",
-          "imagen": "https://www.clarin.com/img/2025/08/30/LkgbRuJyX_1200x630__1.jpg",
-          "fecha": "Wed, 28 Oct 2026 12:32:45 +0000",
-          "id": "n157"
-        },
-        {
-          "medio": "TN",
-          "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este miércoles 28 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/28/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-28-de-octubre/",
-          "imagen": "",
-          "fecha": "2026-10-28T10:26:33-03:00",
-          "id": "n279"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Dólar: a cuánto cotizan el oficial y las otras opciones cambiarias este miércoles 28 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/28/dolar-a-cuanto-cotizan-el-oficial-y-las-otras-opciones-cambiarias-este-miercoles-28-de-octubre/",
-          "imagen": "",
-          "fecha": "2026-10-28T08:20:00-03:00",
-          "id": "n311"
-        },
-        {
-          "medio": "TN",
-          "titulo": "Dólar oficial y dólar tarjeta: banco por banco, a cuánto cotizan este miércoles 28 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/28/dolar-oficial-y-dolar-tarjeta-banco-por-banco-a-cuanto-cotizan-este-miercoles-28-de-octubre/",
-          "imagen": "",
-          "fecha": "2026-10-28T07:48:00-03:00",
-          "id": "n322"
-        },
-        {
-          "medio": "Ámbito",
-          "titulo": "Dólar hoy: a cuánto cotiza este miércoles 28 de octubre",
-          "link": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-miercoles-28-octubre-n6338653",
-          "imagen": "https://media.ambito.com/p/275d611bb66535a9ff1d772c9d8c6db3/adjuntos/239/imagenes/042/747/0042747621/dolar-blue.jpg",
-          "fecha": "Wed, 28 Oct 2026 10:36:00 -0300",
-          "id": "n385"
-        },
-        {
-          "medio": "Página 12",
-          "titulo": "Dólar blue, dólar hoy: a cuánto cotizan el martes 28 de octubre de 2026",
-          "link": "https://www.pagina12.com.ar/2026/10/28/dolar-blue-dolar-hoy-a-cuanto-cotizan-el-martes-28-de-octubre-de-2026/",
-          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MEYWIM3DMFRWKMJSGBSWMM3BMQ.jpg?auth=66d051f88eda9faf8c2a6f504151472b0adfebaf1aec491b8c2bc32fc29981e6&amp;smart=true&amp;width=2100&amp;height=1400",
-          "fecha": "Wed, 28 Oct 2026 11:50:00 +0000",
-          "id": "n450"
-        },
-        {
-          "medio": "El Cronista",
-          "titulo": "Dólar hoy: a cuánto cotiza el oficial en los bancos de la City hoy miércoles 28 de octubre",
-          "link": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-28-de-octubre/",
-          "imagen": "https://www.cronista.com/resizer/v2/V2FFGAQEFFFDFESO6FLKPMUFKI.jpeg?auth=56620ddced96e53e64badcf5eca0e9fcf8012d2ed8bd4b2121e30c1e718068f8&smart=true&width=1200&height=900",
-          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
-          "id": "n473"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/UEKESIHOUZHU7JO5IMEYVQHZEE.JPG?auth=95c098f695367823e7ec4d8ebd88c4f8f7b48a664e441896972f83edd502932a&smart=true&width=5092&height=3304"
     }
   ],
   "perfil_pierde": [
@@ -1528,12 +1162,12 @@
       "brecha_formateada": "-2",
       "tema": "Calendario de pagos de ANSES y cronograma de noviembre",
       "tipo": "perfil_pierde",
-      "por_que_importa": "Es una de las consultas de servicio más requeridas por la audiencia para organizar el cobro de haberes y prestaciones sociales.",
-      "insight": "La Nación supera a Perfil con tres notas detalladas frente al único artículo publicado por el medio, cediendo terreno en el tráfico de utilidad.",
-      "accion_sugerida": "Actualizar de manera permanente el cronograma con buscadores por terminación de DNI y alertas sobre los feriados de noviembre.",
+      "por_que_importa": "Es una información de utilidad práctica fundamental para jubilados y beneficiarios que consultan masivamente las fechas de cobro.",
+      "insight": "La competencia despliega múltiples notas de servicio y calendarios detallados, superando la cobertura inicial de Perfil.",
+      "accion_sugerida": "Actualizar y optimizar las notas de cronogramas con tablas claras y alertas sobre los cambios en los días de pago por feriados.",
       "enfoques_sugeridos": [
-        "Calendario ANSES de noviembre: las fechas de cobro confirmadas tras las modificaciones por feriados",
-        "Cronograma completo: cuándo cobran jubilados y titulares de asignaciones el próximo mes"
+        "Cronograma día por día de pagos para jubilados, pensionados y AUH.",
+        "Modificaciones en el calendario debido a los asuetos y feriados extraordinarios de noviembre."
       ],
       "ejemplos": [
         {
@@ -1628,12 +1262,12 @@
       "brecha_formateada": "-3",
       "tema": "Alerta por frente frío y tormentas severas en la Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Informa de manera preventiva sobre fenómenos climáticos adversos que afectan la seguridad y las actividades en distintas provincias.",
-      "insight": "La Nación y El Cronista cubren el avance del frente de tormentas con alertas meteorológicas oficiales, mientras Perfil no registra notas.",
-      "accion_sugerida": "Implementar un seguimiento periódico de los reportes del SMN para advertir sobre zonas de riesgo por granizo y ráfagas.",
+      "por_que_importa": "Los avisos meteorológicos y alertas del SMN generan un fuerte interés de búsqueda por parte de la audiencia interesada en la prevención ante fenómenos climáticos severos.",
+      "insight": "La competencia cubre activamente los partes oficiales sobre tormentas y crecidas de ríos sin respuesta informativa desde Perfil.",
+      "accion_sugerida": "Publicar un informe de servicio urgente detallando las provincias bajo alerta amarilla, zonas de riesgo de granizo y recomendaciones de seguridad.",
       "enfoques_sugeridos": [
-        "Alerta meteorológica: el Servicio Meteorológico Nacional anticipa tormentas fuertes y ráfagas en varias provincias",
-        "Frente frío en camino: cuáles son las regiones afectadas por la inestabilidad y el descenso de temperatura"
+        "Mapa interactivo y listado de localidades afectadas por el frente de tormentas.",
+        "Recomendaciones del Servicio Meteorológico Nacional para prevenir daños por ráfagas y granizo."
       ],
       "ejemplos": [
         {
@@ -1734,12 +1368,12 @@
       "brecha_formateada": "-4",
       "tema": "Decisión de la Reserva Federal de EE.UU. sobre tasas de interés y su impacto",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Determina el costo del crédito global, el valor de los activos financieros y su repercusión directa en los mercados emergentes como el argentino.",
-      "insight": "Ámbito y TN lideran con coberturas financieras sobre las expectativas de la tasa de la Fed, con ausencia total en Perfil.",
-      "accion_sugerida": "Elaborar un informe económico que explique cómo la política monetaria estadounidense influye en el riesgo país y los bonos locales.",
+      "por_que_importa": "Las medidas de la Reserva Federal condicionan el flujo de capitales globales, la cotización de los activos locales y la economía argentina.",
+      "insight": "Medios especializados como Ámbito y TN cubren las expectativas y repercusiones sin cobertura equivalente en Perfil.",
+      "accion_sugerida": "Desarrollar un análisis económico enfocado en cómo la decisión de la Fed impacta en el riesgo país, los bonos y las inversiones en Argentina.",
       "enfoques_sugeridos": [
-        "Definición clave en la Fed: qué se espera de las tasas de interés y su rebote en la economía doméstica",
-        "Mercados en vilo: el impacto de la decisión de la Reserva Federal sobre los activos y el dólar"
+        "El impacto directo de las tasas internacionales en los mercados emergentes y bonos soberanos.",
+        "Expectativas de los analistas financieros ante el anuncio del banco central estadounidense."
       ],
       "ejemplos": [
         {
@@ -1832,12 +1466,12 @@
       "brecha_formateada": "-3",
       "tema": "Feriados, asuetos y actividades por la visita del papa León XIV a la Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Involucra un acontecimiento institucional y religioso de gran magnitud que altera el funcionamiento administrativo y genera interés masivo.",
-      "insight": "La Nación, Clarín y Ámbito cubren los detalles organizativos y el impacto económico, mientras que Perfil carece de cobertura.",
-      "accion_sugerida": "Publicar una guía detallada con los días de asueto administrativo, cortes de tránsito y actividades oficiales programadas.",
+      "por_que_importa": "La visita papal y la consecuente alteración del calendario con feriados y asuetos movilizan la agenda social, económica y logística del país.",
+      "insight": "La competencia registra amplia tracción informando sobre los días afectados y los eventos artísticos y religiosos programados.",
+      "accion_sugerida": "Publicar una guía integral de servicios sobre los asuetos decretados, cortes de tránsito y actividades oficiales de la visita.",
       "enfoques_sugeridos": [
-        "Visita del papa León XIV: el cronograma oficial de asuetos y cortes en la agenda de noviembre",
-        "El impacto económico y logístico detrás de la llegada del Sumo Pontífice al país"
+        "El detalle cronológico de los días de asueto y su impacto en la administración pública.",
+        "Agenda de encuentros juveniles, vigilias y actos culturales previstos."
       ],
       "ejemplos": [
         {
@@ -1930,12 +1564,12 @@
       "brecha_formateada": "-2",
       "tema": "Disolución oficial del Instituto de Obra Social de las Fuerzas Armadas (IOSFA)",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Afecta la cobertura de salud de miles de efectivos militares y genera un debate institucional sobre la reestructuración de organismos estatales.",
-      "insight": "La Nación, Ámbito y El Cronista informan sobre la oficialización de la medida por DNU, sin notas de Perfil.",
-      "accion_sugerida": "Investigar el alcance de la medida sobre las prestaciones médicas vigentes y la situación laboral de los empleados afectados.",
+      "por_que_importa": "La medida oficial afecta a la cobertura médica y laboral de una franja sensible de la administración pública y las fuerzas armadas.",
+      "insight": "La formalización por DNU y los alcances sobre el personal generan un vacío de cobertura informativa en Perfil frente a otros medios.",
+      "accion_sugerida": "Investigar el alcance legal de la medida, el traspaso de los afiliados y la situación de los trabajadores afectados por la disolución.",
       "enfoques_sugeridos": [
-        "Reestructuración estatal: el Gobierno oficializó la disolución de IOSFA y el traspaso de personal",
-        "Cobertura médica militar en vilo: qué pasará con las prestaciones tras el cierre de la obra social"
+        "El impacto prestacional para los afiliados y jubilados de las Fuerzas Armadas.",
+        "Los detalles normativos del DNU y las limitaciones en el traspaso de personal."
       ],
       "ejemplos": [
         {
@@ -2020,12 +1654,12 @@
       "brecha_formateada": "-2",
       "tema": "Impacto y advertencias sanitarias por el fenómeno del Súper Niño",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Advierte sobre riesgos epidemiológicos y climáticos asociados a inundaciones y cambios bruscos en las condiciones ambientales.",
-      "insight": "Medios como La Nación, Clarín e Infobae abordan la problemática desde la perspectiva científica y de salud pública, con ausencia de Perfil.",
-      "accion_sugerida": "Consultar a especialistas locales sobre las medidas de prevención ante el incremento de vectores de enfermedades en los próximos meses.",
+      "por_que_importa": "Las proyecciones sobre el fenómeno climático y sus consecuencias sanitarias y ambientales en la región interesan directamente a la opinión pública.",
+      "insight": "Especialistas en salud y ambiente advierten sobre brotes y riesgos asociados, un ángulo con alta tracción en la competencia.",
+      "accion_sugerida": "Consultar a especialistas locales sobre las medidas de prevención sanitaria frente al pico de lluvias anunciado para los próximos meses.",
       "enfoques_sugeridos": [
-        "Advertencia sanitaria por el Súper Niño: por qué los expertos alertan sobre un brote de enfermedades",
-        "Cambio climático en la región: el informe de The Lancet sobre el impacto de las lluvias extremas"
+        "Advertencias médicas sobre posibles brotes epidémicos vinculados al exceso hídrico.",
+        "Cronograma y estimaciones científicas sobre el pico del fenómeno climático."
       ],
       "ejemplos": [
         {
@@ -2110,12 +1744,12 @@
       "brecha_formateada": "-1",
       "tema": "Aumento de ANSES para jubilados y pensionados en noviembre",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Constituye información esencial sobre haberes previsionales que moviliza un alto caudal de consultas diarias de audiencia.",
-      "insight": "TN, Ámbito y El Cronista registran notas específicas sobre los montos actualizados, mientras Perfil no cubre este segmento en particular.",
-      "accion_sugerida": "Publicar un informe de servicio con los números precisos de las jubilaciones mínimas y máximas vigentes para noviembre.",
+      "por_que_importa": "Los haberes previsionales constituyen una temática de consulta permanente y máxima sensibilidad social en la coyuntura económica.",
+      "insight": "TN, Ámbito y El Cronista detallan los montos de la mínima, evidenciando una oportunidad de servicio no cubierta por Perfil en este segmento puntual.",
+      "accion_sugerida": "Publicar un informe resumen con los nuevos valores de la jubilación mínima y los bonos adicionales anunciados para el mes.",
       "enfoques_sugeridos": [
-        "Haberes previsionales: de cuánto será el monto mínimo que cobrarán los jubilados en noviembre",
-        "Actualización de ANSES: los detalles del incremento confirmado para el sector pasivo"
+        "Cálculo definitivo del haber mínimo con la incorporación de los bonos vigentes.",
+        "Comparativa de los aumentos previsionales frente a la inflación acumulada."
       ],
       "ejemplos": [
         {
@@ -2179,72 +1813,6 @@
         "Perfil": 0,
         "La Nación": 1,
         "Clarín": 0,
-        "Infobae": 0,
-        "TN": 1,
-        "Ámbito": 0,
-        "Página 12": 0,
-        "El Cronista": 0
-      },
-      "cobertura_perfil": 0,
-      "medio_lider": "La Nación",
-      "cobertura_medio_lider": 1,
-      "brecha": -1,
-      "brecha_formateada": "-1",
-      "tema": "Supuesta reconciliación entre Chechu Bonelli y Facundo Pieres",
-      "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Genera tráfico de espectáculos y interés en la vida privada de figuras públicas del ámbito nacional.",
-      "insight": "La Nación y TN abordan el trascendido de la farándula sin que Perfil ofrezca cobertura de este segmento.",
-      "accion_sugerida": "Evaluar la inclusión de notas breves de espectáculos nacionales para sostener el flujo de audiencia en secciones de entretenimiento.",
-      "enfoques_sugeridos": [
-        "Rumores de romance: aseguran que Chechu Bonelli y Facundo Pieres retomaron su vínculo en secreto",
-        "Lejos de los flashes: los detalles sobre el supuesto reencuentro de la pareja"
-      ],
-      "ejemplos": [
-        {
-          "medio": "La Nación",
-          "titulo": "Aseguran que Chechu Bonelli y Facundo Pieres se habrían reconciliado: “En secreto”",
-          "link": "https://www.lanacion.com.ar/espectaculos/aseguran-que-chechu-bonelli-y-facundo-pieres-se-habrian-reconciliado-en-secreto-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZSQZRGWTL5HU7ODIIA2T5UXTF4.jpg?auth=8f08a7acc9cbb956bd2b9da1e661949531c13a17249d9c71d46013d7552a3a36&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:03:53 +0000",
-          "id": "n90"
-        },
-        {
-          "medio": "TN",
-          "titulo": "La condición que Facundo Pieres le habría puesto a Chechu Bonelli para volver a estar juntos",
-          "link": "https://tn.com.ar/show/famosos/2026/10/28/la-condicion-que-facundo-pieres-le-habria-puesto-a-chechu-bonelli-para-volver-a-estar-juntos/",
-          "imagen": "https://tn.com.ar/resizer/v2/5GAPQG5GENF7BLZDUYTSYJUI64.png?auth=394e94b017de9acc9976bd41d44d4816ab9008ec3bd49b4e5e813ddc1c7fd022",
-          "fecha": "2026-10-28T09:33:17-03:00",
-          "id": "n296"
-        }
-      ],
-      "noticias": [
-        {
-          "medio": "La Nación",
-          "titulo": "Aseguran que Chechu Bonelli y Facundo Pieres se habrían reconciliado: “En secreto”",
-          "link": "https://www.lanacion.com.ar/espectaculos/aseguran-que-chechu-bonelli-y-facundo-pieres-se-habrian-reconciliado-en-secreto-nid28102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZSQZRGWTL5HU7ODIIA2T5UXTF4.jpg?auth=8f08a7acc9cbb956bd2b9da1e661949531c13a17249d9c71d46013d7552a3a36&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:03:53 +0000",
-          "id": "n90"
-        },
-        {
-          "medio": "TN",
-          "titulo": "La condición que Facundo Pieres le habría puesto a Chechu Bonelli para volver a estar juntos",
-          "link": "https://tn.com.ar/show/famosos/2026/10/28/la-condicion-que-facundo-pieres-le-habria-puesto-a-chechu-bonelli-para-volver-a-estar-juntos/",
-          "imagen": "https://tn.com.ar/resizer/v2/5GAPQG5GENF7BLZDUYTSYJUI64.png?auth=394e94b017de9acc9976bd41d44d4816ab9008ec3bd49b4e5e813ddc1c7fd022",
-          "fecha": "2026-10-28T09:33:17-03:00",
-          "id": "n296"
-        }
-      ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ZSQZRGWTL5HU7ODIIA2T5UXTF4.jpg?auth=8f08a7acc9cbb956bd2b9da1e661949531c13a17249d9c71d46013d7552a3a36&smart=true&width=2000&height=1333"
-    },
-    {
-      "total_notas": 2,
-      "cantidad_medios": 2,
-      "cantidad_competidores": 2,
-      "cobertura": {
-        "Perfil": 0,
-        "La Nación": 1,
-        "Clarín": 0,
         "Infobae": 1,
         "TN": 0,
         "Ámbito": 0,
@@ -2258,12 +1826,12 @@
       "brecha_formateada": "-1",
       "tema": "Celebración de santos y festividades religiosas en noviembre",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Responde a consultas de devoción popular y tradiciones arraigadas en la comunidad.",
-      "insight": "La Nación e Infobae cubren el santoral y las conmemoraciones litúrgicas sin participación de Perfil.",
-      "accion_sugerida": "Incorporar secciones periódicas sobre efemérides y festividades religiosas del mes.",
+      "por_que_importa": "Las festividades litúrgicas y santorales convocan a audiencias interesadas en tradiciones y contenidos devocionales.",
+      "insight": "La cobertura de notas de calendario religioso aporta tráfico constante desde buscadores en fechas clave.",
+      "accion_sugerida": "Desarrollar notas breves sobre el santoral mensual y las principales conmemoraciones religiosas del período.",
       "enfoques_sugeridos": [
-        "Santoral de noviembre: a qué figuras se conmemora en el inicio del mes",
-        "Tradiciones y devoción: el significado de las celebraciones religiosas que marcan el calendario"
+        "Guía con el santoral y las festividades católicas destacadas de noviembre.",
+        "Orígenes y tradiciones de las devociones populares del mes."
       ],
       "ejemplos": [
         {
@@ -2324,12 +1892,12 @@
       "brecha_formateada": "-1",
       "tema": "Cuba agradece respaldo contra el embargo de EEUU en la ONU",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Muestra la dinámica diplomática en organismos multilaterales y la postura de la isla frente a las sanciones estadounidenses.",
-      "insight": "Clarín e Infobae reproducen cables internacionales sobre la sesión en Naciones Unidas, sin cobertura de Perfil.",
-      "accion_sugerida": "Redactar una nota que contextualice la votación histórica en la Asamblea General de la ONU.",
+      "por_que_importa": "El debate en la Asamblea General de la ONU sobre el embargo estadounidense a Cuba constituye un acontecimiento diplomático relevante a nivel internacional.",
+      "insight": "Clarín e Infobae reproducen los posicionamientos oficiales desde Nueva York sin eco equivalente en las secciones internacionales de Perfil.",
+      "accion_sugerida": "Realizar una cobertura de seguimiento sobre las votaciones históricas y las posturas de los distintos bloques regionales en Naciones Unidas.",
       "enfoques_sugeridos": [
-        "Reclamo en la ONU: Cuba destaca el apoyo internacional contra el bloqueo económico de Estados Unidos",
-        "Asamblea General: la postura de los países frente a las sanciones a la isla"
+        "El balance de apoyos internacionales frente al bloqueo económico.",
+        "Los discursos centrales de la primera jornada de debate en la ONU."
       ],
       "ejemplos": [
         {
@@ -2390,12 +1958,12 @@
       "brecha_formateada": "-1",
       "tema": "Declaraciones políticas de Máximo Kirchner sobre Néstor y Cristina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Aporta definiciones sobre la estrategia interna del kirchnerismo de cara al reordenamiento partidario y electoral.",
-      "insight": "Clarín y Ámbito replican los dichos del dirigente en actos partidarios, con ausencia de cobertura en Perfil.",
-      "accion_sugerida": "Analizar en una columna de opinión el impacto de estas declaraciones dentro de la interna peronista.",
+      "por_que_importa": "Las definiciones de referentes de Unión por la Patria marcan la estrategia político-electoral y la interna del peronismo local.",
+      "insight": "Clarín y Ámbito destacan los tramos más álgidos del discurso pronunciado en Lanús, configurando una vacante en la cobertura de Perfil.",
+      "_accion_sugerida": "Analizar las declaraciones en el marco de la reorganización partidaria opositora de cara al próximo ciclo electoral.",
       "enfoques_sugeridos": [
-        "Reaparición y consignas: Máximo Kirchner recordó a Néstor y lanzó un mensaje sobre el rol de Cristina",
-        "Interna en el PJ: las definiciones del dirigente en territorio bonaerense"
+        "El impacto de la arenga partidaria en la estrategia electoral del peronismo.",
+        "Las repercusiones de los dichos sobre la figura y la situación judicial de Cristina Kirchner."
       ],
       "ejemplos": [
         {
@@ -2456,12 +2024,12 @@
       "brecha_formateada": "-1",
       "tema": "Lanzamiento del tema 'Bailar o morir' de Lali y Miranda!",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Atrae interés masivo en el sector de música pop nacional y lanzamientos discográficos.",
-      "insight": "TN y Ámbito cubren la novedad artística de los músicos argentinos, mientras Perfil no registra notas.",
-      "accion_sugerida": "Publicar reseñas de lanzamientos musicales destacados para captar tráfico en la sección de cultura y espectáculos.",
+      "por_que_importa": "La unión de dos de los máximos referentes del pop argentino genera alto impacto en redes sociales y consumo de streaming.",
+      "insight": "TN y Ámbito cubren el estreno del sencillo, marcando una oportunidad de audiencia en la sección de espectáculos y cultura pop.",
+      "accion_sugerida": "Publicar una reseña del videoclip y los detalles del anticipo discográfico colaborativo.",
       "enfoques_sugeridos": [
-        "Colaboración estelar: Lali y Miranda! presentaron 'Bailar o morir', el adelanto de su próximo disco",
-        "Pop nacional: los artistas unieron fuerzas en un nuevo sencillo"
+        "Revisión de la trayectoria conjunta y el impacto del lanzamiento en plataformas.",
+        "Los detalles creativos y conceptuales del nuevo single pop."
       ],
       "ejemplos": [
         {
@@ -2522,12 +2090,12 @@
       "brecha_formateada": "-1",
       "tema": "Reunión del Gobierno en el marco del RIGI con grandes empresas y proveedores",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Evalúa el desarrollo de inversiones mineras y energéticas bajo el régimen de incentivos y su integración con la cadena de valor local.",
-      "insight": "Ámbito y El Cronista informan sobre el encuentro con proveedores nacionales, sin cobertura de Perfil.",
-      "accion_sugerida": "Desarrollar un artículo económico sobre el porcentaje de integración local que exigen los proyectos bajo el RIGI.",
+      "por_que_importa": "Evalúa la integración de la cadena de valor local con los grandes proyectos amparados bajo el Régimen de Incentivo para Grandes Inversiones (RIGI).",
+      "insight": "Ámbito y El Cronista detallan la convocatoria oficial a proveedores nacionales, un eje estratégico para la economía real.",
+      "accion_sugerida": "Redactar un informe sobre las oportunidades y exigencias para las pymes proveedoras en el marco del RIGI.",
       "enfoques_sugeridos": [
-        "Inversiones y cadena de valor: el Gobierno convoca a proveedores nacionales en el marco del RIGI",
-        "Apuesta productiva: cómo se preparan las empresas para abastecer a los grandes proyectos"
+        "El balance de las reuniones entre corporaciones y la industria proveedora local.",
+        "Los desafíos de sustitución de insumos y desarrollo de producción nacional."
       ],
       "ejemplos": [
         {
@@ -2588,12 +2156,12 @@
       "brecha_formateada": "-1",
       "tema": "Evolución de la actividad industrial en la Argentina",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Mide el pulso de la producción fabril y el impacto sectorial de la recesión económica.",
-      "insight": "Ámbito y Página 12 analizan las cifras rojas del sector industrial y del PBI, con ausencia de notas en Perfil.",
-      "accion_sugerida": "Publicar un informe sectorial con los rubros más golpeados por la caída de la demanda interna.",
+      "por_que_importa": "Los indicadores sectoriales de la actividad industrial y el PBI miden el pulso de la recesión y la reactivación económica.",
+      "insight": "Ámbito y Página 12 analizan la heterogeneidad de los sectores fabriles y las caídas acumuladas, un dato clave no abordado por Perfil.",
+      "accion_sugerida": "Profundizar en un informe económico sectorial que detalle qué ramas productivas sufren más contracción y cuáles logran sostenerse.",
       "enfoques_sugeridos": [
-        "Industria en rojo: los sectores que acumulan caídas pronunciadas y las ramas que intentan sostenerse",
-        "Indicadores fabriles: el impacto del freno en la actividad sobre el empleo manufacturero"
+        "Radiografía de los sectores industriales más castigados por la caída del consumo.",
+        "Comparativa de los datos de PBI e industria correspondientes al cierre de septiembre."
       ],
       "ejemplos": [
         {
@@ -2654,12 +2222,12 @@
       "brecha_formateada": "-1",
       "tema": "Evolución de bonos en dólares y riesgo país",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Refleja la confianza de los inversores externos y la evolución de la deuda soberana argentina.",
-      "insight": "Ámbito y El Cronista destacan la baja del riesgo país y el comportamiento de los títulos públicos, sin notas en Perfil.",
-      "accion_sugerida": "Realizar un análisis diario de la curva de rendimientos de los bonos en moneda extranjera.",
+      "por_que_importa": "El comportamiento de los bonos soberanos y el índice de riesgo país definen las condiciones financieras y el acceso al crédito del país.",
+      "insight": "Ámbito y El Cronista registran el alivio financiero tras la baja del riesgo país, marcando un vacío en la cobertura bursátil de Perfil.",
+      "accion_sugerida": "Elaborar un reporte diario de mercados detallando el desempeño de la deuda soberana y la reacción ante los drivers internacionales.",
       "enfoques_sugeridos": [
-        "Riesgo país en baja: los bonos en dólares extienden su repunte ante la calma financiera",
-        "Mercados atentos: cómo operan los títulos públicos frente al escenario internacional"
+        "El comportamiento de los títulos nominados en dólares tras la licitación del Tesoro.",
+        "Análisis de la oscilación del riesgo país y su correlación con los mercados de Brasil."
       ],
       "ejemplos": [
         {
@@ -2720,12 +2288,12 @@
       "brecha_formateada": "-1",
       "tema": "Negociación del Presupuesto 2027 en el Congreso",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Define la pauta de gastos, los recursos coparticipables y las prioridades fiscales del Estado para el próximo período.",
-      "insight": "Página 12 y El Cronista informan sobre las trabas legislativas y los reclamos de los gobernadores aliados, sin cobertura de Perfil.",
-      "accion_sugerida": "Seguir de cerca las negociaciones en comisión para detallar las modificaciones exigidas por los bloques provinciales.",
+      "por_que_importa": "La discusión parlamentaria del Presupuesto es la ley de leyes que condiciona la gestión fiscal del próximo año y las alianzas políticas.",
+      "insight": "Página 12 y El Cronista detallan las demoras y exigencias de los bloques aliados en el Congreso, un flanco no cubierto por Perfil.",
+      "accion_sugerida": "Seguir el minuto a minuto de las negociaciones en comisiones y las demandas de los gobernadores y aliados legislativos.",
       "enfoques_sugeridos": [
-        "Presupuesto 2027 en aprietos: los aliados legislativos demoran el dictamen en busca de fondos",
-        "Disputa fiscal: cuáles son los puntos del proyecto oficial que generan resistencia en el Congreso"
+        "Las tensiones entre el oficialismo y sus aliados por los fondos coparticipables y tributarios.",
+        "El impacto de las demoras en el dictamen sobre el cronograma legislativo."
       ],
       "ejemplos": [
         {
@@ -2786,12 +2354,12 @@
       "brecha_formateada": "-1",
       "tema": "Proyectos mineros en Catamarca y desarrollo del sector",
       "tipo": "sin_cobertura_perfil",
-      "por_que_importa": "Involucra el potencial exportador de la minería metalífera y de litio en las provincias cordilleranas.",
-      "insight": "Página 12 y El Cronista abordan el atractivo de los yacimientos mineros y los desafíos de la actividad, sin notas en Perfil.",
-      "accion_sugerida": "Publicar un informe sobre el impacto de la inversión extranjera en la infraestructura de las provincias mineras.",
+      "por_que_importa": "El desarrollo de la minería metalífera y de litio representa una de las principales apuestas de inversión extranjera y exportación en el país.",
+      "insight": "Página 12 y El Cronista abordan los factores de atracción y los desafíos normativos que desvelan a las grandes operadoras mineras.",
+      "accion_sugerida": "Elaborar un informe sobre el potencial exportador de los proyectos en Catamarca y las demandas de seguridad jurídica del sector.",
       "enfoques_sugeridos": [
-        "Potencial minero: los factores que atraen a las mayores empresas al país y los desafíos pendientes",
-        "Desarrollo regional: el avance de los proyectos extractivos en el norte argentino"
+        "Los principales imanes de inversión y los riesgos normativos que preocupan a las mineras.",
+        "El impacto económico regional de los yacimientos de litio en el norte argentino."
       ],
       "ejemplos": [
         {
@@ -2834,12 +2402,12 @@
   ],
   "oportunidades": [
     {
-      "total_notas": 5,
+      "total_notas": 4,
       "cantidad_medios": 1,
       "cantidad_competidores": 1,
       "cobertura": {
         "Perfil": 0,
-        "La Nación": 5,
+        "La Nación": 4,
         "Clarín": 0,
         "Infobae": 0,
         "TN": 0,
@@ -2849,85 +2417,81 @@
       },
       "cobertura_perfil": 0,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 5,
-      "brecha": -5,
-      "brecha_formateada": "-5",
-      "tema": "Celebración y tradiciones de Halloween en la Argentina",
+      "cobertura_medio_lider": 4,
+      "brecha": -4,
+      "brecha_formateada": "-4",
+      "tema": "Informes médicos y cardiológicos sobre la salud del corazón y prevención",
       "tipo": "oportunidades",
-      "por_que_importa": "Interesa a una audiencia joven y familiar que busca opciones de consumo, disfraces y propuestas recreativas estacionales.",
-      "insight": "La Nación publica cinco notas de servicio y guías de compra sobre Halloween, mientras Perfil no registra coberturas de esta tendencia comercial.",
-      "accion_sugerida": "Publicar una guía práctica sobre el costo de disfraces y golosinas en comercios locales para captar tráfico estacional.",
-      "tipo_de_oportunidad": "Ausencia de cobertura",
-      "motivo_oportunidad": "La Nación cubre intensamente las tendencias de consumo por Halloween con 5 notas, frente a la ausencia total de notas en Perfil.",
+      "por_que_importa": "Los temas de salud preventiva y bienestar generan un alto engagement en buscadores y lectores interesados en calidad de vida.",
+      "insight": "La Nación concentra una serie de entrevistas a especialistas sobre infartos en jóvenes y signos de alerta cardíaca sin réplica en Perfil.",
+      "accion_sugerida": "Producir un artículo de servicio médico consultando a especialistas locales sobre síntomas tempranos y prevención cardiovascular.",
+      "enfoques_sugeridos": [
+        "Señales de alerta silenciosas que anticipan problemas cardíacos en menores de 45 años.",
+        "Guía de estudios médicos indispensables para fumadores y personas con presión arterial alta."
+      ],
+      "tipo_de_oportunidad": "servicio",
+      "motivo_oportunidad": "Alto interés de la audiencia en contenidos de salud preventiva y bienestar con amplia tracción en la competencia.",
       "ejemplos": [
         {
           "medio": "La Nación",
-          "titulo": "Estos son los mejores disfraces para niños para Halloween 2026",
-          "link": "https://www.lanacion.com.ar/sociedad/estos-son-los-mejores-disfraces-para-ninos-para-halloween-2026-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZKNQ4U3T4JEAPEFCTXFGQ2FETU.jpg?auth=e04228423b80a0b56782ca37b6fad0071e481a7a800a0e28d904fe9c7aa72e29&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:01:14 +0000",
-          "id": "n112"
+          "titulo": "Por qué cada vez hay más infartos en personas jóvenes, según un cardiólogo",
+          "link": "https://www.lanacion.com.ar/sociedad/por-que-cada-vez-hay-mas-infartos-en-personas-jovenes-segun-un-cardiologo-nid28102026/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 12:57:53 +0000",
+          "id": "n65"
         },
         {
           "medio": "La Nación",
-          "titulo": "Calabazas de Halloween para niños: cuánto salen y dónde conseguirlas en la Argentina",
-          "link": "https://www.lanacion.com.ar/economia/calabazas-de-halloween-para-ninos-cuanto-salen-y-donde-conseguirlas-en-la-argentina-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/AMQ35P5MYFC4HHE2SOHKY2IGCE.jpg?auth=0a0da0d32aa35a36e7d10ce436db26757a67ae8422a96a33ca0da9f31d2a2425&smart=true&width=727&height=727",
-          "fecha": "Wed, 28 Oct 2026 12:01:11 +0000",
-          "id": "n113"
+          "titulo": "Un cardiólogo reveló cuál es el mayor miedo que tienen sus pacientes: “Todos me dicen lo mismo”",
+          "link": "https://www.lanacion.com.ar/sociedad/un-cardiologo-explico-que-es-lo-que-mas-temen-sus-pacientes-y-su-relacion-con-la-presion-arterial-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/YH7K7NQJVBH7VFXJLJUO55ZJB4.jpg?auth=73a8ba25f4dc0955036da51209f9a35937e27df347aed45825cfc8b12b1edbcd&smart=true&width=5760&height=3840",
+          "fecha": "Wed, 28 Oct 2026 12:57:30 +0000",
+          "id": "n69"
         },
         {
           "medio": "La Nación",
-          "titulo": "De origen celta y relacionado a los santos: este es el significado de Halloween",
-          "link": "https://www.lanacion.com.ar/lifestyle/de-origen-celta-y-relacionado-a-los-santos-este-es-el-significado-de-halloween-nid21102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/V5OIQOAQLJDWPJMS67EPYXMX4Y.jpg?auth=ff95bbfb82a20343e373d1747f81c852e3e2dedec4877ecf001bed549461f11a&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:01:08 +0000",
-          "id": "n114"
+          "titulo": "Las señales silenciosas del corazón que no hay que ignorar, según un cardiólogo",
+          "link": "https://www.lanacion.com.ar/sociedad/las-senales-silenciosas-del-corazon-que-no-hay-que-ignorar-segun-un-cardiologo-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/3WMS3FEQEVEQZFCZWK6FRKEUDU.jpg?auth=8ff4f5aae21441ec6736ce196c5ac7ae18fba1e87429b2308ad0a8c24a6c6774&smart=true&width=980&height=653",
+          "fecha": "Wed, 28 Oct 2026 12:57:27 +0000",
+          "id": "n70"
         }
       ],
       "noticias": [
         {
           "medio": "La Nación",
-          "titulo": "Estos son los mejores disfraces para niños para Halloween 2026",
-          "link": "https://www.lanacion.com.ar/sociedad/estos-son-los-mejores-disfraces-para-ninos-para-halloween-2026-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZKNQ4U3T4JEAPEFCTXFGQ2FETU.jpg?auth=e04228423b80a0b56782ca37b6fad0071e481a7a800a0e28d904fe9c7aa72e29&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:01:14 +0000",
-          "id": "n112"
+          "titulo": "Por qué cada vez hay más infartos en personas jóvenes, según un cardiólogo",
+          "link": "https://www.lanacion.com.ar/sociedad/por-que-cada-vez-hay-mas-infartos-en-personas-jovenes-segun-un-cardiologo-nid28102026/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 12:57:53 +0000",
+          "id": "n65"
         },
         {
           "medio": "La Nación",
-          "titulo": "Calabazas de Halloween para niños: cuánto salen y dónde conseguirlas en la Argentina",
-          "link": "https://www.lanacion.com.ar/economia/calabazas-de-halloween-para-ninos-cuanto-salen-y-donde-conseguirlas-en-la-argentina-nid27102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/AMQ35P5MYFC4HHE2SOHKY2IGCE.jpg?auth=0a0da0d32aa35a36e7d10ce436db26757a67ae8422a96a33ca0da9f31d2a2425&smart=true&width=727&height=727",
-          "fecha": "Wed, 28 Oct 2026 12:01:11 +0000",
-          "id": "n113"
+          "titulo": "Un cardiólogo reveló cuál es el mayor miedo que tienen sus pacientes: “Todos me dicen lo mismo”",
+          "link": "https://www.lanacion.com.ar/sociedad/un-cardiologo-explico-que-es-lo-que-mas-temen-sus-pacientes-y-su-relacion-con-la-presion-arterial-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/YH7K7NQJVBH7VFXJLJUO55ZJB4.jpg?auth=73a8ba25f4dc0955036da51209f9a35937e27df347aed45825cfc8b12b1edbcd&smart=true&width=5760&height=3840",
+          "fecha": "Wed, 28 Oct 2026 12:57:30 +0000",
+          "id": "n69"
         },
         {
           "medio": "La Nación",
-          "titulo": "De origen celta y relacionado a los santos: este es el significado de Halloween",
-          "link": "https://www.lanacion.com.ar/lifestyle/de-origen-celta-y-relacionado-a-los-santos-este-es-el-significado-de-halloween-nid21102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/V5OIQOAQLJDWPJMS67EPYXMX4Y.jpg?auth=ff95bbfb82a20343e373d1747f81c852e3e2dedec4877ecf001bed549461f11a&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:01:08 +0000",
-          "id": "n114"
+          "titulo": "Las señales silenciosas del corazón que no hay que ignorar, según un cardiólogo",
+          "link": "https://www.lanacion.com.ar/sociedad/las-senales-silenciosas-del-corazon-que-no-hay-que-ignorar-segun-un-cardiologo-nid26102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/3WMS3FEQEVEQZFCZWK6FRKEUDU.jpg?auth=8ff4f5aae21441ec6736ce196c5ac7ae18fba1e87429b2308ad0a8c24a6c6774&smart=true&width=980&height=653",
+          "fecha": "Wed, 28 Oct 2026 12:57:27 +0000",
+          "id": "n70"
         },
         {
           "medio": "La Nación",
-          "titulo": "Cómo se escribe Halloween y por qué en la Argentina se le dice Noche de Brujas",
-          "link": "https://www.lanacion.com.ar/lifestyle/como-se-escribe-halloween-y-por-que-en-la-argentina-se-le-dice-noche-de-brujas-nid19102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/5ACQSZH73ZEJLFCMP2DB5GVN54.jpg?auth=16265bb584d63095c18dc38cfd124c34b1a59428bbe814dc88172d8262c875ab&smart=true&width=5184&height=3456",
-          "fecha": "Wed, 28 Oct 2026 12:01:06 +0000",
-          "id": "n115"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Cuándo se festeja Halloween 2026 en la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/cuando-se-festeja-halloween-2026-en-la-argentina-nid07102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZKNQ4U3T4JEAPEFCTXFGQ2FETU.jpg?auth=e04228423b80a0b56782ca37b6fad0071e481a7a800a0e28d904fe9c7aa72e29&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:01:04 +0000",
-          "id": "n116"
+          "titulo": "El estudio que las personas que fuman o fumaron no pueden dejar de hacer",
+          "link": "https://www.lanacion.com.ar/sociedad/el-estudio-que-las-personas-que-fuman-o-fumaron-no-pueden-dejar-de-hacer-nid27102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/6MCXNXGMNJCDJMQ6UTJN2PHQXM.png?auth=4113a798ef667131876bf492634de08473051fe10a3e136f7c191261cc7d4f97&smart=true&width=642&height=411",
+          "fecha": "Wed, 28 Oct 2026 12:57:13 +0000",
+          "id": "n72"
         }
       ],
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ZKNQ4U3T4JEAPEFCTXFGQ2FETU.jpg?auth=e04228423b80a0b56782ca37b6fad0071e481a7a800a0e28d904fe9c7aa72e29&smart=true&width=2000&height=1333"
+      "imagen": "https://resizer.glanacion.com/resizer/v2/YH7K7NQJVBH7VFXJLJUO55ZJB4.jpg?auth=73a8ba25f4dc0955036da51209f9a35937e27df347aed45825cfc8b12b1edbcd&smart=true&width=5760&height=3840"
     },
     {
       "total_notas": 3,
@@ -2950,11 +2514,15 @@
       "brecha_formateada": "-3",
       "tema": "Feriados y fines de semana largos en la Argentina",
       "tipo": "oportunidades",
-      "por_que_importa": "Constituye una de las consultas de planificación más masivas de los lectores de cara al descanso y el turismo.",
-      "insight": "La Nación cuenta con tres notas dedicadas a los fines de semana largos de noviembre, un tema de alto interés que Perfil omitió cubrir.",
-      "accion_sugerida": "Desarrollar un calendario interactivo descargable con el detalle de los feriados y fines de semana largos del mes próximo.",
-      "tipo_de_oportunidad": "Brecha de desarrollo",
-      "motivo_oportunidad": "Existe una demanda sostenida de información sobre el calendario de feriados que La Nación explota con múltiples notas sin contraparte en Perfil.",
+      "por_que_importa": "Las consultas sobre el calendario de feriados, fines de semana largos y diagramación mensual lideran el tráfico SEO de servicio.",
+      "insight": "La Nación capitaliza las búsquedas sobre los feriados del próximo mes mediante notas utilitarias sin cobertura propia en Perfil.",
+      "accion_sugerida": "Publicar un calendario descargable y una guía completa de los fines de semana largos y asuetos previstos para noviembre.",
+      "enfoques_sugeridos": [
+        "Detalle de los días no laborables y feriados inamovibles del mes.",
+        "Guía para planificar escapadas turísticas aprovechando el cronograma de noviembre."
+      ],
+      "tipo_de_oportunidad": "servicio",
+      "motivo_oportunidad": "Contenido de alta demanda SEO estacional con excelente rendimiento en búsquedas de utilidad práctica.",
       "ejemplos": [
         {
           "medio": "La Nación",
@@ -3008,6 +2576,614 @@
         }
       ],
       "imagen": "https://resizer.glanacion.com/resizer/v2/BD2WLXHTHZEUZGQKMMAGTLNXDU.png?auth=c7a10672dd2a83aef2b2923aa7e09cf28b3be5ca505e5ff404d75998366afea8&smart=true&width=2000&height=1333"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 3,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Entrevistas y lanzamientos literarios de autores contemporáneos",
+      "tipo": "oportunidades",
+      "por_que_importa": "Los lanzamientos editoriales y las entrevistas a figuras de la literatura convocan al público lector en la sección cultural.",
+      "insight": "Clarín concentra coberturas sobre obras de autores consagrados como Mariana Enriquez y Julián López sin correlato en Perfil.",
+      "accion_sugerida": "Preparar reseñas literarias y entrevistas exclusivas con autores nacionales destacados en el circuito de novedades.",
+      "enfoques_sugeridos": [
+        "Reseña analítica de las nuevas publicaciones de narrativa contemporánea.",
+        "Entrevista a fondo sobre los procesos creativos y temáticas de los libros del momento."
+      ],
+      "tipo_de_oportunidad": "explicacion",
+      "motivo_oportunidad": "Oportunidad para enriquecer la sección cultural con coberturas literarias de calidad y análisis de novedades editoriales.",
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "Julián López, sobre su esperada novela: “El arte permite formular ideas incómodas”",
+          "link": "https://www.clarin.com/cultura/julian-lopez-esperada-novela-arte-permite-formular-ideas-incomodas_0_ddn278TaNH.html",
+          "imagen": "https://www.clarin.com/img/2026/10/14/VBoNcMMYn_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:12:36 +0000",
+          "id": "n152"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "El nuevo libro de Mariana Enriquez: una cartografía del terror contemporáneo",
+          "link": "https://www.clarin.com/cultura/nuevo-libro-mariana-enriquez-cartografia-terror-contemporaneo_0_m3xYuy15F1.html",
+          "imagen": "https://www.clarin.com/img/2026/10/27/ctJMAgsc5_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:08:35 +0000",
+          "id": "n154"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "La francesa Nathacha Appanah denuncia los femicidios sin justicia en la novela 'La noche en el corazón'",
+          "link": "https://www.clarin.com/cultura/francesa-nathacha-appanah-denuncia-femicidios-justicia-novela-noche-corazon_0_WTzL5gbsHf.html",
+          "imagen": "https://www.clarin.com/img/2026/10/05/gdfS4L46q_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:33 +0000",
+          "id": "n155"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Clarín",
+          "titulo": "Julián López, sobre su esperada novela: “El arte permite formular ideas incómodas”",
+          "link": "https://www.clarin.com/cultura/julian-lopez-esperada-novela-arte-permite-formular-ideas-incomodas_0_ddn278TaNH.html",
+          "imagen": "https://www.clarin.com/img/2026/10/14/VBoNcMMYn_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:12:36 +0000",
+          "id": "n152"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "El nuevo libro de Mariana Enriquez: una cartografía del terror contemporáneo",
+          "link": "https://www.clarin.com/cultura/nuevo-libro-mariana-enriquez-cartografia-terror-contemporaneo_0_m3xYuy15F1.html",
+          "imagen": "https://www.clarin.com/img/2026/10/27/ctJMAgsc5_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:08:35 +0000",
+          "id": "n154"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "La francesa Nathacha Appanah denuncia los femicidios sin justicia en la novela 'La noche en el corazón'",
+          "link": "https://www.clarin.com/cultura/francesa-nathacha-appanah-denuncia-femicidios-justicia-novela-noche-corazon_0_WTzL5gbsHf.html",
+          "imagen": "https://www.clarin.com/img/2026/10/05/gdfS4L46q_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:00:33 +0000",
+          "id": "n155"
+        }
+      ],
+      "imagen": "https://www.clarin.com/img/2026/10/14/VBoNcMMYn_1200x630__1.jpg"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 3,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Ámbito",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Evolución del dólar y impacto del contexto regional y del BCRA",
+      "tipo": "oportunidades",
+      "por_que_importa": "El comportamiento cambiario y la intervención del Banco Central concentran el interés cotidiano de los lectores en economía.",
+      "insight": "Ámbito profundiza en el impacto regional de Brasil sobre la cotización local, un ángulo analítico clave para complementar la cobertura de precios.",
+      "accion_sugerida": "Ampliar los reportes cambiarios con análisis sobre la intervención del BCRA y la influencia del mercado brasileño.",
+      "enfoques_sugeridos": [
+        "El impacto de la coyuntura de Brasil en la cotización de los dólares paralelos en Argentina.",
+        "Estrategia de intervención del Banco Central frente a la volatilidad cambiaria."
+      ],
+      "tipo_de_oportunidad": "actualizacion",
+      "motivo_oportunidad": "Necesidad de ofrecer un análisis económico complementario sobre el mercado cambiario y la influencia regional.",
+      "ejemplos": [
+        {
+          "medio": "Ámbito",
+          "titulo": "El dólar cae por segunda jornada consecutiva pero el mercado sigue atento al efecto Brasil y al BCRA",
+          "link": "https://www.ambito.com/finanzas/dolar-cortar-una-racha-siete-subas-consecutivas-el-mercado-sigue-atento-al-efecto-brasil-y-al-bcra-n6338685",
+          "imagen": "https://media.ambito.com/p/511aeec9e3d7ccd435e9e069ba9c1870/adjuntos/239/imagenes/041/894/0041894590/billie-dollar-money-backgroundjpg.jpg",
+          "fecha": "Wed, 28 Oct 2026 10:29:00 -0300",
+          "id": "n365"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Dólar blue hoy: a cuánto opera este miércoles 28 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-miercoles-28-octubre-n6338654",
+          "imagen": "https://media.ambito.com/p/f86df2bd09a71dbc9c9b30be02a7e603/adjuntos/239/imagenes/042/747/0042747618/dolar-blue.jpg",
+          "fecha": "Wed, 28 Oct 2026 10:36:00 -0300",
+          "id": "n384"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 28 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-28-octubre-n6338679",
+          "imagen": "https://media.ambito.com/p/a9a3acb03d31378cd2ddf3018c6c023d/adjuntos/239/imagenes/043/703/0043703174/1200x675/2871x1756:2891x1776/mercados-acciones-bolsas-cedear-inversiones-finanzas-vivo-wall-street-cedears-riesgo-pais-merval-dolar.jpg",
+          "fecha": "Wed, 28 Oct 2026 10:25:00 -0300",
+          "id": "n386"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Ámbito",
+          "titulo": "El dólar cae por segunda jornada consecutiva pero el mercado sigue atento al efecto Brasil y al BCRA",
+          "link": "https://www.ambito.com/finanzas/dolar-cortar-una-racha-siete-subas-consecutivas-el-mercado-sigue-atento-al-efecto-brasil-y-al-bcra-n6338685",
+          "imagen": "https://media.ambito.com/p/511aeec9e3d7ccd435e9e069ba9c1870/adjuntos/239/imagenes/041/894/0041894590/billie-dollar-money-backgroundjpg.jpg",
+          "fecha": "Wed, 28 Oct 2026 10:29:00 -0300",
+          "id": "n365"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Dólar blue hoy: a cuánto opera este miércoles 28 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-miercoles-28-octubre-n6338654",
+          "imagen": "https://media.ambito.com/p/f86df2bd09a71dbc9c9b30be02a7e603/adjuntos/239/imagenes/042/747/0042747618/dolar-blue.jpg",
+          "fecha": "Wed, 28 Oct 2026 10:36:00 -0300",
+          "id": "n384"
+        },
+        {
+          "medio": "Ámbito",
+          "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 28 de octubre",
+          "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-28-octubre-n6338679",
+          "imagen": "https://media.ambito.com/p/a9a3acb03d31378cd2ddf3018c6c023d/adjuntos/239/imagenes/043/703/0043703174/1200x675/2871x1756:2891x1776/mercados-acciones-bolsas-cedear-inversiones-finanzas-vivo-wall-street-cedears-riesgo-pais-merval-dolar.jpg",
+          "fecha": "Wed, 28 Oct 2026 10:25:00 -0300",
+          "id": "n386"
+        }
+      ],
+      "imagen": "https://media.ambito.com/p/511aeec9e3d7ccd435e9e069ba9c1870/adjuntos/239/imagenes/041/894/0041894590/billie-dollar-money-backgroundjpg.jpg"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 3,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Página 12",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Triunfo electoral de Lula en Brasil y repercusiones políticas",
+      "tipo": "oportunidades",
+      "por_que_importa": "El escenario político en Brasil tras las elecciones impacta de lleno en el eje geopolítico sudamericano y en los vínculos con el arco político argentino.",
+      "insight": "Página 12 enfoca la victoria y los mensajes cruzados con la dirigencia opositora local, marcando un flanco de análisis regional disponible.",
+      "accion_sugerida": "Desarrollar un análisis sobre el realineamiento geopolítico regional y las repercusiones del resultado brasileño en la política exterior argentina.",
+      "enfoques_sugeridos": [
+        "El vínculo diplomático entre el gobierno brasileño y los distintos sectores políticos argentinos.",
+        "Análisis del impacto regional del triunfo electoral en el Cono Sur."
+      ],
+      "tipo_de_oportunidad": "diferenciacion",
+      "motivo_oportunidad": "Oportunidad de ofrecer un enfoque analítico propio sobre las consecuencias geopolíticas del proceso electoral en el principal socio comercial.",
+      "ejemplos": [
+        {
+          "medio": "Página 12",
+          "titulo": "Regalo para el cumple de Lula",
+          "link": "https://www.pagina12.com.ar/2026/10/28/regalo-para-el-cumple-de-lula/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/RHV72EVNNZEK7MPNTXHJ6FU7YY.jpg?auth=98f9092a0924e085485f9632b61bb38803c7d9a134d440b2f334acc0f3f3e3ce&amp;smart=true&amp;width=4776&amp;height=3232",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n407"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula, vientos de esperanza",
+          "link": "https://www.pagina12.com.ar/2026/10/28/lula-vientos-de-esperanza/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ONZL7STVTBDHRDGCLSDUFTR6RU.jpg?auth=f7c6051489e350a3db3f0aa961bbd28070085aac870636a515750aed6730c8d9&amp;smart=true&amp;width=3984&amp;height=2656",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n419"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula le agradeció a Cristina Kirchner el mensaje por el triunfo electoral",
+          "link": "https://www.pagina12.com.ar/2026/10/27/lula-le-agradecio-a-cristina-kirchner-el-mensaje-por-el-triunfo-electoral/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEYTCYZTGY2TOYTFME4DAY3EMU.jpg?auth=f6d6e5d41ac1f0b7df7606453b2d232cfd9c1693099e9005199caaebcb1af42c&amp;smart=true&amp;width=3000&amp;height=2001",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n426"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Página 12",
+          "titulo": "Regalo para el cumple de Lula",
+          "link": "https://www.pagina12.com.ar/2026/10/28/regalo-para-el-cumple-de-lula/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/RHV72EVNNZEK7MPNTXHJ6FU7YY.jpg?auth=98f9092a0924e085485f9632b61bb38803c7d9a134d440b2f334acc0f3f3e3ce&amp;smart=true&amp;width=4776&amp;height=3232",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n407"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula, vientos de esperanza",
+          "link": "https://www.pagina12.com.ar/2026/10/28/lula-vientos-de-esperanza/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ONZL7STVTBDHRDGCLSDUFTR6RU.jpg?auth=f7c6051489e350a3db3f0aa961bbd28070085aac870636a515750aed6730c8d9&amp;smart=true&amp;width=3984&amp;height=2656",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n419"
+        },
+        {
+          "medio": "Página 12",
+          "titulo": "Lula le agradeció a Cristina Kirchner el mensaje por el triunfo electoral",
+          "link": "https://www.pagina12.com.ar/2026/10/27/lula-le-agradecio-a-cristina-kirchner-el-mensaje-por-el-triunfo-electoral/",
+          "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEYTCYZTGY2TOYTFME4DAY3EMU.jpg?auth=f6d6e5d41ac1f0b7df7606453b2d232cfd9c1693099e9005199caaebcb1af42c&amp;smart=true&amp;width=3000&amp;height=2001",
+          "fecha": "Wed, 28 Oct 2026 03:01:00 +0000",
+          "id": "n426"
+        }
+      ],
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/RHV72EVNNZEK7MPNTXHJ6FU7YY.jpg?auth=98f9092a0924e085485f9632b61bb38803c7d9a134d440b2f334acc0f3f3e3ce&amp;smart=true&amp;width=4776&amp;height=3232"
+    },
+    {
+      "total_notas": 3,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 3
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "El Cronista",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Consejos caseros de limpieza para el hogar",
+      "tipo": "oportunidades",
+      "por_que_importa": "Los trucos de hogar y soluciones prácticas de bajo costo generan alto tráfico orgánico y excelente retención en lectores de Lifestyle.",
+      "insight": "El Cronista explota con éxito notas de servicio utilitario para reparaciones caseras y limpieza doméstica.",
+      "accion_sugerida": "Producir contenidos de servicio con hacks y soluciones caseras para el mantenimiento del hogar y la vida cotidiana.",
+      "enfoques_sugeridos": [
+        "Guía de soluciones caseras para reparaciones rápidas sin gastar dinero.",
+        "Trucos de limpieza ecológica utilizando vinagre y productos económicos."
+      ],
+      "tipo_de_oportunidad": "servicio",
+      "motivo_oportunidad": "Contenido utilitario de alta efectividad para captación de tráfico en buscadores y redes sociales.",
+      "ejemplos": [
+        {
+          "medio": "El Cronista",
+          "titulo": "Rociar vinagre mezclado con agua: por qué funciona para limpiar los vidrios de la casa",
+          "link": "https://www.cronista.com/informacion-gral/rociar-vinagre-mezclado-con-agua-por-que-funciona-para-limpiar-los-vidrios-de-la-casa/",
+          "imagen": "https://www.cronista.com/resizer/v2/VZY7CRXZBVDQ5GPRN2FUUUSL6I.jpg?auth=5797f216620ab99f07ae9a9d838c5b20cc4f19731d63653879a0caf3ea218704&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 13:13:33 +0000",
+          "id": "n482"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "La puerta del baño roza el piso: cómo solucionarlo sin lijar ni cambiar las bisagras",
+          "link": "https://www.cronista.com/informacion-gral/la-puerta-del-bano-roza-el-piso-como-solucionarlo-sin-lijar-ni-cambiar-las-bisagras/",
+          "imagen": "https://www.cronista.com/resizer/v2/7GFIYSBQMBBIDIUUZH7JVE4P4U.png?auth=e07c4004775ee8714738f6020d053f960809b95bb92ac8c0ecf6d6e15384b0d2&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 12:06:38 +0000",
+          "id": "n489"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "El cierre de la campera se trabó y no sube: cómo arreglarlo en minutos sin romperlo ni gastar plata",
+          "link": "https://www.cronista.com/informacion-gral/el-cierre-de-la-campera-se-trabo-y-no-sube-como-arreglarlo-en-minutos-sin-romperlo-ni-gastar-plata/",
+          "imagen": "https://www.cronista.com/resizer/v2/EFAHYE7NYFAIPO7EIDKLIRPJ2E.png?auth=23a8b9679d9a235c7eb3a2a3ab572cce9d4dff7211ac9c4192f4001a24a65771&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 11:12:27 +0000",
+          "id": "n490"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "El Cronista",
+          "titulo": "Rociar vinagre mezclado con agua: por qué funciona para limpiar los vidrios de la casa",
+          "link": "https://www.cronista.com/informacion-gral/rociar-vinagre-mezclado-con-agua-por-que-funciona-para-limpiar-los-vidrios-de-la-casa/",
+          "imagen": "https://www.cronista.com/resizer/v2/VZY7CRXZBVDQ5GPRN2FUUUSL6I.jpg?auth=5797f216620ab99f07ae9a9d838c5b20cc4f19731d63653879a0caf3ea218704&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 13:13:33 +0000",
+          "id": "n482"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "La puerta del baño roza el piso: cómo solucionarlo sin lijar ni cambiar las bisagras",
+          "link": "https://www.cronista.com/informacion-gral/la-puerta-del-bano-roza-el-piso-como-solucionarlo-sin-lijar-ni-cambiar-las-bisagras/",
+          "imagen": "https://www.cronista.com/resizer/v2/7GFIYSBQMBBIDIUUZH7JVE4P4U.png?auth=e07c4004775ee8714738f6020d053f960809b95bb92ac8c0ecf6d6e15384b0d2&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 12:06:38 +0000",
+          "id": "n489"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "El cierre de la campera se trabó y no sube: cómo arreglarlo en minutos sin romperlo ni gastar plata",
+          "link": "https://www.cronista.com/informacion-gral/el-cierre-de-la-campera-se-trabo-y-no-sube-como-arreglarlo-en-minutos-sin-romperlo-ni-gastar-plata/",
+          "imagen": "https://www.cronista.com/resizer/v2/EFAHYE7NYFAIPO7EIDKLIRPJ2E.png?auth=23a8b9679d9a235c7eb3a2a3ab572cce9d4dff7211ac9c4192f4001a24a65771&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 11:12:27 +0000",
+          "id": "n490"
+        }
+      ],
+      "imagen": "https://www.cronista.com/resizer/v2/VZY7CRXZBVDQ5GPRN2FUUUSL6I.jpg?auth=5797f216620ab99f07ae9a9d838c5b20cc4f19731d63653879a0caf3ea218704&smart=true&width=1200&height=900"
+    },
+    {
+      "total_notas": 2,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 2,
+        "Clarín": 0,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "La Nación",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Eliminación y rating del reality MasterChef Celebrity",
+      "tipo": "oportunidades",
+      "por_que_importa": "Los realities televisivos de gran audiencia concentran el interés masivo del público en la franja de entretenimiento y espectáculos.",
+      "insight": "La Nación cubre las galas de eliminación y los índices de audiencia, generando un flujo constante de lecturas en la sección.",
+      "accion_sugerida": "Incorporar resúmenes de las galas de eliminación y mediciones de rating de los programas líderes de la televisión abierta.",
+      "enfoques_sugeridos": [
+        "El detalle del participante eliminado y los momentos más tensos del certamen de cocina.",
+        "Análisis de la pelea por el rating en el prime time televisivo."
+      ],
+      "tipo_de_oportunidad": "actualizacion",
+      "motivo_oportunidad": "Captación de tráfico masivo de entretenimiento mediante el seguimiento de realities televisivos de máxima audiencia.",
+      "ejemplos": [
+        {
+          "medio": "La Nación",
+          "titulo": "Quién fue eliminado de MasterChef Celebrity este martes 27 de octubre",
+          "link": "https://www.lanacion.com.ar/espectaculos/quien-fue-eliminado-de-masterchef-celebrity-este-martes-27-de-octubre-nid28102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/EDFMNSYZHJGB3JGU73MUXOVM4A.JPG?auth=4d6c57884ea51151a6023fe4697a35827a8495a48a0e9a55b7869f9d07b38fa0&smart=true&width=8192&height=5464",
+          "fecha": "Wed, 28 Oct 2026 12:40:43 +0000",
+          "id": "n82"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Rating: cuánto midió la cuarta gala de eliminación de MasterChef Celebrity",
+          "link": "https://www.lanacion.com.ar/espectaculos/rating-cuanto-midio-la-cuarta-gala-de-eliminacion-de-masterchef-nid28102026/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 12:11:33 +0000",
+          "id": "n88"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "La Nación",
+          "titulo": "Quién fue eliminado de MasterChef Celebrity este martes 27 de octubre",
+          "link": "https://www.lanacion.com.ar/espectaculos/quien-fue-eliminado-de-masterchef-celebrity-este-martes-27-de-octubre-nid28102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/EDFMNSYZHJGB3JGU73MUXOVM4A.JPG?auth=4d6c57884ea51151a6023fe4697a35827a8495a48a0e9a55b7869f9d07b38fa0&smart=true&width=8192&height=5464",
+          "fecha": "Wed, 28 Oct 2026 12:40:43 +0000",
+          "id": "n82"
+        },
+        {
+          "medio": "La Nación",
+          "titulo": "Rating: cuánto midió la cuarta gala de eliminación de MasterChef Celebrity",
+          "link": "https://www.lanacion.com.ar/espectaculos/rating-cuanto-midio-la-cuarta-gala-de-eliminacion-de-masterchef-nid28102026/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 12:11:33 +0000",
+          "id": "n88"
+        }
+      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/EDFMNSYZHJGB3JGU73MUXOVM4A.JPG?auth=4d6c57884ea51151a6023fe4697a35827a8495a48a0e9a55b7869f9d07b38fa0&smart=true&width=8192&height=5464"
+    },
+    {
+      "total_notas": 2,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 2,
+        "Infobae": 0,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Clarín",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Columnas de opinión y reflexiones periodísticas",
+      "tipo": "oportunidades",
+      "por_que_importa": "Las columnas de opinión y análisis político marcan agenda de debate y aportan profundidad editorial a los grandes medios.",
+      "insight": "Clarín destaca piezas de análisis firmadas que orientan la lectura pública sobre la coyuntura.",
+      "accion_sugerida": "Potenciar las columnas de opinión con firmas propias abordando los dilemas centrales de la economía y la política nacional.",
+      "enfoques_sugeridos": [
+        "Análisis de fondo sobre las expectativas económicas y sociales del período.",
+        "Reflexión crítica sobre las tensiones institucionales vigentes."
+      ],
+      "tipo_de_oportunidad": "diferenciacion",
+      "motivo_oportunidad": "Fortalecimiento del perfil analítico y de opinión del medio con enfoques editoriales propios.",
+      "ejemplos": [
+        {
+          "medio": "Clarín",
+          "titulo": "¿Primavera?",
+          "link": "https://www.clarin.com/opinion/primavera_0_W4BQd9whA8.html",
+          "imagen": "https://www.clarin.com/img/2026/10/20/taVHv2syT_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:04:35 +0000",
+          "id": "n150"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "No me ayudes tanto",
+          "link": "https://www.clarin.com/opinion/ayudes_0_vuju2MGSwt.html",
+          "imagen": "https://www.clarin.com/img/2026/10/16/W7LD0-K_f_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 08:58:33 +0000",
+          "id": "n151"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Clarín",
+          "titulo": "¿Primavera?",
+          "link": "https://www.clarin.com/opinion/primavera_0_W4BQd9whA8.html",
+          "imagen": "https://www.clarin.com/img/2026/10/20/taVHv2syT_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 09:04:35 +0000",
+          "id": "n150"
+        },
+        {
+          "medio": "Clarín",
+          "titulo": "No me ayudes tanto",
+          "link": "https://www.clarin.com/opinion/ayudes_0_vuju2MGSwt.html",
+          "imagen": "https://www.clarin.com/img/2026/10/16/W7LD0-K_f_1200x630__1.jpg",
+          "fecha": "Wed, 28 Oct 2026 08:58:33 +0000",
+          "id": "n151"
+        }
+      ],
+      "imagen": "https://www.clarin.com/img/2026/10/20/taVHv2syT_1200x630__1.jpg"
+    },
+    {
+      "total_notas": 2,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 2,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Recetas de cocina fáciles",
+      "tipo": "oportunidades",
+      "por_que_importa": "Los contenidos gastronómicos prácticos y de elaboración rápida traccionan visitas recurrentes y fidelizan lectores en la sección de tendencias.",
+      "insight": "Infobae publica recetas detalladas de platos elaborados pero accesibles, captando público interesado en cocina hogareña.",
+      "accion_sugerida": "Publicar propuestas culinarias con paso a paso detallado, tiempos de preparación y secretos de cocina.",
+      "enfoques_sugeridos": [
+        "Recetas prácticas de platos principales con ingredientes accesibles.",
+        "Variantes caseras de platos tradicionales con un toque gourmet."
+      ],
+      "tipo_de_oportunidad": "servicio",
+      "motivo_oportunidad": "Contenido de consumo masivo con excelente rendimiento en tráfico directo y redes sociales.",
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "Receta de vacío al horno con papas bravas, rápida y fácil",
+          "link": "https://www.infobae.com/tendencias/2026/10/28/receta-de-vacio-al-horno-con-papas-bravas-rapida-y-facil/",
+          "imagen": "https://www.infobae.com/resizer/v2/OVNF4YZ7HZDBJB5S4LFTQNWRXI.png?auth=6a47117161479bea01903cbac7cb6c46005f79b094eaca2e08b88fe27b9368aa&smart=true&width=2752&height=1536",
+          "fecha": "Wed, 28 Oct 2026 13:34:40 +0000",
+          "id": "n188"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Receta de ravioles de cabutia con salsa de hongos, rápida y fácil",
+          "link": "https://www.infobae.com/tendencias/2026/10/28/receta-de-ravioles-de-cabutia-con-salsa-de-hongos-rapida-y-facil/",
+          "imagen": "https://www.infobae.com/resizer/v2/AM5LGUXRCZEGNCXIPAI2CGJOWI.png?auth=f7339ecbdfce5c2a7a73333b93e5ae26af506ee3fa2a7dbc23077d8869966611&smart=true&width=2752&height=1536",
+          "fecha": "Wed, 28 Oct 2026 13:33:56 +0000",
+          "id": "n194"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Infobae",
+          "titulo": "Receta de vacío al horno con papas bravas, rápida y fácil",
+          "link": "https://www.infobae.com/tendencias/2026/10/28/receta-de-vacio-al-horno-con-papas-bravas-rapida-y-facil/",
+          "imagen": "https://www.infobae.com/resizer/v2/OVNF4YZ7HZDBJB5S4LFTQNWRXI.png?auth=6a47117161479bea01903cbac7cb6c46005f79b094eaca2e08b88fe27b9368aa&smart=true&width=2752&height=1536",
+          "fecha": "Wed, 28 Oct 2026 13:34:40 +0000",
+          "id": "n188"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "Receta de ravioles de cabutia con salsa de hongos, rápida y fácil",
+          "link": "https://www.infobae.com/tendencias/2026/10/28/receta-de-ravioles-de-cabutia-con-salsa-de-hongos-rapida-y-facil/",
+          "imagen": "https://www.infobae.com/resizer/v2/AM5LGUXRCZEGNCXIPAI2CGJOWI.png?auth=f7339ecbdfce5c2a7a73333b93e5ae26af506ee3fa2a7dbc23077d8869966611&smart=true&width=2752&height=1536",
+          "fecha": "Wed, 28 Oct 2026 13:33:56 +0000",
+          "id": "n194"
+        }
+      ],
+      "imagen": "https://www.infobae.com/resizer/v2/OVNF4YZ7HZDBJB5S4LFTQNWRXI.png?auth=6a47117161479bea01903cbac7cb6c46005f79b094eaca2e08b88fe27b9368aa&smart=true&width=2752&height=1536"
+    },
+    {
+      "total_notas": 2,
+      "cantidad_medios": 1,
+      "cantidad_competidores": 1,
+      "cobertura": {
+        "Perfil": 0,
+        "La Nación": 0,
+        "Clarín": 0,
+        "Infobae": 2,
+        "TN": 0,
+        "Ámbito": 0,
+        "Página 12": 0,
+        "El Cronista": 0
+      },
+      "cobertura_perfil": 0,
+      "medio_lider": "Infobae",
+      "cobertura_medio_lider": 2,
+      "brecha": -2,
+      "brecha_formateada": "-2",
+      "tema": "Operativo contra el narcotráfico y abatimiento de presunto líder en Sinaloa, México",
+      "tipo": "oportunidades",
+      "por_que_importa": "Los golpes al narcotráfico internacional y los operativos de seguridad en América Latina interesan a la audiencia global de la sección internacional.",
+      "insight": "Infobae cubre en detalle el operativo y el abatimiento de cabecillas narco en México con cobertura en vivo.",
+      "accion_sugerida": "Ampliar el panorama sobre la violencia del narcotráfico en México y la respuesta institucional de las fuerzas de seguridad.",
+      "enfoques_sugeridos": [
+        "El impacto del operativo militar en la estructura de los cárteles en Sinaloa.",
+        "La cooperación internacional en la captura y persecución de capos narcos."
+      ],
+      "tipo_de_oportunidad": "seguimiento",
+      "motivo_oportunidad": "Cobertura de eventos policiales internacionales de alto impacto con tracción sostenida en la sección de mundo.",
+      "ejemplos": [
+        {
+          "medio": "Infobae",
+          "titulo": "México anuncia muerte de jefe del narcotráfico buscado por EE.UU. tras tiroteo en Sinaloa",
+          "link": "https://www.infobae.com/america/agencias/2026/10/28/mexico-anuncia-muerte-de-jefe-del-narcotrafico-buscado-por-eeuu-tras-tiroteo-en-sinaloa/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 13:32:20 +0000",
+          "id": "n206"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 28 de octubre: abaten en Sinaloa a “Chuy González”, segundo al mando del Cártel de Guasave",
+          "link": "https://www.infobae.com/mexico/2026/10/28/en-vivo-seguridad-narcotrafico-y-crimen-en-mexico-hoy-28-de-octubre-abaten-en-sinaloa-a-chuy-gonzalez-segundo-al-mando-del-cartel-de-guasave/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 13:26:04 +0000",
+          "id": "n231"
+        }
+      ],
+      "noticias": [
+        {
+          "medio": "Infobae",
+          "titulo": "México anuncia muerte de jefe del narcotráfico buscado por EE.UU. tras tiroteo en Sinaloa",
+          "link": "https://www.infobae.com/america/agencias/2026/10/28/mexico-anuncia-muerte-de-jefe-del-narcotrafico-buscado-por-eeuu-tras-tiroteo-en-sinaloa/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 13:32:20 +0000",
+          "id": "n206"
+        },
+        {
+          "medio": "Infobae",
+          "titulo": "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 28 de octubre: abaten en Sinaloa a “Chuy González”, segundo al mando del Cártel de Guasave",
+          "link": "https://www.infobae.com/mexico/2026/10/28/en-vivo-seguridad-narcotrafico-y-crimen-en-mexico-hoy-28-de-octubre-abaten-en-sinaloa-a-chuy-gonzalez-segundo-al-mando-del-cartel-de-guasave/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 13:26:04 +0000",
+          "id": "n231"
+        }
+      ],
+      "imagen": ""
     }
   ],
   "prioridades_del_dia": [
@@ -3032,8 +3208,8 @@
       "brecha_formateada": "-21",
       "tema": "Trágico choque de trenes de alta velocidad en Toledo, España",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Es la noticia internacional de mayor repercusión y volumen en la agenda global del día.",
-      "accion_sugerida": "Actualizar con peritajes y testimonios de sobrevivientes para equiparar la cobertura de los competidores.",
+      "por_que_importa": "Es la noticia internacional de mayor impacto y volumen de cobertura de la jornada, requiriendo presencia sólida y actualización constante.",
+      "accion_sugerida": "Mantener una cobertura en vivo con el minuto a minuto de los rescates, balances oficiales de víctimas y testimonios directos.",
       "ejemplos": [
         {
           "medio": "Perfil",
@@ -3445,8 +3621,8 @@
       "brecha_formateada": "-7",
       "tema": "Denuncia penal y salida de Flávio Bolsonaro de Argentina hacia Estados Unidos",
       "tipo": "hipercompetencia",
-      "por_que_importa": "Atraviesa la agenda política nacional y compromete responsabilidades institucionales del Gobierno.",
-      "accion_sugerida": "Publicar un análisis político sobre el impacto de la denuncia judicial presentada por la oposición.",
+      "por_que_importa": "Involucra directamente al territorio nacional, a las fuerzas de seguridad fronterizas y genera repercusión política y judicial en la agenda local.",
+      "accion_sugerida": "Profundizar en la denuncia penal presentada en los tribunales y los detalles del paso del dirigente por Puerto Iguazú.",
       "ejemplos": [
         {
           "medio": "Perfil",
@@ -3742,121 +3918,105 @@
       "imagen": "https://media.perfil.com/prod/images/gm_preview/9b85ca8e66d7-marcela-pagano-2335521.webp"
     },
     {
-      "total_notas": 8,
-      "cantidad_medios": 4,
-      "cantidad_competidores": 3,
+      "total_notas": 6,
+      "cantidad_medios": 2,
+      "cantidad_competidores": 2,
       "cobertura": {
-        "Perfil": 1,
-        "La Nación": 5,
+        "Perfil": 0,
+        "La Nación": 3,
         "Clarín": 0,
         "Infobae": 0,
-        "TN": 1,
+        "TN": 0,
         "Ámbito": 0,
         "Página 12": 0,
-        "El Cronista": 1
+        "El Cronista": 3
       },
-      "cobertura_perfil": 1,
+      "cobertura_perfil": 0,
       "medio_lider": "La Nación",
-      "cobertura_medio_lider": 5,
-      "brecha": -4,
-      "brecha_formateada": "-4",
-      "tema": "Aumentos oficiales de ANSES para jubilaciones, pensiones y asignaciones en noviembre de 2026",
-      "tipo": "hipercompetencia",
-      "por_que_importa": "Afecta el bolsillo de los sectores pasivos con información de servicio indispensable.",
-      "accion_sugerida": "Desarrollar una guía clara con los montos netos por categoría para la audiencia.",
+      "cobertura_medio_lider": 3,
+      "brecha": -3,
+      "brecha_formateada": "-3",
+      "tema": "Alerta por frente frío y tormentas severas en la Argentina",
+      "tipo": "sin_cobertura_perfil",
+      "por_que_importa": "Representa una oportunidad vital de cobertura de servicio y prevención para la audiencia ante alertas meteorológicas oficiales en el país.",
+      "accion_sugerida": "Publicar un informe de urgencia con las zonas afectadas, el mapa de alertas del SMN y recomendaciones de seguridad.",
       "ejemplos": [
         {
-          "medio": "Perfil",
-          "titulo": "ANSES oficializó el aumento de jubilaciones, pensiones y AUH para noviembre de 2026: cuánto cobrará cada beneficiario",
-          "link": "https://perfil.com/economia/anses-oficializo-los-aumentos-de-noviembre-cuanto-se-cobrara-aZpSl4Y3DCOC",
-          "imagen": "https://media.perfil.com/prod/images/gm_preview/afa6906989db-proyecto-nuevo-54.webp",
-          "fecha": "Wed, 28 Oct 2026 11:48:28 GMT",
-          "id": "n15"
+          "medio": "La Nación",
+          "titulo": "Avanza un frente frío que provocará alertas por tormentas de gran intensidad, granizo, ráfagas y temperaturas cercanas a los 30°C: las zonas afectadas",
+          "link": "https://www.lanacion.com.ar/sociedad/avanza-un-frente-frio-que-provocara-alertas-por-tormentas-de-gran-intensidad-granizo-rafagas-y-nid27102026/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 13:39:52 +0000",
+          "id": "n39"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "Alerta amarilla en Bahía Blanca por tormentas eléctricas fuertes: cuándo llegan las lluvias y qué recomienda hacer el SMN",
+          "link": "https://www.cronista.com/informacion-gral/alerta-amarilla-en-bahia-blanca-por-tormentas-electricas-fuertes-cuando-llegan-las-lluvias-y-que-recomienda-hacer-el-smn/",
+          "imagen": "https://www.cronista.com/resizer/v2/BAXMQYDFZ5BNVC22256OCUWDVI.jpg?auth=52662983e7a7bec2817915674c44792d73128c1775d6b113e985b91127e567f4&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 13:38:28 +0000",
+          "id": "n481"
         },
         {
           "medio": "La Nación",
-          "titulo": "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026",
-          "link": "https://www.lanacion.com.ar/economia/suaf-de-anses-el-monto-de-las-asignaciones-familiares-en-noviembre-de-2026-nid21102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/NOYL5FFAFNEQHG2KFAWF5OQOJA.jpg?auth=4f563a4494aa1cca76ef884346e0357c843dc4d5d2bd2781d275706aa0c508b1&smart=true&width=4000&height=2666",
-          "fecha": "Wed, 28 Oct 2026 12:02:07 +0000",
-          "id": "n91"
-        },
-        {
-          "medio": "TN",
-          "titulo": "La ANSES estableció las nuevas escalas y topes para cobrar las asignaciones familiares en noviembre",
-          "link": "https://tn.com.ar/economia/2026/10/28/la-anses-establecio-las-nuevas-escalas-y-topes-para-cobrar-las-asignaciones-familiares-en-noviembre/",
-          "imagen": "https://tn.com.ar/resizer/v2/N4I7MMSJRJAB5EQHQC4I6P5BPU.jpg?auth=20f168900ffe1b2684d48d2a658eb0138d1d00124df935c21a95b0521afe243a",
-          "fecha": "2026-10-28T07:30:30-03:00",
-          "id": "n325"
+          "titulo": "Altura de los ríos en la Argentina, según Prefectura: esta es la situación y los niveles de alerta hoy, miércoles 28 de octubre",
+          "link": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/MD5TCRMPQ5AWLINJW4QEUXQ4AI.jpeg?auth=7fee36d7ff6dfaeb616e324a5630efca373c7c021a14eefb9e085c21b740a5c4&smart=true&width=1248&height=768",
+          "fecha": "Wed, 28 Oct 2026 12:58:45 +0000",
+          "id": "n57"
         }
       ],
       "noticias": [
         {
-          "medio": "Perfil",
-          "titulo": "ANSES oficializó el aumento de jubilaciones, pensiones y AUH para noviembre de 2026: cuánto cobrará cada beneficiario",
-          "link": "https://perfil.com/economia/anses-oficializo-los-aumentos-de-noviembre-cuanto-se-cobrara-aZpSl4Y3DCOC",
-          "imagen": "https://media.perfil.com/prod/images/gm_preview/afa6906989db-proyecto-nuevo-54.webp",
-          "fecha": "Wed, 28 Oct 2026 11:48:28 GMT",
-          "id": "n15"
+          "medio": "La Nación",
+          "titulo": "Avanza un frente frío que provocará alertas por tormentas de gran intensidad, granizo, ráfagas y temperaturas cercanas a los 30°C: las zonas afectadas",
+          "link": "https://www.lanacion.com.ar/sociedad/avanza-un-frente-frio-que-provocara-alertas-por-tormentas-de-gran-intensidad-granizo-rafagas-y-nid27102026/",
+          "imagen": "",
+          "fecha": "Wed, 28 Oct 2026 13:39:52 +0000",
+          "id": "n39"
         },
         {
           "medio": "La Nación",
-          "titulo": "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026",
-          "link": "https://www.lanacion.com.ar/economia/suaf-de-anses-el-monto-de-las-asignaciones-familiares-en-noviembre-de-2026-nid21102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/NOYL5FFAFNEQHG2KFAWF5OQOJA.jpg?auth=4f563a4494aa1cca76ef884346e0357c843dc4d5d2bd2781d275706aa0c508b1&smart=true&width=4000&height=2666",
-          "fecha": "Wed, 28 Oct 2026 12:02:07 +0000",
-          "id": "n91"
+          "titulo": "Altura de los ríos en la Argentina, según Prefectura: esta es la situación y los niveles de alerta hoy, miércoles 28 de octubre",
+          "link": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/MD5TCRMPQ5AWLINJW4QEUXQ4AI.jpeg?auth=7fee36d7ff6dfaeb616e324a5630efca373c7c021a14eefb9e085c21b740a5c4&smart=true&width=1248&height=768",
+          "fecha": "Wed, 28 Oct 2026 12:58:45 +0000",
+          "id": "n57"
         },
         {
           "medio": "La Nación",
-          "titulo": "A cuánto llega la PUAM en noviembre de 2026 con el aumento confirmado",
-          "link": "https://www.lanacion.com.ar/economia/a-cuanto-llega-la-puam-en-noviembre-de-2026-con-el-aumento-confirmado-nid20102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/HIOFVKXR65HE7IFWGMISROHMNE.png?auth=bf0414b59dc34ecd87eebb3d54d57d3cd378ddb531dc46298c9f8a9c2c054445&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:02:04 +0000",
-          "id": "n92"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "PNC de Anses: cuál es el monto de las Pensiones No Contributivas en noviembre de 2026",
-          "link": "https://www.lanacion.com.ar/economia/pnc-de-anses-cual-es-el-monto-de-las-pensiones-no-contributivas-en-noviembre-de-2026-nid19102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/SIOXFWKUQVEZPE6UCS72J6NSAI.jpg?auth=b302fcfe03a05e161ddd25c687992c56318d6d8271d619d5cdd4f990528bc1a0&smart=true&width=1360&height=905",
-          "fecha": "Wed, 28 Oct 2026 12:02:02 +0000",
-          "id": "n93"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026, con el aumento oficial",
-          "link": "https://www.lanacion.com.ar/economia/monto-de-la-asignacion-universal-por-hijo-de-cuanto-es-la-auh-en-noviembre-2026-con-el-aumento-nid15102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZMGWTQV5Y5BSDK6PPOPMJDLSXI.png?auth=8582120ae99907d8eb71ee23432b74fad01257b39fb130d173e9a265465b1448&smart=true&width=2000&height=1333",
-          "fecha": "Wed, 28 Oct 2026 12:02:00 +0000",
-          "id": "n94"
-        },
-        {
-          "medio": "La Nación",
-          "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
-          "link": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
-          "imagen": "https://resizer.glanacion.com/resizer/v2/ZI5BNXHVCZG3JNTJN52NTQKK7U.jpg?auth=0afc38cf8872c66cee40e6ca0607d5f346f188e8afc23297ad6a34ba96c32133&smart=true&width=1470&height=980",
-          "fecha": "Wed, 28 Oct 2026 12:01:57 +0000",
-          "id": "n95"
-        },
-        {
-          "medio": "TN",
-          "titulo": "La ANSES estableció las nuevas escalas y topes para cobrar las asignaciones familiares en noviembre",
-          "link": "https://tn.com.ar/economia/2026/10/28/la-anses-establecio-las-nuevas-escalas-y-topes-para-cobrar-las-asignaciones-familiares-en-noviembre/",
-          "imagen": "https://tn.com.ar/resizer/v2/N4I7MMSJRJAB5EQHQC4I6P5BPU.jpg?auth=20f168900ffe1b2684d48d2a658eb0138d1d00124df935c21a95b0521afe243a",
-          "fecha": "2026-10-28T07:30:30-03:00",
-          "id": "n325"
+          "titulo": "Hay alerta amarilla por tormentas para este miércoles 28 de octubre: las provincias afectadas",
+          "link": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-miercoles-28-de-octubre-las-provincias-afectadas-nid28102026/",
+          "imagen": "https://resizer.glanacion.com/resizer/v2/KHVV4Z3KYZA6ZKFOGFIEZFNCEU.png?auth=eb32d881738cdde4105cede7b97a0c8bfd5d84fb2d4ea519f4740cf2d511e432&smart=true&width=472&height=800",
+          "fecha": "Wed, 28 Oct 2026 12:32:56 +0000",
+          "id": "n84"
         },
         {
           "medio": "El Cronista",
-          "titulo": "ANSES confirmó los nuevos montos de SUAF y AUH en noviembre 2026: cuánto cobro y cuándo, el calendario completo",
-          "link": "https://www.cronista.com/economia-politica/anses-confirmo-los-nuevos-montos-de-suaf-y-auh-en-noviembre-2026-cuanto-cobro-y-cuando-el-calendario-completo/",
-          "imagen": "https://www.cronista.com/resizer/v2/V5NI3AYKFBBOBEIOEXO6LUQ6RQ.png?auth=1eec46060b32ef567a30db3382a145c59c7490f2c1026cad7bb7c52f19ff7fa2&smart=true&width=1200&height=900",
-          "fecha": "Wed, 28 Oct 2026 13:33:08 +0000",
-          "id": "n461"
+          "titulo": "Alerta amarilla en Bahía Blanca por tormentas eléctricas fuertes: cuándo llegan las lluvias y qué recomienda hacer el SMN",
+          "link": "https://www.cronista.com/informacion-gral/alerta-amarilla-en-bahia-blanca-por-tormentas-electricas-fuertes-cuando-llegan-las-lluvias-y-que-recomienda-hacer-el-smn/",
+          "imagen": "https://www.cronista.com/resizer/v2/BAXMQYDFZ5BNVC22256OCUWDVI.jpg?auth=52662983e7a7bec2817915674c44792d73128c1775d6b113e985b91127e567f4&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 13:38:28 +0000",
+          "id": "n481"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "Alerta amarilla por tormentas en cuatro provincias: granizo, ráfagas de viento y abundantes lluvias de hasta 40 mm, según el SMN",
+          "link": "https://www.cronista.com/informacion-gral/alerta-amarilla-por-tormentas-en-cuatro-provincias-granizo-rafagas-de-viento-y-abundantes-lluvias-de-hasta-40-mm-segun-el-smn/",
+          "imagen": "https://www.cronista.com/resizer/v2/BUIMP4AYPZA5BHHDAXBSBNS3WA.jpg?auth=05d2067fce682701e7f4a6a2150787cad7591b6969cf8748b370606debc0b6fc&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 12:17:13 +0000",
+          "id": "n487"
+        },
+        {
+          "medio": "El Cronista",
+          "titulo": "Alerta amarilla por tormentas en Buenos Aires durante todo el día: esperan lluvias intensas de hasta 40 mm en estas zonas",
+          "link": "https://www.cronista.com/informacion-gral/alerta-amarilla-por-tormentas-en-buenos-aires-durante-todo-el-dia-esperan-lluvias-intensas-de-hasta-40-mm-en-estas-zonas/",
+          "imagen": "https://www.cronista.com/resizer/v2/OKO7FAMM7FDMPGW6O6EI22UBEQ.jpg?auth=b8f97d60faab90b3d462c47e172532186edee1f7dd9c04e360761f571c93f4d6&smart=true&width=1200&height=900",
+          "fecha": "Wed, 28 Oct 2026 12:11:32 +0000",
+          "id": "n488"
         }
       ],
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/afa6906989db-proyecto-nuevo-54.webp"
+      "imagen": "https://www.cronista.com/resizer/v2/BAXMQYDFZ5BNVC22256OCUWDVI.jpg?auth=52662983e7a7bec2817915674c44792d73128c1775d6b113e985b91127e567f4&smart=true&width=1200&height=900"
     }
   ],
   "mas_temas": [
@@ -3881,12 +4041,12 @@
       "brecha_formateada": "0",
       "tema": "Prohibición de celulares y conflictos por su uso en colegios",
       "tipo": "mas_temas",
-      "por_que_importa": "Refleja el debate actual sobre la convivencia digital y la disciplina en las instituciones educativas del país.",
-      "insight": "Perfil y La Nación abordan la problemática con enfoques contrapuestos entre la normativa interna y los conflictos en el aula.",
-      "accion_sugerida": "Publicar un debate pedagógico con especialistas sobre la efectividad de prohibir los dispositivos móviles en las escuelas.",
+      "por_que_importa": "Refleja el debate actual sobre la convivencia escolar y la restricción del uso de dispositivos móviles en las aulas.",
+      "insight": "La combinación de medidas institucionales y episodios de violencia escolar pone el foco en la autoridad docente.",
+      "accion_sugerida": "Realizar un informe sobre la normativa en los establecimientos educativos y el impacto de prohibir los celulares.",
       "enfoques_sugeridos": [
-        "Disciplina escolar: el Colegio Nacional de Buenos Aires prohíbe el uso de celulares en clase",
-        "Violencia en las aulas: la agresión a una docente tras pedir que guarden el teléfono reabre el debate"
+        "El balance de las restricciones de celulares en colegios emblemáticos.",
+        "Testimonios de docentes y especialistas sobre la disciplina en el aula."
       ],
       "ejemplos": [
         {
@@ -3947,12 +4107,12 @@
       "brecha_formateada": "0",
       "tema": "Remuneraciones mínimas para empleadas domésticas",
       "tipo": "mas_temas",
-      "por_que_importa": "Informa sobre las escalas salariales y las actualizaciones obligatorias para el personal de casas particulares.",
-      "insight": "Tanto Perfil como La Nación cubren las grillas de remuneraciones mínimas vigentes para el sector.",
-      "accion_sugerida": "Actualizar la calculadora de sueldos y aportes previsionales para facilitar la liquidación del sector doméstico.",
+      "por_que_importa": "Informa sobre las escalas salariales y actualizaciones para el personal de casas particulares.",
+      "insight": "Las escalas de remuneración mínima generan consultas continuas por parte de empleadores y empleadas.",
+      "accion_sugerida": "Actualizar las tablas con los valores por hora y categoría profesional vigentes.",
       "enfoques_sugeridos": [
-        "Servicio doméstico: la grilla completa de salarios mínimos por hora y categoría",
-        "Aumentos en puerta: cuánto cobran las empleadas y cómo impactan los adicionales"
+        "Grilla detallada de sueldos por categoría para el personal doméstico.",
+        "Incorporación de adicionales y antigüedad en las liquidaciones."
       ],
       "ejemplos": [
         {
@@ -4013,12 +4173,12 @@
       "brecha_formateada": "0",
       "tema": "Declaratorias y avances en la investigación del Caso Loan",
       "tipo": "mas_temas",
-      "por_que_importa": "Mantiene el interés público sobre una causa judicial de alto impacto social en el norte del país.",
-      "insight": "Perfil y TN siguen de cerca el desarrollo de las testimoniales previstas en el marco del proceso judicial.",
-      "accion_sugerida": "Sintetizar los testimonios clave que aportan los testigos en esta nueva etapa del juicio oral.",
+      "por_que_importa": "El desarrollo del juicio por la desaparición del menor en Corrientes mantiene la atención de la sección policiales y judicial.",
+      "insight": "Las declaraciones testimoniales previstas aportan nuevas pistas y expectativas sobre el esclarecimiento del caso.",
+      "accion_sugerida": "Seguir las audiencias judiciales y detallar los testimonios más relevantes de la semana.",
       "enfoques_sugeridos": [
-        "Caso Loan: qué revelan las testimoniales clave en el desarrollo del juicio",
-        "Nuevas declaraciones: los testimonios que buscan esclarecer las zonas oscuras de la causa"
+        "El aporte de los testigos clave en las audiencias del juicio oral.",
+        "Las hipótesis que maneja la querella y la fiscalía en el debate."
       ],
       "ejemplos": [
         {
@@ -4079,12 +4239,12 @@
       "brecha_formateada": "0",
       "tema": "Silencio de Javier Milei ante el triunfo de Lula en Brasil",
       "tipo": "mas_temas",
-      "por_que_importa": "Expone las tensiones ideológicas en la diplomacia regional y el vínculo bilateral con el principal socio comercial.",
-      "insight": "Perfil y La Nación analizan las implicancias políticas de la falta de saludos oficiales y el impacto en la relación bilateral.",
-      "accion_sugerida": "Redactar un análisis de política exterior sobre los costos comerciales de mantener cortocircuitos con Brasilia.",
+      "por_que_importa": "La postura diplomática del Gobierno argentino frente al resultado electoral en el socio regional abre interrogantes sobre la política exterior.",
+      "insight": "El contraste entre el resultado en Brasil y la reacción oficial en Buenos Aires marca el pulso de la tensión bilateral.",
+      "accion_sugerida": "Analizar las implicancias diplomáticas de la falta de saludo oficial y el futuro del Mercosur.",
       "enfoques_sugeridos": [
-        "Tensión diplomática: el silencio de Milei tras la victoria de Lula y las dudas sobre el vínculo comercial",
-        "Geopolítica sudamericana: las consecuencias del distanciamiento entre la Casa Rosada y el Planalto"
+        "El impacto del silencio presidencial en la relación bilateral con Brasilia.",
+        "Perspectivas para la integración regional tras los comicios brasileños."
       ],
       "ejemplos": [
         {
